@@ -1,0 +1,1653 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-10-13-evening",
+ "date": "2026-10-13",
+ "slot": "evening",
+ "generated_at": "2026-10-13T17:09:02.553010+09:00",
+ "market_open": true,
+ "baseline": {
+  "date": "2026-10-14",
+  "price_type": "next_open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-13&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月13日）",
+   "published_at": "2026-10-13",
+   "fetched_at": "2026-10-13T17:01:33+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "31016f36029b3e26209bd898749d38499d5a4a6647e1dbc8bc2762128a1397e9",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-09&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月9日）",
+   "published_at": "2026-10-09",
+   "fetched_at": "2026-10-13T17:01:40+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "6288429e5658032d8cb9cf2ecde665950e95d055269f5b4196f5ee91a79d9730",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z7KD?type=1",
+   "publisher": "株式会社竹内製作所",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社竹内製作所）",
+   "published_at": "2026-10-13T14:44:00+09:00",
+   "fetched_at": "2026-10-13T17:02:10+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "d3ddadd806d653c40ec9d8f7f4581a7582f992b9dd50acddc33e48ec88b487e5",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7KD）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7KD）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7KD"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z7MA?type=1",
+   "publisher": "株式会社メルカリ",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社メルカリ）",
+   "published_at": "2026-10-13T15:56:00+09:00",
+   "fetched_at": "2026-10-13T17:02:17+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "3b67167d585d9486c417f3b52af84d94d159018cb125051913b2e8b60d92b06b",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7MA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7MA）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7MA"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z7FD?type=1",
+   "publisher": "株式会社ドトール・日レスホールディングス",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社ドトール・日レスホールディングス）",
+   "published_at": "2026-10-13T16:45:00+09:00",
+   "fetched_at": "2026-10-13T17:02:22+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "53629f28d8e1c6b7bf1dc56bef2f58b025461fae8927932b640a05bc70a7c079",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7FD）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7FD）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7FD"
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z7JJ?type=1",
+   "publisher": "株式会社内田洋行",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社内田洋行）",
+   "published_at": "2026-10-13T14:15:00+09:00",
+   "fetched_at": "2026-10-13T17:02:28+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "5068d8675f5a30fc5db7b5650755b32ab4b4d873ac3367174ff32ae695c0dc7c",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7JJ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7JJ）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7JJ"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z7K0?type=1",
+   "publisher": "株式会社セキュア",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社セキュア）",
+   "published_at": "2026-10-13T16:02:00+09:00",
+   "fetched_at": "2026-10-13T17:02:34+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "f0d93f71a88ef9ab73c57c6dbb555dfc4863666cda02381d47e49c555147fdd7",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7K0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7K0）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7K0"
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z76F?type=1",
+   "publisher": "株式会社Ｏｒｃｈｅｓｔｒａ　Ｈｏｌｄｉｎｇｓ",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社Ｏｒｃｈｅｓｔｒａ　Ｈｏｌｄｉｎｇｓ）",
+   "published_at": "2026-10-13T15:42:00+09:00",
+   "fetched_at": "2026-10-13T17:02:40+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "db72b58bc3354426cdeea6b470bf1a7601feda250f5520830cd0b6cf20b57e66",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76F）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76F）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76F"
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z7L0?type=1",
+   "publisher": "株式会社Ｌｉｂｅｒａｗａｒｅ",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社Ｌｉｂｅｒａｗａｒｅ）",
+   "published_at": "2026-10-13T15:16:00+09:00",
+   "fetched_at": "2026-10-13T17:02:45+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "73e6cbd8758e9a981a8f91605e6108231c14ee1a969aae7eac9e4d12bb0ecdfe",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7L0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7L0）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7L0"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z7BP?type=1",
+   "publisher": "ヤマハ発動機株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "訂正臨時報告書（ヤマハ発動機株式会社）",
+   "published_at": "2026-10-13T14:02:00+09:00",
+   "fetched_at": "2026-10-13T17:02:51+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "a445f306f975cc8055269f536d5df1cad188f4bbe91ef6e4829039da5314cd9e",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7BP）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7BP）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7BP"
+  },
+  {
+   "source_id": "SRC-010",
+   "url": "https://www.boj.or.jp/research/o_survey/ishiki2610.htm",
+   "publisher": "日本銀行",
+   "publisher_type": "central_bank",
+   "title": "「生活意識に関するアンケート調査」（第107回）の結果",
+   "published_at": "2026-10-13",
+   "fetched_at": "2026-10-13T17:03:25+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "d6d7e2fcad3b91faa8892b2acdc4a516787ddb4e21191908046a0f6aadaa5724",
+   "usage": "quotable",
+   "attribution": "出典：日本銀行「「生活意識に関するアンケート調査」（第107回）の結果」（https://www.boj.or.jp/research/o_survey/ishiki2610.htm）",
+   "processing_note": "日本銀行「「生活意識に関するアンケート調査」（第107回）の結果」（https://www.boj.or.jp/research/o_survey/ishiki2610.htm）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-011",
+   "url": "https://www.boj.or.jp/research/o_survey/data/ishiki2610.pdf",
+   "publisher": "日本銀行",
+   "publisher_type": "central_bank",
+   "title": "「生活意識に関するアンケート調査」（第107回＜2026年9月調査＞）の結果",
+   "published_at": "2026-10-13",
+   "fetched_at": "2026-10-13T17:03:45+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "27c4b38899c99e61efbcf5ab6b20b9e0cc4f90d6de7339ea9e4c79a8040f1a28",
+   "usage": "quotable",
+   "attribution": "出典：日本銀行「「生活意識に関するアンケート調査」（第107回＜2026年9月調査＞）の結果」（https://www.boj.or.jp/research/o_survey/data/ishiki2610.pdf）",
+   "processing_note": "日本銀行「「生活意識に関するアンケート調査」（第107回＜2026年9月調査＞）の結果」（https://www.boj.or.jp/research/o_survey/data/ishiki2610.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-13-001",
+     "event_id": "EVT-2026-10-13-001",
+     "headline": "日銀の9月の生活意識調査：景気が「悪くなった」は58.2%、物価が「かなり上がった」は68.9%",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "日本銀行が10月13日に公表した「生活意識に関するアンケート調査」（9月調査）は、全国の個人4,000人に尋ね、1,972人が答えた（回答率49.3%）。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4000,
+         "unit": "人",
+         "label": "件数（調査の対象者）"
+        },
+        {
+         "value": 1972,
+         "unit": "人",
+         "label": "件数（有効回答者）"
+        },
+        {
+         "value": 49.3,
+         "unit": "%",
+         "label": "有効回答率"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "標本数：4,000人（有効回答者数1,972人＜有効回答率49.3％＞）",
+       "attribution": "出典：日本銀行「「生活意識に関するアンケート調査」（第107回）の結果」（https://www.boj.or.jp/research/o_survey/ishiki2610.htm）",
+       "processing_note": "日本銀行「「生活意識に関するアンケート調査」（第107回）の結果」（https://www.boj.or.jp/research/o_survey/ishiki2610.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "D.I.は、「良くなった」と答えた人の割合から「悪くなった」と答えた人の割合を引いた値で、マイナスが大きいほど「悪くなった」と感じる人が多いことを示す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "今の景気が1年前より「良くなった」と答えた人は5.2%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5.2,
+         "unit": "%",
+         "label": "景気（現在）が「良くなった」の割合（9月調査）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "良くなった 5.4 6.3 5.8 5.2",
+       "attribution": "出典：日本銀行「「生活意識に関するアンケート調査」（第107回）の結果」（https://www.boj.or.jp/research/o_survey/ishiki2610.htm）",
+       "processing_note": "日本銀行「「生活意識に関するアンケート調査」（第107回）の結果」（https://www.boj.or.jp/research/o_survey/ishiki2610.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "「悪くなった」と答えた人は58.2%で、6月の調査の62.5%より少なかった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 58.2,
+         "unit": "%",
+         "label": "景気（現在）が「悪くなった」の割合（9月調査）"
+        },
+        {
+         "value": 62.5,
+         "unit": "%",
+         "label": "景気（現在）が「悪くなった」の割合（6月調査）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "悪くなった 55.8 51.8 62.5 58.2",
+       "attribution": "出典：日本銀行「「生活意識に関するアンケート調査」（第107回）の結果」（https://www.boj.or.jp/research/o_survey/ishiki2610.htm）",
+       "processing_note": "日本銀行「「生活意識に関するアンケート調査」（第107回）の結果」（https://www.boj.or.jp/research/o_survey/ishiki2610.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "今の景気についてのD.I.は-53.0で、6月の調査の-56.7からマイナス幅が縮んだ。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": -53.0,
+         "unit": "ポイント",
+         "label": "景況感D.I.（現在、9月調査）"
+        },
+        {
+         "value": -56.7,
+         "unit": "ポイント",
+         "label": "景況感D.I.（現在、6月調査）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "D.I.（「良くなった」-「悪くなった」） -50.4 -45.5 -56.7 -53.0",
+       "attribution": "出典：日本銀行「「生活意識に関するアンケート調査」（第107回）の結果」（https://www.boj.or.jp/research/o_survey/ishiki2610.htm）",
+       "processing_note": "日本銀行「「生活意識に関するアンケート調査」（第107回）の結果」（https://www.boj.or.jp/research/o_survey/ishiki2610.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "1年後の景気についてのD.I.は-36.2で、6月の調査の-42.5からマイナス幅が縮んだ。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": -36.2,
+         "unit": "ポイント",
+         "label": "景況感D.I.（1年後、9月調査）"
+        },
+        {
+         "value": -42.5,
+         "unit": "ポイント",
+         "label": "景況感D.I.（1年後、6月調査）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "D.I.（「良くなる」-「悪くなる」） -18.3 -18.5 -42.5 -36.2",
+       "attribution": "出典：日本銀行「「生活意識に関するアンケート調査」（第107回）の結果」（https://www.boj.or.jp/research/o_survey/ishiki2610.htm）",
+       "processing_note": "日本銀行「「生活意識に関するアンケート調査」（第107回）の結果」（https://www.boj.or.jp/research/o_survey/ishiki2610.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "暮らし向きについてのD.I.は-49.9で、6月の調査の-50.2から小幅に改善した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": -49.9,
+         "unit": "ポイント",
+         "label": "暮らし向きD.I.（9月調査）"
+        },
+        {
+         "value": -50.2,
+         "unit": "ポイント",
+         "label": "暮らし向きD.I.（6月調査）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "D.I.（「ゆとりが出てきた」-「ゆとりがなくなってきた」） -52.2 -47.6 -50.2 -49.9",
+       "attribution": "出典：日本銀行「「生活意識に関するアンケート調査」（第107回）の結果」（https://www.boj.or.jp/research/o_survey/ishiki2610.htm）",
+       "processing_note": "日本銀行「「生活意識に関するアンケート調査」（第107回）の結果」（https://www.boj.or.jp/research/o_survey/ishiki2610.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-08",
+       "text": "物価が1年前より「かなり上がった」と答えた人は68.9%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 68.9,
+         "unit": "%",
+         "label": "物価が「かなり上がった」の割合（9月調査）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "かなり上がった 70.0 68.3 68.5 68.9",
+       "attribution": "出典：日本銀行「「生活意識に関するアンケート調査」（第107回）の結果」（https://www.boj.or.jp/research/o_survey/ishiki2610.htm）",
+       "processing_note": "日本銀行「「生活意識に関するアンケート調査」（第107回）の結果」（https://www.boj.or.jp/research/o_survey/ishiki2610.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-09",
+       "text": "1年前と比べて物価が何%変わったかを数字で答えてもらうと、極端な答えを除いた平均値は+16.2%、中央値は+10.0%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 16.2,
+         "unit": "%",
+         "label": "1年前と比べた物価の変化の平均値（9月調査）"
+        },
+        {
+         "value": 10.0,
+         "unit": "%",
+         "label": "1年前と比べた物価の変化の中央値（9月調査）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "26/ 9月  +16.2 %  +10.0 %",
+       "attribution": "出典：日本銀行「「生活意識に関するアンケート調査」（第107回＜2026年9月調査＞）の結果」（https://www.boj.or.jp/research/o_survey/data/ishiki2610.pdf）",
+       "processing_note": "日本銀行「「生活意識に関するアンケート調査」（第107回＜2026年9月調査＞）の結果」（https://www.boj.or.jp/research/o_survey/data/ishiki2610.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-10",
+       "text": "1年後の物価については、極端な答えを除いた平均値で+11.8%、中央値で+10.0%の変化を見込む答えだった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 11.8,
+         "unit": "%",
+         "label": "1年後の物価の変化の見方の平均値（9月調査）"
+        },
+        {
+         "value": 10.0,
+         "unit": "%",
+         "label": "1年後の物価の変化の見方の中央値（9月調査）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "26/ 9月  +11.8 %  +10.0 %",
+       "attribution": "出典：日本銀行「「生活意識に関するアンケート調査」（第107回＜2026年9月調査＞）の結果」（https://www.boj.or.jp/research/o_survey/data/ishiki2610.pdf）",
+       "processing_note": "日本銀行「「生活意識に関するアンケート調査」（第107回＜2026年9月調査＞）の結果」（https://www.boj.or.jp/research/o_survey/data/ishiki2610.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-11",
+       "text": "平均値は大きな数字を答えた人に引っ張られやすく、中央値は答えを小さい順に並べたときの真ん中の値である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-13-001-1",
+       "text": "物価が大きく上がったと感じる人が多い状態が続けば、食料品など毎日の買い物を扱う小売業で、安い商品を選ぶ動きが続く可能性がある。",
+       "falsifier": "次回（12月）の調査で、物価が「かなり上がった」と答える人の割合が大きく下がれば、この見方は成り立ちにくい。",
+       "check_metric": "日本銀行「生活意識に関するアンケート調査」第108回の、物価に対する実感（「かなり上がった」の割合）",
+       "check_by": "2027-01-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-13-002",
+     "event_id": "EVT-2026-10-13-002",
+     "headline": "防犯システムの会社が、通信工事の会社の株をすべて買って子会社にすると決める（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "株式会社セキュアは10月13日の取締役会で、日東通信株式会社の発行済み株式のすべてを取得し、子会社にすることを決めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 13,
+         "unit": "日",
+         "label": "日付（取締役会で決議した日）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "当社は、2026年10月13日開催の取締役会において、日東通信株式会社（以下「日東通信」）の発行済み株式の全てを取得し、子会社化することを決議いたしました。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7K0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7K0）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "子会社にするとは、ある会社の株の過半数などを持って、その会社の経営を左右できる立場になることである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "株式を取得する値段は1,405百万円とされた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1405,
+         "unit": "百万円",
+         "label": "株式取得価額"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "株式取得価額 1,405百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7K0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7K0）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "助言の費用などを含めた合計は、概算で1,423百万円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1423,
+         "unit": "百万円",
+         "label": "取得の対価の合計（概算額）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "合計（概算額） 1,423百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7K0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7K0）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "電気通信工事などを営む日東通信の売上高は、2026年3月期が2,718百万円で、前の期の2,174百万円から増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2718,
+         "unit": "百万円",
+         "label": "日東通信の売上高（2026年3月期）"
+        },
+        {
+         "value": 2174,
+         "unit": "百万円",
+         "label": "日東通信の売上高（2025年3月期）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "売上高  2,126百万円  2,174百万円  2,718百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7K0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7K0）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-06",
+       "text": "同じ期の営業利益は64百万円で、前の期の177百万円より少なかった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 64,
+         "unit": "百万円",
+         "label": "日東通信の営業利益（2026年3月期）"
+        },
+        {
+         "value": 177,
+         "unit": "百万円",
+         "label": "日東通信の営業利益（2025年3月期）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "営業利益  105百万円  177百万円  64百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7K0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7K0）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-07",
+       "text": "セキュアは、この株式の取得のために、金融機関から1,405百万円を借り入れることも決めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1405,
+         "unit": "百万円",
+         "label": "借入金額"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "借入金額  1,405百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7K0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7K0）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-08",
+       "text": "臨時報告書は、会社の大きな決定や出来事などを、決められた時期に国へ届け出る書類である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-13-002-1",
+       "text": "データセンターなどの建設が増えれば、通信工事と防犯設備をまとめて請け負う事業への需要が広がる可能性がある。",
+       "falsifier": "データセンター向けの建設の受注が前の年を下回る状態が続けば、この見方は成り立ちにくい。",
+       "check_metric": "国土交通省「建設工事受注動態統計調査」の受注額",
+       "check_by": "2027-03-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-13-003",
+     "event_id": "EVT-2026-10-13-003",
+     "headline": "内田洋行の株主総会で、1株76円の配当の議案が可決される（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "株式会社内田洋行は、10月10日に開いた第88期の定時株主総会で議案が決議されたとして、臨時報告書を10月13日に提出した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10,
+         "unit": "日",
+         "label": "日付（株主総会の開催日）"
+        },
+        {
+         "value": 88,
+         "unit": "期",
+         "label": "定時株主総会の期"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "2026年10月10日開催の当社第88期定時株主総会において、決議事項が決議されました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7JJ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7JJ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "総会の第1号議案は、剰余金の配当を1株につき76円、総額3,750,368,960円とする内容だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "株",
+         "label": "配当の基準となる株数"
+        },
+        {
+         "value": 76,
+         "unit": "円",
+         "label": "1株あたりの配当"
+        },
+        {
+         "value": 3750368960,
+         "unit": "円",
+         "label": "配当の総額"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "当社普通株式１株につき金76円　総額3,750,368,960円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7JJ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7JJ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "第1号議案は、議決権の数で417,871個の賛成と196個の反対を集め、賛成の割合99.29%で可決された。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "号",
+         "label": "議案の番号"
+        },
+        {
+         "value": 417871,
+         "unit": "個",
+         "label": "件数（賛成の議決権）"
+        },
+        {
+         "value": 196,
+         "unit": "個",
+         "label": "件数（反対の議決権）"
+        },
+        {
+         "value": 99.29,
+         "unit": "%",
+         "label": "賛成の割合"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "第１号議案  417,871  196  27  （注）１  可決　99.29",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7JJ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7JJ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "配当は、会社が利益などの中から、株を持っている人にお金を分けて払うものである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-13-004",
+     "event_id": "EVT-2026-10-13-004",
+     "headline": "Liberawareが、韓国の関係会社の株について評価損を計上（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "株式会社Liberawareは、2026年7月期の個別決算で、韓国の関係会社の株について関係会社株式評価損40,809千円を特別損失として計上したと届け出たが、この評価損は連結決算では消されるため、連結の損益には影響しないとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 40809,
+         "unit": "千円",
+         "label": "関係会社株式評価損"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "関係会社株式評価損40,809千円を特別損失として計上いたしました。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7L0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7L0）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "評価損は、持っている株などの値打ちが大きく下がったときに、帳簿の上の値段を引き下げて損失とするものである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-13-005",
+     "event_id": "EVT-2026-10-13-005",
+     "headline": "家計の支出：趣味やレジャーへの支出を「減らしている」人が48.5%、選ぶときに重視するのは「価格が安い」",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "同じ日本銀行の調査で、趣味やレジャーなど選んで使う支出を1年前より「減らしている」と答えた人は48.5%で、6月の調査では49.6%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 48.5,
+         "unit": "%",
+         "label": "選択的な支出を「減らしている」の割合（9月調査）"
+        },
+        {
+         "value": 49.6,
+         "unit": "%",
+         "label": "選択的な支出を「減らしている」の割合（6月調査）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "3 減らしている  48.5  (  49.6 )",
+       "attribution": "出典：日本銀行「「生活意識に関するアンケート調査」（第107回＜2026年9月調査＞）の結果」（https://www.boj.or.jp/research/o_survey/data/ishiki2610.pdf）",
+       "processing_note": "日本銀行「「生活意識に関するアンケート調査」（第107回＜2026年9月調査＞）の結果」（https://www.boj.or.jp/research/o_survey/data/ishiki2610.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "同じ支出を「増やしている」と答えた人は8.1%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 8.1,
+         "unit": "%",
+         "label": "選択的な支出を「増やしている」の割合（9月調査）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "1 増やしている  8.1  (  7.5 )",
+       "attribution": "出典：日本銀行「「生活意識に関するアンケート調査」（第107回＜2026年9月調査＞）の結果」（https://www.boj.or.jp/research/o_survey/data/ishiki2610.pdf）",
+       "processing_note": "日本銀行「「生活意識に関するアンケート調査」（第107回＜2026年9月調査＞）の結果」（https://www.boj.or.jp/research/o_survey/data/ishiki2610.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "生活費や教育費などの日常的な支出を「増やしている」と答えた人は28.8%で、6月の調査の31.9%から減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 28.8,
+         "unit": "%",
+         "label": "日常的な支出を「増やしている」の割合（9月調査）"
+        },
+        {
+         "value": 31.9,
+         "unit": "%",
+         "label": "日常的な支出を「増やしている」の割合（6月調査）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "1 増やしている  28.8  (  31.9 )",
+       "attribution": "出典：日本銀行「「生活意識に関するアンケート調査」（第107回＜2026年9月調査＞）の結果」（https://www.boj.or.jp/research/o_survey/data/ishiki2610.pdf）",
+       "processing_note": "日本銀行「「生活意識に関するアンケート調査」（第107回＜2026年9月調査＞）の結果」（https://www.boj.or.jp/research/o_survey/data/ishiki2610.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-04",
+       "text": "今後1年間の支出を「減らす」と答えた人は38.8%で、6月の調査の41.8%より少なかった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 38.8,
+         "unit": "%",
+         "label": "今後1年間の支出を「減らす」の割合（9月調査）"
+        },
+        {
+         "value": 41.8,
+         "unit": "%",
+         "label": "今後1年間の支出を「減らす」の割合（6月調査）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "3 減らす  38.8  (  41.8 )",
+       "attribution": "出典：日本銀行「「生活意識に関するアンケート調査」（第107回＜2026年9月調査＞）の結果」（https://www.boj.or.jp/research/o_survey/data/ishiki2610.pdf）",
+       "processing_note": "日本銀行「「生活意識に関するアンケート調査」（第107回＜2026年9月調査＞）の結果」（https://www.boj.or.jp/research/o_survey/data/ishiki2610.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-05",
+       "text": "今後1年間の支出を考えるうえで特に重視すること（複数回答）は、「今後の物価の動向」が70.4%で最も多かった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 70.4,
+         "unit": "%",
+         "label": "支出で重視すること「今後の物価の動向」の割合"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "4  今後の物価の動向  70.4  (  71.8 )",
+       "attribution": "出典：日本銀行「「生活意識に関するアンケート調査」（第107回＜2026年9月調査＞）の結果」（https://www.boj.or.jp/research/o_survey/data/ishiki2610.pdf）",
+       "processing_note": "日本銀行「「生活意識に関するアンケート調査」（第107回＜2026年9月調査＞）の結果」（https://www.boj.or.jp/research/o_survey/data/ishiki2610.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-06",
+       "text": "商品やサービスを選ぶときに特に重視すること（3つまでの複数回答）は、「価格が安い」が58.5%で最も多かった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 58.5,
+         "unit": "%",
+         "label": "選ぶときに重視すること「価格が安い」の割合"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "1  価格が安い  58.5  (  59.2 )",
+       "attribution": "出典：日本銀行「「生活意識に関するアンケート調査」（第107回＜2026年9月調査＞）の結果」（https://www.boj.or.jp/research/o_survey/data/ishiki2610.pdf）",
+       "processing_note": "日本銀行「「生活意識に関するアンケート調査」（第107回＜2026年9月調査＞）の結果」（https://www.boj.or.jp/research/o_survey/data/ishiki2610.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-07",
+       "text": "今の収入についてのD.I.は-5.4で、資料の注では、郵送調査になった2006年9月以降で最も高い値とされている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": -5.4,
+         "unit": "ポイント",
+         "label": "現在の収入D.I.（9月調査）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "現在の収入Ｄ.Ｉ.のピークは ▲5.4",
+       "attribution": "出典：日本銀行「「生活意識に関するアンケート調査」（第107回＜2026年9月調査＞）の結果」（https://www.boj.or.jp/research/o_survey/data/ishiki2610.pdf）",
+       "processing_note": "日本銀行「「生活意識に関するアンケート調査」（第107回＜2026年9月調査＞）の結果」（https://www.boj.or.jp/research/o_survey/data/ishiki2610.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-08",
+       "text": "暮らし向きに「ゆとりが出てきた」と答えた人（全体の4.5%）に理由を聞くと、「利子や配当などの収入が増えたから」が24.7%で、6月の調査の19.4%から増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 24.7,
+         "unit": "%",
+         "label": "ゆとりが出てきた理由「利子や配当などの収入が増えた」の割合（9月調査）"
+        },
+        {
+         "value": 19.4,
+         "unit": "%",
+         "label": "同（6月調査）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "2  利子や配当などの収入が増えたから  24.7  (  19.4 )",
+       "attribution": "出典：日本銀行「「生活意識に関するアンケート調査」（第107回＜2026年9月調査＞）の結果」（https://www.boj.or.jp/research/o_survey/data/ishiki2610.pdf）",
+       "processing_note": "日本銀行「「生活意識に関するアンケート調査」（第107回＜2026年9月調査＞）の結果」（https://www.boj.or.jp/research/o_survey/data/ishiki2610.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-13-005-1",
+       "text": "趣味やレジャーなど選んで使う支出を減らす人が多い状態が続けば、旅行や外食など、こうした支出に売上を頼る業種で、売上の伸びが鈍る可能性がある。",
+       "falsifier": "次回（12月）の調査で、選んで使う支出を「増やしている」と答える人の割合が大きく上がれば、この見方は成り立ちにくい。",
+       "check_metric": "日本銀行「生活意識に関するアンケート調査」第108回の、選択的な支出の回答",
+       "check_by": "2027-01-31"
+      },
+      {
+       "inference_id": "INF-2026-10-13-005-2",
+       "text": "商品を選ぶときに安さを重視する人が多い状態が続けば、小売業では値下げや安い自社ブランド商品で客を集める競争が続く可能性がある。",
+       "falsifier": "次回の調査で「価格が安い」を重視する人の割合が大きく下がれば、この見方は成り立ちにくい。",
+       "check_metric": "日本銀行「生活意識に関するアンケート調査」第108回の、商品やサービスを選ぶ際に重視すること（「価格が安い」）",
+       "check_by": "2027-01-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-13-006",
+     "event_id": "EVT-2026-10-13-006",
+     "headline": "社員に自社の株を渡すしくみのため、2社が同じ日に自社株の処分を決める（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-006-01",
+       "text": "株式会社竹内製作所は10月13日の取締役会で、従業員持株会を通じて社員に渡すため、譲渡制限付株式として自社の普通株式49,900株を処分することを決めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 49900,
+         "unit": "株",
+         "label": "処分する株数"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "譲渡制限付株式として当社の普通株式49,900株（以下「本割当株式」といいます。）を処分すること",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7KD）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7KD）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-02",
+       "text": "譲渡制限付株式は、決められた期間が終わるまで売ったり担保にしたりできない条件を付けて渡す株である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-03",
+       "text": "払込金額（発行価格）は7,280円とされた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 7280,
+         "unit": "円",
+         "label": "発行価格（払込金額）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "発行価格（募集株式の払込金額）　7,280円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7KD）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7KD）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-04",
+       "text": "払込金額の総額は363,272,000円とされたが、これは見込みの額で、条件を決める日に改めて計算するとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 363272000,
+         "unit": "円",
+         "label": "発行価額の総額（見込額）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "発行価額の総額　　　　　　　　　363,272,000円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7KD）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7KD）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-05",
+       "text": "この株は、2027年2月19日の払込期日から2029年12月18日まで、売ったり担保にしたりできない期間が付く。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 19,
+         "unit": "日",
+         "label": "日付（払込期日）"
+        },
+        {
+         "value": 18,
+         "unit": "日",
+         "label": "日付（譲渡制限期間の終わり）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "本持株会は、2027年２月19日（払込期日）から2029年12月18日までの間（以下「譲渡制限期間」という。）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7KD）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7KD）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-06",
+       "text": "株式会社ドトール・日レスホールディングスは、従業員に自社の株を渡す「株式給付信託（J-ESOP-RS）」のために自社の株150,000株を処分するとし、その相手方を子会社の従業員281名と届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 281,
+         "unit": "名",
+         "label": "件数（相手方の人数）"
+        },
+        {
+         "value": 150000,
+         "unit": "株",
+         "label": "処分する株数"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "当社子会社の従業員　　281名　150,000株",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7FD）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7FD）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-07",
+       "text": "発行価格は3,095円で、10月9日の終値と同じ額とされている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3095,
+         "unit": "円",
+         "label": "発行価格"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "発行価格　　　3,095円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7FD）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7FD）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-08",
+       "text": "発行価額の総額は464,250,000円とされた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 464250000,
+         "unit": "円",
+         "label": "発行価額の総額"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "発行価額の総額　　　464,250,000円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7FD）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7FD）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-09",
+       "text": "株式給付信託は、会社が信託にお金を出して自社の株を持たせ、決めた規程に従って従業員に株を渡すしくみである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-10",
+       "text": "自己株式の処分は、会社が持っている自社の株を、ほかの人に渡したり売ったりすることである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-13-006-1",
+       "text": "社員に自社の株を渡すしくみを取り入れる会社が増えれば、そのための信託や株の管理を引き受ける信託銀行などの仕事が増える可能性がある。",
+       "falsifier": "株式給付信託や譲渡制限付株式についての臨時報告書の件数が前の年より減れば、この見方は成り立ちにくい。",
+       "check_metric": "EDINETに提出された臨時報告書のうち、株式給付信託・譲渡制限付株式に関するものの件数",
+       "check_by": "2026-12-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-10-13T17:09:02.553010+09:00",
+  "first_run": {
+   "run_at": "2026-10-13T17:09:02.553010+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 12,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 43,
+  "passed": 34,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 9,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 10,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-001": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E01723-000_2026-10-13_01_2026-10-13_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E01723-000_2026-10-13_01_2026-10-13_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E34064-000_2026-10-13_01_2026-10-13_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E34064-000_2026-10-13_01_2026-10-13_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E03518-000_2026-10-13_01_2026-10-13_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E03518-000_2026-10-13_01_2026-10-13_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-004": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E02515-000_2026-10-13_01_2026-10-13_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E02515-000_2026-10-13_01_2026-10-13_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E36859-000_2026-10-13_01_2026-10-13_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E36859-000_2026-10-13_01_2026-10-13_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-006": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E32601-000_2026-10-13_01_2026-10-13_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E32601-000_2026-10-13_01_2026-10-13_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-007": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E39788-000_2026-10-13_01_2026-10-13_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E39788-000_2026-10-13_01_2026-10-13_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-008": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E02168-000_2026-01-28_02_2026-10-13_ixbrl.htm",
+     "PublicDoc/0000000_header.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 10,
+  "attribution_overwritten": 46,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "evening",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 12,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 5,
+  "evidence_doc_type_overridden": 5,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {
+   "edinet_doctype_unmapped": 5
+  },
+  "impact_kind_undetermined_by_doc_type": {
+   "180": 5
+  },
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 5,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 4,
+   "nfkc": 1,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 96,
+   "numbers_declared": 56,
+   "gap": 40,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 96,
+     "numbers_declared": 56
+    },
+    "explainer": {
+     "text_number_tokens": 0,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 2,
+   "line_ids": [
+    "L-002-01",
+    "L-006-05"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 9,
+   "change": 10,
+   "ripple": 8,
+   "deep": 7
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 4,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-010",
+    "SRC-011"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 2,
+   "first_run_at": "2026-10-13T17:08:44.013572+09:00",
+   "last_run_at": "2026-10-13T17:08:56.950281+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 34,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [
+   {
+    "hypothesis_id": "2026-10-13-evening-1",
+    "company_name": "株式会社セキュア",
+    "submitted_at": "2026-10-13T16:02:00+09:00",
+    "baseline_point": "2026-10-14T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-13-evening-2",
+    "company_name": "株式会社内田洋行",
+    "submitted_at": "2026-10-13T14:15:00+09:00",
+    "baseline_point": "2026-10-14T09:00:00+09:00",
+    "trading_minutes": 75,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-13-evening-3",
+    "company_name": "株式会社Ｌｉｂｅｒａｗａｒｅ",
+    "submitted_at": "2026-10-13T15:16:00+09:00",
+    "baseline_point": "2026-10-14T09:00:00+09:00",
+    "trading_minutes": 14,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-13-evening-4",
+    "company_name": "株式会社竹内製作所",
+    "submitted_at": "2026-10-13T14:44:00+09:00",
+    "baseline_point": "2026-10-14T09:00:00+09:00",
+    "trading_minutes": 46,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-13-evening-5",
+    "company_name": "株式会社ドトール・日レスホールディングス",
+    "submitted_at": "2026-10-13T16:45:00+09:00",
+    "baseline_point": "2026-10-14T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   }
+  ],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 7,
+   "total_unregistered": 10,
+   "excluded_date_time_tokens": 41,
+   "lines": [
+    {
+     "line_id": "L-001-05",
+     "values": [
+      "53.0",
+      "56.7"
+     ]
+    },
+    {
+     "line_id": "L-001-06",
+     "values": [
+      "36.2",
+      "42.5"
+     ]
+    },
+    {
+     "line_id": "L-001-07",
+     "values": [
+      "49.9",
+      "50.2"
+     ]
+    },
+    {
+     "line_id": "L-003-02",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-005-06",
+     "values": [
+      "3"
+     ]
+    },
+    {
+     "line_id": "L-005-07",
+     "values": [
+      "5.4"
+     ]
+    },
+    {
+     "line_id": "L-005-08",
+     "values": [
+      "4.5"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 3,
+   "zero_letter_count": 0,
+   "lines": [
+    {
+     "line_id": "L-001-09",
+     "letters": 1
+    },
+    {
+     "line_id": "L-001-10",
+     "letters": 1
+    },
+    {
+     "line_id": "L-005-04",
+     "letters": 3
+    }
+   ]
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "ok",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 2,
+    "source_ids": [
+     "SRC-010",
+     "SRC-011"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 6
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "industry_picks_total": 3,
+  "industry_examples_total": 0,
+  "industry_example_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "ai_written_examples_discarded": 0,
+  "slot_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "short_name_match_count": {
+   "count": 0,
+   "names": []
+  },
+  "allowed_industries_count": 30,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
