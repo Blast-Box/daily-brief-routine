@@ -1,0 +1,256 @@
+{
+ "schema_version": 3,
+ "edition_id": "2026-10-14-evening",
+ "generated_at": "2026-10-14T17:15:39.242191+09:00",
+ "market_open": true,
+ "baseline_late": false,
+ "hypotheses": [
+  {
+   "hypothesis_id": "2026-10-14-evening-1",
+   "event_id": "EVT-2026-10-14-001",
+   "company_name": "株式会社ワールド",
+   "ticker": "3612",
+   "ticker_source": "edinet_seccode",
+   "article_id": "ART-2026-10-14-001",
+   "line_ids": [
+    "L-001-01"
+   ],
+   "evidence_grade": "primary",
+   "evidence_source_ref": "SRC-006",
+   "evidence_filer_name": "株式会社ワールド",
+   "evidence_doc_type": "臨時報告書",
+   "evidence_role": "filer_self",
+   "impact_kind": null,
+   "impact_reason": "臨時報告書。本文に、TSIホールディングスと共同株式移転を行い、両社の完全親会社となる会社を設けると書かれている。",
+   "news_entity": null,
+   "entity_relation": "same",
+   "relation_text": "株式会社ワールドは、共同株式移転についての臨時報告書を自ら提出した会社という立場にある。",
+   "auto_check_target": false,
+   "added_by": "auto",
+   "baseline_date": "2026-10-15",
+   "baseline_price_type": "next_open",
+   "baseline_observed_at": null,
+   "baseline_benchmark_price": null,
+   "baseline_benchmark_observed_at": null,
+   "baseline_late_input": false,
+   "horizon_business_days": 20,
+   "deadline_date": "2026-11-13",
+   "links": {
+    "price_history": "https://finance.yahoo.co.jp/quote/3612.T/history",
+    "disclosure_search": "https://www.release.tdnet.info/inbs/I_main_00.html"
+   },
+   "impact_kind_source": "edinet_doctype_unmapped",
+   "tob_side": null,
+   "duplicate_of": null
+  },
+  {
+   "hypothesis_id": "2026-10-14-evening-2",
+   "event_id": "EVT-2026-10-14-001",
+   "company_name": "株式会社ＴＳＩホールディングス",
+   "ticker": "3608",
+   "ticker_source": "edinet_seccode",
+   "article_id": "ART-2026-10-14-001",
+   "line_ids": [
+    "L-001-07"
+   ],
+   "evidence_grade": "primary",
+   "evidence_source_ref": "SRC-007",
+   "evidence_filer_name": "株式会社ＴＳＩホールディングス",
+   "evidence_doc_type": "臨時報告書",
+   "evidence_role": "filer_self",
+   "impact_kind": null,
+   "impact_reason": "臨時報告書。本文に、ワールドと共同株式移転を行い、両社の完全親会社となる会社を設けると書かれている。",
+   "news_entity": null,
+   "entity_relation": "same",
+   "relation_text": "株式会社ＴＳＩホールディングスは、共同株式移転についての臨時報告書を自ら提出した会社という立場にある。",
+   "auto_check_target": false,
+   "added_by": "auto",
+   "baseline_date": "2026-10-15",
+   "baseline_price_type": "next_open",
+   "baseline_observed_at": null,
+   "baseline_benchmark_price": null,
+   "baseline_benchmark_observed_at": null,
+   "baseline_late_input": false,
+   "horizon_business_days": 20,
+   "deadline_date": "2026-11-13",
+   "links": {
+    "price_history": "https://finance.yahoo.co.jp/quote/3608.T/history",
+    "disclosure_search": "https://www.release.tdnet.info/inbs/I_main_00.html"
+   },
+   "impact_kind_source": "edinet_doctype_unmapped",
+   "tob_side": null,
+   "duplicate_of": null
+  },
+  {
+   "hypothesis_id": "2026-10-14-evening-3",
+   "event_id": "EVT-2026-10-14-002",
+   "company_name": "株式会社カチタス",
+   "ticker": "8919",
+   "ticker_source": "edinet_seccode",
+   "article_id": "ART-2026-10-14-002",
+   "line_ids": [
+    "L-002-01",
+    "L-002-03"
+   ],
+   "evidence_grade": "primary",
+   "evidence_source_ref": "SRC-001",
+   "evidence_filer_name": "株式会社カチタス",
+   "evidence_doc_type": "公開買付届出書",
+   "evidence_role": "filer_self",
+   "impact_kind": "price_stated",
+   "impact_reason": "公開買付届出書。本文に1株2,000円で買い付けると書かれている。",
+   "news_entity": null,
+   "entity_relation": "same",
+   "relation_text": "株式会社カチタスは、公開買付届出書を自ら提出した買付者という立場にある。",
+   "auto_check_target": true,
+   "added_by": "auto",
+   "baseline_date": "2026-10-15",
+   "baseline_price_type": "next_open",
+   "baseline_observed_at": null,
+   "baseline_benchmark_price": null,
+   "baseline_benchmark_observed_at": null,
+   "baseline_late_input": false,
+   "horizon_business_days": 5,
+   "deadline_date": "2026-10-22",
+   "links": {
+    "price_history": "https://finance.yahoo.co.jp/quote/8919.T/history",
+    "disclosure_search": "https://www.release.tdnet.info/inbs/I_main_00.html"
+   },
+   "impact_kind_source": "edinet_doctype",
+   "tob_side": "bidder",
+   "duplicate_of": null
+  },
+  {
+   "hypothesis_id": "2026-10-14-evening-4",
+   "event_id": "EVT-2026-10-14-002",
+   "company_name": "株式会社東武住販",
+   "ticker": "3297",
+   "ticker_source": "edinet_seccode",
+   "article_id": "ART-2026-10-14-002",
+   "line_ids": [
+    "L-002-05",
+    "L-002-06"
+   ],
+   "evidence_grade": "primary",
+   "evidence_source_ref": "SRC-003",
+   "evidence_filer_name": "株式会社東武住販",
+   "evidence_doc_type": "意見表明報告書",
+   "evidence_role": "filer_self",
+   "impact_kind": null,
+   "impact_reason": "意見表明報告書。本文に、公開買付けに賛同の意見を表明し、株主に応募を推奨すると書かれている。",
+   "news_entity": null,
+   "entity_relation": "same",
+   "relation_text": "株式会社東武住販は、公開買付けの対象であり、意見表明報告書を自ら提出した会社という立場にある。",
+   "auto_check_target": false,
+   "added_by": "auto",
+   "baseline_date": "2026-10-15",
+   "baseline_price_type": "next_open",
+   "baseline_observed_at": null,
+   "baseline_benchmark_price": null,
+   "baseline_benchmark_observed_at": null,
+   "baseline_late_input": false,
+   "horizon_business_days": 20,
+   "deadline_date": "2026-11-13",
+   "links": {
+    "price_history": "https://finance.yahoo.co.jp/quote/3297.T/history",
+    "disclosure_search": "https://www.release.tdnet.info/inbs/I_main_00.html"
+   },
+   "impact_kind_source": "edinet_doctype_unmapped",
+   "tob_side": null,
+   "duplicate_of": null
+  },
+  {
+   "hypothesis_id": "2026-10-14-evening-5",
+   "event_id": "EVT-2026-10-14-004",
+   "company_name": "株式会社　リソー教育グループ",
+   "ticker": "4714",
+   "ticker_source": "edinet_seccode",
+   "article_id": "ART-2026-10-14-004",
+   "line_ids": [
+    "L-004-06",
+    "L-004-07"
+   ],
+   "evidence_grade": "primary",
+   "evidence_source_ref": "SRC-004",
+   "evidence_filer_name": "株式会社　リソー教育グループ",
+   "evidence_doc_type": "意見表明報告書",
+   "evidence_role": "filer_self",
+   "impact_kind": null,
+   "impact_reason": "意見表明報告書。本文に、公開買付けに賛同の意見を表明すると書かれている。",
+   "news_entity": null,
+   "entity_relation": "same",
+   "relation_text": "株式会社　リソー教育グループは、公開買付けの対象であり、意見表明報告書を自ら提出した会社という立場にある。",
+   "auto_check_target": false,
+   "added_by": "auto",
+   "baseline_date": "2026-10-15",
+   "baseline_price_type": "next_open",
+   "baseline_observed_at": null,
+   "baseline_benchmark_price": null,
+   "baseline_benchmark_observed_at": null,
+   "baseline_late_input": false,
+   "horizon_business_days": 20,
+   "deadline_date": "2026-11-13",
+   "links": {
+    "price_history": "https://finance.yahoo.co.jp/quote/4714.T/history",
+    "disclosure_search": "https://www.release.tdnet.info/inbs/I_main_00.html"
+   },
+   "impact_kind_source": "edinet_doctype_unmapped",
+   "tob_side": null,
+   "duplicate_of": null
+  }
+ ],
+ "industry_picks": [
+  {
+   "article_id": "ART-2026-10-14-001",
+   "event_id": "EVT-2026-10-14-001",
+   "industry": "繊維製品",
+   "industry_line_ids": [
+    "L-001-07",
+    "L-001-08"
+   ]
+  },
+  {
+   "article_id": "ART-2026-10-14-002",
+   "event_id": "EVT-2026-10-14-002",
+   "industry": "不動産業",
+   "industry_line_ids": [
+    "L-002-01"
+   ]
+  },
+  {
+   "article_id": "ART-2026-10-14-003",
+   "event_id": "EVT-2026-10-14-003",
+   "industry": "小売業",
+   "industry_line_ids": [
+    "L-003-01"
+   ]
+  },
+  {
+   "article_id": "ART-2026-10-14-004",
+   "event_id": "EVT-2026-10-14-004",
+   "industry": "不動産業",
+   "industry_line_ids": [
+    "L-004-01"
+   ]
+  }
+ ],
+ "industry_examples": [],
+ "industries_shown": [
+  {
+   "article_id": "ART-2026-10-14-001",
+   "industry": "繊維製品"
+  },
+  {
+   "article_id": "ART-2026-10-14-002",
+   "industry": "不動産業"
+  },
+  {
+   "article_id": "ART-2026-10-14-003",
+   "industry": "小売業"
+  },
+  {
+   "article_id": "ART-2026-10-14-004",
+   "industry": "不動産業"
+  }
+ ]
+}
