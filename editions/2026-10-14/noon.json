@@ -1,0 +1,1899 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-10-14-noon",
+ "date": "2026-10-14",
+ "slot": "noon",
+ "generated_at": "2026-10-14T13:15:13.690165+09:00",
+ "market_open": true,
+ "baseline": {
+  "date": "2026-10-14",
+  "price_type": "observed"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-14&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月14日）",
+   "published_at": "2026-10-14",
+   "fetched_at": "2026-10-14T13:08:56+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "968bcecd4aecaf6e4908e566a768601ff7fead68c0db9c1f5165c34239b05f13",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-13&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月13日）",
+   "published_at": "2026-10-13",
+   "fetched_at": "2026-10-14T13:09:03+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "3340d58d8d67e68f3fa2fdd10cd28bc2946905f97b3426247faaec97ec898f92",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z7J5?type=1",
+   "publisher": "株式会社セブン＆アイ・ホールディングス",
+   "publisher_type": "company_disclosure",
+   "title": "半期報告書－第22期(2026/03/01－2027/02/28)（株式会社セブン＆アイ・ホールディングス）",
+   "published_at": "2026-10-14T12:23:00+09:00",
+   "fetched_at": "2026-10-14T13:09:47+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "a63eed321f44caa4b1b43c3a9afae50925a8d8e6e974e580d767bf6de26273f6",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J5）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J5"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z5V5?type=1",
+   "publisher": "イオン株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "半期報告書－第102期(2026/03/01－2027/02/28)（イオン株式会社）",
+   "published_at": "2026-10-14T12:08:00+09:00",
+   "fetched_at": "2026-10-14T13:09:54+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "d37ea9d2fd4ce312df8afb32b21b6a4fcd58914cdc79bdc797727f80b4380c34",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5V5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5V5）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5V5"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z7MA?type=1",
+   "publisher": "株式会社メルカリ",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社メルカリ）",
+   "published_at": "2026-10-13T15:56:00+09:00",
+   "fetched_at": "2026-10-14T13:10:01+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "3b67167d585d9486c417f3b52af84d94d159018cb125051913b2e8b60d92b06b",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7MA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7MA）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7MA"
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z76F?type=1",
+   "publisher": "株式会社Ｏｒｃｈｅｓｔｒａ　Ｈｏｌｄｉｎｇｓ",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社Ｏｒｃｈｅｓｔｒａ　Ｈｏｌｄｉｎｇｓ）",
+   "published_at": "2026-10-13T15:42:00+09:00",
+   "fetched_at": "2026-10-14T13:10:06+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "db72b58bc3354426cdeea6b470bf1a7601feda250f5520830cd0b6cf20b57e66",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76F）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76F）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76F"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z7IT?type=1",
+   "publisher": "窪田製薬ホールディングス株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（窪田製薬ホールディングス株式会社）",
+   "published_at": "2026-10-13T12:04:00+09:00",
+   "fetched_at": "2026-10-14T13:10:12+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "bd44ee6527eef94d6ac7fa45ed20dac0c7272196fbe26fb43757e91a522957bb",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7IT）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7IT）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7IT"
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z7J0?type=1",
+   "publisher": "株式会社安川電機",
+   "publisher_type": "company_disclosure",
+   "title": "半期報告書－第111期(2026/03/01－2027/02/28)（株式会社安川電機）",
+   "published_at": "2026-10-13T12:26:00+09:00",
+   "fetched_at": "2026-10-14T13:10:17+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "5d835fef990cf5f2c08159b0403d84164d730fdf7c1b11f58af605fbd666fdcd",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J0）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J0"
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z7HH?type=1",
+   "publisher": "ローツェ株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "半期報告書－第42期(2026/03/01－2027/02/28)（ローツェ株式会社）",
+   "published_at": "2026-10-14T09:08:00+09:00",
+   "fetched_at": "2026-10-14T13:10:24+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "7018e3ecebc6581509ecc1e9b7b53be8dccc2f6519e4a80f2b96575821bcc6f0",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7HH）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7HH）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7HH"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z7RZ?type=1",
+   "publisher": "小田急電鉄株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "発行登録追補書類（株券､社債券等）（小田急電鉄株式会社）",
+   "published_at": "2026-10-14T11:05:00+09:00",
+   "fetched_at": "2026-10-14T13:10:30+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "d58b925a4bdc4d71cc001fa3ff05356dcbfc111a865563ee88b40f73173d0fab",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7RZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7RZ）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7RZ"
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-14-001",
+     "event_id": "EVT-2026-10-14-001",
+     "headline": "セブン＆アイの3〜8月期：営業利益は前年同期の111.5%、海外のコンビニ事業が伸びる（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "セブン＆アイ・ホールディングスが10月14日に提出した半期報告書によると、3〜8月の中間期の連結営業収益は5,460,274百万円で、前年同期の97.2%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5460274,
+         "unit": "百万円",
+         "label": "連結営業収益（中間期）"
+        },
+        {
+         "value": 97.2,
+         "unit": "%",
+         "label": "連結営業収益の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "営業収益  5,616,637  93.1％  5,460,274  97.2％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "連結営業利益は232,280百万円で、前年同期の111.5%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 232280,
+         "unit": "百万円",
+         "label": "連結営業利益（中間期）"
+        },
+        {
+         "value": 111.5,
+         "unit": "%",
+         "label": "連結営業利益の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "営業利益  208,388  111.4％  232,280  111.5％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "半期報告書は、上場会社が事業年度の前半の半年分の業績や財務の状況をまとめ、法律に基づいて国に提出する書類である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "営業利益は、本業の売上などから、商品の仕入れや人件費などの費用を差し引いた利益である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "国内コンビニエンスストア事業は、営業収益が467,322百万円（前年同期の101.0%）、営業利益が109,899百万円（同90.2%）だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 467322,
+         "unit": "百万円",
+         "label": "国内コンビニ事業の営業収益"
+        },
+        {
+         "value": 101.0,
+         "unit": "%",
+         "label": "国内コンビニ事業の営業収益の前年同期比"
+        },
+        {
+         "value": 109899,
+         "unit": "百万円",
+         "label": "国内コンビニ事業の営業利益"
+        },
+        {
+         "value": 90.2,
+         "unit": "%",
+         "label": "国内コンビニ事業の営業利益の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "国内コンビニエンスストア事業における営業収益は467,322百万円（前年同期比101.0％）、営業利益は109,899百万円（同90.2％）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "海外コンビニエンスストア事業は、営業収益が4,966,613百万円（前年同期の117.7%）、営業利益が150,422百万円（同187.7%）だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4966613,
+         "unit": "百万円",
+         "label": "海外コンビニ事業の営業収益"
+        },
+        {
+         "value": 117.7,
+         "unit": "%",
+         "label": "海外コンビニ事業の営業収益の前年同期比"
+        },
+        {
+         "value": 150422,
+         "unit": "百万円",
+         "label": "海外コンビニ事業の営業利益"
+        },
+        {
+         "value": 187.7,
+         "unit": "%",
+         "label": "海外コンビニ事業の営業利益の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "海外コンビニエンスストア事業における営業収益は4,966,613百万円（前年同期比117.7％）、営業利益は150,422百万円（同187.7％）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "為替相場の影響で、前年同期と比べて営業収益は3,110億円、営業利益は94億円増えたと書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3110,
+         "unit": "億円",
+         "label": "為替影響による営業収益の増加額"
+        },
+        {
+         "value": 94,
+         "unit": "億円",
+         "label": "為替影響による営業利益の増加額"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "為替影響により前年同期と比べ、営業収益は3,110億円、営業利益は94億円増加しております",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-08",
+       "text": "国内のコンビニの直営店と加盟店の売上を合わせたチェーン全店売上は、2,810,379百万円（前年同期の101.6%）だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2810379,
+         "unit": "百万円",
+         "label": "チェーン全店売上"
+        },
+        {
+         "value": 101.6,
+         "unit": "%",
+         "label": "チェーン全店売上の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "直営店と加盟店の売上を合計したチェーン全店売上は2,810,379百万円（同101.6％）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-14-001-1",
+       "text": "海外のコンビニ事業の利益が国内を上回る構成が続けば、小売の大手の連結利益は、為替相場の動きに左右される度合いが大きくなる可能性がある。",
+       "falsifier": "為替影響を除いても海外コンビニ事業の営業利益が前年を下回れば、利益の伸びは為替だけによるものとなり、この見方の前提が崩れる。",
+       "check_metric": "コンビニ大手の2027年2月期の有価証券報告書に書かれる、海外コンビニ事業の営業利益と為替影響額",
+       "check_by": "2027-05-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-14-002",
+     "event_id": "EVT-2026-10-14-002",
+     "headline": "イオンの3〜8月期：ドラッグストアなどの事業の営業収益が前年同期の187.4%に（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "イオンが10月14日に提出した半期報告書によると、3〜8月の中間期の連結営業収益は前年同期の113.8%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 113.8,
+         "unit": "%",
+         "label": "連結営業収益の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "連結業績は、営業収益が５兆9,041億57百万円(前年同期比113.8％)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5V5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5V5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "ドラッグストアなどのヘルス＆ウエルネス事業の営業収益は、前年同期の187.4%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 187.4,
+         "unit": "%",
+         "label": "ヘルス＆ウエルネス事業の営業収益の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "ヘルス＆ウエルネス事業は、営業収益１兆2,778億97百万円(前年同期比187.4％)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5V5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5V5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "総合スーパー（GMS）事業の営業収益は前年同期の102.6%で、営業損益は損失だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 102.6,
+         "unit": "%",
+         "label": "GMS事業の営業収益の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "ＧＭＳ事業は、営業収益１兆8,653億45百万円(前年同期比102.6％)、営業損失",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5V5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5V5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "総合スーパー（GMS）は、食品に加えて衣料品や日用品などもひとつの店でそろえて売る、大型の店である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "スーパーマーケット事業の営業収益は前年同期の98.8%で、営業損益は損失だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 98.8,
+         "unit": "%",
+         "label": "スーパーマーケット事業の営業収益の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "スーパーマーケット事業は、営業収益１兆5,263億91百万円(前年同期比98.8％)、営業損失",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5V5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5V5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-06",
+       "text": "商業施設（モール）などのディベロッパー・エンターテイメント事業の営業収益は、前年同期の108.2%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 108.2,
+         "unit": "%",
+         "label": "ディベロッパー・エンターテイメント事業の営業収益の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "ディベロッパー・エンターテイメント事業は、営業収益3,542億38百万円(前年同期比108.2％)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5V5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5V5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-07",
+       "text": "自社ブランド「トップバリュ」の売上高は前年同期の104.5%、メーカー品の共同調達高は同105.0%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 104.5,
+         "unit": "%",
+         "label": "トップバリュ売上高の前年同期比"
+        },
+        {
+         "value": 105.0,
+         "unit": "%",
+         "label": "NB共同調達高の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "トップバリュ売上高が前年同期比104.5％、NBの共同調達高も同105.0％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5V5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5V5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-08",
+       "text": "ドラッグストアの2社の経営統合で、2社で400億円、グループ合計で500億円の統合効果を3年間で目指すと書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 400,
+         "unit": "億円",
+         "label": "2社での統合効果の目標"
+        },
+        {
+         "value": 500,
+         "unit": "億円",
+         "label": "グループ合計の統合効果の目標"
+        },
+        {
+         "value": 3,
+         "unit": "年",
+         "label": "目標の期間"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "ツルハ、ウエルシアで400億円、当社を含めた合計で500億円のシナジー創出を３年間で目指しております",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5V5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z5V5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-14-002-1",
+       "text": "大手小売で、ドラッグストアや商業施設の事業が利益を支え、総合スーパーの採算が低い状態が続けば、総合スーパーの店の閉鎖や改装を進める動きが広がる可能性がある。",
+       "falsifier": "下期に総合スーパー事業の営業損益が黒字に転じ、通期でも黒字になれば、この見方は成り立ちにくい。",
+       "check_metric": "小売大手の2027年2月期の有価証券報告書に書かれる、GMS事業の営業損益",
+       "check_by": "2027-05-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-14-003",
+     "event_id": "EVT-2026-10-14-003",
+     "headline": "メルカリが、取締役に「後から株を渡す」報酬のため、最大17,536株を発行すると届け出る（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "メルカリは、10月13日付けの代表執行役の決定で、執行役を兼ねない取締役に、後から株を渡す報酬（RSU）を与えることにしたと、臨時報告書で届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 13,
+         "unit": "日",
+         "label": "日付（決定日）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "2026年10月13日付けの代表執行役の決定により、事後交付型株式報酬制度（RSU制度）に基づき、当社取締役",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7MA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7MA）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "事後交付型の株式報酬は、決めた期間の勤務などの条件を満たした後に、会社が役員や社員に自社の株を渡すしくみである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "発行する株の数は17,536株と書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 17536,
+         "unit": "株",
+         "label": "発行数"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "① 発行数　17,536株",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7MA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7MA）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "発行価格は1株につき3,737円とされている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "株",
+         "label": "単位"
+        },
+        {
+         "value": 3737,
+         "unit": "円",
+         "label": "発行価格"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "(i) 発行価格　　1株につき3,737円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7MA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7MA）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "発行価額の総額は65,532,032円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 65532032,
+         "unit": "円",
+         "label": "発行価額の総額"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "(i) 発行価額の総額　　65,532,032円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7MA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7MA）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-06",
+       "text": "対象は取締役10名で、株数は合わせて17,536株である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10,
+         "unit": "名",
+         "label": "件数（対象の取締役の人数）"
+        },
+        {
+         "value": 17536,
+         "unit": "株",
+         "label": "対象者への株数の合計"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "当社取締役　　　 10名　　17,536株",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7MA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7MA）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-14-003-1",
+       "text": "役員の報酬に自社の株を使う会社が増えれば、発行済みの株の数がわずかずつ増え、1株あたりの利益が薄まる動きが、ネットサービスなどの業種で続く可能性がある。",
+       "falsifier": "株式報酬のための新株の発行を届け出る臨時報告書の件数が、前年の同じ時期より減れば、この見方は弱まる。",
+       "check_metric": "EDINETの書類一覧で、株式報酬に関わる臨時報告書の件数",
+       "check_by": "2027-03-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-14-004",
+     "event_id": "EVT-2026-10-14-004",
+     "headline": "IT企業グループで、子会社どうしが12月に合併すると決める（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "Orchestra Holdingsは10月13日の取締役会で、子会社のSharing Innovationsが、別の子会社の日本技研プロフェッショナルアーキテクトを12月1日に吸収合併することを決めたと、臨時報告書で届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 13,
+         "unit": "日",
+         "label": "日付（取締役会の決議日）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "2026年10月13日開催の当社取締役会において、2026年12月１日を合併効力発生日として、当社の子会社である株式会社Sharing Innovationsを吸収合併存続会社",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76F）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76F）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "吸収合併は、ある会社がほかの会社を取り込み、取り込まれた会社がなくなる合併のしかたである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "特定子会社は、親会社と比べて規模が大きいなど、法令で決められた条件に当たる子会社で、親会社の子会社でなくなるときは臨時報告書で届け出る。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "合併でなくなる側の会社の資本金は、90,000千円（2025年12月31日現在）と書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 90000,
+         "unit": "千円",
+         "label": "消滅会社の資本金"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "④　資本金　　　：90,000千円（2025年12月31日現在）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76F）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76F）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "合併の前は、Orchestra Holdingsがこの会社の議決権の100%を、すべて子会社を通じて間接的に持っていた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 100,
+         "unit": "%",
+         "label": "異動前の議決権の割合"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "異動前：100％（うち間接所有分100％）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76F）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76F）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-06",
+       "text": "持っていた議決権の数は64個で、すべてが間接所有分だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 64,
+         "unit": "個",
+         "label": "件数（異動前の議決権の数）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "異動前：64個（うち間接所有分64個）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76F）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76F）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-14-004-1",
+       "text": "グループの中で同じような事業の子会社をまとめる動きが続けば、ソフトウェア開発の会社では、管理の費用を減らす再編が増える可能性がある。",
+       "falsifier": "情報・通信業で、子会社どうしの合併を届け出る臨時報告書が前年より減れば、この見方は弱まる。",
+       "check_metric": "EDINETの書類一覧で、情報・通信業の会社が出す特定子会社の異動の臨時報告書の件数",
+       "check_by": "2027-03-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-14-005",
+     "event_id": "EVT-2026-10-14-005",
+     "headline": "データセンターと半導体の設備投資で、モーターの大手の制御機器の売上が21.7%増える（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "安川電機が10月13日に提出した半期報告書によると、3〜8月の中間期の売上収益は前年同期より9.8%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9.8,
+         "unit": "%",
+         "label": "売上収益の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "売上収益  2,601億95百万円  2,855億98百万円  ＋9.8％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J0）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "営業利益は前年同期より5.5%減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": -5.5,
+         "unit": "%",
+         "label": "営業利益の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "営業利益  233億34百万円  220億58百万円  △5.5％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J0）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "ACサーボモータなどのモーションコントロール事業の売上収益は、前年同期より21.7%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 21.7,
+         "unit": "%",
+         "label": "モーションコントロール事業の売上収益の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "モーションコントロール  売上収益       1,372億86百万円   (前年同期比  ＋21.7％ )",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J0）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-04",
+       "text": "同じ事業の営業損益は、前年同期より32.8%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 32.8,
+         "unit": "%",
+         "label": "モーションコントロール事業の営業損益の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "営業損益         159億73百万円   (前年同期比  ＋32.8％ )",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J0）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-05",
+       "text": "サーボモータは、機械の動く位置や速さを細かく制御するためのモーターで、工場の装置やロボットに使われる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-06",
+       "text": "ロボット事業の売上収益は前年同期より0.7%減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": -0.7,
+         "unit": "%",
+         "label": "ロボット事業の売上収益の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "ロボット  売上収益       1,184億 4百万円   (前年同期比   △0.7％ )",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J0）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-07",
+       "text": "ロボット事業の営業損益は前年同期より43.3%減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": -43.3,
+         "unit": "%",
+         "label": "ロボット事業の営業損益の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "営業損益          59億74百万円   (前年同期比  △43.3％ )",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J0）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-08",
+       "text": "港湾クレーン関連などのシステムエンジニアリング事業の売上収益は、前年同期より11.2%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 11.2,
+         "unit": "%",
+         "label": "システムエンジニアリング事業の売上収益の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "システムエンジニアリング  売上収益         207億78百万円   (前年同期比  ＋11.2％ )",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7J0）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-14-005-1",
+       "text": "データセンターや半導体工場への設備投資が続けば、工場の自動化に使う部品や装置をつくる電気機器の会社の受注にも、遅れて広がる可能性がある。",
+       "falsifier": "内閣府の機械受注統計で、電気機械からの受注額が前年を下回る月が続けば、この見方は成り立たない。",
+       "check_metric": "内閣府 機械受注統計の、電気機械からの受注額",
+       "check_by": "2027-01-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-14-006",
+     "event_id": "EVT-2026-10-14-006",
+     "headline": "半導体の工場向けの装置の会社で、3〜8月の売上高が21.5%増える（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-006-01",
+       "text": "ローツェが10月14日に提出した半期報告書によると、3〜8月の中間期の売上高は79,733百万円で前年同期より21.5%増え、営業利益は23,096百万円で42.4%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 79733,
+         "unit": "百万円",
+         "label": "売上高（中間期）"
+        },
+        {
+         "value": 21.5,
+         "unit": "%",
+         "label": "売上高の前年同期比の増加率"
+        },
+        {
+         "value": 23096,
+         "unit": "百万円",
+         "label": "営業利益（中間期）"
+        },
+        {
+         "value": 42.4,
+         "unit": "%",
+         "label": "営業利益の前年同期比の増加率"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "売上高79,733百万円(前年同期比21.5％増)、営業利益23,096百万円(前年同期比42.4％増)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7HH）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7HH）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-02",
+       "text": "半導体・FPD関連装置事業の売上高は79,357百万円で、前年同期より21.6%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 79357,
+         "unit": "百万円",
+         "label": "半導体・FPD関連装置事業の売上高"
+        },
+        {
+         "value": 21.6,
+         "unit": "%",
+         "label": "同事業の売上高の前年同期比の増加率"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "半導体・ＦＰＤ関連装置事業の売上高は79,357百万円(前年同期比21.6％増)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7HH）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7HH）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-03",
+       "text": "FPDは、液晶や有機ELなどの薄い画面（フラットパネルディスプレイ）のことである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-04",
+       "text": "営業活動で得た資金は8,730百万円で、前年同期の12,868百万円の収入より少なかった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 8730,
+         "unit": "百万円",
+         "label": "営業活動によるキャッシュ・フロー"
+        },
+        {
+         "value": 12868,
+         "unit": "百万円",
+         "label": "前年同期の営業活動によるキャッシュ・フロー"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "営業活動の結果、得られた資金は8,730百万円(前年同期は12,868百万円の収入)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7HH）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7HH）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-05",
+       "text": "資金が減った要因のひとつとして、訴訟和解金の支払額9,587百万円が書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9587,
+         "unit": "百万円",
+         "label": "訴訟和解金の支払額"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "訴訟和解金の支払額9,587百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7HH）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7HH）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-14-006-1",
+       "text": "半導体の製造設備への投資が続けば、工場の中で材料や製品を運ぶ装置の需要が増え、機械の業種の受注にも広がる可能性がある。",
+       "falsifier": "世界の半導体製造装置の販売額が前年を下回る四半期が出れば、この見方は成り立たない。",
+       "check_metric": "SEMI（国際半導体製造装置材料協会）が公表する半導体製造装置の世界販売額",
+       "check_by": "2027-03-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-14-007",
+     "event_id": "EVT-2026-10-14-007",
+     "headline": "鉄道大手が、鉄道車両に使い道を限った「グリーンボンド」など2本の社債の条件を決める（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-007-01",
+       "text": "小田急電鉄は10月14日、2本の無担保社債の発行条件を発行登録追補書類で届け出た。1本目は第94回の社債である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 94,
+         "unit": "回",
+         "label": "社債の回号"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "銘柄  小田急電鉄株式会社第94回無担保社債（社債間限定同順位特約付）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7RZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7RZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-02",
+       "text": "社債は、会社が投資家からお金を借りるために発行する債券で、決めた日に利息を払い、期限が来たら元本を返す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-03",
+       "text": "第94回の社債の総額は10,500,000,000円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10500000000,
+         "unit": "円",
+         "label": "第94回の社債の総額"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "券面総額又は振替社債の総額(円)  金10,500,000,000円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7RZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7RZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-04",
+       "text": "第94回の社債の利率は年2.732%である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.732,
+         "unit": "%",
+         "label": "第94回の社債の利率"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "利率(％)  年2.732％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7RZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7RZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-05",
+       "text": "第94回の社債について、日本格付研究所からAA-の格付を10月14日付で取得したと書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 14,
+         "unit": "日",
+         "label": "日付（格付の取得日）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "株式会社日本格付研究所（以下「JCR」という。）からAA-の信用格付を2026年10月14日付で取得しています",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7RZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7RZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-06",
+       "text": "格付は、借りたお金が約束どおり返される確実さを、格付会社が記号で示したものである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-07",
+       "text": "2本目は、グリーンボンドとして出す第95回の社債である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 95,
+         "unit": "回",
+         "label": "社債の回号"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "銘柄  小田急電鉄株式会社第95回無担保社債（社債間限定同順位特約付）（グリーンボンド）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7RZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7RZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-08",
+       "text": "グリーンボンドは、集めたお金の使い道を、環境の改善に役立つ事業に限って発行する社債である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-09",
+       "text": "第95回の社債の総額は21,500,000,000円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 21500000000,
+         "unit": "円",
+         "label": "第95回の社債の総額"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "券面総額又は振替社債の総額(円)  金21,500,000,000円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7RZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7RZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-10",
+       "text": "第95回の社債の利率は年3.428%である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.428,
+         "unit": "%",
+         "label": "第95回の社債の利率"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "利率(％)  年3.428％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7RZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7RZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-11",
+       "text": "第95回で手元に入る見込みの21,395百万円は、全額を鉄道車両の新造・更新などの「クリーン輸送」への新しい投資に充てる予定とされている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 21395,
+         "unit": "百万円",
+         "label": "第95回の差引手取概算額"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "差引手取概算額である21,395百万円については、全額を「クリーン輸送（鉄道車両の新造・更新等）」に要する新規投資",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7RZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7RZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-12",
+       "text": "第94回で手元に入る見込みの10,448百万円は、全額を設備資金の一部に充てる予定とされている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 94,
+         "unit": "回",
+         "label": "社債の回号"
+        },
+        {
+         "value": 10448,
+         "unit": "百万円",
+         "label": "第94回の差引手取概算額"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "第94回無担保社債（社債間限定同順位特約付）の差引手取概算額である10,448百万円については、全額を設備資金の一部として",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7RZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7RZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-14-007-1",
+       "text": "償還までの期間が長い社債ほど利率が高い状態が続けば、鉄道のように長く使う設備に投資する業種では、借り入れの期間の選び方が資金の費用を大きく左右する可能性がある。",
+       "falsifier": "同じ業種の大手が出す償還10年の社債の利率が、償還5年の社債と同じ程度かそれより低くなれば、この見方は成り立たない。",
+       "check_metric": "日本証券業協会 公社債店頭売買参考統計値の、償還まで5年と10年の社債の利回りの差",
+       "check_by": "2027-03-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-10-14T13:15:13.690165+09:00",
+  "first_run": {
+   "run_at": "2026-10-14T13:15:13.690165+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 10,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 53,
+  "passed": 42,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 11,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 10,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-001": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp040300-ssr-001_E03462-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp040300-ssr-001_E03462-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp040300-ssr-001_E03462-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp040300-ssr-001_E03462-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0200010_honbun_jpcrp040300-ssr-001_E03462-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp040300-ssr-001_E03462-000_2026-08-31_01_2026-10-14_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp040300-ssr-001_E03061-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp040300-ssr-001_E03061-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp040300-ssr-001_E03061-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104000_honbun_jpcrp040300-ssr-001_E03061-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp040300-ssr-001_E03061-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104020_honbun_jpcrp040300-ssr-001_E03061-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104035_honbun_jpcrp040300-ssr-001_E03061-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104050_honbun_jpcrp040300-ssr-001_E03061-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104100_honbun_jpcrp040300-ssr-001_E03061-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104110_honbun_jpcrp040300-ssr-001_E03061-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp040300-ssr-001_E03061-000_2026-08-31_01_2026-10-14_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E34064-000_2026-10-13_01_2026-10-13_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E34064-000_2026-10-13_01_2026-10-13_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-004": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E32601-000_2026-10-13_01_2026-10-13_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E32601-000_2026-10-13_01_2026-10-13_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E32854-000_2026-10-13_01_2026-10-13_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E32854-000_2026-10-13_01_2026-10-13_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-006": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp040300-ssr-001_E01741-000_2026-08-31_01_2026-10-13_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp040300-ssr-001_E01741-000_2026-08-31_01_2026-10-13_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp040300-ssr-001_E01741-000_2026-08-31_01_2026-10-13_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp040300-ssr-001_E01741-000_2026-08-31_01_2026-10-13_ixbrl.htm",
+     "XBRL/PublicDoc/0200010_honbun_jpcrp040300-ssr-001_E01741-000_2026-08-31_01_2026-10-13_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp040300-ssr-001_E01741-000_2026-08-31_01_2026-10-13_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-007": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp040300-ssr-001_E02328-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp040300-ssr-001_E02328-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp040300-ssr-001_E02328-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104000_honbun_jpcrp040300-ssr-001_E02328-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp040300-ssr-001_E02328-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104020_honbun_jpcrp040300-ssr-001_E02328-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104035_honbun_jpcrp040300-ssr-001_E02328-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104050_honbun_jpcrp040300-ssr-001_E02328-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104100_honbun_jpcrp040300-ssr-001_E02328-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104110_honbun_jpcrp040300-ssr-001_E02328-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104120_honbun_jpcrp040300-ssr-001_E02328-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp040300-ssr-001_E02328-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp040300-ssr-001_E02328-000_2026-08-31_01_2026-10-14_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-008": {
+    "files": [
+     "XBRL/PublicDoc/0100000_honbun_jpcrp120000-rep-001_E04088-000_2026-10-09_01_2026-10-09_ixbrl.htm",
+     "XBRL/PublicDoc/0200000_honbun_jpcrp120000-rep-001_E04088-000_2026-10-09_01_2026-10-09_ixbrl.htm",
+     "XBRL/PublicDoc/0300000_honbun_jpcrp120000-rep-001_E04088-000_2026-10-09_01_2026-10-09_ixbrl.htm",
+     "XBRL/PublicDoc/0400000_honbun_jpcrp120000-rep-001_E04088-000_2026-10-09_01_2026-10-09_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp120000-rep-001_E04088-000_2026-10-09_01_2026-10-09_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 10,
+  "attribution_overwritten": 52,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "noon",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 10,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 5,
+  "evidence_doc_type_overridden": 5,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {
+   "edinet_doctype_unmapped": 5
+  },
+  "impact_kind_undetermined_by_doc_type": {
+   "160": 4,
+   "100": 1
+  },
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 5,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 5,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 100,
+   "numbers_declared": 63,
+   "gap": 37,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 100,
+     "numbers_declared": 63
+    },
+    "explainer": {
+     "text_number_tokens": 0,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 4,
+   "line_ids": [
+    "L-003-01",
+    "L-004-01",
+    "L-004-06",
+    "L-007-05"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [
+   {
+    "word": "代表",
+    "location": "line_text",
+    "id": "L-003-01"
+   }
+  ],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 13,
+   "change": 9,
+   "ripple": 11,
+   "deep": 9
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 2,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 1,
+   "first_run_at": "2026-10-14T13:15:04.954477+09:00",
+   "last_run_at": "2026-10-14T13:15:04.954477+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 42,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [
+   {
+    "hypothesis_id": "2026-10-14-noon-1",
+    "company_name": "株式会社セブン＆アイ・ホールディングス",
+    "submitted_at": "2026-10-14T12:23:00+09:00",
+    "baseline_point": "2026-10-14T13:15:13.690165+09:00",
+    "trading_minutes": 45,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-14-noon-2",
+    "company_name": "イオン株式会社",
+    "submitted_at": "2026-10-14T12:08:00+09:00",
+    "baseline_point": "2026-10-14T13:15:13.690165+09:00",
+    "trading_minutes": 45,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-14-noon-3",
+    "company_name": "株式会社安川電機",
+    "submitted_at": "2026-10-13T12:26:00+09:00",
+    "baseline_point": "2026-10-14T13:15:13.690165+09:00",
+    "trading_minutes": 375,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-14-noon-4",
+    "company_name": "ローツェ株式会社",
+    "submitted_at": "2026-10-14T09:08:00+09:00",
+    "baseline_point": "2026-10-14T13:15:13.690165+09:00",
+    "trading_minutes": 187,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-14-noon-5",
+    "company_name": "小田急電鉄株式会社",
+    "submitted_at": "2026-10-14T11:05:00+09:00",
+    "baseline_point": "2026-10-14T13:15:13.690165+09:00",
+    "trading_minutes": 70,
+    "reason": null
+   }
+  ],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 16,
+   "total_unregistered": 18,
+   "excluded_date_time_tokens": 26,
+   "lines": [
+    {
+     "line_id": "L-001-01",
+     "values": [
+      "3"
+     ]
+    },
+    {
+     "line_id": "L-002-01",
+     "values": [
+      "3"
+     ]
+    },
+    {
+     "line_id": "L-002-08",
+     "values": [
+      "2",
+      "2"
+     ]
+    },
+    {
+     "line_id": "L-005-01",
+     "values": [
+      "3"
+     ]
+    },
+    {
+     "line_id": "L-005-02",
+     "values": [
+      "5.5"
+     ]
+    },
+    {
+     "line_id": "L-005-06",
+     "values": [
+      "0.7"
+     ]
+    },
+    {
+     "line_id": "L-005-07",
+     "values": [
+      "43.3"
+     ]
+    },
+    {
+     "line_id": "L-006-01",
+     "values": [
+      "3"
+     ]
+    },
+    {
+     "line_id": "L-007-01",
+     "values": [
+      "2",
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-007-03",
+     "values": [
+      "94"
+     ]
+    },
+    {
+     "line_id": "L-007-04",
+     "values": [
+      "94"
+     ]
+    },
+    {
+     "line_id": "L-007-05",
+     "values": [
+      "94"
+     ]
+    },
+    {
+     "line_id": "L-007-07",
+     "values": [
+      "2"
+     ]
+    },
+    {
+     "line_id": "L-007-09",
+     "values": [
+      "95"
+     ]
+    },
+    {
+     "line_id": "L-007-10",
+     "values": [
+      "95"
+     ]
+    },
+    {
+     "line_id": "L-007-11",
+     "values": [
+      "95"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 2,
+   "zero_letter_count": 0,
+   "lines": [
+    {
+     "line_id": "L-007-04",
+     "letters": 3
+    },
+    {
+     "line_id": "L-007-10",
+     "letters": 3
+    }
+   ]
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "ok",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 7
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "industry_picks_total": 5,
+  "industry_examples_total": 0,
+  "industry_example_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "ai_written_examples_discarded": 0,
+  "slot_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "short_name_match_count": {
+   "count": 0,
+   "names": []
+  },
+  "allowed_industries_count": 30,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
