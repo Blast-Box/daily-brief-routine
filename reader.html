@@ -21,6 +21,7 @@
     --header-muted:#9BA7B4;
     --accent:#0B6E6E;
     --accent-bg:#E6F2F2;
+    --on-accent:#FFFFFF;
     --mark:#3FD0C9;
     --warn:#8A4B00;
     --warn-bg:#FBF0E2;
@@ -53,6 +54,7 @@
       --header-muted:#9BA7B4;
       --accent:#4FB3AE;
       --accent-bg:#123230;
+      --on-accent:#0A1F1E;
       --mark:#3FD0C9;
       --warn:#E0A45F;
       --warn-bg:#2E2314;
@@ -149,33 +151,187 @@
   }
 
   /* ============ 日付の切り替え ============ */
-  nav.datebar{ padding:10px 0 4px; }
-  .date-row{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    gap:8px;
-    padding:9px 8px;
+  /* 狭い画面: 日付の1行を画面の上に張り付け、押すとカレンダーが紙面の上に重なって開く。
+     広い画面(960px以上): 左にカレンダーを常に出し、右に紙面を置く。 */
+  .layout{ display:block; }
+  .paper{ min-width:0; }
+  nav.datebar{
+    position:sticky;
+    top:0;
+    z-index:30;
+    background:var(--bg);
     border-bottom:1px solid var(--border);
-    background:transparent;
-    width:100%;
+  }
+  .datebar button{
     font-family:'Noto Sans JP', sans-serif;
-    color:var(--fg);
     font-size:14px;
-    text-align:left;
+    color:var(--fg);
+    background:transparent;
+    border:0;
+    padding:0;
     cursor:pointer;
     -webkit-tap-highlight-color:transparent;
   }
-  .date-row:first-child{ border-top:1px solid var(--border); }
-  .date-row.current{
-    background:var(--panel);
-    border-left:3px solid var(--accent);
-    padding-left:5px;
-    font-weight:700;
+  .datebar :focus-visible{ outline-offset:-2px; }
+  .datebar .invisible{ visibility:hidden; }
+
+  .datestrip-in{
+    max-width:680px;
+    margin:0 auto;
+    padding:4px 8px;
+    display:flex;
+    align-items:center;
+    gap:6px;
+  }
+  .strip-nav{
+    flex:0 0 44px;
+    min-height:40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
     color:var(--accent);
   }
-  .date-row .date-hint{ font-size:12px; color:var(--muted); font-weight:400; }
-  .date-row.current .date-hint{ color:var(--accent); }
+  .chev{ width:11px; height:11px; border-left:3px solid currentColor; border-bottom:3px solid currentColor; }
+  .chev-l{ transform:rotate(45deg); margin-left:5px; }
+  .chev-r{ transform:rotate(-135deg); margin-right:5px; }
+  .strip-date{
+    flex:1 1 auto;
+    min-height:40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    background:var(--panel);
+    border:1px solid var(--border);
+    font-weight:700;
+  }
+  .strip-caret{
+    width:0; height:0;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-top:6px solid var(--accent);
+  }
+  .strip-date[aria-expanded="true"] .strip-caret{
+    border-top:0;
+    border-bottom:6px solid var(--accent);
+  }
+
+  .calpanel{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:50%;
+    transform:translateX(-50%);
+    width:min(100%, 340px);
+    max-height:calc(100vh - 60px);
+    overflow-y:auto;
+    background:var(--bg);
+    border:1px solid var(--border);
+    box-shadow:0 8px 24px rgba(0,0,0,0.25);
+    padding:6px 6px 10px;
+  }
+  nav.datebar.open .calpanel{ display:block; }
+
+  .cal-head{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 0 4px;
+  }
+  .cal-title{ font-weight:700; font-size:15px; }
+  .cal-month-btn{
+    width:44px;
+    min-height:40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:var(--accent);
+  }
+  .tri-l, .tri-r{ width:0; height:0; border-top:6px solid transparent; border-bottom:6px solid transparent; }
+  .tri-l{ border-right:9px solid currentColor; }
+  .tri-r{ border-left:9px solid currentColor; }
+
+  .cal-week, .cal-grid{
+    display:grid;
+    grid-template-columns:repeat(7, minmax(0, 1fr));
+    gap:2px;
+  }
+  .cal-week span{
+    text-align:center;
+    font-size:12px;
+    line-height:24px;
+    color:var(--muted);
+  }
+  .cal-day{
+    min-height:36px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:14px;
+    line-height:1;
+  }
+  .cal-day.none{ color:var(--muted); opacity:0.5; }
+  .datebar button.cal-day.has{
+    border:1px solid var(--accent);
+    color:var(--fg);
+  }
+  .datebar button.cal-day.current{
+    background:var(--accent);
+    color:var(--on-accent);
+    font-weight:700;
+  }
+
+  .daynav{
+    display:none;
+    gap:8px;
+    margin-top:10px;
+  }
+  .daynav button{
+    flex:1 1 0;
+    min-height:40px;
+    border:1px solid var(--border);
+    color:var(--accent);
+  }
+
+  nav.datebar .date-empty{
+    max-width:680px;
+    margin:0 auto;
+    padding:12px 16px;
+  }
+  nav.datebar.is-empty{ position:static; border-bottom:0; }
+  nav.datebar.is-empty .datestrip,
+  nav.datebar.is-empty .calpanel{ display:none; }
+
+  @media (min-width:960px){
+    .layout{
+      display:grid;
+      grid-template-columns:256px minmax(0, 680px);
+      column-gap:16px;
+      justify-content:center;
+      align-items:start;
+    }
+    nav.datebar{
+      top:12px;
+      z-index:auto;
+      margin-top:12px;
+      background:transparent;
+      border-bottom:0;
+      max-height:calc(100vh - 24px);
+      overflow-y:auto;
+    }
+    nav.datebar.is-empty{ margin-top:0; }
+    .datestrip{ display:none; }
+    .calpanel{
+      display:block;
+      position:static;
+      transform:none;
+      width:auto;
+      max-height:none;
+      overflow:visible;
+      box-shadow:none;
+    }
+    .daynav{ display:flex; }
+  }
 
   /* ============ 通知類 ============ */
   .notice{
@@ -273,6 +429,22 @@
   }
   /* 札の括弧の部分は、途中で折り返さない(折り返すなら括弧の前) */
   .followup-paren{ white-space:nowrap; }
+  /* 押せる札(飛び先の号があるときだけ)。文字は同じまま、下線と「→」で押せると分かるようにする */
+  .followup-link{
+    position:relative;
+    font:inherit;
+    color:var(--accent);
+    background:none;
+    border:0;
+    padding:0;
+    text-align:left;
+    text-decoration:underline;
+    text-underline-offset:2px;
+    cursor:pointer;
+    -webkit-tap-highlight-color:transparent;
+  }
+  .followup-link::after{ content:""; position:absolute; top:-9px; bottom:-9px; left:-6px; right:-6px; }
+  .followup-arrow{ white-space:nowrap; margin-left:3px; }
 
   /* ============ 事実の行 ============ */
   .fact-line{
@@ -694,8 +866,32 @@
   </div>
 </header>
 
-<nav class="datebar wrap" id="dateBar"></nav>
+<div class="layout">
+<nav class="datebar" id="dateBar" aria-label="日付の選択">
+  <div class="datestrip">
+    <div class="datestrip-in">
+      <button type="button" class="strip-nav" id="stripPrev" aria-label="前の日"><span class="chev chev-l" aria-hidden="true"></span></button>
+      <button type="button" class="strip-date" id="stripDate" aria-expanded="false" aria-controls="calPanel"><span id="stripDateText"></span><span class="strip-caret" aria-hidden="true"></span></button>
+      <button type="button" class="strip-nav" id="stripNext" aria-label="次の日"><span class="chev chev-r" aria-hidden="true"></span></button>
+    </div>
+  </div>
+  <div class="calpanel" id="calPanel">
+    <div class="cal-head">
+      <button type="button" class="cal-month-btn" id="calPrevMonth" aria-label="前の月"><span class="tri-l" aria-hidden="true"></span></button>
+      <span class="cal-title" id="calTitle" aria-live="polite"></span>
+      <button type="button" class="cal-month-btn" id="calNextMonth" aria-label="次の月"><span class="tri-r" aria-hidden="true"></span></button>
+    </div>
+    <div class="cal-week" aria-hidden="true"><span>月</span><span>火</span><span>水</span><span>木</span><span>金</span><span>土</span><span>日</span></div>
+    <div class="cal-grid" id="calGrid"></div>
+    <div class="daynav">
+      <button type="button" id="dayPrev">&#8249; 前の日</button>
+      <button type="button" id="dayNext">次の日 &#8250;</button>
+    </div>
+  </div>
+  <p class="empty date-empty" id="dateEmpty" hidden>表示できる号がありません。</p>
+</nav>
 
+<div class="paper">
 <div class="notice" id="errorNotice" hidden></div>
 <div class="notice" id="delayNotice" hidden></div>
 <div class="notice" id="correctionNotice" hidden></div>
@@ -718,6 +914,8 @@
 </main>
 
 <footer class="footer" id="footer"></footer>
+</div>
+</div>
 
 <script>
 (function(){
@@ -1170,32 +1368,155 @@
     });
   }
 
-  function renderDateBar(){
-    var nav = document.getElementById("dateBar");
-    clear(nav);
-    if(!indexData || !Array.isArray(indexData.editions) || indexData.editions.length === 0){
-      nav.appendChild(el("p", { class: "empty", text: "表示できる号がありません。" }));
+  // ---------- 日付の選択(カレンダー・前の日/次の日) ----------
+
+  var WEEKDAY_JA = ["日", "月", "火", "水", "木", "金", "土"];
+  var calMonth = null;    // カレンダーに出している月 {y, m(1〜12)}。号を選ぶたびにその日の月へ合わせる
+  var calOpen = false;    // 狭い画面でカレンダーが開いているか(広い画面では常に出るので関係しない)
+
+  function pad2(n){ return (n < 10 ? "0" : "") + n; }
+
+  function parseYmd(s){
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s || "");
+    return m ? { y: parseInt(m[1], 10), m: parseInt(m[2], 10), d: parseInt(m[3], 10) } : null;
+  }
+
+  function weekdayOf(y, m, d){ return new Date(Date.UTC(y, m - 1, d)).getUTCDay(); }   // 0=日曜
+
+  // "2026-10-14" → "10月14日（水）"
+  function formatStripDate(s){
+    var p = parseYmd(s);
+    if(!p) return s || "";
+    return p.m + "月" + p.d + "日（" + WEEKDAY_JA[weekdayOf(p.y, p.m, p.d)] + "）";
+  }
+
+  // 号のある日付(新しい順)
+  function sortedDates(){
+    return buildDateRows(indexData.editions).map(function(r){ return r.date; }).sort().reverse();
+  }
+
+  // dir=-1: 今より古い側で号のある一番近い日 / dir=+1: 新しい側
+  function neighborDate(dir){
+    if(!indexData || !currentKey) return null;
+    var dates = sortedDates();
+    var i = dates.indexOf(currentKey.date);
+    if(i < 0) return null;
+    var j = dir < 0 ? i + 1 : i - 1;
+    return (j >= 0 && j < dates.length) ? dates[j] : null;
+  }
+
+  function setCalOpen(open){
+    calOpen = !!open;
+    document.getElementById("dateBar").classList.toggle("open", calOpen);
+    document.getElementById("stripDate").setAttribute("aria-expanded", calOpen ? "true" : "false");
+  }
+
+  // 号を切り替えて、ページの先頭へ戻す
+  function showEdition(date, slot){
+    setCalOpen(false);
+    var p = selectEdition(date, slot);
+    window.scrollTo(0, 0);
+    p.then(function(){ window.scrollTo(0, 0); });
+  }
+
+  // 日付を選んだとき。時間帯は「今と同じ時間帯があればそれ、無ければその日の一番遅い時間帯」
+  function goToDate(date){
+    if(!indexData || !date) return;
+    var wasOpen = calOpen;
+    if(currentKey && currentKey.date === date){
+      setCalOpen(false);
       return;
     }
-    var rows = buildDateRows(indexData.editions);
-    rows.forEach(function(row){
-      var isCurrent = currentKey && currentKey.date === row.date;
-      var btn = document.createElement("button");
-      btn.type = "button";
-      btn.className = "date-row" + (isCurrent ? " current" : "");
-      var label = el("span", {}, [buildNumSpans(formatDateLabel(row.date))]);
-      btn.appendChild(label);
-      if(isCurrent){
-        btn.appendChild(el("span", { class: "date-hint", text: "表示中" }));
+    var row = buildDateRows(indexData.editions).find(function(r){ return r.date === date; });
+    if(!row) return;
+    var preferred = SLOT_ORDER.slice().reverse().find(function(s){ return row.slots[s]; });
+    var keepSlot = currentKey && row.slots[currentKey.slot] ? currentKey.slot : preferred;
+    showEdition(date, keepSlot);
+    if(wasOpen) document.getElementById("stripDate").focus();
+  }
+
+  function stepDay(dir){ goToDate(neighborDate(dir)); }
+
+  function stepMonth(dir){
+    if(!calMonth) return;
+    var idx = calMonth.y * 12 + (calMonth.m - 1) + dir;
+    calMonth = { y: Math.floor(idx / 12), m: (idx % 12) + 1 };
+    renderCalendar();
+  }
+
+  function renderCalendar(){
+    var dates = sortedDates();
+    var have = {};
+    dates.forEach(function(d){ have[d] = true; });
+    var newest = parseYmd(dates[0]), oldest = parseYmd(dates[dates.length - 1]);
+    var cur = calMonth.y * 12 + (calMonth.m - 1);
+
+    document.getElementById("calTitle").textContent = calMonth.y + "年" + calMonth.m + "月";
+    document.getElementById("calPrevMonth").classList.toggle("invisible", cur <= oldest.y * 12 + (oldest.m - 1));
+    document.getElementById("calNextMonth").classList.toggle("invisible", cur >= newest.y * 12 + (newest.m - 1));
+
+    var grid = document.getElementById("calGrid");
+    var focusDate = (grid.contains(document.activeElement) && document.activeElement.getAttribute("data-date")) || null;
+    clear(grid);
+    var offset = (weekdayOf(calMonth.y, calMonth.m, 1) + 6) % 7;   // 月曜始まり
+    var days = new Date(Date.UTC(calMonth.y, calMonth.m, 0)).getUTCDate();
+    for(var i = 0; i < offset; i++) grid.appendChild(el("span", { class: "cal-day" }));
+    for(var d = 1; d <= days; d++){
+      var key = calMonth.y + "-" + pad2(calMonth.m) + "-" + pad2(d);
+      if(have[key]){
+        var isCurrent = currentKey && currentKey.date === key;
+        var btn = el("button", { type: "button", class: "cal-day has" + (isCurrent ? " current" : ""), text: String(d), "data-date": key });
+        btn.setAttribute("aria-label", formatStripDate(key) + (isCurrent ? "（表示中）" : ""));
+        if(isCurrent) btn.setAttribute("aria-current", "date");
+        grid.appendChild(btn);
+        if(key === focusDate) btn.focus();
+      }else{
+        grid.appendChild(el("span", { class: "cal-day none", text: String(d) }));
       }
-      if(!isCurrent){
-        btn.addEventListener("click", function(){
-          var preferred = SLOT_ORDER.slice().reverse().find(function(s){ return row.slots[s]; });
-          var keepSlot = currentKey && row.slots[currentKey.slot] ? currentKey.slot : preferred;
-          selectEdition(row.date, keepSlot);
-        });
+    }
+  }
+
+  function renderDateBar(){
+    var nav = document.getElementById("dateBar");
+    var empty = !indexData || !Array.isArray(indexData.editions) || indexData.editions.length === 0;
+    nav.classList.toggle("is-empty", empty);
+    document.getElementById("dateEmpty").hidden = !empty;
+    if(empty){ setCalOpen(false); return; }
+    if(!currentKey) return;
+
+    calMonth = { y: parseYmd(currentKey.date).y, m: parseYmd(currentKey.date).m };
+    document.getElementById("stripDateText").textContent = formatStripDate(currentKey.date);
+    var hasPrev = !!neighborDate(-1), hasNext = !!neighborDate(1);
+    ["stripPrev", "dayPrev"].forEach(function(id){ document.getElementById(id).classList.toggle("invisible", !hasPrev); });
+    ["stripNext", "dayNext"].forEach(function(id){ document.getElementById(id).classList.toggle("invisible", !hasNext); });
+    renderCalendar();
+  }
+
+  // ボタンの動きは1回だけ結びつける(中身は押された時点の indexData / currentKey を見る)
+  function wireDateBar(){
+    var nav = document.getElementById("dateBar");
+    document.getElementById("stripPrev").addEventListener("click", function(){ stepDay(-1); });
+    document.getElementById("stripNext").addEventListener("click", function(){ stepDay(1); });
+    document.getElementById("dayPrev").addEventListener("click", function(){ stepDay(-1); });
+    document.getElementById("dayNext").addEventListener("click", function(){ stepDay(1); });
+    document.getElementById("calPrevMonth").addEventListener("click", function(){ stepMonth(-1); });
+    document.getElementById("calNextMonth").addEventListener("click", function(){ stepMonth(1); });
+    document.getElementById("stripDate").addEventListener("click", function(){ setCalOpen(!calOpen); });
+    document.getElementById("calGrid").addEventListener("click", function(ev){
+      var btn = ev.target.closest ? ev.target.closest("button[data-date]") : null;
+      if(btn) goToDate(btn.getAttribute("data-date"));
+    });
+    // カレンダーの外を押したら閉じる(押した場所が消えていても判定できるよう composedPath を使う)
+    document.addEventListener("click", function(ev){
+      if(!calOpen) return;
+      var path = ev.composedPath ? ev.composedPath() : [];
+      if(path.indexOf(nav) === -1 && !nav.contains(ev.target)) setCalOpen(false);
+    });
+    document.addEventListener("keydown", function(ev){
+      if(ev.key === "Escape" && calOpen){
+        setCalOpen(false);
+        document.getElementById("stripDate").focus();
       }
-      nav.appendChild(btn);
     });
   }
 
@@ -1382,6 +1703,18 @@
     if(followup.has_new_source === true) paren = "（今回は新しい資料あり）";
     else if(followup.has_new_source === false) paren = "（前と同じ資料だけ）";
     return { lead: lead, paren: paren };
+  }
+
+  // 札から飛べる号。first_seen_edition_id が「YYYY-MM-DD-朝昼夕の英語名」の形で、
+  // かつ editions/index.json にその号があるときだけ、その index の項目を返す(無ければ null)。
+  var EDITION_ID_RE = /^\d{4}-\d{2}-\d{2}-(morning|noon|evening)$/;
+
+  function followupTarget(followup){
+    if(!followup || typeof followup !== "object" || followup.is_followup !== true) return null;
+    var id = followup.first_seen_edition_id;
+    if(typeof id !== "string" || !EDITION_ID_RE.test(id)) return null;
+    if(!indexData || !Array.isArray(indexData.editions)) return null;
+    return indexData.editions.find(function(e){ return e.edition_id === id; }) || null;
   }
 
   function followupTagText(followup){
@@ -1602,8 +1935,16 @@
     var tagParts = followupTagParts(art.followup);
     if(tagParts){
       var tagEl = el("p", { class: "followup-tag" });
-      tagEl.appendChild(document.createTextNode(tagParts.lead));
-      if(tagParts.paren) tagEl.appendChild(el("span", { class: "followup-paren", text: tagParts.paren }));
+      var target = followupTarget(art.followup);
+      // 初出の号が index.json にあるときだけ、札を押せるようにする(文言は同じ。末尾に「→」を足す)
+      var tagBody = target ? el("button", { type: "button", class: "followup-link" }) : tagEl;
+      tagBody.appendChild(document.createTextNode(tagParts.lead));
+      if(tagParts.paren) tagBody.appendChild(el("span", { class: "followup-paren", text: tagParts.paren }));
+      if(target){
+        tagBody.appendChild(el("span", { class: "followup-arrow", text: "\u2192", "aria-hidden": "true" }));
+        tagBody.addEventListener("click", function(){ showEdition(target.date, target.slot); });
+        tagEl.appendChild(tagBody);
+      }
       artEl.appendChild(tagEl);
     }
     artEl.appendChild(el("h3", { class: "headline", text: art.headline || "" }));
@@ -2040,6 +2381,7 @@
   // ---------- 起動 ----------
 
   async function init(){
+    wireDateBar();
     try{
       indexData = await fetchJson("editions/index.json?t=" + Date.now());
       hideFatalError();
