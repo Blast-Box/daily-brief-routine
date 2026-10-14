@@ -640,6 +640,12 @@
     border-radius:0;
     resize:vertical;
   }
+  /* ============ 答え合わせ用にコピー(会社カード) ============ */
+  .answer-check{ margin:10px 0 0; }
+  .answer-check .ask-btn{ flex:none; width:100%; max-width:320px; }
+  .answer-check .ask-note{ margin-top:6px; }
+  .answer-check-reason{ font-size:12px; line-height:1.6; color:var(--muted); margin:8px 0 0; }
+
   .sr-only{
     position:absolute;
     width:1px; height:1px;
@@ -1772,6 +1778,39 @@
     }
   }
 
+  // ---------- 営業日の表(calendar/{年}.json) ----------
+  // 答え合わせ用にコピーする文の「期限」を数えるのに使う。ページを開いたときに今年と翌年の2年分を1回だけ読む。
+  // 読めなくても紙面の表示は止めない(コピーのボタンの代わりに理由を出す)。
+  var businessDays = { list: [], years: {} };
+
+  async function loadBusinessDays(){
+    var y = parseInt(jstNow().dateStr.slice(0, 4), 10);
+    await Promise.all([y, y + 1].map(async function(yr){
+      try{
+        var data = await fetchJson("calendar/" + yr + ".json?t=" + Date.now());
+        if(!data || data.year !== yr || !Array.isArray(data.business_days)) return;
+        data.business_days.forEach(function(d){
+          if(typeof d === "string" && /^\d{4}-\d{2}-\d{2}$/.test(d)) businessDays.list.push(d);
+        });
+        businessDays.years[yr] = true;
+      }catch(e){ /* 読めない年は years に入らない */ }
+    }));
+    businessDays.list.sort();
+    businessDays.list = businessDays.list.filter(function(d, i, a){ return i === 0 || a[i - 1] !== d; });
+  }
+
+  // baseStr(YYYY-MM-DD)から n 営業日後の日付。基準日より後の営業日を1日目として数えた n 日目。
+  // 基準日の年の表が無い、または表の終わりを超えるときは null(間違った日を返さない)。
+  function addBusinessDays(baseStr, n){
+    if(!/^\d{4}-\d{2}-\d{2}$/.test(baseStr || "") || !(n >= 1) || Math.floor(n) !== n) return null;
+    if(!businessDays.years[parseInt(baseStr.slice(0, 4), 10)]) return null;
+    var list = businessDays.list;
+    var i = 0;
+    while(i < list.length && list[i] <= baseStr) i++;
+    var idx = i + n - 1;
+    return idx < list.length ? list[idx] : null;
+  }
+
   function renderCorrectionNotice(editionId){
     var box = document.getElementById("correctionNotice");
     clear(box);
@@ -1930,6 +1969,155 @@
     return box;
   }
 
+  // ---------- 答え合わせ用にコピー ----------
+  // 会社カードから、答え合わせ帳(非公開のページ)に貼る7行の文を作ってコピーする。
+  // 文の形は答え合わせ帳が読む形と1文字も違えない(区切りの「：」と括弧「（）」は全角)。株価は入れない。
+  var ANSWER_CHECK_LABEL = "答え合わせ用にコピー";
+  var ANSWER_CHECK_HORIZON_DEFAULT = 20;
+  var ANSWER_CHECK_REASON_FORM = "この会社は答え合わせ帳に入れられる形になっていません。";
+  var ANSWER_CHECK_REASON_CAL = "営業日の表を読めないため、コピーできません。ページを開き直してください。";
+
+  function isIsoDate(v){
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(typeof v === "string" ? v : "");
+    if(!m) return false;
+    var y = parseInt(m[1], 10), mo = parseInt(m[2], 10), d = parseInt(m[3], 10);
+    var t = new Date(Date.UTC(y, mo - 1, d));
+    return t.getUTCFullYear() === y && t.getUTCMonth() === mo - 1 && t.getUTCDate() === d;
+  }
+
+  // 戻り値: { text: "7行の文" } か { reason: "出せない理由" }
+  // kind: "top"(上段。仮説ファイルの hypotheses の1件) か "bottom"(下段。industry_examples の1件)
+  // today: 日本時間の今日(YYYY-MM-DD)。押したときに求めた値を渡す。
+  function buildAnswerCheckText(kind, rec, editionId, today){
+    var name = typeof rec.company_name === "string" ? rec.company_name : "";
+    var ticker = typeof rec.ticker === "string" ? rec.ticker : "";
+    if(!/^\d{4}-\d{2}-\d{2}-(morning|noon|evening)$/.test(typeof editionId === "string" ? editionId : "")) return { reason: ANSWER_CHECK_REASON_FORM };
+    if(name.trim() === "" || /[\r\n]/.test(name) || !/^[0-9A-Z]{4}$/.test(ticker)) return { reason: ANSWER_CHECK_REASON_FORM };
+
+    var hypothesis = "なし";
+    var auto = "いいえ";
+    var base = null;        // { date, typeLabel }
+    var deadline = null;    // { date, n }
+
+    if(kind === "top"){
+      if(typeof rec.hypothesis_id !== "string" || !/^[0-9A-Za-z-]+$/.test(rec.hypothesis_id)) return { reason: ANSWER_CHECK_REASON_FORM };
+      hypothesis = rec.hypothesis_id;
+      if(rec.auto_check_target === true) auto = "はい";
+
+      var type = rec.baseline_price_type;
+      var typeLabel = (type === "open" || type === "next_open") ? "始値" : (type === "observed" ? "その場の株価" : null);
+      var n = rec.horizon_business_days;
+      var complete = typeLabel && isIsoDate(rec.baseline_date) && isIsoDate(rec.deadline_date) &&
+        typeof n === "number" && n >= 1 && Math.floor(n) === n && rec.deadline_date > rec.baseline_date;
+      if(complete){
+        if(type === "observed" && today > rec.baseline_date){
+          // 読んだときの株価は後から分からないので、コピーした日を基準にして、その日から数え直す
+          var recount = addBusinessDays(today, n);
+          if(!recount) return { reason: ANSWER_CHECK_REASON_CAL };
+          base = { date: today, typeLabel: typeLabel };
+          deadline = { date: recount, n: n };
+        }else{
+          // 仮説ファイルの値をそのまま写す(計算し直さない)
+          base = { date: rec.baseline_date, typeLabel: typeLabel };
+          deadline = { date: rec.deadline_date, n: n };
+        }
+      }
+    }
+
+    if(!base){
+      // 下段の会社と、基準・期限の情報がそろっていない上段の会社: コピーした日・その場の株価・20営業日後
+      var d20 = addBusinessDays(today, ANSWER_CHECK_HORIZON_DEFAULT);
+      if(!d20) return { reason: ANSWER_CHECK_REASON_CAL };
+      base = { date: today, typeLabel: "その場の株価" };
+      deadline = { date: d20, n: ANSWER_CHECK_HORIZON_DEFAULT };
+    }
+
+    var text = [
+      "情勢デイリー 答え合わせ v1",
+      "号：" + editionId,
+      "会社：" + name + "（" + ticker + "）",
+      "仮説：" + hypothesis,
+      "基準：" + base.date + " " + base.typeLabel,
+      "期限：" + deadline.date + " 終値（" + deadline.n + "営業日後）",
+      "自動の対象：" + auto
+    ].join("\n");
+    return { text: text };
+  }
+
+  // クリップボードへコピーする。renderAskBox() と同じ順: Clipboard API → legacyCopy() → (呼び出し側が)手で選ぶ枠。
+  // iPhoneのSafariは「押した直後」でないとコピーを拒むため、待たずにすぐ呼ぶ(通信やawaitをはさまない)。
+  function copyTextNow(text, onDone, onFail){
+    var clip = navigator.clipboard;
+    if(clip && typeof clip.writeText === "function" && window.isSecureContext){
+      var p = null;
+      try{ p = clip.writeText(text); }catch(e){ p = null; }
+      if(p && typeof p.then === "function"){
+        p.then(onDone, function(){
+          if(legacyCopy(text)) onDone(); else onFail();
+        });
+        return;
+      }
+    }
+    if(legacyCopy(text)) onDone(); else onFail();
+  }
+
+  function renderAnswerCheck(kind, rec, editionId){
+    var wrap = el("div", { class: "answer-check" });
+    var first = buildAnswerCheckText(kind, rec, editionId, jstNow().dateStr);
+    if(!first.text){
+      wrap.appendChild(el("p", { class: "answer-check-reason", text: first.reason }));
+      return wrap;
+    }
+
+    var btn = el("button", { type: "button", class: "ask-btn", text: ANSWER_CHECK_LABEL });
+    wrap.appendChild(btn);
+    var note = el("p", { class: "ask-note", text: "答え合わせ帳に貼ってください。" });
+    note.hidden = true;
+    wrap.appendChild(note);
+    var live = el("span", { class: "sr-only", "aria-live": "polite" });
+    wrap.appendChild(live);
+
+    // コピーできなかったときに、手で選んでコピーできる枠を出す(黙って失敗しない)。
+    var manual = el("div", { class: "ask-manual" });
+    manual.hidden = true;
+    manual.appendChild(el("p", { class: "warn-note" }, [
+      svgWarnTriangle(),
+      document.createTextNode("コピーできませんでした。下の枠の文を選んでコピーしてください（iPhoneでは長押しして『すべてを選択』→『コピー』）。")
+    ]));
+    var manualText = el("textarea", { readonly: "", rows: "7", "aria-label": "答え合わせ用の文" });
+    manual.appendChild(manualText);
+    wrap.appendChild(manual);
+
+    var btnTimer = null, noteTimer = null;
+    function done(){
+      manual.hidden = true;
+      btn.textContent = COPY_DONE_LABEL;
+      note.hidden = false;
+      live.textContent = "答え合わせ用の文をコピーしました。答え合わせ帳に貼ってください。";
+      if(btnTimer) clearTimeout(btnTimer);
+      if(noteTimer) clearTimeout(noteTimer);
+      btnTimer = setTimeout(function(){ btn.textContent = ANSWER_CHECK_LABEL; }, 2000);
+      noteTimer = setTimeout(function(){ note.hidden = true; live.textContent = ""; }, 4000);
+    }
+    function failed(text){
+      btn.textContent = ANSWER_CHECK_LABEL;
+      note.hidden = true;
+      live.textContent = "コピーできませんでした。";
+      manualText.value = text;
+      manual.hidden = false;
+      try{ manualText.focus(); manualText.select(); }catch(e){ /* 選べなくても枠は見えている */ }
+    }
+
+    btn.addEventListener("click", function(){
+      // 押した時点の「今日」で文を作り直す(通信しない。営業日の表はページを開いたときに読んである)
+      var res = buildAnswerCheckText(kind, rec, editionId, jstNow().dateStr);
+      var text = res.text || first.text;
+      copyTextNow(text, done, function(){ failed(text); });
+    });
+
+    return wrap;
+  }
+
   function renderArticle(art, sourcesById, companyIndex, ed){
     var artEl = el("article", { class: "article" });
     var tagParts = followupTagParts(art.followup);
@@ -2011,7 +2199,8 @@
   // ---------- 企業欄（記事ごと） ----------
 
   function buildCompanyIndex(hy, articleIds){
-    var idx = { top: {}, bottom: {}, unmatchedTop: 0, unmatchedBottom: 0, legacyInferredSkipped: 0 };
+    var idx = { top: {}, bottom: {}, unmatchedTop: 0, unmatchedBottom: 0, legacyInferredSkipped: 0,
+                editionId: (hy && typeof hy.edition_id === "string") ? hy.edition_id : null };
 
     var hyps = (hy && Array.isArray(hy.hypotheses)) ? hy.hypotheses : [];
     hyps.forEach(function(h){
@@ -2099,7 +2288,7 @@
     return "この会社は" + when + "号でも同じ書類で挙がっています。この号の分は自動の答え合わせに入りません。";
   }
 
-  function renderTopCompanyCard(h){
+  function renderTopCompanyCard(h, editionId){
     var card = el("div", { class: "company-card" });
 
     var head = el("div", { class: "company-head" });
@@ -2149,17 +2338,19 @@
       ]));
     }
 
+    body.appendChild(renderAnswerCheck("top", h, editionId));
+
     card.appendChild(body);
     return card;
   }
 
-  function renderTopTier(list){
+  function renderTopTier(list, editionId){
     var box = el("div", { class: "companies-tier" });
     box.appendChild(el("p", { class: "companies-heading", text: "この記事のもとになった資料に名前が出ている企業" }));
     box.appendChild(el("p", { class: "companies-note", text:
       "AIが自動生成したものであり、企業の評価でも投資の推奨でもありません。印が示すのは会社名がどこに載っていたかだけで、その会社と出来事の関係の説明はAIの推論です。"
     }));
-    list.forEach(function(h){ box.appendChild(renderTopCompanyCard(h)); });
+    list.forEach(function(h){ box.appendChild(renderTopCompanyCard(h, editionId)); });
     return box;
   }
 
@@ -2167,7 +2358,7 @@
     return "https://finance.yahoo.co.jp/quote/" + ticker + ".T/history";
   }
 
-  function renderIndustryCompany(ex){
+  function renderIndustryCompany(ex, editionId){
     var wrap = el("div", { class: "industry-company" });
 
     var head = el("div", { class: "industry-company-head" });
@@ -2190,12 +2381,14 @@
       ]));
     }
 
+    wrap.appendChild(renderAnswerCheck("bottom", ex, editionId));
+
     return wrap;
   }
 
   var NO_COMPANY_TEXT = "この号では会社の例の枠が足りず、この業種の会社は出していません。";
 
-  function renderBottomTier(group){
+  function renderBottomTier(group, editionId){
     var box = el("div", { class: "companies-tier" });
     // 改修31第4回: 記事に下段の会社が1社も無く、業種だけのとき(industries_shownがある号)は、見出しと注記を業種だけの文にする。
     var hasCompany = group.order.some(function(industry){ return group.byIndustry[industry].length > 0; });
@@ -2221,7 +2414,7 @@
         industryBox.appendChild(el("p", { class: "industry-no-company", text: NO_COMPANY_TEXT }));
       }
       group.byIndustry[industry].forEach(function(ex){
-        industryBox.appendChild(renderIndustryCompany(ex));
+        industryBox.appendChild(renderIndustryCompany(ex, editionId));
         var att = ex.attribution || "";
         var note = ex.processing_note || "";
         var key = att + "\u0001" + note;
@@ -2256,8 +2449,8 @@
     if(top.length === 0 && !hasBottom) return null;
 
     var wrap = el("div", { class: "article-companies" });
-    if(top.length > 0) wrap.appendChild(renderTopTier(top));
-    if(hasBottom) wrap.appendChild(renderBottomTier(bottomGroup));
+    if(top.length > 0) wrap.appendChild(renderTopTier(top, companyIndex.editionId));
+    if(hasBottom) wrap.appendChild(renderBottomTier(bottomGroup, companyIndex.editionId));
     return wrap;
   }
 
@@ -2391,6 +2584,7 @@
     }
 
     correctionsData = await loadCorrections();   // 運営側の訂正(corrections/index.json)を1回だけ読む
+    await loadBusinessDays();                    // 営業日の表(calendar/今年・翌年.json)を1回だけ読む。読めなくても紙面は出す
 
     if(!indexData.editions || indexData.editions.length === 0){
       renderDateBar();
