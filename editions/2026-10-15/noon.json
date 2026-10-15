@@ -1,0 +1,1431 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-10-15-noon",
+ "date": "2026-10-15",
+ "slot": "noon",
+ "generated_at": "2026-10-15T13:15:08.776034+09:00",
+ "market_open": true,
+ "baseline": {
+  "date": "2026-10-15",
+  "price_type": "observed"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-15&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月15日）",
+   "published_at": "2026-10-15",
+   "fetched_at": "2026-10-15T13:08:30+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "cbac30a7400f0d88e7525071e6f4da67c6de1dd80c91bb8d508c8def1f5a05b4",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-14&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月14日）",
+   "published_at": "2026-10-14",
+   "fetched_at": "2026-10-15T13:08:36+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "b56da06b815ad1f7dede69ab8e3f7f68aa4f5c1d786fe7e6514cb909a98177e4",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z8BA?type=1",
+   "publisher": "日産化学株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（日産化学株式会社）",
+   "published_at": "2026-10-15T11:16:00+09:00",
+   "fetched_at": "2026-10-15T13:09:05+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "c8f9bfc34798f89d31e152d3091ad8c4510bfb0852cfbe37964080fc2f0b749e",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8BA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8BA）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8BA"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z8BN?type=1",
+   "publisher": "株式会社ハイデイ日高",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社ハイデイ日高）",
+   "published_at": "2026-10-15T11:17:00+09:00",
+   "fetched_at": "2026-10-15T13:09:11+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "0235a3c26d4e6a5b40570ac09f9502404838faf9b14fc4a2027d3eb4ff99f592",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8BN）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8BN）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8BN"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z8DA?type=1",
+   "publisher": "株式会社トリドリ",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社トリドリ）",
+   "published_at": "2026-10-15T11:54:00+09:00",
+   "fetched_at": "2026-10-15T13:09:17+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "f8968ab376967dd176e10a245308cef537b972f252da2090f6576d964d759c09",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8DA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8DA）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8DA"
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z8D8?type=1",
+   "publisher": "株式会社北里",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社北里）",
+   "published_at": "2026-10-15T12:03:00+09:00",
+   "fetched_at": "2026-10-15T13:09:23+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "2f02ace7bb83002906681bb179a260a5aaba92ca03163367509ce178b1bae1c0",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8D8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8D8）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8D8"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z87J?type=1",
+   "publisher": "株式会社テー・オー・ダブリュー",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社テー・オー・ダブリュー）",
+   "published_at": "2026-10-15T12:59:00+09:00",
+   "fetched_at": "2026-10-15T13:09:28+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "00730952c8f2112a15ab6b63694fac139207be2089b97a5f542a9dd7b4a2d6c3",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z87J）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z87J）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z87J"
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z8DN?type=1",
+   "publisher": "ＣＲＡＶＩＡ株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（ＣＲＡＶＩＡ株式会社）",
+   "published_at": "2026-10-15T13:04:00+09:00",
+   "fetched_at": "2026-10-15T13:09:34+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "cc946d4864770239737f30dca0cbb98b881553806788f47f1acd5b62924f78c7",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8DN）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8DN）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8DN"
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z65Y?type=1",
+   "publisher": "株式会社ライフコーポレーション",
+   "publisher_type": "company_disclosure",
+   "title": "半期報告書－第72期(2026/03/01－2027/02/28)（株式会社ライフコーポレーション）",
+   "published_at": "2026-10-15T09:00:00+09:00",
+   "fetched_at": "2026-10-15T13:09:40+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "2d213c636d5ecbad648d7d095451c69b674427a1d06c1ae816a9f0bea3fb9c16",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z65Y）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z65Y）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z65Y"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z84Z?type=1",
+   "publisher": "株式会社アドヴァン",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社アドヴァン）",
+   "published_at": "2026-10-14T17:09:00+09:00",
+   "fetched_at": "2026-10-15T13:09:46+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "2e22218c7647cef314bc304e1a23b9b18a75d49ae546e240d219fa103b59d67b",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z84Z）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z84Z）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z84Z"
+  },
+  {
+   "source_id": "SRC-010",
+   "url": "https://www.boj.or.jp/about/press/koen_2026/data/ko261015a1.pdf",
+   "publisher": "日本銀行",
+   "publisher_type": "central_bank",
+   "title": "わが国の経済・物価情勢と金融政策 ── 熊本県金融経済懇談会における挨拶要旨 ──",
+   "published_at": "2026-10-15",
+   "fetched_at": "2026-10-15T13:11:22+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "54f2aeb7556bd8fb45f05c7d99fd430700fd0dc83af31dffb48ed834709cc091",
+   "usage": "quotable",
+   "attribution": "出典：日本銀行「わが国の経済・物価情勢と金融政策 ── 熊本県金融経済懇談会における挨拶要旨 ──」（https://www.boj.or.jp/about/press/koen_2026/data/ko261015a1.pdf）",
+   "processing_note": "日本銀行「わが国の経済・物価情勢と金融政策 ── 熊本県金融経済懇談会における挨拶要旨 ──」（https://www.boj.or.jp/about/press/koen_2026/data/ko261015a1.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-011",
+   "url": "https://www.tokyo-np.co.jp/article/521719",
+   "publisher": "東京新聞",
+   "publisher_type": "other",
+   "title": "東京新聞の検索結果（2026-10-15）",
+   "published_at": null,
+   "fetched_at": "2026-10-15T13:12:30+09:00",
+   "fetch_method": "websearch_snippet",
+   "content_sha256": "eed35b87eaf06d0061e4e75f58051e1093697451fea3c31eba19aee2fc1c480a",
+   "usage": "snippet_only",
+   "attribution": "出典：東京新聞「東京新聞の検索結果（2026-10-15）」（https://www.tokyo-np.co.jp/article/521719）",
+   "processing_note": "東京新聞「東京新聞の検索結果（2026-10-15）」（https://www.tokyo-np.co.jp/article/521719）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-15-001",
+     "event_id": "EVT-2026-10-15-001",
+     "headline": "日銀の審議委員が熊本で挨拶：「中立金利は1%より相応に上」、今後も利上げを適時に",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "日本銀行の審議委員が10月15日、熊本県金融経済懇談会で挨拶し、その要旨を日本銀行が公表した。日本銀行は9月の決定会合で、政策金利を1.25%に引き上げている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1.25,
+         "unit": "%",
+         "label": "政策金利（9月の決定会合で引き上げた後の水準）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "政策金利を、９月の決定会合で 1.25％へ引き上げました",
+       "attribution": "出典：日本銀行「わが国の経済・物価情勢と金融政策 ── 熊本県金融経済懇談会における挨拶要旨 ──」（https://www.boj.or.jp/about/press/koen_2026/data/ko261015a1.pdf）",
+       "processing_note": "日本銀行「わが国の経済・物価情勢と金融政策 ── 熊本県金融経済懇談会における挨拶要旨 ──」（https://www.boj.or.jp/about/press/koen_2026/data/ko261015a1.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "中立金利とは、景気や物価を温めも冷やしもしない、ちょうど中間の金利の水準のことで、直接は観察できず推計で幅をもって示される。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "挨拶の中で審議委員は、名目の中立金利の幅を「+1.1%程度から+2.5%程度」と示した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1.1,
+         "unit": "%",
+         "label": "名目の中立金利の幅の下限"
+        },
+        {
+         "value": 2.5,
+         "unit": "%",
+         "label": "名目の中立金利の幅の上限"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "中立金利のレンジは＋1.1％程度から＋2.5％程度の範囲になります",
+       "attribution": "出典：日本銀行「わが国の経済・物価情勢と金融政策 ── 熊本県金融経済懇談会における挨拶要旨 ──」（https://www.boj.or.jp/about/press/koen_2026/data/ko261015a1.pdf）",
+       "processing_note": "日本銀行「わが国の経済・物価情勢と金融政策 ── 熊本県金融経済懇談会における挨拶要旨 ──」（https://www.boj.or.jp/about/press/koen_2026/data/ko261015a1.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "そのうえで、中立金利の水準は、推計の幅の下限の目安である1%よりは「相応に上」だと考えている、と述べた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "%",
+         "label": "中立金利の推計の幅の下限の目安"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "中立金利の水準は、推計レンジの下限の目安である１％よりは相応に上であ",
+       "attribution": "出典：日本銀行「わが国の経済・物価情勢と金融政策 ── 熊本県金融経済懇談会における挨拶要旨 ──」（https://www.boj.or.jp/about/press/koen_2026/data/ko261015a1.pdf）",
+       "processing_note": "日本銀行「わが国の経済・物価情勢と金融政策 ── 熊本県金融経済懇談会における挨拶要旨 ──」（https://www.boj.or.jp/about/press/koen_2026/data/ko261015a1.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "報道によると、審議委員は講演で「利上げに過度に慎重になることはない」と述べ、政策金利の引き上げを続ける姿勢を強調した。",
+       "claimed_mark": "reported_unverified",
+       "numbers": [],
+       "source_ref": "SRC-011",
+       "excerpt": null,
+       "attribution": "出典：東京新聞「東京新聞の検索結果（2026-10-15）」（https://www.tokyo-np.co.jp/article/521719）",
+       "processing_note": "東京新聞「東京新聞の検索結果（2026-10-15）」（https://www.tokyo-np.co.jp/article/521719）をもとに本サイト作成",
+       "mark": "reported_unverified",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "挨拶では、住宅ローンについて、住宅を買う20代・30代は比較的賃金の伸びが高いとし、足もとの金利上昇が働く世代の消費を必ずしも冷やすわけではないとの考えを示した。ただし、これまでの利上げが家計に及ぼす影響は丁寧に確認したい、とも述べた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20,
+         "unit": "代",
+         "label": "住宅購入を行う年代（下）"
+        },
+        {
+         "value": 30,
+         "unit": "代",
+         "label": "住宅購入を行う年代（上）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "住宅購入を行う 20 代、30 代は比較的賃金の伸びが高く、",
+       "attribution": "出典：日本銀行「わが国の経済・物価情勢と金融政策 ── 熊本県金融経済懇談会における挨拶要旨 ──」（https://www.boj.or.jp/about/press/koen_2026/data/ko261015a1.pdf）",
+       "processing_note": "日本銀行「わが国の経済・物価情勢と金融政策 ── 熊本県金融経済懇談会における挨拶要旨 ──」（https://www.boj.or.jp/about/press/koen_2026/data/ko261015a1.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "変動金利型の住宅ローンは、政策金利などの短期の金利が上がると、返済額の計算に使う金利も上がるしくみになっていることが多い。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-15-001-1",
+       "text": "政策金利が中立金利の幅に近づくまで引き上げが続けば、銀行業では貸出金利の上昇を通じて利ざやが広がる可能性がある。",
+       "falsifier": "10月29・30日の決定会合以降も政策金利が1.25%のまま長く据え置かれれば、この見方は当たりにくい。",
+       "check_metric": "日本銀行 金融政策決定会合の結果（政策金利）と、貸出約定平均金利",
+       "check_by": "2026-12-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-15-002",
+     "event_id": "EVT-2026-10-15-002",
+     "headline": "日産化学が、中国で半導体材料をつくる子会社に資本金を払い込み、「特定子会社」に（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "日産化学株式会社は10月15日、中国の子会社が同社の「特定子会社」になったとする臨時報告書を提出した。異動の年月日は2026年10月15日と書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 15,
+         "unit": "日",
+         "label": "日付（異動の年月日）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "②異動の年月日：2026年10月15日",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8BA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8BA）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "特定子会社は、資本金や売上の大きさが親会社に比べて一定以上ある子会社のことで、そうなったときには臨時報告書で届け出ることになっている。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "書類によると、この子会社の事業の内容は「半導体材料の製造・販売」で、同社が払い込んだ資本金の額は0.89億元（約21億円）、議決権の割合は100%である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 0.89,
+         "unit": "億元",
+         "label": "払い込んだ資本金の額"
+        },
+        {
+         "value": 21,
+         "unit": "億円",
+         "label": "払い込んだ資本金の額（円換算の目安）"
+        },
+        {
+         "value": 100,
+         "unit": "%",
+         "label": "異動後の議決権の割合"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "異動後：0.89億元（約21億円）の100%",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8BA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8BA）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-15-002-1",
+       "text": "半導体材料の生産拠点を海外に設ける動きが続けば、化学業の中で半導体向け材料の海外生産の比率が高まる可能性がある。",
+       "falsifier": "化学業の海外での設備投資の計画が前の年より減れば、この見方は当たりにくい。",
+       "check_metric": "経済産業省 海外事業活動基本調査の化学の現地法人の設備投資額",
+       "check_by": "2027-06-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-15-003",
+     "event_id": "EVT-2026-10-15-003",
+     "headline": "北里が、インドに設けた子会社を「特定子会社」として届け出る（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "株式会社北里は10月15日、インドに設立した子会社が「特定子会社」に当たるとする臨時報告書を提出した。書類によると、子会社の資本金の額は5,000,000インドルピーである。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5000000,
+         "unit": "インドルピー",
+         "label": "子会社の資本金の額"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "資本金の額  5,000,000 インドルピー",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8D8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8D8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "同社が持つ議決権の割合は、異動の後で51%と書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 51,
+         "unit": "%",
+         "label": "異動後の議決権の割合"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "異動後：51％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8D8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8D8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "書類では、この異動の年月日は2026年8月23日とされている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 23,
+         "unit": "日",
+         "label": "日付（異動の年月日）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "②異動の年月日：2026年８月23日",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8D8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8D8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-15-004",
+     "event_id": "EVT-2026-10-15-004",
+     "headline": "ハイデイ日高が自社株を買い、ある大株主の議決権の割合が10.15%から7.09%に下がり「主要株主」でなくなる（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "株式会社ハイデイ日高は10月15日、主要株主に異動があったとする臨時報告書を提出した。書類によると、ある大株主の議決権の割合は、異動前に10.15%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 36278,
+         "unit": "個",
+         "label": "異動前の所有議決権の数"
+        },
+        {
+         "value": 10.15,
+         "unit": "%",
+         "label": "異動前の議決権の割合"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "異動前  36,278個  10.15％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8BN）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8BN）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "異動後の割合は7.09%で、主要株主でなくなった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 24498,
+         "unit": "個",
+         "label": "異動後の所有議決権の数"
+        },
+        {
+         "value": 7.09,
+         "unit": "%",
+         "label": "異動後の議決権の割合"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "異動後  24,498個  7.09％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8BN）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8BN）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "主要株主は、会社の議決権の10%以上を持つ株主のことで、その顔ぶれが変わると会社は臨時報告書で届け出る。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "書類によると、異動後の割合は、同社が10月5日に東京証券取引所の立会外の取引で取得した自己株式1,178,000株を除いた議決権の数をもとに計算されている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 11780,
+         "unit": "個",
+         "label": "取得した自己株式の議決権の数"
+        },
+        {
+         "value": 1178000,
+         "unit": "株",
+         "label": "取得した自己株式の株数"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "当社が2026年10月５日にToSTNeT-3により取得した自己株式11,780個（1,178,000株）を控除した345,465個を基準として算出",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8BN）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8BN）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-15-005",
+     "event_id": "EVT-2026-10-15-005",
+     "headline": "テー・オー・ダブリューが、役員や社員に「一定期間売れない」自社株を渡す報酬のため、自己株式の処分を決める（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "株式会社テー・オー・ダブリューは10月15日、譲渡制限付株式報酬制度に基づき自己株式を処分することを決め、臨時報告書を提出した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 400,
+         "unit": "円",
+         "label": "1株につき出資される金銭報酬債権の額"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "（処分する株式１株につき出資される金銭報酬債権の額は金400円）を出資財産として、現物出資により行われるものです",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z87J）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z87J）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "譲渡制限付株式報酬は、会社が役員や社員に自社の株を渡し、決めた期間は売れないようにする報酬のしくみである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "書類によると、渡す相手のうち同社の社員は43名で、156,000株である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 43,
+         "unit": "名",
+         "label": "同社の社員の人数"
+        },
+        {
+         "value": 156000,
+         "unit": "株",
+         "label": "同社の社員への処分数"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "当社の社員  43名  156,000株",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z87J）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z87J）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-04",
+       "text": "同社の執行役員は6名で、110,000株である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 6,
+         "unit": "名",
+         "label": "同社の執行役員の人数"
+        },
+        {
+         "value": 110000,
+         "unit": "株",
+         "label": "同社の執行役員への処分数"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "当社の執行役員  ６名  110,000株",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z87J）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z87J）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-05",
+       "text": "子会社の社員は10名で、19,000株である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10,
+         "unit": "名",
+         "label": "子会社の社員の人数"
+        },
+        {
+         "value": 19000,
+         "unit": "株",
+         "label": "子会社の社員への処分数"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "子会社の社員  10名  19,000株",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z87J）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z87J）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-15-006",
+     "event_id": "EVT-2026-10-15-006",
+     "headline": "CRAVIAの臨時株主総会で、発行できる株の数の上限を増やす定款の変更が可決（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-006-01",
+       "text": "CRAVIA株式会社は10月15日に臨時株主総会を開き、発行可能株式総数を134,740,320株から286,740,320株に増やす定款の変更が決議されたとする臨時報告書を提出した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 134740320,
+         "unit": "株",
+         "label": "変更前の発行可能株式総数"
+        },
+        {
+         "value": 286740320,
+         "unit": "株",
+         "label": "変更後の発行可能株式総数"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "発行可能株式総数を134,740,320株から286,740,320株に増加させる",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8DN）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8DN）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-02",
+       "text": "この議案の賛成は321,548個、反対は27,622個で、賛成の割合は92.08%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 321548,
+         "unit": "個",
+         "label": "第1号議案の賛成数"
+        },
+        {
+         "value": 27622,
+         "unit": "個",
+         "label": "第1号議案の反対数"
+        },
+        {
+         "value": 92.08,
+         "unit": "%",
+         "label": "第1号議案の賛成割合"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "第１号議案定款の一部変更の件   321,548  27,622  0  (注)1  可決　92.08",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8DN）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8DN）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-03",
+       "text": "発行可能株式総数は、会社が定款で決めておく「発行してよい株の数の上限」で、新しく株を発行して資金を集める余地を広げるときに増やされることがある。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-15-007",
+     "event_id": "EVT-2026-10-15-007",
+     "headline": "食品スーパーの3〜8月：営業収益は2.3%増えたが、人件費と物件費の増加で営業利益は6.4%減る（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-007-01",
+       "text": "株式会社ライフコーポレーションが10月15日に提出した半期報告書によると、3〜8月の中間期の営業収益は前年同期より2.3%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.3,
+         "unit": "%",
+         "label": "営業収益の前年同期比の増加率"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "営業収益は4,500億51百万円（前年同期比2.3％増）となりました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z65Y）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z65Y）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-02",
+       "text": "書類は、新規出店に伴う賃借料などの物件費の増加に、人への投資・処遇改善などによる人件費の増加が重なったと説明している。こうしたコスト増加を吸収するには至らず、営業利益は前年同期より6.4%減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 6.4,
+         "unit": "%",
+         "label": "営業利益の前年同期比の減少率"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "これらのコスト増加を吸収するには至らず、営業利益は124億48百万円（前年同期比6.4％減）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z65Y）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z65Y）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-03",
+       "text": "部門別では、生鮮食品部門の売上高が前年同期より3.6%増え、一般食品部門は0.9%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.6,
+         "unit": "%",
+         "label": "生鮮食品部門の売上高の前年同期比の増加率"
+        },
+        {
+         "value": 0.9,
+         "unit": "%",
+         "label": "一般食品部門の売上高の前年同期比の増加率"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "生鮮食品部門1,912億73百万円（前年同期比3.6％増）、一般食品部門1,952億８百万円（前年同期比0.9％増）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z65Y）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z65Y）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-04",
+       "text": "小売業では、売上が伸びても、店の家賃や光熱費、働く人の賃金などの費用がそれ以上に増えると、本業の利益は減る。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-15-007-1",
+       "text": "賃金の引き上げと新規出店の費用が続けば、食品スーパーを含む小売業では、売上が増えても営業利益が伸びにくい状態が続く可能性がある。",
+       "falsifier": "食品スーパー各社の次の決算で、営業利益の伸びが営業収益の伸びを上回れば、この見方は当たらない。",
+       "check_metric": "食品スーパー各社の2027年2月期の決算の営業利益の前年比",
+       "check_by": "2027-04-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-15-008",
+     "event_id": "EVT-2026-10-15-008",
+     "headline": "熊本の地震と半導体産業：日銀の審議委員が挨拶で触れる",
+     "lines": [
+      {
+       "line_id": "L-008-01",
+       "text": "日本銀行の審議委員は熊本での挨拶で、熊本県では今年7月に震度7を観測する地震が発生したと述べた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 7,
+         "unit": "",
+         "label": "震度"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "本年７月には、震度７を観測す",
+       "attribution": "出典：日本銀行「わが国の経済・物価情勢と金融政策 ── 熊本県金融経済懇談会における挨拶要旨 ──」（https://www.boj.or.jp/about/press/koen_2026/data/ko261015a1.pdf）",
+       "processing_note": "日本銀行「わが国の経済・物価情勢と金融政策 ── 熊本県金融経済懇談会における挨拶要旨 ──」（https://www.boj.or.jp/about/press/koen_2026/data/ko261015a1.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-02",
+       "text": "挨拶では、この10年間の大きな成果の一つとして、熊本県での半導体産業の集積を挙げた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10,
+         "unit": "年間",
+         "label": "振り返った期間"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "この 10 年間の大きな成果の一つである半導体産業の集積をみますと",
+       "attribution": "出典：日本銀行「わが国の経済・物価情勢と金融政策 ── 熊本県金融経済懇談会における挨拶要旨 ──」（https://www.boj.or.jp/about/press/koen_2026/data/ko261015a1.pdf）",
+       "processing_note": "日本銀行「わが国の経済・物価情勢と金融政策 ── 熊本県金融経済懇談会における挨拶要旨 ──」（https://www.boj.or.jp/about/press/koen_2026/data/ko261015a1.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-04",
+       "text": "半導体の工場は、きれいな水や安定した電気を大量に使うため、地震や水害などの災害への備えが、生産を続けるうえで大切になる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-15-008-1",
+       "text": "災害への備えが評価されて半導体関連の工場の立地が熊本で続けば、九州の建設業や電気・ガス業で関連の工事や需要が増える可能性がある。",
+       "falsifier": "熊本県内の工場の新設・増設の計画が延期や取りやめに転じれば、この見方は当たらない。",
+       "check_metric": "九州経済産業局などが公表する工場立地の件数",
+       "check_by": "2027-06-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-10-15T13:15:08.776034+09:00",
+  "first_run": {
+   "run_at": "2026-10-15T13:15:08.776034+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 12,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 32,
+  "passed": 23,
+  "unverified": 0,
+  "reported_unverified": 1,
+  "explainer": 8,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 10,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-001": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E00759-000_2026-10-15_01_2026-10-15_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E00759-000_2026-10-15_01_2026-10-15_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E03318-000_2026-10-15_01_2026-10-15_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E03318-000_2026-10-15_01_2026-10-15_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E38162-000_2026-10-15_01_2026-10-15_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E38162-000_2026-10-15_01_2026-10-15_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-004": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E40668-000_2026-10-15_01_2026-10-15_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E40668-000_2026-10-15_01_2026-10-15_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E05100-000_2026-10-15_01_2026-10-15_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E05100-000_2026-10-15_01_2026-10-15_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-006": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E33868-000_2026-10-15_01_2026-10-15_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E33868-000_2026-10-15_01_2026-10-15_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-007": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp040300-ssr-001_E03083-000_2026-08-31_01_2026-10-15_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp040300-ssr-001_E03083-000_2026-08-31_01_2026-10-15_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp040300-ssr-001_E03083-000_2026-08-31_01_2026-10-15_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp040300-ssr-001_E03083-000_2026-08-31_01_2026-10-15_ixbrl.htm",
+     "XBRL/PublicDoc/0200010_honbun_jpcrp040300-ssr-001_E03083-000_2026-08-31_01_2026-10-15_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp040300-ssr-001_E03083-000_2026-08-31_01_2026-10-15_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-008": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E02826-000_2026-10-14_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E02826-000_2026-10-14_01_2026-10-14_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 10,
+  "attribution_overwritten": 36,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "noon",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 12,
+  "source_policy_unlisted_domains": [
+   "www.tokyo-np.co.jp"
+  ],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 5,
+  "evidence_doc_type_overridden": 5,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {
+   "edinet_doctype_unmapped": 5
+  },
+  "impact_kind_undetermined_by_doc_type": {
+   "180": 4,
+   "160": 1
+  },
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 5,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 5,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 1,
+   "source_ids": [
+    "SRC-011"
+   ]
+  },
+  "number_coverage": {
+   "text_number_tokens": 58,
+   "numbers_declared": 37,
+   "gap": 21,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 57,
+     "numbers_declared": 37
+    },
+    "explainer": {
+     "text_number_tokens": 1,
+     "numbers_declared": 0
+    },
+    "reported_unverified": {
+     "text_number_tokens": 0,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 2,
+   "line_ids": [
+    "L-002-01",
+    "L-003-03"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [
+   {
+    "word": "主要",
+    "location": "headline",
+    "id": "ART-2026-10-15-004"
+   },
+   {
+    "word": "主要",
+    "location": "line_text",
+    "id": "L-004-01"
+   },
+   {
+    "word": "主要",
+    "location": "line_text",
+    "id": "L-004-02"
+   },
+   {
+    "word": "主要",
+    "location": "line_text",
+    "id": "L-004-03"
+   },
+   {
+    "word": "主要",
+    "location": "hypothesis_relation_text",
+    "id": "2026-10-15-noon-3"
+   },
+   {
+    "word": "主要",
+    "location": "hypothesis_impact_reason",
+    "id": "2026-10-15-noon-3"
+   }
+  ],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 4,
+   "change": 14,
+   "ripple": 3,
+   "deep": 2
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 3,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-010"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 2,
+   "first_run_at": "2026-10-15T13:14:33.536627+09:00",
+   "last_run_at": "2026-10-15T13:15:04.546575+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 23,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [
+   {
+    "hypothesis_id": "2026-10-15-noon-1",
+    "company_name": "日産化学株式会社",
+    "submitted_at": "2026-10-15T11:16:00+09:00",
+    "baseline_point": "2026-10-15T13:15:08.776034+09:00",
+    "trading_minutes": 59,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-15-noon-2",
+    "company_name": "株式会社北里",
+    "submitted_at": "2026-10-15T12:03:00+09:00",
+    "baseline_point": "2026-10-15T13:15:08.776034+09:00",
+    "trading_minutes": 45,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-15-noon-3",
+    "company_name": "株式会社ハイデイ日高",
+    "submitted_at": "2026-10-15T11:17:00+09:00",
+    "baseline_point": "2026-10-15T13:15:08.776034+09:00",
+    "trading_minutes": 58,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-15-noon-4",
+    "company_name": "株式会社テー・オー・ダブリュー",
+    "submitted_at": "2026-10-15T12:59:00+09:00",
+    "baseline_point": "2026-10-15T13:15:08.776034+09:00",
+    "trading_minutes": 16,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-15-noon-5",
+    "company_name": "株式会社ライフコーポレーション",
+    "submitted_at": "2026-10-15T09:00:00+09:00",
+    "baseline_point": "2026-10-15T13:15:08.776034+09:00",
+    "trading_minutes": 195,
+    "reason": null
+   }
+  ],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 1,
+   "total_unregistered": 1,
+   "excluded_date_time_tokens": 26,
+   "lines": [
+    {
+     "line_id": "L-007-01",
+     "values": [
+      "3"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 1,
+   "zero_letter_count": 0,
+   "lines": [
+    {
+     "line_id": "L-003-02",
+     "letters": 3
+    }
+   ]
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "ok",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 1,
+    "source_ids": [
+     "SRC-010"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 8
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "industry_picks_total": 2,
+  "industry_examples_total": 0,
+  "industry_example_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "ai_written_examples_discarded": 0,
+  "slot_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "short_name_match_count": {
+   "count": 0,
+   "names": []
+  },
+  "allowed_industries_count": 30,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
