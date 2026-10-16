@@ -1,0 +1,1614 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-10-17-morning",
+ "date": "2026-10-17",
+ "slot": "morning",
+ "generated_at": "2026-10-17T07:39:02.497500+09:00",
+ "market_open": false,
+ "baseline": {
+  "date": "2026-10-17",
+  "price_type": "open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-17&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月17日）",
+   "published_at": "2026-10-17",
+   "fetched_at": "2026-10-17T07:32:43+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "d7e64b73edf3fdbead9041b31aa137fb66756a06c7937b67c3261bbdf87ad796",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-16&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月16日）",
+   "published_at": "2026-10-16",
+   "fetched_at": "2026-10-17T07:32:49+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "4bab461637e7ac83181a2b521121244d1149821d7da228765288a242833d9522",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z8O2?type=1",
+   "publisher": "第一カッター興業株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（第一カッター興業株式会社）",
+   "published_at": "2026-10-16T13:45:00+09:00",
+   "fetched_at": "2026-10-17T07:33:05+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "0654242f9b0e995c24b07154eeceee1c541bab88ca12073fa8e4ae394448b121",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8O2）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8O2）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8O2"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z8OK?type=1",
+   "publisher": "Ｓｈｉｎｗａ　Ｗｉｓｅ　Ｈｏｌｄｉｎｇｓ株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（Ｓｈｉｎｗａ　Ｗｉｓｅ　Ｈｏｌｄｉｎｇｓ株式会社）",
+   "published_at": "2026-10-16T13:57:00+09:00",
+   "fetched_at": "2026-10-17T07:33:12+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "0b2c3dacc675ad8f0db4175fa841ed596afaba7336daf72e06fbd7380e72d75d",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8OK）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8OK）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8OK"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z8OW?type=1",
+   "publisher": "株式会社ＡＮＡＰホールディングス",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社ＡＮＡＰホールディングス）",
+   "published_at": "2026-10-16T14:29:00+09:00",
+   "fetched_at": "2026-10-17T07:33:18+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "c0af7f0ab6f49f3f910ced6813402bfae41f7e440c210d5939333aa765a1b57f",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8OW）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8OW）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8OW"
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z8PE?type=1",
+   "publisher": "株式会社フューチャーリンクネットワーク",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社フューチャーリンクネットワーク）",
+   "published_at": "2026-10-16T15:01:00+09:00",
+   "fetched_at": "2026-10-17T07:33:23+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "9e6b7e50980e7fa214fe87ceb29ed840ce4207dc766e23dc5526d80c1cf1bed5",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8PE）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8PE）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8PE"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z8M9?type=1",
+   "publisher": "株式会社イーエムシステムズ（商号　株式会社ＥＭシステムズ）",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社イーエムシステムズ（商号　株式会社ＥＭシステムズ））",
+   "published_at": "2026-10-16T16:00:00+09:00",
+   "fetched_at": "2026-10-17T07:33:29+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "d069d1e215c571f23b36d35b8bad54713d818b2b1dc6f7b6f28d98797077e203",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8M9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8M9）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8M9"
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/02.pdf",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "資料２ 農林水産",
+   "published_at": "2026-10-16",
+   "fetched_at": "2026-10-17T07:34:28+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "9f055f8d115c364a3651106dcd536618d8ba0f3b3c237e81bf361e324111c93e",
+   "usage": "quotable",
+   "attribution": "出典：財務省「資料２ 農林水産」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/02.pdf）",
+   "processing_note": "財務省「資料２ 農林水産」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/02.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/03.pdf",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "資料３ 外交・デジタル",
+   "published_at": "2026-10-16",
+   "fetched_at": "2026-10-17T07:34:32+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "d08581be7bb4af78b7f3eb6bfb6920f0c1e9b7169b332dbb7c4f650b87fb4c28",
+   "usage": "quotable",
+   "attribution": "出典：財務省「資料３ 外交・デジタル」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/03.pdf）",
+   "processing_note": "財務省「資料３ 外交・デジタル」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/03.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-17-001",
+     "event_id": "EVT-2026-10-17-001",
+     "headline": "来年度の農林水産の予算要求を、財務省が審議会で点検：要求額は31,377億円",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "財務省が10月16日の財政制度等審議会の分科会に出した資料によると、農林水産省の令和9年度の予算の概算要求額は31,377億円（ほかに金額を示さない「事項要求」あり）である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 31377,
+         "unit": "億円",
+         "label": "令和9年度の農林水産の概算要求額"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "令和９年度概算要求額 31,377億円",
+       "attribution": "出典：財務省「資料２ 農林水産」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/02.pdf）",
+       "processing_note": "財務省「資料２ 農林水産」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/02.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "そのうち『「強く豊かな日本」投資枠』の分は4,272億円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4272,
+         "unit": "億円",
+         "label": "うち「強く豊かな日本」投資枠"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "『「強く豊かな⽇本」投資枠』 4,272億円",
+       "attribution": "出典：財務省「資料２ 農林水産」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/02.pdf）",
+       "processing_note": "財務省「資料２ 農林水産」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/02.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "概算要求は、各省庁が次の年度の予算として財務省に求める金額の見積もりで、年末にかけての調整で金額が決まっていく。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "資料は、稲作の経営体の農業所得を経営の大きさごとに比べ、15ha以上の大規模な経営では勤労者の平均給与を上回るとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 15,
+         "unit": "ha",
+         "label": "比較に使った経営面積の区切り"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "稲作経営体の農業所得をみると、15ha以上",
+       "attribution": "出典：財務省「資料２ 農林水産」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/02.pdf）",
+       "processing_note": "財務省「資料２ 農林水産」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/02.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "比べた勤労者の平均給与は545万円で、経営が小さくなると農業所得はこの水準を下回る。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 545,
+         "unit": "万円",
+         "label": "勤労者の平均給与"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "勤労者の平均給与545万円を上回っている",
+       "attribution": "出典：財務省「資料２ 農林水産」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/02.pdf）",
+       "processing_note": "財務省「資料２ 農林水産」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/02.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "地域ごとの農地の将来の使い方を決める「地域計画」は全国で作られたが、約3割の農地（約134万ha）では将来の受け手が決まっていない。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3,
+         "unit": "割",
+         "label": "受け手が決まっていない農地の割合"
+        },
+        {
+         "value": 134,
+         "unit": "万ha",
+         "label": "受け手が決まっていない農地の面積"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "約3割の農地（約134万ha）で将来の受け⼿が位置付けられていない状況",
+       "attribution": "出典：財務省「資料２ 農林水産」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/02.pdf）",
+       "processing_note": "財務省「資料２ 農林水産」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/02.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "資料の図では、耕地は423.9万ha、荒れて耕作に使えなくなった「荒廃農地」は25.7万haである。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 423.9,
+         "unit": "万ha",
+         "label": "耕地の面積"
+        },
+        {
+         "value": 25.7,
+         "unit": "万ha",
+         "label": "荒廃農地の面積"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "耕地 423.9万ha 荒廃農地 25.7万ha",
+       "attribution": "出典：財務省「資料２ 農林水産」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/02.pdf）",
+       "processing_note": "財務省「資料２ 農林水産」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/02.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-17-001-1",
+       "text": "農地を大きな経営体に集める政策が強まれば、大規模な稲作向けの農業機械や、自動で水を管理する機器などの需要が増える可能性がある。",
+       "falsifier": "年末に決まる令和9年度予算で、農地の集約や農業機械の導入を支える事業の金額が令和8年度当初より減れば、この見方は弱まる。",
+       "check_metric": "財務省 令和9年度予算政府案の農林水産関係の事業別の金額",
+       "check_by": "2026-12-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-17-002",
+     "event_id": "EVT-2026-10-17-002",
+     "headline": "米の備蓄：政府の備蓄米は74万トン、民間の在庫の「適正水準」は180〜200万トン程度（財務省の資料から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "政府の備蓄米は、不作や災害で米が足りなくなったときに備えて、国が買って蓄えておく米である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "財務省の資料によると、米の政府備蓄は100万トン程度を適正な水準として運営されている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 100,
+         "unit": "万トン",
+         "label": "政府備蓄の適正水準"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "については、100万トン程度を適正",
+       "attribution": "出典：財務省「資料２ 農林水産」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/02.pdf）",
+       "processing_note": "財務省「資料２ 農林水産」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/02.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "毎年20万トン程度を、種をまく前に契約して買い入れる仕組みである。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20,
+         "unit": "万トン",
+         "label": "毎年の買入れ量"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "毎年20万トン程度を播種前に契約の上で買い",
+       "attribution": "出典：財務省「資料２ 農林水産」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/02.pdf）",
+       "processing_note": "財務省「資料２ 農林水産」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/02.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "昨年の備蓄米の放出で、備蓄の水準はいったん32万トンまで減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 32,
+         "unit": "万トン",
+         "label": "放出後の備蓄水準"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "昨年の備蓄⽶放出を受けて、備蓄⽔準は32万トンまで減少した",
+       "attribution": "出典：財務省「資料２ 農林水産」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/02.pdf）",
+       "processing_note": "財務省「資料２ 農林水産」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/02.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "すでに落札した分の買入れなどを合わせ、政府の備蓄米の水準は74万トンとされている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 74,
+         "unit": "万トン",
+         "label": "政府備蓄米の備蓄水準"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "政府備蓄⽶の備蓄⽔準は74万トン",
+       "attribution": "出典：財務省「資料２ 農林水産」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/02.pdf）",
+       "processing_note": "財務省「資料２ 農林水産」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/02.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-06",
+       "text": "資料は、市中の民間在庫の適正な水準を180〜200万トン程度としている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 180,
+         "unit": "万トン",
+         "label": "民間在庫の適正水準（下限）"
+        },
+        {
+         "value": 200,
+         "unit": "万トン",
+         "label": "民間在庫の適正水準（上限）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "（適正⽔準180〜200万トン程度）",
+       "attribution": "出典：財務省「資料２ 農林水産」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/02.pdf）",
+       "processing_note": "財務省「資料２ 農林水産」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/02.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-07",
+       "text": "このほか、政府が持つ輸入米の在庫も40万トン程度ある。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 40,
+         "unit": "万トン",
+         "label": "政府が保有する輸入米の在庫量"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "なお、政府が保有する輸⼊⽶の在庫量も40万トン程度存在",
+       "attribution": "出典：財務省「資料２ 農林水産」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/02.pdf）",
+       "processing_note": "財務省「資料２ 農林水産」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/02.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-17-002-1",
+       "text": "民間の在庫が適正水準を上回る状態が続けば、米の店頭の値段の上がり方が鈍り、米を仕入れて売る卸や外食の仕入れの負担が軽くなる可能性がある。",
+       "falsifier": "今後の小売物価統計で、米の値段が前の月より上がる月が続けば、この見方は成り立たない。",
+       "check_metric": "総務省 小売物価統計調査（東京都区部）のうるち米の価格",
+       "check_by": "2027-01-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-17-003",
+     "event_id": "EVT-2026-10-17-003",
+     "headline": "外務省の来年度の予算要求は12,165億円（財務省の資料から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "財務省の資料によると、外務省の令和9年度の概算要求額は12,165億円で、ほかに金額を示さない「事項要求」がある。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 12165,
+         "unit": "億円",
+         "label": "令和9年度の外務省の概算要求額"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "令和９年度概算要求額 12,165億円",
+       "attribution": "出典：財務省「資料３ 外交・デジタル」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/03.pdf）",
+       "processing_note": "財務省「資料３ 外交・デジタル」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/03.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "そのうち『「強く豊かな日本」投資枠』の分は2,998億円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2998,
+         "unit": "億円",
+         "label": "うち「強く豊かな日本」投資枠"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "『「強く豊かな日本」投資枠』 2,998億円",
+       "attribution": "出典：財務省「資料３ 外交・デジタル」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/03.pdf）",
+       "processing_note": "財務省「資料３ 外交・デジタル」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/03.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-17-004",
+     "event_id": "EVT-2026-10-17-004",
+     "headline": "ANAPホールディングス、エステとアパレルの店舗を閉じ、事業再編損の累計は432,051千円に（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "ANAPホールディングスが10月16日に出した臨時報告書によると、同社はエステティックサロン事業でさらに1店舗、アパレル事業で2店舗の閉鎖を決めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "店舗",
+         "label": "件数（エステティックサロン事業の閉鎖）"
+        },
+        {
+         "value": 2,
+         "unit": "店舗",
+         "label": "件数（アパレル事業の閉鎖）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "エステティックサロン事業において更に１店舗の閉鎖、またアパレル事業において２店舗の閉鎖を決定いたしました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8OW）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8OW）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "これに伴い、店舗の閉鎖に関わる費用など136,635千円を、事業再編損として特別損失に計上した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 136635,
+         "unit": "千円",
+         "label": "店舗閉鎖に関連する費用等"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "店舗閉鎖に関連する費用等136,635千円を事業再編損として特別損失に計上いたしました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8OW）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8OW）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "2026年8月期の連結決算で、事業再編損の累計額は432,051千円となった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 432051,
+         "unit": "千円",
+         "label": "事業再編損の累計額"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "事業再編損の累計額は432,051千円となりました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8OW）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8OW）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "アパレルの子会社は、今後17店舗で事業を行う。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 17,
+         "unit": "店舗",
+         "label": "件数（アパレルの子会社の今後の店舗）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "今後17店舗での事業展開となり",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8OW）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8OW）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "特別損失は、ふだんの営業とは別の、一時的な理由で出た損失のことである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-17-005",
+     "event_id": "EVT-2026-10-17-005",
+     "headline": "フューチャーリンクネットワーク、株式の評価損50百万円と減損損失73百万円を特別損失に（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "フューチャーリンクネットワークは10月16日の臨時報告書で、持っている市場価格のない株式について、投資有価証券評価損50百万円を特別損失として計上したと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 50,
+         "unit": "百万円",
+         "label": "投資有価証券評価損"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "実質価額が低下したと判断し、投資有価証券評価損50百万円を特別損",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8PE）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8PE）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "同社は、ふるさと納税の事業を、2026年10月1日に新しく分けた会社に引き継いでいる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "日",
+         "label": "日付（新設分割の効力発生日）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "ふるさと納税事業を新設分割により株式会社フューチャーリンクローカルサポートに承継させたこと（2026年10月1日効力発生）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8PE）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8PE）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "これを踏まえて親会社単体の公共ソリューション事業の見積りを見直し、2026年8月期に減損損失73百万円を特別損失として計上した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 50,
+         "unit": "百万円",
+         "label": "投資有価証券評価損"
+        },
+        {
+         "value": 73,
+         "unit": "百万円",
+         "label": "減損損失"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "投資有価証券評価損50百万円及び減損損失73百万円を特別損失として計上いたしました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8PE）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8PE）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-04",
+       "text": "減損は、設備などが将来生み出すお金が帳簿の金額より少ないと見込んだとき、その差を損失として計上することである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-17-006",
+     "event_id": "EVT-2026-10-17-006",
+     "headline": "美術品オークションのShinwa Wise Holdings、子会社のShinwa Auctionを吸収合併へ（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-006-01",
+       "text": "Shinwa Wise Holdingsは10月16日の臨時報告書で、10月15日の取締役会で、完全子会社のShinwa Auctionを吸収合併する合併契約書を承認したと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 15,
+         "unit": "日",
+         "label": "日付（合併契約書承認の取締役会決議日）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "合併契約書承認の取締役会決議日 2026年10月15日",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8OK）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8OK）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-02",
+       "text": "合併される側のShinwa Auctionの純資産の額は230百万円（2026年5月31日現在）である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 230,
+         "unit": "百万円",
+         "label": "Shinwa Auctionの純資産の額"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "純資産の額 230百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8OK）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8OK）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-03",
+       "text": "同社の総資産の額は1,473百万円（同）である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1473,
+         "unit": "百万円",
+         "label": "Shinwa Auctionの総資産の額"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "総資産の額 1,473百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8OK）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8OK）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-04",
+       "text": "同社の売上高は、2024年5月期811百万円、2025年5月期1,046百万円、2026年5月期860百万円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 811,
+         "unit": "百万円",
+         "label": "売上高（2024年5月期）"
+        },
+        {
+         "value": 1046,
+         "unit": "百万円",
+         "label": "売上高（2025年5月期）"
+        },
+        {
+         "value": 860,
+         "unit": "百万円",
+         "label": "売上高（2026年5月期）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "売上高 811百万円 1,046百万円 860百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8OK）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8OK）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-05",
+       "text": "吸収合併は、ある会社が別の会社を取り込み、取り込まれた会社が消える形の合併である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-17-007",
+     "event_id": "EVT-2026-10-17-007",
+     "headline": "EMシステムズ、完全子会社2社を吸収合併すると決める（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-007-01",
+       "text": "EMシステムズは10月16日の取締役会で、完全子会社のEMテクノロジー研究所とグッドサイクルシステムの2社を吸収合併することを決めたと、臨時報告書で届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 16,
+         "unit": "日",
+         "label": "日付（合併を決議した取締役会）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "合併決議取締役会 2026年10月16日",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8M9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8M9）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-02",
+       "text": "合併される側のEMテクノロジー研究所の純資産の額は796百万円（2025年12月31日現在）である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 796,
+         "unit": "百万円",
+         "label": "EMテクノロジー研究所の純資産の額"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "純資産の額 796百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8M9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8M9）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-03",
+       "text": "グッドサイクルシステムの純資産の額は358百万円（同）である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 358,
+         "unit": "百万円",
+         "label": "グッドサイクルシステムの純資産の額"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "純資産の額 358百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8M9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8M9）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-17-008",
+     "event_id": "EVT-2026-10-17-008",
+     "headline": "第一カッター興業で、ダイヤモンド機工が主要株主である筆頭株主に（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-008-01",
+       "text": "第一カッター興業の10月16日の臨時報告書によると、ダイヤモンド機工株式会社の議決権の割合は10.86%（2026年10月13日現在）で、主要株主である筆頭株主となった。議決権の数は12,489個である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 12489,
+         "unit": "個",
+         "label": "ダイヤモンド機工の所有議決権の数"
+        },
+        {
+         "value": 10.86,
+         "unit": "%",
+         "label": "ダイヤモンド機工の議決権の割合"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "12,489個（1,248,900株） 10.86％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8O2）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8O2）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-02",
+       "text": "それまでの筆頭株主が持っていた株式は相続の対象となり、2026年10月13日に名義の変更が完了した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 13,
+         "unit": "日",
+         "label": "日付（名義変更の完了日）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "2026年10月13日に相続に伴う株式の名義変更が完了した",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8O2）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8O2）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-03",
+       "text": "それまでの筆頭株主の議決権の割合は、異動前（2025年12月31日現在）で14.26%（議決権の数は16,400個）だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 16400,
+         "unit": "個",
+         "label": "それまでの筆頭株主の所有議決権の数（異動前）"
+        },
+        {
+         "value": 14.26,
+         "unit": "%",
+         "label": "それまでの筆頭株主の議決権の割合（異動前）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "16,400個（1,640,000株） 14.26％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8O2）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8O2）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-04",
+       "text": "主要株主は、会社の議決権の一定の割合以上を持つ株主のことで、変わると会社は臨時報告書を出す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-17-009",
+     "event_id": "EVT-2026-10-17-009",
+     "headline": "自治体のシステムの標準化：移行後の運用の経費が想定を上回り、国が350億円の補助金（財務省の資料から）",
+     "lines": [
+      {
+       "line_id": "L-009-01",
+       "text": "財務省の資料によると、自治体の20の基幹業務システム（住民基本台帳、戸籍、地方税など）について、標準化と「ガバメントクラウド」への移行が進められている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20,
+         "unit": "業務",
+         "label": "件数（標準化の対象の基幹業務システム）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "自治体の20基幹業務システム（住民基本台帳、戸籍、地方税等）について、標準化やガバメントクラウドへの移行を実施中。",
+       "attribution": "出典：財務省「資料３ 外交・デジタル」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/03.pdf）",
+       "processing_note": "財務省「資料３ 外交・デジタル」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/03.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-02",
+       "text": "ガバメントクラウドは、国や自治体のシステムを、国が用意した共通のクラウド（インターネット経由で使う計算機の設備）の上で動かす仕組みである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-03",
+       "text": "移行した後の運用の経費が当初の想定を上回り、自治体の負担が大きく増えたため、一時的な負担増への対策として令和7年度の補正予算で350億円の補助金が措置された。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 350,
+         "unit": "億円",
+         "label": "運用経費の負担増への補助金（令和7年度補正予算）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "負担増への対策として、令和７年度補正予算において350億円の補助金を措置。",
+       "attribution": "出典：財務省「資料３ 外交・デジタル」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/03.pdf）",
+       "processing_note": "財務省「資料３ 外交・デジタル」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/03.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-04",
+       "text": "国の基本方針は、移行の完了後に運用経費などを平成30年度（2018年度）比で少なくとも3割減らすことを目指すとしていた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3,
+         "unit": "割",
+         "label": "運用経費の削減目標"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "情報システムの運用経費等については、平成30年度（2018年度）比で少なくとも３割の削減を目指す」としていた。",
+       "attribution": "出典：財務省「資料３ 外交・デジタル」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/03.pdf）",
+       "processing_note": "財務省「資料３ 外交・デジタル」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/03.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-05",
+       "text": "資料の図には、令和9年度の概算要求として国費475億円が示されている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 475,
+         "unit": "億円",
+         "label": "令和9年度概算要求の国費（図の記載）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "※令和９年度概算要求：国費475億円",
+       "attribution": "出典：財務省「資料３ 外交・デジタル」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/03.pdf）",
+       "processing_note": "財務省「資料３ 外交・デジタル」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/03.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-17-009-1",
+       "text": "国が補助金を続けない方向に動けば、自治体はシステムの稼働時間や保守の作業の見直しを求め、自治体向けのシステムを運用する情報サービス業の保守の売上が伸びにくくなる可能性がある。",
+       "falsifier": "年末の令和9年度予算政府案で、自治体のシステム運用経費への補助が要求額どおり、またはそれ以上に付けば、この見方は弱まる。",
+       "check_metric": "令和9年度予算政府案のデジタル庁の「地方公共団体情報システム運用最適化支援事業費補助金」の金額",
+       "check_by": "2026-12-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-17-010",
+     "event_id": "EVT-2026-10-17-010",
+     "headline": "デジタル庁の来年度の予算要求は10,295.1億円、生成AIの「源内」の登録者は約7.5万人（財務省の資料から）",
+     "lines": [
+      {
+       "line_id": "L-010-01",
+       "text": "財務省の資料によると、デジタル庁の令和9年度の要求額の合計は10,295.1億円で、令和7年度補正と令和8年度当初の合計より2,407.1億円（30.5%）多い。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10295.1,
+         "unit": "億円",
+         "label": "デジタル庁の令和9年度要求額の合計"
+        },
+        {
+         "value": 2407.1,
+         "unit": "億円",
+         "label": "令和7年度補正＋令和8年度当初からの増加額"
+        },
+        {
+         "value": 30.5,
+         "unit": "%",
+         "label": "令和7年度補正＋令和8年度当初からの増加率"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "デジタル庁合計 2,689.9 5,198.0 10,295.1 4,003.1 +2,407.1 (+30.5％)",
+       "attribution": "出典：財務省「資料３ 外交・デジタル」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/03.pdf）",
+       "processing_note": "財務省「資料３ 外交・デジタル」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/03.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-010-02",
+       "text": "そのうち「情報システムの整備・運用」の要求は9,523.5億円で、同じ比べ方で30.6%増える。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9523.5,
+         "unit": "億円",
+         "label": "情報システムの整備・運用の要求額"
+        },
+        {
+         "value": 30.6,
+         "unit": "%",
+         "label": "情報システムの整備・運用の増加率"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "情報システムの整備・運用 2,299.1 4,990.4 9,523.5 3,468.3 ＋2,234.0（+30.6％）",
+       "attribution": "出典：財務省「資料３ 外交・デジタル」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/03.pdf）",
+       "processing_note": "財務省「資料３ 外交・デジタル」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/03.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-010-03",
+       "text": "「デジタル社会形成の推進」の要求は555.2億円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 555.2,
+         "unit": "億円",
+         "label": "デジタル社会形成の推進の要求額"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "デジタル社会形成の推進 386.5 14.3 555.2",
+       "attribution": "出典：財務省「資料３ 外交・デジタル」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/03.pdf）",
+       "processing_note": "財務省「資料３ 外交・デジタル」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/03.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-010-04",
+       "text": "補正予算は、年度の途中で、当初の予算に追加や修正をするために組む予算である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-010-05",
+       "text": "政府の職員が使う生成AIの仕組み「源内」には、令和7年度の補正予算で44億円が付いている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 44,
+         "unit": "億円",
+         "label": "源内の令和7年度補正予算"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "ガバメントＡＩ「源内」 ※令和７年度補正予算：44億円",
+       "attribution": "出典：財務省「資料３ 外交・デジタル」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/03.pdf）",
+       "processing_note": "財務省「資料３ 外交・デジタル」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/03.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-010-06",
+       "text": "源内は、全府省庁の18万人の政府職員を対象に試験的に使われている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 18,
+         "unit": "万人",
+         "label": "試験展開の対象の政府職員数"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "全府省庁18万人の政府職員を対象に試験展開。",
+       "attribution": "出典：財務省「資料３ 外交・デジタル」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/03.pdf）",
+       "processing_note": "財務省「資料３ 外交・デジタル」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/03.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-010-07",
+       "text": "令和8年9月時点の登録者は約7.5万人である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 7.5,
+         "unit": "万人",
+         "label": "源内の登録者実績"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "令和８年９月時点の登録者実績は約7.5万人。",
+       "attribution": "出典：財務省「資料３ 外交・デジタル」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/03.pdf）",
+       "processing_note": "財務省「資料３ 外交・デジタル」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/03.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-17-010-1",
+       "text": "情報システムの整備の予算が補正予算頼みから当初予算と複数年度の計画に移れば、政府向けのシステムを受注する情報サービス業で、受注の時期が年度ごとにならされる可能性がある。",
+       "falsifier": "年末の令和9年度予算政府案で、デジタル庁の情報システム関係の当初予算が令和8年度当初と同じ程度にとどまれば、この見方は成り立たない。",
+       "check_metric": "令和9年度予算政府案のデジタル庁の「情報システムの整備・運用」の金額",
+       "check_by": "2026-12-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-10-17T07:39:02.497500+09:00",
+  "first_run": {
+   "run_at": "2026-10-17T07:39:02.497500+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 9,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 49,
+  "passed": 41,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 8,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 7,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-001": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E00320-000_2026-10-16_01_2026-10-16_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E00320-000_2026-10-16_01_2026-10-16_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E05450-000_2026-10-16_01_2026-10-16_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E05450-000_2026-10-16_01_2026-10-16_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E30020-000_2026-10-16_01_2026-10-16_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E30020-000_2026-10-16_01_2026-10-16_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-004": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E36801-000_2026-10-16_01_2026-10-16_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E36801-000_2026-10-16_01_2026-10-16_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E05155-000_2026-10-16_01_2026-10-16_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E05155-000_2026-10-16_01_2026-10-16_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 7,
+  "attribution_overwritten": 50,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "morning",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 9,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 0,
+  "evidence_doc_type_overridden": 0,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {},
+  "impact_kind_undetermined_by_doc_type": {},
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 0,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 0,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 103,
+   "numbers_declared": 53,
+   "gap": 50,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 103,
+     "numbers_declared": 53
+    },
+    "explainer": {
+     "text_number_tokens": 0,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 7,
+   "line_ids": [
+    "L-004-01",
+    "L-004-04",
+    "L-005-02",
+    "L-006-01",
+    "L-007-01",
+    "L-008-02",
+    "L-009-01"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [
+   {
+    "word": "主要",
+    "location": "headline",
+    "id": "ART-2026-10-17-008"
+   },
+   {
+    "word": "主要",
+    "location": "line_text",
+    "id": "L-008-01"
+   },
+   {
+    "word": "主要",
+    "location": "line_text",
+    "id": "L-008-04"
+   }
+  ],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 14,
+   "change": 17,
+   "ripple": 4,
+   "deep": 6
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 4,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-007",
+    "SRC-008"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 1,
+   "first_run_at": "2026-10-17T07:38:51.640612+09:00",
+   "last_run_at": "2026-10-17T07:38:51.640612+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 41,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 1,
+   "total_unregistered": 1,
+   "excluded_date_time_tokens": 54,
+   "lines": [
+    {
+     "line_id": "L-007-01",
+     "values": [
+      "2"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 2,
+   "zero_letter_count": 0,
+   "lines": [
+    {
+     "line_id": "L-008-01",
+     "letters": 2
+    },
+    {
+     "line_id": "L-008-03",
+     "letters": 2
+    }
+   ]
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "market_closed",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 2,
+    "source_ids": [
+     "SRC-007",
+     "SRC-008"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 10
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
