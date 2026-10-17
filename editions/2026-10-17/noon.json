@@ -1,0 +1,1675 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-10-17-noon",
+ "date": "2026-10-17",
+ "slot": "noon",
+ "generated_at": "2026-10-17T13:15:00.353546+09:00",
+ "market_open": false,
+ "baseline": {
+  "date": "2026-10-17",
+  "price_type": "observed"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-17&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月17日）",
+   "published_at": "2026-10-17",
+   "fetched_at": "2026-10-17T13:08:26+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "03a4df015263c2bb917b2ed4c320d6b82288b7fae119a87221fde4cdfde1088e",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-16&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月16日）",
+   "published_at": "2026-10-16",
+   "fetched_at": "2026-10-17T13:08:32+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "4bab461637e7ac83181a2b521121244d1149821d7da228765288a242833d9522",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z7NU?type=1",
+   "publisher": "株式会社松屋",
+   "publisher_type": "company_disclosure",
+   "title": "半期報告書－第158期(2026/03/01－2027/02/28)（株式会社松屋）",
+   "published_at": "2026-10-15T14:28:00+09:00",
+   "fetched_at": "2026-10-17T13:09:11+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "5460224993319b76a71c6e05daf0532b08df27c1a1534943258816d0be08d243",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7NU）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7NU）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7NU"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z7TK?type=1",
+   "publisher": "株式会社コメダホールディングス",
+   "publisher_type": "company_disclosure",
+   "title": "半期報告書－第13期(2026/03/01－2027/02/28)（株式会社コメダホールディングス）",
+   "published_at": "2026-10-14T15:35:00+09:00",
+   "fetched_at": "2026-10-17T13:09:18+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "ee7ae8f542e120da26052f3e088f7ef9947bea13f35f6e50ff3bd27b3ec7e366",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7TK）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7TK）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7TK"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z8LN?type=1",
+   "publisher": "株式会社イチネンホールディングス",
+   "publisher_type": "company_disclosure",
+   "title": "発行登録追補書類（株券､社債券等）（株式会社イチネンホールディングス）",
+   "published_at": "2026-10-16T10:25:00+09:00",
+   "fetched_at": "2026-10-17T13:09:24+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "9a4853534d48ee7c2622b5714136da367ab1fbc65a53fbdd956871e368e7dfc1",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8LN）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8LN）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8LN"
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z8LB?type=1",
+   "publisher": "ＭＩＲＡＲＴＨホールディングス株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "発行登録追補書類（株券､社債券等）（ＭＩＲＡＲＴＨホールディングス株式会社）",
+   "published_at": "2026-10-16T10:27:00+09:00",
+   "fetched_at": "2026-10-17T13:09:30+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "6fb5554e19597538ec22b157dcaecd3f2dc6dd9098fc1ef8ac41c1eecd708c11",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8LB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8LB）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8LB"
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z88J?type=1",
+   "publisher": "富士急行株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "発行登録書（株券､社債券等）（富士急行株式会社）",
+   "published_at": "2026-10-16T14:31:00+09:00",
+   "fetched_at": "2026-10-17T13:09:49+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "2bb0f21decf965973ad1a9efe877a3ce582d6591c7975dd4b2b5091167c3f5ce",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z88J）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z88J）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z88J"
+  },
+  {
+   "source_id": "SRC-009",
+   "url": "https://www.federalreserve.gov/releases/g17/current/default.htm",
+   "publisher": "FRB理事会",
+   "publisher_type": "central_bank",
+   "title": "Industrial Production and Capacity Utilization - G.17",
+   "published_at": "2026-10-16",
+   "fetched_at": "2026-10-17T13:10:26+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "9977d53e528ab0c01629cdea20f46c9da6f20a3d1e5bfc18504b2fc6dacf06fb",
+   "usage": "quotable",
+   "attribution": "出典：FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）",
+   "processing_note": "FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-010",
+   "url": "https://www.boj.or.jp/about/press/koen_2026/data/ko261016a.pdf",
+   "publisher": "日本銀行",
+   "publisher_type": "central_bank",
+   "title": "全国信用組合大会における挨拶",
+   "published_at": "2026-10-16",
+   "fetched_at": "2026-10-17T13:10:45+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "9d22e769b68cc530150ef2e9f9a0118aced520fbb8ac8ac45883feb75d94e51c",
+   "usage": "quotable",
+   "attribution": "出典：日本銀行「全国信用組合大会における挨拶」（https://www.boj.or.jp/about/press/koen_2026/data/ko261016a.pdf）",
+   "processing_note": "日本銀行「全国信用組合大会における挨拶」（https://www.boj.or.jp/about/press/koen_2026/data/ko261016a.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-17-001",
+     "event_id": "EVT-2026-10-17-001",
+     "headline": "日銀総裁の挨拶（副総裁が代読）：物価の基調は2%に近づき、今後も利上げで金融緩和の度合いを調整する考え",
+     "lines": [
+      {
+       "line_id": "L-001-02",
+       "text": "日本銀行が10月16日に公表した、全国信用組合大会での総裁の挨拶（副総裁が代読）は、消費者物価の基調的な上昇率が2%に近づいていると述べた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "%",
+         "label": "消費者物価の基調的な上昇率の目安"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "率は引き続き上昇しており、消費者物価の基調的な上昇率は２％に近づいて",
+       "attribution": "出典：日本銀行「全国信用組合大会における挨拶」（https://www.boj.or.jp/about/press/koen_2026/data/ko261016a.pdf）",
+       "processing_note": "日本銀行「全国信用組合大会における挨拶」（https://www.boj.or.jp/about/press/koen_2026/data/ko261016a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "挨拶は、日本銀行が先月、政策金利を1.25%程度に引き上げると決めたことを説明し、変更後も緩和的な金融環境は保たれるとした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1.25,
+         "unit": "%",
+         "label": "政策金利（先月の引き上げ後）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "融緩和の度合いを調整することが適切と判断し、政策金利を１．２５％程度",
+       "attribution": "出典：日本銀行「全国信用組合大会における挨拶」（https://www.boj.or.jp/about/press/koen_2026/data/ko261016a.pdf）",
+       "processing_note": "日本銀行「全国信用組合大会における挨拶」（https://www.boj.or.jp/about/press/koen_2026/data/ko261016a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "今後の金融政策運営について、挨拶は、基調的な物価上昇率が2%に近づき、金融環境が緩和的であることを踏まえ、経済・物価・金融情勢に応じて引き続き政策金利を引き上げていく考えを示した。その時期や速さは、見通しが実現する確度やリスクを点検しながら検討するとした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "%",
+         "label": "基調的な物価上昇率の目安"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "今後の金融政策運営については、基調的な物価上昇率が２％に近づいてい",
+       "attribution": "出典：日本銀行「全国信用組合大会における挨拶」（https://www.boj.or.jp/about/press/koen_2026/data/ko261016a.pdf）",
+       "processing_note": "日本銀行「全国信用組合大会における挨拶」（https://www.boj.or.jp/about/press/koen_2026/data/ko261016a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "見通しに対するリスクとしては、中東情勢やAI関連の需要の拡大、為替相場の変動の影響に引き続き留意が必要で、基調的な物価上昇率が2%の「物価安定の目標」を超えて上振れていくリスクがあるとした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "%",
+         "label": "物価安定の目標"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "す影響には引き続き留意が必要であり、基調的な物価上昇率が２％の「物価",
+       "attribution": "出典：日本銀行「全国信用組合大会における挨拶」（https://www.boj.or.jp/about/press/koen_2026/data/ko261016a.pdf）",
+       "processing_note": "日本銀行「全国信用組合大会における挨拶」（https://www.boj.or.jp/about/press/koen_2026/data/ko261016a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "政策金利は、中央銀行が金融政策の目安として決める短い期間の金利で、上がると銀行の預金や貸し出しの金利も上がりやすい。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "挨拶の後半では、信用組合を取り巻く環境と課題として、3つの点を挙げた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3,
+         "unit": "点",
+         "label": "件数（挙げた課題）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "次に、信用組合を取り巻く環境と課題について、３点お話ししたいと思い",
+       "attribution": "出典：日本銀行「全国信用組合大会における挨拶」（https://www.boj.or.jp/about/press/koen_2026/data/ko261016a.pdf）",
+       "processing_note": "日本銀行「全国信用組合大会における挨拶」（https://www.boj.or.jp/about/press/koen_2026/data/ko261016a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-08",
+       "text": "信用組合は、組合員どうしの助け合いを理念とする協同組織の金融機関で、中小企業や地域の住民などを主な取引先とする。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-09",
+       "text": "1点目は、取引先が抱えるさまざまな経営課題への支援の高度化だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "点目",
+         "label": "課題の順番（1点目）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "１点目は、取引先が抱える様々な経営課題への支援の高度化です。",
+       "attribution": "出典：日本銀行「全国信用組合大会における挨拶」（https://www.boj.or.jp/about/press/koen_2026/data/ko261016a.pdf）",
+       "processing_note": "日本銀行「全国信用組合大会における挨拶」（https://www.boj.or.jp/about/press/koen_2026/data/ko261016a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-10",
+       "text": "2点目は、金融仲介の機能を発揮する前提となる預金戦略だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "点目",
+         "label": "課題の順番（2点目）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "２点目は、金融仲介機能を発揮する前提となる預金戦略についてです。",
+       "attribution": "出典：日本銀行「全国信用組合大会における挨拶」（https://www.boj.or.jp/about/press/koen_2026/data/ko261016a.pdf）",
+       "processing_note": "日本銀行「全国信用組合大会における挨拶」（https://www.boj.or.jp/about/press/koen_2026/data/ko261016a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-11",
+       "text": "3点目は、最先端のAI（フロンティアAI）などの技術革新に伴うサイバーリスクの高まりへの対応だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3,
+         "unit": "点目",
+         "label": "課題の順番（3点目）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "３点目は、フロンティアＡＩ等の技術革新に伴うサイバーリスクの高まり",
+       "attribution": "出典：日本銀行「全国信用組合大会における挨拶」（https://www.boj.or.jp/about/press/koen_2026/data/ko261016a.pdf）",
+       "processing_note": "日本銀行「全国信用組合大会における挨拶」（https://www.boj.or.jp/about/press/koen_2026/data/ko261016a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-17-001-1",
+       "text": "政策金利の引き上げが続けば、預金を集める競争が強まり、地域の協同組織の金融機関では、預金の金利を上げる費用が貸し出しの利ざやを押し下げる可能性がある。",
+       "falsifier": "預金の金利の上昇が貸し出しの金利の上昇より小さいままなら、この見方は当たらない。",
+       "check_metric": "日本銀行「預金・貸出関連統計」の預金金利と貸出約定平均金利",
+       "check_by": "2027-03-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-17-002",
+     "event_id": "EVT-2026-10-17-002",
+     "headline": "米国の鉱工業生産、9月は前月比0.7%増：電気・ガスが3.5%増、製造業は0.3%増",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "FRB理事会が10月16日に公表した統計によると、米国の鉱工業生産は9月に前の月より0.7%増えた（8月は0.1%増）。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 0.7,
+         "unit": "%",
+         "label": "鉱工業生産の前月比（9月）"
+        },
+        {
+         "value": 0.1,
+         "unit": "%",
+         "label": "鉱工業生産の前月比（8月）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "Industrial production (IP) increased 0.7 percent in September after edging up 0.1 percent in August",
+       "attribution": "出典：FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）",
+       "processing_note": "FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "7〜9月期では、鉱工業生産は年率で2.8%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.8,
+         "unit": "%",
+         "label": "鉱工業生産の7〜9月期の年率"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "In the third quarter, IP increased at an annual rate of 2.8 percent",
+       "attribution": "出典：FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）",
+       "processing_note": "FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "9月の製造業の生産は0.3%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 0.3,
+         "unit": "%",
+         "label": "製造業の生産の前月比"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "Manufacturing output rose 0.3 percent in September",
+       "attribution": "出典：FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）",
+       "processing_note": "FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "電気・ガスの生産の指数は3.5%上がった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.5,
+         "unit": "%",
+         "label": "電気・ガスの指数の前月比"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "the index for utilities increased 3.5 percent",
+       "attribution": "出典：FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）",
+       "processing_note": "FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "9月の鉱工業生産は、1年前の水準を2.2%上回った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.2,
+         "unit": "%",
+         "label": "鉱工業生産の前年比"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "total IP in September was 2.2 percent above its year-earlier level",
+       "attribution": "出典：FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）",
+       "processing_note": "FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-06",
+       "text": "設備の稼働率は9月に76.9%に上がったが、長い期間の平均より2.5ポイント低い。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 76.9,
+         "unit": "%",
+         "label": "設備の稼働率（9月）"
+        },
+        {
+         "value": 2.5,
+         "unit": "ポイント",
+         "label": "長期平均との差"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "Capacity utilization moved up to 76.9 percent in September, a rate that is 2.5 percentage points below its long-run (1972–2025) average",
+       "attribution": "出典：FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）",
+       "processing_note": "FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-07",
+       "text": "鉱工業生産は、工場・鉱山・電気やガスの事業がどれだけ物をつくったかを指数にした統計で、景気の動きを見るのに使われる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-08",
+       "text": "設備の稼働率は、工場などの設備が、つくれる量に対してどれだけ動いているかを表す割合である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-09",
+       "text": "FRB理事会は、鉱工業生産と稼働率の年に1度の改定を11月24日に出す予定としている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 24,
+         "unit": "日",
+         "label": "日付（改定の公表予定日）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "The Federal Reserve Board plans to issue its annual revision to the indexes of industrial production (IP) and the related measures of capacity utilization on November 24, 2026",
+       "attribution": "出典：FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）",
+       "processing_note": "FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-17-002-1",
+       "text": "米国の工場の生産が増え続ければ、米国向けに部品や素材を出す日本の機械・電子部品の業種で、輸出の量が増える可能性がある。",
+       "falsifier": "10月以降の米国の製造業の生産が前月比で減少に転じれば、この見方は成り立たない。",
+       "check_metric": "FRB理事会 G.17 の製造業の生産指数（10月分）",
+       "check_by": "2026-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-17-003",
+     "event_id": "EVT-2026-10-17-003",
+     "headline": "会社が投資家からお金を借りる「社債」：イチネンHDは年3.318%、MIRARTHHDは年3.500%（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "イチネンホールディングスは、10月16日に出した書類で、新しく出す無担保社債の利率を年3.318%とした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.318,
+         "unit": "%",
+         "label": "イチネンHDの社債の利率"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "利率（％） 年3.318％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8LN）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8LN）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "この社債の総額は10,000,000,000円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10000000000,
+         "unit": "円",
+         "label": "イチネンHDの社債の総額"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "券面総額又は振替社債の総額（円） 金10,000,000,000円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8LN）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8LN）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "手取りの見込み額9,953百万円は、全額を、12月に償還の期限が来る第8回無担保社債の償還に充てる予定とした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9953,
+         "unit": "百万円",
+         "label": "差し引きの手取りの見込み額"
+        },
+        {
+         "value": 8,
+         "unit": "回",
+         "label": "償還する社債の回号"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "上記差引手取概算額9,953百万円については、全額を2026年12月４日に償還期限が到来する第８回無担保社債の社債償還資金に充当する予定であります。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8LN）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8LN）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "同社は、格付会社の日本格付研究所から、10月16日付でA－（シングルAマイナス）の信用格付を取得した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 16,
+         "unit": "日",
+         "label": "日付（格付の取得日）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "からＡ－（シングルＡマイナス）の信用格付を2026年10月16日付で取得し",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8LN）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8LN）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "社債は、会社が投資家からお金を借りるために出す債券で、決めた利率で利息を払い、期限が来たら元本を返す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-06",
+       "text": "MIRARTHホールディングスが新しく出す、期限前償還条項付きの無担保社債の利率は年3.500%である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.5,
+         "unit": "%",
+         "label": "MIRARTHHDの社債の利率"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "利率（％） 年3.500％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8LB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8LB）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-07",
+       "text": "この社債の総額は3,000百万円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3000,
+         "unit": "百万円",
+         "label": "MIRARTHHDの社債の総額"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "券面総額又は振替社債の総額（円） 金3,000百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8LB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8LB）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-08",
+       "text": "手取りの見込み額2,965百万円のうち2,000百万円は、社債の償還で減った手元の資金に充てるとした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2965,
+         "unit": "百万円",
+         "label": "差し引きの手取りの見込み額"
+        },
+        {
+         "value": 2000,
+         "unit": "百万円",
+         "label": "手元の資金に充てる額"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "上記の差引手取概算額2,965百万円は、2,000百万円を社債の償還により減少した手元資金に充当する",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8LB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8LB）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-09",
+       "text": "信用格付は、借りたお金を約束どおり返せる確からしさを、格付会社が記号で示したものである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-17-003-1",
+       "text": "政策金利の引き上げが続けば、社債で借り換えをする会社では、前に出した社債より高い利率で借りることになり、利息の負担が増える可能性がある。",
+       "falsifier": "今後数か月の新しい社債の利率が、償還される社債の利率と同じ程度にとどまれば、この見方は当たらない。",
+       "check_metric": "日本証券業協会 公社債店頭売買参考統計値の事業債の利回り",
+       "check_by": "2027-03-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-17-004",
+     "event_id": "EVT-2026-10-17-004",
+     "headline": "富士急行が、社債を出すための「発行登録書」を提出：発行予定額は15,000百万円（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "富士急行は10月16日に、社債を出すための発行登録書を関東財務局長に提出した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 16,
+         "unit": "日",
+         "label": "日付（提出日）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "【提出日】 2026年10月16日",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z88J）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z88J）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "発行予定額は15,000百万円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 15000,
+         "unit": "百万円",
+         "label": "発行予定額"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "発行予定額 15,000百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z88J）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z88J）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "発行できる期間は、登録が効力を持つ予定の10月26日から2年である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 26,
+         "unit": "日",
+         "label": "日付（効力発生予定日）"
+        },
+        {
+         "value": 2,
+         "unit": "年",
+         "label": "発行予定期間"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "この発行登録書による発行登録の効力発生予定日(2026年 10月26日)から２年を経過する日(2028年10月25日)まで",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z88J）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z88J）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "発行登録は、出す予定の金額と期間をあらかじめ届け出ておき、その範囲の中で、必要なときにすばやく社債などを出せるようにする仕組みである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-17-004-1",
+       "text": "観光や鉄道の会社が社債で設備投資の資金を集める動きが続けば、遊園地やホテルなどの施設の改修・建設の工事の発注が増える可能性がある。",
+       "falsifier": "発行登録をした会社が期間中に社債をほとんど出さなければ、この見方は当たらない。",
+       "check_metric": "EDINETの発行登録追補書類の提出件数",
+       "check_by": "2027-10-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-17-005",
+     "event_id": "EVT-2026-10-17-005",
+     "headline": "米国の工場の中身：7〜9月期は半導体と関連部品の生産が28.4%増、9月は自動車と部品が3.0%減",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "米国の9月の生産では、耐久財の中で、一次金属、機械、電気機器・家電・部品が1%以上伸びた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "%",
+         "label": "伸びた業種の伸び率の下限"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "gains of 1 percent or more were posted by primary metals; machinery; and electrical equipment, appliances, and components",
+       "attribution": "出典：FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）",
+       "processing_note": "FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "一方、自動車と部品の生産は9月に3.0%減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.0,
+         "unit": "%",
+         "label": "自動車と部品の生産の減少率"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "Output of motor vehicles and parts declined 3.0 percent",
+       "attribution": "出典：FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）",
+       "processing_note": "FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "7〜9月期全体では、耐久財の製造業の生産が年率で3.8%増え、その一部は半導体と関連の電子部品の生産の28.4%増によるものだった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.8,
+         "unit": "%",
+         "label": "耐久財の製造業の生産の年率"
+        },
+        {
+         "value": 28.4,
+         "unit": "%",
+         "label": "半導体と関連の電子部品の生産の伸び"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "durable manufacturing output rose at an annual rate of 3.8 percent—driven in part by a 28.4 percent gain in the output of semiconductors and related electronic components",
+       "attribution": "出典：FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）",
+       "processing_note": "FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-04",
+       "text": "同じ7〜9月期に、非耐久財の製造業の生産は1.6%減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1.6,
+         "unit": "%",
+         "label": "非耐久財の製造業の生産の減少率（年率）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "while nondurable manufacturing output fell 1.6 percent",
+       "attribution": "出典：FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）",
+       "processing_note": "FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-05",
+       "text": "耐久財は自動車や機械のように長く使う物、非耐久財は食品や化学品のように早く使い切る物を指す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-06",
+       "text": "製造業の設備の稼働率は、9月に0.1ポイント上がって75.9%になった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 0.1,
+         "unit": "ポイント",
+         "label": "製造業の稼働率の上昇幅"
+        },
+        {
+         "value": 75.9,
+         "unit": "%",
+         "label": "製造業の稼働率"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "Capacity utilization for manufacturing increased 0.1 percentage point in September to 75.9 percent",
+       "attribution": "出典：FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）",
+       "processing_note": "FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-07",
+       "text": "電気・ガスの稼働率は2.3ポイント上がって73.8%になった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.3,
+         "unit": "ポイント",
+         "label": "電気・ガスの稼働率の上昇幅"
+        },
+        {
+         "value": 73.8,
+         "unit": "%",
+         "label": "電気・ガスの稼働率"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "the operating rate for utilities increased 2.3 percentage points to 73.8 percent",
+       "attribution": "出典：FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）",
+       "processing_note": "FRB理事会「Industrial Production and Capacity Utilization - G.17」（https://www.federalreserve.gov/releases/g17/current/default.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-17-005-1",
+       "text": "米国で半導体の生産が伸び続ければ、半導体の工場で使う装置や材料を米国に出す日本の業種で、受注が増える可能性がある。",
+       "falsifier": "米国の半導体と関連部品の生産の伸びが10〜12月期に止まれば、この見方は成り立たない。",
+       "check_metric": "FRB理事会 G.17 の半導体と関連の電子部品の生産指数",
+       "check_by": "2027-01-31"
+      },
+      {
+       "inference_id": "INF-2026-10-17-005-2",
+       "text": "米国の自動車と部品の生産の減少が続けば、米国の自動車工場に部品を出す日本の自動車部品の業種で、出荷の量が減る可能性がある。",
+       "falsifier": "10月以降、米国の自動車と部品の生産が前月比で増加に戻れば、この見方は当たらない。",
+       "check_metric": "FRB理事会 G.17 の自動車と部品の生産指数",
+       "check_by": "2026-12-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-17-006",
+     "event_id": "EVT-2026-10-17-006",
+     "headline": "銀座の百貨店とコーヒー店の3〜8月：松屋は百貨店業が3.4%増収、コメダは売上収益が7.8%増（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-006-01",
+       "text": "松屋の3〜8月の売上高は22,785百万円で、前の年の同じ期間より303百万円（1.3%）増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 22785,
+         "unit": "百万円",
+         "label": "松屋の売上高"
+        },
+        {
+         "value": 303,
+         "unit": "百万円",
+         "label": "増えた額"
+        },
+        {
+         "value": 1.3,
+         "unit": "%",
+         "label": "増収率"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "当中間連結会計期間の売上高は22,785百万円と前中間連結会計期間に比べ303百万円(＋1.3％)の増収",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7NU）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7NU）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-02",
+       "text": "営業利益は1,047百万円で、41百万円（4.1%）増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1047,
+         "unit": "百万円",
+         "label": "松屋の営業利益"
+        },
+        {
+         "value": 41,
+         "unit": "百万円",
+         "label": "増えた額"
+        },
+        {
+         "value": 4.1,
+         "unit": "%",
+         "label": "増益率"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "営業利益は1,047百万円と前中間連結会計期間に比べ41百万円(＋4.1％)の増益",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7NU）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7NU）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-03",
+       "text": "一方、経常利益は914百万円で、154百万円（14.4%）減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 914,
+         "unit": "百万円",
+         "label": "松屋の経常利益"
+        },
+        {
+         "value": 154,
+         "unit": "百万円",
+         "label": "減った額"
+        },
+        {
+         "value": -14.4,
+         "unit": "%",
+         "label": "減益率"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "経常利益は914百万円と前中間連結会計期間に比べ154百万円(△14.4％)の減益",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7NU）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7NU）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-04",
+       "text": "事業ごとでは、百貨店業の売上高が18,985百万円で620百万円（3.4%）増え、営業利益は859百万円で155百万円（22.0%）増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 18985,
+         "unit": "百万円",
+         "label": "百貨店業の売上高"
+        },
+        {
+         "value": 620,
+         "unit": "百万円",
+         "label": "増えた額"
+        },
+        {
+         "value": 3.4,
+         "unit": "%",
+         "label": "増収率"
+        },
+        {
+         "value": 859,
+         "unit": "百万円",
+         "label": "百貨店業の営業利益"
+        },
+        {
+         "value": 155,
+         "unit": "百万円",
+         "label": "増えた額"
+        },
+        {
+         "value": 22.0,
+         "unit": "%",
+         "label": "増益率"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "百貨店業の売上高は18,985百万円と前中間連結会計期間に比べ620百万円(＋3.4％)の増収となり、営業利益は859百万円と前中間連結会計期間に比べ155百万円(＋22.0％)の増益",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7NU）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7NU）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-05",
+       "text": "飲食業の売上高は1,534百万円で、374百万円（19.6%）減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1534,
+         "unit": "百万円",
+         "label": "飲食業の売上高"
+        },
+        {
+         "value": 374,
+         "unit": "百万円",
+         "label": "減った額"
+        },
+        {
+         "value": -19.6,
+         "unit": "%",
+         "label": "減収率"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "飲食業の売上高は1,534百万円と前中間連結会計期間に比べ374百万円(△19.6％)の減収",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7NU）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7NU）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-06",
+       "text": "経常利益は、本業のもうけである営業利益に、利息の受け払いなど本業以外の損益を足し引きしたものである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-07",
+       "text": "喫茶店チェーンのコメダホールディングスの3〜8月の売上収益は30,765百万円で、前の年の同じ期間より7.8%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 30765,
+         "unit": "百万円",
+         "label": "コメダHDの売上収益"
+        },
+        {
+         "value": 7.8,
+         "unit": "%",
+         "label": "前年同期比"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "売上収益は30,765百万円（前年同期比7.8％増）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7TK）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7TK）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-08",
+       "text": "営業利益は5,256百万円で、11.9%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5256,
+         "unit": "百万円",
+         "label": "コメダHDの営業利益"
+        },
+        {
+         "value": 11.9,
+         "unit": "%",
+         "label": "前年同期比"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "営業利益は5,256百万円（前年同期比11.9％増）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7TK）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7TK）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-09",
+       "text": "この期間に国内でコメダ珈琲店を15店舗、おかげ庵を2店舗、シンガポールでKaffe & Toastを1店舗出し、期末の店舗は1,164店舗になった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 15,
+         "unit": "店舗",
+         "label": "件数（コメダ珈琲店の出店）"
+        },
+        {
+         "value": 2,
+         "unit": "店舗",
+         "label": "件数（おかげ庵の出店）"
+        },
+        {
+         "value": 1,
+         "unit": "店舗",
+         "label": "件数（シンガポールの出店）"
+        },
+        {
+         "value": 1164,
+         "unit": "店舗",
+         "label": "件数（期末の店舗）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "国内にコメダ珈琲店を15店舗出店、おかげ庵を２店舗出店しました。海外ではシンガポールにKaffe & Toastを１店舗出店し、当中間連結会計期間末の店舗は1,164店舗となりました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7TK）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7TK）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-17-006-1",
+       "text": "訪日客の買い物が百貨店の売り上げを支える形が続けば、為替が円高に動いたときに、百貨店業の売り上げの伸びが鈍る可能性がある。",
+       "falsifier": "円高に動いても百貨店の売上高の前年比の伸びが続けば、この見方は当たらない。",
+       "check_metric": "日本百貨店協会の全国百貨店売上高（免税売上高を含む）",
+       "check_by": "2027-03-31"
+      },
+      {
+       "inference_id": "INF-2026-10-17-006-2",
+       "text": "食材やエネルギーの値上がりが続けば、外食の業種では、値上げで売り上げを伸ばしても、利益の伸びが売り上げの伸びに追いつかなくなる可能性がある。",
+       "falsifier": "外食の会社の営業利益の伸びが売上高の伸びを上回り続ければ、この見方は当たらない。",
+       "check_metric": "外食の上場会社の次の決算の営業利益と売上高の伸び",
+       "check_by": "2027-04-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-10-17T13:15:00.353546+09:00",
+  "first_run": {
+   "run_at": "2026-10-17T13:15:00.353546+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 9,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 48,
+  "passed": 39,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 9,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 7,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-001": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp040300-ssr-001_E03017-000_2026-08-31_01_2026-10-15_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp040300-ssr-001_E03017-000_2026-08-31_01_2026-10-15_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp040300-ssr-001_E03017-000_2026-08-31_01_2026-10-15_ixbrl.htm",
+     "XBRL/PublicDoc/0104000_honbun_jpcrp040300-ssr-001_E03017-000_2026-08-31_01_2026-10-15_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp040300-ssr-001_E03017-000_2026-08-31_01_2026-10-15_ixbrl.htm",
+     "XBRL/PublicDoc/0104020_honbun_jpcrp040300-ssr-001_E03017-000_2026-08-31_01_2026-10-15_ixbrl.htm",
+     "XBRL/PublicDoc/0104035_honbun_jpcrp040300-ssr-001_E03017-000_2026-08-31_01_2026-10-15_ixbrl.htm",
+     "XBRL/PublicDoc/0104050_honbun_jpcrp040300-ssr-001_E03017-000_2026-08-31_01_2026-10-15_ixbrl.htm",
+     "XBRL/PublicDoc/0104100_honbun_jpcrp040300-ssr-001_E03017-000_2026-08-31_01_2026-10-15_ixbrl.htm",
+     "XBRL/PublicDoc/0104110_honbun_jpcrp040300-ssr-001_E03017-000_2026-08-31_01_2026-10-15_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp040300-ssr-001_E03017-000_2026-08-31_01_2026-10-15_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp040300-ssr-001_E03017-000_2026-08-31_01_2026-10-15_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp040300-ssr-001_E32427-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp040300-ssr-001_E32427-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp040300-ssr-001_E32427-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp040300-ssr-001_E32427-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0200010_honbun_jpcrp040300-ssr-001_E32427-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp040300-ssr-001_E32427-000_2026-08-31_01_2026-10-14_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp120000-rep-001_E04904-000_2026-10-16_01_2026-10-16_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp120000-rep-001_E04904-000_2026-10-16_01_2026-10-16_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-004": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp120000-rep-001_E03997-000_2026-10-16_01_2026-10-16_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp120000-rep-001_E03997-000_2026-10-16_01_2026-10-16_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-007": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp110000-rst-001_E04093-000_2026-10-16_01_2026-10-16_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp110000-rst-001_E04093-000_2026-10-16_01_2026-10-16_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp110000-rst-001_E04093-000_2026-10-16_01_2026-10-16_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 7,
+  "attribution_overwritten": 48,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "noon",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 9,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 0,
+  "evidence_doc_type_overridden": 0,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {},
+  "impact_kind_undetermined_by_doc_type": {},
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 0,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 0,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 96,
+   "numbers_declared": 65,
+   "gap": 31,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 96,
+     "numbers_declared": 65
+    },
+    "explainer": {
+     "text_number_tokens": 0,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 5,
+   "line_ids": [
+    "L-001-07",
+    "L-002-09",
+    "L-003-04",
+    "L-004-01",
+    "L-006-09"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 8,
+   "change": 17,
+   "ripple": 6,
+   "deep": 8
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 4,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-009",
+    "SRC-010"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 2,
+   "first_run_at": "2026-10-17T13:14:38.596401+09:00",
+   "last_run_at": "2026-10-17T13:14:53.412590+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [
+    "L-001-01"
+   ],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 39,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 8,
+   "total_unregistered": 8,
+   "excluded_date_time_tokens": 30,
+   "lines": [
+    {
+     "line_id": "L-002-02",
+     "values": [
+      "7"
+     ]
+    },
+    {
+     "line_id": "L-002-09",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-005-03",
+     "values": [
+      "7"
+     ]
+    },
+    {
+     "line_id": "L-005-04",
+     "values": [
+      "7"
+     ]
+    },
+    {
+     "line_id": "L-006-01",
+     "values": [
+      "3"
+     ]
+    },
+    {
+     "line_id": "L-006-03",
+     "values": [
+      "14.4"
+     ]
+    },
+    {
+     "line_id": "L-006-05",
+     "values": [
+      "19.6"
+     ]
+    },
+    {
+     "line_id": "L-006-07",
+     "values": [
+      "3"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 2,
+   "zero_letter_count": 0,
+   "lines": [
+    {
+     "line_id": "L-003-01",
+     "letters": 3
+    },
+    {
+     "line_id": "L-003-06",
+     "letters": 3
+    }
+   ]
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "market_closed",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 2,
+    "source_ids": [
+     "SRC-009",
+     "SRC-010"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 6
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
