@@ -1,0 +1,1185 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-10-18-morning",
+ "date": "2026-10-18",
+ "slot": "morning",
+ "generated_at": "2026-10-18T07:37:14.783589+09:00",
+ "market_open": false,
+ "baseline": {
+  "date": "2026-10-18",
+  "price_type": "open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-18&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月18日）",
+   "published_at": "2026-10-18",
+   "fetched_at": "2026-10-18T07:32:15+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "5d03b72d3862bee0d52660bab48763c47fa07f59a84922fffc00d6b90cbd10aa",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-16&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月16日）",
+   "published_at": "2026-10-16",
+   "fetched_at": "2026-10-18T07:32:22+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "7fcd44cbf2e3fa010b0068f3d36d3e4f9889be7c90c125b0b94325e931365ddc",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://www.mof.go.jp/policy/international_policy/imf/annual_meeting/20261017045147.html",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "第81回IMF・世界銀行年次総会　財務大臣総務演説（令和8年10月16日　於：バンコク）",
+   "published_at": "2026-10-16",
+   "fetched_at": "2026-10-18T07:33:11+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "26c276ca6b2df23d67e65a5b74d5af9c3e622ce472b1ec07939a054d72c78102",
+   "usage": "quotable",
+   "attribution": "出典：財務省「第81回IMF・世界銀行年次総会　財務大臣総務演説（令和8年10月16日　於：バンコク）」（https://www.mof.go.jp/policy/international_policy/imf/annual_meeting/20261017045147.html）",
+   "processing_note": "財務省「第81回IMF・世界銀行年次総会　財務大臣総務演説（令和8年10月16日　於：バンコク）」（https://www.mof.go.jp/policy/international_policy/imf/annual_meeting/20261017045147.html）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://www.mof.go.jp/policy/international_policy/imf/imfc/20261017jp.pdf",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "第54回国際通貨金融委員会（IMFC）における日本国ステートメント",
+   "published_at": "2026-10-17",
+   "fetched_at": "2026-10-18T07:33:13+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "f70e8d27f2111b9cbfbfb97246d29b13c092599c7033df7228d97ab9de3c944a",
+   "usage": "quotable",
+   "attribution": "出典：財務省「第54回国際通貨金融委員会（IMFC）における日本国ステートメント」（https://www.mof.go.jp/policy/international_policy/imf/imfc/20261017jp.pdf）",
+   "processing_note": "財務省「第54回国際通貨金融委員会（IMFC）における日本国ステートメント」（https://www.mof.go.jp/policy/international_policy/imf/imfc/20261017jp.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://www.mof.go.jp/policy/international_policy/imf/imfc/261017_IMFC_1.pdf",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "第54回国際通貨金融委員会（IMFC）議長声明（仮訳）",
+   "published_at": "2026-10-17",
+   "fetched_at": "2026-10-18T07:33:14+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "b478c86e66c9ec01c6bfeb236534875598b1514f19bccd158b6adc091eb0972f",
+   "usage": "quotable",
+   "attribution": "出典：財務省「第54回国際通貨金融委員会（IMFC）議長声明（仮訳）」（https://www.mof.go.jp/policy/international_policy/imf/imfc/261017_IMFC_1.pdf）",
+   "processing_note": "財務省「第54回国際通貨金融委員会（IMFC）議長声明（仮訳）」（https://www.mof.go.jp/policy/international_policy/imf/imfc/261017_IMFC_1.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://www.mof.go.jp/policy/international_policy/imf/dc/DCstatement114.pdf",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "第114回世銀・IMF合同開発委員会　議長声明（原文）",
+   "published_at": "2026-10-17",
+   "fetched_at": "2026-10-18T07:33:16+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "11d71668d72f66b43e275aed5286604492ed92b2d7984d4f7e6310c55bcb6cd3",
+   "usage": "quotable",
+   "attribution": "出典：財務省「第114回世銀・IMF合同開発委員会　議長声明（原文）」（https://www.mof.go.jp/policy/international_policy/imf/dc/DCstatement114.pdf）",
+   "processing_note": "財務省「第114回世銀・IMF合同開発委員会　議長声明（原文）」（https://www.mof.go.jp/policy/international_policy/imf/dc/DCstatement114.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z76W?type=1",
+   "publisher": "和田興産株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "半期報告書－第61期(2026/03/01－2027/02/28)（和田興産株式会社）",
+   "published_at": "2026-10-09T13:00:00+09:00",
+   "fetched_at": "2026-10-18T07:34:10+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "b772ff4f1890eecc901e76ce3abcd15716aaf875b76417f2a59e338fee34031d",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76W）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76W）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76W"
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-18-001",
+     "event_id": "EVT-2026-10-18-001",
+     "headline": "IMFの会合で日本がステートメント：ウクライナ支援は総額約200億ドル、飲食料品の消費税率の引下げは2年間に限ると説明",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "10月17日にタイのバンコクで開かれた第54回国際通貨金融委員会（IMFC）に、日本はステートメント（意見表明の文書）を出した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 54,
+         "unit": "回",
+         "label": "会合の回数"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "第 54 回国際通貨金融委員会(IMFC)における日本国ステートメント",
+       "attribution": "出典：財務省「第54回国際通貨金融委員会（IMFC）における日本国ステートメント」（https://www.mof.go.jp/policy/international_policy/imf/imfc/20261017jp.pdf）",
+       "processing_note": "財務省「第54回国際通貨金融委員会（IMFC）における日本国ステートメント」（https://www.mof.go.jp/policy/international_policy/imf/imfc/20261017jp.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "IMF（国際通貨基金）は、加盟国の経済や政策を点検し、お金のやりくりに困った国に資金を貸す国際機関である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "ステートメントで日本は、これまでに総額約200億ドルのウクライナ支援を実施してきたと述べた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 200,
+         "unit": "億ドル",
+         "label": "ウクライナ支援の総額"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "日本はこれまで、総額約 200 億ドルのウクライナ支援を実施してきました。",
+       "attribution": "出典：財務省「第54回国際通貨金融委員会（IMFC）における日本国ステートメント」（https://www.mof.go.jp/policy/international_policy/imf/imfc/20261017jp.pdf）",
+       "processing_note": "財務省「第54回国際通貨金融委員会（IMFC）における日本国ステートメント」（https://www.mof.go.jp/policy/international_policy/imf/imfc/20261017jp.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "国内の政策としては、所得に応じたきめ細かな給付を本格導入するまでの2年間に限って、飲食料品の消費税率を引き下げることなどを、特例公債に頼らず財源を確保した上で実施すると説明した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "年間",
+         "label": "飲食料品の消費税率を引き下げる期間"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "本格導入する所得に応じたきめ細かな給付と、それまでの 2 年間に限った飲食料品の消費税率の引下げ",
+       "attribution": "出典：財務省「第54回国際通貨金融委員会（IMFC）における日本国ステートメント」（https://www.mof.go.jp/policy/international_policy/imf/imfc/20261017jp.pdf）",
+       "processing_note": "財務省「第54回国際通貨金融委員会（IMFC）における日本国ステートメント」（https://www.mof.go.jp/policy/international_policy/imf/imfc/20261017jp.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "日本は、新たに創設されるマネー・ローンダリング対策と腐敗防止の基金（AMLAC）に、5年間で拠出を行う予定だとした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5,
+         "unit": "年間",
+         "label": "AMLACへの拠出の期間"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "新たに創設される AMLAC に対しても、５年間で",
+       "attribution": "出典：財務省「第54回国際通貨金融委員会（IMFC）における日本国ステートメント」（https://www.mof.go.jp/policy/international_policy/imf/imfc/20261017jp.pdf）",
+       "processing_note": "財務省「第54回国際通貨金融委員会（IMFC）における日本国ステートメント」（https://www.mof.go.jp/policy/international_policy/imf/imfc/20261017jp.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "その拠出の額は3.5百万ドルの予定である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.5,
+         "unit": "百万ドル",
+         "label": "AMLACへの拠出の予定額"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "３．５百万ドルの拠出を行う予定です。",
+       "attribution": "出典：財務省「第54回国際通貨金融委員会（IMFC）における日本国ステートメント」（https://www.mof.go.jp/policy/international_policy/imf/imfc/20261017jp.pdf）",
+       "processing_note": "財務省「第54回国際通貨金融委員会（IMFC）における日本国ステートメント」（https://www.mof.go.jp/policy/international_policy/imf/imfc/20261017jp.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-18-001-1",
+       "text": "中東情勢によるエネルギー供給や物流への悪影響が続けば、燃料を多く使う海運業や空運業で、燃料の費用が重くなる状態が続く可能性がある。",
+       "falsifier": "ホルムズ海峡の航行が正常に戻り、原油の輸入価格が下がれば、この見方は成り立たない。",
+       "check_metric": "財務省 貿易統計の原油の輸入価格",
+       "check_by": "2026-11-30"
+      },
+      {
+       "inference_id": "INF-2026-10-18-001-2",
+       "text": "重要鉱物の輸出規制が続けば、電池や電子部品をつくる業種で、材料の調達先を分ける動きが続く可能性がある。",
+       "falsifier": "輸出規制が撤回され、重要鉱物の輸入が元の水準に戻れば、この見方は成り立たない。",
+       "check_metric": "財務省 貿易統計の希土類などの輸入数量",
+       "check_by": "2026-12-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-18-002",
+     "event_id": "EVT-2026-10-18-002",
+     "headline": "IMFの会合の議長声明（10月17日）：2021年4月の為替相場の約束を再確認、次回は2027年4月にワシントンで",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "10月17日にバンコクで、第54回国際通貨金融委員会（IMFC）の議長声明が出され、財務省がその仮訳を載せた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 54,
+         "unit": "回",
+         "label": "会合の回数"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "第 54 回国際通貨金融委員会（IMFC）議長声明（仮訳）",
+       "attribution": "出典：財務省「第54回国際通貨金融委員会（IMFC）議長声明（仮訳）」（https://www.mof.go.jp/policy/international_policy/imf/imfc/261017_IMFC_1.pdf）",
+       "processing_note": "財務省「第54回国際通貨金融委員会（IMFC）議長声明（仮訳）」（https://www.mof.go.jp/policy/international_policy/imf/imfc/261017_IMFC_1.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "国際通貨金融委員会（IMFC）は、IMFの運営の方向を、加盟国の財務大臣や中央銀行総裁などが話し合う場である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "声明は、2021年4月の為替相場についてのコミットメント（約束）を再確認した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2021,
+         "unit": "年",
+         "label": "日付（為替相場のコミットメントの年）"
+        },
+        {
+         "value": 4,
+         "unit": "月",
+         "label": "日付（為替相場のコミットメントの月）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "我々は、2021 年 4 月の為替相場についてのコミットメントを再確認する。",
+       "attribution": "出典：財務省「第54回国際通貨金融委員会（IMFC）議長声明（仮訳）」（https://www.mof.go.jp/policy/international_policy/imf/imfc/261017_IMFC_1.pdf）",
+       "processing_note": "財務省「第54回国際通貨金融委員会（IMFC）議長声明（仮訳）」（https://www.mof.go.jp/policy/international_policy/imf/imfc/261017_IMFC_1.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "声明は、IMFと世界銀行による「3本柱のアプローチ」の実施を加速させ、短期の資金繰りに困る国々への支援を増やすことを奨励した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3,
+         "unit": "本柱",
+         "label": "アプローチの柱の数"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "我々は、IMF 及び世界銀行による「3 本柱のアプローチ」の実",
+       "attribution": "出典：財務省「第54回国際通貨金融委員会（IMFC）議長声明（仮訳）」（https://www.mof.go.jp/policy/international_policy/imf/imfc/261017_IMFC_1.pdf）",
+       "processing_note": "財務省「第54回国際通貨金融委員会（IMFC）議長声明（仮訳）」（https://www.mof.go.jp/policy/international_policy/imf/imfc/261017_IMFC_1.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "IMFへの出資の割り当て（クォータ）を見直す議論では、「ディリヤ指導原則」が「第17次クォータ一般見直し」を含めた将来の議論の指針になるとした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 17,
+         "unit": "次",
+         "label": "クォータ一般見直しの回"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "「ディリヤ指導原則」は、「第 17 次クォータ一般見直し」におけるものを含",
+       "attribution": "出典：財務省「第54回国際通貨金融委員会（IMFC）議長声明（仮訳）」（https://www.mof.go.jp/policy/international_policy/imf/imfc/261017_IMFC_1.pdf）",
+       "processing_note": "財務省「第54回国際通貨金融委員会（IMFC）議長声明（仮訳）」（https://www.mof.go.jp/policy/international_policy/imf/imfc/261017_IMFC_1.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-06",
+       "text": "次回の会合は、2027年4月にワシントンDCで開かれる予定である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2027,
+         "unit": "年",
+         "label": "日付（次回会合の年）"
+        },
+        {
+         "value": 4,
+         "unit": "月",
+         "label": "日付（次回会合の月）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "次回 IMFC 会合は、2027 年 4 月にワシントン DC で開催される予定である。",
+       "attribution": "出典：財務省「第54回国際通貨金融委員会（IMFC）議長声明（仮訳）」（https://www.mof.go.jp/policy/international_policy/imf/imfc/261017_IMFC_1.pdf）",
+       "processing_note": "財務省「第54回国際通貨金融委員会（IMFC）議長声明（仮訳）」（https://www.mof.go.jp/policy/international_policy/imf/imfc/261017_IMFC_1.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-18-002-1",
+       "text": "為替相場についての約束が再確認されたことで、急な円安・円高の場面では、各国の通貨当局の発言が輸出の多い業種の採算の見通しに影響しやすい状態が続く可能性がある。",
+       "falsifier": "次の会合までに為替相場の大きな変動が無ければ、この見方を確かめる場面は来ない。",
+       "check_metric": "日本銀行 外国為替市況（ドル・円の相場）",
+       "check_by": "2027-04-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-18-003",
+     "event_id": "EVT-2026-10-18-003",
+     "headline": "世界銀行とIMFの開発委員会の議長声明（10月17日）：世界銀行グループの資金を使った融資などは2026会計年度に124 billionドル",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "世界銀行とIMFの合同の開発委員会は、10月15日にタイのバンコクで開かれた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 15,
+         "unit": "日",
+         "label": "日付（開催日）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "The Development Committee met on October 15, 2026, in Bangkok, Thailand.",
+       "attribution": "出典：財務省「第114回世銀・IMF合同開発委員会　議長声明（原文）」（https://www.mof.go.jp/policy/international_policy/imf/dc/DCstatement114.pdf）",
+       "processing_note": "財務省「第114回世銀・IMF合同開発委員会　議長声明（原文）」（https://www.mof.go.jp/policy/international_policy/imf/dc/DCstatement114.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "財務省は、この会合の議長声明の原文（10月17日付）を載せた。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "billion（ビリオン）は日本語の「十億」、million（ミリオン）は「百万」にあたる単位である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "声明によると、世界銀行グループの資金を使った融資などの総額は、2026会計年度に124 billionドルに達した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 124,
+         "unit": "billionドル",
+         "label": "世界銀行グループの資金を使った融資などの総額"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "We note that total financing using WBG resources reached $124 billion in",
+       "attribution": "出典：財務省「第114回世銀・IMF合同開発委員会　議長声明（原文）」（https://www.mof.go.jp/policy/international_policy/imf/dc/DCstatement114.pdf）",
+       "processing_note": "財務省「第114回世銀・IMF合同開発委員会　議長声明（原文）」（https://www.mof.go.jp/policy/international_policy/imf/dc/DCstatement114.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "民間の資金を呼び込んだ額は、112 billionドルに増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 112,
+         "unit": "billionドル",
+         "label": "民間資金を呼び込んだ額"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "private capital mobilization rose to $112 billion",
+       "attribution": "出典：財務省「第114回世銀・IMF合同開発委員会　議長声明（原文）」（https://www.mof.go.jp/policy/international_policy/imf/dc/DCstatement114.pdf）",
+       "processing_note": "財務省「第114回世銀・IMF合同開発委員会　議長声明（原文）」（https://www.mof.go.jp/policy/international_policy/imf/dc/DCstatement114.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-06",
+       "text": "社会的な安全網の事業は234 millionの人に役立ったと書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 234,
+         "unit": "million人",
+         "label": "社会的な安全網の事業が役立った人数"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "projects benefited 234 million people through social safety net programs",
+       "attribution": "出典：財務省「第114回世銀・IMF合同開発委員会　議長声明（原文）」（https://www.mof.go.jp/policy/international_policy/imf/dc/DCstatement114.pdf）",
+       "processing_note": "財務省「第114回世銀・IMF合同開発委員会　議長声明（原文）」（https://www.mof.go.jp/policy/international_policy/imf/dc/DCstatement114.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-07",
+       "text": "保健・栄養などのサービスは551 millionの人に届き、19 millionの農家に支援が届いた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 551,
+         "unit": "million人",
+         "label": "保健・栄養などのサービスが届いた人数"
+        },
+        {
+         "value": 19,
+         "unit": "million戸",
+         "label": "支援が届いた農家の数"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "nutrition, and population services to 551 million people, and reached 19 million farmers",
+       "attribution": "出典：財務省「第114回世銀・IMF合同開発委員会　議長声明（原文）」（https://www.mof.go.jp/policy/international_policy/imf/dc/DCstatement114.pdf）",
+       "processing_note": "財務省「第114回世銀・IMF合同開発委員会　議長声明（原文）」（https://www.mof.go.jp/policy/international_policy/imf/dc/DCstatement114.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-18-003-1",
+       "text": "国際開発金融機関が民間資金を呼び込む融資を増やせば、途上国のインフラ案件に関わる建設業や商社の、海外の受注の機会が広がる可能性がある。",
+       "falsifier": "次の会計年度に民間資金を呼び込んだ額が減れば、この見方は成り立たない。",
+       "check_metric": "世界銀行グループの年次報告の民間資金動員額",
+       "check_by": "2027-10-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-18-004",
+     "event_id": "EVT-2026-10-18-004",
+     "headline": "日本の財務大臣がIMF・世界銀行の年次総会で演説：母子保健の基金に4000万ドルを新たに拠出と表明",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "財務大臣は10月16日、バンコクでのIMF・世界銀行の年次総会で演説し、母子保健と栄養を支える基金（グローバル・ファイナンシング・ファシリティ、GFF）に4000万ドルを新たに拠出すると表明した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4000,
+         "unit": "万ドル",
+         "label": "GFFへの新規拠出額"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "グローバル・ファイナンシング・ファシリティ（GFF）に4000万ドルの新規拠出を表明します",
+       "attribution": "出典：財務省「第81回IMF・世界銀行年次総会　財務大臣総務演説（令和8年10月16日　於：バンコク）」（https://www.mof.go.jp/policy/international_policy/imf/annual_meeting/20261017045147.html）",
+       "processing_note": "財務省「第81回IMF・世界銀行年次総会　財務大臣総務演説（令和8年10月16日　於：バンコク）」（https://www.mof.go.jp/policy/international_policy/imf/annual_meeting/20261017045147.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "演説は、中東危機を受けて立ち上げられた「DRIVE」の第1号案件として、国際金融公社（IFC）と国際協力機構（JICA）が東南アジアと南アジアのエネルギー移行を支援する共同プロジェクトを歓迎した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "号",
+         "label": "DRIVEの案件の番号"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "DRIVEの第1号案件である、IFCと国際協力機構（JICA）による東南アジア及び南アジアのエネルギー移行を支援する共同プロジェクトを歓迎します",
+       "attribution": "出典：財務省「第81回IMF・世界銀行年次総会　財務大臣総務演説（令和8年10月16日　於：バンコク）」（https://www.mof.go.jp/policy/international_policy/imf/annual_meeting/20261017045147.html）",
+       "processing_note": "財務省「第81回IMF・世界銀行年次総会　財務大臣総務演説（令和8年10月16日　於：バンコク）」（https://www.mof.go.jp/policy/international_policy/imf/annual_meeting/20261017045147.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "演説は、IMFの能力開発について、サーベイランス・融資との統合など3つの取組を今後も強化していくべきだと述べた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3,
+         "unit": "つ",
+         "label": "強化すべき取組の数"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "の３つの取組を今後も強化していくべきです",
+       "attribution": "出典：財務省「第81回IMF・世界銀行年次総会　財務大臣総務演説（令和8年10月16日　於：バンコク）」（https://www.mof.go.jp/policy/international_policy/imf/annual_meeting/20261017045147.html）",
+       "processing_note": "財務省「第81回IMF・世界銀行年次総会　財務大臣総務演説（令和8年10月16日　於：バンコク）」（https://www.mof.go.jp/policy/international_policy/imf/annual_meeting/20261017045147.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "演説は、途上国の税の仕組みづくりなどの「国内資金動員」について、本年3月に東京で行われた「税と開発カンファレンス」での議論も踏まえて、各国に合わせた支援を続けるとした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3,
+         "unit": "月",
+         "label": "日付（カンファレンスが行われた月）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "本年３月に東京で行われたDRMに焦点を当てた「税と開発カンファレンス」での議論も踏まえ",
+       "attribution": "出典：財務省「第81回IMF・世界銀行年次総会　財務大臣総務演説（令和8年10月16日　於：バンコク）」（https://www.mof.go.jp/policy/international_policy/imf/annual_meeting/20261017045147.html）",
+       "processing_note": "財務省「第81回IMF・世界銀行年次総会　財務大臣総務演説（令和8年10月16日　於：バンコク）」（https://www.mof.go.jp/policy/international_policy/imf/annual_meeting/20261017045147.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "国際金融公社（IFC）は、世界銀行グループの中で、途上国の民間企業に融資や出資をする機関である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-18-004-1",
+       "text": "東南アジアや南アジアのエネルギー移行の案件が増えれば、発電設備や送電の機器をつくる電気機器の業種で、海外向けの受注の機会が広がる可能性がある。",
+       "falsifier": "DRIVEの後続の案件が1年以内に出なければ、この見方は成り立たない。",
+       "check_metric": "財務省・国際協力機構の発表に出るDRIVEの案件数",
+       "check_by": "2027-10-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-18-005",
+     "event_id": "EVT-2026-10-18-005",
+     "headline": "建築コストと金利の上昇のなかの分譲マンション：神戸の和田興産の3〜8月は、マンション販売の売上高が前年同期の88.5%（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "兵庫県を地盤に分譲マンションを手がける和田興産の半期報告書（2026年3〜8月）によると、売上高は22,182百万円で前年同期比100.0%、営業利益は2,049百万円で前年同期の74.3%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 22182,
+         "unit": "百万円",
+         "label": "売上高"
+        },
+        {
+         "value": 100.0,
+         "unit": "%",
+         "label": "売上高の前年同期比"
+        },
+        {
+         "value": 2049,
+         "unit": "百万円",
+         "label": "営業利益"
+        },
+        {
+         "value": 74.3,
+         "unit": "%",
+         "label": "営業利益の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "売上高は22,182百万円 （前年同期比 100.0％ ）、 営業利益は2,049百万円 （同 74.3％ ）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76W）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76W）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "主力の分譲マンション販売の売上高は16,266百万円で前年同期の88.5%、この事業の営業利益は1,482百万円で前年同期の59.2%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 16266,
+         "unit": "百万円",
+         "label": "分譲マンション販売の売上高"
+        },
+        {
+         "value": 88.5,
+         "unit": "%",
+         "label": "分譲マンション販売の売上高の前年同期比"
+        },
+        {
+         "value": 1482,
+         "unit": "百万円",
+         "label": "分譲マンション販売の営業利益"
+        },
+        {
+         "value": 59.2,
+         "unit": "%",
+         "label": "分譲マンション販売の営業利益の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "売上高は 16,266百万円 （前年同期比 88.5％ ）、セグメント利益（営業利益）は 1,482百万円 （同 59.2％ ）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76W）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76W）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "分譲マンションの発売戸数は314戸（前年同期の85.3%）、契約戸数は268戸（同89.0%）、引渡戸数は277戸（同85.0%）だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 314,
+         "unit": "戸",
+         "label": "発売戸数"
+        },
+        {
+         "value": 85.3,
+         "unit": "%",
+         "label": "発売戸数の前年同期比"
+        },
+        {
+         "value": 268,
+         "unit": "戸",
+         "label": "契約戸数"
+        },
+        {
+         "value": 89.0,
+         "unit": "%",
+         "label": "契約戸数の前年同期比"
+        },
+        {
+         "value": 277,
+         "unit": "戸",
+         "label": "引渡戸数"
+        },
+        {
+         "value": 85.0,
+         "unit": "%",
+         "label": "引渡戸数の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "分譲マンションの発売戸数は314戸（同85.3％）、契約戸数は268戸（同89.0％）、引渡戸数は277戸（同85.0％）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76W）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76W）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-04",
+       "text": "契約は済んだがまだ引き渡していない戸数は724戸で、前年同期の109.4%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 724,
+         "unit": "戸",
+         "label": "契約済未引渡戸数"
+        },
+        {
+         "value": 109.4,
+         "unit": "%",
+         "label": "契約済未引渡戸数の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "契約済未引渡戸数は724戸（同109.4％）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76W）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76W）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-05",
+       "text": "分譲マンションの会社は、建物ができあがって買った人に引き渡したときに売上を計上するため、完成の時期によって期ごとの売上が大きく動く。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-06",
+       "text": "賃貸マンションなど12物件を売った「その他不動産販売」の売上高は3,321百万円で、前年同期の214.9%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 12,
+         "unit": "物件",
+         "label": "販売した物件の数"
+        },
+        {
+         "value": 3321,
+         "unit": "百万円",
+         "label": "その他不動産販売の売上高"
+        },
+        {
+         "value": 214.9,
+         "unit": "%",
+         "label": "その他不動産販売の売上高の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "賃貸マンション等12物件の販売により、売上高は 3,321百万円 （前年同期比 214.9％ ）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76W）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76W）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-18-005-1",
+       "text": "建築コストの高止まりと住宅ローン金利の上昇が続けば、分譲マンションの会社では、発売戸数を絞って利益率を保とうとする動きが広がる可能性がある。",
+       "falsifier": "不動産業の会社の次の決算で、発売戸数が前年より増える会社が多ければ、この見方は成り立たない。",
+       "check_metric": "国土交通省 建築着工統計の分譲マンションの着工戸数",
+       "check_by": "2027-01-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-10-18T07:37:14.783589+09:00",
+  "first_run": {
+   "run_at": "2026-10-18T07:37:14.783589+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 7,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 30,
+  "passed": 24,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 6,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 3,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-006": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp040300-ssr-001_E04029-000_2026-08-31_01_2026-10-09_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp040300-ssr-001_E04029-000_2026-08-31_01_2026-10-09_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp040300-ssr-001_E04029-000_2026-08-31_01_2026-10-09_ixbrl.htm",
+     "XBRL/PublicDoc/0104000_honbun_jpcrp040300-ssr-001_E04029-000_2026-08-31_01_2026-10-09_ixbrl.htm",
+     "XBRL/PublicDoc/0104310_honbun_jpcrp040300-ssr-001_E04029-000_2026-08-31_01_2026-10-09_ixbrl.htm",
+     "XBRL/PublicDoc/0104320_honbun_jpcrp040300-ssr-001_E04029-000_2026-08-31_01_2026-10-09_ixbrl.htm",
+     "XBRL/PublicDoc/0104340_honbun_jpcrp040300-ssr-001_E04029-000_2026-08-31_01_2026-10-09_ixbrl.htm",
+     "XBRL/PublicDoc/0104400_honbun_jpcrp040300-ssr-001_E04029-000_2026-08-31_01_2026-10-09_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp040300-ssr-001_E04029-000_2026-08-31_01_2026-10-09_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 3,
+  "attribution_overwritten": 31,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "morning",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 7,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 0,
+  "evidence_doc_type_overridden": 0,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {},
+  "impact_kind_undetermined_by_doc_type": {},
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 0,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 0,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 54,
+   "numbers_declared": 41,
+   "gap": 13,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 52,
+     "numbers_declared": 41
+    },
+    "explainer": {
+     "text_number_tokens": 2,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 4,
+   "line_ids": [
+    "L-002-03",
+    "L-002-06",
+    "L-003-01",
+    "L-004-05"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 5,
+   "change": 10,
+   "ripple": 4,
+   "deep": 5
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 6,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-002",
+    "SRC-003",
+    "SRC-004",
+    "SRC-005"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 3,
+   "first_run_at": "2026-10-18T07:36:41.800119+09:00",
+   "last_run_at": "2026-10-18T07:37:09.802945+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [
+    "L-004-05"
+   ],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 24,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 2,
+   "total_unregistered": 2,
+   "excluded_date_time_tokens": 17,
+   "lines": [
+    {
+     "line_id": "L-003-04",
+     "values": [
+      "2026"
+     ]
+    },
+    {
+     "line_id": "L-005-01",
+     "values": [
+      "3"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 0,
+   "zero_letter_count": 0,
+   "lines": []
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "market_closed",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 4,
+    "source_ids": [
+     "SRC-002",
+     "SRC-003",
+     "SRC-004",
+     "SRC-005"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 5
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
