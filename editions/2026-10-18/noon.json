@@ -1,0 +1,1223 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-10-18-noon",
+ "date": "2026-10-18",
+ "slot": "noon",
+ "generated_at": "2026-10-18T13:16:45.872477+09:00",
+ "market_open": false,
+ "baseline": {
+  "date": "2026-10-18",
+  "price_type": "observed"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-18&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月18日）",
+   "published_at": "2026-10-18",
+   "fetched_at": "2026-10-18T13:08:54+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "efa36d5633d6846cd366b99ca26b93b2d649fe609eb2dfde0257c1a093bebb0b",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-16&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月16日）",
+   "published_at": "2026-10-16",
+   "fetched_at": "2026-10-18T13:09:01+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "7fcd44cbf2e3fa010b0068f3d36d3e4f9889be7c90c125b0b94325e931365ddc",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://www.boj.or.jp/intl_finance/meeting/group/gro261016a.htm",
+   "publisher": "日本銀行",
+   "publisher_type": "central_bank",
+   "title": "金融安定理事会による最終報告書「AIの責任ある導入に関する健全な実務慣行」の公表について",
+   "published_at": "2026-10-16",
+   "fetched_at": "2026-10-18T13:10:08+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "77517eab85efd567f6364d5a7057f91b39b289f7a67cef095df662303b9b46dd",
+   "usage": "quotable",
+   "attribution": "出典：日本銀行「金融安定理事会による最終報告書「AIの責任ある導入に関する健全な実務慣行」の公表について」（https://www.boj.or.jp/intl_finance/meeting/group/gro261016a.htm）",
+   "processing_note": "日本銀行「金融安定理事会による最終報告書「AIの責任ある導入に関する健全な実務慣行」の公表について」（https://www.boj.or.jp/intl_finance/meeting/group/gro261016a.htm）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/01.pdf",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "租税特別措置・補助金・基金見直しの取組",
+   "published_at": "2026-10-16",
+   "fetched_at": "2026-10-18T13:10:48+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "30806a2d170f6d632617ec7b85783d2a187b8ae99ae178ed62536714cad2f89a",
+   "usage": "quotable",
+   "attribution": "出典：財務省「租税特別措置・補助金・基金見直しの取組」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/01.pdf）",
+   "processing_note": "財務省「租税特別措置・補助金・基金見直しの取組」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/01.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z8DB?type=1",
+   "publisher": "株式会社デジタルガレージ",
+   "publisher_type": "company_disclosure",
+   "title": "変更報告書（株式会社デジタルガレージ）",
+   "published_at": "2026-10-16T16:00:00+09:00",
+   "fetched_at": "2026-10-18T13:13:05+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "b36d01bba5b767764ddc3bddb683af18d5e62eab67049fc97136fefa06c5d955",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8DB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8DB）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8DB"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z6OA?type=1",
+   "publisher": "株式会社トーヨーアサノ",
+   "publisher_type": "company_disclosure",
+   "title": "半期報告書－第84期(2026/03/01－2027/02/28)（株式会社トーヨーアサノ）",
+   "published_at": "2026-10-14T09:57:00+09:00",
+   "fetched_at": "2026-10-18T13:13:12+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "dc27c659e95843853a031e677e98a25deff9aeb84cc267296325f8df3069e7ac",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6OA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6OA）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6OA"
+  },
+  {
+   "source_id": "SRC-009",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z8J6?type=1",
+   "publisher": "ダイトロン株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "自己株券買付状況報告書（法２４条の６第１項に基づくもの）（ダイトロン株式会社）",
+   "published_at": "2026-10-16T10:53:00+09:00",
+   "fetched_at": "2026-10-18T13:13:19+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "b03634df59043210b6b254d8c7a7cade886714dcc186d8f8f8f7a23e1685d751",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8J6）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8J6）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8J6"
+  },
+  {
+   "source_id": "SRC-010",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z8QL?type=1",
+   "publisher": "株式会社ＬＩＴＡＬＩＣＯ",
+   "publisher_type": "company_disclosure",
+   "title": "自己株券買付状況報告書（法２４条の６第１項に基づくもの）（株式会社ＬＩＴＡＬＩＣＯ）",
+   "published_at": "2026-10-16T15:51:00+09:00",
+   "fetched_at": "2026-10-18T13:13:24+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "58c5b36eddc4fe5fe5188e94f5d5ab52bcaf95be24008e1b0be51a0defa95d63",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8QL）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8QL）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8QL"
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-18-001",
+     "event_id": "EVT-2026-10-18-001",
+     "headline": "続報：カカクコムの大株主デジタルガレージが変更報告書、KDDIと合わせた保有割合は38.31%（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "カカクコムの大株主のデジタルガレージが、カカクコムの株の持ち方について、10月16日に変更報告書を出した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 16,
+         "unit": "日",
+         "label": "日付（提出日）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "【提出日】2026年10月16日",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8DB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8DB）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "書類では、報告が必要になった日は10月14日とされている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 14,
+         "unit": "日",
+         "label": "日付（報告義務発生日）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "【報告義務発生日】2026年10月14日",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8DB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8DB）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "デジタルガレージが持つカカクコムの株の割合は20.64%である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20.64,
+         "unit": "%",
+         "label": "デジタルガレージの株券等保有割合"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "上記提出者の株券等保有割合（％）（AB/（AD+AE-AF）×100）20.64",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8DB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8DB）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "一緒に届け出たKDDIの割合は17.67%である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 17.67,
+         "unit": "%",
+         "label": "KDDIの株券等保有割合"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "上記共同保有者の株券等保有割合（％）（AB/（AD+AE-AF）×100）17.67",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8DB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8DB）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "2社を合わせた割合は38.31%になる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 38.31,
+         "unit": "%",
+         "label": "2社を合わせた株券等保有割合"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "上記提出者の株券等保有割合（％）（AB/（AD+AE-AF）×100）38.31",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8DB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8DB）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "デジタルガレージは5月12日に、買付けをする会社との間で、公開買付けに応じないことなどを定めた契約を結んでいる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 12,
+         "unit": "日",
+         "label": "日付（契約の締結）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "提出者は、2026年5月12日付で、Kamgras 1株式会社（以下「公開買付者」といいます。）との間で、公開買付けへの不応募等に関する契約",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8DB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8DB）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "書類に書かれた一連の取引には、非公開化の後に、買付けをする会社の親会社などに出資し直して、議決権の約20%を持つ株を取得することが含まれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20,
+         "unit": "%",
+         "label": "再出資対象会社の議決権所有割合（約）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "再出資対象会社の普通株式（議決権所有割合約20％）を取得すること",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8DB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8DB）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-08",
+       "text": "公開買付けは、決めた値段と期間で、株主から株を買い集める手続きである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-09",
+       "text": "変更報告書は、上場会社の株をたくさん持つ株主が、持ち方や持つ目的が変わったときに出す書類である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-18-001-1",
+       "text": "大株主が公開買付けに応じない契約を結んでいる場合、買付けで集まる株の数は、残りの株主の応じ方で決まる可能性がある。",
+       "falsifier": "公開買付けの結果で、応募した株の数が買い集める株の数の下限を大きく上回れば、残りの株主の応じ方が決め手だったとは言いにくくなる。",
+       "check_metric": "EDINETに出される公開買付報告書の応募株券等の数",
+       "check_by": "2026-11-06"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-18-002",
+     "event_id": "EVT-2026-10-18-002",
+     "headline": "金融安定理事会（FSB）が、金融機関のAIの導入について12の実務慣行をまとめた最終報告書（日本銀行の案内から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "日本銀行の案内によると、金融安定理事会（FSB）の最終報告書は、組織全体のAIガバナンスや、AIを使う全期間のリスク管理の枠組みについて、12の健全な実務慣行を示している。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 12,
+         "unit": "個",
+         "label": "件数（健全な実務慣行の数）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "組織全体のAIガバナンスや、AIライフサイクルにおける包括的なリスク管理枠組みに関して、12の健全な実務慣行を提示しています",
+       "attribution": "出典：日本銀行「金融安定理事会による最終報告書「AIの責任ある導入に関する健全な実務慣行」の公表について」（https://www.boj.or.jp/intl_finance/meeting/group/gro261016a.htm）",
+       "processing_note": "日本銀行「金融安定理事会による最終報告書「AIの責任ある導入に関する健全な実務慣行」の公表について」（https://www.boj.or.jp/intl_finance/meeting/group/gro261016a.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "金融安定理事会（FSB）は、各国の金融当局や中央銀行が集まり、金融の安定のための国際的な考え方を話し合う場である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "この紙面は、AIを開発するAnthropic社のAI（Claude）が作っている。AIの導入をめぐる話題では、その立場にあることを書き添え、評価は加えない。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-18-002-1",
+       "text": "国内の金融当局がこの報告書の考え方を取り入れれば、銀行業や保険業でAIを使うときの管理の体制づくりの負担が増える可能性がある。",
+       "falsifier": "国内の金融当局が、この報告書に沿った新しい指針や調査を示さなければ、この見方は成り立たない。",
+       "check_metric": "金融庁・日本銀行が公表するAIの利用に関する指針や調査",
+       "check_by": "2027-03-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": []
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-18-003",
+     "event_id": "EVT-2026-10-18-003",
+     "headline": "建物の基礎の杭をつくるトーヨーアサノの3〜8月：基礎事業の売上高は13.6%減、会社全体の営業利益は91.0%減（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "トーヨーアサノの半期報告書によると、杭などの基礎事業の3〜8月は、売上高が6,186百万円で前の年の同じ時期より13.6%減り、営業利益は296百万円で60.9%減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 6186,
+         "unit": "百万円",
+         "label": "基礎事業の売上高"
+        },
+        {
+         "value": 13.6,
+         "unit": "%",
+         "label": "基礎事業の売上高の前年同期比の減少率"
+        },
+        {
+         "value": 296,
+         "unit": "百万円",
+         "label": "基礎事業の営業利益"
+        },
+        {
+         "value": 60.9,
+         "unit": "%",
+         "label": "基礎事業の営業利益の前年同期比の減少率"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "当第２四半期連結累計期間の売上高は6,186百万円（前中間連結会計期間比13.6％減）、営業利益は296百万円（前中間連結会計期間比60.9％減）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6OA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6OA）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "会社は損益について、主な商圏での需要の低迷と価格競争の激化に加えて、中東情勢の影響による原材料価格の上昇などを挙げており、基礎事業の営業利益は296百万円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 296,
+         "unit": "百万円",
+         "label": "基礎事業の営業利益"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "主力商圏における需要低迷及び価格競争の激化に加えて、中東情勢の影響による原材料価格の上昇などにより、当第２四半期連結累計期間の売上高は6,186百万円（前中間連結会計期間比13.6％減）、営業利益は296百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6OA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6OA）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "会社全体では、売上高が6,285百万円で13.4%減り、営業利益は42百万円で91.0%減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 6285,
+         "unit": "百万円",
+         "label": "会社全体の売上高"
+        },
+        {
+         "value": 13.4,
+         "unit": "%",
+         "label": "会社全体の売上高の前年同期比の減少率"
+        },
+        {
+         "value": 42,
+         "unit": "百万円",
+         "label": "会社全体の営業利益"
+        },
+        {
+         "value": 91.0,
+         "unit": "%",
+         "label": "会社全体の営業利益の前年同期比の減少率"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "売上高は6,285百万円（前中間連結会計期間比13.4％減）、営業利益は42百万円（前中間連結会計期間比91.0％減）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6OA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6OA）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "不動産を貸す事業は、売上高が98百万円で0.2%減り、営業利益は61百万円で1.6%減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 98,
+         "unit": "百万円",
+         "label": "不動産賃貸事業の売上高"
+        },
+        {
+         "value": 0.2,
+         "unit": "%",
+         "label": "不動産賃貸事業の売上高の前年同期比の減少率"
+        },
+        {
+         "value": 61,
+         "unit": "百万円",
+         "label": "不動産賃貸事業の営業利益"
+        },
+        {
+         "value": 1.6,
+         "unit": "%",
+         "label": "不動産賃貸事業の営業利益の前年同期比の減少率"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "売上高は、98百万円（前中間連結会計期間比0.2％減）、営業利益は61百万円（前中間連結会計期間比1.6％減）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6OA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z6OA）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "コンクリートパイルは、建物を支えるために地面に打ち込む杭で、建物を建てる工事の初めの段階で使われる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-18-003-1",
+       "text": "基礎の杭は建物の工事の初めに使われるため、関東での建物の着工の動きが、杭をつくる業種の売上に早めに表れる可能性がある。",
+       "falsifier": "国の統計で関東の建物の着工床面積が増えているのに、杭をつくる業種の売上が減り続ければ、この見方は成り立たない。",
+       "check_metric": "国土交通省 建築着工統計の地域別の着工床面積",
+       "check_by": "2027-01-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-18-004",
+     "event_id": "EVT-2026-10-18-004",
+     "headline": "国の補助金と基金の見直し：財務省が審議会に、基金にたまったお金を国庫に返す考え方を示す",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "財務省が10月16日の審議会に出した資料によると、10月9日に、租税特別措置・補助金・基金の徹底見直しに関する関係閣僚等と副大臣の第3回の会議が開かれた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9,
+         "unit": "日",
+         "label": "日付（会議の開催日）"
+        },
+        {
+         "value": 3,
+         "unit": "回",
+         "label": "件数（会議の回数）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "10⽉９⽇（⾦）の第３回「租税特別措置・補助⾦・基⾦の徹底⾒直しに関する関係閣僚等及び副⼤⾂会議」では、",
+       "attribution": "出典：財務省「租税特別措置・補助金・基金見直しの取組」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/01.pdf）",
+       "processing_note": "財務省「租税特別措置・補助金・基金見直しの取組」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/01.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "資料によると、「日本版DOGE」と呼ぶこの見直しは、令和9年度の予算編成と税制改正の過程で行う。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9,
+         "unit": "年度",
+         "label": "日付（令和の年度）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "「租税特別措置・補助⾦・基⾦⾒直し（⽇本版DOGE）」の取組については、令和９年度予算編成・税制改正プロセスにおいて、",
+       "attribution": "出典：財務省「租税特別措置・補助金・基金見直しの取組」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/01.pdf）",
+       "processing_note": "財務省「租税特別措置・補助金・基金見直しの取組」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/01.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "資料は、令和8年7月21日に閣議決定した「骨太方針2026」の、基金などの見直しの部分を参考として引いている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 21,
+         "unit": "日",
+         "label": "日付（閣議決定）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "（参考）⾻太⽅針2026（令和8年7⽉21⽇閣議決定）",
+       "attribution": "出典：財務省「租税特別措置・補助金・基金見直しの取組」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/01.pdf）",
+       "processing_note": "財務省「租税特別措置・補助金・基金見直しの取組」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261016/01.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "基金は、何年かにわたって使うお金を、先にまとめて積んでおく仕組みである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "国庫債務負担行為は、国が次の年度以降に支払う約束を、予算の形で国会に認めてもらう仕組みである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-18-004-1",
+       "text": "基金から年度ごとの予算に切り替わると、国の補助を受けて設備投資をする業種で、お金を受け取る時期が何年かに分かれる可能性がある。",
+       "falsifier": "12月にまとまる令和9年度の予算案で、基金への積み増しが前の年度並みに続けば、この見方は成り立たない。",
+       "check_metric": "令和9年度予算案の基金関係の計上額",
+       "check_by": "2026-12-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-18-005",
+     "event_id": "EVT-2026-10-18-005",
+     "headline": "自社株買いの進み方：ダイトロンは決めた金額の99.99%、LITALICOは6月4日の取得で終了（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "自社株買いは、会社が市場などで自分の会社の株を買い戻すことである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "自己株券買付状況報告書は、自社株買いを決めた会社が、買った株の数と金額を知らせる書類である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "ダイトロンは8月3日の取締役会で、650,000株・2,500,000,000円を上限に、自社の株を買うと決めていた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 650000,
+         "unit": "株",
+         "label": "取得する株数の上限"
+        },
+        {
+         "value": 2500000000,
+         "unit": "円",
+         "label": "取得する金額の上限"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "取締役会（2026年８月３日）での決議状況 （取得期間2026年８月４日～2026年11月30日）  650,000（上限）  2,500,000,000 （上限）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8J6）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8J6）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-04",
+       "text": "9月末までに買った株は571,000株、金額は2,499,661,000円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 571000,
+         "unit": "株",
+         "label": "累計で取得した株数"
+        },
+        {
+         "value": 2499661000,
+         "unit": "円",
+         "label": "累計で取得した金額"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "報告月末現在の累計取得自己株式  571,000  2,499,661,000",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8J6）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8J6）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-05",
+       "text": "進み具合は、株数で上限の87.85%、金額で99.99%である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 87.85,
+         "unit": "%",
+         "label": "株数の進捗状況"
+        },
+        {
+         "value": 99.99,
+         "unit": "%",
+         "label": "金額の進捗状況"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "自己株式取得の進捗状況（％）  87.85  99.99",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8J6）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8J6）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-06",
+       "text": "LITALICOは5月11日の取締役会で、1,000,000株・1,000,000,000円を上限とする自社の株の取得を決めていた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1000000,
+         "unit": "株",
+         "label": "取得する株数の上限"
+        },
+        {
+         "value": 1000000000,
+         "unit": "円",
+         "label": "取得する金額の上限"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "取締役会(2026年5月11日)での決議状況(取得期間　2026年9月1日～2026年9月30日)     1,000,000  1,000,000,000",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8QL）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8QL）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-07",
+       "text": "累計で買った株は644,700株、金額は999,962,700円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 644700,
+         "unit": "株",
+         "label": "累計で取得した株数"
+        },
+        {
+         "value": 999962700,
+         "unit": "円",
+         "label": "累計で取得した金額"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "報告月末現在の累計取得自己株式     644,700  999,962,700",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8QL）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8QL）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-08",
+       "text": "進み具合は、株数で64.5%、金額で100.0%である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 64.5,
+         "unit": "%",
+         "label": "株数の進捗状況"
+        },
+        {
+         "value": 100.0,
+         "unit": "%",
+         "label": "金額の進捗状況"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "自己株式取得の進捗状況(％)     64.5  100.0",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8QL）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8QL）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-09",
+       "text": "LITALICOの書類には、6月4日の取得をもって、この取締役会の決議に基づく取得が終わったと書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4,
+         "unit": "日",
+         "label": "日付（取得の終了）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "2026年6月4日の自己株式の取得をもって、同年5月11日の取締役会決議に基づく自己株式の取得は終了しております",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8QL）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8QL）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-18-005-1",
+       "text": "株価が上がっている時期には、決めた金額の上限に先に届き、株数の上限まで買えずに終わる自社株買いが増える可能性がある。",
+       "falsifier": "今後の自己株券買付状況報告書で、株数の進み具合が金額の進み具合を上回る例が多ければ、この見方は成り立たない。",
+       "check_metric": "EDINETの自己株券買付状況報告書の進捗状況（株数と金額）",
+       "check_by": "2026-12-15"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-10-18T13:16:45.872477+09:00",
+  "first_run": {
+   "run_at": "2026-10-18T13:16:45.872477+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 8,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 31,
+  "passed": 22,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 9,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 6,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-007": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jplvh010000-lvh-001_E05156-000_2026-10-14_01_2026-10-16_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jplvh010000-lvh-001_E05156-000_2026-10-14_01_2026-10-16_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-008": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp040300-ssr-001_E01165-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp040300-ssr-001_E01165-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp040300-ssr-001_E01165-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104000_honbun_jpcrp040300-ssr-001_E01165-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp040300-ssr-001_E01165-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104020_honbun_jpcrp040300-ssr-001_E01165-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104035_honbun_jpcrp040300-ssr-001_E01165-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104050_honbun_jpcrp040300-ssr-001_E01165-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104100_honbun_jpcrp040300-ssr-001_E01165-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104110_honbun_jpcrp040300-ssr-001_E01165-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104120_honbun_jpcrp040300-ssr-001_E01165-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp040300-ssr-001_E01165-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp040300-ssr-001_E01165-000_2026-08-31_01_2026-10-14_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-009": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp170000-sbr-001_E02898-000_2026-10-16_01_2026-10-16_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp170000-sbr-001_E02898-000_2026-10-16_01_2026-10-16_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-010": {
+    "files": [
+     "XBRL/PublicDoc/0100000_honbun_jpcrp170000-sbr-001_E36134-000_2026-10-16_01_2026-10-16_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp170000-sbr-001_E36134-000_2026-10-16_01_2026-10-16_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 6,
+  "attribution_overwritten": 30,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "noon",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 8,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 0,
+  "evidence_doc_type_overridden": 0,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {},
+  "impact_kind_undetermined_by_doc_type": {},
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 0,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 0,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 56,
+   "numbers_declared": 38,
+   "gap": 18,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 56,
+     "numbers_declared": 38
+    },
+    "explainer": {
+     "text_number_tokens": 0,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 8,
+   "line_ids": [
+    "L-001-01",
+    "L-001-02",
+    "L-001-06",
+    "L-002-01",
+    "L-004-01",
+    "L-004-02",
+    "L-004-03",
+    "L-005-09"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 8,
+   "change": 0,
+   "ripple": 7,
+   "deep": 7
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 4,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-002",
+    "SRC-006"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 1,
+   "first_run_at": "2026-10-18T13:16:37.743714+09:00",
+   "last_run_at": "2026-10-18T13:16:37.743714+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 22,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 3,
+   "total_unregistered": 3,
+   "excluded_date_time_tokens": 22,
+   "lines": [
+    {
+     "line_id": "L-001-05",
+     "values": [
+      "2"
+     ]
+    },
+    {
+     "line_id": "L-003-01",
+     "values": [
+      "3"
+     ]
+    },
+    {
+     "line_id": "L-004-03",
+     "values": [
+      "2026"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 0,
+   "zero_letter_count": 0,
+   "lines": []
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "market_closed",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 2,
+    "source_ids": [
+     "SRC-002",
+     "SRC-006"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 5
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 1,
+   "articles": [
+    {
+     "article_id": "ART-2026-10-18-001",
+     "headline_has_word": true,
+     "is_followup": false
+    }
+   ]
+  },
+  "industry_picks_discarded": 0,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
