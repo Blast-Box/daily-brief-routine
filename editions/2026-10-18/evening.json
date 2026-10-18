@@ -1,0 +1,861 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-10-18-evening",
+ "date": "2026-10-18",
+ "slot": "evening",
+ "generated_at": "2026-10-18T17:15:01.056516+09:00",
+ "market_open": false,
+ "baseline": {
+  "date": "2026-10-19",
+  "price_type": "next_open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-18&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月18日）",
+   "published_at": "2026-10-18",
+   "fetched_at": "2026-10-18T17:09:12+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "b05787ba3006f3aaf03f04d043a75912973798e9a7b28f692f3e53b9a65d403a",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-16&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月16日）",
+   "published_at": "2026-10-16",
+   "fetched_at": "2026-10-18T17:09:18+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "7fcd44cbf2e3fa010b0068f3d36d3e4f9889be7c90c125b0b94325e931365ddc",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z8QJ?type=1",
+   "publisher": "ヒューリック株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "変更報告書（ヒューリック株式会社）",
+   "published_at": "2026-10-16T15:42:00+09:00",
+   "fetched_at": "2026-10-18T17:09:41+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "18290a9e1e00883055b50d34414d2dc74a41a5e6e367409b4dff27135e35d47d",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8QJ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8QJ）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8QJ"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z7OV?type=1",
+   "publisher": "ジーイエット株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "半期報告書－第37期(2026/03/01－2027/02/28)（ジーイエット株式会社）",
+   "published_at": "2026-10-14T16:11:00+09:00",
+   "fetched_at": "2026-10-18T17:09:48+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "95aeef5f28c5a58aff36dd7017f5b8b786669a7b90309471d7935d975ca12555",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OV）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OV）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OV"
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://www.mof.go.jp/public_relations/conference/my20261016.html",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月16日(金曜日))",
+   "published_at": "2026-10-16",
+   "fetched_at": "2026-10-18T17:11:09+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "ba46162c4b8621b43bec49f6626f954e51b89fee47b550318602b15a43b8a1e0",
+   "usage": "quotable",
+   "attribution": "出典：財務省「片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月16日(金曜日))」（https://www.mof.go.jp/public_relations/conference/my20261016.html）",
+   "processing_note": "財務省「片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月16日(金曜日))」（https://www.mof.go.jp/public_relations/conference/my20261016.html）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_auct/auct20261016.htm",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "国庫短期証券（第1415回）の発行予定額等",
+   "published_at": "2026-10-16",
+   "fetched_at": "2026-10-18T17:11:31+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "4dae365f15915973f4df999e27a996edcdf7ba9f79c20a486fefcd0fd496fbe2",
+   "usage": "quotable",
+   "attribution": "出典：財務省「国庫短期証券（第1415回）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_auct/auct20261016.htm）",
+   "processing_note": "財務省「国庫短期証券（第1415回）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_auct/auct20261016.htm）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-18-001",
+     "event_id": "EVT-2026-10-18-001",
+     "headline": "財務大臣が会見で、韓国との通貨スワップの延長が決まったと説明：インドとは財務相どうしの協議を格上げする方向",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "財務大臣は10月16日の閣議後の記者会見で、バンコクでの各国の財務相との会談について、韓国とは通貨スワップの延長が決まり、インドとは財務相どうしの二国間協議に格上げする方向でほぼ合意し、タイの財務大臣が11月に投資委員会を率いて来る予定だと説明した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 11,
+         "unit": "月",
+         "label": "日付（タイの財務大臣が来る月）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "韓国とは通貨スワップの延長が決まりましたし、インドとは蔵相間の二国間協議に格上げする方向がほぼ合意されましたし、インドネシアもそれを望んでおられます。またタイは11月に投資委員会を率いて財務大臣が来られる",
+       "attribution": "出典：財務省「片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月16日(金曜日))」（https://www.mof.go.jp/public_relations/conference/my20261016.html）",
+       "processing_note": "財務省「片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月16日(金曜日))」（https://www.mof.go.jp/public_relations/conference/my20261016.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "通貨スワップは、国どうしが、いざというときに互いの通貨やドルを融通し合う約束である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-18-001-1",
+       "text": "韓国との通貨の融通の約束が続くことで、急に外貨が足りなくなる心配が小さくなり、韓国と取引の多い国内の銀行業や輸出の多い製造業にとって、為替が大きく動いたときの資金繰りの不安が和らぐ可能性がある。",
+       "falsifier": "延長の後も、韓国ウォンが円やドルに対して短い期間で大きく下がり続け、両国の当局が追加の対応を表明すれば、この見方は当たらない。",
+       "check_metric": "財務省・日本銀行の発表と、円と韓国ウォンの為替相場",
+       "check_by": "2026-12-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-18-002",
+     "event_id": "EVT-2026-10-18-002",
+     "headline": "国が数か月で返す短期の借金：次回は額面3兆3,000億円程度、10月23日に入札（財務省）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "財務省は10月16日、国庫短期証券（第1415回）の発行予定額を、額面金額で3兆3,000億円程度と公表した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3,
+         "unit": "兆円",
+         "label": "発行予定額（兆の位）"
+        },
+        {
+         "value": 3000,
+         "unit": "億円",
+         "label": "発行予定額（億の位）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "4. 発行予定額 額面金額で3兆3,000億円程度",
+       "attribution": "出典：財務省「国庫短期証券（第1415回）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_auct/auct20261016.htm）",
+       "processing_note": "財務省「国庫短期証券（第1415回）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_auct/auct20261016.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "入札は2026年10月23日に行う予定である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 23,
+         "unit": "日",
+         "label": "日付（入札予定日）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "1. 入札予定日 令和8年10月23日",
+       "attribution": "出典：財務省「国庫短期証券（第1415回）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_auct/auct20261016.htm）",
+       "processing_note": "財務省「国庫短期証券（第1415回）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_auct/auct20261016.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "発行は2026年10月26日の予定である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 26,
+         "unit": "日",
+         "label": "日付（発行予定日）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "2. 発行予定日 令和8年10月26日",
+       "attribution": "出典：財務省「国庫短期証券（第1415回）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_auct/auct20261016.htm）",
+       "processing_note": "財務省「国庫短期証券（第1415回）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_auct/auct20261016.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "返す日（償還予定日）は2027年2月1日の予定である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "月",
+         "label": "日付（償還予定日の月）"
+        },
+        {
+         "value": 1,
+         "unit": "日",
+         "label": "日付（償還予定日の日）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "3. 償還予定日 令和9年2月1日",
+       "attribution": "出典：財務省「国庫短期証券（第1415回）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_auct/auct20261016.htm）",
+       "processing_note": "財務省「国庫短期証券（第1415回）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_auct/auct20261016.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "国庫短期証券は、国が短い期間で返す約束でお金を借りるために発行する債券で、銀行などが手元の資金の置き場として買うことが多い。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-18-002-1",
+       "text": "日本銀行が今後も利上げを続けるという見方が市場で強まれば、10月23日の入札の平均利回りは前回より高くなり、短期の資金を運用する銀行業や保険業の運用利回りにも少しずつ表れる可能性がある。",
+       "falsifier": "10月23日の入札の平均利回りが、前回（第1413回）の1.2803%を下回れば、この見方は当たらない。",
+       "check_metric": "財務省 国庫短期証券（第1415回）の入札結果の平均利回り",
+       "check_by": "2026-10-23"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-18-003",
+     "event_id": "EVT-2026-10-18-003",
+     "headline": "物価高の中のカジュアル衣料：マックハウスの店を持つジーイエット、3〜8月は25店舗を閉じ、営業損失757百万円（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "半期報告書は、上場会社が事業年度の前半の業績や財務の状態を、法律に基づいて届け出る書類である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "カジュアル衣料のジーイエットが届け出た半期報告書によると、2026年3月から8月の連結の売上高は8,552百万円で、営業損失は757百万円、経常損失は709百万円、最終的な損失（親会社株主に帰属する中間純損失）は182百万円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 8552,
+         "unit": "百万円",
+         "label": "売上高"
+        },
+        {
+         "value": 757,
+         "unit": "百万円",
+         "label": "営業損失"
+        },
+        {
+         "value": 709,
+         "unit": "百万円",
+         "label": "経常損失"
+        },
+        {
+         "value": 182,
+         "unit": "百万円",
+         "label": "親会社株主に帰属する中間純損失"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "売上高8,552百万円、営業損失757百万円、経常損失709百万円、親会社株主に帰属する中間純損失182百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OV）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OV）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "同社は、この期間に25店舗を閉じ、店舗数は155店舗になった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 25,
+         "unit": "店舗",
+         "label": "退店した店舗数（ジーイエット）"
+        },
+        {
+         "value": 155,
+         "unit": "店舗",
+         "label": "店舗数（ジーイエット）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "ジーイエット株式会社は25店舗の退店により店舗数は155店舗となりました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OV）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OV）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "子会社のコーエンは出店も退店もなく、店舗数は74店舗だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 74,
+         "unit": "店舗",
+         "label": "店舗数（コーエン）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "連結子会社である株式会社コーエンは、当中間連結会計期間中の出店及び退店はなく、店舗数は74店舗",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OV）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OV）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "グループ全体では、この期間に閉じた店舗は25店舗で、店舗数は229店舗になった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 25,
+         "unit": "店舗",
+         "label": "グループ全体の退店数"
+        },
+        {
+         "value": 229,
+         "unit": "店舗",
+         "label": "グループ全体の店舗数"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "グループ全体での当中間連結累計期間中の退店数は25店舗、店舗数は229店舗",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OV）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OV）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-06",
+       "text": "コーエンの株式を取得して連結に含めたことで、「負ののれん発生益」を664百万円計上した（金額は暫定）。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 664,
+         "unit": "百万円",
+         "label": "負ののれん発生益"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "株式会社コーエンの株式を取得し同社を連結の範囲に含めたことにより負ののれん発生益を664百万円計上しております",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OV）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OV）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-07",
+       "text": "負ののれん発生益は、会社を買った値段が、その会社の純資産より安かったときに、その差を利益として計上するものである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-08",
+       "text": "アパレル・ライフスタイル事業の売上高が当初の計画を下回ったことや、暗号資産の取引の収益を売上高から外したことなどから、同社は2026年8月20日に中間期と通期の業績予想を修正していた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20,
+         "unit": "日",
+         "label": "日付（業績予想の修正日）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "2026年８月20日に第２四半期（中間期）及び通期の連結業績予想を修正いたしました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OV）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OV）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-09",
+       "text": "同社は、前の事業年度まで8期続けて営業損失を出しており、継続企業の前提に重要な疑義を生じさせる事象があると書いた。ただし、当面の事業に必要な資金は確保しており、現時点では重要な不確実性は認められないと判断している。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 8,
+         "unit": "期",
+         "label": "営業損失が続いた期数"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "当社は、前事業年度まで８期連続して営業損失を計上しており、継続企業の前提に関する重要な疑義を生じさせる事象又は状況が存在しております",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OV）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OV）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-10",
+       "text": "新しい収益源として、2026年4月から、マックハウスの店の中に買取の専門店「幸福屋」を置く形で、買取事業を始めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4,
+         "unit": "月",
+         "label": "日付（買取事業の開始の月）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "2026年４月より開始した買取事業については、マックハウス店舗内に買取専門店「幸福屋」を併設する",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OV）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OV）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-11",
+       "text": "福祉施設などを回る移動販売「クルふく」は、全国で延べ97施設を訪れ、延べ約2,800名が利用した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 97,
+         "unit": "施設",
+         "label": "訪問した施設数（延べ）"
+        },
+        {
+         "value": 2800,
+         "unit": "名",
+         "label": "利用者数（延べ、約）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "全国延べ97施設を訪問し、延べ約2,800名の方々にご利用いただく",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OV）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OV）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-18-003-1",
+       "text": "物価の上昇で衣料品の節約志向が続けば、カジュアル衣料の小売業では、店の数を減らしたり、買取や移動販売など衣料品以外の収入を足したりする動きが広がる可能性がある。",
+       "falsifier": "総務省の家計調査で、被服及び履物への支出が前年同月を上回る月が続けば、この見方は当たらない。",
+       "check_metric": "総務省 家計調査（二人以上の世帯）の被服及び履物の支出",
+       "check_by": "2027-01-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-10-18T17:15:01.056516+09:00",
+  "first_run": {
+   "run_at": "2026-10-18T17:15:01.056516+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 6,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 18,
+  "passed": 14,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 4,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 4,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jplvh010000-lvh-001_E00523-000_2026-10-13_01_2026-10-16_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jplvh010000-lvh-001_E00523-000_2026-10-13_01_2026-10-16_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp040300-ssr-001_E03313-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp040300-ssr-001_E03313-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp040300-ssr-001_E03313-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104000_honbun_jpcrp040300-ssr-001_E03313-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp040300-ssr-001_E03313-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104020_honbun_jpcrp040300-ssr-001_E03313-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104035_honbun_jpcrp040300-ssr-001_E03313-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104050_honbun_jpcrp040300-ssr-001_E03313-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0104100_honbun_jpcrp040300-ssr-001_E03313-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp040300-ssr-001_E03313-000_2026-08-31_01_2026-10-14_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp040300-ssr-001_E03313-000_2026-08-31_01_2026-10-14_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 4,
+  "attribution_overwritten": 20,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "evening",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 6,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 0,
+  "evidence_doc_type_overridden": 0,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {},
+  "impact_kind_undetermined_by_doc_type": {},
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 0,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 0,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 38,
+   "numbers_declared": 22,
+   "gap": 16,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 38,
+     "numbers_declared": 22
+    },
+    "explainer": {
+     "text_number_tokens": 0,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 6,
+   "line_ids": [
+    "L-001-01",
+    "L-002-02",
+    "L-002-03",
+    "L-002-04",
+    "L-003-08",
+    "L-003-10"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 1,
+   "ripple": 4,
+   "deep": 9
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 4,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-006",
+    "SRC-007"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 2,
+   "first_run_at": "2026-10-18T17:14:51.208744+09:00",
+   "last_run_at": "2026-10-18T17:15:00.958990+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 14,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 1,
+   "total_unregistered": 1,
+   "excluded_date_time_tokens": 22,
+   "lines": [
+    {
+     "line_id": "L-002-01",
+     "values": [
+      "1415"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 0,
+   "zero_letter_count": 0,
+   "lines": []
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "market_closed",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 2,
+    "source_ids": [
+     "SRC-006",
+     "SRC-007"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 3
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
