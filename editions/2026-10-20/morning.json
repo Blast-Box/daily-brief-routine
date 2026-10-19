@@ -1,0 +1,1516 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-10-20-morning",
+ "date": "2026-10-20",
+ "slot": "morning",
+ "generated_at": "2026-10-20T07:39:39.830877+09:00",
+ "market_open": true,
+ "baseline": {
+  "date": "2026-10-20",
+  "price_type": "open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-20&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月20日）",
+   "published_at": "2026-10-20",
+   "fetched_at": "2026-10-20T07:32:14+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "a5d851426cbff9a1760b642d3d46d5eb7eda5035f7fc4b2648ffab26d21ef754",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-19&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月19日）",
+   "published_at": "2026-10-19",
+   "fetched_at": "2026-10-20T07:32:30+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "ec15fb57a59191b10de1bf82d2e4485cc9faf86072a78078bb178c963455ae38",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z7YZ?type=1",
+   "publisher": "株式会社ヒット",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社ヒット）",
+   "published_at": "2026-10-19T15:32:00+09:00",
+   "fetched_at": "2026-10-20T07:32:49+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "a2362e59f082543bce68a9cbfe80b0167cb36de870705dd7049368dc39936f03",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7YZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7YZ）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7YZ"
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z8K8?type=1",
+   "publisher": "辻・本郷ＩＴコンサルティング株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（辻・本郷ＩＴコンサルティング株式会社）",
+   "published_at": "2026-10-19T15:41:00+09:00",
+   "fetched_at": "2026-10-20T07:33:01+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "8ee76ba9a0e97773ac72cab4799477329c5512b1afa2da0d8ca592b9b9b85e6b",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8K8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8K8）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8K8"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z8UC?type=1",
+   "publisher": "株式会社ストレージ王",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社ストレージ王）",
+   "published_at": "2026-10-19T15:58:00+09:00",
+   "fetched_at": "2026-10-20T07:33:07+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "ec691904d1efc38d01e2f41ea8dc7b653fc6242d1696e591ebbbc7785976b29e",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8UC）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8UC）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8UC"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z7GA?type=1",
+   "publisher": "ＣＫＤ株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "訂正臨時報告書（ＣＫＤ株式会社）",
+   "published_at": "2026-10-19T16:43:00+09:00",
+   "fetched_at": "2026-10-20T07:33:28+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "9563faa6d9350138ddb26d5df530d9ab8837fe32b56fb4a1a428e322b6065b9e",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7GA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7GA）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7GA"
+  },
+  {
+   "source_id": "SRC-011",
+   "url": "https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_03.pdf",
+   "publisher": "文部科学省",
+   "publisher_type": "government_statistics",
+   "title": "地域医療における大学病院の役割について",
+   "published_at": null,
+   "fetched_at": "2026-10-20T07:34:29+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "2339994ed71c2f24f88ce53dc8ec27c542ad4a2bb14238ee72bbce6f83f29bfb",
+   "usage": "quotable",
+   "attribution": "出典：文部科学省「地域医療における大学病院の役割について」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_03.pdf）",
+   "processing_note": "文部科学省「地域医療における大学病院の役割について」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_03.pdf）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-012",
+   "url": "https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_06.pdf",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "財政制度等審議会 財政投融資分科会 説明資料（独立行政法人情報処理推進機構）",
+   "published_at": "2026-10-19",
+   "fetched_at": "2026-10-20T07:34:36+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "4e0d8f45838fc7595a32e2cea5935e754a47210115981487d097a37a9ec30f10",
+   "usage": "quotable",
+   "attribution": "出典：財務省「財政制度等審議会 財政投融資分科会 説明資料（独立行政法人情報処理推進機構）」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_06.pdf）",
+   "processing_note": "財務省「財政制度等審議会 財政投融資分科会 説明資料（独立行政法人情報処理推進機構）」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_06.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-20-001",
+     "event_id": "EVT-2026-10-20-001",
+     "headline": "続報：大学病院の経営、2024年度は全体の経常利益が▲508億円（文部科学省が財政投融資の審議会に出した資料から）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "文部科学省が10月19日の財政制度等審議会（財政投融資分科会）に出した資料によると、国公私立の大学病院全体の経常利益は、2024年度に▲508億円（赤字）だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": -508,
+         "unit": "億円",
+         "label": "大学病院全体の経常利益（2024年度）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "収益を大きく上回った結果、経常利益は▲508億円",
+       "attribution": "出典：文部科学省「地域医療における大学病院の役割について」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_03.pdf）",
+       "processing_note": "文部科学省「地域医療における大学病院の役割について」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_03.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "2024年度は、収益が前の年度より1,130億円増えた一方で、費用は前の年度と比べて1,471億円増え、収益の増え方を大きく上回った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1130,
+         "unit": "億円",
+         "label": "収益の前年度からの増加額（2024年度）"
+        },
+        {
+         "value": 1471,
+         "unit": "億円",
+         "label": "費用の前年度からの増加額（2024年度）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "1,130億円増加しているものの費用が対前年度比で1,471億円と収益を大きく上回った",
+       "attribution": "出典：文部科学省「地域医療における大学病院の役割について」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_03.pdf）",
+       "processing_note": "文部科学省「地域医療における大学病院の役割について」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_03.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "資料によると、費用が収益を上回るようになったのは2023年度からで、この年度の経常利益は▲168億円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": -168,
+         "unit": "億円",
+         "label": "大学病院全体の経常利益（2023年度）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "令和５（2023）年度から費用が上回り経常利益が▲168億円となった。",
+       "attribution": "出典：文部科学省「地域医療における大学病院の役割について」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_03.pdf）",
+       "processing_note": "文部科学省「地域医療における大学病院の役割について」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_03.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "資料は、物価や人件費などの高騰を受けて、2024年度は大学病院全体で500億円超の赤字となるなど、極めて厳しい状況だとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 500,
+         "unit": "億円",
+         "label": "大学病院全体の赤字（2024年度、「超」）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "⼤学病院は物価や⼈件費等の⾼騰を受けて、令和６年度⼤学病院全体では500億円超の⾚字となる等、極めて厳しい状況",
+       "attribution": "出典：文部科学省「地域医療における大学病院の役割について」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_03.pdf）",
+       "processing_note": "文部科学省「地域医療における大学病院の役割について」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_03.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "同じ資料には、大学病院の経営基盤の強化に向けた2025年度の補正予算額として349億円が示されている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 349,
+         "unit": "億円",
+         "label": "2025年度補正予算額"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "令和7年度補正予算額349億円",
+       "attribution": "出典：文部科学省「地域医療における大学病院の役割について」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_03.pdf）",
+       "processing_note": "文部科学省「地域医療における大学病院の役割について」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_03.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "その中身は「国公私立の77大学×上限5億円」と書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 77,
+         "unit": "大学",
+         "label": "対象の大学の数"
+        },
+        {
+         "value": 5,
+         "unit": "億円",
+         "label": "1大学あたりの上限額"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "（国公私⽴の77⼤学×上限5億円）",
+       "attribution": "出典：文部科学省「地域医療における大学病院の役割について」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_03.pdf）",
+       "processing_note": "文部科学省「地域医療における大学病院の役割について」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_03.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "経常利益は、本業とそれに付随する活動で得た収益から、かかった費用を差し引いた損益で、マイナスなら赤字を意味する。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-20-001-1",
+       "text": "大学病院の赤字が続けば、病院が医薬品や診療材料の購入費を抑える動きが強まり、医薬品の製造や卸、医療機器の業種の取引条件に影響する可能性がある。",
+       "falsifier": "文部科学省の資料で、大学病院全体の経常利益が2025年度に黒字に戻っていれば、この見方の前提は弱まる。",
+       "check_metric": "文部科学省が示す大学病院全体の経常利益（2025年度）",
+       "check_by": "2027-03-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-20-003",
+     "event_id": "EVT-2026-10-20-003",
+     "headline": "CKDの株の売出し：海外の投資家向けは845,600株、売出価格は4,737円に決まる（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "CKDは、株の売出しのうち海外の投資家向けの分について、10月19日に売出数や売出しの条件が決まったとして、訂正臨時報告書を出した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 19,
+         "unit": "日",
+         "label": "日付（条件の決定日）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "2026年10月19日(月)に海外販売の売出数及び売出条件、その他海外販売に関し必要な事項が決定されました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7GA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7GA）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "海外の投資家向けの売出数は845,600株である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 845600,
+         "unit": "株",
+         "label": "海外販売の売出数"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "(2) 売出数 845,600株",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7GA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7GA）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "売出価格は4,737円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4737,
+         "unit": "円",
+         "label": "売出価格"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "(3) 売出価格 4,737円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7GA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7GA）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "引受価額は4,539.60円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4539.6,
+         "unit": "円",
+         "label": "引受価額"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "(4) 引受価額 4,539.60円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7GA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7GA）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "海外の投資家向けの売出価額の総額は4,005,607,200円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4005607200,
+         "unit": "円",
+         "label": "海外販売の売出価額の総額"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "(5) 売出価額の総額 4,005,607,200円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7GA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7GA）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-06",
+       "text": "書類によると、国内の分も含めた売出株式の総数は3,570,800株で、このほかに上限535,500株のオーバーアロットメントによる売出しがある。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3570800,
+         "unit": "株",
+         "label": "売出株式総数"
+        },
+        {
+         "value": 535500,
+         "unit": "株",
+         "label": "オーバーアロットメントによる売出しの上限"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "売出株式総数(3,570,800株)及びオーバーアロットメントによる売出しの売出数(上限535,500株)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7GA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7GA）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-07",
+       "text": "株の受渡しの日は10月26日である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 26,
+         "unit": "日",
+         "label": "日付（受渡日）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "(11)受渡年月日(受渡期日) 2026年10月26日(月)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7GA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7GA）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-08",
+       "text": "株の売出しは、すでにある株をその持ち主が証券会社を通じて多くの投資家に売る手続きで、会社が新しく株を発行して資金を集める増資とは違う。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-09",
+       "text": "引受価額は、株を売り出す人が、引き受けた証券会社から受け取る株ひとつあたりの金額で、売出価格との差が証券会社の手取りになる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-20-004",
+     "event_id": "EVT-2026-10-20-004",
+     "headline": "ストレージ王、315,200株を1株にまとめる株式併合へ：公開買付けをしたエリアリンクの完全子会社になるための手続き（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "ストレージ王は10月19日の取締役会で、株式併合を目的とする臨時株主総会を11月16日に開くことを決めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 19,
+         "unit": "日",
+         "label": "日付（取締役会）"
+        },
+        {
+         "value": 16,
+         "unit": "日",
+         "label": "日付（臨時株主総会）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "2026年10月19日開催の取締役会において、当社の普通株式（以下「当社株式」といいます。）の併合（以下「本株式併合」といいます。）を目的とする2026年11月16日開催予定の臨時株主総会",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8UC）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8UC）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "併合の割合は、315,200株を1株にまとめるというものである。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 315200,
+         "unit": "株",
+         "label": "併合前の株数"
+        },
+        {
+         "value": 1,
+         "unit": "株",
+         "label": "併合後の株数"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "当社株式315,200株を１株に併合いたします。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8UC）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8UC）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "エリアリンクは公開買付けの結果、ストレージ王の株などの1,630,384株、所有割合で84.15%を持つに至った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1630384,
+         "unit": "株",
+         "label": "公開買付け後のエリアリンクの所有株数"
+        },
+        {
+         "value": 84.15,
+         "unit": "%",
+         "label": "公開買付け後の所有割合"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "当社株券等1,630,384株（所有割合（注２）：84.15％）を所有するに至り",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8UC）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8UC）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "公開買付価格は1,340円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1340,
+         "unit": "円",
+         "label": "公開買付価格"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "本公開買付価格（1,340円）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8UC）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8UC）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "株式併合で持ち株がまとめた後の株に満たない端数になった株主には、その分がお金に換えて渡され、株主としての立場はなくなる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-06",
+       "text": "公開買付けは、決めた値段と期間で、株主から株を買い集める手続きである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-20-005",
+     "event_id": "EVT-2026-10-20-005",
+     "headline": "辻・本郷ITコンサルティング、会計・人事の外部委託を受けるCSアカウンティングを3,999百万円で子会社に（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "辻・本郷ITコンサルティングは、9月30日の取締役会で、CSアカウンティングの全株式を取得して連結子会社にすることを決め、臨時報告書を出した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 30,
+         "unit": "日",
+         "label": "日付（取締役会）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "当社は2026年９月30日開催の取締役会において、ＣＳアカウンティング株式会社の全株式を取得し、当社の連結子会社とすることを決議いたしました。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8K8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8K8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "株式の取得の対価は3,999百万円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3999,
+         "unit": "百万円",
+         "label": "株式の取得の対価"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "ＣＳアカウンティングの普通株式 3,999百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8K8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8K8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "アドバイザリー費用などを含めた合計は、概算で4,009百万円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4009,
+         "unit": "百万円",
+         "label": "取得の対価の合計（概算）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "合計（概算額） 4,009百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8K8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8K8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-04",
+       "text": "CSアカウンティングの売上高は、2023年9月期が1,346百万円、2024年9月期が1,388百万円、2025年9月期が1,548百万円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1346,
+         "unit": "百万円",
+         "label": "売上高（2023年9月期）"
+        },
+        {
+         "value": 1388,
+         "unit": "百万円",
+         "label": "売上高（2024年9月期）"
+        },
+        {
+         "value": 1548,
+         "unit": "百万円",
+         "label": "売上高（2025年9月期）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "売上高 1,346 1,388 1,548",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8K8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8K8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-05",
+       "text": "書類によると、CSアカウンティングは公認会計士などの有資格者を含む約150名の専門人材を抱えている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 150,
+         "unit": "名",
+         "label": "専門人材の人数（約）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "公認会計士等の有資格者を含む約150名の専門人材を擁し",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8K8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8K8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-20-006",
+     "event_id": "EVT-2026-10-20-006",
+     "headline": "屋外広告のヒット、SHIFTの傘下のナディアとxbsを、合計で概算1,355,000千円で取得へ（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-006-01",
+       "text": "ヒットは10月15日の取締役会で、ナディアとxbsの全株式を、SHIFTが100%所有する中間持株会社から取得することを決めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 15,
+         "unit": "日",
+         "label": "日付（取締役会）"
+        },
+        {
+         "value": 100,
+         "unit": "%",
+         "label": "SHIFTの中間持株会社への所有割合"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "2026年10月15日開催の取締役会において、株式会社ナディア（以下「ナディア」といいます。）及び株式会社xbs（以下「xbs」、以下併せて「対象会社」といいます。）の全株式を、株式会社SHIFTが100%所有する中間持株会社",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7YZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7YZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-02",
+       "text": "ナディアの株式の取得の対価は1,175,000千円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1175000,
+         "unit": "千円",
+         "label": "ナディアの株式の取得の対価"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "株式会社ナディアの普通株式 1,175,000千円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7YZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7YZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-03",
+       "text": "xbsの株式の取得の対価は115,000千円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 115000,
+         "unit": "千円",
+         "label": "xbsの株式の取得の対価"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "株式会社xbsの普通株式 115,000千円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7YZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7YZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-04",
+       "text": "アドバイザリー費用などを含めた合計は、概算で1,355,000千円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1355000,
+         "unit": "千円",
+         "label": "取得の対価の合計（概算）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "合計（概算額） 1,355,000千円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7YZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7YZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-05",
+       "text": "ナディアの売上高は、2024年8月期が1,197,784千円、2025年8月期が1,106,676千円、2026年8月期が1,109,325千円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1197784,
+         "unit": "千円",
+         "label": "ナディアの売上高（2024年8月期）"
+        },
+        {
+         "value": 1106676,
+         "unit": "千円",
+         "label": "ナディアの売上高（2025年8月期）"
+        },
+        {
+         "value": 1109325,
+         "unit": "千円",
+         "label": "ナディアの売上高（2026年8月期）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "売上高（千円） 1,197,784 1,106,676 1,109,325",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7YZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7YZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-20-007",
+     "event_id": "EVT-2026-10-20-007",
+     "headline": "大学病院は地域の病院に医師を送る拠点：国立大学の病院からの常勤医師の派遣は40,353人（文部科学省の資料から）",
+     "lines": [
+      {
+       "line_id": "L-007-01",
+       "text": "文部科学省の資料（速報）によると、国立大学の病院からは、延べ4,838の医療機関に40,353人が常勤医師として派遣されている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4838,
+         "unit": "医療機関",
+         "label": "派遣先の医療機関数（延べ）"
+        },
+        {
+         "value": 40353,
+         "unit": "人",
+         "label": "派遣されている常勤医師の数"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "4,838医療機関に40,353⼈が常勤医師として派遣",
+       "attribution": "出典：文部科学省「地域医療における大学病院の役割について」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_03.pdf）",
+       "processing_note": "文部科学省「地域医療における大学病院の役割について」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_03.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-02",
+       "text": "同じ資料によると、全国8,022の病院のうち、大学病院は177病院で2.2%である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 8022,
+         "unit": "病院",
+         "label": "全国の病院数"
+        },
+        {
+         "value": 2.2,
+         "unit": "%",
+         "label": "大学病院の割合（病院数）"
+        },
+        {
+         "value": 177,
+         "unit": "病院",
+         "label": "大学病院の数"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "病院数（8,022病院）【⼤学病院︓2.2％（177病院）】",
+       "attribution": "出典：文部科学省「地域医療における大学病院の役割について」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_03.pdf）",
+       "processing_note": "文部科学省「地域医療における大学病院の役割について」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_03.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-03",
+       "text": "病床の数では、全国1,459,706床のうち、大学病院が97,453床で6.7%である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1459706,
+         "unit": "床",
+         "label": "全国の病床数"
+        },
+        {
+         "value": 6.7,
+         "unit": "%",
+         "label": "大学病院の割合（病床数）"
+        },
+        {
+         "value": 97453,
+         "unit": "床",
+         "label": "大学病院の病床数"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "病床数（1,459,706床）【⼤学病院︓6.7％（97,453床）】",
+       "attribution": "出典：文部科学省「地域医療における大学病院の役割について」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_03.pdf）",
+       "processing_note": "文部科学省「地域医療における大学病院の役割について」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_03.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-04",
+       "text": "常勤に換算した医師の数では、全国260,350名のうち、大学病院が54,854名で21.1%を占める。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 260350,
+         "unit": "名",
+         "label": "全国の常勤換算医師数"
+        },
+        {
+         "value": 21.1,
+         "unit": "%",
+         "label": "大学病院の割合（医師数）"
+        },
+        {
+         "value": 54854,
+         "unit": "名",
+         "label": "大学病院の常勤換算医師数"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "常勤換算医師数（260,350名）【⼤学病院︓21.1％（54,854名）】",
+       "attribution": "出典：文部科学省「地域医療における大学病院の役割について」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_03.pdf）",
+       "processing_note": "文部科学省「地域医療における大学病院の役割について」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_03.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-05",
+       "text": "常勤に換算した看護師の数では、全国828,480名のうち、大学病院が107,508名で13.0%である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 828480,
+         "unit": "名",
+         "label": "全国の常勤換算看護師数"
+        },
+        {
+         "value": 13.0,
+         "unit": "%",
+         "label": "大学病院の割合（看護師数）"
+        },
+        {
+         "value": 107508,
+         "unit": "名",
+         "label": "大学病院の常勤換算看護師数"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "常勤換算看護師数（828,480名）【⼤学病院︓13.0％（107,508名）】",
+       "attribution": "出典：文部科学省「地域医療における大学病院の役割について」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_03.pdf）",
+       "processing_note": "文部科学省「地域医療における大学病院の役割について」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_03.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-06",
+       "text": "大学病院は、医師を育てる教育の場であると同時に、高度な医療を担い、地域の病院に医師を送り出す役割も持つ。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-20-007-1",
+       "text": "大学病院の経営が厳しいままだと、地域の病院への医師の派遣が絞られ、地方の病院の運営や、病院と取引する業種に影響が広がる可能性がある。",
+       "falsifier": "文部科学省の次の調査で、国立大学の病院から派遣される常勤医師の数が40,353人を上回っていれば、この見方は成り立ちにくい。",
+       "check_metric": "文部科学省 医学教育課の医師派遣の状況の調査（国立大学病院）",
+       "check_by": "2027-10-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-20-002",
+     "event_id": "EVT-2026-10-20-002",
+     "headline": "続報：国の次世代半導体の支援、2027年度は情報処理推進機構を通じた出資の原資として1,500億円を要求（財務省の資料から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "財務省が10月19日の財政投融資分科会に出した資料によると、2027年度は、次世代半導体の量産を目指す選定事業者への出資金の原資として、1,500億円の産業投資が要求されている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1500,
+         "unit": "億円",
+         "label": "2027年度に要求された産業投資の額"
+        }
+       ],
+       "source_ref": "SRC-012",
+       "excerpt": "令和９年度は、選定事業者への出資金の原資として1,500億円の産業投資を要求。",
+       "attribution": "出典：財務省「財政制度等審議会 財政投融資分科会 説明資料（独立行政法人情報処理推進機構）」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_06.pdf）",
+       "processing_note": "財務省「財政制度等審議会 財政投融資分科会 説明資料（独立行政法人情報処理推進機構）」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_06.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "要求の内訳の表では、財源のうち産業投資の欄が1,500億円となっている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1500,
+         "unit": "億円",
+         "label": "財源のうち産業投資"
+        }
+       ],
+       "source_ref": "SRC-012",
+       "excerpt": "産業投資 1,500",
+       "attribution": "出典：財務省「財政制度等審議会 財政投融資分科会 説明資料（独立行政法人情報処理推進機構）」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_06.pdf）",
+       "processing_note": "財務省「財政制度等審議会 財政投融資分科会 説明資料（独立行政法人情報処理推進機構）」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_06.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "資料は、選定事業者が2027年度中に2ナノ世代の量産を始める予定だとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "ナノ",
+         "label": "量産を始める半導体の世代"
+        }
+       ],
+       "source_ref": "SRC-012",
+       "excerpt": "選定事業者は令和９年度中に２ナノ世代の量産を開始する予定であり",
+       "attribution": "出典：財務省「財政制度等審議会 財政投融資分科会 説明資料（独立行政法人情報処理推進機構）」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_06.pdf）",
+       "processing_note": "財務省「財政制度等審議会 財政投融資分科会 説明資料（独立行政法人情報処理推進機構）」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_filp/proceedings/material/zaitoa20261019/zaito20261019_06.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "産業投資は、国が財政投融資の仕組みを使い、企業などに出資という形でお金を出すものである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-20-002-1",
+       "text": "選定事業者の量産が予定どおり始まれば、国内の半導体製造装置や半導体材料の業種で、国内の工場向けの取引が増える可能性がある。",
+       "falsifier": "財務省や経済産業省の資料で、2ナノ世代の量産開始が2027年度より後にずれると示されれば、この見方は成り立ちにくい。",
+       "check_metric": "財務省・経済産業省の資料に示される選定事業者の量産開始の時期",
+       "check_by": "2028-03-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-10-20T07:39:39.830877+09:00",
+  "first_run": {
+   "run_at": "2026-10-20T07:39:39.830877+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 8,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 42,
+  "passed": 35,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 7,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 1,
+  "recommendation_warnings": [
+   {
+    "line_id": "L-003-06",
+    "word": "株式(周辺15文字以内に買/売)"
+   }
+  ],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 6,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E40715-000_2026-10-19_01_2026-10-19_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E40715-000_2026-10-19_01_2026-10-19_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-004": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E40991-000_2026-10-19_01_2026-10-19_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E40991-000_2026-10-19_01_2026-10-19_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E37595-000_2026-10-19_01_2026-10-19_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E37595-000_2026-10-19_01_2026-10-19_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-008": {
+    "files": [
+     "PublicDoc/0101010_honbun_si91c05713810.htm",
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E01909-000_2026-10-07_02_2026-10-19_ixbrl.htm",
+     "PublicDoc/0000000_header.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 6,
+  "attribution_overwritten": 43,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "morning",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 8,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 4,
+  "evidence_doc_type_overridden": 4,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {
+   "edinet_doctype_unmapped": 4
+  },
+  "impact_kind_undetermined_by_doc_type": {
+   "190": 1,
+   "180": 3
+  },
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 4,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 4,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 1,
+   "source_ids": [
+    "SRC-011"
+   ]
+  },
+  "number_coverage": {
+   "text_number_tokens": 84,
+   "numbers_declared": 55,
+   "gap": 29,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 84,
+     "numbers_declared": 55
+    },
+    "explainer": {
+     "text_number_tokens": 0,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 4,
+   "line_ids": [
+    "L-003-01",
+    "L-003-07",
+    "L-004-01",
+    "L-005-01"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 6,
+   "change": 21,
+   "ripple": 5,
+   "deep": 3
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 3,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-012"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 1,
+   "first_run_at": "2026-10-20T07:39:32.226756+09:00",
+   "last_run_at": "2026-10-20T07:39:32.226756+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 35,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [
+   {
+    "hypothesis_id": "2026-10-20-morning-1",
+    "company_name": "ＣＫＤ株式会社",
+    "submitted_at": "2026-10-19T16:43:00+09:00",
+    "baseline_point": "2026-10-20T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-20-morning-2",
+    "company_name": "株式会社ストレージ王",
+    "submitted_at": "2026-10-19T15:58:00+09:00",
+    "baseline_point": "2026-10-20T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-20-morning-3",
+    "company_name": "辻・本郷ＩＴコンサルティング株式会社",
+    "submitted_at": "2026-10-19T15:41:00+09:00",
+    "baseline_point": "2026-10-20T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-20-morning-4",
+    "company_name": "株式会社ヒット",
+    "submitted_at": "2026-10-19T15:32:00+09:00",
+    "baseline_point": "2026-10-20T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   }
+  ],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 2,
+   "total_unregistered": 2,
+   "excluded_date_time_tokens": 35,
+   "lines": [
+    {
+     "line_id": "L-001-01",
+     "values": [
+      "508"
+     ]
+    },
+    {
+     "line_id": "L-001-03",
+     "values": [
+      "168"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 1,
+   "zero_letter_count": 0,
+   "lines": [
+    {
+     "line_id": "L-005-04",
+     "letters": 3
+    }
+   ]
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "ok",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 2,
+    "source_ids": [
+     "SRC-011",
+     "SRC-012"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 7
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 2,
+   "articles": [
+    {
+     "article_id": "ART-2026-10-20-001",
+     "headline_has_word": true,
+     "is_followup": false
+    },
+    {
+     "article_id": "ART-2026-10-20-002",
+     "headline_has_word": true,
+     "is_followup": false
+    }
+   ]
+  },
+  "industry_picks_discarded": 0,
+  "industry_picks_total": 3,
+  "industry_examples_total": 1,
+  "industry_example_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "ai_written_examples_discarded": 0,
+  "slot_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "short_name_match_count": {
+   "count": 0,
+   "names": []
+  },
+  "allowed_industries_count": 30,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
