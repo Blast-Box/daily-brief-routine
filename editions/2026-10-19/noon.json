@@ -1,0 +1,1537 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-10-19-noon",
+ "date": "2026-10-19",
+ "slot": "noon",
+ "generated_at": "2026-10-19T13:18:31.589350+09:00",
+ "market_open": true,
+ "baseline": {
+  "date": "2026-10-19",
+  "price_type": "observed"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-19&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月19日）",
+   "published_at": "2026-10-19",
+   "fetched_at": "2026-10-19T13:09:25+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "c08861fef9b78dff18e1061d7cd8516e46a835b87939bf3e2a52a402132e3544",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-16&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月16日）",
+   "published_at": "2026-10-16",
+   "fetched_at": "2026-10-19T13:09:32+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "0bd97a1ab66d6b36d148d2d7c06e87b72e1997f5dc72c0b37f2e867dda6debe7",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z7OF?type=1",
+   "publisher": "三菱電機株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（三菱電機株式会社）",
+   "published_at": "2026-10-19T09:56:00+09:00",
+   "fetched_at": "2026-10-19T13:10:01+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "d4c3220e7d707d2944fca8ab94afb98f5bbbd180cca4e1a268bfa2ef2310f810",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OF）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OF）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OF"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z8S3?type=1",
+   "publisher": "ＫＬａｂ株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "訂正臨時報告書（ＫＬａｂ株式会社）",
+   "published_at": "2026-10-19T10:10:00+09:00",
+   "fetched_at": "2026-10-19T13:10:14+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "0986dad8467fccb6abdc2e98147b827f64ad1a8a62b1474d5eb20d1be16a9334",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8S3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8S3）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8S3"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z7YT?type=1",
+   "publisher": "株式会社三菱ＵＦＪフィナンシャル・グループ",
+   "publisher_type": "company_disclosure",
+   "title": "大量保有報告書（特例対象株券等）（株式会社三菱ＵＦＪフィナンシャル・グループ）",
+   "published_at": "2026-10-19T10:45:00+09:00",
+   "fetched_at": "2026-10-19T13:10:26+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "28d422c69be83d8e0345298eadbb592d5d8a33d67b38bcf3f20362669c95d7de",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7YT）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7YT）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7YT"
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z8CS?type=1",
+   "publisher": "ＧＭＯインターネットグループ株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "変更報告書（ＧＭＯインターネットグループ株式会社）",
+   "published_at": "2026-10-19T12:47:00+09:00",
+   "fetched_at": "2026-10-19T13:10:32+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "5f927ec86b34ea7485d0bf43c63fc4c855d600c6c0f865afc43a75087cecdd72",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8CS）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8CS）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8CS"
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z8J5?type=1",
+   "publisher": "ＮＴＴファイナンス株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "発行登録追補書類（株券､社債券等）（ＮＴＴファイナンス株式会社）",
+   "published_at": "2026-10-16T10:13:00+09:00",
+   "fetched_at": "2026-10-19T13:10:38+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "b2e45147073c52886783ceab446ed3c513a1b5e1fd215da7812a7816c1e6d52e",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8J5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8J5）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8J5"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z7OJ?type=1",
+   "publisher": "三菱電機株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "訂正発行登録書（三菱電機株式会社）",
+   "published_at": "2026-10-19T10:01:00+09:00",
+   "fetched_at": "2026-10-19T13:10:44+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "01c5af4ee843e679eff91fc5b2eb08b8ccba6cf42c6cc5515570266a48af1313",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OJ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OJ）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OJ"
+  },
+  {
+   "source_id": "SRC-009",
+   "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261019_toushin.html",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "中華人民共和国（香港地域及びマカオ地域を除く。）若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするニッケル系ステンレス冷延鋼帯・冷延鋼板又はこれらの国若しくは地域から本邦に輸出されたニッケル系ステンレス冷延鋼帯・冷延鋼板に対して不当廉売関税を課することについての答申（令和8年10月19日）",
+   "published_at": "2026-10-19",
+   "fetched_at": "2026-10-19T13:12:20+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "21b90c01656aa183fc9eb16ea88a64863022bd0cf551d9e9ef7d860830aa47c0",
+   "usage": "quotable",
+   "attribution": "出典：財務省「中華人民共和国（香港地域及びマカオ地域を除く。）若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするニッケル系ステンレス冷延鋼帯・冷延鋼板又はこれらの国若しくは地域から本邦に輸出されたニッケル系ステンレス冷延鋼帯・冷延鋼板に対して不当廉売関税を課することについての答申（令和8年10月19日）」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261019_toushin.html）",
+   "processing_note": "財務省「中華人民共和国（香港地域及びマカオ地域を除く。）若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするニッケル系ステンレス冷延鋼帯・冷延鋼板又はこれらの国若しくは地域から本邦に輸出されたニッケル系ステンレス冷延鋼帯・冷延鋼板に対して不当廉売関税を課することについての答申（令和8年10月19日）」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261019_toushin.html）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-011",
+   "url": "https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261019.htm",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "国庫短期証券（第1414回）の入札結果",
+   "published_at": "2026-10-19",
+   "fetched_at": "2026-10-19T13:12:23+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "f8d6d0143540a81c692cf755ae5932d3c5e845d7b6eb869cc15f9657d2da68cc",
+   "usage": "quotable",
+   "attribution": "出典：財務省「国庫短期証券（第1414回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261019.htm）",
+   "processing_note": "財務省「国庫短期証券（第1414回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261019.htm）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-014",
+   "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo2-2.pdf",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "中華人民共和国産及び台湾産ニッケル系ステンレス冷延鋼帯・冷延鋼板に対する不当廉売関税の課税",
+   "published_at": "2026-10-19",
+   "fetched_at": "2026-10-19T13:13:04+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "0a12558113f73de4a877eaf584535e6a018f75f7143dc54fc233dd51fd026823",
+   "usage": "quotable",
+   "attribution": "出典：財務省「中華人民共和国産及び台湾産ニッケル系ステンレス冷延鋼帯・冷延鋼板に対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo2-2.pdf）",
+   "processing_note": "財務省「中華人民共和国産及び台湾産ニッケル系ステンレス冷延鋼帯・冷延鋼板に対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo2-2.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-015",
+   "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo2-1.pdf",
+   "publisher": "経済産業省",
+   "publisher_type": "government_statistics",
+   "title": "ニッケル系ステンレス冷延鋼帯・冷延鋼板産業の現状",
+   "published_at": "2026-10-19",
+   "fetched_at": "2026-10-19T13:13:07+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "5a38c94a70696e1f812e1958232fae1d7b7a33e1de7d5c58c9b9eac1ae424399",
+   "usage": "quotable",
+   "attribution": "出典：経済産業省「ニッケル系ステンレス冷延鋼帯・冷延鋼板産業の現状」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo2-1.pdf）",
+   "processing_note": "経済産業省「ニッケル系ステンレス冷延鋼帯・冷延鋼板産業の現状」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo2-1.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-19-001",
+     "event_id": "EVT-2026-10-19-001",
+     "headline": "三菱電機、自動車機器の子会社の株の50％を鴻海精密工業の側に譲る契約を結ぶ（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "三菱電機は、台湾の鴻海精密工業と、自動車機器事業を一緒に運営する提携の検討を始める覚書を、2026年4月24日に結んでいた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 24,
+         "unit": "日",
+         "label": "日付（覚書の締結）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "共同運営を通じた戦略的提携（以下、「本提携」）の検討開始に関する覚書を2026年4月24日に締結し",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OF）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OF）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "今回、自動車機器事業を運営する子会社の三菱電機モビリティの発行済株式の50％を、鴻海精密工業の投資管理会社に譲ることを決めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 50,
+         "unit": "%",
+         "label": "譲渡する株式の割合"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "三菱電機モビリティ株式会社（以下、「三菱電機モビリティ」）の発行済株式の50％を、鴻海精密工業の投資管理会社である",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OF）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OF）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "その株式譲渡の契約は、2026年10月16日付で結ばれた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 16,
+         "unit": "日",
+         "label": "日付（株式譲渡契約の締結）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "2026年10月16日付でLin Yin社との間で本株式譲渡契約を締結しました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OF）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OF）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "臨時報告書は、会社のお金の状態や利益に大きく響く出来事が起きたときなどに、法律にもとづいて国に出す書類である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "書類によると、2028年3月期の個別決算（三菱電機単体の決算）で、子会社の株を売った利益の約800億円を特別利益に計上する予定である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 800,
+         "unit": "億円",
+         "label": "関係会社株式売却益（個別決算）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "2028年3月期の個別決算において、関係会社株式売却益約800億円を特別利益に計上する予定です。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OF）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OF）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "一方、グループ全体の連結決算では、2027年3月期に減損損失約1,000億円を計上する予定だと書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1000,
+         "unit": "億円",
+         "label": "減損損失（連結決算）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "2027年3月期の連結決算において、減損損失約1,000億円を「その他の損益」に計上する予定です。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OF）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OF）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "減損損失は、事業や資産が将来あまり稼げないと見込んだときに、帳簿上の価値を引き下げて損失として計上するものである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-08",
+       "text": "三菱電機は同じ日に、社債を出すための発行登録書の訂正も届け出て、この臨時報告書を2026年10月19日に提出したことを理由に挙げた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 19,
+         "unit": "日",
+         "label": "日付（臨時報告書の提出）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "臨時報告書を2026年10月19日に関東財務局長へ提出しました。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OJ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OJ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-09",
+       "text": "その発行登録書での社債の発行予定額は300,000百万円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 300000,
+         "unit": "百万円",
+         "label": "社債の発行予定額"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "発行予定額 300,000百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OJ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7OJ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-19-001-1",
+       "text": "電機の大手が自動車向けの機器の事業を海外の電子機器の受託生産の会社と共同で運営する形に移すと、自動車部品の業界で、事業の切り出しや他社との共同運営が続く可能性がある。",
+       "falsifier": "今後半年の間に、自動車部品の事業を切り出したり共同運営に移したりする臨時報告書が国内の上場会社から1件も出なければ、この見方は成り立たない。",
+       "check_metric": "EDINETに出る臨時報告書のうち、自動車部品の事業の譲渡・会社分割を理由とするものの件数",
+       "check_by": "2027-04-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-19-002",
+     "event_id": "EVT-2026-10-19-002",
+     "headline": "中国と台湾のステンレスの薄い板に、5年間の不当廉売関税：審議会が「適当」と答申（財務省）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "財務省の関税・外国為替等審議会は2026年10月19日、中国産と台湾産のニッケル系ステンレス冷延鋼帯・冷延鋼板に不当廉売関税を課すことについて答申した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 19,
+         "unit": "日",
+         "label": "日付（答申）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "令和８年10月19日付財関第1176号をもって諮問のあった不当廉売関税の課税について、本審議会の意見を下記のとおり答申する。",
+       "attribution": "出典：財務省「中華人民共和国（香港地域及びマカオ地域を除く。）若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするニッケル系ステンレス冷延鋼帯・冷延鋼板又はこれらの国若しくは地域から本邦に輸出されたニッケル系ステンレス冷延鋼帯・冷延鋼板に対して不当廉売関税を課することについての答申（令和8年10月19日）」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261019_toushin.html）",
+       "processing_note": "財務省「中華人民共和国（香港地域及びマカオ地域を除く。）若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするニッケル系ステンレス冷延鋼帯・冷延鋼板又はこれらの国若しくは地域から本邦に輸出されたニッケル系ステンレス冷延鋼帯・冷延鋼板に対して不当廉売関税を課することについての答申（令和8年10月19日）」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261019_toushin.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "不当廉売関税は、海外の会社が自分の国より不当に安い値段で輸出し、国内の産業が損害を受けているときに、その差を埋めるために上乗せする関税である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "財務省の資料によると、課す期間は5年間で、税率はすでに発動している暫定措置と同じ率である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5,
+         "unit": "年",
+         "label": "課税の期間"
+        }
+       ],
+       "source_ref": "SRC-014",
+       "excerpt": "（税率は暫定措置と同率、期間はWTO協定及び法令で認められた期間内である５年間）。",
+       "attribution": "出典：財務省「中華人民共和国産及び台湾産ニッケル系ステンレス冷延鋼帯・冷延鋼板に対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo2-2.pdf）",
+       "processing_note": "財務省「中華人民共和国産及び台湾産ニッケル系ステンレス冷延鋼帯・冷延鋼板に対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo2-2.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "政府の調査は、令和7年（2025年）7月22日に始まった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 22,
+         "unit": "日",
+         "label": "日付（調査開始）"
+        }
+       ],
+       "source_ref": "SRC-014",
+       "excerpt": "調査開始 （令和7年7月22日）",
+       "attribution": "出典：財務省「中華人民共和国産及び台湾産ニッケル系ステンレス冷延鋼帯・冷延鋼板に対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo2-2.pdf）",
+       "processing_note": "財務省「中華人民共和国産及び台湾産ニッケル系ステンレス冷延鋼帯・冷延鋼板に対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo2-2.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "資料の表では、令和4年（2022年）を100とした指数で、中国・台湾産品の輸入量は令和5年に85、令和6年に116だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 100,
+         "unit": "指数",
+         "label": "中国・台湾産品の輸入量（令和4年）"
+        },
+        {
+         "value": 85,
+         "unit": "指数",
+         "label": "同（令和5年）"
+        },
+        {
+         "value": 116,
+         "unit": "指数",
+         "label": "同（令和6年）"
+        },
+        {
+         "value": 16,
+         "unit": "ポイント",
+         "label": "令和4年と令和6年の差"
+        }
+       ],
+       "source_ref": "SRC-014",
+       "excerpt": "中国・台湾産品の輸入量(B) 100 85 116 ＋16",
+       "attribution": "出典：財務省「中華人民共和国産及び台湾産ニッケル系ステンレス冷延鋼帯・冷延鋼板に対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo2-2.pdf）",
+       "processing_note": "財務省「中華人民共和国産及び台湾産ニッケル系ステンレス冷延鋼帯・冷延鋼板に対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo2-2.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-06",
+       "text": "同じ指数で、中国・台湾産品の国内での市場占拠率は、令和6年に132まで上がった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 100,
+         "unit": "指数",
+         "label": "中国・台湾産品の市場占拠率（令和4年）"
+        },
+        {
+         "value": 107,
+         "unit": "指数",
+         "label": "同（令和5年）"
+        },
+        {
+         "value": 132,
+         "unit": "指数",
+         "label": "同（令和6年）"
+        },
+        {
+         "value": 32,
+         "unit": "ポイント",
+         "label": "令和4年と令和6年の差"
+        }
+       ],
+       "source_ref": "SRC-014",
+       "excerpt": "中国・台湾産品の市場占拠率(D) 100 107 132 ＋32",
+       "attribution": "出典：財務省「中華人民共和国産及び台湾産ニッケル系ステンレス冷延鋼帯・冷延鋼板に対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo2-2.pdf）",
+       "processing_note": "財務省「中華人民共和国産及び台湾産ニッケル系ステンレス冷延鋼帯・冷延鋼板に対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo2-2.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-07",
+       "text": "一方、国内の産業の営業利益は、同じ指数で令和5年に63、令和6年に40まで下がった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 100,
+         "unit": "指数",
+         "label": "本邦産業の営業利益（令和4年）"
+        },
+        {
+         "value": 63,
+         "unit": "指数",
+         "label": "同（令和5年）"
+        },
+        {
+         "value": 40,
+         "unit": "指数",
+         "label": "同（令和6年）"
+        },
+        {
+         "value": -60,
+         "unit": "ポイント",
+         "label": "令和4年と令和6年の差"
+        }
+       ],
+       "source_ref": "SRC-014",
+       "excerpt": "本邦産業の営業利益(J) 100 63 40 ▲60",
+       "attribution": "出典：財務省「中華人民共和国産及び台湾産ニッケル系ステンレス冷延鋼帯・冷延鋼板に対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo2-2.pdf）",
+       "processing_note": "財務省「中華人民共和国産及び台湾産ニッケル系ステンレス冷延鋼帯・冷延鋼板に対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo2-2.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-08",
+       "text": "経済産業省の資料によると、この鋼板を国内で生産しているのは、日本製鉄、日本冶金工業、ナス鋼帯、日本金属を含む7者である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 7,
+         "unit": "者",
+         "label": "件数（国内の生産者）"
+        }
+       ],
+       "source_ref": "SRC-015",
+       "excerpt": "（株）、日本金属（株）を含む7者である。",
+       "attribution": "出典：経済産業省「ニッケル系ステンレス冷延鋼帯・冷延鋼板産業の現状」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo2-1.pdf）",
+       "processing_note": "経済産業省「ニッケル系ステンレス冷延鋼帯・冷延鋼板産業の現状」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo2-1.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-09",
+       "text": "この鋼板は、鉄に10.5％以上のクロムを含み、ニッケルの含有量が全重量の0.6％を超える合金鋼である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10.5,
+         "unit": "%",
+         "label": "クロムの含有量（以上）"
+        }
+       ],
+       "source_ref": "SRC-015",
+       "excerpt": "ニッケル系ステンレス冷延鋼帯・冷延鋼板とは、鉄に10.5％",
+       "attribution": "出典：経済産業省「ニッケル系ステンレス冷延鋼帯・冷延鋼板産業の現状」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo2-1.pdf）",
+       "processing_note": "経済産業省「ニッケル系ステンレス冷延鋼帯・冷延鋼板産業の現状」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo2-1.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-10",
+       "text": "ステンレスの冷延鋼板は、台所の流し、食器、建物の配管、鉄道の車両などに使われる薄い鉄の板である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-19-002-1",
+       "text": "関税で中国・台湾産の安い鋼板が入りにくくなると、国内のステンレス鋼板の値段が下がりにくくなり、鉄鋼業の採算には支えになる一方、鋼板を材料に使う台所用品や機械の業種では材料費が下がりにくくなる可能性がある。",
+       "falsifier": "課税が確定した後も、中国・台湾以外の国からの安い輸入が増えて国内の値段が下がり続ければ、この見方は成り立たない。",
+       "check_metric": "財務省 貿易統計のステンレス冷延鋼板（品目番号7219・7220）の国別の輸入量と輸入額",
+       "check_by": "2027-04-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-19-003",
+     "event_id": "EVT-2026-10-19-003",
+     "headline": "大株主の持ち分の変化を伝える書類：GMOインターネットグループは子会社株を減らし、KLabでは海外の投資会社が主要株主でなくなる（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "上場会社の株を一定の割合を超えて持つ人や会社は大量保有報告書を出し、その後に持ち分が一定以上動くと変更報告書を出す決まりである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "GMOインターネットグループは2026年10月19日、上場子会社のGMOプロダクトプラットフォームの株について変更報告書を出した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 19,
+         "unit": "日",
+         "label": "日付（提出日）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "【提出日】 2026年10月19日",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8CS）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8CS）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "提出者単体での保有割合は63.24％となった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 63.24,
+         "unit": "%",
+         "label": "提出者単体の株券等保有割合"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "上記提出者の株券等保有割合（％）（AB/（AD+AE-AF）×100）63.24",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8CS）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8CS）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "直前の報告書に書かれていた提出者単体の保有割合は64.26％である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 64.26,
+         "unit": "%",
+         "label": "直前の報告書の株券等保有割合"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "直前の報告書に記載された株券等保有割合（％）64.26",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8CS）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8CS）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "書類には、株を管理し処分するための信託に、280,000株を預けたと書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 280000,
+         "unit": "株",
+         "label": "信託された株式数"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "・信託された株式数：280,000株",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8CS）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8CS）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-06",
+       "text": "KLabは同じ日に臨時報告書の訂正報告書を出し、海外の投資会社が主要株主でなくなったと届け出た。異動前の議決権の割合は12.80％だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 12.8,
+         "unit": "%",
+         "label": "異動前の議決権の割合"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "異動前 97,500個 12.80％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8S3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8S3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-07",
+       "text": "異動後の議決権の割合は9.93％である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 77395,
+         "unit": "個",
+         "label": "異動後の所有議決権の数"
+        },
+        {
+         "value": 9.93,
+         "unit": "%",
+         "label": "異動後の議決権の割合"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "異動後 77,395個 9.93％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8S3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8S3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-08",
+       "text": "主要株主は、会社の議決権を法律で決められた割合以上持つ株主のことで、そうなったときやそうでなくなったときに、会社は臨時報告書を出す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-09",
+       "text": "KLabは、その株主から9月4日から24日までの間に変更報告書と訂正報告書が続けて出され、事実の確認に時間がかかったと説明している。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 24,
+         "unit": "日",
+         "label": "日付（報告書が続けて出された期間の終わり）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "９月４日から同月24日までの間にULTIMATE CLASSIC INVESTMENT LLCより大量保有報告書（変更報告書）及び訂正報告書が断続的に提出された",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8S3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8S3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-10",
+       "text": "三菱UFJフィナンシャル・グループのグループ3社は、いちごオフィスリート投資法人の投資口を合わせて5.06％持つという大量保有報告書を出した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 76545,
+         "unit": "口",
+         "label": "保有株券等の数の合計"
+        },
+        {
+         "value": 5.06,
+         "unit": "%",
+         "label": "株券等保有割合の合計"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "合計 76,545 5.06",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7YT）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7YT）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-19-003-1",
+       "text": "親会社が上場子会社の株を信託を通じて少しずつ市場で売ると、その子会社の株の市場で売買できる株の量が増え、取引のしやすさが上がる可能性がある。",
+       "falsifier": "今後の変更報告書で親会社の保有割合が下がらず、信託による処分が止まっていれば、この見方は成り立たない。",
+       "check_metric": "EDINETに出る、同じ親会社の変更報告書の株券等保有割合",
+       "check_by": "2027-09-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-19-004",
+     "event_id": "EVT-2026-10-19-004",
+     "headline": "お金を借りる期間が長いほど利率は高い：NTTファイナンスの社債と、国の短期証券（法定書類と財務省から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "社債は会社が投資家からお金を借りるために出す証券で、利率は借りたお金に毎年付ける利息の割合である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "NTTグループの資金を調達するNTTファイナンスは、3年・5年・7年・10年の社債を出すと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9600000000,
+         "unit": "円",
+         "label": "3年債の募集金額"
+        },
+        {
+         "value": 34700000000,
+         "unit": "円",
+         "label": "5年債の募集金額"
+        },
+        {
+         "value": 4700000000,
+         "unit": "円",
+         "label": "7年債の募集金額"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "第50回無担保社債（３年債） 9,600,000,000円 第51回無担保社債（５年債） 34,700,000,000円 第52回無担保社債（７年債） 4,700,000,000円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8J5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8J5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "3年の社債（第50回）の利率は年2.376％である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.376,
+         "unit": "%",
+         "label": "第50回債（3年）の利率"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "利率（％） 年2.376％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8J5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8J5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "5年の社債（第51回）の利率は年2.808％である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.808,
+         "unit": "%",
+         "label": "第51回債（5年）の利率"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "利率（％） 年2.808％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8J5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8J5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "7年の社債（第52回）の利率は年3.050％である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.05,
+         "unit": "%",
+         "label": "第52回債（7年）の利率"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "利率（％） 年3.050％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8J5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8J5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-06",
+       "text": "10年の社債（第53回）の利率は年3.533％である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.533,
+         "unit": "%",
+         "label": "第53回債（10年）の利率"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "利率（％） 年3.533％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8J5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8J5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-07",
+       "text": "手取りの概算額69,780,000,000円は、全額を2026年10月末までにNTTグループの会社への貸付に充てる予定である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 69780000000,
+         "unit": "円",
+         "label": "手取概算額"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "手取概算額69,780,000,000円は、全額を2026年10月末までにＮＴＴグループ会社（注）向けの貸付資金に充当する予定であります。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8J5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z8J5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-08",
+       "text": "国の短期の借金である国庫短期証券（第1414回）は10月19日に入札があり、平均の利回りは1.6229％だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1.6229,
+         "unit": "%",
+         "label": "募入平均利回り"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "（募入平均利回り） （1.6229％）",
+       "attribution": "出典：財務省「国庫短期証券（第1414回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261019.htm）",
+       "processing_note": "財務省「国庫短期証券（第1414回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261019.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-09",
+       "text": "この短期証券の償還期限は令和9年（2027年）10月20日である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20,
+         "unit": "日",
+         "label": "日付（償還期限）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "償還期限 令和9年10月20日",
+       "attribution": "出典：財務省「国庫短期証券（第1414回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261019.htm）",
+       "processing_note": "財務省「国庫短期証券（第1414回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261019.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-10",
+       "text": "一般に、お金を貸す期間が長いほど、その間の金利の変化や相手の返済の不安を引き受けるため、貸し手は高い利率を求めやすい。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-19-004-1",
+       "text": "会社が長い期間で借りるほど高い利率を払う状態が続くと、通信のように設備に長くお金がかかる業種では、借り入れの期間を短めにする動きが出る可能性がある。",
+       "falsifier": "今後の大手の通信関連の会社の社債で、10年以上の社債の発行額の割合が下がらなければ、この見方は成り立たない。",
+       "check_metric": "EDINETの発行登録追補書類に書かれた、年限ごとの社債の募集金額",
+       "check_by": "2027-03-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-10-19T13:18:31.589350+09:00",
+  "first_run": {
+   "run_at": "2026-10-19T13:18:31.589350+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 12,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 39,
+  "passed": 31,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 8,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 8,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-001": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E01739-000_2026-10-19_01_2026-10-19_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E01739-000_2026-10-19_01_2026-10-19_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E25867-000_2026-10-09_02_2026-10-19_ixbrl.htm",
+     "PublicDoc/0000000_header.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jplvh030000-lvh-007_E03606-000_2026-10-12_01_2026-10-19_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jplvh030000-lvh-007_E03606-000_2026-10-12_01_2026-10-19_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-006": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jplvh010000-lvh-001_E05041-000_2026-10-13_01_2026-10-19_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jplvh010000-lvh-001_E05041-000_2026-10-13_01_2026-10-19_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-007": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp120000-rep-001_E05355-000_2026-10-16_01_2026-10-16_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp120000-rep-001_E05355-000_2026-10-16_01_2026-10-16_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-008": {
+    "files": [
+     "PublicDoc/0000000_header.htm"
+    ],
+    "fallback": true
+   }
+  },
+  "edinet_view_url_count": 8,
+  "attribution_overwritten": 43,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "noon",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 12,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 3,
+  "evidence_doc_type_overridden": 3,
+  "impact_kind_overridden": 1,
+  "impact_kind_source_counts": {
+   "edinet_doctype_unmapped": 2,
+   "no_edinet_doc": 2,
+   "edinet_doctype": 1
+  },
+  "impact_kind_undetermined_by_doc_type": {
+   "180": 1,
+   "190": 1
+  },
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 5,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 3,
+   "nfkc": 0,
+   "match_name": 2
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 81,
+   "numbers_declared": 44,
+   "gap": 37,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 81,
+     "numbers_declared": 44
+    },
+    "explainer": {
+     "text_number_tokens": 0,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 9,
+   "line_ids": [
+    "L-001-01",
+    "L-001-03",
+    "L-001-08",
+    "L-002-01",
+    "L-002-04",
+    "L-002-08",
+    "L-003-02",
+    "L-003-09",
+    "L-004-09"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [
+   {
+    "word": "主要",
+    "location": "headline",
+    "id": "ART-2026-10-19-003"
+   },
+   {
+    "word": "主要",
+    "location": "line_text",
+    "id": "L-003-06"
+   },
+   {
+    "word": "主要",
+    "location": "line_text",
+    "id": "L-003-08"
+   },
+   {
+    "word": "主要",
+    "location": "hypothesis_relation_text",
+    "id": "2026-10-19-noon-4"
+   },
+   {
+    "word": "主要",
+    "location": "hypothesis_impact_reason",
+    "id": "2026-10-19-noon-4"
+   }
+  ],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 7,
+   "change": 8,
+   "ripple": 8,
+   "deep": 8
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 6,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-009",
+    "SRC-011",
+    "SRC-014",
+    "SRC-015"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 2,
+   "first_run_at": "2026-10-19T13:18:04.469688+09:00",
+   "last_run_at": "2026-10-19T13:18:24.598120+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 31,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [
+   {
+    "hypothesis_id": "2026-10-19-noon-1",
+    "company_name": "三菱電機株式会社",
+    "submitted_at": "2026-10-19T09:56:00+09:00",
+    "baseline_point": "2026-10-19T13:18:31.589350+09:00",
+    "trading_minutes": 142,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-19-noon-2",
+    "company_name": "日本製鉄株式会社",
+    "submitted_at": null,
+    "baseline_point": "2026-10-19T13:18:31.589350+09:00",
+    "trading_minutes": null,
+    "reason": "submitted_at_not_timed"
+   },
+   {
+    "hypothesis_id": "2026-10-19-noon-3",
+    "company_name": "日本冶金工業株式会社",
+    "submitted_at": null,
+    "baseline_point": "2026-10-19T13:18:31.589350+09:00",
+    "trading_minutes": null,
+    "reason": "submitted_at_not_timed"
+   },
+   {
+    "hypothesis_id": "2026-10-19-noon-4",
+    "company_name": "ＫＬａｂ株式会社",
+    "submitted_at": "2026-10-19T10:10:00+09:00",
+    "baseline_point": "2026-10-19T13:18:31.589350+09:00",
+    "trading_minutes": 128,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-19-noon-5",
+    "company_name": "ＧＭＯインターネットグループ株式会社",
+    "submitted_at": "2026-10-19T12:47:00+09:00",
+    "baseline_point": "2026-10-19T13:18:31.589350+09:00",
+    "trading_minutes": 31,
+    "reason": null
+   }
+  ],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 7,
+   "total_unregistered": 7,
+   "excluded_date_time_tokens": 50,
+   "lines": [
+    {
+     "line_id": "L-002-09",
+     "values": [
+      "0.6"
+     ]
+    },
+    {
+     "line_id": "L-003-10",
+     "values": [
+      "3"
+     ]
+    },
+    {
+     "line_id": "L-004-03",
+     "values": [
+      "50"
+     ]
+    },
+    {
+     "line_id": "L-004-04",
+     "values": [
+      "51"
+     ]
+    },
+    {
+     "line_id": "L-004-05",
+     "values": [
+      "52"
+     ]
+    },
+    {
+     "line_id": "L-004-06",
+     "values": [
+      "53"
+     ]
+    },
+    {
+     "line_id": "L-004-08",
+     "values": [
+      "1414"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 5,
+   "zero_letter_count": 0,
+   "lines": [
+    {
+     "line_id": "L-003-10",
+     "letters": 2
+    },
+    {
+     "line_id": "L-004-03",
+     "letters": 3
+    },
+    {
+     "line_id": "L-004-04",
+     "letters": 3
+    },
+    {
+     "line_id": "L-004-05",
+     "letters": 3
+    },
+    {
+     "line_id": "L-004-06",
+     "letters": 3
+    }
+   ]
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "ok",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 4,
+    "source_ids": [
+     "SRC-009",
+     "SRC-011",
+     "SRC-014",
+     "SRC-015"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 4
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "industry_picks_total": 4,
+  "industry_examples_total": 0,
+  "industry_example_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "ai_written_examples_discarded": 0,
+  "slot_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "short_name_match_count": {
+   "count": 0,
+   "names": []
+  },
+  "allowed_industries_count": 30,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
