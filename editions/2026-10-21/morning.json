@@ -1,0 +1,1553 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-10-21-morning",
+ "date": "2026-10-21",
+ "slot": "morning",
+ "generated_at": "2026-10-21T07:37:45.300743+09:00",
+ "market_open": true,
+ "baseline": {
+  "date": "2026-10-21",
+  "price_type": "open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-21&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月21日）",
+   "published_at": "2026-10-21",
+   "fetched_at": "2026-10-21T07:32:11+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "5d99a01f65e592be59f6e65624f7428d9f72c8edf15af569ed2a75123c5db107",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-20&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月20日）",
+   "published_at": "2026-10-20",
+   "fetched_at": "2026-10-21T07:32:16+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "b3b396ee446b1f9a25b99e0f5215f257aed767b65709b17e0e63f0ac57dbc194",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z941?type=1",
+   "publisher": "株式会社竹内製作所",
+   "publisher_type": "company_disclosure",
+   "title": "訂正臨時報告書（株式会社竹内製作所）",
+   "published_at": "2026-10-20T14:57:00+09:00",
+   "fetched_at": "2026-10-21T07:32:37+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "07b53994369545cdb523c4eff1bf1d3c5546728f6fe909faaf88fa18d6be69d7",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z941）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z941）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z941"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z92L?type=1",
+   "publisher": "株式会社神戸物産",
+   "publisher_type": "company_disclosure",
+   "title": "自己株券買付状況報告書（法２４条の６第１項に基づくもの）（株式会社神戸物産）",
+   "published_at": "2026-10-20T15:56:00+09:00",
+   "fetched_at": "2026-10-21T07:32:43+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "02df1cce456d4b90a61ddbffb5d8792747f8e7c4e1a1ee269d41e3e4eb0ccb8f",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z92L）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z92L）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z92L"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z920?type=1",
+   "publisher": "ウェルネオシュガー株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "自己株券買付状況報告書（法２４条の６第１項に基づくもの）（ウェルネオシュガー株式会社）",
+   "published_at": "2026-10-20T16:59:00+09:00",
+   "fetched_at": "2026-10-21T07:32:54+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "6553de57ed65839e72f4fa98ee663f9affe072a9511385cdc101e5e09c9d94c1",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z920）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z920）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z920"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261020.htm",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "流動性供給（第464回）入札の発行予定額等",
+   "published_at": "2026-10-20",
+   "fetched_at": "2026-10-21T07:34:15+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "4223bf8b59d2851d19f5600a6ea78bc15724916d05e721cc397569bc30e221ac",
+   "usage": "quotable",
+   "attribution": "出典：財務省「流動性供給（第464回）入札の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261020.htm）",
+   "processing_note": "財務省「流動性供給（第464回）入札の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261020.htm）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-009",
+   "url": "https://www.mof.go.jp/policy/international_policy/convention/dialogue/20261019212955.html",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "日米政府の戦略的投資イニシアティブに関する協議委員会の会合を開催 （令和8年10月20日）",
+   "published_at": "2026-10-20",
+   "fetched_at": "2026-10-21T07:34:16+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "eee272261af122f824f63908ebf971f685b795bf52647ebd75aa5530924d68fe",
+   "usage": "quotable",
+   "attribution": "出典：財務省「日米政府の戦略的投資イニシアティブに関する協議委員会の会合を開催 （令和8年10月20日）」（https://www.mof.go.jp/policy/international_policy/convention/dialogue/20261019212955.html）",
+   "processing_note": "財務省「日米政府の戦略的投資イニシアティブに関する協議委員会の会合を開催 （令和8年10月20日）」（https://www.mof.go.jp/policy/international_policy/convention/dialogue/20261019212955.html）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-0010",
+   "url": "https://www.mof.go.jp/policy/filp/reference/flf_balance/zaiyuu/zaiyuu0809.html",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "財政融資資金現在高（令和8年9月末）",
+   "published_at": "2026-10-20",
+   "fetched_at": "2026-10-21T07:34:16+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "2cb5ebe9f8a94e9aac1c02b994a520c7baef16b619af6f9aa2e81ba7cf0183bf",
+   "usage": "quotable",
+   "attribution": "出典：財務省「財政融資資金現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/zaiyuu/zaiyuu0809.html）",
+   "processing_note": "財務省「財政融資資金現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/zaiyuu/zaiyuu0809.html）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-21-001",
+     "event_id": "EVT-2026-10-21-001",
+     "headline": "国が地方などに貸すお金、9月末の貸付金は1,169,858億円：前月末から20,460億円減る（財務省）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "財政融資資金は、国が債券などで集めたお金を、地方公共団体や政府系の金融機関などに長い期間貸し出す仕組みである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "財務省によると、9月末の財政融資資金の貸付金は合計1,169,858億円で、資産の98.10%を占め、前月末から20,460億円減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1169858,
+         "unit": "億円",
+         "label": "貸付金の現在高（9月末）"
+        },
+        {
+         "value": 98.1,
+         "unit": "%",
+         "label": "資産に占める貸付金の割合"
+        },
+        {
+         "value": -20460,
+         "unit": "億円",
+         "label": "貸付金の前月末からの増減"
+        }
+       ],
+       "source_ref": "SRC-0010",
+       "excerpt": "貸付金 1,169,858 98.10 △20,460 △29,003",
+       "attribution": "出典：財務省「財政融資資金現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/zaiyuu/zaiyuu0809.html）",
+       "processing_note": "財務省「財政融資資金現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/zaiyuu/zaiyuu0809.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "前年度末と比べると、貸付金は29,003億円減っている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": -29003,
+         "unit": "億円",
+         "label": "貸付金の前年度末からの増減"
+        }
+       ],
+       "source_ref": "SRC-0010",
+       "excerpt": "貸付金 1,169,858 98.10 △20,460 △29,003",
+       "attribution": "出典：財務省「財政融資資金現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/zaiyuu/zaiyuu0809.html）",
+       "processing_note": "財務省「財政融資資金現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/zaiyuu/zaiyuu0809.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "貸付先のうち地方公共団体への貸付金は372,420億円（31.23%）で、前月末から18,630億円減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 372420,
+         "unit": "億円",
+         "label": "地方公共団体貸付金の現在高"
+        },
+        {
+         "value": 31.23,
+         "unit": "%",
+         "label": "地方公共団体貸付金の割合"
+        },
+        {
+         "value": -18630,
+         "unit": "億円",
+         "label": "地方公共団体貸付金の前月末からの増減"
+        }
+       ],
+       "source_ref": "SRC-0010",
+       "excerpt": "地方公共団体貸付金 372,420 31.23 △18,630 △8,121",
+       "attribution": "出典：財務省「財政融資資金現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/zaiyuu/zaiyuu0809.html）",
+       "processing_note": "財務省「財政融資資金現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/zaiyuu/zaiyuu0809.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "特別法人への貸付金は468,009億円（39.25%）で、前月末から859億円減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 468009,
+         "unit": "億円",
+         "label": "特別法人貸付金の現在高"
+        },
+        {
+         "value": 39.25,
+         "unit": "%",
+         "label": "特別法人貸付金の割合"
+        },
+        {
+         "value": -859,
+         "unit": "億円",
+         "label": "特別法人貸付金の前月末からの増減"
+        }
+       ],
+       "source_ref": "SRC-0010",
+       "excerpt": "特別法人貸付金 468,009 39.25 △859 △5,647",
+       "attribution": "出典：財務省「財政融資資金現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/zaiyuu/zaiyuu0809.html）",
+       "processing_note": "財務省「財政融資資金現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/zaiyuu/zaiyuu0809.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "政府関係機関への貸付金は239,324億円（20.07%）で、前月末から788億円減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 239324,
+         "unit": "億円",
+         "label": "政府関係機関貸付金の現在高"
+        },
+        {
+         "value": 20.07,
+         "unit": "%",
+         "label": "政府関係機関貸付金の割合"
+        },
+        {
+         "value": -788,
+         "unit": "億円",
+         "label": "政府関係機関貸付金の前月末からの増減"
+        }
+       ],
+       "source_ref": "SRC-0010",
+       "excerpt": "政府関係機関貸付金 239,324 20.07 △788 △761",
+       "attribution": "出典：財務省「財政融資資金現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/zaiyuu/zaiyuu0809.html）",
+       "processing_note": "財務省「財政融資資金現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/zaiyuu/zaiyuu0809.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "資産の部の現金預金は22,671億円で、前月末から11,600億円増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 22671,
+         "unit": "億円",
+         "label": "現金預金の現在高"
+        },
+        {
+         "value": 11600,
+         "unit": "億円",
+         "label": "現金預金の前月末からの増減"
+        }
+       ],
+       "source_ref": "SRC-0010",
+       "excerpt": "現金預金 22,671 1.90 11,600 21,980",
+       "attribution": "出典：財務省「財政融資資金現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/zaiyuu/zaiyuu0809.html）",
+       "processing_note": "財務省「財政融資資金現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/zaiyuu/zaiyuu0809.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-21-001-1",
+       "text": "地方公共団体への貸付金が前月末から減ったのは、返済の時期が重なったためである可能性があり、地方の公共工事の発注量とは直接つながらない可能性もある。",
+       "falsifier": "10月末の地方公共団体貸付金も続けて大きく減れば、返済の時期だけでは説明できない。",
+       "check_metric": "財務省 財政融資資金現在高（令和8年10月末）の地方公共団体貸付金",
+       "check_by": "2026-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-21-002",
+     "event_id": "EVT-2026-10-21-002",
+     "headline": "自社の株を買う報告：神戸物産は9月30日に6,784,700株を取得、ウェルネオシュガーは10月に買う枠（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "会社が自分の会社の株を市場などから買い戻すことを、自己株式の取得という。買った量は、毎月、決められた書類で国に報告する。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "業務用食品スーパーを営む神戸物産は10月20日に提出した報告書で、取締役会が決めた買い付けの上限を16,000,000株・40,000,000,000円としている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 16000000,
+         "unit": "株",
+         "label": "取締役会決議の取得上限（株数）"
+        },
+        {
+         "value": 40000000000,
+         "unit": "円",
+         "label": "取締役会決議の取得上限（金額）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "での決議状況 （取得期間　2026年９月30日～2026年４月30日）  16,000,000  40,000,000,000",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z92L）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z92L）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "神戸物産は9月30日に、6,784,700株を20,143,774,300円で取得した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 6784700,
+         "unit": "株",
+         "label": "9月の取得株数"
+        },
+        {
+         "value": 20143774300,
+         "unit": "円",
+         "label": "9月の取得金額"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "報告月における取得自己株式（取得日） ９月30日 6,784,700 20,143,774,300",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z92L）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z92L）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "上限に対する進み具合は、株数で42.40%、金額で50.36%である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 42.4,
+         "unit": "%",
+         "label": "進捗（株数）"
+        },
+        {
+         "value": 50.36,
+         "unit": "%",
+         "label": "進捗（金額）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "自己株式取得の進捗状況（％） 42.40 50.36",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z92L）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z92L）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "同社の9月30日時点の発行済株式総数は273,600,000株である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 273600000,
+         "unit": "株",
+         "label": "発行済株式総数"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "発行済株式総数 273,600,000",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z92L）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z92L）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-06",
+       "text": "9月30日に取得した6,784,700株は受渡日が10月2日のため、9月末の保有自己株式数には含まれていない。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 6784700,
+         "unit": "株",
+         "label": "9月30日に取得した株数"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "2026年９月30日に取得した自己株式6,784,700株は、受渡日が2026年10月２日であるため、上記保有自己株式数には含めておりません",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z92L）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z92L）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-07",
+       "text": "砂糖をつくるウェルネオシュガーは、取締役会で9,900株・31,000,000円を上限に、10月1日から10月14日までの間に自社の株を買うと決めていた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9900,
+         "unit": "株",
+         "label": "取締役会決議の取得上限（株数）"
+        },
+        {
+         "value": 31000000,
+         "unit": "円",
+         "label": "取締役会決議の取得上限（金額）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "での決議状況 （取得期間　2026年10月１日～2026年10月14日）  9,900  31,000,000",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z920）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z920）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-08",
+       "text": "ウェルネオシュガーの9月30日時点の発行済株式総数は32,800,095株である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 32800095,
+         "unit": "株",
+         "label": "発行済株式総数"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "発行済株式総数  32,800,095",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z920）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z920）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-09",
+       "text": "同じ時点で同社が持つ自己株式は2,172株である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2172,
+         "unit": "株",
+         "label": "保有自己株式数"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "保有自己株式数  2,172",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z920）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z920）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-21-002-1",
+       "text": "自社の株を買う枠を設けた小売・食品の会社では、市場に出回る株の数が減る方向に動く可能性がある。",
+       "falsifier": "10月分の自己株券買付状況報告書で、取得した株数が増えていなければ、この見方は当てはまらない。",
+       "check_metric": "EDINET 自己株券買付状況報告書（10月分）の取得株数",
+       "check_by": "2026-11-16"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-21-003",
+     "event_id": "EVT-2026-10-21-003",
+     "headline": "建設機械の竹内製作所、社員に渡す株の値段は1株7,790円：最大49,900株（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "譲渡制限付株式は、一定の期間は売ったり担保にしたりできない条件を付けて、社員などに渡す株である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "建設機械をつくる竹内製作所は10月20日に訂正臨時報告書を提出し、従業員持株会を通じて社員に渡す株の数を最大49,900株としている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 49900,
+         "unit": "株",
+         "label": "発行数（最大）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "発行数（募集株式の数）　　　　　　　49,900株",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z941）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z941）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "1株の払込金額（発行価格）は7,790円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 7790,
+         "unit": "円",
+         "label": "発行価格（1株の払込金額）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "発行価格（募集株式の払込金額）　7,790円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z941）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z941）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-07",
+       "text": "この7,790円は、条件決定日である10月20日の直前の営業日の、東京証券取引所プライム市場での同社の株の終値である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 7790,
+         "unit": "円",
+         "label": "直前営業日の終値"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "直前営業日の東京証券取引所プライム市場における当社の普通株式の終値である7,790円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z941）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z941）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "発行価額の総額は388,721,000円の見込みである。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 388721000,
+         "unit": "円",
+         "label": "発行価額の総額"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "発行価額の総額　　　　　　　　　388,721,000円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z941）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z941）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "渡す株の数は、部長級以上の20名に150株、管理職の83名に100株ずつとして計算している。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20,
+         "unit": "名",
+         "label": "部長級以上の人数"
+        },
+        {
+         "value": 150,
+         "unit": "株",
+         "label": "部長級以上への株数"
+        },
+        {
+         "value": 83,
+         "unit": "名",
+         "label": "管理職の人数"
+        },
+        {
+         "value": 100,
+         "unit": "株",
+         "label": "管理職への株数"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "従業員（部長級以上）20名に対して当社普通株式150株、従業員（管理職）83名に対して当社普通株式100株",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z941）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z941）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-06",
+       "text": "管理職でない社員772名には、50株ずつとして計算している。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 772,
+         "unit": "名",
+         "label": "非管理職の人数"
+        },
+        {
+         "value": 50,
+         "unit": "株",
+         "label": "非管理職への株数"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "従業員（非管理職）772名に対して当社普通株式50株",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z941）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z941）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-21-003-1",
+       "text": "機械の業種で、社員に株を渡す仕組みが広がると、従業員持株会に入る社員が増える可能性がある。",
+       "falsifier": "同様の制度を導入する機械の会社の臨時報告書が、今後3か月で出なければ、広がりは見られない。",
+       "check_metric": "EDINET 臨時報告書（譲渡制限付株式・従業員持株会）の件数",
+       "check_by": "2027-01-29"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-21-004",
+     "event_id": "EVT-2026-10-21-004",
+     "headline": "古い国債を追加で売る入札：10月27日に2,500億円程度（財務省）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "流動性供給入札は、市場で取引が少なくなった古い国債を、国が追加で発行して売る仕組みである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "財務省は10月20日、流動性供給（第464回）の入札を行うと公表し、発行予定額を額面金額で2,500億円程度とした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2500,
+         "unit": "億円",
+         "label": "発行予定額（額面）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "発行予定額 額面金額で2,500億円程度",
+       "attribution": "出典：財務省「流動性供給（第464回）入札の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261020.htm）",
+       "processing_note": "財務省「流動性供給（第464回）入札の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261020.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "入札は令和8年10月27日に予定されている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 27,
+         "unit": "日",
+         "label": "日付（入札予定日）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "入札予定日 令和8年10月27日",
+       "attribution": "出典：財務省「流動性供給（第464回）入札の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261020.htm）",
+       "processing_note": "財務省「流動性供給（第464回）入札の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261020.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "発行は10月28日の予定である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 28,
+         "unit": "日",
+         "label": "日付（発行予定日）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "発行予定日 令和8年10月28日",
+       "attribution": "出典：財務省「流動性供給（第464回）入札の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261020.htm）",
+       "processing_note": "財務省「流動性供給（第464回）入札の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261020.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "対象は、20年の国債の第163回から第197回、30年の国債の第28回から第91回、40年の国債の第1回から第18回である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 163,
+         "unit": "回",
+         "label": "20年債の対象の始まりの回号"
+        },
+        {
+         "value": 197,
+         "unit": "回",
+         "label": "20年債の対象の終わりの回号"
+        },
+        {
+         "value": 28,
+         "unit": "回",
+         "label": "30年債の対象の始まりの回号"
+        },
+        {
+         "value": 91,
+         "unit": "回",
+         "label": "30年債の対象の終わりの回号"
+        },
+        {
+         "value": 1,
+         "unit": "回",
+         "label": "40年債の対象の始まりの回号"
+        },
+        {
+         "value": 18,
+         "unit": "回",
+         "label": "40年債の対象の終わりの回号"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "利付国庫債券（20年） 第163回から第197回まで利付国庫債券（30年） 第28回から第91回まで利付国庫債券（40年） 第1回から第18回まで",
+       "attribution": "出典：財務省「流動性供給（第464回）入札の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261020.htm）",
+       "processing_note": "財務省「流動性供給（第464回）入札の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261020.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-21-004-1",
+       "text": "長い期間の国債が追加で売られると、生命保険や銀行など長い国債を持つ業種の運用の利回りに影響する可能性がある。",
+       "falsifier": "10月27日の入札で、応募額が発行予定額を大きく上回り、利回りの動きが小さければ、影響は小さい。",
+       "check_metric": "財務省 流動性供給（第464回）入札結果",
+       "check_by": "2026-10-27"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-21-005",
+     "event_id": "EVT-2026-10-21-005",
+     "headline": "日米の戦略的投資の協議委員会がオンラインで会合（財務省）",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "財務省は、日米政府の戦略的投資イニシアティブに関する協議委員会の会合を10月20日に開いたと公表した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20,
+         "unit": "日",
+         "label": "日付（開催日）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "日米政府の戦略的投資イニシアティブに関する協議委員会の会合を開催 （令和8年10月20日）",
+       "attribution": "出典：財務省「日米政府の戦略的投資イニシアティブに関する協議委員会の会合を開催 （令和8年10月20日）」（https://www.mof.go.jp/policy/international_policy/convention/dialogue/20261019212955.html）",
+       "processing_note": "財務省「日米政府の戦略的投資イニシアティブに関する協議委員会の会合を開催 （令和8年10月20日）」（https://www.mof.go.jp/policy/international_policy/convention/dialogue/20261019212955.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "国際協力銀行は海外での事業にお金を貸す政府系の金融機関、日本貿易保険は海外との取引の損失に備える保険を引き受ける政府系の機関である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-21-005-1",
+       "text": "日米の投資の案件づくりが進むと、海外で大きな設備をつくる建設業や機械の会社の受注につながる可能性がある。",
+       "falsifier": "次の協議委員会までに新しい案件が公表されなければ、近い時期の受注にはつながらない。",
+       "check_metric": "財務省・経済産業省の日米戦略的投資イニシアティブに関する公表",
+       "check_by": "2026-12-25"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-21-006",
+     "event_id": "EVT-2026-10-21-006",
+     "headline": "財政融資資金のお金はどこから来るか：9月末は公債が71.53%、預託金が27.77%（財務省）",
+     "lines": [
+      {
+       "line_id": "L-006-01",
+       "text": "財政融資資金のお金の出どころは、負債の部に書かれている。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-02",
+       "text": "9月末の負債の部では、公債が853,050億円で全体の71.53%を占め、前月末から31,443億円減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 853050,
+         "unit": "億円",
+         "label": "公債の現在高"
+        },
+        {
+         "value": 71.53,
+         "unit": "%",
+         "label": "公債の割合"
+        },
+        {
+         "value": -31443,
+         "unit": "億円",
+         "label": "公債の前月末からの増減"
+        }
+       ],
+       "source_ref": "SRC-0010",
+       "excerpt": "公債 853,050 71.53 △31,443 △55,011",
+       "attribution": "出典：財務省「財政融資資金現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/zaiyuu/zaiyuu0809.html）",
+       "processing_note": "財務省「財政融資資金現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/zaiyuu/zaiyuu0809.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-03",
+       "text": "預託金は331,135億円（27.77%）で、前月末から42,190億円増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 331135,
+         "unit": "億円",
+         "label": "預託金の現在高"
+        },
+        {
+         "value": 27.77,
+         "unit": "%",
+         "label": "預託金の割合"
+        },
+        {
+         "value": 42190,
+         "unit": "億円",
+         "label": "預託金の前月末からの増減"
+        }
+       ],
+       "source_ref": "SRC-0010",
+       "excerpt": "預託金 331,135 27.77 42,190 12,854",
+       "attribution": "出典：財務省「財政融資資金現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/zaiyuu/zaiyuu0809.html）",
+       "processing_note": "財務省「財政融資資金現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/zaiyuu/zaiyuu0809.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-04",
+       "text": "預託金のうち特別会計預託金は229,108億円で、前月末から42,886億円増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 229108,
+         "unit": "億円",
+         "label": "特別会計預託金の現在高"
+        },
+        {
+         "value": 42886,
+         "unit": "億円",
+         "label": "特別会計預託金の前月末からの増減"
+        }
+       ],
+       "source_ref": "SRC-0010",
+       "excerpt": "特別会計預託金 229,108 19.21 42,886 15,310",
+       "attribution": "出典：財務省「財政融資資金現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/zaiyuu/zaiyuu0809.html）",
+       "processing_note": "財務省「財政融資資金現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/zaiyuu/zaiyuu0809.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-07",
+       "text": "預託金のうちその他預託金は60,722億円（5.09%）で、前月末から570億円減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 60722,
+         "unit": "億円",
+         "label": "その他預託金の現在高"
+        },
+        {
+         "value": 5.09,
+         "unit": "%",
+         "label": "その他預託金の割合"
+        },
+        {
+         "value": -570,
+         "unit": "億円",
+         "label": "その他預託金の前月末からの増減"
+        }
+       ],
+       "source_ref": "SRC-0010",
+       "excerpt": "その他預託金 60,722 5.09 △570 △640",
+       "attribution": "出典：財務省「財政融資資金現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/zaiyuu/zaiyuu0809.html）",
+       "processing_note": "財務省「財政融資資金現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/zaiyuu/zaiyuu0809.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-05",
+       "text": "資金の総額は1,192,529億円で、前月末から8,860億円、前年度末から42,023億円減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1192529,
+         "unit": "億円",
+         "label": "総額"
+        },
+        {
+         "value": -8860,
+         "unit": "億円",
+         "label": "総額の前月末からの増減"
+        },
+        {
+         "value": -42023,
+         "unit": "億円",
+         "label": "総額の前年度末からの増減"
+        }
+       ],
+       "source_ref": "SRC-0010",
+       "excerpt": "計 1,192,529 100.00 △8,860 △42,023",
+       "attribution": "出典：財務省「財政融資資金現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/zaiyuu/zaiyuu0809.html）",
+       "processing_note": "財務省「財政融資資金現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/zaiyuu/zaiyuu0809.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-06",
+       "text": "特別会計は、国が特定の目的のために一般会計と分けて管理するお金の会計である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-21-006-1",
+       "text": "公債が減って預託金が増えたのは、財政融資資金が債券で集めるお金の一部を、特別会計から預かるお金で置き換えた動きである可能性がある。",
+       "falsifier": "10月末に公債が再び増え、預託金が減れば、一時的な動きにすぎない。",
+       "check_metric": "財務省 財政融資資金現在高（令和8年10月末）の公債と預託金",
+       "check_by": "2026-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-10-21T07:37:45.300743+09:00",
+  "first_run": {
+   "run_at": "2026-10-21T07:37:45.300743+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 8,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 37,
+  "passed": 30,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 7,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 2,
+  "recommendation_warnings": [
+   {
+    "line_id": "L-002-01",
+    "word": "株式(周辺15文字以内に買/売)"
+   },
+   {
+    "line_id": "L-003-01",
+    "word": "株式(周辺15文字以内に買/売)"
+   }
+  ],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 5,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E01723-000_2026-10-13_02_2026-10-20_ixbrl.htm",
+     "PublicDoc/0000000_header.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp170000-sbr-001_E02999-000_2026-10-20_01_2026-10-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp170000-sbr-001_E02999-000_2026-10-20_01_2026-10-20_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp170000-sbr-001_E25648-000_2026-10-20_01_2026-10-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp170000-sbr-001_E25648-000_2026-10-20_01_2026-10-20_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 5,
+  "attribution_overwritten": 38,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "morning",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 8,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 3,
+  "evidence_doc_type_overridden": 3,
+  "impact_kind_overridden": 2,
+  "impact_kind_source_counts": {
+   "edinet_doctype": 2,
+   "edinet_doctype_unmapped": 1
+  },
+  "impact_kind_undetermined_by_doc_type": {
+   "190": 1
+  },
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 3,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 3,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 95,
+   "numbers_declared": 61,
+   "gap": 34,
+   "by_mark": {
+    "explainer": {
+     "text_number_tokens": 0,
+     "numbers_declared": 0
+    },
+    "source_number_match": {
+     "text_number_tokens": 95,
+     "numbers_declared": 61
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 3,
+   "line_ids": [
+    "L-004-03",
+    "L-004-05",
+    "L-005-01"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 6,
+   "change": 14,
+   "ripple": 5,
+   "deep": 5
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 5,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-008",
+    "SRC-009",
+    "SRC-0010"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 3,
+   "first_run_at": "2026-10-21T07:36:48.504419+09:00",
+   "last_run_at": "2026-10-21T07:37:45.121752+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [
+    "L-005-02"
+   ],
+   "added_line_ids": [
+    "L-002-09",
+    "L-003-07",
+    "L-004-05",
+    "L-006-07"
+   ],
+   "changed_marks": [],
+   "numbers_removed": [
+    {
+     "line_id": "L-001-02",
+     "values": [
+      -29003
+     ]
+    },
+    {
+     "line_id": "L-002-08",
+     "values": [
+      2172
+     ]
+    }
+   ],
+   "last_counts": {
+    "ok": 30,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [
+   {
+    "hypothesis_id": "2026-10-21-morning-1",
+    "company_name": "株式会社神戸物産",
+    "submitted_at": "2026-10-20T15:56:00+09:00",
+    "baseline_point": "2026-10-21T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-21-morning-2",
+    "company_name": "ウェルネオシュガー株式会社",
+    "submitted_at": "2026-10-20T16:59:00+09:00",
+    "baseline_point": "2026-10-21T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-21-morning-3",
+    "company_name": "株式会社竹内製作所",
+    "submitted_at": "2026-10-20T14:57:00+09:00",
+    "baseline_point": "2026-10-21T09:00:00+09:00",
+    "trading_minutes": 33,
+    "reason": null
+   }
+  ],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 10,
+   "total_unregistered": 11,
+   "excluded_date_time_tokens": 35,
+   "lines": [
+    {
+     "line_id": "L-001-02",
+     "values": [
+      "20460"
+     ]
+    },
+    {
+     "line_id": "L-001-03",
+     "values": [
+      "29003"
+     ]
+    },
+    {
+     "line_id": "L-001-04",
+     "values": [
+      "18630"
+     ]
+    },
+    {
+     "line_id": "L-001-05",
+     "values": [
+      "859"
+     ]
+    },
+    {
+     "line_id": "L-001-06",
+     "values": [
+      "788"
+     ]
+    },
+    {
+     "line_id": "L-003-03",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-004-02",
+     "values": [
+      "464"
+     ]
+    },
+    {
+     "line_id": "L-006-02",
+     "values": [
+      "31443"
+     ]
+    },
+    {
+     "line_id": "L-006-07",
+     "values": [
+      "570"
+     ]
+    },
+    {
+     "line_id": "L-006-05",
+     "values": [
+      "8860",
+      "42023"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 5,
+   "zero_letter_count": 0,
+   "lines": [
+    {
+     "line_id": "L-001-02",
+     "letters": 3
+    },
+    {
+     "line_id": "L-001-03",
+     "letters": 3
+    },
+    {
+     "line_id": "L-006-02",
+     "letters": 2
+    },
+    {
+     "line_id": "L-006-03",
+     "letters": 3
+    },
+    {
+     "line_id": "L-006-05",
+     "letters": 1
+    }
+   ]
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "ok",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 3,
+    "source_ids": [
+     "SRC-008",
+     "SRC-009",
+     "SRC-0010"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 6
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "industry_picks_total": 2,
+  "industry_examples_total": 2,
+  "industry_example_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "ai_written_examples_discarded": 0,
+  "slot_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "short_name_match_count": {
+   "count": 0,
+   "names": []
+  },
+  "allowed_industries_count": 30,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
