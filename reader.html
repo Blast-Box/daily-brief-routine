@@ -714,36 +714,16 @@
     padding:6px 8px;
     margin:0 0 10px;
   }
-  .industry-group{ margin:0 0 16px; }
+  .industry-group{ margin:0 0 8px; }
   .industry-group:last-child{ margin-bottom:0; }
   .industry-name{
     font-family:'Noto Sans JP', sans-serif;
     font-weight:700;
     font-size:13px;
     color:var(--fg2);
-    margin:0 0 10px;
+    margin:0;
     padding-left:10px;
     border-left:2px solid var(--border);
-  }
-  .industry-no-company{
-    font-size:12px;
-    line-height:1.7;
-    color:var(--muted);
-    margin:0 0 14px;
-    padding-left:10px;
-    border-left:2px solid var(--border);
-  }
-  .industry-company{
-    padding-left:10px;
-    border-left:2px solid var(--border);
-    margin:0 0 14px;
-  }
-  .industry-company:last-child{ margin-bottom:0; }
-  .industry-company-head{
-    display:flex;
-    align-items:center;
-    gap:8px;
-    margin:0 0 6px;
   }
   .company-card{
     border:1px solid var(--border);
@@ -2233,9 +2213,9 @@
   }
 
   // 改修31第4回: 仮説ファイルに industries_shown(照合を通った業種の一覧。[{article_id, industry}])が
-  // 配列としてある号だけ、記事ごとの下段の業種を、その一覧の順にする。会社の枠が尽きて会社が出なかった業種も、
-  // 業種名だけは出す(その業種の会社は空の配列になる)。キーが無い号は何もしない(今までと同じ画面)。
-  // industry_examples にあって industries_shown に無い業種(本来は起きない)は、会社を隠さず最後に残す。
+  // 配列としてある号だけ、記事ごとの下段の業種を、その一覧の順にする。キーが無い号は何もしない
+  // (業種は industry_examples に出てきた順・重複なしのまま)。
+  // industry_examples にあって industries_shown に無い業種(本来は起きない)は、最後に残す。
   function applyIndustriesShown(idx, hy, articleIds){
     if(!hy || !Array.isArray(hy.industries_shown)) return;
     var shownByArticle = {};
@@ -2255,14 +2235,14 @@
         if(!group.byIndustry[industry]) group.byIndustry[industry] = [];
       });
       group.order.forEach(function(industry){
-        if(newOrder.indexOf(industry) === -1){ newOrder.push(industry); extraExamples += group.byIndustry[industry].length; }
+        if(newOrder.indexOf(industry) === -1){ newOrder.push(industry); extraExamples++; }
       });
       group.order = newOrder;
       idx.bottom[articleId] = group;
     });
     // industries_shown に記事ごと1つも無いのに industry_examples だけがある記事は、そのまま(今までどおり)残る。
     if(extraExamples > 0){
-      console.warn("companies: industries_shown に無い業種の会社を " + extraExamples + " 社、最後に出しました");
+      console.warn("companies: industries_shown に無い業種を " + extraExamples + " 件、最後に出しました");
     }
   }
 
@@ -2354,90 +2334,19 @@
     return box;
   }
 
-  function tickerHistoryUrl(ticker){
-    return "https://finance.yahoo.co.jp/quote/" + ticker + ".T/history";
-  }
-
-  function renderIndustryCompany(ex, editionId){
-    var wrap = el("div", { class: "industry-company" });
-
-    var head = el("div", { class: "industry-company-head" });
-    head.appendChild(el("span", { class: "company-name", text: ex.company_name || "" }));
-    if(ex.ticker) head.appendChild(el("span", { class: "company-ticker" }, [buildNumSpans(ex.ticker)]));
-    wrap.appendChild(head);
-
-    var holding = renderHoldingNote(ex);
-    if(holding) wrap.appendChild(holding);
-
-    var tags = el("div", { class: "company-tags" });
-    tags.appendChild(el("span", { class: "tag-grade badge-1", text: gradeLabel("inferred") }));
-    wrap.appendChild(tags);
-
-    if(ex.relation_text) wrap.appendChild(el("p", { class: "company-relation", text: ex.relation_text }));
-
-    if(ex.ticker){
-      wrap.appendChild(el("p", { class: "company-link" }, [
-        el("a", { href: tickerHistoryUrl(ex.ticker), target: "_blank", rel: "noopener", text: "株価を見る（外部サイト）" })
-      ]));
-    }
-
-    wrap.appendChild(renderAnswerCheck("bottom", ex, editionId));
-
-    return wrap;
-  }
-
-  var NO_COMPANY_TEXT = "この号では会社の例の枠が足りず、この業種の会社は出していません。";
-
-  function renderBottomTier(group, editionId){
+  // 改修32-1: 下段は、会社を出さず業種の名前だけを出す(会社の選定は機械の規則で、読者に「その記事の
+  // 影響を受ける会社」「推論の具体例」と読まれたため)。過去の号も同じ。
+  function renderBottomTier(group){
     var box = el("div", { class: "companies-tier" });
-    // 改修31第4回: 記事に下段の会社が1社も無く、業種だけのとき(industries_shownがある号)は、見出しと注記を業種だけの文にする。
-    var hasCompany = group.order.some(function(industry){ return group.byIndustry[industry].length > 0; });
-    if(hasCompany){
-      box.appendChild(el("p", { class: "companies-heading", text: "この記事が関係しそうな業種の上場企業の例" }));
-      box.appendChild(el("p", { class: "companies-note", text:
-        "この業種に属する上場企業の例です。この記事とこの会社の関係を確認したものではありません。同じ業種でも反応は分かれます。"
-      }));
-    }else{
-      box.appendChild(el("p", { class: "companies-heading", text: "この記事が関係しそうな業種" }));
-      box.appendChild(el("p", { class: "companies-note", text:
-        "AIが記事の内容から選んだ業種です。この業種の会社に影響が出ることを確かめたものではありません。同じ業種でも反応は分かれます。"
-      }));
-    }
-
-    var attributions = [];
-    var seen = {};
-
+    box.appendChild(el("p", { class: "companies-heading", text: "この記事が関係しそうな業種" }));
+    box.appendChild(el("p", { class: "companies-note", text:
+      "AIが記事の内容から選んだ業種です。この業種の会社に影響が出ることを確かめたものではありません。同じ業種でも反応は分かれます。"
+    }));
     group.order.forEach(function(industry){
       var industryBox = el("div", { class: "industry-group" });
       industryBox.appendChild(el("h4", { class: "industry-name", text: industry }));
-      if(group.byIndustry[industry].length === 0){
-        industryBox.appendChild(el("p", { class: "industry-no-company", text: NO_COMPANY_TEXT }));
-      }
-      group.byIndustry[industry].forEach(function(ex){
-        industryBox.appendChild(renderIndustryCompany(ex, editionId));
-        var att = ex.attribution || "";
-        var note = ex.processing_note || "";
-        var key = att + "\u0001" + note;
-        if((att || note) && !seen[key]){
-          seen[key] = true;
-          attributions.push({ attribution: att, processing_note: note });
-        }
-      });
       box.appendChild(industryBox);
     });
-
-    if(attributions.length > 0){
-      var badge = el("details", { class: "source-badge" });
-      badge.appendChild(el("summary", {}, [svgDot(), document.createTextNode("出典")]));
-      var detail = el("div", { class: "source-detail" });
-      attributions.forEach(function(a){
-        if(a.attribution) detail.appendChild(el("p", { class: "attribution", text: a.attribution }));
-        if(a.processing_note) detail.appendChild(el("p", { text: a.processing_note }));
-      });
-      badge.appendChild(detail);
-      box.appendChild(badge);
-    }
-
     return box;
   }
 
@@ -2450,7 +2359,7 @@
 
     var wrap = el("div", { class: "article-companies" });
     if(top.length > 0) wrap.appendChild(renderTopTier(top, companyIndex.editionId));
-    if(hasBottom) wrap.appendChild(renderBottomTier(bottomGroup, companyIndex.editionId));
+    if(hasBottom) wrap.appendChild(renderBottomTier(bottomGroup));
     return wrap;
   }
 
