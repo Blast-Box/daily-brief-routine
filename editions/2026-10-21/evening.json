@@ -1,0 +1,1585 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-10-21-evening",
+ "date": "2026-10-21",
+ "slot": "evening",
+ "generated_at": "2026-10-21T17:15:59.185851+09:00",
+ "market_open": true,
+ "baseline": {
+  "date": "2026-10-22",
+  "price_type": "next_open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-21&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月21日）",
+   "published_at": "2026-10-21",
+   "fetched_at": "2026-10-21T17:09:22+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "878c096f544e67edf12d39117ab674480212eb99391efe4b12213a09e166b78f",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-20&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月20日）",
+   "published_at": "2026-10-20",
+   "fetched_at": "2026-10-21T17:09:28+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "b3b396ee446b1f9a25b99e0f5215f257aed767b65709b17e0e63f0ac57dbc194",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z998?type=1",
+   "publisher": "恵和株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（恵和株式会社）",
+   "published_at": "2026-10-21T15:30:00+09:00",
+   "fetched_at": "2026-10-21T17:09:45+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "fa7a9d3097e66cc3c94f96d8ab2ca5a2b46bfe612838c0b4beec9d835eb0b975",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z998）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z998）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z998"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z9A5?type=1",
+   "publisher": "東京センチュリー株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（東京センチュリー株式会社）",
+   "published_at": "2026-10-21T16:01:00+09:00",
+   "fetched_at": "2026-10-21T17:09:51+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "52f60974eef7869e3c175ec4c8ed7e6b5673b1680a50a9d7278fc75aecb05565",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9A5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9A5）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9A5"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z93U?type=1",
+   "publisher": "ビート・ホールディングス・リミテッド　（貝德控股有限公司、Ｂｅａｔ　Ｈｏｌｄｉｎｇｓ　Ｌｉｍｉｔｅｄ）",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（ビート・ホールディングス・リミテッド　（貝德控股有限公司、Ｂｅａｔ　Ｈｏｌｄｉｎｇｓ　Ｌｉｍｉｔｅｄ））",
+   "published_at": "2026-10-21T14:00:00+09:00",
+   "fetched_at": "2026-10-21T17:09:57+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "12fedbc0091256cbcf97d4bb78d945030f108b4e8589a5509e9868a2cb01dfcf",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z93U）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z93U）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z93U"
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z9B2?type=1",
+   "publisher": "データセクション株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（データセクション株式会社）",
+   "published_at": "2026-10-21T13:33:00+09:00",
+   "fetched_at": "2026-10-21T17:10:02+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "940cd6432107de90069a547ce788ae37417073efbb189924f33a3088c35bf6e5",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9B2）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9B2）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9B2"
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://www.mof.go.jp/policy/filp/reference/flf_balance/santou/santou0809.html",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "産業投資現在高（令和8年9月末）",
+   "published_at": "2026-10-20",
+   "fetched_at": "2026-10-21T17:10:44+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "e96205f5a39a469fb51a0e7b0ae614f7a4e7dc82cd386e969ceefb524edc8d99",
+   "usage": "quotable",
+   "attribution": "出典：財務省「産業投資現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/santou/santou0809.html）",
+   "processing_note": "財務省「産業投資現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/santou/santou0809.html）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://www.mof.go.jp/public_relations/conference/my20261020.html",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月20日(火曜日))",
+   "published_at": "2026-10-20",
+   "fetched_at": "2026-10-21T17:10:44+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "4091b03916027fd52a8a31c6f19405256797122ce291c3e2bdc4c6a7adab975e",
+   "usage": "quotable",
+   "attribution": "出典：財務省「片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月20日(火曜日))」（https://www.mof.go.jp/public_relations/conference/my20261020.html）",
+   "processing_note": "財務省「片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月20日(火曜日))」（https://www.mof.go.jp/public_relations/conference/my20261020.html）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-009",
+   "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261020a.htm",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "20年利付国債（第198回）の第II非価格競争入札結果（令和8年10月20日入札）",
+   "published_at": "2026-10-20",
+   "fetched_at": "2026-10-21T17:10:46+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "45933b9f2473e1a3f57c4aaac387e93eb05fcb3f57cf5a42605e290c98a3d7e1",
+   "usage": "quotable",
+   "attribution": "出典：財務省「20年利付国債（第198回）の第II非価格競争入札結果（令和8年10月20日入札）」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261020a.htm）",
+   "processing_note": "財務省「20年利付国債（第198回）の第II非価格競争入札結果（令和8年10月20日入札）」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261020a.htm）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-21-001",
+     "event_id": "EVT-2026-10-21-001",
+     "headline": "金融機関の委託先への不正アクセスで個人情報が漏れる：金融庁は10月9日に本人確認の強化などを注意喚起（財務大臣の会見から）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "金融担当の大臣を兼ねる財務大臣は10月20日の閣議後記者会見で、金融機関の委託先への不正アクセスにより、金融機関が持つ個人情報が漏れる事案が、証券会社・損害保険会社・生命保険の3社であったと説明した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3,
+         "unit": "社",
+         "label": "件数（委託先から個人情報が漏れた金融機関）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "個人情報が漏洩する事案は証券会社、損保会社、生命、３社ですね",
+       "attribution": "出典：財務省「片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月20日(火曜日))」（https://www.mof.go.jp/public_relations/conference/my20261020.html）",
+       "processing_note": "財務省「片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月20日(火曜日))」（https://www.mof.go.jp/public_relations/conference/my20261020.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "大臣によると、金融庁は10月9日に金融機関へ注意喚起を出し、取引の際の本人確認を、ICチップの情報の読み取りで行うことなどを求めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9,
+         "unit": "日",
+         "label": "日付（金融庁の注意喚起）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "10月９日に金融機関に対しまして注意喚起を出しました。これは取引における本人確認を例えば不正対策として極めて効果が高いとされるＩＣチップ情報の読み取りにより行うということなどを求め",
+       "attribution": "出典：財務省「片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月20日(火曜日))」（https://www.mof.go.jp/public_relations/conference/my20261020.html）",
+       "processing_note": "財務省「片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月20日(火曜日))」（https://www.mof.go.jp/public_relations/conference/my20261020.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "大臣は、10月15日にバンコクで開かれたG7の財務大臣・中央銀行総裁会議で、最先端のAI（フロンティアAI）が原因で国境を越えたサイバー事故が起きる場合の話が出たと述べた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 15,
+         "unit": "日",
+         "label": "日付（G7の会議）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "10月15日にバンコクでＧ７の蔵相・中銀総裁会議もやったんですが、そこでフロンティアＡＩの話はいろいろ出まして",
+       "attribution": "出典：財務省「片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月20日(火曜日))」（https://www.mof.go.jp/public_relations/conference/my20261020.html）",
+       "processing_note": "財務省「片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月20日(火曜日))」（https://www.mof.go.jp/public_relations/conference/my20261020.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "G7は、そうした事故に各国が連携して対応できるよう、2027年に机上演習（起きたと想定した事故への対応を試す訓練）を行うことで合意したという。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2027,
+         "unit": "年",
+         "label": "日付（机上演習を行う年）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "Ｇ７間で適切に連携して対応していけるように2027年、来年机上演習を行うということを合意",
+       "attribution": "出典：財務省「片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月20日(火曜日))」（https://www.mof.go.jp/public_relations/conference/my20261020.html）",
+       "processing_note": "財務省「片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月20日(火曜日))」（https://www.mof.go.jp/public_relations/conference/my20261020.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "本人確認は、口座を開くときやお金を借りるときに、申し込んだ人が本人かどうかを確かめる手続きである。他人の情報を使ったなりすましを防ぐために行う。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-21-001-1",
+       "text": "本人確認の方法を厳しくする動きが続けば、ICチップの読み取りに使う機器や仕組みを金融機関に提供する情報・通信業の仕事が増える可能性がある。",
+       "falsifier": "金融機関が本人確認の方法を変えないまま対応を終えれば、この見方は成り立たない。",
+       "check_metric": "金融庁が金融機関に求める本人確認の方法についての公表資料",
+       "check_by": "2027-03-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-21-002",
+     "event_id": "EVT-2026-10-21-002",
+     "headline": "株価指数TOPIXの構成銘柄の見直し：財務大臣は、2022年の市場区分の再編がきっかけと説明（会見から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "財務大臣は10月20日の会見で、東証株価指数（TOPIX）の見直しに向けて、日本取引所グループ（JPX）が7日に新しい構成銘柄を公表したと述べた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 7,
+         "unit": "日",
+         "label": "日付（構成銘柄の公表）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "ＴＯＰＩＸの見直しに向けて７日にＪＰＸが新しい東証株価指数の構成銘柄を公表した",
+       "attribution": "出典：財務省「片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月20日(火曜日))」（https://www.mof.go.jp/public_relations/conference/my20261020.html）",
+       "processing_note": "財務省「片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月20日(火曜日))」（https://www.mof.go.jp/public_relations/conference/my20261020.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "大臣は、この見直しは2022年に行われた市場区分の再編がきっかけで、時間はかかっていると述べた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2022,
+         "unit": "年",
+         "label": "日付（市場区分の再編の年）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "確かに2022年に行われた市場区分の再編が契機ですから時間はかかっておりますが",
+       "attribution": "出典：財務省「片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月20日(火曜日))」（https://www.mof.go.jp/public_relations/conference/my20261020.html）",
+       "processing_note": "財務省「片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月20日(火曜日))」（https://www.mof.go.jp/public_relations/conference/my20261020.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "東証株価指数（TOPIX）は、東京証券取引所に上場する多くの会社の株価をまとめて、市場全体の値動きを表す数である。どの会社を計算に入れるかを「構成銘柄」という。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-21-003",
+     "event_id": "EVT-2026-10-21-003",
+     "headline": "消費税と支援金の法案、国会で審議入り：記者は年間5兆円程度の財源などが明らかでないと質問（財務大臣の会見から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "10月20日の会見で記者は、消費税と支援金の法案が同日から国会で審議入りすると述べたうえで、消費税の減税などに必要な年間5兆円程度の財源や、支援金の対象者など、明らかになっていない部分が多いと質問した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5,
+         "unit": "兆円",
+         "label": "消費税の減税などに必要な財源（記者の質問の中の額）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "消費税の減税などに必要な年間５兆円程度の財源であったりとか、あと支援金の対象者など明らかになっていない部分も多くあります",
+       "attribution": "出典：財務省「片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月20日(火曜日))」（https://www.mof.go.jp/public_relations/conference/my20261020.html）",
+       "processing_note": "財務省「片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年10月20日(火曜日))」（https://www.mof.go.jp/public_relations/conference/my20261020.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-21-004",
+     "event_id": "EVT-2026-10-21-004",
+     "headline": "続報：データセクションで、アースエレメンツ・キャピタルが主要株主でなくなる：議決権の割合は12.80%から9.51%に（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "データセクション株式会社が10月21日に出した臨時報告書によると、アースエレメンツ・キャピタル株式会社の議決権は異動後に39,063個、全体に対する割合は9.51%になり、主要株主でなくなる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 39063,
+         "unit": "個",
+         "label": "異動後の議決権の数"
+        },
+        {
+         "value": 9.51,
+         "unit": "%",
+         "label": "異動後の議決権の割合"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "異動後  39,063個  9.51％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9B2）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9B2）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "異動前の議決権は52,563個で、割合は12.80%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 52563,
+         "unit": "個",
+         "label": "異動前の議決権の数"
+        },
+        {
+         "value": 12.8,
+         "unit": "%",
+         "label": "異動前の議決権の割合"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "異動前  52,563個  12.80％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9B2）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9B2）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "割合の計算に使った分母は、議決権の総数410,657個である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 410657,
+         "unit": "個",
+         "label": "議決権の総数（割合の分母）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "議決権の数410,657個を分母として算出",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9B2）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9B2）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "報告書を出した日の発行済株式総数は、普通株式45,201,251株である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 45201251,
+         "unit": "株",
+         "label": "発行済株式総数"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "発行済株式総数　普通株式　45,201,251株",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9B2）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9B2）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "主要株主は、会社の議決権のうち法律で決まった割合以上を持つ大株主のことである。主要株主が入れ替わると、会社は臨時報告書を出す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-21-005",
+     "event_id": "EVT-2026-10-21-005",
+     "headline": "ビート・ホールディングスで、Atari Capitalが主要株主でなくなる：議決権の割合は10.35%から8.72%に（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "ビート・ホールディングス・リミテッドは10月21日に臨時報告書を出し、Atari Capital Limitedの議決権が、2026年10月7日の異動の後に15,981,144個、割合8.72%になり、主要株主でなくなったと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 15981144,
+         "unit": "個",
+         "label": "異動後の議決権の数"
+        },
+        {
+         "value": 8.72,
+         "unit": "%",
+         "label": "異動後の議決権の割合"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "異動後  (2026年10月7日)  15,981,144個  （15,981,144株）  8.72％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z93U）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z93U）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "異動前の議決権は18,981,144個で、割合は10.35%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 18981144,
+         "unit": "個",
+         "label": "異動前の議決権の数"
+        },
+        {
+         "value": 10.35,
+         "unit": "%",
+         "label": "異動前の議決権の割合"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "異動前  (2026年10月6日)  18,981,144個  （18,981,144株）  10.35％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z93U）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z93U）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "同社は、この異動を、Atari Capitalが2026年10月16日付でEDINETに出した変更報告書で確かめたとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 16,
+         "unit": "日",
+         "label": "日付（変更報告書の提出日）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "Atari Capitalが、2026年10月16日付でEDINETに提出した変更報告書より確認しております",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z93U）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z93U）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-04",
+       "text": "報告書を出した日の同社の資本金は、2,350千米ドル（370百万円）である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2350,
+         "unit": "千米ドル",
+         "label": "資本金"
+        },
+        {
+         "value": 370,
+         "unit": "百万円",
+         "label": "資本金（円換算）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "資本金の額　　　　2,350千米ドル（370百万円）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z93U）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z93U）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-21-006",
+     "event_id": "EVT-2026-10-21-006",
+     "headline": "続報：20年国債の第Ⅱ非価格競争入札、募入決定額は546億円（財務省）",
+     "lines": [
+      {
+       "line_id": "L-006-01",
+       "text": "財務省は10月20日、20年利付国債（第198回）の第Ⅱ非価格競争入札で、546億円の募入（買い手への割り当て）を決めたと公表した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 546,
+         "unit": "億円",
+         "label": "募入決定額"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "募入決定額  546億円",
+       "attribution": "出典：財務省「20年利付国債（第198回）の第II非価格競争入札結果（令和8年10月20日入札）」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261020a.htm）",
+       "processing_note": "財務省「20年利付国債（第198回）の第II非価格競争入札結果（令和8年10月20日入札）」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261020a.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-02",
+       "text": "この国債の表面利率は年3.8%である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.8,
+         "unit": "%",
+         "label": "表面利率"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "表面利率  年3.8パーセント",
+       "attribution": "出典：財務省「20年利付国債（第198回）の第II非価格競争入札結果（令和8年10月20日入札）」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261020a.htm）",
+       "processing_note": "財務省「20年利付国債（第198回）の第II非価格競争入札結果（令和8年10月20日入札）」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261020a.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-03",
+       "text": "発行日は令和8年（2026年）10月21日である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 21,
+         "unit": "日",
+         "label": "日付（発行日）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "発行日  令和8年10月21日",
+       "attribution": "出典：財務省「20年利付国債（第198回）の第II非価格競争入札結果（令和8年10月20日入札）」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261020a.htm）",
+       "processing_note": "財務省「20年利付国債（第198回）の第II非価格競争入札結果（令和8年10月20日入札）」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261020a.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-04",
+       "text": "発行価格は100円87銭で、同じ日に行われた通常の入札（価格競争入札）の平均の値段である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 100,
+         "unit": "円",
+         "label": "発行価格（円の部分）"
+        },
+        {
+         "value": 87,
+         "unit": "銭",
+         "label": "発行価格（銭の部分）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "発行価格（注）  100円87銭",
+       "attribution": "出典：財務省「20年利付国債（第198回）の第II非価格競争入札結果（令和8年10月20日入札）」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261020a.htm）",
+       "processing_note": "財務省「20年利付国債（第198回）の第II非価格競争入札結果（令和8年10月20日入札）」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261020a.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-05",
+       "text": "第Ⅱ非価格競争入札は、通常の入札のあとに、決められた参加者が、その入札の平均の値段で追加して国債を買う仕組みである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-21-007",
+     "event_id": "EVT-2026-10-21-007",
+     "headline": "東京センチュリー、米国の連結子会社から333百万米ドルの配当を受け取る：円に換算して52,128百万円（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-007-01",
+       "text": "東京センチュリー株式会社は10月21日に臨時報告書を出し、米国の連結子会社TC Skyward Aviation U.S., Inc.から、剰余金の配当333百万米ドルを受け取ると届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 333,
+         "unit": "百万米ドル",
+         "label": "子会社から受け取る配当"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "当社の連結子会社であるTC Skyward Aviation U.S., Inc.より、剰余金の配当333百万米ドルを受領することとなりました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9A5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9A5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-02",
+       "text": "子会社の取締役会がこの配当を決めたのは、米国時間の2026年10月19日である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 19,
+         "unit": "日",
+         "label": "日付（子会社の取締役会の決議日）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "2026年10月19日（米国時間、連結子会社　取締役会決議日）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9A5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9A5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-03",
+       "text": "同社は、2027年3月期の個別決算（会社単体の決算）で、受取配当金52,128百万円を営業外収益に計上する見込みとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 52128,
+         "unit": "百万円",
+         "label": "受取配当金（円換算）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "2027年３月期の個別決算において、受取配当金52,128百万円（※）を営業外収益として計上する見込み",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9A5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9A5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-04",
+       "text": "円への換算は1米ドル＝156.42円で、2026年9月の平均レートを使った概算であり、実際に受け取る金額とは異なるとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 156.42,
+         "unit": "円",
+         "label": "換算に使った1米ドルあたりの円"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "１米ドル＝156.42円で換算しております。上記の配当金額は、2026年９月平均レートで円換算した概算金額であり、実際の受領金額と異なります",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9A5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9A5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-05",
+       "text": "同社は、連結子会社からの配当なので、2027年3月期の連結業績への影響は軽微だとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2027,
+         "unit": "年",
+         "label": "日付（決算期の年）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "連結子会社からの配当であるため、2027年３月期の連結業績に与える影響は軽微であります",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9A5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9A5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-06",
+       "text": "連結業績は、親会社と子会社をひとまとめにした成績である。子会社から親会社への配当は、グループの中でお金が移るだけなので、まとめた成績はほとんど変わらない。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-21-007-1",
+       "text": "円安の水準が続けば、海外に子会社を持つ会社が、子会社から受け取る配当を円に換算した額は大きくなりやすい可能性がある。",
+       "falsifier": "円高が進み、外国の通貨と交換するときの円の額が下がれば、円に換算した配当の額は小さくなり、この見方は成り立たない。",
+       "check_metric": "日本銀行 基準外国為替相場及び裁定外国為替相場（毎月公表）",
+       "check_by": "2026-11-20"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-21-008",
+     "event_id": "EVT-2026-10-21-008",
+     "headline": "恵和、中国・南京の連結子会社から54百万人民元の配当を受け取る：約1,274百万円（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-008-01",
+       "text": "恵和株式会社は10月21日に臨時報告書を出し、連結子会社の惠和光電材料（南京）有限公司から、剰余金の配当54百万人民元（約1,274百万円）を受け取ると届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 54,
+         "unit": "百万人民元",
+         "label": "子会社から受け取る配当"
+        },
+        {
+         "value": 1274,
+         "unit": "百万円",
+         "label": "子会社から受け取る配当（円換算）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "連結子会社である惠和光電材料（南京）有限公司から剰余金の配当54百万人民元（約1,274百万円）を受領することとなりました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z998）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z998）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-02",
+       "text": "配当を決議した日は2026年10月21日である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 21,
+         "unit": "日",
+         "label": "日付（配当の決議日）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "2026年10月21日（配当決議日）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z998）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z998）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-03",
+       "text": "同社は、2026年12月期の個別決算で、この受取配当金を営業外収益に計上する見込みとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2026,
+         "unit": "年",
+         "label": "日付（決算期の年）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "2026年12月期の個別決算において、上記受取配当金を営業外収益に計上する見込み",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z998）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z998）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-04",
+       "text": "連結子会社からの配当なので、2026年12月期の連結業績への影響はないとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2026,
+         "unit": "年",
+         "label": "日付（決算期の年）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "連結子会社からの配当であるため、2026年12月期の連結業績に与える影響はありません",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z998）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z998）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-21-009",
+     "event_id": "EVT-2026-10-21-009",
+     "headline": "深掘り：国が出資などに使うお金「産業投資」、9月末の現在高は77,154億円（財務省）",
+     "lines": [
+      {
+       "line_id": "L-009-01",
+       "text": "財務省が10月20日に公表した資料によると、産業投資の9月末の現在高は77,154億円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 77154,
+         "unit": "億円",
+         "label": "産業投資の現在高（計）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "計  77,154  100.00  549  △    920",
+       "attribution": "出典：財務省「産業投資現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/santou/santou0809.html）",
+       "processing_note": "財務省「産業投資現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/santou/santou0809.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-02",
+       "text": "前の月の末より549億円増え、前の年度の末と比べると920億円少ない。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 549,
+         "unit": "億円",
+         "label": "前月末からの増減"
+        },
+        {
+         "value": -920,
+         "unit": "億円",
+         "label": "前年度末からの増減"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "計  77,154  100.00  549  △    920",
+       "attribution": "出典：財務省「産業投資現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/santou/santou0809.html）",
+       "processing_note": "財務省「産業投資現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/santou/santou0809.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-03",
+       "text": "このうち出資金は77,143億円で、全体の99.99%を占める。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 77143,
+         "unit": "億円",
+         "label": "出資金"
+        },
+        {
+         "value": 99.99,
+         "unit": "%",
+         "label": "出資金の割合"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "出資金  77,143  99.99  549  △    920",
+       "attribution": "出典：財務省「産業投資現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/santou/santou0809.html）",
+       "processing_note": "財務省「産業投資現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/santou/santou0809.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-04",
+       "text": "出資金のうち、政府関係機関への出資金は33,018億円で、全体の42.79%である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 33018,
+         "unit": "億円",
+         "label": "政府関係機関出資金"
+        },
+        {
+         "value": 42.79,
+         "unit": "%",
+         "label": "政府関係機関出資金の割合"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "政府関係機関出資金  33,018  42.79",
+       "attribution": "出典：財務省「産業投資現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/santou/santou0809.html）",
+       "processing_note": "財務省「産業投資現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/santou/santou0809.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-05",
+       "text": "特別法人への出資金は44,125億円（全体の57.19%）で、前の月の末からの増加の549億円は、この区分で生じた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 44125,
+         "unit": "億円",
+         "label": "特別法人出資金"
+        },
+        {
+         "value": 57.19,
+         "unit": "%",
+         "label": "特別法人出資金の割合"
+        },
+        {
+         "value": 549,
+         "unit": "億円",
+         "label": "特別法人出資金の前月末からの増減"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "特別法人出資金  44,125  57.19  549",
+       "attribution": "出典：財務省「産業投資現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/santou/santou0809.html）",
+       "processing_note": "財務省「産業投資現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/santou/santou0809.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-06",
+       "text": "貸付金は11億円で、割合は0.01%にとどまる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 11,
+         "unit": "億円",
+         "label": "貸付金"
+        },
+        {
+         "value": 0.01,
+         "unit": "%",
+         "label": "貸付金の割合"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "貸付金  11  0.01",
+       "attribution": "出典：財務省「産業投資現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/santou/santou0809.html）",
+       "processing_note": "財務省「産業投資現在高（令和8年9月末）」（https://www.mof.go.jp/policy/filp/reference/flf_balance/santou/santou0809.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-07",
+       "text": "産業投資は、国の財政投融資という仕組みの一部で、民間だけではお金が集まりにくい事業に、国が出資などの形でお金を出すものである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-08",
+       "text": "出資は、お金を貸すのとは違い、返済の期限がない代わりに、事業がうまくいけば配当などの形で国に戻ってくるお金である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-21-009-1",
+       "text": "特別法人への出資金の増加が続けば、国が支援する分野で、民間企業による設備投資の資金も集まりやすくなる可能性がある。",
+       "falsifier": "10月末以降の産業投資の現在高で、特別法人出資金が増えなければ、この見方の前提が崩れる。",
+       "check_metric": "財務省 産業投資現在高（毎月公表）の特別法人出資金",
+       "check_by": "2026-12-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-10-21T17:15:59.185851+09:00",
+  "first_run": {
+   "run_at": "2026-10-21T17:15:59.185851+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 9,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 41,
+  "passed": 34,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 7,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 1,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 6,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-001": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E35220-000_2026-10-21_01_2026-10-21_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E35220-000_2026-10-21_01_2026-10-21_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E05346-000_2026-10-21_01_2026-10-21_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E05346-000_2026-10-21_01_2026-10-21_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-003": {
+    "files": [
+     "PublicDoc/0101010_9545316122610.htm"
+    ],
+    "fallback": true
+   },
+   "SRC-004": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E31131-000_2026-10-21_01_2026-10-21_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E31131-000_2026-10-21_01_2026-10-21_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 6,
+  "attribution_overwritten": 43,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "evening",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 9,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 3,
+  "evidence_doc_type_overridden": 3,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {
+   "edinet_doctype_unmapped": 3
+  },
+  "impact_kind_undetermined_by_doc_type": {
+   "180": 3
+  },
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 3,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [
+   {
+    "hypothesis_id": "2026-10-21-evening-4",
+    "company_name": "ビート・ホールディングス・リミテッド　（貝德控股有限公司、Ｂｅａｔ　Ｈｏｌｄｉｎｇｓ　Ｌｉｍｉｔｅｄ）",
+    "reason": "evidence_company_name_not_found"
+   }
+  ],
+  "name_match_stage": {
+   "raw": 3,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 4,
+  "published_at_unverified_sources": [
+   "SRC-003"
+  ],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 92,
+   "numbers_declared": 47,
+   "gap": 45,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 92,
+     "numbers_declared": 47
+    },
+    "explainer": {
+     "text_number_tokens": 0,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 13,
+   "line_ids": [
+    "L-001-01",
+    "L-001-02",
+    "L-001-03",
+    "L-001-04",
+    "L-002-01",
+    "L-002-02",
+    "L-005-03",
+    "L-006-03",
+    "L-007-02",
+    "L-007-05",
+    "L-008-02",
+    "L-008-03",
+    "L-008-04"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [
+   {
+    "word": "主要",
+    "location": "headline",
+    "id": "ART-2026-10-21-004"
+   },
+   {
+    "word": "主要",
+    "location": "line_text",
+    "id": "L-004-01"
+   },
+   {
+    "word": "主要",
+    "location": "line_text",
+    "id": "L-004-05"
+   },
+   {
+    "word": "主要",
+    "location": "headline",
+    "id": "ART-2026-10-21-005"
+   },
+   {
+    "word": "主要",
+    "location": "line_text",
+    "id": "L-005-01"
+   },
+   {
+    "word": "主要",
+    "location": "hypothesis_relation_text",
+    "id": "2026-10-21-evening-3"
+   },
+   {
+    "word": "主要",
+    "location": "hypothesis_impact_reason",
+    "id": "2026-10-21-evening-3"
+   },
+   {
+    "word": "主要",
+    "location": "hypothesis_relation_text",
+    "id": "2026-10-21-evening-4"
+   },
+   {
+    "word": "主要",
+    "location": "hypothesis_impact_reason",
+    "id": "2026-10-21-evening-4"
+   }
+  ],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 7,
+   "change": 12,
+   "ripple": 9,
+   "deep": 6
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 5,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-007",
+    "SRC-008",
+    "SRC-009"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 1,
+   "first_run_at": "2026-10-21T17:15:53.446730+09:00",
+   "last_run_at": "2026-10-21T17:15:53.446730+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 34,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [
+   {
+    "hypothesis_id": "2026-10-21-evening-1",
+    "company_name": "東京センチュリー株式会社",
+    "submitted_at": "2026-10-21T16:01:00+09:00",
+    "baseline_point": "2026-10-22T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-21-evening-2",
+    "company_name": "恵和株式会社",
+    "submitted_at": "2026-10-21T15:30:00+09:00",
+    "baseline_point": "2026-10-22T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-21-evening-3",
+    "company_name": "データセクション株式会社",
+    "submitted_at": "2026-10-21T13:33:00+09:00",
+    "baseline_point": "2026-10-22T09:00:00+09:00",
+    "trading_minutes": 117,
+    "reason": null
+   }
+  ],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 5,
+   "total_unregistered": 5,
+   "excluded_date_time_tokens": 53,
+   "lines": [
+    {
+     "line_id": "L-001-03",
+     "values": [
+      "7"
+     ]
+    },
+    {
+     "line_id": "L-001-04",
+     "values": [
+      "7"
+     ]
+    },
+    {
+     "line_id": "L-006-01",
+     "values": [
+      "198"
+     ]
+    },
+    {
+     "line_id": "L-007-04",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-009-02",
+     "values": [
+      "920"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 4,
+   "zero_letter_count": 0,
+   "lines": [
+    {
+     "line_id": "L-009-01",
+     "letters": 1
+    },
+    {
+     "line_id": "L-009-02",
+     "letters": 1
+    },
+    {
+     "line_id": "L-009-03",
+     "letters": 3
+    },
+    {
+     "line_id": "L-009-06",
+     "letters": 3
+    }
+   ]
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "ok",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 3,
+    "source_ids": [
+     "SRC-007",
+     "SRC-008",
+     "SRC-009"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 9
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 2,
+   "articles": [
+    {
+     "article_id": "ART-2026-10-21-004",
+     "headline_has_word": true,
+     "is_followup": false
+    },
+    {
+     "article_id": "ART-2026-10-21-006",
+     "headline_has_word": true,
+     "is_followup": false
+    }
+   ]
+  },
+  "industry_picks_discarded": 0,
+  "industry_picks_total": 2,
+  "industry_examples_total": 2,
+  "industry_example_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "ai_written_examples_discarded": 0,
+  "slot_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "short_name_match_count": {
+   "count": 0,
+   "names": []
+  },
+  "allowed_industries_count": 30,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
