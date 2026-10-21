@@ -1,0 +1,1208 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-10-22-morning",
+ "date": "2026-10-22",
+ "slot": "morning",
+ "generated_at": "2026-10-22T07:38:53.314941+09:00",
+ "market_open": true,
+ "baseline": {
+  "date": "2026-10-22",
+  "price_type": "open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-22&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月22日）",
+   "published_at": "2026-10-22",
+   "fetched_at": "2026-10-22T07:31:51+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "b26f0f71e508c42616fb1b9de3876c9b3ad4e333a0f6b90f8064eceb762bbf0c",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-21&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月21日）",
+   "published_at": "2026-10-21",
+   "fetched_at": "2026-10-22T07:31:57+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "8c6e86ad4083e7a351352a2c412a85b8ab682df38cf82246b8ff6649fb716dc1",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z9C8?type=1",
+   "publisher": "インフロニア・ホールディングス株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "訂正臨時報告書（インフロニア・ホールディングス株式会社）",
+   "published_at": "2026-10-21T16:48:00+09:00",
+   "fetched_at": "2026-10-22T07:32:18+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "d6f3c8bb7d3fcc270d7b13174380aecd2549b98776da733dca94baa1a9ee9b09",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z9C9?type=1",
+   "publisher": "インフロニア・ホールディングス株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "訂正有価証券届出書（参照方式）（インフロニア・ホールディングス株式会社）",
+   "published_at": "2026-10-21T16:50:00+09:00",
+   "fetched_at": "2026-10-22T07:32:38+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "22191d056459853cb02b78895ab5af396844307afe685cf4f8e4384500800897",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C9）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C9"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://www.boj.or.jp/about/calendar/index.htm",
+   "publisher": "日本銀行",
+   "publisher_type": "central_bank",
+   "title": "公表予定",
+   "published_at": null,
+   "fetched_at": "2026-10-22T07:33:43+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "260aa5ea43112d6a2f3e1369046135664840e464e57e31f4ac5be7042187d15f",
+   "usage": "quotable",
+   "attribution": "出典：日本銀行「公表予定」（https://www.boj.or.jp/about/calendar/index.htm）",
+   "processing_note": "日本銀行「公表予定」（https://www.boj.or.jp/about/calendar/index.htm）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://www.federalreserve.gov/releases/h15/",
+   "publisher": "Board of Governors of the Federal Reserve System",
+   "publisher_type": "central_bank",
+   "title": "H.15 Selected Interest Rates (Daily) - October 21, 2026",
+   "published_at": "2026-10-21",
+   "fetched_at": "2026-10-22T07:33:44+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "f1f32d47957929e58bccc0b19cfa793d4b585ee05d09aa0b2d99e834fbae9568",
+   "usage": "quotable",
+   "attribution": "出典：Board of Governors of the Federal Reserve System「H.15 Selected Interest Rates (Daily) - October 21, 2026」（https://www.federalreserve.gov/releases/h15/）",
+   "processing_note": "Board of Governors of the Federal Reserve System「H.15 Selected Interest Rates (Daily) - October 21, 2026」（https://www.federalreserve.gov/releases/h15/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-22-003",
+     "event_id": "EVT-2026-10-22-002",
+     "headline": "米国の金利：10年物の国債の利回りは10月20日に5.12%、政策の金利の実効値は3.88%で横ばい（FRB理事会の統計から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "FRB理事会が10月21日に公表した金利の統計（H.15）によると、米国の銀行どうしが短い期間にお金を貸し借りする金利（フェデラル・ファンド金利の実効値）は、10月14日から20日まで3.88%で変わらなかった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.88,
+         "unit": "%",
+         "label": "フェデラル・ファンド金利（実効）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "Federal funds (effective) 1 2 3   3.88   3.88   3.88   3.88   3.88",
+       "attribution": "出典：Board of Governors of the Federal Reserve System「H.15 Selected Interest Rates (Daily) - October 21, 2026」（https://www.federalreserve.gov/releases/h15/）",
+       "processing_note": "Board of Governors of the Federal Reserve System「H.15 Selected Interest Rates (Daily) - October 21, 2026」（https://www.federalreserve.gov/releases/h15/）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "同じ統計で、銀行が貸し出しの目安にする金利（プライムレート）は7.00%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 7.0,
+         "unit": "%",
+         "label": "プライムレート"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "Bank prime loan 2 3 7   7.00   7.00   7.00   7.00   7.00",
+       "attribution": "出典：Board of Governors of the Federal Reserve System「H.15 Selected Interest Rates (Daily) - October 21, 2026」（https://www.federalreserve.gov/releases/h15/）",
+       "processing_note": "Board of Governors of the Federal Reserve System「H.15 Selected Interest Rates (Daily) - October 21, 2026」（https://www.federalreserve.gov/releases/h15/）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "中央銀行が銀行に直接お金を貸す窓口の金利（プライマリー・クレジット）は4.00%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4.0,
+         "unit": "%",
+         "label": "プライマリー・クレジットの金利"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "Discount window primary credit 2 8   4.00   4.00   4.00   4.00   4.00",
+       "attribution": "出典：Board of Governors of the Federal Reserve System「H.15 Selected Interest Rates (Daily) - October 21, 2026」（https://www.federalreserve.gov/releases/h15/）",
+       "processing_note": "Board of Governors of the Federal Reserve System「H.15 Selected Interest Rates (Daily) - October 21, 2026」（https://www.federalreserve.gov/releases/h15/）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "米国債の10年物の利回り（満期をそろえた換算値）は、10月14日の5.19%から20日は5.12%になった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5.19,
+         "unit": "%",
+         "label": "10年物国債利回り（10月14日）"
+        },
+        {
+         "value": 5.12,
+         "unit": "%",
+         "label": "10年物国債利回り（10月20日）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "10-year  5.19   5.10   5.09   5.15   5.12",
+       "attribution": "出典：Board of Governors of the Federal Reserve System「H.15 Selected Interest Rates (Daily) - October 21, 2026」（https://www.federalreserve.gov/releases/h15/）",
+       "processing_note": "Board of Governors of the Federal Reserve System「H.15 Selected Interest Rates (Daily) - October 21, 2026」（https://www.federalreserve.gov/releases/h15/）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "2年物の利回りは、10月14日の4.82%から20日は4.79%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4.82,
+         "unit": "%",
+         "label": "2年物国債利回り（10月14日）"
+        },
+        {
+         "value": 4.79,
+         "unit": "%",
+         "label": "2年物国債利回り（10月20日）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "2-year  4.82   4.77   4.74   4.77   4.79",
+       "attribution": "出典：Board of Governors of the Federal Reserve System「H.15 Selected Interest Rates (Daily) - October 21, 2026」（https://www.federalreserve.gov/releases/h15/）",
+       "processing_note": "Board of Governors of the Federal Reserve System「H.15 Selected Interest Rates (Daily) - October 21, 2026」（https://www.federalreserve.gov/releases/h15/）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-06",
+       "text": "30年物の利回りは、10月14日の5.52%から20日は5.42%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5.52,
+         "unit": "%",
+         "label": "30年物国債利回り（10月14日）"
+        },
+        {
+         "value": 5.42,
+         "unit": "%",
+         "label": "30年物国債利回り（10月20日）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "30-year  5.52   5.43   5.43   5.48   5.42",
+       "attribution": "出典：Board of Governors of the Federal Reserve System「H.15 Selected Interest Rates (Daily) - October 21, 2026」（https://www.federalreserve.gov/releases/h15/）",
+       "processing_note": "Board of Governors of the Federal Reserve System「H.15 Selected Interest Rates (Daily) - October 21, 2026」（https://www.federalreserve.gov/releases/h15/）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-07",
+       "text": "期間の長い国債の利回りは、先の金利や物価についての見方を映して動く。期間の短い金利は、中央銀行の政策の金利に近い動きをしやすい。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-08",
+       "text": "米国の金利が高いと、ドルで預けたり貸したりするほうが有利になり、円とドルの交換の値段（為替）にも影響が出ることがある。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-22-003-1",
+       "text": "米国の長い期間の金利が5%を超える水準で続けば、ドルでお金を借りて海外で貸し出す日本の銀行業では、ドルの調達の費用が高い状態が続く可能性がある。",
+       "falsifier": "11月末までに米国債10年物の利回りが4.5%を下回れば、この見方は成り立たない。",
+       "check_metric": "FRB理事会 H.15 の米国債10年物（Treasury constant maturities, 10-year）の利回り",
+       "check_by": "2026-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-22-001",
+     "event_id": "EVT-2026-10-22-001",
+     "headline": "インフロニア・ホールディングス、海外で募集する新しい株の値段は1株2,179.5円に決まる（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "インフロニア・ホールディングス株式会社は10月21日に訂正臨時報告書を出し、海外で募集する新しい株の数を35,750,000株と記した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 35750000,
+         "unit": "株",
+         "label": "海外募集の発行数"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "ロ　発行数  当社普通株式35,750,000株",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "海外での募集で、投資家が1株あたりに払う値段（発行価格）は2,179.5円と書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2179.5,
+         "unit": "円",
+         "label": "海外募集の発行価格"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "ハ　発行価格  2,179.5円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "会社に払い込まれる1株あたりの金額（発行価額）は2,089.62円と書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2089.62,
+         "unit": "円",
+         "label": "海外募集の発行価額"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "ニ　発行価額  2,089.62円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "新しい株を出すとき、投資家が払う値段と会社に払い込まれる金額の差は、売り出しを引き受けた証券会社の取り分になるのが一般的である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "海外での募集で会社に払い込まれる金額の総額は74,703,915,000円と書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 74703915000,
+         "unit": "円",
+         "label": "海外募集の発行価額の総額"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "へ　発行価額の総額  74,703,915,000円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "発行にかかる費用の見込みは580,346,000円で、それを差し引いた手取りの見込みは74,123,569,000円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 580346000,
+         "unit": "円",
+         "label": "発行諸費用の概算額"
+        },
+        {
+         "value": 74123569000,
+         "unit": "円",
+         "label": "差引手取概算額"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "発行諸費用の概算額  580,346,000円  差引手取概算額  74,123,569,000円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "お金が払い込まれる日（払込期日）は2026年10月27日と書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 27,
+         "unit": "日",
+         "label": "日付（払込期日）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "ワ　払込期日  2026年10月27日(火)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-08",
+       "text": "同じ日に出した訂正有価証券届出書によると、新しい株の総数は47,826,100株で、国内での募集が12,076,100株、海外での募集が35,750,000株である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 47826100,
+         "unit": "株",
+         "label": "募集株式総数"
+        },
+        {
+         "value": 12076100,
+         "unit": "株",
+         "label": "国内一般募集株式数"
+        },
+        {
+         "value": 35750000,
+         "unit": "株",
+         "label": "海外募集株式数"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "公募による新株式発行の募集株式総数は47,826,100株であり、国内一般募集株式数(新規発行株式の発行数) 12,076,100株及び海外募集株式数35,750,000株の募集が行われます。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C9）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-09",
+       "text": "会社が新しい株を発行して広く投資家からお金を集めることを、公募増資という。株の数が増えるので、1株あたりの利益の取り分は薄まる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-22-001-1",
+       "text": "大手の建設グループが新しい株を発行してお金を集める例が続けば、建設業では、買収のための借入れを株主のお金に置き換える動きが広がる可能性がある。",
+       "falsifier": "今後半年の間に、建設業の会社による公募増資の届出がほかに出なければ、この見方は成り立たない。",
+       "check_metric": "EDINETに出る建設業の会社の有価証券届出書（株式の募集）の件数",
+       "check_by": "2027-04-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-22-002",
+     "event_id": "EVT-2026-10-22-001",
+     "headline": "インフロニア・ホールディングス、集めたお金は買収のための短期の借入れの返済へ：手取りは合計で最大114,136,566,000円（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "訂正臨時報告書によると、海外と国内の募集、第三者割当増資で得る手取りの見込みは合計で最大114,136,566,000円で、2026年12月までに全額を短期の借入金の返済に充てる予定と書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 114136566000,
+         "unit": "円",
+         "label": "手取概算額合計上限"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "手取概算額合計上限114,136,566,000円について、2026年12月までに全額を短期借入金の返済資金に充当する予定であります。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "そのうち国内での募集の手取りの見込みは25,089,221,082円、第三者割当増資の手取りの見込みは最大14,923,775,918円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 25089221082,
+         "unit": "円",
+         "label": "国内一般募集の手取概算額"
+        },
+        {
+         "value": 14923775918,
+         "unit": "円",
+         "label": "第三者割当増資の手取概算額上限"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "国内一般募集の手取概算額25,089,221,082円及び本第三者割当増資の手取概算額上限14,923,775,918円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "返す予定の短期の借入金のうち、アルソシア建設株式会社の買収のための分は77,000百万円で、返済期限は2027年3月25日と書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 77000,
+         "unit": "百万円",
+         "label": "アルソシア建設買収分の借入金"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "アルソシア建設(株)買収分に係る77,000百万円(返済期限2027年３月25日)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "同社によると、アルソシア建設は2026年10月1日付で三井住友建設株式会社から社名を変えた会社である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10,
+         "unit": "月",
+         "label": "日付（社名変更の月）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "アルソシア建設(株)(2026年10月１日付で三井住友建設(株)から社名変更)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "アルソシア建設を完全子会社にしたのは2025年12月23日で、支払った対価は94,128百万円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 94128,
+         "unit": "百万円",
+         "label": "アルソシア建設の完全子会社化の支払対価"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "2025年12月23日付の完全子会社化(支払対価94,128百万円)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-06",
+       "text": "もう一つの買収である水ing株式会社の分の借入金は40,000百万円と書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 40000,
+         "unit": "百万円",
+         "label": "水ing買収分の借入金"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "水ing(株)買収分に係る40,000百万円(返済期限2027年７月１日)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-07",
+       "text": "水ingの全株式を取得したときの支払対価は75,204百万円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 75204,
+         "unit": "百万円",
+         "label": "水ingの全株式取得の支払対価"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "水ing(株)の全株式の取得による完全子会社化(支払対価75,204百万円)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-08",
+       "text": "国内の募集に合わせて、主幹事の証券会社が株主から借りた株7,173,900株を、別に国内で売り出す（オーバーアロットメントによる売出し）。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 7173900,
+         "unit": "株",
+         "label": "オーバーアロットメントによる売出しの株数"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "借り入れる当社普通株式7,173,900株の国内における売出し",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9C9）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-09",
+       "text": "会社が新しい株を発行して集めたお金で借入金を返すと、借金が減る代わりに株主から預かったお金が増え、利息の支払いが軽くなる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-10",
+       "text": "オーバーアロットメントによる売出しは、募集の需要が多いときに、証券会社が株主から株を借りて追加で売り出す仕組みである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-22-002-1",
+       "text": "建設会社と上下水道の運営会社をまとめる買収の借入れを増資で返す流れは、建設業と水道の運営の仕事を一つのグループで引き受ける形が広がる可能性を示している。",
+       "falsifier": "今後1年の間に、ほかの建設業の会社による上下水道の運営会社の買収が届け出られなければ、この見方は成り立たない。",
+       "check_metric": "EDINETの臨時報告書（子会社の取得）のうち、建設業の会社が上下水道の運営会社を買う件数",
+       "check_by": "2027-10-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-22-004",
+     "event_id": "EVT-2026-10-22-003",
+     "headline": "深掘り：これから10日ほどの日本銀行の公表予定──銀行の貸出の調査、金融システムレポート、政策の決定（日本銀行）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "日本銀行の公表予定によると、10月22日（木）の8時50分に「主要銀行貸出動向アンケート調査（10月）」を公表する。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 22,
+         "unit": "日",
+         "label": "日付（公表予定日）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "22日（木）  8:50  ○ ●  主要銀行貸出動向アンケート調査（10月）",
+       "attribution": "出典：日本銀行「公表予定」（https://www.boj.or.jp/about/calendar/index.htm）",
+       "processing_note": "日本銀行「公表予定」（https://www.boj.or.jp/about/calendar/index.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "主要銀行貸出動向アンケート調査は、大きな銀行に、企業や個人からお金を借りたいという申し込みが増えたか減ったかを尋ねる調査である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "10月23日（金）の15時には「金融システムレポート（2026年10月号）」を公表する予定である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 23,
+         "unit": "日",
+         "label": "日付（公表予定日）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "23日（金）  15:00  ○ ●  金融システムレポート（2026年10月号）",
+       "attribution": "出典：日本銀行「公表予定」（https://www.boj.or.jp/about/calendar/index.htm）",
+       "processing_note": "日本銀行「公表予定」（https://www.boj.or.jp/about/calendar/index.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "金融システムレポートは、日本銀行が、銀行などがお金の流れを安全に支えられているかを点検してまとめる報告書である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "10月27日（火）の8時50分には「企業向けサービス価格指数（9月）」を公表する予定である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 27,
+         "unit": "日",
+         "label": "日付（公表予定日）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "27日（火）  8:50  ○ ●  企業向けサービス価格指数（9月）",
+       "attribution": "出典：日本銀行「公表予定」（https://www.boj.or.jp/about/calendar/index.htm）",
+       "processing_note": "日本銀行「公表予定」（https://www.boj.or.jp/about/calendar/index.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-06",
+       "text": "企業向けサービス価格指数は、運送や広告、ソフトウェアなど、会社どうしで取引されるサービスの値段の動きを表す数字である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-07",
+       "text": "10月30日（金）には「政策委員会・金融政策決定会合の決定内容」を公表する予定で、時刻は未定とされている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 30,
+         "unit": "日",
+         "label": "日付（公表予定日）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "30日（金）  未定  ○ ●  政策委員会・金融政策決定会合の決定内容",
+       "attribution": "出典：日本銀行「公表予定」（https://www.boj.or.jp/about/calendar/index.htm）",
+       "processing_note": "日本銀行「公表予定」（https://www.boj.or.jp/about/calendar/index.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-08",
+       "text": "その会合での主な意見は、11月10日（火）の8時50分に公表する予定とされている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10,
+         "unit": "日",
+         "label": "日付（公表予定日）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "10日（火）  8:50  ○ ●  金融政策決定会合における主な意見（10月29・30日分）",
+       "attribution": "出典：日本銀行「公表予定」（https://www.boj.or.jp/about/calendar/index.htm）",
+       "processing_note": "日本銀行「公表予定」（https://www.boj.or.jp/about/calendar/index.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-22-004-1",
+       "text": "10月23日の金融システムレポートで、銀行が持つ国債の値下がりによる損失の大きさが前回より大きく示されれば、銀行業の貸出の姿勢が慎重になる可能性がある。",
+       "falsifier": "次回1月の主要銀行貸出動向アンケート調査で、銀行の貸出の姿勢が前回より積極的と出れば、この見方は成り立たない。",
+       "check_metric": "日本銀行 主要銀行貸出動向アンケート調査（2027年1月）の貸出運営スタンス",
+       "check_by": "2027-01-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-10-22T07:38:53.314941+09:00",
+  "first_run": {
+   "run_at": "2026-10-22T07:38:53.314941+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 6,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 35,
+  "passed": 26,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 9,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 4,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-001": {
+    "files": [
+     "PublicDoc/0101010_honbun_si85c05713810.htm",
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E36723-000_2026-10-02_02_2026-10-21_ixbrl.htm",
+     "PublicDoc/0000000_header.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-002": {
+    "files": [
+     "PublicDoc/0101010_honbun_si85c06263810.htm",
+     "XBRL/PublicDoc/0101010_honbun_jpcrp020300-srs-001_E36723-000_2026-03-31_03_2026-10-21_ixbrl.htm",
+     "PublicDoc/0000000_header.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 4,
+  "attribution_overwritten": 32,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "morning",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 6,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 1,
+  "evidence_doc_type_overridden": 1,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {
+   "edinet_doctype_unmapped": 1
+  },
+  "impact_kind_undetermined_by_doc_type": {
+   "190": 1
+  },
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 1,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 1,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 1,
+   "source_ids": [
+    "SRC-005"
+   ]
+  },
+  "number_coverage": {
+   "text_number_tokens": 84,
+   "numbers_declared": 33,
+   "gap": 51,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 83,
+     "numbers_declared": 33
+    },
+    "explainer": {
+     "text_number_tokens": 1,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 7,
+   "line_ids": [
+    "L-001-07",
+    "L-002-04",
+    "L-004-01",
+    "L-004-03",
+    "L-004-05",
+    "L-004-07",
+    "L-004-08"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [
+   {
+    "word": "主要",
+    "location": "line_text",
+    "id": "L-004-01"
+   },
+   {
+    "word": "主要",
+    "location": "line_text",
+    "id": "L-004-02"
+   }
+  ],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 6,
+   "change": 7,
+   "ripple": 8,
+   "deep": 5
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 3,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-006"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 1,
+   "first_run_at": "2026-10-22T07:38:48.144198+09:00",
+   "last_run_at": "2026-10-22T07:38:48.144198+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 26,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [
+   {
+    "hypothesis_id": "2026-10-22-morning-1",
+    "company_name": "インフロニア・ホールディングス株式会社",
+    "submitted_at": "2026-10-21T16:48:00+09:00",
+    "baseline_point": "2026-10-22T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   }
+  ],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 3,
+   "total_unregistered": 3,
+   "excluded_date_time_tokens": 54,
+   "lines": [
+    {
+     "line_id": "L-003-01",
+     "values": [
+      "15"
+     ]
+    },
+    {
+     "line_id": "L-001-02",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-001-03",
+     "values": [
+      "1"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 0,
+   "zero_letter_count": 0,
+   "lines": []
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "ok",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 2,
+    "source_ids": [
+     "SRC-005",
+     "SRC-006"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 4
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "industry_picks_total": 2,
+  "industry_examples_total": 2,
+  "industry_example_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "ai_written_examples_discarded": 0,
+  "slot_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "short_name_match_count": {
+   "count": 0,
+   "names": []
+  },
+  "allowed_industries_count": 30,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
