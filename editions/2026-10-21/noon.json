@@ -1,0 +1,2012 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-10-21-noon",
+ "date": "2026-10-21",
+ "slot": "noon",
+ "generated_at": "2026-10-21T13:15:04.054319+09:00",
+ "market_open": true,
+ "baseline": {
+  "date": "2026-10-21",
+  "price_type": "observed"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-21&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月21日）",
+   "published_at": "2026-10-21",
+   "fetched_at": "2026-10-21T13:08:40+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "b0087a1a83298a3967987f2c5cb1ec93a6e0cd2c064e219461c12aea44007051",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-20&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月20日）",
+   "published_at": "2026-10-20",
+   "fetched_at": "2026-10-21T13:08:40+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "b3b396ee446b1f9a25b99e0f5215f257aed767b65709b17e0e63f0ac57dbc194",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z93A?type=1",
+   "publisher": "三菱重工業株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "発行登録書（株券､社債券等）（三菱重工業株式会社）",
+   "published_at": "2026-10-21T10:30:00+09:00",
+   "fetched_at": "2026-10-21T13:09:21+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "1802c72036253331a7771f7e27e25189a12109ef3e39e03308ec83c6846699b1",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z93A）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z93A）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z93A"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z96R?type=1",
+   "publisher": "株式会社オルトプラスホールディングス",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社オルトプラスホールディングス）",
+   "published_at": "2026-10-21T10:42:00+09:00",
+   "fetched_at": "2026-10-21T13:09:27+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "e98a4257622b93e4038c4ba707792f0a93762ac229a3b2f2a51b7598050f13d4",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z96R）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z96R）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z96R"
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z76Z?type=1",
+   "publisher": "株式会社成学社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社成学社）",
+   "published_at": "2026-10-21T11:00:00+09:00",
+   "fetched_at": "2026-10-21T13:09:33+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "c4a723d9478fbd155d8440300983bdc5ac4564113304ef73c0cb2d5f2d0f7699",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76Z）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76Z）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76Z"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z99Y?type=1",
+   "publisher": "株式会社スマートドライブ",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社スマートドライブ）",
+   "published_at": "2026-10-21T12:05:00+09:00",
+   "fetched_at": "2026-10-21T13:09:39+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "466538441a7b3db20f6a0f644acee1c7c5966412435b0e902e36297004438365",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z99Y）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z99Y）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z99Y"
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z91X?type=1",
+   "publisher": "イワブチ株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（イワブチ株式会社）",
+   "published_at": "2026-10-21T12:43:00+09:00",
+   "fetched_at": "2026-10-21T13:09:44+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "0df41fd177dd12cf0bba07d9dff88cc2d4eb93c72107f4ce950934d7361a8309",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z91X）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z91X）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z91X"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "令和８年９月分貿易統計（速報）の概要",
+   "published_at": "2026-10-21",
+   "fetched_at": "2026-10-21T13:11:01+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "381eb9922ba85ec0fadf6ce83eec1b7d18e0c851f0d37fdcbe1581f6d649fb4d",
+   "usage": "quotable",
+   "attribution": "出典：財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）",
+   "processing_note": "財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-009",
+   "url": "https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_4-9.pdf",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "令和８年度上半期分貿易統計（速報）の概要",
+   "published_at": "2026-10-21",
+   "fetched_at": "2026-10-21T13:11:03+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "e353f6fcc1d71e14314c2eb2b4b037390b5c27b944eca5d38d98211546079357",
+   "usage": "quotable",
+   "attribution": "出典：財務省「令和８年度上半期分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_4-9.pdf）",
+   "processing_note": "財務省「令和８年度上半期分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_4-9.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-012",
+   "url": "https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-offer261021.htm",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "交付税及び譲与税配付金特別会計の借入金の入札予定（令和8年10月21日公表）",
+   "published_at": "2026-10-21",
+   "fetched_at": "2026-10-21T13:11:33+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "c8bc0e21557cd32dc1328603f86c3d363de570f51b44238e24601d5fdaaee611",
+   "usage": "quotable",
+   "attribution": "出典：財務省「交付税及び譲与税配付金特別会計の借入金の入札予定（令和8年10月21日公表）」（https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-offer261021.htm）",
+   "processing_note": "財務省「交付税及び譲与税配付金特別会計の借入金の入札予定（令和8年10月21日公表）」（https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-offer261021.htm）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-21-001",
+     "event_id": "EVT-2026-10-21-001",
+     "headline": "9月の貿易統計：輸出額は前年同月比16.7%増、輸入額は18.9%増で、差引は5,365億円の赤字（財務省）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "財務省が10月21日に公表した9月分の貿易統計（速報）で、輸出額は10兆9,723億円となり、前年同月比16.7%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10,
+         "unit": "兆円",
+         "label": "輸出額（9月、兆の部分）"
+        },
+        {
+         "value": 9723,
+         "unit": "億円",
+         "label": "輸出額（9月、億の部分）"
+        },
+        {
+         "value": 16.7,
+         "unit": "%",
+         "label": "輸出額の前年同月比"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "輸 出 金 額 １０兆 ９，７２３億円 ＋１６．７％",
+       "attribution": "出典：財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）",
+       "processing_note": "財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "輸入額は11兆5,088億円で、前年同月比18.9%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 11,
+         "unit": "兆円",
+         "label": "輸入額（9月、兆の部分）"
+        },
+        {
+         "value": 5088,
+         "unit": "億円",
+         "label": "輸入額（9月、億の部分）"
+        },
+        {
+         "value": 18.9,
+         "unit": "%",
+         "label": "輸入額の前年同月比"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "輸 入 金 額 １１兆 ５，０８８億円 ＋１８．９％",
+       "attribution": "出典：財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）",
+       "processing_note": "財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "輸出額から輸入額を引いた差引額は5,365億円の赤字で、赤字の額は前年同月より93.2%大きくなった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": -5365,
+         "unit": "億円",
+         "label": "差引額（9月）"
+        },
+        {
+         "value": 93.2,
+         "unit": "%",
+         "label": "差引額の前年同月比"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "差 引 金 額 ▲５，３６５億円 ＋９３．２％",
+       "attribution": "出典：財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）",
+       "processing_note": "財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "貿易の金額は、品物の値段と量の両方で動く。量の動きを見るために、財務省は「数量指数」も出している。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "輸出の数量指数は105.9で、前年同月比1.9%の増加にとどまった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 105.9,
+         "unit": "",
+         "label": "輸出の数量指数"
+        },
+        {
+         "value": 1.9,
+         "unit": "%",
+         "label": "輸出の数量指数の前年同月比"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "数量指数 １０５．９ ＋ １．９％ ７ヵ月連続の増加",
+       "attribution": "出典：財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）",
+       "processing_note": "財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "輸入は、金額が18.9%増えた一方で、数量指数は103.0と前年同月比1.6%減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 103.0,
+         "unit": "",
+         "label": "輸入の数量指数"
+        },
+        {
+         "value": -1.6,
+         "unit": "%",
+         "label": "輸入の数量指数の前年同月比"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "数量指数 １０３．０ ▲ １．６％ ４ヵ月ぶりの減少",
+       "attribution": "出典：財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）",
+       "processing_note": "財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "9月の為替レート（税関長公示レートの平均値）は1ドル157.43円で、前年同月より6.7%の円安だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 157.43,
+         "unit": "円/ドル",
+         "label": "為替レート（9月の平均）"
+        },
+        {
+         "value": 6.7,
+         "unit": "%",
+         "label": "前年同月比の円安の幅"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "令和８年９月 : １５７．４３円／ドル（対前年同月比：６．７％の円安）",
+       "attribution": "出典：財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）",
+       "processing_note": "財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-08",
+       "text": "円安になると、外国の通貨で同じ値段の品物でも、円に直した金額は大きくなる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-21-001-1",
+       "text": "輸入の金額が増えて数量が減っているのは、品物の値段の上昇と円安が金額を押し上げている面が大きい可能性がある。",
+       "falsifier": "10月分で輸入の数量指数が前年同月比でプラスに戻り、金額の伸びの大半を量の増加で説明できるようになれば、この見方は弱まる。",
+       "check_metric": "財務省 貿易統計 10月分の輸入の数量指数と輸入額の前年同月比",
+       "check_by": "2026-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-21-002",
+     "event_id": "EVT-2026-10-21-001",
+     "headline": "9月の輸出入、何が増えたか：輸出は半導体等電子部品が49.4%増、輸入は原粗油が51.1%増（財務省）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "品目別では、輸出で半導体等電子部品が前年同月比49.4%増え、全体の伸びへの寄与度は3.3だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 49.4,
+         "unit": "%",
+         "label": "半導体等電子部品の輸出額の前年同月比"
+        },
+        {
+         "value": 3.3,
+         "unit": "ポイント",
+         "label": "寄与度"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "半導体等電子部品 ： + 49.4％ + 3.3",
+       "attribution": "出典：財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）",
+       "processing_note": "財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "輸出の自動車は15.1%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 15.1,
+         "unit": "%",
+         "label": "自動車の輸出額の前年同月比"
+        },
+        {
+         "value": 2.4,
+         "unit": "ポイント",
+         "label": "寄与度"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "自動車 ： + 15.1％ + 2.4",
+       "attribution": "出典：財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）",
+       "processing_note": "財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "輸出の半導体等製造装置は43.9%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 43.9,
+         "unit": "%",
+         "label": "半導体等製造装置の輸出額の前年同月比"
+        },
+        {
+         "value": 1.8,
+         "unit": "ポイント",
+         "label": "寄与度"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "半導体等製造装置 ： + 43.9％ + 1.8",
+       "attribution": "出典：財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）",
+       "processing_note": "財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "輸入では原粗油が51.1%増え、寄与度は3.9だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 51.1,
+         "unit": "%",
+         "label": "原粗油の輸入額の前年同月比"
+        },
+        {
+         "value": 3.9,
+         "unit": "ポイント",
+         "label": "寄与度"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "原粗油 ： + 51.1％ + 3.9",
+       "attribution": "出典：財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）",
+       "processing_note": "財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "輸入の液化天然ガスは39.2%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 39.2,
+         "unit": "%",
+         "label": "液化天然ガスの輸入額の前年同月比"
+        },
+        {
+         "value": 1.7,
+         "unit": "ポイント",
+         "label": "寄与度"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "液化天然ガス ： + 39.2％ + 1.7",
+       "attribution": "出典：財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）",
+       "processing_note": "財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-06",
+       "text": "寄与度は、全体の伸び率のうち、その品目がどれだけを占めたかを表す数字である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-07",
+       "text": "原粗油は精製される前の原油のことで、石油製品や化学品の原料になる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-21-002-1",
+       "text": "原粗油と液化天然ガスの輸入額の増加が続けば、石油精製業や電力・ガス業の燃料を買う費用が増える可能性がある。",
+       "falsifier": "10月分以降で原粗油と液化天然ガスの輸入額が前年同月比で減少に転じれば、この見方は成り立たない。",
+       "check_metric": "財務省 貿易統計 10月分の原粗油・液化天然ガスの輸入額",
+       "check_by": "2026-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-21-004",
+     "event_id": "EVT-2026-10-21-003",
+     "headline": "4〜9月の半年の貿易：輸出額は前年同期比18.4%増、輸入額は20.4%増で、輸入の数量は1.1%減（財務省）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "財務省が同じ日に公表した令和8年度上半期（4〜9月）の速報で、輸出額は63兆4,570億円となり、前年同期比18.4%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 63,
+         "unit": "兆円",
+         "label": "上半期の輸出額（兆の部分）"
+        },
+        {
+         "value": 4570,
+         "unit": "億円",
+         "label": "上半期の輸出額（億の部分）"
+        },
+        {
+         "value": 18.4,
+         "unit": "%",
+         "label": "上半期の輸出額の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "輸 出 金 額 ６３兆 ４，５７０億円 ＋１８．４％",
+       "attribution": "出典：財務省「令和８年度上半期分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_4-9.pdf）",
+       "processing_note": "財務省「令和８年度上半期分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_4-9.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "上半期の輸出の数量指数は103.8で、2.3%の増加だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 103.8,
+         "unit": "",
+         "label": "上半期の輸出の数量指数"
+        },
+        {
+         "value": 2.3,
+         "unit": "%",
+         "label": "上半期の輸出の数量指数の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "数量指数 １０３．８ ＋ ２．３％ ２期連続の増加",
+       "attribution": "出典：財務省「令和８年度上半期分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_4-9.pdf）",
+       "processing_note": "財務省「令和８年度上半期分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_4-9.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "上半期の輸入額は66兆2,754億円で、前年同期比20.4%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 66,
+         "unit": "兆円",
+         "label": "上半期の輸入額（兆の部分）"
+        },
+        {
+         "value": 2754,
+         "unit": "億円",
+         "label": "上半期の輸入額（億の部分）"
+        },
+        {
+         "value": 20.4,
+         "unit": "%",
+         "label": "上半期の輸入額の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "輸 入 金 額 ６６兆 ２，７５４億円 ＋２０．４％",
+       "attribution": "出典：財務省「令和８年度上半期分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_4-9.pdf）",
+       "processing_note": "財務省「令和８年度上半期分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_4-9.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "一方、上半期の輸入の数量指数は99.3で、1.1%減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 99.3,
+         "unit": "",
+         "label": "上半期の輸入の数量指数"
+        },
+        {
+         "value": -1.1,
+         "unit": "%",
+         "label": "上半期の輸入の数量指数の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "数量指数 ９９．３ ▲ １．１％ ４期ぶりの減少",
+       "attribution": "出典：財務省「令和８年度上半期分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_4-9.pdf）",
+       "processing_note": "財務省「令和８年度上半期分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_4-9.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "上半期の輸入で最も増えた品目は半導体等電子部品で、63.2%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 63.2,
+         "unit": "%",
+         "label": "上半期の半導体等電子部品の輸入額の前年同期比"
+        },
+        {
+         "value": 2.3,
+         "unit": "ポイント",
+         "label": "寄与度"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "半導体等電子部品 ： + 63.2％ + 2.3",
+       "attribution": "出典：財務省「令和８年度上半期分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_4-9.pdf）",
+       "processing_note": "財務省「令和８年度上半期分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_4-9.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-06",
+       "text": "上半期の為替レートの平均は1ドル159.54円で、前年同期より9.2%の円安だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 159.54,
+         "unit": "円/ドル",
+         "label": "上半期の為替レートの平均"
+        },
+        {
+         "value": 9.2,
+         "unit": "%",
+         "label": "前年同期比の円安の幅"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "１５９．５４円／ドル（対前年同期比：９．２％の円安）",
+       "attribution": "出典：財務省「令和８年度上半期分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_4-9.pdf）",
+       "processing_note": "財務省「令和８年度上半期分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_4-9.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-21-004-1",
+       "text": "上半期の輸出は量の伸びより金額の伸びが大きく、円安が輸出する会社の円での売上高を押し上げている可能性がある。",
+       "falsifier": "10〜12月の為替レートが前年同期より円高になっても輸出額の伸び率が下がらなければ、円安の影響は小さかったことになる。",
+       "check_metric": "財務省 貿易統計 10〜12月分の輸出額と為替レート",
+       "check_by": "2027-01-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-21-005",
+     "event_id": "EVT-2026-10-21-004",
+     "headline": "国が地方に配るお金のための借入れ：10月28日に入札、借入予定額は1兆2,000億円程度（財務省）",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "財務省は10月21日、交付税及び譲与税配付金特別会計の借入金の入札を、10月28日に実施する予定だと公表した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 28,
+         "unit": "日",
+         "label": "日付（入札の実施予定日）"
+        }
+       ],
+       "source_ref": "SRC-012",
+       "excerpt": "令和8年10月28日に実施を予定している借入金の入札",
+       "attribution": "出典：財務省「交付税及び譲与税配付金特別会計の借入金の入札予定（令和8年10月21日公表）」（https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-offer261021.htm）",
+       "processing_note": "財務省「交付税及び譲与税配付金特別会計の借入金の入札予定（令和8年10月21日公表）」（https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-offer261021.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "借入予定額は1兆2,000億円程度とされている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "兆円",
+         "label": "借入予定額（兆の部分）"
+        },
+        {
+         "value": 2000,
+         "unit": "億円",
+         "label": "借入予定額（億の部分）"
+        }
+       ],
+       "source_ref": "SRC-012",
+       "excerpt": "1兆2,000億円程度",
+       "attribution": "出典：財務省「交付税及び譲与税配付金特別会計の借入金の入札予定（令和8年10月21日公表）」（https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-offer261021.htm）",
+       "processing_note": "財務省「交付税及び譲与税配付金特別会計の借入金の入札予定（令和8年10月21日公表）」（https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-offer261021.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "借入日は11月12日で、償還期限は令和9年5月13日とされている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 13,
+         "unit": "日",
+         "label": "日付（一括償還の日）"
+        }
+       ],
+       "source_ref": "SRC-012",
+       "excerpt": "令和9年5月13日に一括償還",
+       "attribution": "出典：財務省「交付税及び譲与税配付金特別会計の借入金の入札予定（令和8年10月21日公表）」（https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-offer261021.htm）",
+       "processing_note": "財務省「交付税及び譲与税配付金特別会計の借入金の入札予定（令和8年10月21日公表）」（https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-offer261021.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-04",
+       "text": "交付税は、国が集めた税金の一部を、地方自治体の財源の差をならすために配る仕組みである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-05",
+       "text": "この特別会計が借りるお金は、入札で決まった利率で、金融機関などから借りる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-21-005-1",
+       "text": "短い期間の国の借入れの利率が上がっていけば、短期の資金を運用する銀行業の受け取る利息が増える可能性がある。",
+       "falsifier": "10月28日の入札で決まる借入利率の平均が、前回の同じ入札より下がれば、この見方は弱まる。",
+       "check_metric": "財務省 交付税及び譲与税配付金特別会計の借入金の入札結果（10月28日）",
+       "check_by": "2026-10-29"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-21-006",
+     "event_id": "EVT-2026-10-21-005",
+     "headline": "三菱重工業、社債を出すための発行登録書を提出：発行予定額は200,000百万円（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-006-01",
+       "text": "三菱重工業は10月21日、社債を発行するための発行登録書を提出し、発行予定額を200,000百万円とした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 200000,
+         "unit": "百万円",
+         "label": "社債の発行予定額"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "発行予定額　200,000百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z93A）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z93A）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-02",
+       "text": "発行予定期間は、効力発生予定日の2026年10月29日から2年を経過する2028年10月28日までとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 29,
+         "unit": "日",
+         "label": "日付（効力発生予定日）"
+        },
+        {
+         "value": 28,
+         "unit": "日",
+         "label": "日付（発行予定期間の終わり）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "効力発生予定日（2026年10月29日）から２年を経過する日（2028年10月28日）まで",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z93A）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z93A）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-03",
+       "text": "発行登録書は、決めた期間のうちに社債などを出す予定があることを、先に届け出ておく書類である。届け出ておくと、実際に出すときの手続きが短くなる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-04",
+       "text": "社債は、会社が投資家からお金を借りるために出す債券で、決まった利率で利息を払い、期限に元本を返す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-21-006-1",
+       "text": "大手の製造業が社債で資金を集める準備を進める動きが続けば、社債の引受けを担う証券業の手数料収入が増える可能性がある。",
+       "falsifier": "今後3か月で国内の普通社債の発行額が前年同期を下回れば、この見方は成り立たない。",
+       "check_metric": "日本証券業協会 公社債発行額（10〜12月）",
+       "check_by": "2027-01-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-21-007",
+     "event_id": "EVT-2026-10-21-006",
+     "headline": "大株主の入れ替わりを伝える臨時報告書：オルトプラスHDとイワブチで、投資会社などが議決権の1割超を持つ主要株主に（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-007-01",
+       "text": "主要株主は、会社の議決権の10%以上を持つ株主のことで、主要株主が変わると会社は臨時報告書を出す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-02",
+       "text": "オルトプラスホールディングスは10月21日に出した臨時報告書で、投資事業有限責任組合の議決権の割合が16.44%になり、主要株主になったと報告した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 161973,
+         "unit": "個",
+         "label": "異動後の所有議決権の数"
+        },
+        {
+         "value": 16.44,
+         "unit": "%",
+         "label": "異動後の総株主等の議決権に対する割合"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "異動後 161,973個 16.44％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z96R）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z96R）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-03",
+       "text": "同社によると、異動前の割合は9.06%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 81973,
+         "unit": "個",
+         "label": "異動前の所有議決権の数"
+        },
+        {
+         "value": 9.06,
+         "unit": "%",
+         "label": "異動前の総株主等の議決権に対する割合"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "異動前(2026年９月30日現在) 81,973個 9.06％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z96R）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z96R）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-04",
+       "text": "電柱の金具などをつくるイワブチは、オーストラリアの投資会社とその共同保有者の議決権の割合が10.53%になったと報告した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1079,
+         "unit": "個",
+         "label": "異動後の所有議決権の数"
+        },
+        {
+         "value": 10.53,
+         "unit": "%",
+         "label": "異動後の総株主等の議決権に対する割合"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "異動後 1,079個 10.53％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z91X）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z91X）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-05",
+       "text": "イワブチの異動前の割合は9.87%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1011,
+         "unit": "個",
+         "label": "異動前の所有議決権の数"
+        },
+        {
+         "value": 9.87,
+         "unit": "%",
+         "label": "異動前の総株主等の議決権に対する割合"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "異動前 1,011個 9.87％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z91X）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z91X）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-21-007-1",
+       "text": "投資ファンドが小型の上場会社の議決権を1割を超えて持つ例が増えれば、株主総会で配当や経営方針への提案が増える可能性がある。",
+       "falsifier": "今後半年の間に、こうした主要株主の異動の臨時報告書の件数が前年同期より減れば、この見方は弱まる。",
+       "check_metric": "EDINET 主要株主の異動に関する臨時報告書の件数",
+       "check_by": "2027-04-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-21-008",
+     "event_id": "EVT-2026-10-21-007",
+     "headline": "学習塾の成学社が保育所の子会社を吸収合併へ、スマートドライブはマレーシアの子会社株で評価損（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-008-01",
+       "text": "学習塾を運営する成学社は、10月16日の取締役会で、託児所・保育所を経営する子会社を吸収合併することを決議したと報告した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 16,
+         "unit": "日",
+         "label": "日付（取締役会の開催日）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "当社は、2026年10月16日開催の取締役会において、当社を吸収合併存続会社とし",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76Z）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76Z）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-02",
+       "text": "合併で子会社がなくなる日は、2027年4月1日の予定としている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "日",
+         "label": "日付（異動の予定日）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "異動の年月日：2027年４月１日（予定）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76Z）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z76Z）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-03",
+       "text": "スマートドライブは、マレーシアの連結子会社の株式について、関係会社株式評価損66百万円を個別決算の特別損失として計上すると報告した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 66,
+         "unit": "百万円",
+         "label": "関係会社株式評価損"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "関係会社株式評価損66百万円を特別損失として計上いたします",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z99Y）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z99Y）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-05",
+       "text": "個別決算は親会社だけの決算、連結決算は子会社も含めたグループ全体の決算である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-21-008-1",
+       "text": "学習塾の会社が保育の事業を本体にまとめる動きは、子どもの数が減るなかで、教育サービス業が幼い子ども向けの事業を一体で運営しようとしている表れの可能性がある。",
+       "falsifier": "同じ業種の会社で、保育事業の売却や縮小の届け出が今後1年で相次げば、この見方は成り立たない。",
+       "check_metric": "EDINET 教育サービスの会社の臨時報告書（保育事業に関するもの）",
+       "check_by": "2027-10-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-21-003",
+     "event_id": "EVT-2026-10-21-002",
+     "headline": "相手の国・地域で見た9月：米国への輸出は22.9%増、米国からの原粗油の輸入は819.7%増（財務省）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "米国への輸出額は1兆9,630億円で、前年同月比22.9%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "兆円",
+         "label": "米国への輸出額（9月、兆の部分）"
+        },
+        {
+         "value": 9630,
+         "unit": "億円",
+         "label": "米国への輸出額（9月、億の部分）"
+        },
+        {
+         "value": 22.9,
+         "unit": "%",
+         "label": "米国への輸出額の前年同月比"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "輸 出 １兆 ９，６３０億円 ＋２２．９％",
+       "attribution": "出典：財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）",
+       "processing_note": "財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "米国からの輸入額は1兆5,702億円で、44.8%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "兆円",
+         "label": "米国からの輸入額（9月、兆の部分）"
+        },
+        {
+         "value": 5702,
+         "unit": "億円",
+         "label": "米国からの輸入額（9月、億の部分）"
+        },
+        {
+         "value": 44.8,
+         "unit": "%",
+         "label": "米国からの輸入額の前年同月比"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "輸 入 １兆 ５，７０２億円 ＋４４．８％",
+       "attribution": "出典：財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）",
+       "processing_note": "財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "米国からの輸入で最も寄与したのは原粗油で、金額は前年同月比819.7%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 819.7,
+         "unit": "%",
+         "label": "米国からの原粗油の輸入額の前年同月比"
+        },
+        {
+         "value": 31.4,
+         "unit": "ポイント",
+         "label": "寄与度"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "原粗油 ： + 819.7％ + 31.4",
+       "attribution": "出典：財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）",
+       "processing_note": "財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "米国からの液化天然ガスの輸入額も541.6%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 541.6,
+         "unit": "%",
+         "label": "米国からの液化天然ガスの輸入額の前年同月比"
+        },
+        {
+         "value": 5.1,
+         "unit": "ポイント",
+         "label": "寄与度"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "液化天然ガス ： + 541.6％ + 5.1",
+       "attribution": "出典：財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）",
+       "processing_note": "財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "米国への輸出では、自動車が31.0%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 31.0,
+         "unit": "%",
+         "label": "米国への自動車の輸出額の前年同月比"
+        },
+        {
+         "value": 7.1,
+         "unit": "ポイント",
+         "label": "寄与度"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "自動車 ： + 31.0％ + 7.1",
+       "attribution": "出典：財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）",
+       "processing_note": "財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-06",
+       "text": "中国への輸出では、自動車が59.8%減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": -59.8,
+         "unit": "%",
+         "label": "中国への自動車の輸出額の前年同月比"
+        },
+        {
+         "value": -3.5,
+         "unit": "ポイント",
+         "label": "寄与度"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "自動車 ： ▲ 59.8％ ▲ 3.5",
+       "attribution": "出典：財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）",
+       "processing_note": "財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-07",
+       "text": "中国への輸出額全体は1兆7,300億円で、前年同月比8.6%の増加だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "兆円",
+         "label": "中国への輸出額（9月、兆の部分）"
+        },
+        {
+         "value": 7300,
+         "unit": "億円",
+         "label": "中国への輸出額（9月、億の部分）"
+        },
+        {
+         "value": 8.6,
+         "unit": "%",
+         "label": "中国への輸出額の前年同月比"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "輸 出 １兆 ７，３００億円 ＋ ８．６％",
+       "attribution": "出典：財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）",
+       "processing_note": "財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-08",
+       "text": "この概要の地域別の数字は金額の伸び率で、運んだ量の伸び率ではない。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-21-003-1",
+       "text": "米国からのエネルギーの輸入が増えている流れが続けば、日米の間でエネルギーを運ぶ海運業の荷動きが増える可能性がある。",
+       "falsifier": "10月分以降で米国からの原粗油の輸入額の伸びが止まり、前年同月比で減少に転じれば、この見方は成り立たない。",
+       "check_metric": "財務省 貿易統計 10月分の米国からの原粗油の輸入額",
+       "check_by": "2026-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-21-009",
+     "event_id": "EVT-2026-10-21-008",
+     "headline": "深掘り：半導体が日本の貿易を動かす──輸出も輸入も、半導体等電子部品が増加品目の先頭に（財務省）",
+     "lines": [
+      {
+       "line_id": "L-009-01",
+       "text": "上半期の輸出で最も増えた品目は半導体等電子部品で、前年同期比50.8%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 50.8,
+         "unit": "%",
+         "label": "上半期の半導体等電子部品の輸出額の前年同期比"
+        },
+        {
+         "value": 3.1,
+         "unit": "ポイント",
+         "label": "寄与度"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "半導体等電子部品 ： + 50.8％ + 3.1",
+       "attribution": "出典：財務省「令和８年度上半期分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_4-9.pdf）",
+       "processing_note": "財務省「令和８年度上半期分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_4-9.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-02",
+       "text": "上半期の輸出では、半導体等製造装置も26.5%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 26.5,
+         "unit": "%",
+         "label": "上半期の半導体等製造装置の輸出額の前年同期比"
+        },
+        {
+         "value": 1.1,
+         "unit": "ポイント",
+         "label": "寄与度"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "半導体等製造装置 ： + 26.5％ + 1.1",
+       "attribution": "出典：財務省「令和８年度上半期分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_4-9.pdf）",
+       "processing_note": "財務省「令和８年度上半期分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_4-9.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-03",
+       "text": "9月のアジアへの輸出では、半導体等電子部品が51.8%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 51.8,
+         "unit": "%",
+         "label": "アジアへの半導体等電子部品の輸出額の前年同月比"
+        },
+        {
+         "value": 5.8,
+         "unit": "ポイント",
+         "label": "寄与度"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "半導体等電子部品 ： + 51.8％ + 5.8",
+       "attribution": "出典：財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）",
+       "processing_note": "財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-04",
+       "text": "9月のアジアからの輸入でも、半導体等電子部品が57.0%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 57.0,
+         "unit": "%",
+         "label": "アジアからの半導体等電子部品の輸入額の前年同月比"
+        },
+        {
+         "value": 4.0,
+         "unit": "ポイント",
+         "label": "寄与度"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "半導体等電子部品 ： + 57.0％ + 4.0",
+       "attribution": "出典：財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）",
+       "processing_note": "財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-05",
+       "text": "9月の米国への輸出では、半導体等製造装置が93.1%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 93.1,
+         "unit": "%",
+         "label": "米国への半導体等製造装置の輸出額の前年同月比"
+        },
+        {
+         "value": 1.9,
+         "unit": "ポイント",
+         "label": "寄与度"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "半導体等製造装置 ： + 93.1％ + 1.9",
+       "attribution": "出典：財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）",
+       "processing_note": "財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-06",
+       "text": "9月の中国への輸出では、半導体等製造装置が14.3%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 14.3,
+         "unit": "%",
+         "label": "中国への半導体等製造装置の輸出額の前年同月比"
+        },
+        {
+         "value": 1.8,
+         "unit": "ポイント",
+         "label": "寄与度"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "半導体等製造装置 ： + 14.3％ + 1.8",
+       "attribution": "出典：財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）",
+       "processing_note": "財務省「令和８年９月分貿易統計（速報）の概要」（https://www.customs.go.jp/toukei/shinbun/trade-st/gaiyo2026_09.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-07",
+       "text": "半導体等製造装置は、半導体をつくるための機械で、半導体等電子部品は、できあがった半導体の部品のことである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-08",
+       "text": "部品を輸出しながら同じ種類の部品を輸入するのは、国をまたいで作業を分け合う作り方が広がっているためでもある。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-21-009-1",
+       "text": "半導体等製造装置の輸出の伸びが続けば、装置に使う部品や材料をつくる電気機器業・化学業の会社にも、遅れて受注の増加が広がる可能性がある。",
+       "falsifier": "10〜12月の半導体等製造装置の輸出額が前年同期比で減少に転じれば、この見方は成り立たない。",
+       "check_metric": "財務省 貿易統計 10〜12月分の半導体等製造装置の輸出額",
+       "check_by": "2027-01-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-10-21T13:15:04.054319+09:00",
+  "first_run": {
+   "run_at": "2026-10-21T13:15:04.054319+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 10,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 55,
+  "passed": 42,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 13,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 1,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 7,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp110000-rst-001_E02126-000_2026-10-21_01_2026-10-21_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp110000-rst-001_E02126-000_2026-10-21_01_2026-10-21_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E27280-000_2026-10-21_01_2026-10-21_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E27280-000_2026-10-21_01_2026-10-21_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-004": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E21514-000_2026-10-21_01_2026-10-21_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E21514-000_2026-10-21_01_2026-10-21_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E38205-000_2026-10-21_01_2026-10-21_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E38205-000_2026-10-21_01_2026-10-21_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-006": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E01439-000_2026-10-21_01_2026-10-21_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E01439-000_2026-10-21_01_2026-10-21_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 7,
+  "attribution_overwritten": 52,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "noon",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 10,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 5,
+  "evidence_doc_type_overridden": 5,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {
+   "edinet_doctype_unmapped": 5
+  },
+  "impact_kind_undetermined_by_doc_type": {
+   "080": 1,
+   "180": 4
+  },
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 5,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 4,
+   "nfkc": 0,
+   "match_name": 1
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 101,
+   "numbers_declared": 85,
+   "gap": 16,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 100,
+     "numbers_declared": 85
+    },
+    "explainer": {
+     "text_number_tokens": 1,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 5,
+   "line_ids": [
+    "L-005-01",
+    "L-005-03",
+    "L-006-02",
+    "L-008-01",
+    "L-008-02"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [
+   {
+    "word": "主要",
+    "location": "headline",
+    "id": "ART-2026-10-21-007"
+   },
+   {
+    "word": "主要",
+    "location": "line_text",
+    "id": "L-007-01"
+   },
+   {
+    "word": "主要",
+    "location": "line_text",
+    "id": "L-007-02"
+   },
+   {
+    "word": "主要",
+    "location": "hypothesis_relation_text",
+    "id": "2026-10-21-noon-2"
+   },
+   {
+    "word": "主要",
+    "location": "hypothesis_impact_reason",
+    "id": "2026-10-21-noon-2"
+   },
+   {
+    "word": "主要",
+    "location": "hypothesis_relation_text",
+    "id": "2026-10-21-noon-3"
+   },
+   {
+    "word": "主要",
+    "location": "hypothesis_impact_reason",
+    "id": "2026-10-21-noon-3"
+   }
+  ],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 11,
+   "change": 18,
+   "ripple": 7,
+   "deep": 6
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 5,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-008",
+    "SRC-009",
+    "SRC-012"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 1,
+   "first_run_at": "2026-10-21T13:14:58.178311+09:00",
+   "last_run_at": "2026-10-21T13:14:58.178311+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 42,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [
+   {
+    "hypothesis_id": "2026-10-21-noon-1",
+    "company_name": "三菱重工業株式会社",
+    "submitted_at": "2026-10-21T10:30:00+09:00",
+    "baseline_point": "2026-10-21T13:15:04.054319+09:00",
+    "trading_minutes": 105,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-21-noon-3",
+    "company_name": "イワブチ株式会社",
+    "submitted_at": "2026-10-21T12:43:00+09:00",
+    "baseline_point": "2026-10-21T13:15:04.054319+09:00",
+    "trading_minutes": 32,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-21-noon-4",
+    "company_name": "株式会社成学社",
+    "submitted_at": "2026-10-21T11:00:00+09:00",
+    "baseline_point": "2026-10-21T13:15:04.054319+09:00",
+    "trading_minutes": 75,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-21-noon-5",
+    "company_name": "株式会社スマートドライブ",
+    "submitted_at": "2026-10-21T12:05:00+09:00",
+    "baseline_point": "2026-10-21T13:15:04.054319+09:00",
+    "trading_minutes": 45,
+    "reason": null
+   }
+  ],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 7,
+   "total_unregistered": 8,
+   "excluded_date_time_tokens": 35,
+   "lines": [
+    {
+     "line_id": "L-001-03",
+     "values": [
+      "5365"
+     ]
+    },
+    {
+     "line_id": "L-001-06",
+     "values": [
+      "18.9",
+      "1.6"
+     ]
+    },
+    {
+     "line_id": "L-001-07",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-004-01",
+     "values": [
+      "4"
+     ]
+    },
+    {
+     "line_id": "L-004-04",
+     "values": [
+      "1.1"
+     ]
+    },
+    {
+     "line_id": "L-004-06",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-003-06",
+     "values": [
+      "59.8"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 5,
+   "zero_letter_count": 0,
+   "lines": [
+    {
+     "line_id": "L-002-02",
+     "letters": 3
+    },
+    {
+     "line_id": "L-002-04",
+     "letters": 3
+    },
+    {
+     "line_id": "L-003-03",
+     "letters": 3
+    },
+    {
+     "line_id": "L-003-05",
+     "letters": 3
+    },
+    {
+     "line_id": "L-003-06",
+     "letters": 3
+    }
+   ]
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "ok",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 3,
+    "source_ids": [
+     "SRC-008",
+     "SRC-009",
+     "SRC-012"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 9
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "industry_picks_total": 5,
+  "industry_examples_total": 1,
+  "industry_example_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "ai_written_examples_discarded": 0,
+  "slot_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "short_name_match_count": {
+   "count": 0,
+   "names": []
+  },
+  "allowed_industries_count": 30,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
