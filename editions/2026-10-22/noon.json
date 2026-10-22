@@ -1,0 +1,2031 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-10-22-noon",
+ "date": "2026-10-22",
+ "slot": "noon",
+ "generated_at": "2026-10-22T13:15:21.456151+09:00",
+ "market_open": true,
+ "baseline": {
+  "date": "2026-10-22",
+  "price_type": "observed"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-22&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月22日）",
+   "published_at": "2026-10-22",
+   "fetched_at": "2026-10-22T13:08:56+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "e4e5522dc12cb7bad3485c688e008303c79da993adb0d72f6f618e38889666b7",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-21&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月21日）",
+   "published_at": "2026-10-21",
+   "fetched_at": "2026-10-22T13:08:56+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "8c6e86ad4083e7a351352a2c412a85b8ab682df38cf82246b8ff6649fb716dc1",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z9DO?type=1",
+   "publisher": "西部ガスホールディングス株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "発行登録追補書類（株券､社債券等）（西部ガスホールディングス株式会社）",
+   "published_at": "2026-10-22T10:03:00+09:00",
+   "fetched_at": "2026-10-22T13:09:18+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "2556710fe017ec025a8cc5706b6a240cc43ff0ea02eae171453d819c0e2e89b3",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9DO）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9DO）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9DO"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z9A8?type=1",
+   "publisher": "株式会社アートネイチャー",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社アートネイチャー）",
+   "published_at": "2026-10-22T10:33:00+09:00",
+   "fetched_at": "2026-10-22T13:09:24+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "571e10a9a4ccf67bf763dba888e6f7589f015f33cbc13b4dd7ee215fbcd3b6ab",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9A8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9A8）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9A8"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z96J?type=1",
+   "publisher": "株式会社荏原製作所",
+   "publisher_type": "company_disclosure",
+   "title": "発行登録追補書類（株券､社債券等）（株式会社荏原製作所）",
+   "published_at": "2026-10-22T10:35:00+09:00",
+   "fetched_at": "2026-10-22T13:09:30+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "7ff9ac333e5781e8a8df34a1d6ab777c02adc7ae47cf4c7ddab7238b1823ba33",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z96J）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z96J）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z96J"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z9H1?type=1",
+   "publisher": "イメージ情報開発株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（イメージ情報開発株式会社）",
+   "published_at": "2026-10-22T12:26:00+09:00",
+   "fetched_at": "2026-10-22T13:09:42+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "6928cac75030af1b46d49b25e9412c66efbc94c4c863b9990ba76d86c51f444a",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H1）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H1）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H1"
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://www.boj.or.jp/statistics/dl/loan/loos/release/loos2610.pdf",
+   "publisher": "日本銀行",
+   "publisher_type": "central_bank",
+   "title": "主要銀行貸出動向アンケート調査＜2026/10月＞",
+   "published_at": "2026-10-22",
+   "fetched_at": "2026-10-22T13:10:22+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "0c3cb6ce16a21ccdaa8e31ee60e4a656c9d269de683cf1cf92541078e28025b2",
+   "usage": "quotable",
+   "attribution": "出典：日本銀行「主要銀行貸出動向アンケート調査＜2026/10月＞」（https://www.boj.or.jp/statistics/dl/loan/loos/release/loos2610.pdf）",
+   "processing_note": "日本銀行「主要銀行貸出動向アンケート調査＜2026/10月＞」（https://www.boj.or.jp/statistics/dl/loan/loos/release/loos2610.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261020.htm",
+   "publisher": "日本銀行",
+   "publisher_type": "central_bank",
+   "title": "営業毎旬報告（令和8年10月20日現在）",
+   "published_at": "2026-10-22",
+   "fetched_at": "2026-10-22T13:10:23+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "053ce6b08f0ffc9cb812e946d13ded9d8ad23631612b90144b5d44d145fb0b64",
+   "usage": "quotable",
+   "attribution": "出典：日本銀行「営業毎旬報告（令和8年10月20日現在）」（https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261020.htm）",
+   "processing_note": "日本銀行「営業毎旬報告（令和8年10月20日現在）」（https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261020.htm）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261022.htm",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "流動性供給（第463回）入札結果",
+   "published_at": "2026-10-22",
+   "fetched_at": "2026-10-22T13:10:49+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "3176ec5468e4ad9278b222baf5315eb01d311f1bcaa25141839be1a500d5fac2",
+   "usage": "quotable",
+   "attribution": "出典：財務省「流動性供給（第463回）入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261022.htm）",
+   "processing_note": "財務省「流動性供給（第463回）入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261022.htm）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-009",
+   "url": "https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261022.htm",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "交付税及び譲与税配付金特別会計の借入金の入札結果",
+   "published_at": "2026-10-22",
+   "fetched_at": "2026-10-22T13:11:06+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "134b83bef7d3163360f18e57072cb99a96360f6c1a3650733a5b020daaee6360",
+   "usage": "quotable",
+   "attribution": "出典：財務省「交付税及び譲与税配付金特別会計の借入金の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261022.htm）",
+   "processing_note": "財務省「交付税及び譲与税配付金特別会計の借入金の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261022.htm）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-010",
+   "url": "https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）",
+   "published_at": "2026-10-22",
+   "fetched_at": "2026-10-22T13:11:07+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "3930e2857284a44c35ffcdb673e5ddfabab1c89c9b034f712dcd34d413629b9f",
+   "usage": "quotable",
+   "attribution": "出典：財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）",
+   "processing_note": "財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-012",
+   "url": "https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261022.htm",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "2年利付国債（11月債）の発行予定額等",
+   "published_at": "2026-10-22",
+   "fetched_at": "2026-10-22T13:11:09+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "b0bd10e60764a7628b19703e229413807fed8eff27a8e1a6e15daba5d5d1c2d0",
+   "usage": "quotable",
+   "attribution": "出典：財務省「2年利付国債（11月債）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261022.htm）",
+   "processing_note": "財務省「2年利付国債（11月債）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261022.htm）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-22-001",
+     "event_id": "EVT-2026-10-22-001",
+     "headline": "銀行から見た企業のお金の需要：10月の調査で企業向けの判断の指数は3、前回の-1から上がる（日本銀行）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "日本銀行が10月22日に公表した「主要銀行貸出動向アンケート調査」（2026年10月）で、過去3か月の企業向けの資金需要判断D.I.は3%ポイントとなり、前回の-1%ポイントから上がった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3,
+         "unit": "%ポイント",
+         "label": "企業向けの資金需要判断D.I.（今回）"
+        },
+        {
+         "value": -1,
+         "unit": "%ポイント",
+         "label": "企業向けの資金需要判断D.I.（前回）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "企業向け              3          -1",
+       "attribution": "出典：日本銀行「主要銀行貸出動向アンケート調査＜2026/10月＞」（https://www.boj.or.jp/statistics/dl/loan/loos/release/loos2610.pdf）",
+       "processing_note": "日本銀行「主要銀行貸出動向アンケート調査＜2026/10月＞」（https://www.boj.or.jp/statistics/dl/loan/loos/release/loos2610.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "調査の対象は50の銀行・信用金庫などである。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 50,
+         "unit": "行庫",
+         "label": "件数（調査対象の金融機関）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "調査対象数：50行庫",
+       "attribution": "出典：日本銀行「主要銀行貸出動向アンケート調査＜2026/10月＞」（https://www.boj.or.jp/statistics/dl/loan/loos/release/loos2610.pdf）",
+       "processing_note": "日本銀行「主要銀行貸出動向アンケート調査＜2026/10月＞」（https://www.boj.or.jp/statistics/dl/loan/loos/release/loos2610.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "資金需要判断D.I.は、お金を借りたいという需要が「増えた」と答えた金融機関の割合から「減った」と答えた割合を差し引いて作る指標で、プラスなら増えたとみる金融機関のほうが多いことを示す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "個人向けの資金需要判断D.I.は5%ポイントで、前回は3%ポイントだった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5,
+         "unit": "%ポイント",
+         "label": "個人向けの資金需要判断D.I.（今回）"
+        },
+        {
+         "value": 3,
+         "unit": "%ポイント",
+         "label": "個人向けの資金需要判断D.I.（前回）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "個人向け              5          3",
+       "attribution": "出典：日本銀行「主要銀行貸出動向アンケート調査＜2026/10月＞」（https://www.boj.or.jp/statistics/dl/loan/loos/release/loos2610.pdf）",
+       "processing_note": "日本銀行「主要銀行貸出動向アンケート調査＜2026/10月＞」（https://www.boj.or.jp/statistics/dl/loan/loos/release/loos2610.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "個人向けのうち住宅ローンの資金需要判断D.I.は4%ポイントで、前回は1%ポイントだった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4,
+         "unit": "%ポイント",
+         "label": "住宅ローンの資金需要判断D.I.（今回）"
+        },
+        {
+         "value": 1,
+         "unit": "%ポイント",
+         "label": "住宅ローンの資金需要判断D.I.（前回）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "住宅ローン                4              1",
+       "attribution": "出典：日本銀行「主要銀行貸出動向アンケート調査＜2026/10月＞」（https://www.boj.or.jp/statistics/dl/loan/loos/release/loos2610.pdf）",
+       "processing_note": "日本銀行「主要銀行貸出動向アンケート調査＜2026/10月＞」（https://www.boj.or.jp/statistics/dl/loan/loos/release/loos2610.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "今後3か月の企業向けの資金需要の見通しを示すD.I.は6%ポイントで、前回は4%ポイントだった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 6,
+         "unit": "%ポイント",
+         "label": "企業向けの資金需要の見通しD.I.（今回）"
+        },
+        {
+         "value": 4,
+         "unit": "%ポイント",
+         "label": "企業向けの資金需要の見通しD.I.（前回）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "企業向け         6            4",
+       "attribution": "出典：日本銀行「主要銀行貸出動向アンケート調査＜2026/10月＞」（https://www.boj.or.jp/statistics/dl/loan/loos/release/loos2610.pdf）",
+       "processing_note": "日本銀行「主要銀行貸出動向アンケート調査＜2026/10月＞」（https://www.boj.or.jp/statistics/dl/loan/loos/release/loos2610.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-22-001-1",
+       "text": "企業向けの資金需要がわずかに増えたとみる金融機関が多い状態が続けば、銀行業の企業向け貸出の残高は緩やかに増える可能性がある。",
+       "falsifier": "次回（2027年1月ごろ）の同じ調査で企業向けの資金需要判断D.I.がマイナスに戻れば、この見方は成り立たない。",
+       "check_metric": "日本銀行 主要銀行貸出動向アンケート調査 次回分の企業向け資金需要判断D.I.",
+       "check_by": "2027-01-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-22-002",
+     "event_id": "EVT-2026-10-22-002",
+     "headline": "海外の投資家、10月11〜17日の週は日本の株式を665億円売り越し、中長期の債券は1兆4,542億円買い越し（財務省）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "財務省が10月22日に公表した週次の統計で、10月11日から17日までの週に、海外の投資家（非居住者）は日本の株式・投資ファンド持分を665億円売り越した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": -665,
+         "unit": "億円",
+         "label": "非居住者の株式・投資ファンド持分の取得・処分（ネット）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "▲665億円の処分超（非居住者による売り越し）",
+       "attribution": "出典：財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）",
+       "processing_note": "財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "同じ項目は、前の週には3兆5,455億円の買い越しだった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3,
+         "unit": "兆円",
+         "label": "前週の非居住者の株式・投資ファンド持分のネット（兆の部分）"
+        },
+        {
+         "value": 5455,
+         "unit": "億円",
+         "label": "前週の非居住者の株式・投資ファンド持分のネット（億の部分）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "（前週3兆5,455億円の取得超）",
+       "attribution": "出典：財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）",
+       "processing_note": "財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "海外の投資家は、日本の中長期債を1兆4,542億円買い越した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "兆円",
+         "label": "非居住者の中長期債のネット（兆の部分）"
+        },
+        {
+         "value": 4542,
+         "unit": "億円",
+         "label": "非居住者の中長期債のネット（億の部分）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "1兆4,542億円の取得超（非居住者による買い越し）",
+       "attribution": "出典：財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）",
+       "processing_note": "財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "海外の投資家は、日本の短期債を2兆2,361億円売り越した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": -2,
+         "unit": "兆円",
+         "label": "非居住者の短期債のネット（兆の部分）"
+        },
+        {
+         "value": 2361,
+         "unit": "億円",
+         "label": "非居住者の短期債のネット（億の部分）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "▲2兆2,361億円の処分超（非居住者による売り越し）",
+       "attribution": "出典：財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）",
+       "processing_note": "財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "国内の投資家（居住者）は、海外の株式・投資ファンド持分を1,283億円買い越した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1283,
+         "unit": "億円",
+         "label": "居住者の対外株式・投資ファンド持分のネット"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "1,283億円の取得超（居住者による買い越し）",
+       "attribution": "出典：財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）",
+       "processing_note": "財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-06",
+       "text": "国内の投資家は、海外の中長期債を1,616億円売り越した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": -1616,
+         "unit": "億円",
+         "label": "居住者の対外中長期債のネット"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "▲1,616億円の処分超（居住者による売り越し）",
+       "attribution": "出典：財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）",
+       "processing_note": "財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-07",
+       "text": "この統計の「売り越し」は、売った額が買った額を上回ったことを、「買い越し」はその逆を指す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-22-002-1",
+       "text": "海外の投資家が日本の株式を売り越す週が続けば、外国人の売買の比率が高い大型株の値動きが荒くなる可能性がある。",
+       "falsifier": "次の数週の統計で、非居住者の株式・投資ファンド持分が買い越しに戻れば、この見方は弱まる。",
+       "check_metric": "財務省 対外及び対内証券売買契約等の状況（週次） 非居住者の株式・投資ファンド持分のネット",
+       "check_by": "2026-11-12"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-22-003",
+     "event_id": "EVT-2026-10-22-003",
+     "headline": "国債の入札：流動性供給入札は応募1兆8,804億円に対し4,988億円を発行、来週の2年国債は2兆8,000億円程度（財務省）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "流動性供給入札は、市場で取引が少なくなった国債の銘柄を、財務省が追加で発行して市場に出す入札である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "財務省が10月22日に行った流動性供給入札（第463回）で、応募額は額面で1兆8,804億円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "兆円",
+         "label": "応募額（兆の部分）"
+        },
+        {
+         "value": 8804,
+         "unit": "億円",
+         "label": "応募額（億の部分）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "額面金額で1兆8,804億円",
+       "attribution": "出典：財務省「流動性供給（第463回）入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261022.htm）",
+       "processing_note": "財務省「流動性供給（第463回）入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261022.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "実際に発行が決まった額（募入決定額）は、額面で4,988億円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4988,
+         "unit": "億円",
+         "label": "募入決定額"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "額面金額で4,988億円",
+       "attribution": "出典：財務省「流動性供給（第463回）入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261022.htm）",
+       "processing_note": "財務省「流動性供給（第463回）入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261022.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "募入最大利回格差は▲0.007%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": -0.007,
+         "unit": "%",
+         "label": "募入最大利回格差"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "▲0.007％",
+       "attribution": "出典：財務省「流動性供給（第463回）入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261022.htm）",
+       "processing_note": "財務省「流動性供給（第463回）入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261022.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "財務省は同じ日に、11月に出す2年利付国債の発行予定額を額面で2兆8,000億円程度と公表した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "兆円",
+         "label": "2年利付国債（11月債）の発行予定額（兆の部分）"
+        },
+        {
+         "value": 8000,
+         "unit": "億円",
+         "label": "2年利付国債（11月債）の発行予定額（億の部分）"
+        }
+       ],
+       "source_ref": "SRC-012",
+       "excerpt": "額面金額で2兆8,000億円程度",
+       "attribution": "出典：財務省「2年利付国債（11月債）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261022.htm）",
+       "processing_note": "財務省「2年利付国債（11月債）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261022.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-06",
+       "text": "2年利付国債の入札予定日は令和8年10月29日である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 29,
+         "unit": "日",
+         "label": "日付（入札予定日）"
+        }
+       ],
+       "source_ref": "SRC-012",
+       "excerpt": "入札予定日 令和8年10月29日",
+       "attribution": "出典：財務省「2年利付国債（11月債）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261022.htm）",
+       "processing_note": "財務省「2年利付国債（11月債）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261022.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-22-003-1",
+       "text": "流動性供給入札で応募額が発行額を大きく上回る状態が続けば、国債を売買する証券会社や銀行の間で、古い銘柄の国債への需要が根強いことを示している可能性がある。",
+       "falsifier": "次回以降の流動性供給入札で、応募額が募入決定額の2倍を下回れば、この見方は弱まる。",
+       "check_metric": "財務省 流動性供給入札の応募額と募入決定額",
+       "check_by": "2026-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-22-004",
+     "event_id": "EVT-2026-10-22-004",
+     "headline": "国が地方に配るお金のための借入れ、10月22日の入札：平均の利率は1.535%、応募は4兆5,990億円（財務省）",
+     "lines": [
+      {
+       "line_id": "L-004-02",
+       "text": "財務省が10月22日に公表した交付税及び譲与税配付金特別会計の借入金の入札結果で、借入利率の競争入札の応募額は4兆5,990億円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4,
+         "unit": "兆円",
+         "label": "応募額（兆の部分）"
+        },
+        {
+         "value": 5990,
+         "unit": "億円",
+         "label": "応募額（億の部分）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "4兆5,990億円",
+       "attribution": "出典：財務省「交付税及び譲与税配付金特別会計の借入金の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261022.htm）",
+       "processing_note": "財務省「交付税及び譲与税配付金特別会計の借入金の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261022.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "募入平均利率は1.535%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1.535,
+         "unit": "%",
+         "label": "募入平均利率"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "1.535％",
+       "attribution": "出典：財務省「交付税及び譲与税配付金特別会計の借入金の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261022.htm）",
+       "processing_note": "財務省「交付税及び譲与税配付金特別会計の借入金の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261022.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "募入最高利率は1.545%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1.545,
+         "unit": "%",
+         "label": "募入最高利率"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "1.545％",
+       "attribution": "出典：財務省「交付税及び譲与税配付金特別会計の借入金の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261022.htm）",
+       "processing_note": "財務省「交付税及び譲与税配付金特別会計の借入金の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261022.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "この特別会計は、国から地方公共団体に配る地方交付税などのお金を扱う会計で、足りない分を金融機関からの借入れでまかなうことがある。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-22-004-1",
+       "text": "国の借入れの利率が1%台半ばにあることは、短い期間の金利が上がった状態にあることを示しており、銀行業の短期の貸出の利回りにもつながる可能性がある。",
+       "falsifier": "次回以降の同じ借入金の入札で、募入平均利率が1%を下回れば、この見方は成り立たない。",
+       "check_metric": "財務省 交付税及び譲与税配付金特別会計の借入金の入札結果 募入平均利率",
+       "check_by": "2026-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-22-005",
+     "event_id": "EVT-2026-10-22-005",
+     "headline": "会社が社債でお金を集める条件：西部ガスホールディングスは10年で年3.486%、荏原製作所は5年で年2.801%（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "発行登録追補書類は、社債などを出す枠をあらかじめ届け出ている会社が、実際に出す社債の条件を決めたときに出す書類である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "西部ガスホールディングスは10月22日、第22回無担保社債の条件を記した発行登録追補書類を提出し、社債の総額は10,000百万円とした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10000,
+         "unit": "百万円",
+         "label": "西部ガスHDの社債の総額"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "券面総額又は振替社債の総額（円） 金10,000百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9DO）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9DO）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "この社債の利率は年3.486%である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.486,
+         "unit": "%",
+         "label": "西部ガスHDの社債の利率"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "利率（％） 年3.486％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9DO）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9DO）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-04",
+       "text": "差引手取概算額9,938百万円のうち5,000百万円は、2027年3月16日に償還予定の社債の償還資金にあてる予定としている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9938,
+         "unit": "百万円",
+         "label": "西部ガスHDの差引手取概算額"
+        },
+        {
+         "value": 5000,
+         "unit": "百万円",
+         "label": "社債の償還資金にあてる額"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "差引手取概算額9,938百万円のうち、5,000百万円を2027年３月16日に償還予定の第14回無担保普通社債の償還資金に",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9DO）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9DO）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-05",
+       "text": "荏原製作所も同じ日に発行登録追補書類を提出し、第14回無担保社債の総額を20,000百万円とした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20000,
+         "unit": "百万円",
+         "label": "荏原製作所の社債の総額"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "券面総額又は振替社債の総額(円) 金20,000百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z96J）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z96J）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-06",
+       "text": "この社債の利率は年2.801%である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.801,
+         "unit": "%",
+         "label": "荏原製作所の社債の利率"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "利率(％) 年2.801％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z96J）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z96J）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-07",
+       "text": "荏原製作所は、差引手取概算額19,900百万円を、2027年3月までに投資資金と設備投資資金の一部にあてる予定としている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 19900,
+         "unit": "百万円",
+         "label": "荏原製作所の差引手取概算額"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "上記差引手取概算額19,900百万円は、全て2027年３月迄に投資資金及び設備投資資金の一部に充当する予定であります。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z96J）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z96J）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-08",
+       "text": "西部ガスホールディングスの社債の償還期限は2036年10月28日である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 28,
+         "unit": "日",
+         "label": "日付（償還期限）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "償還期限 2036年10月28日",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9DO）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9DO）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-09",
+       "text": "荏原製作所の社債の償還期限は2031年10月28日である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 28,
+         "unit": "日",
+         "label": "日付（償還期限）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "償還期限 2031年10月28日",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z96J）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z96J）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-22-005-1",
+       "text": "社債の利率が年3%前後で決まる例が増えれば、借入れや社債に頼る度合いの大きい電気・ガス業などで、利払いの負担が少しずつ重くなる可能性がある。",
+       "falsifier": "今後の電気・ガス業の社債の発行条件で、同じ程度の期間の利率が年2.5%を下回る例が続けば、この見方は弱まる。",
+       "check_metric": "EDINET 発行登録追補書類に記された電気・ガス業の社債の利率",
+       "check_by": "2027-03-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-22-006",
+     "event_id": "EVT-2026-10-22-006",
+     "headline": "かつらのアートネイチャー、かつらを作るフィリピンの子会社の全株式を譲渡へ（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-006-01",
+       "text": "アートネイチャーは10月22日に臨時報告書を提出し、2026年10月15日の取締役会で、特定子会社の異動を伴う株式の譲渡を決議したと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 15,
+         "unit": "日",
+         "label": "日付（取締役会の決議日）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "当社は、2026年10月15日開催の取締役会において、当社の特定子会社の異動を伴う株式の譲渡を決議いたしました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9A8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9A8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-02",
+       "text": "譲渡する子会社はフィリピンにあり、資本金は90,000千フィリピンペソである。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 90000,
+         "unit": "千フィリピンペソ",
+         "label": "子会社の資本金"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "④ 資本金：90,000千フィリピンペソ",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9A8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9A8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-03",
+       "text": "異動前に同社がこの子会社に持つ議決権は900,000個だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 900000,
+         "unit": "個",
+         "label": "異動前の議決権の数"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "異動前：900,000個",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9A8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9A8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-04",
+       "text": "特定子会社は、規模が大きいなど法令で決められた条件に当たる子会社で、それが変わると臨時報告書で届け出ることになっている。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-22-007",
+     "event_id": "EVT-2026-10-22-007",
+     "headline": "イメージ情報開発、コンタクトセンターを運営するクラッド大分を200百万円で子会社に（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-007-01",
+       "text": "イメージ情報開発は10月22日に臨時報告書を提出し、2026年10月20日の取締役会で、株式会社クラッドが持つ株式会社クラッド大分の全株式を取得することを決議したと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20,
+         "unit": "日",
+         "label": "日付（取締役会の決議日）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "2026年10月20日開催の取締役会において、株式会社クラッド（以下「クラッド」といいます。）が保有する株式会社クラッド大分（以下「クラッド大分」といいます。）の発行済株式の全部を取得し",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H1）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H1）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-02",
+       "text": "クラッド大分の普通株式の取得の対価は200百万円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 200,
+         "unit": "百万円",
+         "label": "取得の対価（普通株式）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "クラッド大分の普通株式 200百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H1）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H1）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-03",
+       "text": "クラッド大分は、大分センター160席とリモートセンター38席の計198席のコンタクトセンターを運営している。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 160,
+         "unit": "席",
+         "label": "大分センターの席数"
+        },
+        {
+         "value": 38,
+         "unit": "席",
+         "label": "リモートセンターの席数"
+        },
+        {
+         "value": 198,
+         "unit": "席",
+         "label": "合計の席数"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "コンタクトセンター（大分センター160席及びリモートセンター38席の計198席）を運営するＢＰＯ事業者",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H1）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H1）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-04",
+       "text": "取得価額は、第三者の算定機関がDCF法で算定した株式価値の幅（下限は189百万円）を参考に、当事者の協議で決めたとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 189,
+         "unit": "百万円",
+         "label": "算定された株式価値（下限）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "独立した第三者算定機関がＤＣＦ法により算定した株式価値（189百万円～227百万円）を参考に",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H1）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H1）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-05",
+       "text": "クラッド大分の売上高は、2023年12月期から2025年12月期の3期で432百万円、473百万円、466百万円と記されている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 432,
+         "unit": "百万円",
+         "label": "売上高（2023年12月期）"
+        },
+        {
+         "value": 473,
+         "unit": "百万円",
+         "label": "売上高（2024年12月期）"
+        },
+        {
+         "value": 466,
+         "unit": "百万円",
+         "label": "売上高（2025年12月期）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "売上高 432 473 466",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H1）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H1）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-06",
+       "text": "コンタクトセンターは、企業に代わって客からの電話や問い合わせを受ける拠点で、こうした業務を外部に任せることをBPO（業務の外部委託）という。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-22-007-1",
+       "text": "コンタクトセンターの運営会社を買って規模を広げる動きが続けば、業務の外部委託を受ける会社の間で、人手の確保と自動化への投資の競争が強まる可能性がある。",
+       "falsifier": "今後半年の臨時報告書で、コンタクトセンターやBPOの会社の取得の届出が見られなければ、この見方は弱まる。",
+       "check_metric": "EDINET 臨時報告書（子会社取得）のうちBPO事業に関するものの件数",
+       "check_by": "2027-04-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-22-008",
+     "event_id": "EVT-2026-10-22-008",
+     "headline": "日本銀行の財産の中身：10月20日時点で国債は504,003,730,754千円、銀行が預ける当座預金は418,348,350,260千円（日本銀行）",
+     "lines": [
+      {
+       "line_id": "L-008-01",
+       "text": "日本銀行が10月22日に公表した営業毎旬報告で、10月20日時点の資産の合計は624,977,993,815千円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 624977993815,
+         "unit": "千円",
+         "label": "資産の合計"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "合計 624,977,993,815",
+       "attribution": "出典：日本銀行「営業毎旬報告（令和8年10月20日現在）」（https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261020.htm）",
+       "processing_note": "日本銀行「営業毎旬報告（令和8年10月20日現在）」（https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261020.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-02",
+       "text": "資産のうち国債は504,003,730,754千円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 504003730754,
+         "unit": "千円",
+         "label": "保有する国債"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "国債 504,003,730,754",
+       "attribution": "出典：日本銀行「営業毎旬報告（令和8年10月20日現在）」（https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261020.htm）",
+       "processing_note": "日本銀行「営業毎旬報告（令和8年10月20日現在）」（https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261020.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-03",
+       "text": "負債の側では、金融機関が日本銀行に預けている当座預金が418,348,350,260千円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 418348350260,
+         "unit": "千円",
+         "label": "当座預金"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "当座預金 418,348,350,260",
+       "attribution": "出典：日本銀行「営業毎旬報告（令和8年10月20日現在）」（https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261020.htm）",
+       "processing_note": "日本銀行「営業毎旬報告（令和8年10月20日現在）」（https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261020.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-04",
+       "text": "発行銀行券（世の中に出回るお札）は113,932,904,435千円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 113932904435,
+         "unit": "千円",
+         "label": "発行銀行券"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "発行銀行券 113,932,904,435",
+       "attribution": "出典：日本銀行「営業毎旬報告（令和8年10月20日現在）」（https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261020.htm）",
+       "processing_note": "日本銀行「営業毎旬報告（令和8年10月20日現在）」（https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261020.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-05",
+       "text": "金融機関への貸付金は68,416,800,000千円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 68416800000,
+         "unit": "千円",
+         "label": "貸付金"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "貸付金 68,416,800,000",
+       "attribution": "出典：日本銀行「営業毎旬報告（令和8年10月20日現在）」（https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261020.htm）",
+       "processing_note": "日本銀行「営業毎旬報告（令和8年10月20日現在）」（https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261020.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-06",
+       "text": "日本銀行が国債を買うと、その代金は売った金融機関の当座預金に入るため、国債の保有と当座預金の額は一緒に動きやすい。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-07",
+       "text": "当座預金に付く金利は、銀行が日本銀行にお金を置いておくことで得る収入にかかわる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-22-008-1",
+       "text": "日本銀行の当座預金の残高が大きいまま政策金利が上がると、当座預金に付く利息を通じて、銀行業の収入が増える面がある可能性がある。",
+       "falsifier": "日本銀行が当座預金に付ける金利を引き下げれば、この見方は成り立たない。",
+       "check_metric": "日本銀行 営業毎旬報告の当座預金と、補完当座預金制度の適用利率",
+       "check_by": "2026-12-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-22-009",
+     "event_id": "EVT-2026-10-22-009",
+     "headline": "深掘り：銀行の調査で見る業種と金利──建設・不動産の大企業向けの資金需要が強く、貸出の利ざやは広げる方向（日本銀行）",
+     "lines": [
+      {
+       "line_id": "L-009-01",
+       "text": "同じ調査で、建設・不動産の大企業向けの資金需要判断D.I.は14%ポイントで、前回の1%ポイントから上がった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 14,
+         "unit": "%ポイント",
+         "label": "建設・不動産 大企業向けの資金需要判断D.I.（今回）"
+        },
+        {
+         "value": 1,
+         "unit": "%ポイント",
+         "label": "同（前回）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "大企業向け           14           1",
+       "attribution": "出典：日本銀行「主要銀行貸出動向アンケート調査＜2026/10月＞」（https://www.boj.or.jp/statistics/dl/loan/loos/release/loos2610.pdf）",
+       "processing_note": "日本銀行「主要銀行貸出動向アンケート調査＜2026/10月＞」（https://www.boj.or.jp/statistics/dl/loan/loos/release/loos2610.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-02",
+       "text": "建設・不動産の中堅企業向けの資金需要判断D.I.は8%ポイントで、前回は-10%ポイントだった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 8,
+         "unit": "%ポイント",
+         "label": "建設・不動産 中堅企業向けの資金需要判断D.I.（今回）"
+        },
+        {
+         "value": -10,
+         "unit": "%ポイント",
+         "label": "同（前回）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "中堅企業向け           8           -10",
+       "attribution": "出典：日本銀行「主要銀行貸出動向アンケート調査＜2026/10月＞」（https://www.boj.or.jp/statistics/dl/loan/loos/release/loos2610.pdf）",
+       "processing_note": "日本銀行「主要銀行貸出動向アンケート調査＜2026/10月＞」（https://www.boj.or.jp/statistics/dl/loan/loos/release/loos2610.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-03",
+       "text": "資金需要が増えたと答えた金融機関が挙げた要因では、「設備投資の拡大」の重要度の平均値が大企業向けで2.20と、示された要因の中で最も高かった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.2,
+         "unit": "点",
+         "label": "設備投資の拡大の平均値（大企業向け）"
+        },
+        {
+         "value": 2.25,
+         "unit": "点",
+         "label": "同（中堅企業向け）"
+        },
+        {
+         "value": 2.0,
+         "unit": "点",
+         "label": "同（中小企業向け）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "②設備投資の拡大                     2.20    2.25       2.00",
+       "attribution": "出典：日本銀行「主要銀行貸出動向アンケート調査＜2026/10月＞」（https://www.boj.or.jp/statistics/dl/loan/loos/release/loos2610.pdf）",
+       "processing_note": "日本銀行「主要銀行貸出動向アンケート調査＜2026/10月＞」（https://www.boj.or.jp/statistics/dl/loan/loos/release/loos2610.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-04",
+       "text": "住宅ローンの資金需要が減ったと答えた金融機関が挙げた要因では、「貸出金利の上昇」の重要度の平均値が3.00だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.0,
+         "unit": "点",
+         "label": "住宅ローン需要減少の要因「貸出金利の上昇」の平均値"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "④貸出金利の上昇                  3.00    n.a.",
+       "attribution": "出典：日本銀行「主要銀行貸出動向アンケート調査＜2026/10月＞」（https://www.boj.or.jp/statistics/dl/loan/loos/release/loos2610.pdf）",
+       "processing_note": "日本銀行「主要銀行貸出動向アンケート調査＜2026/10月＞」（https://www.boj.or.jp/statistics/dl/loan/loos/release/loos2610.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-05",
+       "text": "過去3か月の企業向けの貸出条件のうち、利ざやの設定のD.I.は大企業向け・中堅企業向け・中小企業向けのいずれも-7%ポイントだった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": -7,
+         "unit": "%ポイント",
+         "label": "利鞘設定の貸出条件D.I.（大企業向け）"
+        },
+        {
+         "value": -7,
+         "unit": "%ポイント",
+         "label": "同（中堅企業向け）"
+        },
+        {
+         "value": -7,
+         "unit": "%ポイント",
+         "label": "同（中小企業向け）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "②利鞘設定（縮小＝緩和）           -7      -7         -7",
+       "attribution": "出典：日本銀行「主要銀行貸出動向アンケート調査＜2026/10月＞」（https://www.boj.or.jp/statistics/dl/loan/loos/release/loos2610.pdf）",
+       "processing_note": "日本銀行「主要銀行貸出動向アンケート調査＜2026/10月＞」（https://www.boj.or.jp/statistics/dl/loan/loos/release/loos2610.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-06",
+       "text": "格付けが上位の企業向けの利ざやの設定のD.I.は12%ポイントで、前回も12%ポイントだった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 12,
+         "unit": "%ポイント",
+         "label": "上位格付先の利鞘設定D.I.（今回）"
+        },
+        {
+         "value": 12,
+         "unit": "%ポイント",
+         "label": "同（前回）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "上位格付先                 12         12",
+       "attribution": "出典：日本銀行「主要銀行貸出動向アンケート調査＜2026/10月＞」（https://www.boj.or.jp/statistics/dl/loan/loos/release/loos2610.pdf）",
+       "processing_note": "日本銀行「主要銀行貸出動向アンケート調査＜2026/10月＞」（https://www.boj.or.jp/statistics/dl/loan/loos/release/loos2610.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-07",
+       "text": "利ざやは、銀行が貸出に付ける金利と、銀行がお金を集めるのにかかる費用との差である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-08",
+       "text": "この調査の貸出条件のD.I.は、条件を「緩和」したと答えた割合から「厳格化」したと答えた割合を引くので、利ざやの設定でマイナスなら、利ざやを広げた（借り手に厳しくした）金融機関のほうが多いことを示す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-09",
+       "text": "重要度の平均値は、「重要」を3、「やや重要」を2、「重要でない」を1として、答えた金融機関の割合で重みを付けて平均したものである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-22-009-1",
+       "text": "建設・不動産の大企業向けで資金需要が強いとみる金融機関が増えたことは、建設業や不動産業で、設備や開発のための借入れが増えている可能性がある。",
+       "falsifier": "次回の同じ調査で、建設・不動産の大企業向けの資金需要判断D.I.が0以下に戻れば、この見方は弱まる。",
+       "check_metric": "日本銀行 主要銀行貸出動向アンケート調査 建設・不動産 大企業向けの資金需要判断D.I.",
+       "check_by": "2027-01-31"
+      },
+      {
+       "inference_id": "INF-2026-10-22-009-2",
+       "text": "銀行が利ざやを広げる方向の答えが続けば、借入れの多い中小企業で利払いの負担が増える可能性がある。",
+       "falsifier": "次回の同じ調査で、利鞘設定の貸出条件D.I.が0以上（緩和の側）に変われば、この見方は成り立たない。",
+       "check_metric": "日本銀行 主要銀行貸出動向アンケート調査 利鞘設定の貸出条件D.I.",
+       "check_by": "2027-01-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-10-22T13:15:21.456151+09:00",
+  "first_run": {
+   "run_at": "2026-10-22T13:15:21.456151+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 12,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 58,
+  "passed": 46,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 12,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 6,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-001": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp120000-rep-001_E04523-000_2026-10-22_01_2026-10-22_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp120000-rep-001_E04523-000_2026-10-22_01_2026-10-22_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E03493-000_2026-10-22_01_2026-10-22_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E03493-000_2026-10-22_01_2026-10-22_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0100000_honbun_jpcrp120000-rep-001_E01542-000_2026-10-22_01_2026-10-22_ixbrl.htm",
+     "XBRL/PublicDoc/0200000_honbun_jpcrp120000-rep-001_E01542-000_2026-10-22_01_2026-10-22_ixbrl.htm",
+     "XBRL/PublicDoc/0300000_honbun_jpcrp120000-rep-001_E01542-000_2026-10-22_01_2026-10-22_ixbrl.htm",
+     "XBRL/PublicDoc/0400000_honbun_jpcrp120000-rep-001_E01542-000_2026-10-22_01_2026-10-22_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp120000-rep-001_E01542-000_2026-10-22_01_2026-10-22_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E05573-000_2026-10-22_01_2026-10-22_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E05573-000_2026-10-22_01_2026-10-22_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 6,
+  "attribution_overwritten": 58,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "noon",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 12,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 4,
+  "evidence_doc_type_overridden": 4,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {
+   "edinet_doctype_unmapped": 4
+  },
+  "impact_kind_undetermined_by_doc_type": {
+   "100": 2,
+   "180": 2
+  },
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 4,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 4,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 119,
+   "numbers_declared": 68,
+   "gap": 51,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 116,
+     "numbers_declared": 68
+    },
+    "explainer": {
+     "text_number_tokens": 3,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 6,
+   "line_ids": [
+    "L-001-02",
+    "L-003-06",
+    "L-005-08",
+    "L-005-09",
+    "L-006-01",
+    "L-007-01"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [
+   {
+    "word": "主要",
+    "location": "line_text",
+    "id": "L-001-01"
+   }
+  ],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 11,
+   "change": 24,
+   "ripple": 5,
+   "deep": 6
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 8,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-006",
+    "SRC-007",
+    "SRC-008",
+    "SRC-009",
+    "SRC-010",
+    "SRC-012"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 3,
+   "first_run_at": "2026-10-22T13:14:46.076456+09:00",
+   "last_run_at": "2026-10-22T13:15:18.971793+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [
+    "L-004-01"
+   ],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [
+    {
+     "line_id": "L-007-04",
+     "values": [
+      227
+     ]
+    }
+   ],
+   "last_counts": {
+    "ok": 46,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [
+   {
+    "hypothesis_id": "2026-10-22-noon-1",
+    "company_name": "西部ガスホールディングス株式会社",
+    "submitted_at": "2026-10-22T10:03:00+09:00",
+    "baseline_point": "2026-10-22T13:15:21.456151+09:00",
+    "trading_minutes": 132,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-22-noon-2",
+    "company_name": "株式会社荏原製作所",
+    "submitted_at": "2026-10-22T10:35:00+09:00",
+    "baseline_point": "2026-10-22T13:15:21.456151+09:00",
+    "trading_minutes": 100,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-22-noon-3",
+    "company_name": "株式会社アートネイチャー",
+    "submitted_at": "2026-10-22T10:33:00+09:00",
+    "baseline_point": "2026-10-22T13:15:21.456151+09:00",
+    "trading_minutes": 102,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-22-noon-4",
+    "company_name": "イメージ情報開発株式会社",
+    "submitted_at": "2026-10-22T12:26:00+09:00",
+    "baseline_point": "2026-10-22T13:15:21.456151+09:00",
+    "trading_minutes": 45,
+    "reason": null
+   }
+  ],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 12,
+   "total_unregistered": 14,
+   "excluded_date_time_tokens": 50,
+   "lines": [
+    {
+     "line_id": "L-001-01",
+     "values": [
+      "3",
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-001-06",
+     "values": [
+      "3"
+     ]
+    },
+    {
+     "line_id": "L-002-01",
+     "values": [
+      "665"
+     ]
+    },
+    {
+     "line_id": "L-002-04",
+     "values": [
+      "2"
+     ]
+    },
+    {
+     "line_id": "L-002-06",
+     "values": [
+      "1616"
+     ]
+    },
+    {
+     "line_id": "L-003-02",
+     "values": [
+      "463"
+     ]
+    },
+    {
+     "line_id": "L-003-04",
+     "values": [
+      "0.007"
+     ]
+    },
+    {
+     "line_id": "L-005-02",
+     "values": [
+      "22"
+     ]
+    },
+    {
+     "line_id": "L-005-05",
+     "values": [
+      "14"
+     ]
+    },
+    {
+     "line_id": "L-007-05",
+     "values": [
+      "3"
+     ]
+    },
+    {
+     "line_id": "L-009-02",
+     "values": [
+      "10"
+     ]
+    },
+    {
+     "line_id": "L-009-05",
+     "values": [
+      "3",
+      "7"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 10,
+   "zero_letter_count": 3,
+   "lines": [
+    {
+     "line_id": "L-003-04",
+     "letters": 0
+    },
+    {
+     "line_id": "L-004-02",
+     "letters": 3
+    },
+    {
+     "line_id": "L-004-03",
+     "letters": 0
+    },
+    {
+     "line_id": "L-004-04",
+     "letters": 0
+    },
+    {
+     "line_id": "L-005-03",
+     "letters": 3
+    },
+    {
+     "line_id": "L-005-06",
+     "letters": 3
+    },
+    {
+     "line_id": "L-007-05",
+     "letters": 3
+    },
+    {
+     "line_id": "L-008-01",
+     "letters": 2
+    },
+    {
+     "line_id": "L-008-02",
+     "letters": 2
+    },
+    {
+     "line_id": "L-008-05",
+     "letters": 3
+    }
+   ]
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "ok",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 6,
+    "source_ids": [
+     "SRC-006",
+     "SRC-007",
+     "SRC-008",
+     "SRC-009",
+     "SRC-010",
+     "SRC-012"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 9
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "industry_picks_total": 3,
+  "industry_examples_total": 1,
+  "industry_example_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "ai_written_examples_discarded": 0,
+  "slot_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "short_name_match_count": {
+   "count": 0,
+   "names": []
+  },
+  "allowed_industries_count": 30,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
