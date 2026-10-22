@@ -1,0 +1,1427 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-10-22-evening",
+ "date": "2026-10-22",
+ "slot": "evening",
+ "generated_at": "2026-10-22T17:17:56.833421+09:00",
+ "market_open": true,
+ "baseline": {
+  "date": "2026-10-23",
+  "price_type": "next_open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-22&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月22日）",
+   "published_at": "2026-10-22",
+   "fetched_at": "2026-10-22T17:10:54+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "f33d5a47c97d0701aaa6b8cc2489aa5713ad15929ce24792c016a06704bef826",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-21&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月21日）",
+   "published_at": "2026-10-21",
+   "fetched_at": "2026-10-22T17:11:00+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "8c6e86ad4083e7a351352a2c412a85b8ab682df38cf82246b8ff6649fb716dc1",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z9H8?type=1",
+   "publisher": "株式会社不二越",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社不二越）",
+   "published_at": "2026-10-22T15:32:00+09:00",
+   "fetched_at": "2026-10-22T17:11:15+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "49c29d6075f0e7d5eb102b6d28c16cd1213e33d2194e7859e02f15cf0e6c2c9e",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H8）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H8"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z9ET?type=1",
+   "publisher": "共栄セキュリティーサービス株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（共栄セキュリティーサービス株式会社）",
+   "published_at": "2026-10-22T14:20:00+09:00",
+   "fetched_at": "2026-10-22T17:11:21+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "53ee4d978fe440e9436ae70c646dfc3c76a228c2afc4dd51710be30d8e9c9288",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9ET）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9ET）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9ET"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z9D7?type=1",
+   "publisher": "メディア総研株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（メディア総研株式会社）",
+   "published_at": "2026-10-22T11:46:00+09:00",
+   "fetched_at": "2026-10-22T17:11:27+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "1ccc111553d59273c86b87dc4765047d2fbd1084e314c4dba19dc9ccccbdd48c",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9D7）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9D7）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9D7"
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z7IU?type=1",
+   "publisher": "株式会社コーチ・エィ",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社コーチ・エィ）",
+   "published_at": "2026-10-22T16:00:00+09:00",
+   "fetched_at": "2026-10-22T17:11:33+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "1dbc416d4ff64b092737192a4fc5b3b9e8ae611067536986a165bd05b5d62c71",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7IU）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7IU）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7IU"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z9JA?type=1",
+   "publisher": "アクセルマーク株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（アクセルマーク株式会社）",
+   "published_at": "2026-10-22T16:05:00+09:00",
+   "fetched_at": "2026-10-22T17:11:38+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "8b8e44fe9b8a49ebcb8fa109363fb90cde0d24e08b28e8b98030a0e6dc6b4497",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9JA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9JA）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9JA"
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z9F6?type=1",
+   "publisher": "ａｂｃ株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（ａｂｃ株式会社）",
+   "published_at": "2026-10-22T16:13:00+09:00",
+   "fetched_at": "2026-10-22T17:11:44+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "55346459b50754969da6384c7dea0fd8eea3b1b2a56fe9de8fe186e934e94dee",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9F6）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9F6）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9F6"
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z9KU?type=1",
+   "publisher": "日本乾溜工業株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（日本乾溜工業株式会社）",
+   "published_at": "2026-10-22T16:14:00+09:00",
+   "fetched_at": "2026-10-22T17:11:49+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "b45658f8ad21f4360fb6b62aa486e7f3babc3de1eda5814e1cb5c0571a2194a1",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9KU）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9KU）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9KU"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z86K?type=1",
+   "publisher": "株式会社キャスター",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社キャスター）",
+   "published_at": "2026-10-22T16:35:00+09:00",
+   "fetched_at": "2026-10-22T17:11:55+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "4d293abbe8d76228f1c5244ff5f9ba873dd2a7584934ed6717e9f707a6d9cff8",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z86K）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z86K）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z86K"
+  },
+  {
+   "source_id": "SRC-009",
+   "url": "https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/01.pdf",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "資料１ 国内投資・中小企業等",
+   "published_at": "2026-10-22",
+   "fetched_at": "2026-10-22T17:12:43+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "d17b646947f9ae5323678a52f6aafc0de86c24acb6bf33d7a7ad018d0b50d845",
+   "usage": "quotable",
+   "attribution": "出典：財務省「資料１ 国内投資・中小企業等」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/01.pdf）",
+   "processing_note": "財務省「資料１ 国内投資・中小企業等」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/01.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-013",
+   "url": "https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/02.pdf",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "資料２ 文教・科学技術",
+   "published_at": "2026-10-22",
+   "fetched_at": "2026-10-22T17:14:00+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "c33118908c870b1cc71634dee6382a820b53b146d38360dcd7aa24e695230b79",
+   "usage": "quotable",
+   "attribution": "出典：財務省「資料２ 文教・科学技術」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/02.pdf）",
+   "processing_note": "財務省「資料２ 文教・科学技術」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/02.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-012",
+   "url": "https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_auct/auct20261022.htm",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "国庫短期証券（第1416回）の発行予定額等",
+   "published_at": "2026-10-22",
+   "fetched_at": "2026-10-22T17:12:48+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "4eb882bb3edc9e3edd0b22b014f70ac46ac04894a0e305e5abeea65ba4a0d945",
+   "usage": "quotable",
+   "attribution": "出典：財務省「国庫短期証券（第1416回）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_auct/auct20261022.htm）",
+   "processing_note": "財務省「国庫短期証券（第1416回）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_auct/auct20261022.htm）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-22-001",
+     "event_id": "EVT-2026-10-22-001",
+     "headline": "国内投資を国はどう後押しするか：財務省が審議会に資料、官民の国内投資は2040年度までに370兆円超の想定（財務省）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "財政制度等審議会の財政制度分科会は、国の予算の使い方について、財務省が考え方や資料を示し、学者や経済界の委員が意見を述べる場である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "財務省が10月22日の分科会に出した資料「国内投資・中小企業等」は、政府の「日本成長戦略」で、17の戦略分野にある62の「主要な製品・技術等」について、2040年度までに官民の国内投資が総額370兆円超と想定されていると紹介した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 17,
+         "unit": "分野",
+         "label": "件数（戦略分野）"
+        },
+        {
+         "value": 62,
+         "unit": "品目",
+         "label": "件数（製品・技術等）"
+        },
+        {
+         "value": 370,
+         "unit": "兆円",
+         "label": "官民の国内投資の想定額（2040年度まで）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "17の戦略分野における62の「主要な製品・技術等」で想定される官民の国内投資は、2040年度までに総額370兆円超",
+       "attribution": "出典：財務省「資料１ 国内投資・中小企業等」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/01.pdf）",
+       "processing_note": "財務省「資料１ 国内投資・中小企業等」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/01.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "同じ資料は、日本成長戦略などによる経済効果として、2040年度に国内の民間の設備投資額が230兆円、名目GDPが1,100兆円に迫るという見通しを載せた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 230,
+         "unit": "兆円",
+         "label": "2040年度の国内民間設備投資額"
+        },
+        {
+         "value": 1100,
+         "unit": "兆円",
+         "label": "2040年度の名目GDP"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "日本成長戦略等による経済効果：2040年度には、国内民間設備投資額230兆円、名目GDPは1,100兆円に迫る",
+       "attribution": "出典：財務省「資料１ 国内投資・中小企業等」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/01.pdf）",
+       "processing_note": "財務省「資料１ 国内投資・中小企業等」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/01.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "資料は、AI・半導体分野に10兆円以上の公的支援を行うための枠組みとして、2024年秋の総合経済対策で「AI・半導体産業基盤強化フレーム」が設けられたことを取り上げた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10,
+         "unit": "兆円",
+         "label": "AI・半導体分野への公的支援の枠組みの規模"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "10兆円以上の公的支援を行うための枠組みとして、2024年秋の総合経済対策において、「AI・半導体産業基盤強化フレーム」を",
+       "attribution": "出典：財務省「資料１ 国内投資・中小企業等」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/01.pdf）",
+       "processing_note": "財務省「資料１ 国内投資・中小企業等」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/01.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "資料によると、令和6年の産業競争力強化法の改正で、従業員2,000人以下の企業（中小企業を除く）が新たに「中堅企業」と位置付けられた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2000,
+         "unit": "人",
+         "label": "中堅企業の従業員数の上限"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "令和6年の産業競争力強化法改正で、従業員2,000人以下の企業を新たに「中堅企業」と位置付け",
+       "attribution": "出典：財務省「資料１ 国内投資・中小企業等」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/01.pdf）",
+       "processing_note": "財務省「資料１ 国内投資・中小企業等」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/01.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "補助金は、国が返さなくてよいお金を企業などに渡すしくみで、出資や融資は、国がお金を出したり貸したりして、あとで配当や返済を受けるしくみである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-22-001-1",
+       "text": "国の産業支援が補助金から出資や融資へ移っていけば、半導体や電子部品をつくる業種で、国のお金を受け取る形が変わる可能性がある。",
+       "falsifier": "12月にまとまる令和9年度予算の政府案で、AI・半導体分野の支援が補助金中心のまま要求どおり認められれば、この見方は成り立たない。",
+       "check_metric": "令和9年度予算政府案のAI・半導体関連の補助金と出資の額（財務省・経済産業省の資料）",
+       "check_by": "2027-01-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-22-002",
+     "event_id": "EVT-2026-10-22-002",
+     "headline": "警備の共栄セキュリティーサービス、取締役3名に自社の株59,000株を報酬として渡す：1株3,060円（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "譲渡制限付株式は、決まった期間は売ることができない株を、役員に報酬として渡すしくみである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "共栄セキュリティーサービスは10月22日に出した臨時報告書で、同日の取締役会で、対象の取締役3名に普通株式59,000株を処分することを決議したと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3,
+         "unit": "名",
+         "label": "件数（対象の取締役）"
+        },
+        {
+         "value": 59000,
+         "unit": "株",
+         "label": "処分する株式数"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "対象取締役3名に対し、譲渡制限付株式報酬制度に基づき、職務執行の対価として当社の普通株式59,000株",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9ET）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9ET）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "発行価格は1株3,060円とされている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3060,
+         "unit": "円",
+         "label": "1株の発行価格"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "（ⅰ）発行価格 3,060円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9ET）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9ET）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "発行価額の総額は180,540,000円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 180540000,
+         "unit": "円",
+         "label": "発行価額の総額"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "（ⅰ）発行価額の総額 180,540,000円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9ET）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9ET）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "この株は、会社が持っている自社の株（自己株式）を渡す形で行われる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-22-003",
+     "event_id": "EVT-2026-10-22-003",
+     "headline": "投融資やWEB3事業のabc、8月期の決算で引当金や損失を計上：連結の減損損失は1,279百万円（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "abcが10月22日に出した臨時報告書によると、2026年8月期の連結決算で、営業費用として貸倒引当金繰入額882百万円を計上する。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 882,
+         "unit": "百万円",
+         "label": "連結の営業費用としての貸倒引当金繰入額"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "（連結） 営業費用 貸倒引当金繰入額 882百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9F6）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9F6）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "連結の表では、減損損失が1,279百万円と書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1279,
+         "unit": "百万円",
+         "label": "連結の減損損失"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "減損損失 1,279百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9F6）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9F6）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "連結の表では、出資金評価損が961百万円と書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 961,
+         "unit": "百万円",
+         "label": "連結の出資金評価損"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "出資金評価損 961百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9F6）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9F6）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "減損損失は、持っている設備やのれんなどから、これまで見込んでいたほどのお金が戻らないと判断したときに、その価値を減らして損失にすることである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-22-004",
+     "event_id": "EVT-2026-10-22-004",
+     "headline": "人材サービスのキャスター、子会社から配当金30百万円を受け取る見込み（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "キャスターは10月22日に臨時報告書を出し、連結子会社から配当金30百万円を受け取る見込みとなったと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 30,
+         "unit": "百万円",
+         "label": "子会社から受け取る配当金"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "連結子会社である株式会社キャスターテックジャパンより、配当金30百万円を受領する見込みとなりました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z86K）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z86K）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "同じ書類で、子会社からの配当なので、2027年8月期の連結業績に影響はないとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 8,
+         "unit": "月期",
+         "label": "日付（決算期の月）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "連結子会社からの配当であるため、2027年８月期の連結業績に与える影響はありません",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z86K）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z86K）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-22-005",
+     "event_id": "EVT-2026-10-22-005",
+     "headline": "アクセルマーク、会計監査人を交代へ：12月23日の株主総会に選任を諮る（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "アクセルマークは10月22日に臨時報告書を出し、今の会計監査人が12月23日に開く予定の第34期定時株主総会の終わりで任期満了になると届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 23,
+         "unit": "日",
+         "label": "日付（任期満了となる株主総会の日）"
+        },
+        {
+         "value": 34,
+         "unit": "期",
+         "label": "件数（定時株主総会の回）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "太陽有限責任監査法人は、2026年12月23日開催予定の第34期定時株主総会の終結の時をもって任期満了となります",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9JA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9JA）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "会計監査人は、会社の決算の書類が正しいかを外から調べる監査法人などのことである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-22-006",
+     "event_id": "EVT-2026-10-22-006",
+     "headline": "国が短い期間お金を借りる国庫短期証券、10月29日に入札：発行予定額は3兆3,000億円程度（財務省）",
+     "lines": [
+      {
+       "line_id": "L-006-01",
+       "text": "財務省は10月22日、国庫短期証券（第1416回）の発行予定額を、額面金額で3兆3,000億円程度と公表した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3,
+         "unit": "兆円",
+         "label": "発行予定額（兆の部分）"
+        },
+        {
+         "value": 3000,
+         "unit": "億円",
+         "label": "発行予定額（億の部分）"
+        }
+       ],
+       "source_ref": "SRC-012",
+       "excerpt": "額面金額で3兆3,000億円程度",
+       "attribution": "出典：財務省「国庫短期証券（第1416回）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_auct/auct20261022.htm）",
+       "processing_note": "財務省「国庫短期証券（第1416回）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_auct/auct20261022.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-02",
+       "text": "国庫短期証券は、国が1年以内の短い期間でお金を借りるために出す証券である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-22-007",
+     "event_id": "EVT-2026-10-22-001",
+     "headline": "補助金の見直しの議論は、補助金を受ける業種に及ぶ：給湯器やコンテンツへの国の予算（財務省の資料から）",
+     "lines": [
+      {
+       "line_id": "L-007-01",
+       "text": "財務省の資料は、家庭の高効率給湯器の導入を後押しする補助金について、令和9年度の概算要求額を530億円、令和7年度の補正予算を570億円と示した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 530,
+         "unit": "億円",
+         "label": "高効率給湯器の補助金の令和9年度概算要求額"
+        },
+        {
+         "value": 570,
+         "unit": "億円",
+         "label": "高効率給湯器の補助金の令和7年度補正予算額"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "高効率給湯器導入促進による家庭部門の省エネルギー推進事業費補助金（R9概算要求額：530億円[GX]）（R7補正：570億円）",
+       "attribution": "出典：財務省「資料１ 国内投資・中小企業等」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/01.pdf）",
+       "processing_note": "財務省「資料１ 国内投資・中小企業等」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/01.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-02",
+       "text": "同じ資料によると、令和7年度補正と令和8年度当初のコンテンツ関連予算は約589億円で、令和9年度の要求では2,523億円になっている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 589,
+         "unit": "億円",
+         "label": "令和7年度補正・令和8年度当初のコンテンツ関連予算"
+        },
+        {
+         "value": 2523,
+         "unit": "億円",
+         "label": "令和9年度要求のコンテンツ関連予算"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "※ R7補正・R8当初のコンテンツ関連予算は約589億円（経産省:約356億円、文化庁:約200億円等）。R9要求では2,523億円",
+       "attribution": "出典：財務省「資料１ 国内投資・中小企業等」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/01.pdf）",
+       "processing_note": "財務省「資料１ 国内投資・中小企業等」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/01.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-03",
+       "text": "資料の経済産業省関係の概算要求のページでは、令和8年度当初予算（一般会計）は8,694億円と書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 8694,
+         "unit": "億円",
+         "label": "令和8年度当初予算（一般会計）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "【令和8年度当初予算（一般会計） 8,694億円】",
+       "attribution": "出典：財務省「資料１ 国内投資・中小企業等」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/01.pdf）",
+       "processing_note": "財務省「資料１ 国内投資・中小企業等」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/01.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-04",
+       "text": "同じページでは、エネルギー対策特別会計で、AI・半導体フレームとして5,272億円を要求していると書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5272,
+         "unit": "億円",
+         "label": "エネルギー対策特別会計のAI・半導体フレームの要求額"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "※エネ特において、ＡＩ・半導体フレームで5,272億円要求",
+       "attribution": "出典：財務省「資料１ 国内投資・中小企業等」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/01.pdf）",
+       "processing_note": "財務省「資料１ 国内投資・中小企業等」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/01.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-05",
+       "text": "概算要求は、各省が次の年度に使いたいお金の見積もりを財務省に出すもので、年末の政府案に向けて財務省が査定する。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-22-007-1",
+       "text": "給湯器の補助金が減らされれば、家庭向けの給湯器をつくる業種で、買い替えの時期が後ろにずれる可能性がある。",
+       "falsifier": "令和9年度予算政府案で、高効率給湯器の補助金が要求の530億円程度のまま認められれば、この見方は成り立たない。",
+       "check_metric": "令和9年度予算政府案の高効率給湯器導入促進の補助金額（経済産業省の予算資料）",
+       "check_by": "2027-01-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-22-008",
+     "event_id": "EVT-2026-10-22-007",
+     "headline": "深掘り：子どもが減る中での学校と大学──財務省の資料に見る教員・大学・授業料の数字（財務省）",
+     "lines": [
+      {
+       "line_id": "L-008-01",
+       "text": "財務省が10月22日の分科会に出した資料「文教・科学技術」によると、令和9年度の文教・科学技術予算の概算要求額は合計9.5兆円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9.5,
+         "unit": "兆円",
+         "label": "令和9年度の文教・科学技術予算の概算要求額"
+        }
+       ],
+       "source_ref": "SRC-013",
+       "excerpt": "令和９年度の文教・科学技術予算の概算要求額は、合計９．５兆円",
+       "attribution": "出典：財務省「資料２ 文教・科学技術」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/02.pdf）",
+       "processing_note": "財務省「資料２ 文教・科学技術」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/02.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-02",
+       "text": "資料は、教員の給与に上乗せする教職調整額を4%から10%へ引き上げた場合の所要額を2,390億円と示した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4,
+         "unit": "%",
+         "label": "引上げ前の教職調整額の割合"
+        },
+        {
+         "value": 10,
+         "unit": "%",
+         "label": "引上げ後の教職調整額の割合"
+        },
+        {
+         "value": 2390,
+         "unit": "億円",
+         "label": "教職調整額を引き上げた場合の所要額"
+        }
+       ],
+       "source_ref": "SRC-013",
+       "excerpt": "教職調整額を４％から10％へ引き上げた場合の所要額は2,390億円",
+       "attribution": "出典：財務省「資料２ 文教・科学技術」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/02.pdf）",
+       "processing_note": "財務省「資料２ 文教・科学技術」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/02.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-03",
+       "text": "大学への進学者は過去35年で約15万人増えたが、そのほとんどは私立大学によるもので約13万人増えたと資料は示した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 15,
+         "unit": "万人",
+         "label": "過去35年の大学進学者の増加"
+        },
+        {
+         "value": 13,
+         "unit": "万人",
+         "label": "うち私立大学の増加"
+        }
+       ],
+       "source_ref": "SRC-013",
+       "excerpt": "大学進学者は過去35年で約15万人増加したが、その大宗は私立大学によるもの（約13万人増加）",
+       "attribution": "出典：財務省「資料２ 文教・科学技術」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/02.pdf）",
+       "processing_note": "財務省「資料２ 文教・科学技術」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/02.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-04",
+       "text": "同じ期間に大学の数は305校増え、そのうち252校が私立大学だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 305,
+         "unit": "校",
+         "label": "過去35年間の大学数の増加"
+        },
+        {
+         "value": 252,
+         "unit": "校",
+         "label": "うち私立大学"
+        }
+       ],
+       "source_ref": "SRC-013",
+       "excerpt": "過去35年間で大学数は305校増加したが、うち８割以上の252校が私立大学",
+       "attribution": "出典：財務省「資料２ 文教・科学技術」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/02.pdf）",
+       "processing_note": "財務省「資料２ 文教・科学技術」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/02.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-05",
+       "text": "令和8年度の時点で、国の決めた標準額より高い授業料を設けている国立大学は、85大学のうち11大学（約13%）にとどまる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 85,
+         "unit": "大学",
+         "label": "件数（国立大学）"
+        },
+        {
+         "value": 11,
+         "unit": "大学",
+         "label": "件数（標準額を上回る授業料の大学）"
+        },
+        {
+         "value": 13,
+         "unit": "%",
+         "label": "その割合"
+        }
+       ],
+       "source_ref": "SRC-013",
+       "excerpt": "標準額を上回る授業料を設定している国立大学は、85大学中11大学に留まる（約13％）",
+       "attribution": "出典：財務省「資料２ 文教・科学技術」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/02.pdf）",
+       "processing_note": "財務省「資料２ 文教・科学技術」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/02.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-06",
+       "text": "国立大学は、国が決めた授業料の標準額の120%を上限に、授業料を決めることができる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 120,
+         "unit": "%",
+         "label": "授業料の上限（標準額に対する割合）"
+        }
+       ],
+       "source_ref": "SRC-013",
+       "excerpt": "各国立大学法人は標準額の120％を上限に授業料等",
+       "attribution": "出典：財務省「資料２ 文教・科学技術」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/02.pdf）",
+       "processing_note": "財務省「資料２ 文教・科学技術」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/proceedings/material/zaiseia20261022/02.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-07",
+       "text": "教職調整額は、公立学校の教員に残業代を払わない代わりに、給料に一定の割合を上乗せするしくみである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-22-008-1",
+       "text": "国立大学で標準額を上回る授業料を設ける大学が増えれば、学生向けの貸付や教育ローンを扱う業種で、借りる人の数が増える可能性がある。",
+       "falsifier": "令和9年度に標準額を上回る授業料を設ける国立大学が11大学から増えなければ、この見方は成り立たない。",
+       "check_metric": "文部科学省・財務省の資料にある、標準額を上回る授業料を設定している国立大学の数",
+       "check_by": "2027-12-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-10-22T17:17:56.833421+09:00",
+  "first_run": {
+   "run_at": "2026-10-22T17:17:56.833421+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 13,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 33,
+  "passed": 24,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 9,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 1,
+  "recommendation_warnings": [
+   {
+    "line_id": "L-002-01",
+    "word": "株式(周辺15文字以内に買/売)"
+   }
+  ],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 10,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-001": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E01603-000_2026-10-22_01_2026-10-22_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E01603-000_2026-10-22_01_2026-10-22_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E34722-000_2026-10-22_01_2026-10-22_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E34722-000_2026-10-22_01_2026-10-22_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E36886-000_2026-10-22_01_2026-10-22_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E36886-000_2026-10-22_01_2026-10-22_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-004": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E38178-000_2026-10-22_01_2026-10-22_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E38178-000_2026-10-22_01_2026-10-22_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E05707-000_2026-10-22_01_2026-10-22_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E05707-000_2026-10-22_01_2026-10-22_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-006": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E03740-000_2026-10-22_01_2026-10-22_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E03740-000_2026-10-22_01_2026-10-22_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-007": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E00276-000_2026-10-22_01_2026-10-22_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E00276-000_2026-10-22_01_2026-10-22_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-008": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E38651-000_2026-10-22_01_2026-10-22_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E38651-000_2026-10-22_01_2026-10-22_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 10,
+  "attribution_overwritten": 37,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "evening",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 13,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 4,
+  "evidence_doc_type_overridden": 4,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {
+   "edinet_doctype_unmapped": 4
+  },
+  "impact_kind_undetermined_by_doc_type": {
+   "180": 4
+  },
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 4,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 4,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 72,
+   "numbers_declared": 38,
+   "gap": 34,
+   "by_mark": {
+    "explainer": {
+     "text_number_tokens": 1,
+     "numbers_declared": 0
+    },
+    "source_number_match": {
+     "text_number_tokens": 71,
+     "numbers_declared": 38
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 2,
+   "line_ids": [
+    "L-004-02",
+    "L-005-01"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [
+   {
+    "word": "主要",
+    "location": "line_text",
+    "id": "L-001-02"
+   }
+  ],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 4,
+   "change": 10,
+   "ripple": 4,
+   "deep": 6
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 5,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-009",
+    "SRC-013",
+    "SRC-012"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 1,
+   "first_run_at": "2026-10-22T17:17:51.412123+09:00",
+   "last_run_at": "2026-10-22T17:17:51.412123+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 24,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [
+   {
+    "hypothesis_id": "2026-10-22-evening-1",
+    "company_name": "共栄セキュリティーサービス株式会社",
+    "submitted_at": "2026-10-22T14:20:00+09:00",
+    "baseline_point": "2026-10-23T09:00:00+09:00",
+    "trading_minutes": 70,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-22-evening-2",
+    "company_name": "ａｂｃ株式会社",
+    "submitted_at": "2026-10-22T16:13:00+09:00",
+    "baseline_point": "2026-10-23T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-22-evening-3",
+    "company_name": "株式会社キャスター",
+    "submitted_at": "2026-10-22T16:35:00+09:00",
+    "baseline_point": "2026-10-23T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-22-evening-4",
+    "company_name": "アクセルマーク株式会社",
+    "submitted_at": "2026-10-22T16:05:00+09:00",
+    "baseline_point": "2026-10-23T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   }
+  ],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 2,
+   "total_unregistered": 2,
+   "excluded_date_time_tokens": 33,
+   "lines": [
+    {
+     "line_id": "L-002-03",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-006-01",
+     "values": [
+      "1416"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 0,
+   "zero_letter_count": 0,
+   "lines": []
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "ok",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 3,
+    "source_ids": [
+     "SRC-009",
+     "SRC-013",
+     "SRC-012"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 8
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "industry_picks_total": 2,
+  "industry_examples_total": 1,
+  "industry_example_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "ai_written_examples_discarded": 0,
+  "slot_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "short_name_match_count": {
+   "count": 0,
+   "names": []
+  },
+  "allowed_industries_count": 30,
+  "legacy_substring_rule_dropped": {
+   "count": 3,
+   "names": [
+    "日本電子株式会社",
+    "東洋電機株式会社",
+    "株式会社リコー"
+   ]
+  },
+  "generic_name_dropped": {
+   "count": 1,
+   "names": [
+    "株式会社ズーム"
+   ]
+  }
+ }
+}
