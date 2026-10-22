@@ -1,0 +1,1454 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-10-23-morning",
+ "date": "2026-10-23",
+ "slot": "morning",
+ "generated_at": "2026-10-23T07:38:34.115045+09:00",
+ "market_open": true,
+ "baseline": {
+  "date": "2026-10-23",
+  "price_type": "open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-23&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月23日）",
+   "published_at": "2026-10-23",
+   "fetched_at": "2026-10-23T07:32:01+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "d0d61f09d5c523d0296930602563fa68c8c676ce99e50d908f3e1ae098217445",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-22&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月22日）",
+   "published_at": "2026-10-22",
+   "fetched_at": "2026-10-23T07:32:07+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "603541fb7c49ffc30cbd64879cf1bddb7690ac1b50344856eb89d92a38caf4d9",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z9H8?type=1",
+   "publisher": "株式会社不二越",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社不二越）",
+   "published_at": "2026-10-22T15:32:00+09:00",
+   "fetched_at": "2026-10-23T07:32:39+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "49c29d6075f0e7d5eb102b6d28c16cd1213e33d2194e7859e02f15cf0e6c2c9e",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H8）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H8"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z9D7?type=1",
+   "publisher": "メディア総研株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（メディア総研株式会社）",
+   "published_at": "2026-10-22T11:46:00+09:00",
+   "fetched_at": "2026-10-23T07:32:45+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "1ccc111553d59273c86b87dc4765047d2fbd1084e314c4dba19dc9ccccbdd48c",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9D7）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9D7）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9D7"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z9KU?type=1",
+   "publisher": "日本乾溜工業株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（日本乾溜工業株式会社）",
+   "published_at": "2026-10-22T16:14:00+09:00",
+   "fetched_at": "2026-10-23T07:32:56+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "b45658f8ad21f4360fb6b62aa486e7f3babc3de1eda5814e1cb5c0571a2194a1",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9KU）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9KU）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9KU"
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z7IU?type=1",
+   "publisher": "株式会社コーチ・エィ",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社コーチ・エィ）",
+   "published_at": "2026-10-22T16:00:00+09:00",
+   "fetched_at": "2026-10-23T07:33:02+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "1dbc416d4ff64b092737192a4fc5b3b9e8ae611067536986a165bd05b5d62c71",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7IU）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7IU）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7IU"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261022a.htm",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "流動性供給(第463回)入札において追加発行した国債の銘柄",
+   "published_at": "2026-10-22",
+   "fetched_at": "2026-10-23T07:34:18+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "1e4bbf2d39bc99c64fd14afeaffa773b19a01c4972befacc8ef52d8afc1ed486",
+   "usage": "quotable",
+   "attribution": "出典：財務省「流動性供給(第463回)入札において追加発行した国債の銘柄」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261022a.htm）",
+   "processing_note": "財務省「流動性供給(第463回)入札において追加発行した国債の銘柄」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261022a.htm）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-009",
+   "url": "https://www.mof.go.jp/policy/tab_salt/topics/20261021_kouriteikahenkou.pdf",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "製造たばこ小売定価（令和8年10月21日変更認可）",
+   "published_at": null,
+   "fetched_at": "2026-10-23T07:34:31+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "5564b85c9681895dc11e4dbdeec2eda0690213072398f494c46e7a43f445a0f7",
+   "usage": "quotable",
+   "attribution": "出典：財務省「製造たばこ小売定価（令和8年10月21日変更認可）」（https://www.mof.go.jp/policy/tab_salt/topics/20261021_kouriteikahenkou.pdf）",
+   "processing_note": "財務省「製造たばこ小売定価（令和8年10月21日変更認可）」（https://www.mof.go.jp/policy/tab_salt/topics/20261021_kouriteikahenkou.pdf）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-011",
+   "url": "https://www.federalreserve.gov/releases/cp/",
+   "publisher": "Federal Reserve Board",
+   "publisher_type": "central_bank",
+   "title": "Commercial Paper Rates and Outstanding Summary",
+   "published_at": "2026-10-22",
+   "fetched_at": "2026-10-23T07:35:01+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "2178022c858fc8a49436036f1fe48484f12ab981ee6470a6e54883749675d502",
+   "usage": "quotable",
+   "attribution": "出典：Federal Reserve Board「Commercial Paper Rates and Outstanding Summary」（https://www.federalreserve.gov/releases/cp/）",
+   "processing_note": "Federal Reserve Board「Commercial Paper Rates and Outstanding Summary」（https://www.federalreserve.gov/releases/cp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-23-001",
+     "event_id": "EVT-2026-10-23-001",
+     "headline": "米国の企業が短い期間お金を借りるCP：10月21日の残高は1,502.6（10億ドル単位）、格付けで金利に差（FRB理事会の統計から）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "CP（コマーシャルペーパー）は、企業が数日から数か月の短い期間お金を借りるために出す証書である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "FRB理事会（米国の中央銀行の理事会）は、米国のCPの金利と残高の統計を10月22日に掲載した。データは10月21日時点のものである。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 21,
+         "unit": "日",
+         "label": "日付（データの時点）"
+        },
+        {
+         "value": 22,
+         "unit": "日",
+         "label": "日付（掲載日）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "Data as of October 21, 2026Posted October 22, 2026",
+       "attribution": "出典：Federal Reserve Board「Commercial Paper Rates and Outstanding Summary」（https://www.federalreserve.gov/releases/cp/）",
+       "processing_note": "Federal Reserve Board「Commercial Paper Rates and Outstanding Summary」（https://www.federalreserve.gov/releases/cp/）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "季節による動きをならした残高（単位は10億ドル）は、10月21日（水曜日）時点で合計1,502.6だった。内訳は、金融以外の企業が380.5、金融機関が617.7、資産を裏付けにしたCPが504.4である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1502.6,
+         "unit": "10億ドル",
+         "label": "CP残高の合計（季節調整済み）"
+        },
+        {
+         "value": 380.5,
+         "unit": "10億ドル",
+         "label": "金融以外の企業のCP残高"
+        },
+        {
+         "value": 617.7,
+         "unit": "10億ドル",
+         "label": "金融機関のCP残高"
+        },
+        {
+         "value": 504.4,
+         "unit": "10億ドル",
+         "label": "資産を裏付けにしたCPの残高"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "Oct. 21  1,502.6  380.5  306.4  74.1  617.7  276.5  341.2  504.4",
+       "attribution": "出典：Federal Reserve Board「Commercial Paper Rates and Outstanding Summary」（https://www.federalreserve.gov/releases/cp/）",
+       "processing_note": "Federal Reserve Board「Commercial Paper Rates and Outstanding Summary」（https://www.federalreserve.gov/releases/cp/）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "1週間前の10月14日時点は、合計1,479.9（10億ドル単位）だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1479.9,
+         "unit": "10億ドル",
+         "label": "CP残高の合計（季節調整済み、10月14日の週）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "Oct. 14  1,479.9",
+       "attribution": "出典：Federal Reserve Board「Commercial Paper Rates and Outstanding Summary」（https://www.federalreserve.gov/releases/cp/）",
+       "processing_note": "Federal Reserve Board「Commercial Paper Rates and Outstanding Summary」（https://www.federalreserve.gov/releases/cp/）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "10月21日の金利は、格付けの高い（AA）金融以外の企業が30日の期間で借りる場合が年3.98%、格付けがそれより低い（A2/P2）金融以外の企業が30日の期間で借りる場合が年4.18%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.98,
+         "unit": "%",
+         "label": "AA格の金融以外の企業の30日物の金利"
+        },
+        {
+         "value": 4.18,
+         "unit": "%",
+         "label": "A2/P2格の金融以外の企業の30日物の金利"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "Oct. 21  3.88  3.93  3.94  3.98  4.04  n.a.  4.01  4.04  4.11  4.18",
+       "attribution": "出典：Federal Reserve Board「Commercial Paper Rates and Outstanding Summary」（https://www.federalreserve.gov/releases/cp/）",
+       "processing_note": "Federal Reserve Board「Commercial Paper Rates and Outstanding Summary」（https://www.federalreserve.gov/releases/cp/）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "同じ日の、格付けの高い金融以外の企業が1日だけ借りる金利は年3.88%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.88,
+         "unit": "%",
+         "label": "AA格の金融以外の企業の1日物の金利"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "Oct. 21  3.88  3.93",
+       "attribution": "出典：Federal Reserve Board「Commercial Paper Rates and Outstanding Summary」（https://www.federalreserve.gov/releases/cp/）",
+       "processing_note": "Federal Reserve Board「Commercial Paper Rates and Outstanding Summary」（https://www.federalreserve.gov/releases/cp/）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "同じ日の、格付けの高い（AA）資産を裏付けにしたCPの30日物の金利は年4.07%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4.07,
+         "unit": "%",
+         "label": "AA格の資産を裏付けにしたCPの30日物の金利"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "Oct. 21  3.87  3.90  3.94  n.a.  4.14  n.a.  3.92  3.95  4.00  4.07",
+       "attribution": "出典：Federal Reserve Board「Commercial Paper Rates and Outstanding Summary」（https://www.federalreserve.gov/releases/cp/）",
+       "processing_note": "Federal Reserve Board「Commercial Paper Rates and Outstanding Summary」（https://www.federalreserve.gov/releases/cp/）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-08",
+       "text": "一般に、格付けが低い企業ほど、お金を貸す側は高い金利を求める。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-23-001-1",
+       "text": "米国で企業の短期の借入れが増え続ければ、日本の大手銀行の米国でのドル資金の調達の費用にも影響する可能性がある。",
+       "falsifier": "10月28日の週以降、CP残高の合計が2週続けて減れば、この見方は弱まる。",
+       "check_metric": "FRB理事会 Commercial Paper の残高（季節調整済み）の合計",
+       "check_by": "2026-11-06"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-23-002",
+     "event_id": "EVT-2026-10-23-002",
+     "headline": "機械メーカーの不二越と、人材育成のコーチ・エィ、代表取締役の交代を臨時報告書で届け出（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "臨時報告書は、会社に大事なことが起きたときに、決まった様式で国に届け出る書類である。代表取締役が代わるときも届け出る。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "不二越は臨時報告書で、2026年10月22日開催の取締役会で代表取締役の異動を決議したと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 22,
+         "unit": "日",
+         "label": "日付（取締役会の開催日）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "当社は、2026年10月22日開催の取締役会において、代表取締役の異動について決議いたしました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "コーチ・エィも臨時報告書で、2026年10月22日開催の取締役会で代表取締役の異動を決議したと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 22,
+         "unit": "日",
+         "label": "日付（取締役会の開催日）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "当社は、2026年10月22日開催の取締役会において、代表取締役の異動について決議いたしました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7IU）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7IU）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-23-003",
+     "event_id": "EVT-2026-10-23-003",
+     "headline": "建設業の日本乾溜工業、代表取締役の交代を届け出：12月18日の株主総会の後に正式に決める予定（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "日本乾溜工業は臨時報告書で、2026年10月22日開催の取締役会で代表取締役の異動を決議したと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 22,
+         "unit": "日",
+         "label": "日付（取締役会の開催日）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "当社は、2026年10月22日開催の取締役会において、代表取締役の異動について決議いたしました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9KU）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9KU）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "役員の異動は、2026年12月18日開催予定の第89期定時株主総会と、その後の取締役会で正式に決定される予定と書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 18,
+         "unit": "日",
+         "label": "日付（定時株主総会の開催予定日）"
+        },
+        {
+         "value": 89,
+         "unit": "期",
+         "label": "件数（定時株主総会の期）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "役員の異動につきましては、2026年12月18日開催予定の第89期定時株主総会及びその後の取締役会において正式に決定される予定",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9KU）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9KU）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "株主総会は、会社の持ち主である株主が集まり、取締役を選ぶことなどを決める場である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-23-004",
+     "event_id": "EVT-2026-10-23-004",
+     "headline": "メディア総研、株主総会で会長職を設ける定款の変更を可決：賛成の割合は92.47%（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "定款は、会社の目的や仕組みなど、会社の基本のきまりを書いたものである。変えるには株主総会の決議が要る。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "メディア総研は臨時報告書で、2026年10月21日に開いた第35期定時株主総会で、決議事項が決議されたと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 21,
+         "unit": "日",
+         "label": "日付（株主総会の開催日）"
+        },
+        {
+         "value": 35,
+         "unit": "期",
+         "label": "件数（定時株主総会の期）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "2026年10月21日開催の当社第35期定時株主総会において、決議事項が決議されました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9D7）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9D7）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "第1号議案の定款の変更は、会長職を新たに設け、会長と社長の2名を代表取締役とする体制にするためのものと書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "名",
+         "label": "件数（代表取締役）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "新たに会長職を設置し、会長及び社長による代表取締役２名体制",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9D7）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9D7）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "第1号議案の定款の変更は、賛成9,170個、反対465個の議決権で可決され、賛成の割合は92.47%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9170,
+         "unit": "個",
+         "label": "第1号議案の賛成の議決権の数"
+        },
+        {
+         "value": 465,
+         "unit": "個",
+         "label": "第1号議案の反対の議決権の数"
+        },
+        {
+         "value": 92.47,
+         "unit": "%",
+         "label": "第1号議案の賛成割合"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "第１号議案 （定款一部変更の件）  9,170  465  0  （注）１  可決　92.47",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9D7）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9D7）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "第2号議案では、取締役6名の選任が議案になっていた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 6,
+         "unit": "名",
+         "label": "件数（選任する取締役）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "第２号議案　取締役６名選任の件",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9D7）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9D7）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-23-005",
+     "event_id": "EVT-2026-10-23-005",
+     "headline": "続報：国債の流動性供給入札で追加で出した銘柄──10年債の370回が992億円で最も多い（財務省）",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "財務省は10月22日、流動性供給（第463回）入札で追加発行した国債の銘柄の一覧を公表した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 463,
+         "unit": "回",
+         "label": "件数（流動性供給入札の回）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "流動性供給（第463回）入札において追加発行した国債の銘柄",
+       "attribution": "出典：財務省「流動性供給(第463回)入札において追加発行した国債の銘柄」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261022a.htm）",
+       "processing_note": "財務省「流動性供給(第463回)入札において追加発行した国債の銘柄」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261022a.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "流動性供給入札は、市場で取引が少なくなった古い国債を、国が追加で発行して市場に出す入札である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "一覧（単位は億円）では、10年債の第370回が992で、銘柄の中で最も多かった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 370,
+         "unit": "回",
+         "label": "10年債の回号"
+        },
+        {
+         "value": 992,
+         "unit": "億円",
+         "label": "10年債第370回の発行額（額面）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "10年債 370 992",
+       "attribution": "出典：財務省「流動性供給(第463回)入札において追加発行した国債の銘柄」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261022a.htm）",
+       "processing_note": "財務省「流動性供給(第463回)入札において追加発行した国債の銘柄」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261022a.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-04",
+       "text": "30年債では第27回が846億円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 27,
+         "unit": "回",
+         "label": "30年債の回号"
+        },
+        {
+         "value": 846,
+         "unit": "億円",
+         "label": "30年債第27回の発行額（額面）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "30年債 27 846",
+       "attribution": "出典：財務省「流動性供給(第463回)入札において追加発行した国債の銘柄」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261022a.htm）",
+       "processing_note": "財務省「流動性供給(第463回)入札において追加発行した国債の銘柄」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261022a.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-05",
+       "text": "20年債では第161回が623億円と、20年債の中で最も多かった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 161,
+         "unit": "回",
+         "label": "20年債の回号"
+        },
+        {
+         "value": 623,
+         "unit": "億円",
+         "label": "20年債第161回の発行額（額面）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "20年債 161 623",
+       "attribution": "出典：財務省「流動性供給(第463回)入札において追加発行した国債の銘柄」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261022a.htm）",
+       "processing_note": "財務省「流動性供給(第463回)入札において追加発行した国債の銘柄」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261022a.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-06",
+       "text": "少ない銘柄では、10年債の第383回が8億円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 383,
+         "unit": "回",
+         "label": "10年債の回号"
+        },
+        {
+         "value": 8,
+         "unit": "億円",
+         "label": "10年債第383回の発行額（額面）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "10年債 383   8",
+       "attribution": "出典：財務省「流動性供給(第463回)入札において追加発行した国債の銘柄」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261022a.htm）",
+       "processing_note": "財務省「流動性供給(第463回)入札において追加発行した国債の銘柄」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261022a.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-23-005-1",
+       "text": "流動性供給入札で特定の古い銘柄が多く出されるのは、その銘柄を市場で手に入れにくくなっていたためである可能性がある。",
+       "falsifier": "次回以降の流動性供給入札で同じ銘柄が出されなければ、この見方の裏付けは弱まる。",
+       "check_metric": "財務省 流動性供給入札で追加発行した国債の銘柄",
+       "check_by": "2026-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-23-006",
+     "event_id": "EVT-2026-10-23-006",
+     "headline": "深掘り：たばこの値段は国が認める──輸入の葉巻・パイプたばこで小売定価の変更が認可（財務省）",
+     "lines": [
+      {
+       "line_id": "L-006-01",
+       "text": "日本では、たばこの小売定価は、売る会社が申請して財務大臣の認可を受けて決まるしくみになっている。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-02",
+       "text": "財務省の資料では、ドイツ製のパイプたばこ（50.0g缶）の小売定価が2,150円から3,000円に変わる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 50.0,
+         "unit": "g",
+         "label": "製品の量"
+        },
+        {
+         "value": 2150,
+         "unit": "円",
+         "label": "現行の小売定価"
+        },
+        {
+         "value": 3000,
+         "unit": "円",
+         "label": "変更後の小売定価"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "ﾛｰﾗﾝﾄﾞ  50.0g 缶  ﾄﾞｲﾂ  2,150円  3,000円",
+       "attribution": "出典：財務省「製造たばこ小売定価（令和8年10月21日変更認可）」（https://www.mof.go.jp/policy/tab_salt/topics/20261021_kouriteikahenkou.pdf）",
+       "processing_note": "財務省「製造たばこ小売定価（令和8年10月21日変更認可）」（https://www.mof.go.jp/policy/tab_salt/topics/20261021_kouriteikahenkou.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-03",
+       "text": "ニカラグア製の葉巻たばこ（139mm、1本）は3,050円から3,100円に変わる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 139,
+         "unit": "mm",
+         "label": "葉巻の長さ"
+        },
+        {
+         "value": 1,
+         "unit": "本",
+         "label": "件数（1本あたり）"
+        },
+        {
+         "value": 3050,
+         "unit": "円",
+         "label": "現行の小売定価"
+        },
+        {
+         "value": 3100,
+         "unit": "円",
+         "label": "変更後の小売定価"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "葉巻たばこ  ﾀﾞﾆｴﾙ･ﾏｰｼｬﾙ  ･ﾛﾌﾞｽﾄ  139mm 1本  ﾆｶﾗｸﾞｱ  3,050円  3,100円",
+       "attribution": "出典：財務省「製造たばこ小売定価（令和8年10月21日変更認可）」（https://www.mof.go.jp/policy/tab_salt/topics/20261021_kouriteikahenkou.pdf）",
+       "processing_note": "財務省「製造たばこ小売定価（令和8年10月21日変更認可）」（https://www.mof.go.jp/policy/tab_salt/topics/20261021_kouriteikahenkou.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-04",
+       "text": "同じ葉巻の別の品目では、1本41,000円から60,000円に上がるものがある。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 41000,
+         "unit": "円",
+         "label": "現行の小売定価"
+        },
+        {
+         "value": 60000,
+         "unit": "円",
+         "label": "変更後の小売定価"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "･ｺﾞｰﾙﾄﾞｼｶﾞｰ･ﾄﾙﾍﾟﾄﾞ  41,000円  60,000円",
+       "attribution": "出典：財務省「製造たばこ小売定価（令和8年10月21日変更認可）」（https://www.mof.go.jp/policy/tab_salt/topics/20261021_kouriteikahenkou.pdf）",
+       "processing_note": "財務省「製造たばこ小売定価（令和8年10月21日変更認可）」（https://www.mof.go.jp/policy/tab_salt/topics/20261021_kouriteikahenkou.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-05",
+       "text": "一方、トルコ製のパイプたばこでは、2,000円から1,500円に下がる品目がある。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2000,
+         "unit": "円",
+         "label": "現行の小売定価"
+        },
+        {
+         "value": 1500,
+         "unit": "円",
+         "label": "変更後の小売定価"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "ICE GREEN APPLE  2,000円  1,500円",
+       "attribution": "出典：財務省「製造たばこ小売定価（令和8年10月21日変更認可）」（https://www.mof.go.jp/policy/tab_salt/topics/20261021_kouriteikahenkou.pdf）",
+       "processing_note": "財務省「製造たばこ小売定価（令和8年10月21日変更認可）」（https://www.mof.go.jp/policy/tab_salt/topics/20261021_kouriteikahenkou.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-06",
+       "text": "同じトルコ製のパイプたばこで、9,500円から7,500円に下がる品目もある。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9500,
+         "unit": "円",
+         "label": "現行の小売定価"
+        },
+        {
+         "value": 7500,
+         "unit": "円",
+         "label": "変更後の小売定価"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "BUBBLE FRUIT  9,500円  7,500円",
+       "attribution": "出典：財務省「製造たばこ小売定価（令和8年10月21日変更認可）」（https://www.mof.go.jp/policy/tab_salt/topics/20261021_kouriteikahenkou.pdf）",
+       "processing_note": "財務省「製造たばこ小売定価（令和8年10月21日変更認可）」（https://www.mof.go.jp/policy/tab_salt/topics/20261021_kouriteikahenkou.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-07",
+       "text": "輸入品の値段は、作った国の通貨と円の交換の比率（為替）や、運ぶ費用の影響を受ける。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-23-006-1",
+       "text": "輸入のたばこで値上げと値下げが同じ時期に並ぶのは、品目ごとに仕入れの費用の動きが違うためである可能性がある。",
+       "falsifier": "次回以降の認可で、同じ国の品目がそろって同じ向きに変われば、品目ごとの違いという見方は弱まる。",
+       "check_metric": "財務省 製造たばこの小売定価の認可の一覧",
+       "check_by": "2026-12-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-10-23T07:38:34.115045+09:00",
+  "first_run": {
+   "run_at": "2026-10-23T07:38:34.115045+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 9,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 32,
+  "passed": 24,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 8,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 6,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-001": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E01603-000_2026-10-22_01_2026-10-22_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E01603-000_2026-10-22_01_2026-10-22_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E36886-000_2026-10-22_01_2026-10-22_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E36886-000_2026-10-22_01_2026-10-22_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E00276-000_2026-10-22_01_2026-10-22_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E00276-000_2026-10-22_01_2026-10-22_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-004": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E38178-000_2026-10-22_01_2026-10-22_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E38178-000_2026-10-22_01_2026-10-22_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 6,
+  "attribution_overwritten": 33,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "morning",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 9,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 4,
+  "evidence_doc_type_overridden": 4,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {
+   "edinet_doctype_unmapped": 4
+  },
+  "impact_kind_undetermined_by_doc_type": {
+   "180": 4
+  },
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 4,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 4,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 1,
+   "source_ids": [
+    "SRC-009"
+   ]
+  },
+  "number_coverage": {
+   "text_number_tokens": 83,
+   "numbers_declared": 45,
+   "gap": 38,
+   "by_mark": {
+    "explainer": {
+     "text_number_tokens": 0,
+     "numbers_declared": 0
+    },
+    "source_number_match": {
+     "text_number_tokens": 83,
+     "numbers_declared": 45
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 9,
+   "line_ids": [
+    "L-001-02",
+    "L-002-02",
+    "L-002-04",
+    "L-003-01",
+    "L-003-02",
+    "L-004-02",
+    "L-004-03",
+    "L-004-05",
+    "L-005-01"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [
+   {
+    "word": "代表",
+    "location": "headline",
+    "id": "ART-2026-10-23-002"
+   },
+   {
+    "word": "代表",
+    "location": "line_text",
+    "id": "L-002-01"
+   },
+   {
+    "word": "代表",
+    "location": "line_text",
+    "id": "L-002-02"
+   },
+   {
+    "word": "代表",
+    "location": "line_text",
+    "id": "L-002-04"
+   },
+   {
+    "word": "代表",
+    "location": "headline",
+    "id": "ART-2026-10-23-003"
+   },
+   {
+    "word": "代表",
+    "location": "line_text",
+    "id": "L-003-01"
+   },
+   {
+    "word": "代表",
+    "location": "line_text",
+    "id": "L-004-03"
+   },
+   {
+    "word": "代表",
+    "location": "hypothesis_relation_text",
+    "id": "2026-10-23-morning-1"
+   },
+   {
+    "word": "代表",
+    "location": "hypothesis_impact_reason",
+    "id": "2026-10-23-morning-1"
+   },
+   {
+    "word": "代表",
+    "location": "hypothesis_relation_text",
+    "id": "2026-10-23-morning-2"
+   },
+   {
+    "word": "代表",
+    "location": "hypothesis_impact_reason",
+    "id": "2026-10-23-morning-2"
+   },
+   {
+    "word": "代表",
+    "location": "hypothesis_relation_text",
+    "id": "2026-10-23-morning-3"
+   },
+   {
+    "word": "代表",
+    "location": "hypothesis_impact_reason",
+    "id": "2026-10-23-morning-3"
+   }
+  ],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 6,
+   "change": 8,
+   "ripple": 5,
+   "deep": 5
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 4,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-008",
+    "SRC-011"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 2,
+   "first_run_at": "2026-10-23T07:38:08.453014+09:00",
+   "last_run_at": "2026-10-23T07:38:27.673189+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 24,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [
+   {
+    "hypothesis_id": "2026-10-23-morning-1",
+    "company_name": "株式会社不二越",
+    "submitted_at": "2026-10-22T15:32:00+09:00",
+    "baseline_point": "2026-10-23T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-23-morning-2",
+    "company_name": "株式会社コーチ・エィ",
+    "submitted_at": "2026-10-22T16:00:00+09:00",
+    "baseline_point": "2026-10-23T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-23-morning-3",
+    "company_name": "日本乾溜工業株式会社",
+    "submitted_at": "2026-10-22T16:14:00+09:00",
+    "baseline_point": "2026-10-23T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-23-morning-4",
+    "company_name": "メディア総研株式会社",
+    "submitted_at": "2026-10-22T11:46:00+09:00",
+    "baseline_point": "2026-10-23T09:00:00+09:00",
+    "trading_minutes": 180,
+    "reason": null
+   }
+  ],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 7,
+   "total_unregistered": 9,
+   "excluded_date_time_tokens": 36,
+   "lines": [
+    {
+     "line_id": "L-001-03",
+     "values": [
+      "10"
+     ]
+    },
+    {
+     "line_id": "L-001-04",
+     "values": [
+      "1",
+      "10"
+     ]
+    },
+    {
+     "line_id": "L-001-05",
+     "values": [
+      "2",
+      "2"
+     ]
+    },
+    {
+     "line_id": "L-004-03",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-004-04",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-004-05",
+     "values": [
+      "2"
+     ]
+    },
+    {
+     "line_id": "L-006-04",
+     "values": [
+      "1"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 7,
+   "zero_letter_count": 0,
+   "lines": [
+    {
+     "line_id": "L-001-03",
+     "letters": 3
+    },
+    {
+     "line_id": "L-001-04",
+     "letters": 3
+    },
+    {
+     "line_id": "L-001-06",
+     "letters": 3
+    },
+    {
+     "line_id": "L-005-03",
+     "letters": 2
+    },
+    {
+     "line_id": "L-005-04",
+     "letters": 2
+    },
+    {
+     "line_id": "L-005-05",
+     "letters": 2
+    },
+    {
+     "line_id": "L-005-06",
+     "letters": 2
+    }
+   ]
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "ok",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 3,
+    "source_ids": [
+     "SRC-008",
+     "SRC-009",
+     "SRC-011"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 6
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 1,
+   "articles": [
+    {
+     "article_id": "ART-2026-10-23-005",
+     "headline_has_word": true,
+     "is_followup": false
+    }
+   ]
+  },
+  "industry_picks_discarded": 0,
+  "industry_picks_total": 3,
+  "industry_examples_total": 1,
+  "industry_example_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "ai_written_examples_discarded": 0,
+  "slot_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "short_name_match_count": {
+   "count": 0,
+   "names": []
+  },
+  "allowed_industries_count": 30,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
