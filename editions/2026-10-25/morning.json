@@ -1,0 +1,1181 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-10-25-morning",
+ "date": "2026-10-25",
+ "slot": "morning",
+ "generated_at": "2026-10-25T07:35:51.728519+09:00",
+ "market_open": false,
+ "baseline": {
+  "date": "2026-10-25",
+  "price_type": "open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-25&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月25日）",
+   "published_at": "2026-10-25",
+   "fetched_at": "2026-10-25T07:32:08+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "3b7defb34f113c17d7c0403f2b0c2248c5345b4205dad725d9b08daf2459e4e7",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-23&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月23日）",
+   "published_at": "2026-10-23",
+   "fetched_at": "2026-10-25T07:32:20+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "0536463fbded9bc3daaf80622e3b0507ef86a13ac8d2328b28c8c7b1a9e7b150",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z7O8?type=1",
+   "publisher": "株式会社光通信",
+   "publisher_type": "company_disclosure",
+   "title": "発行登録書（株券､社債券等）（株式会社光通信）",
+   "published_at": "2026-10-23T10:03:00+09:00",
+   "fetched_at": "2026-10-25T07:32:37+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "610df8901e852c7d4d6c67047b1c5db4144563ef67a5fbaa2632c85144cd1c46",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7O8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7O8）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7O8"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z9K4?type=1",
+   "publisher": "ニシオホールディングス株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "発行登録書（株券､社債券等）（ニシオホールディングス株式会社）",
+   "published_at": "2026-10-23T09:01:00+09:00",
+   "fetched_at": "2026-10-25T07:32:44+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "2b969264d3c6c7bd0949cb584db5288ac42657420cc97b48f8d3afbbfa0ed48d",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9K4）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9K4）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9K4"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z903?type=1",
+   "publisher": "矢作建設工業株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "発行登録書（株券､社債券等）（矢作建設工業株式会社）",
+   "published_at": "2026-10-23T11:25:00+09:00",
+   "fetched_at": "2026-10-25T07:32:50+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "b76fd61fb907db6339b7c602c74195ca367848ec48311a9ff895ee8c7f3946eb",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z903）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z903）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z903"
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z9GB?type=1",
+   "publisher": "アイザワ証券グループ株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "発行登録書（株券､社債券等）（アイザワ証券グループ株式会社）",
+   "published_at": "2026-10-23T16:00:00+09:00",
+   "fetched_at": "2026-10-25T07:32:55+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "dd8f2b090846259c45e9833937bb9bafe6ef92f147c64c9611188973d5b3cf1a",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9GB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9GB）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9GB"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z9OL?type=1",
+   "publisher": "株式会社ランドネット",
+   "publisher_type": "company_disclosure",
+   "title": "有価証券報告書－第27期(2025/08/01－2026/07/31)（株式会社ランドネット）",
+   "published_at": "2026-10-23T14:09:00+09:00",
+   "fetched_at": "2026-10-25T07:33:01+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "4239e08db691345da1488ca04ceca25bcdaa55c7638645972d87648761d623ac",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9OL）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9OL）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9OL"
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z9MI?type=1",
+   "publisher": "株式会社ファーマフーズ",
+   "publisher_type": "company_disclosure",
+   "title": "有価証券報告書－第29期(2025/08/01－2026/07/31)（株式会社ファーマフーズ）",
+   "published_at": "2026-10-23T15:30:00+09:00",
+   "fetched_at": "2026-10-25T07:33:09+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "45328cf674d4679e73b03c877fbb1288d1d824b68878071541c84f26ac95bf85",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9MI）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9MI）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9MI"
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z9MO?type=1",
+   "publisher": "ティーライフ株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "有価証券報告書－第43期(2025/08/01－2026/07/31)（ティーライフ株式会社）",
+   "published_at": "2026-10-23T15:00:00+09:00",
+   "fetched_at": "2026-10-25T07:33:16+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "d5e040288cd02868fffbbd08a56f8589c8e8b34414faa96066b596f221636b65",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9MO）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9MO）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9MO"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z9MR?type=1",
+   "publisher": "株式会社Ｒｉｄｇｅ－ｉ",
+   "publisher_type": "company_disclosure",
+   "title": "有価証券報告書－第11期(2025/08/01－2026/07/31)（株式会社Ｒｉｄｇｅ－ｉ）",
+   "published_at": "2026-10-23T11:20:00+09:00",
+   "fetched_at": "2026-10-25T07:33:24+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "e2ae93c1d6e1c3cab295f3b9d36368b37a480d6d23cdea651803c66fac7d7596",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9MR）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9MR）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9MR"
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-25-001",
+     "event_id": "EVT-2026-10-25-001",
+     "headline": "社債を出すための枠を登録：光通信は200,000百万円、アイザワ証券グループ・ニシオHD・矢作建設工業も（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "発行登録は、会社が先に「これから2年の間に、この金額まで社債などを出す」と国に届け出ておき、実際に出すときの手続きを短くできる仕組みである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "情報通信の販売などを行う光通信は、10月23日に発行登録書を提出し、社債の発行予定額を200,000百万円とした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 200000,
+         "unit": "百万円",
+         "label": "社債の発行予定額（光通信）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "発行予定額 200,000百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7O8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7O8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "光通信の発行登録は、効力が生じる予定の日を2026年10月31日とし、そこから2年の間を発行の予定期間としている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 31,
+         "unit": "日",
+         "label": "日付（効力発生予定日）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "この発行登録書による発行登録の効力発生予定日(2026年10月31日)から",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7O8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z7O8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "証券会社を持つアイザワ証券グループは、社債の発行予定額を30,000百万円とする発行登録書を同じ日に提出した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 30000,
+         "unit": "百万円",
+         "label": "社債の発行予定額（アイザワ証券グループ）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "発行予定額 30,000百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9GB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9GB）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "建設機械のレンタルなどを行うニシオホールディングスは、社債の発行予定額を20,000百万円とした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20000,
+         "unit": "百万円",
+         "label": "社債の発行予定額（ニシオホールディングス）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "発行予定額 20,000百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9K4）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9K4）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "建設業の矢作建設工業は、社債の発行予定額を10,000百万円とした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10000,
+         "unit": "百万円",
+         "label": "社債の発行予定額（矢作建設工業）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "発行予定額 10,000百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z903）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z903）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "発行登録をしても、実際に社債を出すかどうか、いつ・いくら出すかは、その時に改めて決めて「追補書類」で届け出る。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-25-001-1",
+       "text": "金利が上がる中でも、建設や機械レンタルの会社が社債で資金を集める準備を続けていることは、設備や工事のためのお金の需要が続いていることを示している可能性がある。",
+       "falsifier": "今後数か月の間に、これらの業種の会社が登録した枠を使わず、社債の発行が目立って減れば、この見方は弱まる。",
+       "check_metric": "EDINETの発行登録追補書類（建設業・機械レンタルの会社）の提出件数と金額",
+       "check_by": "2027-01-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": []
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-25-002",
+     "event_id": "EVT-2026-10-25-002",
+     "headline": "中古マンションの買い取り販売のランドネット、7月期の売上高は109,953百万円で14.5%増、借入れの利息は419百万円に（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "ランドネットは、中古マンションなどを持ち主から買い取り、手を入れて売る事業や、仲介、賃貸の管理を行う会社である（10月23日に提出した有価証券報告書から）。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4,
+         "unit": "社",
+         "label": "会社の数（グループ）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "当社グループは、当社及び連結子会社（株式会社ランドインシュア、日昇房屋有限公司、日商朗透房屋股份有限公司）の計４社で構成されており",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9OL）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9OL）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "2026年7月までの1年間の売上高は109,953百万円で、前の年より14.5%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 109953,
+         "unit": "百万円",
+         "label": "売上高（連結）"
+        },
+        {
+         "value": 14.5,
+         "unit": "%",
+         "label": "売上高の前年比"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "当連結会計年度の売上高は、109,953百万円（前連結会計年度比14.5％増）となりました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9OL）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9OL）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "本業のもうけを示す営業利益は3,821百万円で2.1%増、経常利益は3,274百万円で1.1%減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3821,
+         "unit": "百万円",
+         "label": "営業利益"
+        },
+        {
+         "value": 2.1,
+         "unit": "%",
+         "label": "営業利益の前年比"
+        },
+        {
+         "value": 3274,
+         "unit": "百万円",
+         "label": "経常利益"
+        },
+        {
+         "value": 1.1,
+         "unit": "%",
+         "label": "経常利益の前年比の減少率"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "営業利益は3,821百万円（同2.1％増）となった一方、翌期以降の販売原資となる販売用不動産の仕入を積極的に進めたことに伴う支払利息等の営業外費用の増加により、経常利益3,274百万円（同1.1％減）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9OL）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9OL）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "取引の件数は、買い取って売った件数が合計6,052件、仲介が1,391件だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 6052,
+         "unit": "件",
+         "label": "件数（買取販売及び買取リフォーム販売）"
+        },
+        {
+         "value": 1391,
+         "unit": "件",
+         "label": "件数（仲介）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "「買取販売及び買取リフォーム販売」件数が合計6,052件、「仲介」件数が1,391件となりました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9OL）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9OL）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "借入金や社債に払う利息は419百万円で、前の年より49.5%増えたと書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 419,
+         "unit": "百万円",
+         "label": "支払利息"
+        },
+        {
+         "value": 49.5,
+         "unit": "%",
+         "label": "支払利息の前年比"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "主に借入金及び社債に対する支払利息が419百万円（同49.5％増）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9OL）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9OL）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-06",
+       "text": "親会社の株主のものになる当期純利益は2,369百万円で、0.6%減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2369,
+         "unit": "百万円",
+         "label": "親会社株主に帰属する当期純利益"
+        },
+        {
+         "value": 0.6,
+         "unit": "%",
+         "label": "当期純利益の前年比の減少率"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "親会社株主に帰属する当期純利益は2,369百万円(同0.6％減)となりました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9OL）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9OL）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-07",
+       "text": "物件を買ってから売るまでの間、仕入れのお金を借入れでまかなう不動産の会社では、金利が上がると利息の負担が増える。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-25-002-1",
+       "text": "中古の不動産を買い取って売る業種では、金利の上昇が続けば、売上が伸びても、借入れの利息の増加が利益を押し下げる形が広がる可能性がある。",
+       "falsifier": "同じ業種の会社の次の決算で、支払利息の伸びが売上高の伸びを下回り、経常利益が増えていれば、この見方は当てはまらない。",
+       "check_metric": "不動産業の会社の有価証券報告書・半期報告書の支払利息と経常利益",
+       "check_by": "2027-04-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-25-003",
+     "event_id": "EVT-2026-10-25-003",
+     "headline": "深掘り：7月が決算の3社の有価証券報告書──健康食品のファーマフーズ、通信販売のティーライフ、AIのRidge-i（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "有価証券報告書は、上場している会社が1年ごとに、事業の中身やお金の状況をまとめて国に出す書類である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "健康食品や化粧品の素材と製品を扱うファーマフーズの、2026年7月までの1年間の売上高は63,223百万円で、3.1%減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 63223,
+         "unit": "百万円",
+         "label": "売上高（ファーマフーズ）"
+        },
+        {
+         "value": 3.1,
+         "unit": "%",
+         "label": "売上高の前期比の減少率（ファーマフーズ）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "当連結会計年度の売上高は63,223百万円（前期比3.1％減）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9MI）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9MI）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "ファーマフーズの営業利益は2,632百万円で、11.2%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2632,
+         "unit": "百万円",
+         "label": "営業利益（ファーマフーズ）"
+        },
+        {
+         "value": 11.2,
+         "unit": "%",
+         "label": "営業利益の前期比（ファーマフーズ）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "営業利益は2,632百万円（前期比11.2％増）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9MI）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9MI）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "健康茶などを通信販売するティーライフの売上高は11,141百万円で3.1%減り、営業利益は311百万円で31.7%減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 11141,
+         "unit": "百万円",
+         "label": "売上高（ティーライフ）"
+        },
+        {
+         "value": 3.1,
+         "unit": "%",
+         "label": "売上高の前年同期比の減少率（ティーライフ）"
+        },
+        {
+         "value": 311,
+         "unit": "百万円",
+         "label": "営業利益（ティーライフ）"
+        },
+        {
+         "value": 31.7,
+         "unit": "%",
+         "label": "営業利益の前年同期比の減少率（ティーライフ）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "当連結会計年度における売上高は11,141百万円(前年同期比3.1％減)、営業利益は311百万円(同31.7％減)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9MO）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9MO）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "ティーライフの経常利益は318百万円で、29.8%減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 318,
+         "unit": "百万円",
+         "label": "経常利益（ティーライフ）"
+        },
+        {
+         "value": 29.8,
+         "unit": "%",
+         "label": "経常利益の前年同期比の減少率（ティーライフ）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "経常利益は318百万円(同29.8％減)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9MO）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9MO）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-06",
+       "text": "会社ごとに合わせたAIを作るRidge-iの売上高は2,993,819千円で、15.4%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2993819,
+         "unit": "千円",
+         "label": "売上高（Ridge-i）"
+        },
+        {
+         "value": 15.4,
+         "unit": "%",
+         "label": "売上高の前期比（Ridge-i）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "2,993,819千円（前期比15.4％増）となり",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9MR）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9MR）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-07",
+       "text": "Ridge-iの経常利益は556,223千円で、91.2%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 556223,
+         "unit": "千円",
+         "label": "経常利益（Ridge-i）"
+        },
+        {
+         "value": 91.2,
+         "unit": "%",
+         "label": "経常利益の前期比（Ridge-i）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "経常利益については、営業利益の増加により556,223千円（前期比91.2％増）となり",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9MR）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9MR）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-08",
+       "text": "Ridge-iの、会社ごとに合わせたAIの事業の売上高は1,811,723千円で、41.5%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1811723,
+         "unit": "千円",
+         "label": "カスタムAIソリューション事業の売上高"
+        },
+        {
+         "value": 41.5,
+         "unit": "%",
+         "label": "同事業の売上高の前期比"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "カスタムAIソリューション事業におきましては、売上高が1,811,723千円（前期比41.5％増）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9MR）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9MR）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-09",
+       "text": "会社の決算の月は会社ごとに違い、3月以外が決算の会社は、その月から3か月以内に有価証券報告書を出す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-25-003-1",
+       "text": "企業向けにAIを作る業種では、生成AIの案件が増えている間は売上の伸びが続く一方、大口の取引先の計画に左右されやすい可能性がある。",
+       "falsifier": "次の半期の報告で、企業向けのAI開発の会社の売上高が前年を下回る例が多ければ、この見方は成り立たない。",
+       "check_metric": "情報・通信業のAI開発の会社の半期報告書の売上高",
+       "check_by": "2027-03-31"
+      },
+      {
+       "inference_id": "INF-2026-10-25-003-2",
+       "text": "通信販売で健康食品や健康茶を売る業種では、売上が伸び悩むと、広告などの費用を減らしても利益が大きく減りやすい可能性がある。",
+       "falsifier": "同じ業種の会社の次の決算で、売上が横ばいでも営業利益が増えていれば、この見方は当てはまらない。",
+       "check_metric": "小売業・食料品の通信販売の会社の決算の営業利益",
+       "check_by": "2027-03-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-10-25T07:35:51.728519+09:00",
+  "first_run": {
+   "run_at": "2026-10-25T07:35:51.728519+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 10,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 23,
+  "passed": 18,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 5,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 10,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-001": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp110000-rst-001_E04948-000_2026-10-23_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp110000-rst-001_E04948-000_2026-10-23_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp110000-rst-001_E04948-000_2026-10-23_01_2026-10-23_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp110000-rst-001_E04848-000_2026-10-23_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp110000-rst-001_E04848-000_2026-10-23_01_2026-10-23_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp110000-rst-001_E00148-000_2026-10-23_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp110000-rst-001_E00148-000_2026-10-23_01_2026-10-23_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-004": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp110000-rst-001_E03763-000_2026-10-23_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp110000-rst-001_E03763-000_2026-10-23_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp110000-rst-001_E03763-000_2026-10-23_01_2026-10-23_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp030000-asr-001_E35614-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp030000-asr-001_E35614-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp030000-asr-001_E35614-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp030000-asr-001_E35614-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105000_honbun_jpcrp030000-asr-001_E35614-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105010_honbun_jpcrp030000-asr-001_E35614-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105020_honbun_jpcrp030000-asr-001_E35614-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105025_honbun_jpcrp030000-asr-001_E35614-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105040_honbun_jpcrp030000-asr-001_E35614-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105050_honbun_jpcrp030000-asr-001_E35614-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105100_honbun_jpcrp030000-asr-001_E35614-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105110_honbun_jpcrp030000-asr-001_E35614-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105120_honbun_jpcrp030000-asr-001_E35614-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105310_honbun_jpcrp030000-asr-001_E35614-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105320_honbun_jpcrp030000-asr-001_E35614-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105330_honbun_jpcrp030000-asr-001_E35614-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105400_honbun_jpcrp030000-asr-001_E35614-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105410_honbun_jpcrp030000-asr-001_E35614-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0106010_honbun_jpcrp030000-asr-001_E35614-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0107010_honbun_jpcrp030000-asr-001_E35614-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp030000-asr-001_E35614-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp030000-asr-001_E35614-000_2026-07-31_01_2026-10-23_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-006": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp030000-asr-001_E02484-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp030000-asr-001_E02484-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp030000-asr-001_E02484-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp030000-asr-001_E02484-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105010_honbun_jpcrp030000-asr-001_E02484-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105020_honbun_jpcrp030000-asr-001_E02484-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0106010_honbun_jpcrp030000-asr-001_E02484-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0107010_honbun_jpcrp030000-asr-001_E02484-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0200010_honbun_jpcrp030000-asr-001_E02484-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp030000-asr-001_E02484-000_2026-07-31_01_2026-10-23_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-007": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp030000-asr-001_E26322-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp030000-asr-001_E26322-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp030000-asr-001_E26322-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp030000-asr-001_E26322-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105000_honbun_jpcrp030000-asr-001_E26322-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105010_honbun_jpcrp030000-asr-001_E26322-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105020_honbun_jpcrp030000-asr-001_E26322-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105025_honbun_jpcrp030000-asr-001_E26322-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105040_honbun_jpcrp030000-asr-001_E26322-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105050_honbun_jpcrp030000-asr-001_E26322-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105100_honbun_jpcrp030000-asr-001_E26322-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105110_honbun_jpcrp030000-asr-001_E26322-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105120_honbun_jpcrp030000-asr-001_E26322-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105310_honbun_jpcrp030000-asr-001_E26322-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105320_honbun_jpcrp030000-asr-001_E26322-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105330_honbun_jpcrp030000-asr-001_E26322-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105400_honbun_jpcrp030000-asr-001_E26322-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105410_honbun_jpcrp030000-asr-001_E26322-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0106010_honbun_jpcrp030000-asr-001_E26322-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0107010_honbun_jpcrp030000-asr-001_E26322-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp030000-asr-001_E26322-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp030000-asr-001_E26322-000_2026-07-31_01_2026-10-23_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-008": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp030000-asr-001_E38567-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp030000-asr-001_E38567-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp030000-asr-001_E38567-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp030000-asr-001_E38567-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105000_honbun_jpcrp030000-asr-001_E38567-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105010_honbun_jpcrp030000-asr-001_E38567-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105020_honbun_jpcrp030000-asr-001_E38567-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105025_honbun_jpcrp030000-asr-001_E38567-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105030_honbun_jpcrp030000-asr-001_E38567-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105040_honbun_jpcrp030000-asr-001_E38567-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105100_honbun_jpcrp030000-asr-001_E38567-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105120_honbun_jpcrp030000-asr-001_E38567-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105310_honbun_jpcrp030000-asr-001_E38567-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105320_honbun_jpcrp030000-asr-001_E38567-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105330_honbun_jpcrp030000-asr-001_E38567-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105400_honbun_jpcrp030000-asr-001_E38567-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0105410_honbun_jpcrp030000-asr-001_E38567-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0106010_honbun_jpcrp030000-asr-001_E38567-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0107010_honbun_jpcrp030000-asr-001_E38567-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp030000-asr-001_E38567-000_2026-07-31_01_2026-10-23_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp030000-asr-001_E38567-000_2026-07-31_01_2026-10-23_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 10,
+  "attribution_overwritten": 28,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "morning",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 10,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 0,
+  "evidence_doc_type_overridden": 0,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {},
+  "impact_kind_undetermined_by_doc_type": {},
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 0,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 0,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 50,
+   "numbers_declared": 34,
+   "gap": 16,
+   "by_mark": {
+    "explainer": {
+     "text_number_tokens": 4,
+     "numbers_declared": 0
+    },
+    "source_number_match": {
+     "text_number_tokens": 46,
+     "numbers_declared": 34
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 2,
+   "line_ids": [
+    "L-001-03",
+    "L-002-04"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 5,
+   "change": 0,
+   "ripple": 6,
+   "deep": 7
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 2,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 2,
+   "first_run_at": "2026-10-25T07:35:31.922707+09:00",
+   "last_run_at": "2026-10-25T07:35:46.902099+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [
+    {
+     "line_id": "L-002-03",
+     "values": [
+      -1.1
+     ]
+    },
+    {
+     "line_id": "L-002-06",
+     "values": [
+      -0.6
+     ]
+    },
+    {
+     "line_id": "L-003-02",
+     "values": [
+      -3.1
+     ]
+    },
+    {
+     "line_id": "L-003-04",
+     "values": [
+      -3.1,
+      -31.7
+     ]
+    },
+    {
+     "line_id": "L-003-05",
+     "values": [
+      311,
+      -31.7
+     ]
+    }
+   ],
+   "last_counts": {
+    "ok": 18,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 0,
+   "total_unregistered": 0,
+   "excluded_date_time_tokens": 14,
+   "lines": []
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 0,
+   "zero_letter_count": 0,
+   "lines": []
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "market_closed",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 3
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
