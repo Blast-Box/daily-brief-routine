@@ -1,0 +1,1110 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-10-24-noon",
+ "date": "2026-10-24",
+ "slot": "noon",
+ "generated_at": "2026-10-24T13:15:19.589734+09:00",
+ "market_open": false,
+ "baseline": {
+  "date": "2026-10-24",
+  "price_type": "observed"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-001",
+   "url": "https://www.federalreserve.gov/releases/h8/current/h8.pdf",
+   "publisher": "FRB理事会",
+   "publisher_type": "central_bank",
+   "title": "H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES",
+   "published_at": "2026-10-23T16:15:00-04:00",
+   "fetched_at": "2026-10-24T13:11:29+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "977bf872ad2db3c69692bb5ff44d7ed3c6df3045579b8446288ab34835ae573f",
+   "usage": "quotable",
+   "attribution": "出典：FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）",
+   "processing_note": "FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://www.boj.or.jp/research/wps_rev/rev_2026/data/rev26j14.pdf",
+   "publisher": "日本銀行",
+   "publisher_type": "central_bank",
+   "title": "企業の決算説明会テキストを用いた経済政策不確実性の考察",
+   "published_at": null,
+   "fetched_at": "2026-10-24T13:11:30+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "8921df35d383fe5922c7c3e53a92c8e8edc85e2679965c55a475bc009b856db4",
+   "usage": "quotable",
+   "attribution": "出典：日本銀行「企業の決算説明会テキストを用いた経済政策不確実性の考察」（https://www.boj.or.jp/research/wps_rev/rev_2026/data/rev26j14.pdf）",
+   "processing_note": "日本銀行「企業の決算説明会テキストを用いた経済政策不確実性の考察」（https://www.boj.or.jp/research/wps_rev/rev_2026/data/rev26j14.pdf）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://www.boj.or.jp/about/organization/policyboard/pb_geppo/data/pbgp2609g.pdf",
+   "publisher": "日本銀行",
+   "publisher_type": "central_bank",
+   "title": "令和8年度の職員の給与等に関する件（9月11日）",
+   "published_at": null,
+   "fetched_at": "2026-10-24T13:11:31+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "9e589d382e4dbe2ded44ccab9b246d3351d0c0bb1745e318b1eaad0c296443c2",
+   "usage": "quotable",
+   "attribution": "出典：日本銀行「令和8年度の職員の給与等に関する件（9月11日）」（https://www.boj.or.jp/about/organization/policyboard/pb_geppo/data/pbgp2609g.pdf）",
+   "processing_note": "日本銀行「令和8年度の職員の給与等に関する件（9月11日）」（https://www.boj.or.jp/about/organization/policyboard/pb_geppo/data/pbgp2609g.pdf）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-24-001",
+     "event_id": "EVT-2026-10-24-001",
+     "headline": "米国の銀行のお金の動き、9月：銀行信用は年率3.3%増、企業向けの貸出は年率10.1%増（FRB理事会の統計から）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "FRB理事会が10月23日に公表した統計によると、米国の商業銀行の「銀行信用」（貸出と、銀行が持つ証券の合計）は、9月に年率3.3%増えた。8月は年率5.0%増、7〜9月期は年率5.3%増だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.3,
+         "unit": "%",
+         "label": "銀行信用の9月の伸び（年率）"
+        },
+        {
+         "value": 5.0,
+         "unit": "%",
+         "label": "銀行信用の8月の伸び（年率）"
+        },
+        {
+         "value": 5.3,
+         "unit": "%",
+         "label": "銀行信用の2026年7〜9月期の伸び（年率）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "1 Bank credit 8.3 6.7 -0.2 4.0 5.3 6.9 6.0 5.0 7.1 6.6 5.3 5.8 5.6 5.0 3.3",
+       "attribution": "出典：FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）",
+       "processing_note": "FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "このうち貸出とリースは、9月に年率7.3%増えた。8月は年率9.0%増だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 7.3,
+         "unit": "%",
+         "label": "貸出とリースの9月の伸び（年率）"
+        },
+        {
+         "value": 9.0,
+         "unit": "%",
+         "label": "貸出とリースの8月の伸び（年率）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "9 Loans and leases in bank credit8 2.4 11.4 3.2 2.9 5.4 5.6 5.8 6.1 8.3 8.1 6.1 5.7 3.8 9.0 7.3",
+       "attribution": "出典：FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）",
+       "processing_note": "FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "企業向けの貸出（商工業向け貸出）は、9月に年率10.1%増えた。8月は年率19.2%増だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10.1,
+         "unit": "%",
+         "label": "企業向け貸出の9月の伸び（年率）"
+        },
+        {
+         "value": 19.2,
+         "unit": "%",
+         "label": "企業向け貸出の8月の伸び（年率）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "10 Commercial and industrial loans -7.6 13.9 -0.2 0.9 4.3 4.3 8.6 4.1 12.1 14.7 7.4 5.5 -1.9 19.2 10.1",
+       "attribution": "出典：FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）",
+       "processing_note": "FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "一方、銀行が持つ証券は、9月に年率6.3%減った。8月も年率4.6%減だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": -6.3,
+         "unit": "%",
+         "label": "銀行が持つ証券の9月の伸び（年率）"
+        },
+        {
+         "value": -4.6,
+         "unit": "%",
+         "label": "銀行が持つ証券の8月の伸び（年率）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "2 Securities in bank credit2 21.6 -2.3 -7.5 6.7 5.0 10.0 6.4 2.2 4.4 3.1 3.6 6.3 10.0 -4.6 -6.3",
+       "attribution": "出典：FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）",
+       "processing_note": "FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "お金を預かる側の預金は、9月に年率5.8%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5.8,
+         "unit": "%",
+         "label": "預金の9月の伸び（年率）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "34 Deposits 11.8 -0.7 -2.7 2.8 3.8 3.8 4.3 3.9 6.1 9.1 6.0 5.5 3.1 8.1 5.8",
+       "attribution": "出典：FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）",
+       "processing_note": "FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "「年率」は、1か月の伸びが1年間続いたとしたらどれだけ伸びるかに直した数字で、月ごとの振れが大きく出やすい。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-24-001-1",
+       "text": "米国の銀行の企業向け貸出の伸びが続けば、設備や在庫のためにお金を借りる製造業や卸売業などで、資金を手当てしやすい状態が続く可能性がある。",
+       "falsifier": "10月以降の企業向け貸出の伸び（年率）がマイナスに転じれば、この見方は成り立たない。",
+       "check_metric": "FRB理事会 H.8 の商工業向け貸出（Commercial and industrial loans）の月次の伸び",
+       "check_by": "2026-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-24-002",
+     "event_id": "EVT-2026-10-24-002",
+     "headline": "最新の週（10月14日まで）の米国の銀行：預金は19,810.3、借入れは2,408.8（10億ドル単位。FRB理事会の統計から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "FRB理事会の10月23日の統計で、10月14日までの週の米国の商業銀行の銀行信用は19,995.1（10億ドル単位、季節調整済み）だった。9月の平均は19,882.6、1年前の2025年9月は18,744.3だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 19995.1,
+         "unit": "10億ドル",
+         "label": "銀行信用（10月14日までの週）"
+        },
+        {
+         "value": 19882.6,
+         "unit": "10億ドル",
+         "label": "銀行信用（2026年9月）"
+        },
+        {
+         "value": 18744.3,
+         "unit": "10億ドル",
+         "label": "銀行信用（2025年9月）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "1 Bank credit 18,744.3 19,364.5 19,461.3 19,559.4 19,654.5 19,746.3 19,828.7 19,882.6 19,870.7 19,892.5 19,949.4 19,995.1",
+       "attribution": "出典：FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）",
+       "processing_note": "FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "同じ週の企業向けの貸出（商工業向け貸出）は2,992.6で、2025年9月の2,691.0より多い。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2992.6,
+         "unit": "10億ドル",
+         "label": "企業向け貸出（10月14日までの週）"
+        },
+        {
+         "value": 2691.0,
+         "unit": "10億ドル",
+         "label": "企業向け貸出（2025年9月）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "10 Commercial and industrial loans 2,691.0 2,819.6 2,855.4 2,885.7 2,897.6 2,888.2 2,934.4 2,959.1 2,953.2 2,971.3 2,987.8 2,992.6",
+       "attribution": "出典：FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）",
+       "processing_note": "FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "預金は19,810.3で、9月の平均の19,636.6より多かった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 19810.3,
+         "unit": "10億ドル",
+         "label": "預金（10月14日までの週）"
+        },
+        {
+         "value": 19636.6,
+         "unit": "10億ドル",
+         "label": "預金（2026年9月）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "34 Deposits 18,411.6 18,952.9 19,084.0 19,273.4 19,361.1 19,410.4 19,541.8 19,636.6 19,638.2 19,694.2 19,771.6 19,810.3",
+       "attribution": "出典：FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）",
+       "processing_note": "FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "銀行がよそから借りているお金（借入れ）は2,408.8で、9月の平均の2,311.5より多かった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2408.8,
+         "unit": "10億ドル",
+         "label": "借入れ（10月14日までの週）"
+        },
+        {
+         "value": 2311.5,
+         "unit": "10億ドル",
+         "label": "借入れ（2026年9月）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "37 Borrowings 2,231.2 2,232.7 2,252.5 2,307.3 2,292.2 2,314.0 2,254.5 2,311.5 2,341.2 2,332.5 2,390.0 2,408.8",
+       "attribution": "出典：FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）",
+       "processing_note": "FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "資産の合計は26,138.3だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 26138.3,
+         "unit": "10億ドル",
+         "label": "資産の合計（10月14日までの週）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "33 Total assets 24,479.4 25,090.5 25,282.5 25,480.3 25,529.5 25,670.5 25,660.0 25,874.5 25,927.4 26,008.5 26,100.3 26,138.3",
+       "attribution": "出典：FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）",
+       "processing_note": "FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-24-002-1",
+       "text": "米国の銀行の預金と借入れがともに増える状態が続けば、銀行が貸出に回せるお金が保たれ、米国で事業をする企業の資金の借りやすさが大きくは変わらない可能性がある。",
+       "falsifier": "11月までの週で預金の残高が9月の平均を下回るようになれば、この見方は弱まる。",
+       "check_metric": "FRB理事会 H.8 の預金（Deposits）の週次の残高",
+       "check_by": "2026-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-24-003",
+     "event_id": "EVT-2026-10-24-003",
+     "headline": "米国の銀行の貸出の行き先：銀行以外の金融会社への貸出は10月14日までの週で2,105.8（10億ドル単位。FRB理事会の統計から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "FRB理事会の10月23日の統計で、米国の商業銀行が預金を取らない金融機関（銀行以外の金融会社）に貸しているお金は、10月14日までの週で2,105.8（10億ドル単位）だった。2026年9月は2,064.2、2025年9月は1,721.9だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2105.8,
+         "unit": "10億ドル",
+         "label": "銀行以外の金融機関への貸出（10月14日までの週）"
+        },
+        {
+         "value": 2064.2,
+         "unit": "10億ドル",
+         "label": "同（2026年9月）"
+        },
+        {
+         "value": 1721.9,
+         "unit": "10億ドル",
+         "label": "同（2025年9月）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "institutions17 1,721.9 1,939.5 1,969.7 1,987.3 1,999.2 2,019.1 2,040.8 2,064.2 2,067.1 2,079.6 2,098.1 2,105.8",
+       "attribution": "出典：FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）",
+       "processing_note": "FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "この貸出を含む「その他の貸出とリース」は、9月に年率13.4%増えた。2025年の1年間では15.4%増だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 13.4,
+         "unit": "%",
+         "label": "その他の貸出とリースの9月の伸び（年率）"
+        },
+        {
+         "value": 15.4,
+         "unit": "%",
+         "label": "その他の貸出とリースの2025年の伸び"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "25 All other loans and leases 12.4 11.2 4.2 8.0 15.4 16.2 13.5 15.4 18.0 14.6 11.6 11.4 10.9 12.1 13.4",
+       "attribution": "出典：FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）",
+       "processing_note": "FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "商業用の不動産を担保にした貸出は、9月に年率5.1%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5.1,
+         "unit": "%",
+         "label": "商業用不動産向け貸出の9月の伸び（年率）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "15 Commercial real estate loans 4.3 11.3 4.8 1.8 1.6 0.6 1.9 3.2 3.0 3.2 3.6 2.9 2.5 5.4 5.1",
+       "attribution": "出典：FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）",
+       "processing_note": "FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "住宅を担保にした貸出は、9月に年率1.1%増にとどまった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1.1,
+         "unit": "%",
+         "label": "住宅向け貸出の9月の伸び（年率）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "12 Residential real estate loans -0.4 9.0 3.4 2.0 2.1 3.1 1.0 2.1 1.7 0.8 1.4 2.9 0.4 1.9 1.1",
+       "attribution": "出典：FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）",
+       "processing_note": "FRB理事会「H.8 ASSETS AND LIABILITIES OF COMMERCIAL BANKS IN THE UNITED STATES」（https://www.federalreserve.gov/releases/h8/current/h8.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "銀行以外の金融会社には、ファンドや貸金業者などが含まれ、銀行から借りたお金をさらに企業などに貸したり投資したりすることがある。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-24-003-1",
+       "text": "銀行から銀行以外の金融会社への貸出が増え続ければ、そうした会社を通じた企業向けの融資や投資が広がり、米国の企業の資金の集め方が銀行から直接借りる形以外にも広がる可能性がある。",
+       "falsifier": "銀行以外の金融機関への貸出の残高が、11月までに9月の水準を下回れば、この見方は弱まる。",
+       "check_metric": "FRB理事会 H.8 の Loans to nondepository financial institutions の残高",
+       "check_by": "2026-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-24-004",
+     "event_id": "EVT-2026-10-24-004",
+     "headline": "日本銀行、職員の給与を決める：管理職などの賞与は5月・11月とも3.452か月（政策委員会月報から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "日本銀行が10月23日に載せた政策委員会月報によると、政策委員会は9月11日、令和8年度の職員の給与などについて決めた。定例給与などの改定は、令和8年10月1日から実施する。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "日",
+         "label": "日付（改定の実施日）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "改正し、令和 8 年 10 月 1 日から実施すること",
+       "attribution": "出典：日本銀行「令和8年度の職員の給与等に関する件（9月11日）」（https://www.boj.or.jp/about/organization/policyboard/pb_geppo/data/pbgp2609g.pdf）",
+       "processing_note": "日本銀行「令和8年度の職員の給与等に関する件（9月11日）」（https://www.boj.or.jp/about/organization/policyboard/pb_geppo/data/pbgp2609g.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "管理職と企画専門職員の賞与は、5月と11月の支給率をいずれも3.452か月とする。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.452,
+         "unit": "か月",
+         "label": "管理職・企画専門職員の賞与の支給率"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "5 月および 11 月賞与の支給率を、いずれも 3.452 か月とする。",
+       "attribution": "出典：日本銀行「令和8年度の職員の給与等に関する件（9月11日）」（https://www.boj.or.jp/about/organization/policyboard/pb_geppo/data/pbgp2609g.pdf）",
+       "processing_note": "日本銀行「令和8年度の職員の給与等に関する件（9月11日）」（https://www.boj.or.jp/about/organization/policyboard/pb_geppo/data/pbgp2609g.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "それ以外の職員（エキスパート職員を除く）は、定例給与の改定による増加分を除いて、5月と11月の支給率をいずれも2.445か月とする。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.445,
+         "unit": "か月",
+         "label": "管理職・企画専門職員以外の職員の賞与の支給率（増加分を除く）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "（定例給与の改訂による増加分を除く。）を、いずれも 2.445 か月とする。",
+       "attribution": "出典：日本銀行「令和8年度の職員の給与等に関する件（9月11日）」（https://www.boj.or.jp/about/organization/policyboard/pb_geppo/data/pbgp2609g.pdf）",
+       "processing_note": "日本銀行「令和8年度の職員の給与等に関する件（9月11日）」（https://www.boj.or.jp/about/organization/policyboard/pb_geppo/data/pbgp2609g.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "エキスパート職員は、月手当の改定による増加分を除いて、支給率をいずれも1.331か月とする。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1.331,
+         "unit": "か月",
+         "label": "エキスパート職員の賞与の支給率（増加分を除く）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "を、いずれも 1.331 か月",
+       "attribution": "出典：日本銀行「令和8年度の職員の給与等に関する件（9月11日）」（https://www.boj.or.jp/about/organization/policyboard/pb_geppo/data/pbgp2609g.pdf）",
+       "processing_note": "日本銀行「令和8年度の職員の給与等に関する件（9月11日）」（https://www.boj.or.jp/about/organization/policyboard/pb_geppo/data/pbgp2609g.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "エキスパート職員の11月の賞与では、廃止する給与区分について、その額に＋3.4％の時間給の改定（ベア）を反映した場合の増加額に当たる額を加算する計算になっている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.4,
+         "unit": "%",
+         "label": "時間給の改定（ベア）の率"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "廃止する給与区分の額に＋3.4％の時間給の改訂",
+       "attribution": "出典：日本銀行「令和8年度の職員の給与等に関する件（9月11日）」（https://www.boj.or.jp/about/organization/policyboard/pb_geppo/data/pbgp2609g.pdf）",
+       "processing_note": "日本銀行「令和8年度の職員の給与等に関する件（9月11日）」（https://www.boj.or.jp/about/organization/policyboard/pb_geppo/data/pbgp2609g.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-06",
+       "text": "「ベア」（ベースアップ）は、年齢や勤続による昇給とは別に、給与の水準そのものを引き上げることをいう。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-24-004-1",
+       "text": "給与の水準を引き上げる動きが金融機関や公的な機関にも広がれば、人件費の比率が高いサービス業や小売業でも、人を集めるための賃上げの圧力が続く可能性がある。",
+       "falsifier": "来年の春の賃金交渉で、ベースアップの率が今年より大きく下がれば、この見方は弱まる。",
+       "check_metric": "連合の春季生活闘争の回答集計のベースアップ分",
+       "check_by": "2027-04-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-24-005",
+     "event_id": "EVT-2026-10-24-005",
+     "headline": "深掘り：会社の決算説明会の言葉から「政策の先の見えなさ」を測る──日本銀行のレポート（日銀レビュー）",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "日本銀行は10月22日、日銀レビュー「企業の決算説明会テキストを用いた経済政策不確実性の考察」を公表した。上場企業の決算説明会の記録から、経済政策の先の見えなさを表す指数（企業EPU）を作った。分析の期間は、2007年第1四半期以降の約20年である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "四半期",
+         "label": "分析の始まりの四半期（2007年の第1四半期）"
+        },
+        {
+         "value": 20,
+         "unit": "年",
+         "label": "分析期間の長さ（約）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "2007 年第 1 四半期以降の約 20 年となっている。",
+       "attribution": "出典：日本銀行「企業の決算説明会テキストを用いた経済政策不確実性の考察」（https://www.boj.or.jp/research/wps_rev/rev_2026/data/rev26j14.pdf）",
+       "processing_note": "日本銀行「企業の決算説明会テキストを用いた経済政策不確実性の考察」（https://www.boj.or.jp/research/wps_rev/rev_2026/data/rev26j14.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "指数を集計するときは、業種の重みを考え、鉱業・製造業、サービス・卸売・小売業、金融保険・不動産業、その他の大きく4つに分けている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4,
+         "unit": "つ",
+         "label": "業種の区分の数"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "金融保険・不動産業、④その他、と大きく 4 つに",
+       "attribution": "出典：日本銀行「企業の決算説明会テキストを用いた経済政策不確実性の考察」（https://www.boj.or.jp/research/wps_rev/rev_2026/data/rev26j14.pdf）",
+       "processing_note": "日本銀行「企業の決算説明会テキストを用いた経済政策不確実性の考察」（https://www.boj.or.jp/research/wps_rev/rev_2026/data/rev26j14.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "企業EPUは、米国により関税の引き上げが示された2025年第2四半期に上昇したと、レポートは書いている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "四半期",
+         "label": "企業EPUが上昇した四半期（2025年の第2四半期）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "2025 年第 2 四半期には上昇しており、経済におけ",
+       "attribution": "出典：日本銀行「企業の決算説明会テキストを用いた経済政策不確実性の考察」（https://www.boj.or.jp/research/wps_rev/rev_2026/data/rev26j14.pdf）",
+       "processing_note": "日本銀行「企業の決算説明会テキストを用いた経済政策不確実性の考察」（https://www.boj.or.jp/research/wps_rev/rev_2026/data/rev26j14.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-04",
+       "text": "政策の分野別では、通商政策は、2018〜2019年前後の米中の貿易摩擦の局面に加え、米国による関税の引き上げのアナウンスメントがあった2025年にも寄与が拡大した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2025,
+         "unit": "年",
+         "label": "日付（年。関税の引き上げのアナウンスメントがあった年）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "引き上げのアナウンスメントがあった 2025 年に",
+       "attribution": "出典：日本銀行「企業の決算説明会テキストを用いた経済政策不確実性の考察」（https://www.boj.or.jp/research/wps_rev/rev_2026/data/rev26j14.pdf）",
+       "processing_note": "日本銀行「企業の決算説明会テキストを用いた経済政策不確実性の考察」（https://www.boj.or.jp/research/wps_rev/rev_2026/data/rev26j14.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-05",
+       "text": "金融政策は、2022〜2023年前後の時期に、世界的にインフレの圧力が高まる中、各国の中央銀行の利上げへの警戒感などから、特に企業EPUで寄与が大きく拡大した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2023,
+         "unit": "年",
+         "label": "日付（年。金融政策の寄与が拡大した時期の終わり）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "2023 年前後の時期において、世界的にインフレ圧",
+       "attribution": "出典：日本銀行「企業の決算説明会テキストを用いた経済政策不確実性の考察」（https://www.boj.or.jp/research/wps_rev/rev_2026/data/rev26j14.pdf）",
+       "processing_note": "日本銀行「企業の決算説明会テキストを用いた経済政策不確実性の考察」（https://www.boj.or.jp/research/wps_rev/rev_2026/data/rev26j14.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-06",
+       "text": "モデルで、企業EPUに1標準偏差の大きさのショックを与えると、設備投資はややラグを伴って減り、統計的に有意に減少することが確認できたと、レポートは書いている。雇用者数も有意かつ持続的に減少した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "標準偏差",
+         "label": "ショックの大きさ"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "推計されたモデルから示唆される 1 標準偏差の",
+       "attribution": "出典：日本銀行「企業の決算説明会テキストを用いた経済政策不確実性の考察」（https://www.boj.or.jp/research/wps_rev/rev_2026/data/rev26j14.pdf）",
+       "processing_note": "日本銀行「企業の決算説明会テキストを用いた経済政策不確実性の考察」（https://www.boj.or.jp/research/wps_rev/rev_2026/data/rev26j14.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-07",
+       "text": "「標準偏差」は、数字のばらつきの大きさを表す目安で、「1標準偏差のショック」は、ふだんの振れ幅1つ分の大きさの変化を意味する。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-08",
+       "text": "会社が先の見えない状態に置かれると、取り消しにくい支出（設備投資や採用）を先に延ばすことがある、という考え方は、経済学で以前から議論されてきた。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-24-005-1",
+       "text": "通商政策や税制の先行きが見えにくい状態が続けば、設備投資を受注する機械や建設の業種で、受注の時期が後ろにずれる可能性がある。",
+       "falsifier": "内閣府の機械受注統計で、民需（船舶・電力を除く）が7〜9月期、10〜12月期と続けて増えれば、この見方は弱まる。",
+       "check_metric": "内閣府 機械受注統計の民需（船舶・電力を除く）",
+       "check_by": "2027-02-28"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-10-24T13:15:19.589734+09:00",
+  "first_run": {
+   "run_at": "2026-10-24T13:15:19.589734+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 3,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 30,
+  "passed": 25,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 5,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "skipped",
+  "edinet_doclist_partial": [
+   "2026-10-24",
+   "2026-10-23"
+  ],
+  "edinet_published_at_overwritten": 0,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {},
+  "edinet_view_url_count": 0,
+  "attribution_overwritten": 28,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "noon",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 3,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 0,
+  "evidence_doc_type_overridden": 0,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {},
+  "impact_kind_undetermined_by_doc_type": {},
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": true,
+  "horizon_overridden": 0,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 0,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 2,
+   "source_ids": [
+    "SRC-003",
+    "SRC-004"
+   ]
+  },
+  "number_coverage": {
+   "text_number_tokens": 102,
+   "numbers_declared": 39,
+   "gap": 63,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 98,
+     "numbers_declared": 39
+    },
+    "explainer": {
+     "text_number_tokens": 4,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 3,
+   "line_ids": [
+    "L-004-01",
+    "L-005-04",
+    "L-005-05"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 5,
+   "change": 5,
+   "ripple": 9,
+   "deep": 6
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 0,
+   "source_ids": []
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 1,
+   "first_run_at": "2026-10-24T13:15:14.022887+09:00",
+   "last_run_at": "2026-10-24T13:15:14.022887+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 25,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 6,
+   "total_unregistered": 7,
+   "excluded_date_time_tokens": 58,
+   "lines": [
+    {
+     "line_id": "L-001-01",
+     "values": [
+      "7"
+     ]
+    },
+    {
+     "line_id": "L-001-04",
+     "values": [
+      "6.3",
+      "4.6"
+     ]
+    },
+    {
+     "line_id": "L-002-01",
+     "values": [
+      "10"
+     ]
+    },
+    {
+     "line_id": "L-003-01",
+     "values": [
+      "10"
+     ]
+    },
+    {
+     "line_id": "L-005-04",
+     "values": [
+      "2018"
+     ]
+    },
+    {
+     "line_id": "L-005-05",
+     "values": [
+      "2022"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 0,
+   "zero_letter_count": 0,
+   "lines": []
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "market_closed",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 3,
+    "source_ids": [
+     "SRC-001",
+     "SRC-003",
+     "SRC-004"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 5
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
