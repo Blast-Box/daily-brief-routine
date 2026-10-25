@@ -1,0 +1,1123 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-10-25-evening",
+ "date": "2026-10-25",
+ "slot": "evening",
+ "generated_at": "2026-10-25T17:15:47.074512+09:00",
+ "market_open": false,
+ "baseline": {
+  "date": "2026-10-26",
+  "price_type": "next_open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-25&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月25日）",
+   "published_at": "2026-10-25",
+   "fetched_at": "2026-10-25T17:08:39+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "41df3164adcf282fb0d9bf45a2552726213cc5cb92831afcae1f1460d223d8a9",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-23&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月23日）",
+   "published_at": "2026-10-23",
+   "fetched_at": "2026-10-25T17:08:45+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "0536463fbded9bc3daaf80622e3b0507ef86a13ac8d2328b28c8c7b1a9e7b150",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
+   "publisher": "FRB理事会",
+   "publisher_type": "central_bank",
+   "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
+   "published_at": "2026-10-09T10:00:00-04:00",
+   "fetched_at": "2026-10-25T17:11:37+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "c251860e95e0881a31792600fc3fe4384ad91cfe590a397f1c430538b89f9905",
+   "usage": "quotable",
+   "attribution": "出典：FRB理事会「Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families」（https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm）",
+   "processing_note": "FRB理事会「Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families」（https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
+   "publisher": "FRB理事会",
+   "publisher_type": "central_bank",
+   "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+   "published_at": "2026-10-13T14:00:00-04:00",
+   "fetched_at": "2026-10-25T17:11:37+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "0768b0269a10e56da2cc3e8ab0165cc86e563e09e8f3353a2a8ed9e9e8f403ec",
+   "usage": "quotable",
+   "attribution": "出典：FRB理事会「Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026」（https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm）",
+   "processing_note": "FRB理事会「Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026」（https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/files/monetary20261013a1.pdf",
+   "publisher": "FRB理事会",
+   "publisher_type": "central_bank",
+   "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026（Attachment）",
+   "published_at": null,
+   "fetched_at": "2026-10-25T17:12:16+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "37a7c132c68e8494a826e681c6e17c5ffa4c46730119b66cd3844b62c3be25ea",
+   "usage": "quotable",
+   "attribution": "出典：FRB理事会「Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026（Attachment）」（https://www.federalreserve.gov/newsevents/pressreleases/files/monetary20261013a1.pdf）",
+   "processing_note": "FRB理事会「Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026（Attachment）」（https://www.federalreserve.gov/newsevents/pressreleases/files/monetary20261013a1.pdf）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://www.federalreserve.gov/publications/files/scf26.pdf",
+   "publisher": "FRB理事会",
+   "publisher_type": "central_bank",
+   "title": "Changes in U.S. Family Finances from 2022 to 2025: Evidence from the Survey of Consumer Finances",
+   "published_at": null,
+   "fetched_at": "2026-10-25T17:12:45+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "dd90cf0583b80bd7b71207528cbebe6b2648d85cbbfda8157dc49ec9d301b593",
+   "usage": "quotable",
+   "attribution": "出典：FRB理事会「Changes in U.S. Family Finances from 2022 to 2025: Evidence from the Survey of Consumer Finances」（https://www.federalreserve.gov/publications/files/scf26.pdf）",
+   "processing_note": "FRB理事会「Changes in U.S. Family Finances from 2022 to 2025: Evidence from the Survey of Consumer Finances」（https://www.federalreserve.gov/publications/files/scf26.pdf）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-25-001",
+     "event_id": "EVT-2026-10-25-001",
+     "headline": "米国の家計の調査（2025年）：所得の中央値は7%増えて82,200ドル、平均は6%減る（FRB理事会）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "FRB理事会は、2025年の「消費者金融調査」（米国の家計の財産と借金の調査）の結果を公表した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2025,
+         "unit": "年",
+         "label": "日付（調査の年）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "released the results of the 2025 Survey of Consumer Finances",
+       "attribution": "出典：FRB理事会「Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families」（https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm）",
+       "processing_note": "FRB理事会「Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families」（https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "今の形の調査は、1989年から3年ごとに行われている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1989,
+         "unit": "年",
+         "label": "日付（調査の開始年）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "The current version of the survey has been undertaken every three years since 1989",
+       "attribution": "出典：FRB理事会「Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families」（https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm）",
+       "processing_note": "FRB理事会「Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families」（https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "物価の影響を除いた家計の所得の中央値は、2022年から2025年の調査の間に7%増えて82,200ドルになった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 7,
+         "unit": "%",
+         "label": "所得の中央値の増加率"
+        },
+        {
+         "value": 82200,
+         "unit": "ドル",
+         "label": "所得の中央値"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "Real median family income rose 7 percent between the 2022 to 2025 surveys to $82,200",
+       "attribution": "出典：FRB理事会「Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families」（https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm）",
+       "processing_note": "FRB理事会「Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families」（https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "一方、所得の平均値は6%減って145,200ドルになった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 6,
+         "unit": "%",
+         "label": "所得の平均値の減少率"
+        },
+        {
+         "value": 145200,
+         "unit": "ドル",
+         "label": "所得の平均値"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "while real mean family income fell 6 percent to $145,200",
+       "attribution": "出典：FRB理事会「Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families」（https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm）",
+       "processing_note": "FRB理事会「Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families」（https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "中央値は家計を順に並べた真ん中の値で、平均値と違い、ごく一部の非常に大きな値に引っ張られにくい。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "財産から借金を引いた純資産の中央値は、2%増えて215,900ドルになった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "%",
+         "label": "純資産の中央値の増加率"
+        },
+        {
+         "value": 215900,
+         "unit": "ドル",
+         "label": "純資産の中央値"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "real median net worth rose by 2 percent to $215,900",
+       "attribution": "出典：FRB理事会「Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families」（https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm）",
+       "processing_note": "FRB理事会「Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families」（https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "純資産の平均値は7%増えて1.24百万ドルになった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 7,
+         "unit": "%",
+         "label": "純資産の平均値の増加率"
+        },
+        {
+         "value": 1.24,
+         "unit": "百万ドル",
+         "label": "純資産の平均値"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "real mean net worth rose by 7 percent to $1.24 million",
+       "attribution": "出典：FRB理事会「Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families」（https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm）",
+       "processing_note": "FRB理事会「Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families」（https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-08",
+       "text": "株式を（直接、または投資信託などを通じて）持つ家計の割合は、2022年の58%から2025年の56%へ少し下がった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 58,
+         "unit": "%",
+         "label": "株式を持つ家計の割合（2022年）"
+        },
+        {
+         "value": 56,
+         "unit": "%",
+         "label": "株式を持つ家計の割合（2025年）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "declined slightly from 58 percent in 2022 to 56 percent in 2025",
+       "attribution": "出典：FRB理事会「Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families」（https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm）",
+       "processing_note": "FRB理事会「Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families」（https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-09",
+       "text": "株式を持つ家計に限ると、持っている株式の額の中央値は36%増え、56,900ドルから77,400ドルになった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 36,
+         "unit": "%",
+         "label": "株式の保有額の中央値の増加率"
+        },
+        {
+         "value": 56900,
+         "unit": "ドル",
+         "label": "株式の保有額の中央値（2022年）"
+        },
+        {
+         "value": 77400,
+         "unit": "ドル",
+         "label": "株式の保有額の中央値（2025年）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "median stock holdings grew 36 percent from $56,900 in 2022 to $77,400 in 2025",
+       "attribution": "出典：FRB理事会「Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families」（https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm）",
+       "processing_note": "FRB理事会「Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families」（https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-10",
+       "text": "持ち家の家計の割合は2025年に66%で、2022年とほぼ変わらなかった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 66,
+         "unit": "%",
+         "label": "持ち家の家計の割合"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "The homeownership rate was 66 percent in 2025, about unchanged from 2022.",
+       "attribution": "出典：FRB理事会「Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families」（https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm）",
+       "processing_note": "FRB理事会「Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families」（https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-25-001-1",
+       "text": "株式を持つ家計の保有額が増えた状態が続けば、米国で家計の資産を預かる証券業や資産運用の業種で、預かる資産の額が増えやすい可能性がある。",
+       "falsifier": "FRB理事会の統計で、米国の家計が持つ株式の額が減り続ければ、この見方は成り立たない。",
+       "check_metric": "FRB理事会 Financial Accounts of the United States（Z.1）の家計が持つ株式の額",
+       "check_by": "2026-12-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": []
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-25-002",
+     "event_id": "EVT-2026-10-25-001",
+     "headline": "米国の家計の借金：返済が所得の4割を超える家計は6.5%から8.6%に、返済の遅れも増える（FRB理事会の報告書）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "FRB理事会の報告書によると、何らかの借金がある家計の割合は77%で、ほぼ変わらなかった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 77,
+         "unit": "%",
+         "label": "借金がある家計の割合"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "with any type of debt remained about stable at 77 percent",
+       "attribution": "出典：FRB理事会「Changes in U.S. Family Finances from 2022 to 2025: Evidence from the Survey of Consumer Finances」（https://www.federalreserve.gov/publications/files/scf26.pdf）",
+       "processing_note": "FRB理事会「Changes in U.S. Family Finances from 2022 to 2025: Evidence from the Survey of Consumer Finances」（https://www.federalreserve.gov/publications/files/scf26.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "自宅を担保にした借金（住宅ローンなど）がある家計は、2022年も2025年も約42%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 42,
+         "unit": "%",
+         "label": "自宅を担保にした借金がある家計の割合"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "42 percent of families in both 2022 and 2025 had debt secured by their primary residence",
+       "attribution": "出典：FRB理事会「Changes in U.S. Family Finances from 2022 to 2025: Evidence from the Survey of Consumer Finances」（https://www.federalreserve.gov/publications/files/scf26.pdf）",
+       "processing_note": "FRB理事会「Changes in U.S. Family Finances from 2022 to 2025: Evidence from the Survey of Consumer Finances」（https://www.federalreserve.gov/publications/files/scf26.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "その家計の、自宅を担保にした借金の中央値は170,200ドルから183,600ドルに増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 170200,
+         "unit": "ドル",
+         "label": "自宅を担保にした借金の中央値（2022年）"
+        },
+        {
+         "value": 183600,
+         "unit": "ドル",
+         "label": "自宅を担保にした借金の中央値（2025年）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "among these families the median amount of this debt increased from $170,200 to $183,600",
+       "attribution": "出典：FRB理事会「Changes in U.S. Family Finances from 2022 to 2025: Evidence from the Survey of Consumer Finances」（https://www.federalreserve.gov/publications/files/scf26.pdf）",
+       "processing_note": "FRB理事会「Changes in U.S. Family Finances from 2022 to 2025: Evidence from the Survey of Consumer Finances」（https://www.federalreserve.gov/publications/files/scf26.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "クレジットカードの借金（支払いの後も残る残高）の中央値は、150ドル増えて3,100ドルになった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 150,
+         "unit": "ドル",
+         "label": "カードの借金の中央値の増加額"
+        },
+        {
+         "value": 3100,
+         "unit": "ドル",
+         "label": "カードの借金の中央値"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "median credit card debt increased $150 to $3,100",
+       "attribution": "出典：FRB理事会「Changes in U.S. Family Finances from 2022 to 2025: Evidence from the Survey of Consumer Finances」（https://www.federalreserve.gov/publications/files/scf26.pdf）",
+       "processing_note": "FRB理事会「Changes in U.S. Family Finances from 2022 to 2025: Evidence from the Survey of Consumer Finances」（https://www.federalreserve.gov/publications/files/scf26.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "借金のある家計で、所得に対する返済額の割合の中央値は15.4%で、2022年より2.0ポイント上がった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 15.4,
+         "unit": "%",
+         "label": "所得に対する返済額の割合の中央値"
+        },
+        {
+         "value": 2.0,
+         "unit": "ポイント",
+         "label": "上昇幅"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "the median debt payment-to-income ratio was 15.4 percent, up 2.0 percentage points from",
+       "attribution": "出典：FRB理事会「Changes in U.S. Family Finances from 2022 to 2025: Evidence from the Survey of Consumer Finances」（https://www.federalreserve.gov/publications/files/scf26.pdf）",
+       "processing_note": "FRB理事会「Changes in U.S. Family Finances from 2022 to 2025: Evidence from the Survey of Consumer Finances」（https://www.federalreserve.gov/publications/files/scf26.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-06",
+       "text": "金利が上がると、変動金利の借金や新しく借りる借金で、毎月の返済額が増えやすい。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-07",
+       "text": "報告書は、返済額が所得の40%を超える家計を、返済の負担が特に重い家計としている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 40,
+         "unit": "%",
+         "label": "返済額が所得に占める割合の目安"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "greater than 40 percent, which are families with particularly high debt payment obligations",
+       "attribution": "出典：FRB理事会「Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families」（https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm）",
+       "processing_note": "FRB理事会「Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families」（https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-08",
+       "text": "そうした家計の割合は6.5%から8.6%に上がり、2013年の調査以来の水準になった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 6.5,
+         "unit": "%",
+         "label": "返済の負担が重い家計の割合（2022年）"
+        },
+        {
+         "value": 8.6,
+         "unit": "%",
+         "label": "返済の負担が重い家計の割合（2025年）"
+        },
+        {
+         "value": 2013,
+         "unit": "年",
+         "label": "日付（同じ水準だった調査の年）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "6.5 to 8.6 percent, a level last seen in the 2013 survey",
+       "attribution": "出典：FRB理事会「Changes in U.S. Family Finances from 2022 to 2025: Evidence from the Survey of Consumer Finances」（https://www.federalreserve.gov/publications/files/scf26.pdf）",
+       "processing_note": "FRB理事会「Changes in U.S. Family Finances from 2022 to 2025: Evidence from the Survey of Consumer Finances」（https://www.federalreserve.gov/publications/files/scf26.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-09",
+       "text": "ローンの返済が遅れていると答えた家計の割合は、2022年の調査の約12%から大きく上がった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 12,
+         "unit": "%",
+         "label": "返済が遅れている家計の割合（2022年）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "reported being behind on loan payments sharply increased from about 12 percent to almost",
+       "attribution": "出典：FRB理事会「Changes in U.S. Family Finances from 2022 to 2025: Evidence from the Survey of Consumer Finances」（https://www.federalreserve.gov/publications/files/scf26.pdf）",
+       "processing_note": "FRB理事会「Changes in U.S. Family Finances from 2022 to 2025: Evidence from the Survey of Consumer Finances」（https://www.federalreserve.gov/publications/files/scf26.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-10",
+       "text": "2025年の調査ではほぼ20%で、2か月以上遅れている家計も8%を超えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20,
+         "unit": "%",
+         "label": "返済が遅れている家計の割合（2025年）"
+        },
+        {
+         "value": 8,
+         "unit": "%",
+         "label": "2か月以上遅れている家計の割合"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "20 percent. Furthermore, more than 8 percent reported being two months late or more",
+       "attribution": "出典：FRB理事会「Changes in U.S. Family Finances from 2022 to 2025: Evidence from the Survey of Consumer Finances」（https://www.federalreserve.gov/publications/files/scf26.pdf）",
+       "processing_note": "FRB理事会「Changes in U.S. Family Finances from 2022 to 2025: Evidence from the Survey of Consumer Finances」（https://www.federalreserve.gov/publications/files/scf26.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-25-002-1",
+       "text": "返済が遅れる家計が増えた状態が続けば、米国で消費者向けに貸し出す銀行やカードの会社で、貸し倒れに備える費用が増える可能性がある。",
+       "falsifier": "FRB理事会の統計で、商業銀行の消費者向けローンの延滞率が下がっていけば、この見方は弱まる。",
+       "check_metric": "FRB理事会 Charge-Off and Delinquency Rates on Loans and Leases at Commercial Banks（消費者向けローンの延滞率）",
+       "check_by": "2026-11-30"
+      },
+      {
+       "inference_id": "INF-2026-10-25-002-2",
+       "text": "米国の家計の返済の負担が重くなると、米国の家計向けに車や家電などを売る日本の業種で、ローンを使った購入が伸びにくくなる可能性がある。",
+       "falsifier": "米国向けの輸送用機器などの輸出額が前年を上回り続ければ、この見方は成り立ちにくい。",
+       "check_metric": "財務省 貿易統計 10月分の米国向け輸出額",
+       "check_by": "2026-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-25-003",
+     "event_id": "EVT-2026-10-25-002",
+     "headline": "深掘り：米国の利上げの前に、地区連銀の一部は窓口の金利の引き上げを求めていた（FRB理事会の割引率の議事要旨）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "FRB理事会は、8月17日・9月9日・9月16日の会合で、銀行に貸す窓口の金利（割引率）をどう決めたかの議事要旨を公表した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 17,
+         "unit": "日",
+         "label": "日付（会合の日）"
+        },
+        {
+         "value": 9,
+         "unit": "日",
+         "label": "日付（会合の日）"
+        },
+        {
+         "value": 16,
+         "unit": "日",
+         "label": "日付（会合の日）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "Today's minutes cover the Board meetings that occurred on August 17, September 9, and September 16, 2026.",
+       "attribution": "出典：FRB理事会「Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026」（https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm）",
+       "processing_note": "FRB理事会「Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026」（https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "割引率は、銀行が一時的にお金が足りなくなったときに、中央銀行の窓口から借りる際の金利である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "米国では、各地の地区連銀の理事会が割引率を決めて求め、FRB理事会がそれを認めるかどうかを決める仕組みになっている。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "8月17日の会合の時点で、多くの地区連銀の理事会は、主な窓口の金利をそれまでの3.75%に据え置くことを求めていた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.75,
+         "unit": "%",
+         "label": "主な窓口の金利（据え置きの水準）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "to establish the primary credit rate at the existing level of 3.75 percent.",
+       "attribution": "出典：FRB理事会「Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026（Attachment）」（https://www.federalreserve.gov/newsevents/pressreleases/files/monetary20261013a1.pdf）",
+       "processing_note": "FRB理事会「Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026（Attachment）」（https://www.federalreserve.gov/newsevents/pressreleases/files/monetary20261013a1.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "一方、クリーブランドとカンザスシティの地区連銀の理事会は、3.75%から4%への引き上げを求めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4,
+         "unit": "%",
+         "label": "引き上げを求めた水準"
+        },
+        {
+         "value": 3.75,
+         "unit": "%",
+         "label": "それまでの水準"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "establish the primary credit rate at 4 percent (an increase from 3.75 percent).",
+       "attribution": "出典：FRB理事会「Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026（Attachment）」（https://www.federalreserve.gov/newsevents/pressreleases/files/monetary20261013a1.pdf）",
+       "processing_note": "FRB理事会「Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026（Attachment）」（https://www.federalreserve.gov/newsevents/pressreleases/files/monetary20261013a1.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-06",
+       "text": "9月3日には、クリーブランド・シカゴ・ミネアポリス・カンザスシティの地区連銀の理事会が、4%への引き上げを求めることを決めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4,
+         "unit": "%",
+         "label": "引き上げを求めた水準"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "September 3, 2026, to establish the primary credit rate at 4 percent (an increase from",
+       "attribution": "出典：FRB理事会「Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026（Attachment）」（https://www.federalreserve.gov/newsevents/pressreleases/files/monetary20261013a1.pdf）",
+       "processing_note": "FRB理事会「Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026（Attachment）」（https://www.federalreserve.gov/newsevents/pressreleases/files/monetary20261013a1.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-07",
+       "text": "FRB理事会は、9月9日の会合では3.75%の据え置きを認めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.75,
+         "unit": "%",
+         "label": "主な窓口の金利（据え置きの水準）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "rate at the existing level of 3.75 percent.",
+       "attribution": "出典：FRB理事会「Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026（Attachment）」（https://www.federalreserve.gov/newsevents/pressreleases/files/monetary20261013a1.pdf）",
+       "processing_note": "FRB理事会「Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026（Attachment）」（https://www.federalreserve.gov/newsevents/pressreleases/files/monetary20261013a1.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-08",
+       "text": "9月16日の合同の会合で、金融政策を決める委員会（FOMC）は、政策金利の誘導目標を25ベーシスポイント引き上げることを決めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 25,
+         "unit": "ベーシスポイント",
+         "label": "政策金利の誘導目標の引き上げ幅"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "the FOMC decided to raise the target range for the federal funds rate 25 basis points, to",
+       "attribution": "出典：FRB理事会「Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026（Attachment）」（https://www.federalreserve.gov/newsevents/pressreleases/files/monetary20261013a1.pdf）",
+       "processing_note": "FRB理事会「Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026（Attachment）」（https://www.federalreserve.gov/newsevents/pressreleases/files/monetary20261013a1.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-09",
+       "text": "FRB理事会は、銀行が中央銀行に預けるお金に付ける金利を、3.65%から3.9%に上げることを認めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.65,
+         "unit": "%",
+         "label": "預けるお金の金利（引き上げ前）"
+        },
+        {
+         "value": 3.9,
+         "unit": "%",
+         "label": "預けるお金の金利（引き上げ後）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "interest rate paid on reserve balances from 3.65 percent to 3.9 percent, effective",
+       "attribution": "出典：FRB理事会「Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026（Attachment）」（https://www.federalreserve.gov/newsevents/pressreleases/files/monetary20261013a1.pdf）",
+       "processing_note": "FRB理事会「Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026（Attachment）」（https://www.federalreserve.gov/newsevents/pressreleases/files/monetary20261013a1.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-10",
+       "text": "主な窓口の金利も、3.75%から4%に上げた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.75,
+         "unit": "%",
+         "label": "主な窓口の金利（引き上げ前）"
+        },
+        {
+         "value": 4,
+         "unit": "%",
+         "label": "主な窓口の金利（引き上げ後）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "approved an increase in the primary credit rate from 3.75 percent to 4 percent, effective",
+       "attribution": "出典：FRB理事会「Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026（Attachment）」（https://www.federalreserve.gov/newsevents/pressreleases/files/monetary20261013a1.pdf）",
+       "processing_note": "FRB理事会「Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026（Attachment）」（https://www.federalreserve.gov/newsevents/pressreleases/files/monetary20261013a1.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-25-003-1",
+       "text": "8〜9月に引き上げを求める地区連銀が増えてから利上げに至った流れからみると、次の割引率の議事要旨で引き上げを求める地区連銀の数は、その後の米国の政策の方向を考える材料になる可能性がある。",
+       "falsifier": "引き上げを求める地区連銀が増えても、政策金利が据え置かれ続ければ、材料としての意味は小さい。",
+       "check_metric": "FRB理事会 割引率の議事要旨（9月下旬以降の会合の分）で引き上げを求めた地区連銀の数",
+       "check_by": "2026-11-30"
+      },
+      {
+       "inference_id": "INF-2026-10-25-003-2",
+       "text": "米国の政策金利が高い状態が続けば、ドル建ての借入れが多い日本の業種で、利払いの負担が増える可能性がある。",
+       "falsifier": "次回のFOMCで政策金利が引き下げられれば、この見方は弱まる。",
+       "check_metric": "FRB理事会 次回のFOMCの声明の政策金利の誘導目標",
+       "check_by": "2026-11-15"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-10-25T17:15:47.074512+09:00",
+  "first_run": {
+   "run_at": "2026-10-25T17:15:47.074512+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 6,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 30,
+  "passed": 26,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 4,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 2,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {},
+  "edinet_view_url_count": 2,
+  "attribution_overwritten": 32,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "evening",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 6,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 0,
+  "evidence_doc_type_overridden": 0,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {},
+  "impact_kind_undetermined_by_doc_type": {},
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 0,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 0,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 2,
+   "source_ids": [
+    "SRC-005",
+    "SRC-006"
+   ]
+  },
+  "number_coverage": {
+   "text_number_tokens": 68,
+   "numbers_declared": 44,
+   "gap": 24,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 68,
+     "numbers_declared": 44
+    },
+    "explainer": {
+     "text_number_tokens": 0,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 3,
+   "line_ids": [
+    "L-001-01",
+    "L-001-02",
+    "L-003-01"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 9,
+   "change": 0,
+   "ripple": 9,
+   "deep": 8
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 2,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 1,
+   "first_run_at": "2026-10-25T17:15:38.676293+09:00",
+   "last_run_at": "2026-10-25T17:15:38.676293+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 26,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 1,
+   "total_unregistered": 1,
+   "excluded_date_time_tokens": 29,
+   "lines": [
+    {
+     "line_id": "L-002-10",
+     "values": [
+      "2"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 0,
+   "zero_letter_count": 0,
+   "lines": []
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "market_closed",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 4,
+    "source_ids": [
+     "SRC-002",
+     "SRC-003",
+     "SRC-005",
+     "SRC-006"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 3
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
