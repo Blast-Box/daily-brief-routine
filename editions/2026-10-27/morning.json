@@ -1,0 +1,1064 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-10-27-morning",
+ "date": "2026-10-27",
+ "slot": "morning",
+ "generated_at": "2026-10-27T07:35:49.708093+09:00",
+ "market_open": true,
+ "baseline": {
+  "date": "2026-10-27",
+  "price_type": "open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-27&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月27日）",
+   "published_at": "2026-10-27",
+   "fetched_at": "2026-10-27T07:32:06+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "109257db334aff154d47a772b0d6a733e174a560f3ac647dcfe0eadf4683edcb",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-26&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月26日）",
+   "published_at": "2026-10-26",
+   "fetched_at": "2026-10-27T07:32:11+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "97f926f784323323c2ded4eb0b5dee974bc662c9d5578f552377c7b956940e03",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z9Q5?type=1",
+   "publisher": "株式会社アイモバイル",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社アイモバイル）",
+   "published_at": "2026-10-26T15:07:00+09:00",
+   "fetched_at": "2026-10-27T07:32:26+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "4dfb794c5dd1e96ce8c75ff49cd932ecab1cad7008a6664c5dabd6a8b488d110",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9Q5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9Q5）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9Q5"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZA03?type=1",
+   "publisher": "株式会社クロスフォー",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社クロスフォー）",
+   "published_at": "2026-10-26T16:05:00+09:00",
+   "fetched_at": "2026-10-27T07:32:32+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "bd8168b81fc9aacad79edf79c737b0d0beb88014411610ee88839768e6236686",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA03）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA03）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA03"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z9WH?type=1",
+   "publisher": "株式会社鉄人化ホールディングス",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社鉄人化ホールディングス）",
+   "published_at": "2026-10-26T13:06:00+09:00",
+   "fetched_at": "2026-10-27T07:32:38+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "a4f68a78073ca7de2b0bf24c379320a00180cd6f3f7ebd1581ff56416813c3f3",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9WH）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9WH）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9WH"
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z9H9?type=1",
+   "publisher": "雪印メグミルク株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "発行登録書（株券､社債券等）（雪印メグミルク株式会社）",
+   "published_at": "2026-10-26T10:00:00+09:00",
+   "fetched_at": "2026-10-27T07:32:43+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "b0d290522897085a04d17dededf194ad2eb18d7a59ae9c7a3679b8f942b84237",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H9）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H9"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZA0U?type=1",
+   "publisher": "株式会社ＢｌｕｅＭｅｍｅ",
+   "publisher_type": "company_disclosure",
+   "title": "訂正臨時報告書（株式会社ＢｌｕｅＭｅｍｅ）",
+   "published_at": "2026-10-26T16:54:00+09:00",
+   "fetched_at": "2026-10-27T07:32:49+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "50c9ad6349d744a388b3ee57aad2b7c5681fcf8d9fd71db2cba187fea96c93bd",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA0U）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA0U）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA0U"
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z9S1?type=1",
+   "publisher": "株式会社アルチザネットワークス",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社アルチザネットワークス）",
+   "published_at": "2026-10-26T09:13:00+09:00",
+   "fetched_at": "2026-10-27T07:32:55+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "203ece190f7ca3527847f348b9a4431302856675d67e4d99b85b896e86823aad",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9S1）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9S1）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9S1"
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-27-001",
+     "event_id": "EVT-2026-10-27-001",
+     "headline": "乳製品の雪印メグミルク、社債を出すための枠40,000百万円を届け出（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "雪印メグミルクは、社債を出すための枠を前もって届けておく発行登録書を提出し、発行予定額を40,000百万円とした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 40000,
+         "unit": "百万円",
+         "label": "社債の発行予定額"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "発行予定額　40,000百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H9）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "発行できる期間は、発行登録の効力が生じる予定の2026年11月3日から2年を経過する日までとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "年",
+         "label": "発行予定期間の長さ"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "この発行登録書による発行登録の効力発生予定日（2026年11月３日）から２年を経過する日（2028年11月２日）まで",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9H9）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "発行登録は、社債などを出す前に枠を届けておき、実際に出すときの手続きを短くする仕組みである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "社債は、会社が投資家からお金を借りるために出す証券で、決めた利息を払い、期限が来たら元本を返す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-27-001-1",
+       "text": "食料品の会社が社債の枠を広げる動きは、借りたお金の返済や設備への投資の資金を、銀行の借入れ以外からも集める流れの一つである可能性がある。",
+       "falsifier": "枠を届けた後の2年間に食料品の会社の社債の発行が増えなければ、この見方は成り立たない。",
+       "check_metric": "EDINETの発行登録追補書類（食料品の会社の社債の発行条件）",
+       "check_by": "2028-11-02"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-27-002",
+     "event_id": "EVT-2026-10-27-002",
+     "headline": "カラオケ店などの鉄人化ホールディングス、金融機関から200,000,000円を借り入れへ：期間5年、10月29日に実行予定（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "鉄人化ホールディングスは、金融機関から200,000,000円を借り入れると臨時報告書で届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 200000000,
+         "unit": "円",
+         "label": "借入金額"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "借入金額 200,000,000円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9WH）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9WH）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "金利は、1か月のTiborレートに1.1%を上乗せする変動金利としている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "か月",
+         "label": "基準にするTiborの期間"
+        },
+        {
+         "value": 1.1,
+         "unit": "%",
+         "label": "上乗せする金利"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "変動金利　1ヶ月Tiborレート＋1.1％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9WH）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9WH）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "借りる期間は5年。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5,
+         "unit": "年",
+         "label": "借入期間"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "借入期間 ５年",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9WH）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9WH）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "借入れの実行日は2026年10月29日の予定。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 29,
+         "unit": "日",
+         "label": "日付（借入実行日）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "借入実行日 2026年10月29日（予定）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9WH）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9WH）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "この借入れにより、長期借入金200百万円を計上するとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 200,
+         "unit": "百万円",
+         "label": "計上する長期借入金"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "長期借入金　200百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9WH）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9WH）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-06",
+       "text": "Tiborは、銀行どうしがお金を貸し借りするときの金利の目安で、これに上乗せ分を足して金利を決める借入れがある。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-27-002-1",
+       "text": "変動金利で借りる会社にとっては、短い期間の金利の目安が上がると、利息の支払いが増える可能性がある。",
+       "falsifier": "今後1年で1か月物の金利の目安が上がらなければ、利息の増加は起きない。",
+       "check_metric": "全銀協TIBOR運営機関が公表する1か月物の日本円TIBOR",
+       "check_by": "2027-10-29"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-27-003",
+     "event_id": "EVT-2026-10-27-003",
+     "headline": "株主総会の結果を届け出た2社──アイモバイルは報酬枠の議案を賛成99.40%、クロスフォーは配当の議案を賛成99.26%で可決（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "アイモバイルは定時株主総会で、取締役へのストック・オプション（新株予約権）の報酬の枠を、従前と同じ年額80百万円以内とする議案を決議した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 80,
+         "unit": "百万円",
+         "label": "ストック・オプションの報酬の年額の上限"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "新株予約権に関する報酬等について、従前と同様に年額80百万円以内",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9Q5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9Q5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "臨時報告書によると、この議案の賛成の割合は99.40%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 99.4,
+         "unit": "%",
+         "label": "報酬の議案の賛成の割合"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "の具体的な内容決定の件  428,262  2,581  －  (注)２  可決  99.40",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9Q5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9Q5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-07",
+       "text": "同じ議案の議決権の数は、賛成が428,262個、反対が2,581個だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 428262,
+         "unit": "個",
+         "label": "報酬の議案の賛成の議決権の数"
+        },
+        {
+         "value": 2581,
+         "unit": "個",
+         "label": "報酬の議案の反対の議決権の数"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "の具体的な内容決定の件  428,262  2,581",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9Q5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9Q5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "クロスフォーは定時株主総会で、剰余金の配当として総額11,054,559円を支払う議案を決議した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 11054559,
+         "unit": "円",
+         "label": "配当の総額"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "総額11,054,559円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA03）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA03）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "臨時報告書によると、この配当の議案の賛成の割合は99.26%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 99.26,
+         "unit": "%",
+         "label": "配当の議案の賛成の割合"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "第１号議案剰余金の配当の件  113,543  842  0  (注)１  可決  99.26",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA03）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA03）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-08",
+       "text": "同じ議案の議決権の数は、賛成が113,543個、反対が842個だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 113543,
+         "unit": "個",
+         "label": "配当の議案の賛成の議決権の数"
+        },
+        {
+         "value": 842,
+         "unit": "個",
+         "label": "配当の議案の反対の議決権の数"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "第１号議案剰余金の配当の件  113,543  842",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA03）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA03）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "上場会社は、株主総会で決めたことと賛成・反対の数を、臨時報告書で国に届け出る決まりになっている。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-06",
+       "text": "ストック・オプションは、決めた値段で自社の株を買える権利を、役員や社員に報酬として渡す仕組みである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-27-003-1",
+       "text": "株を受け取る権利を報酬にする会社が増えると、将来、権利が使われたときに発行済株式が増え、1株あたりの利益が薄まる可能性がある。",
+       "falsifier": "権利が使われず期限切れになる割合が高ければ、この影響は小さい。",
+       "check_metric": "EDINETの有価証券報告書の「新株予約権等の状況」",
+       "check_by": "2027-10-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-27-004",
+     "event_id": "EVT-2026-10-27-004",
+     "headline": "深掘り：持株会社に移る日を延ばす──ＢｌｕｅＭｅｍｅ、会社分割の効力発生日を2027年1月1日（予定）に改める（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "ＢｌｕｅＭｅｍｅは訂正臨時報告書で、会社分割の効力発生日を2027年1月1日（予定）と届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "日",
+         "label": "日付（効力発生日）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "吸収分割の効力発生日  2027年1月1日 (予定)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA0U）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA0U）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "効力発生日を変える取締役会の決議は、2026年9月15日に行われた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 15,
+         "unit": "日",
+         "label": "日付（変更の決議日）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "効力発生日の変更に関する取締役会決議  2026年9月15日",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA0U）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA0U）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "分割の相手は同社が100%出資する子会社で、同社は持株会社として上場を続けるとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 100,
+         "unit": "%",
+         "label": "子会社への出資の割合"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "当社の100％子会社である準備会社(株式会社ローコード)を吸収分割承継会社とする吸収分割です。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA0U）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA0U）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-06",
+       "text": "事業を引き継ぐ子会社の資本金の額は1,000千円と書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1000,
+         "unit": "千円",
+         "label": "事業を引き継ぐ子会社の資本金の額"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "資本金の額  1,000千円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA0U）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA0U）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "持株会社は、自らは事業をせず、子会社の株を持って全体を管理する会社である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "会社分割は、会社の事業の一部または全部を、別の会社に引き継がせる手続きである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-27-004-1",
+       "text": "情報・通信業の小さな会社でも、管理の仕組みを見直すために持株会社に移る例が続く可能性がある。",
+       "falsifier": "今後半年で、情報・通信業の会社が持株会社への移行を届け出る臨時報告書がほとんど出なければ、この見方は成り立たない。",
+       "check_metric": "EDINETの臨時報告書（会社分割・持株会社体制への移行）",
+       "check_by": "2027-04-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-10-27T07:35:49.708093+09:00",
+  "first_run": {
+   "run_at": "2026-10-27T07:35:49.708093+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 8,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 24,
+  "passed": 17,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 7,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 8,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-001": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E32687-000_2026-10-26_01_2026-10-26_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E32687-000_2026-10-26_01_2026-10-26_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E33313-000_2026-09-09_01_2026-09-09_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E33313-000_2026-09-09_01_2026-09-09_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E05409-000_2026-10-26_01_2026-10-26_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E05409-000_2026-10-26_01_2026-10-26_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-004": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp110000-rst-001_E23202-000_2026-10-26_01_2026-10-26_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp110000-rst-001_E23202-000_2026-10-26_01_2026-10-26_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp110000-rst-001_E23202-000_2026-10-26_01_2026-10-26_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E36653-000_2026-06-03_02_2026-10-26_ixbrl.htm",
+     "PublicDoc/0000000_header.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-006": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E02342-000_2026-10-26_01_2026-10-26_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E02342-000_2026-10-26_01_2026-10-26_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 8,
+  "attribution_overwritten": 25,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "morning",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 8,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 5,
+  "evidence_doc_type_overridden": 5,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {
+   "edinet_doctype_unmapped": 5
+  },
+  "impact_kind_undetermined_by_doc_type": {
+   "180": 3,
+   "080": 1,
+   "190": 1
+  },
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 5,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 5,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 29,
+   "numbers_declared": 20,
+   "gap": 9,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 29,
+     "numbers_declared": 20
+    },
+    "explainer": {
+     "text_number_tokens": 0,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 3,
+   "line_ids": [
+    "L-002-04",
+    "L-004-01",
+    "L-004-02"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 2,
+   "change": 5,
+   "ripple": 6,
+   "deep": 4
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 2,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 2,
+   "first_run_at": "2026-10-27T07:35:18.341650+09:00",
+   "last_run_at": "2026-10-27T07:35:45.006526+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [
+    "L-003-07",
+    "L-003-08",
+    "L-004-06"
+   ],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 17,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [
+   {
+    "hypothesis_id": "2026-10-27-morning-1",
+    "company_name": "株式会社鉄人化ホールディングス",
+    "submitted_at": "2026-10-26T13:06:00+09:00",
+    "baseline_point": "2026-10-27T09:00:00+09:00",
+    "trading_minutes": 144,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-27-morning-2",
+    "company_name": "雪印メグミルク株式会社",
+    "submitted_at": "2026-10-26T10:00:00+09:00",
+    "baseline_point": "2026-10-27T09:00:00+09:00",
+    "trading_minutes": 270,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-27-morning-3",
+    "company_name": "株式会社アイモバイル",
+    "submitted_at": "2026-10-26T15:07:00+09:00",
+    "baseline_point": "2026-10-27T09:00:00+09:00",
+    "trading_minutes": 23,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-27-morning-4",
+    "company_name": "株式会社クロスフォー",
+    "submitted_at": "2026-10-26T16:05:00+09:00",
+    "baseline_point": "2026-10-27T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-27-morning-5",
+    "company_name": "株式会社ＢｌｕｅＭｅｍｅ",
+    "submitted_at": "2026-10-26T16:54:00+09:00",
+    "baseline_point": "2026-10-27T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   }
+  ],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 0,
+   "total_unregistered": 0,
+   "excluded_date_time_tokens": 14,
+   "lines": []
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 1,
+   "zero_letter_count": 0,
+   "lines": [
+    {
+     "line_id": "L-003-03",
+     "letters": 3
+    }
+   ]
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "ok",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 4
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "industry_picks_total": 2,
+  "industry_examples_total": 0,
+  "industry_example_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "ai_written_examples_discarded": 0,
+  "slot_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "short_name_match_count": {
+   "count": 0,
+   "names": []
+  },
+  "allowed_industries_count": 30,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
