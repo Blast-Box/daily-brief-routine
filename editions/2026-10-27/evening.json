@@ -1,0 +1,1595 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-10-27-evening",
+ "date": "2026-10-27",
+ "slot": "evening",
+ "generated_at": "2026-10-27T17:15:40.005519+09:00",
+ "market_open": true,
+ "baseline": {
+  "date": "2026-10-28",
+  "price_type": "next_open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-27&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月27日）",
+   "published_at": "2026-10-27",
+   "fetched_at": "2026-10-27T17:09:43+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "dd2bf15ad195228c3f54afbb8bb51dabc6ac266ed35def4ba51e0c2f6174b601",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-26&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月26日）",
+   "published_at": "2026-10-26",
+   "fetched_at": "2026-10-27T17:09:50+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "97f926f784323323c2ded4eb0b5dee974bc662c9d5578f552377c7b956940e03",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZA2D?type=1",
+   "publisher": "ユニチカ株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（ユニチカ株式会社）",
+   "published_at": "2026-10-27T15:01:00+09:00",
+   "fetched_at": "2026-10-27T17:10:18+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "15e416a85f642bf00b459d7677c07b7912aa32e9e81b67cca04d0071a44809f0",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA2D）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA2D）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA2D"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZA5A?type=1",
+   "publisher": "株式会社ＳＨＩＦＴ",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社ＳＨＩＦＴ）",
+   "published_at": "2026-10-27T15:47:00+09:00",
+   "fetched_at": "2026-10-27T17:10:25+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "5f915c22bfa4000c1f61c0bf6aa08f2b4488af36195b014e914224ee582a63ed",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA5A）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA5A）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA5A"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100Z9VU?type=1",
+   "publisher": "株式会社エスコン",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社エスコン）",
+   "published_at": "2026-10-27T15:38:00+09:00",
+   "fetched_at": "2026-10-27T17:10:30+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "fa960251a709a64ebf52724cfb2ba352d0c3c2c7ba738f954c32b0426ca5ff6e",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9VU）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9VU）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9VU"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZA9K?type=1",
+   "publisher": "ギフティグループ株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（ギフティグループ株式会社）",
+   "published_at": "2026-10-27T17:02:00+09:00",
+   "fetched_at": "2026-10-27T17:10:41+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "c71666c531ce90aae2f644879634c661e81ce020c994016d9da91707595a61c8",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA9K）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA9K）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA9K"
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZA61?type=1",
+   "publisher": "株式会社ＪＰＭＣ",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社ＪＰＭＣ）",
+   "published_at": "2026-10-27T16:04:00+09:00",
+   "fetched_at": "2026-10-27T17:10:47+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "f5e56c0f945100b2725651ff285381209423fa905d92b9876ac859fde1ba0ba0",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA61）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA61）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA61"
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZA92?type=1",
+   "publisher": "アグレ都市デザイン株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（アグレ都市デザイン株式会社）",
+   "published_at": "2026-10-27T16:40:00+09:00",
+   "fetched_at": "2026-10-27T17:10:53+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "8f2d9f87ba92aa535f5a81d6d7778a1945fa4a3b7a185f81ccaae59f080538a8",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA92）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA92）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA92"
+  },
+  {
+   "source_id": "SRC-009",
+   "url": "https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261027.html",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "中華人民共和国産若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域産ニッケル系ステンレス冷延鋼帯及び冷延鋼板に対する不当廉売関税の課税を決定しました",
+   "published_at": "2026-10-27",
+   "fetched_at": "2026-10-27T17:11:37+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "d8be051aacf1bb4d078051ba1476c19e090361d2f719768eccc74856ac6b409d",
+   "usage": "quotable",
+   "attribution": "出典：財務省「中華人民共和国産若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域産ニッケル系ステンレス冷延鋼帯及び冷延鋼板に対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261027.html）",
+   "processing_note": "財務省「中華人民共和国産若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域産ニッケル系ステンレス冷延鋼帯及び冷延鋼板に対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261027.html）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-010",
+   "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261027.htm",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "流動性供給（第464回）入札結果",
+   "published_at": "2026-10-27",
+   "fetched_at": "2026-10-27T17:11:38+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "15d9f7dccf617c2b3412480876a5d8cc163182977ffe2abf787c2204b00e34a5",
+   "usage": "quotable",
+   "attribution": "出典：財務省「流動性供給（第464回）入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261027.htm）",
+   "processing_note": "財務省「流動性供給（第464回）入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261027.htm）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-012",
+   "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo1.pdf",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "不当廉売関税の課税について",
+   "published_at": "2026-10-19",
+   "fetched_at": "2026-10-27T17:12:11+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "dd0ec95bebba96d0d3eb1a2301e92e45ae71f27743121c568bc997bfbf664215",
+   "usage": "quotable",
+   "attribution": "出典：財務省「不当廉売関税の課税について」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo1.pdf）",
+   "processing_note": "財務省「不当廉売関税の課税について」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo1.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-27-001",
+     "event_id": "EVT-2026-10-27-001",
+     "headline": "中国産と台湾産のステンレスの薄い鋼板に、5年間の上乗せの関税：本日、政令を閣議決定（財務省）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "財務省は、中国産と台湾産のニッケル系ステンレス冷延鋼帯・冷延鋼板に不当廉売関税を課す政令が本日閣議決定されたと発表した。政令は10月30日に公布され、10月31日から課税が始まる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 30,
+         "unit": "日",
+         "label": "日付（政令の公布日）"
+        },
+        {
+         "value": 31,
+         "unit": "日",
+         "label": "日付（課税の開始日）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "本年10月30日に政令が公布され、同年10月31日から",
+       "attribution": "出典：財務省「中華人民共和国産若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域産ニッケル系ステンレス冷延鋼帯及び冷延鋼板に対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261027.html）",
+       "processing_note": "財務省「中華人民共和国産若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域産ニッケル系ステンレス冷延鋼帯及び冷延鋼板に対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261027.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "不当廉売関税は、外国の品物が本来の値段より不当に安く輸入され、国内の産業が損害を受けているときに、通常の関税に上乗せして課す関税である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "これに先立ち、審議会は、課税の期間を5年とすることが適当だとする答申を出していた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5,
+         "unit": "年",
+         "label": "課税の期間"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "期間５年の不当廉売関税を課することが適当である旨の答申が提出されました",
+       "attribution": "出典：財務省「中華人民共和国産若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域産ニッケル系ステンレス冷延鋼帯及び冷延鋼板に対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261027.html）",
+       "processing_note": "財務省「中華人民共和国産若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域産ニッケル系ステンレス冷延鋼帯及び冷延鋼板に対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261027.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "財務大臣が審議会に示した税率は、中国産が42.1%。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 42.1,
+         "unit": "%",
+         "label": "中国産の税率"
+        }
+       ],
+       "source_ref": "SRC-012",
+       "excerpt": "中国 ４２．１％（※1）",
+       "attribution": "出典：財務省「不当廉売関税の課税について」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo1.pdf）",
+       "processing_note": "財務省「不当廉売関税の課税について」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo1.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "台湾産は20.1%。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20.1,
+         "unit": "%",
+         "label": "台湾産の税率"
+        }
+       ],
+       "source_ref": "SRC-012",
+       "excerpt": "台湾 ２０．１％（※2）",
+       "attribution": "出典：財務省「不当廉売関税の課税について」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo1.pdf）",
+       "processing_note": "財務省「不当廉売関税の課税について」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo1.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "中国産のうち、名前を挙げた生産者の分は27.7%と、生産者によって税率が分かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 27.7,
+         "unit": "%",
+         "label": "名前を挙げた中国の生産者の税率"
+        }
+       ],
+       "source_ref": "SRC-012",
+       "excerpt": "により生産されたものにあっては、２７．７％",
+       "attribution": "出典：財務省「不当廉売関税の課税について」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo1.pdf）",
+       "processing_note": "財務省「不当廉売関税の課税について」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo1.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "名前を挙げた台湾の生産者の分は3.6%。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.6,
+         "unit": "%",
+         "label": "名前を挙げた台湾の生産者の税率"
+        }
+       ],
+       "source_ref": "SRC-012",
+       "excerpt": "より生産されたものにあっては、３．６％",
+       "attribution": "出典：財務省「不当廉売関税の課税について」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo1.pdf）",
+       "processing_note": "財務省「不当廉売関税の課税について」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261019/kanb20261019siryo1.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-08",
+       "text": "7月9日からは、税率の下限を3.6%とする暫定的な不当廉売関税がすでに課されていた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.6,
+         "unit": "%",
+         "label": "暫定措置の税率の下限"
+        },
+        {
+         "value": 9,
+         "unit": "日",
+         "label": "日付（暫定措置の開始日）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "本年７月９日から、中国若しくは台湾を原産地とするニッケル系ステンレス冷延鋼帯及び冷延鋼板又は中国若しくは台湾から本邦に輸出されたニッケル系ステンレス冷延鋼帯及び冷延鋼板に対して3.6％",
+       "attribution": "出典：財務省「中華人民共和国産若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域産ニッケル系ステンレス冷延鋼帯及び冷延鋼板に対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261027.html）",
+       "processing_note": "財務省「中華人民共和国産若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域産ニッケル系ステンレス冷延鋼帯及び冷延鋼板に対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261027.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-09",
+       "text": "財務省と経済産業省の合同の調査は、2025年7月22日に始まっていた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 22,
+         "unit": "日",
+         "label": "日付（調査の開始日）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "令和７年７月22日に、不当廉売関税の課税の要否に関する両省合同の調査を開始しました",
+       "attribution": "出典：財務省「中華人民共和国産若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域産ニッケル系ステンレス冷延鋼帯及び冷延鋼板に対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261027.html）",
+       "processing_note": "財務省「中華人民共和国産若しくは台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域産ニッケル系ステンレス冷延鋼帯及び冷延鋼板に対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261027.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-10",
+       "text": "ステンレス鋼は、さびにくく見た目がきれいなため、台所の流し台、家電、自動車の部品、建物の外装など、さまざまな用途に使われる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-27-001-1",
+       "text": "上乗せの関税で、中国産・台湾産のステンレスの薄い鋼板の輸入は減り、国内の鉄鋼業の販売量や値段は下支えされる可能性がある。",
+       "falsifier": "今後の貿易統計で、該当品目の中国・台湾からの輸入数量が暫定措置の前と比べて減っていなければ、この見方は成り立たない。",
+       "check_metric": "財務省 貿易統計 ステンレス冷延鋼板の国別輸入数量",
+       "check_by": "2027-01-31"
+      },
+      {
+       "inference_id": "INF-2026-10-27-001-2",
+       "text": "ステンレスの薄い鋼板を材料に使う金属製品・機械などの業種では、材料の仕入れ値が上がる可能性がある。",
+       "falsifier": "国内のステンレス鋼板の価格が、暫定措置の前の水準から上がっていなければ、この見方は成り立たない。",
+       "check_metric": "日本銀行 企業物価指数 ステンレス冷延鋼板の価格",
+       "check_by": "2027-01-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-27-002",
+     "event_id": "EVT-2026-10-27-002",
+     "headline": "ギフティグループ、子会社のシステムが不正アクセスを受け、eギフトが不正に発行：特別損失約5.5億円の見込み（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "ギフティグループは臨時報告書で、子会社のギフティが運用するシステムの一部が不正アクセスを受け、eギフトが不正に発行された件で、2026年12月期第4四半期に特別損失約5.5億円を計上する見込みだと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5.5,
+         "unit": "億円",
+         "label": "特別損失の見込み額"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "本件により、2026年12月期第4四半期において、連結決算上、特別損失約5.5億円を計上する見込みです。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA9K）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA9K）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "eギフトは、メールやSNSで送れる電子の商品券のようなもので、受け取った人が店で商品と交換する。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "特別損失は、ふだんの事業とは別の、一時的な出来事で生じた損失を指す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-27-002-1",
+       "text": "システムの弱点を突く不正アクセスが続けば、電子決済やギフトを扱う情報・通信業の会社で、守りのための費用が増える可能性がある。",
+       "falsifier": "今後半年の間に、同じ業種で不正アクセスによる損失の届け出が出なければ、この見方の根拠は弱まる。",
+       "check_metric": "EDINETの臨時報告書（損益に影響する事象）の件数",
+       "check_by": "2027-04-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-27-003",
+     "event_id": "EVT-2026-10-27-003",
+     "headline": "ＳＨＩＦＴ、保険業界向けのシステムの子会社SHIFT AXISを吸収合併へ：2027年4月1日の予定（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "ＳＨＩＦＴは、10月27日の取締役会で、子会社を通じて発行済株式の100%を持つSHIFT AXISを吸収合併すると決めたと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 27,
+         "unit": "日",
+         "label": "日付（取締役会の日）"
+        },
+        {
+         "value": 100,
+         "unit": "%",
+         "label": "子会社を通じて持つ発行済株式の割合"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "当社は、2026年10月27日開催の取締役会において、当社を吸収合併存続会社とし、当社の連結子会社である株式会社SHIFTグロース・キャピタルが発行済株式の100％を保有する株式会社SHIFT AXISを吸収合併消滅会社とする吸収合併を行うことを決議いたしました。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA5A）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA5A）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "合併でSHIFT AXISは消滅し、その日付は2027年4月1日の予定としている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "日",
+         "label": "日付（異動の予定日）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "異動の年月日：2027年４月１日（予定）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA5A）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA5A）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "吸収合併は、ある会社が別の会社を取り込み、取り込まれた会社が無くなる手続きである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-27-003-1",
+       "text": "子会社を親会社に取り込むことで、システム開発の会社は、業界ごとに分けていた体制を一本化する方向にある可能性がある。",
+       "falsifier": "同じ業種の会社で、業界特化の子会社を新たに作る届け出が続けば、この見方は一般的とはいえない。",
+       "check_metric": "EDINETの臨時報告書（特定子会社の異動）の内容",
+       "check_by": "2027-04-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-27-004",
+     "event_id": "EVT-2026-10-27-004",
+     "headline": "繊維のユニチカ、染色加工の子会社・大阪染工を解散へ：2027年9月30日に子会社から外れる予定（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "ユニチカは、10月26日の取締役会で、特定子会社の大阪染工を解散すると決めたと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 26,
+         "unit": "日",
+         "label": "日付（取締役会の日）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "当社は、2026年10月26日開催の取締役会において、当社の特定子会社である大阪染工株式会社を解散することを決議いたしました。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA2D）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA2D）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "大阪染工の資本金は90百万円で、綿などの織物やニットの染色加工をしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 90,
+         "unit": "百万円",
+         "label": "大阪染工の資本金"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "資本金　　　：90百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA2D）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA2D）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "ユニチカは大阪染工の議決権の100%を持っている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 100,
+         "unit": "%",
+         "label": "異動前の議決権の割合"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "異動前：100％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA2D）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA2D）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "子会社から外れる日は、2027年9月30日の予定としている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 30,
+         "unit": "日",
+         "label": "日付（異動の予定日）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "異動の年月日：2027年９月30日（予定）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA2D）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA2D）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-27-004-1",
+       "text": "国内の繊維業では、染色加工のような工程を自社グループで持ち続けるかを見直す動きが続いている可能性がある。",
+       "falsifier": "今後1年で、繊維業の会社から加工工程の子会社の解散・譲渡の届け出が出なければ、この見方の根拠は弱まる。",
+       "check_metric": "EDINETの臨時報告書（繊維製品の業種）",
+       "check_by": "2027-10-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-27-005",
+     "event_id": "EVT-2026-10-27-005",
+     "headline": "国債の流動性供給入札：応募は9,903億円、決まった額は2,489億円（財務省）",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "財務省は本日、流動性供給（第464回）の入札で、額面で2,489億円の募入を決めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2489,
+         "unit": "億円",
+         "label": "募入決定額"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "額面金額で2,489億円",
+       "attribution": "出典：財務省「流動性供給（第464回）入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261027.htm）",
+       "processing_note": "財務省「流動性供給（第464回）入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261027.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "応募額は額面で9,903億円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9903,
+         "unit": "億円",
+         "label": "応募額"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "額面金額で9,903億円",
+       "attribution": "出典：財務省「流動性供給（第464回）入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261027.htm）",
+       "processing_note": "財務省「流動性供給（第464回）入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261027.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "募入平均利回格差は▲0.001%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": -0.001,
+         "unit": "%",
+         "label": "募入平均利回格差"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "▲0.001％",
+       "attribution": "出典：財務省「流動性供給（第464回）入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261027.htm）",
+       "processing_note": "財務省「流動性供給（第464回）入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261027.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-04",
+       "text": "流動性供給入札は、市場で取引が少なくなった国債を国が追加で発行し、売り買いをしやすくするための入札である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-27-005-1",
+       "text": "応募額が募入額の約4倍あり、すでに出回っている国債を買いたい金融機関の需要は底堅い可能性がある。",
+       "falsifier": "次回以降の流動性供給入札で、応募額が募入額の2倍を下回れば、この見方は成り立たない。",
+       "check_metric": "財務省 流動性供給入札結果の応募額と募入決定額",
+       "check_by": "2026-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-27-006",
+     "event_id": "EVT-2026-10-27-006",
+     "headline": "不動産のエスコン、銀行の団から17,000百万円を借りる契約：純資産を前期末の75%以上に保つ条件付き（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-006-01",
+       "text": "エスコンは、10月27日に、財務上の特約が付いたお金の借入れの契約を結んだと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 27,
+         "unit": "日",
+         "label": "日付（契約を結んだ日）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "2026年10月27日付で財務上の特約が付された金銭消費貸借契約を締結したため",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9VU）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9VU）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-02",
+       "text": "借りる元本は17,000百万円。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 17000,
+         "unit": "百万円",
+         "label": "借入れの元本"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "17,000百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9VU）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9VU）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-03",
+       "text": "相手は都市銀行を取りまとめ役とする銀行の団で、都市銀行と信託銀行の3つの金融機関からなる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3,
+         "unit": "金融機関",
+         "label": "相手の金融機関の数"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "都市銀行、信託銀行（全３金融機関）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9VU）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9VU）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-04",
+       "text": "返す期限は2033年10月31日。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 31,
+         "unit": "日",
+         "label": "日付（弁済期限）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "2033年10月31日",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9VU）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9VU）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-05",
+       "text": "条件として、各年度末の連結の純資産を、2026年3月期末と前の期末の75%以上に保つことが求められている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 75,
+         "unit": "%",
+         "label": "維持する純資産の割合"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "各事業年度末日における連結の純資産の部の合計を2026年3月期末日及び前期末比75％以上に維持すること。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9VU）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Z9VU）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-06",
+       "text": "複数の銀行がまとまって1つの会社に貸すやり方を、シンジケートローンという。取りまとめ役の銀行をアレンジャーと呼ぶ。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-27-006-1",
+       "text": "不動産業の大きな借入れが続くと、銀行業の貸出残高を押し上げる方向に働く可能性がある。",
+       "falsifier": "日本銀行の貸出の統計で、不動産業向けの貸出残高の伸びが鈍れば、この見方は成り立たない。",
+       "check_metric": "日本銀行 貸出先別貸出金（不動産業）",
+       "check_by": "2027-02-28"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-27-007",
+     "event_id": "EVT-2026-10-27-007",
+     "headline": "戸建て住宅のアグレ都市デザイン、多摩地区のマンション分譲の会社を子会社に：取得の対価は3,901,192千円（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-007-01",
+       "text": "アグレ都市デザインは臨時報告書で、ホーユーコーポレーションの全株式を取得する件について、株式の取得対価を3,901,192千円と届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3901192,
+         "unit": "千円",
+         "label": "株式の取得対価"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "3,901,192",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA92）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA92）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-02",
+       "text": "取得する会社グループの売上高の大部分を占める多摩建設の2025年11月期の売上高は6,266,174千円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 6266174,
+         "unit": "千円",
+         "label": "多摩建設の売上高（2025年11月期）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "6,266,174千円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA92）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA92）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-03",
+       "text": "届け出によると、東京23区内のファミリーマンションの分譲価格は、直近で1億円を超える水準で推移している。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "億円",
+         "label": "東京23区内の分譲価格の水準"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "東京23区内の分譲価格は直近で１億円を超える水準で推移しております",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA92）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA92）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-04",
+       "text": "戸建て住宅とマンションでは、事業に向いた土地の広さや形が違うため、同じ土地の情報でも使える会社が分かれることがある。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-27-007-1",
+       "text": "都心のマンションの値段が上がると、郊外の手の届く価格帯の住宅を扱う不動産業の会社どうしで、買収による規模の拡大が進む可能性がある。",
+       "falsifier": "今後1年で、不動産業での子会社の取得の届け出が増えなければ、この見方の根拠は弱まる。",
+       "check_metric": "EDINETの臨時報告書（子会社取得）の件数（不動産業）",
+       "check_by": "2027-10-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-27-008",
+     "event_id": "EVT-2026-10-27-008",
+     "headline": "深掘り：上場をやめるための「株式併合」──ＪＰＭＣ、726,050株を1株にまとめる議案で臨時株主総会へ（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-008-01",
+       "text": "不動産管理のＪＰＭＣは、10月27日の取締役会で、株式の併合を目的とする臨時株主総会を11月27日に開くと決めたと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 27,
+         "unit": "日",
+         "label": "日付（取締役会の日）"
+        },
+        {
+         "value": 27,
+         "unit": "日",
+         "label": "日付（臨時株主総会の予定日）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "当社は、2026年10月27日付の取締役会において、当社の普通株式（以下「当社株式」といいます。）の併合（以下「本株式併合」といいます。）を目的とする、2026年11月27日開催予定の臨時株主総会",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA61）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA61）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-02",
+       "text": "併合の割合は、726,050株を1株にまとめるというもの。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 726050,
+         "unit": "株",
+         "label": "1株にまとめる株式の数"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "当社株式726,050株を１株に併合いたします。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA61）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA61）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-03",
+       "text": "1株に満たない端数になった株主には、公開買付価格と同じ1株2,270円を掛けた金額を渡す予定としている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2270,
+         "unit": "円",
+         "label": "1株あたりの金額"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "本公開買付価格と同額である2,270円を乗じた金額となる予定です",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA61）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA61）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-04",
+       "text": "これに先立つ公開買付けは、8月4日から10月5日まで行われていた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4,
+         "unit": "日",
+         "label": "日付（公開買付けの開始日）"
+        },
+        {
+         "value": 5,
+         "unit": "日",
+         "label": "日付（公開買付けの終了日）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "2026年８月４日から2026年10月５日までを買付け等の期間",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA61）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA61）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-05",
+       "text": "公開買付けの結果、買い付けた2社は、それぞれ4,528,768株（所有割合27.05%）を持つに至った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4528768,
+         "unit": "株",
+         "label": "買い付けた会社1社あたりの株数"
+        },
+        {
+         "value": 27.05,
+         "unit": "%",
+         "label": "1社あたりの所有割合"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "Amsterdam1は当社株式4,528,768株（所有割合（注１）：27.05％）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA61）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA61）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-06",
+       "text": "株式併合は、何株かを1株にまとめる手続きである。まとめる数をとても大きくすると、ほとんどの株主の持ち株が1株に満たなくなり、お金を受け取って株主でなくなる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-07",
+       "text": "公開買付けで株の多くを集めた後、残った株主から株を集めて上場をやめるために、この手続きが使われることが多い。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-27-008-1",
+       "text": "経営陣が加わって上場をやめる取引（ＭＢＯ）は、不動産業を含む中小型の会社で続く可能性がある。",
+       "falsifier": "今後半年で、ＭＢＯに伴う株式併合の臨時報告書の件数が減れば、この見方の根拠は弱まる。",
+       "check_metric": "EDINETの臨時報告書（株式併合）の件数",
+       "check_by": "2027-04-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-10-27T17:15:40.005519+09:00",
+  "first_run": {
+   "run_at": "2026-10-27T17:15:40.005519+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 11,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 41,
+  "passed": 31,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 10,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 8,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-001": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E00527-000_2026-10-27_01_2026-10-27_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E00527-000_2026-10-27_01_2026-10-27_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E30969-000_2026-10-27_01_2026-10-27_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E30969-000_2026-10-27_01_2026-10-27_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E03992-000_2026-10-27_01_2026-10-27_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E03992-000_2026-10-27_01_2026-10-27_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E41542-000_2026-10-27_01_2026-10-27_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E41542-000_2026-10-27_01_2026-10-27_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-006": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E25870-000_2026-10-27_01_2026-10-27_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E25870-000_2026-10-27_01_2026-10-27_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-007": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E32158-000_2026-10-27_01_2026-10-27_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E32158-000_2026-10-27_01_2026-10-27_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 8,
+  "attribution_overwritten": 42,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "evening",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 11,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 4,
+  "evidence_doc_type_overridden": 4,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {
+   "edinet_doctype_unmapped": 4
+  },
+  "impact_kind_undetermined_by_doc_type": {
+   "180": 4
+  },
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 4,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 4,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 71,
+   "numbers_declared": 37,
+   "gap": 34,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 68,
+     "numbers_declared": 37
+    },
+    "explainer": {
+     "text_number_tokens": 3,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 9,
+   "line_ids": [
+    "L-001-01",
+    "L-001-09",
+    "L-003-02",
+    "L-004-01",
+    "L-004-04",
+    "L-006-01",
+    "L-006-04",
+    "L-008-01",
+    "L-008-04"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 8,
+   "change": 10,
+   "ripple": 8,
+   "deep": 5
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 5,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-009",
+    "SRC-010",
+    "SRC-012"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 3,
+   "first_run_at": "2026-10-27T17:15:00.132377+09:00",
+   "last_run_at": "2026-10-27T17:15:36.813011+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [
+    "L-008-05"
+   ],
+   "changed_marks": [],
+   "numbers_removed": [
+    {
+     "line_id": "L-001-03",
+     "values": [
+      19
+     ]
+    },
+    {
+     "line_id": "L-001-08",
+     "values": [
+      42.1
+     ]
+    }
+   ],
+   "last_counts": {
+    "ok": 31,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [
+   {
+    "hypothesis_id": "2026-10-27-evening-1",
+    "company_name": "ギフティグループ株式会社",
+    "submitted_at": "2026-10-27T17:02:00+09:00",
+    "baseline_point": "2026-10-28T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-27-evening-2",
+    "company_name": "株式会社ＳＨＩＦＴ",
+    "submitted_at": "2026-10-27T15:47:00+09:00",
+    "baseline_point": "2026-10-28T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-27-evening-3",
+    "company_name": "株式会社エスコン",
+    "submitted_at": "2026-10-27T15:38:00+09:00",
+    "baseline_point": "2026-10-28T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-27-evening-4",
+    "company_name": "株式会社ＪＰＭＣ",
+    "submitted_at": "2026-10-27T16:04:00+09:00",
+    "baseline_point": "2026-10-28T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   }
+  ],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 7,
+   "total_unregistered": 8,
+   "excluded_date_time_tokens": 39,
+   "lines": [
+    {
+     "line_id": "L-002-01",
+     "values": [
+      "4"
+     ]
+    },
+    {
+     "line_id": "L-005-01",
+     "values": [
+      "464"
+     ]
+    },
+    {
+     "line_id": "L-005-03",
+     "values": [
+      "0.001"
+     ]
+    },
+    {
+     "line_id": "L-007-03",
+     "values": [
+      "23"
+     ]
+    },
+    {
+     "line_id": "L-008-02",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-008-03",
+     "values": [
+      "1",
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-008-05",
+     "values": [
+      "2"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 8,
+   "zero_letter_count": 2,
+   "lines": [
+    {
+     "line_id": "L-001-04",
+     "letters": 2
+    },
+    {
+     "line_id": "L-001-05",
+     "letters": 2
+    },
+    {
+     "line_id": "L-004-03",
+     "letters": 3
+    },
+    {
+     "line_id": "L-005-03",
+     "letters": 0
+    },
+    {
+     "line_id": "L-006-02",
+     "letters": 3
+    },
+    {
+     "line_id": "L-006-04",
+     "letters": 3
+    },
+    {
+     "line_id": "L-007-01",
+     "letters": 0
+    },
+    {
+     "line_id": "L-007-02",
+     "letters": 2
+    }
+   ]
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "ok",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 3,
+    "source_ids": [
+     "SRC-009",
+     "SRC-010",
+     "SRC-012"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 8
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "industry_picks_total": 3,
+  "industry_examples_total": 1,
+  "industry_example_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "ai_written_examples_discarded": 0,
+  "slot_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "short_name_match_count": {
+   "count": 0,
+   "names": []
+  },
+  "allowed_industries_count": 30,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
