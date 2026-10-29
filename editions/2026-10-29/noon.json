@@ -1,0 +1,1650 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-10-29-noon",
+ "date": "2026-10-29",
+ "slot": "noon",
+ "generated_at": "2026-10-29T13:14:42.590883+09:00",
+ "market_open": true,
+ "baseline": {
+  "date": "2026-10-29",
+  "price_type": "observed"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-29&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月29日）",
+   "published_at": "2026-10-29",
+   "fetched_at": "2026-10-29T13:08:32+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "a3fa6b01d62ba76fff1632e79d16ee164635eaf880583bd22105d5d42fede7f3",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-28&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月28日）",
+   "published_at": "2026-10-28",
+   "fetched_at": "2026-10-29T13:08:38+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "95f1083b969bcd841ff7227cc63ed6da4f7ffb21d7c0faf347eaf0d1d3ed5d6b",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZA7O?type=1",
+   "publisher": "株式会社タカショー",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社タカショー）",
+   "published_at": "2026-10-29T09:19:00+09:00",
+   "fetched_at": "2026-10-29T13:08:52+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "0cddc331fe9308354030b3c8f831b0e2705faee48880b326c98fca55d9fb1e0b",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA7O）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA7O）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA7O"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZADN?type=1",
+   "publisher": "株式会社ツカモトコーポレーション",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社ツカモトコーポレーション）",
+   "published_at": "2026-10-29T10:07:00+09:00",
+   "fetched_at": "2026-10-29T13:09:05+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "b011d2ac545c36c4251b513532035a79a877b068e28abc97238abe4b3570f97e",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZADN）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZADN）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZADN"
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZAPA?type=1",
+   "publisher": "サムコ　株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（サムコ　株式会社）",
+   "published_at": "2026-10-29T11:44:00+09:00",
+   "fetched_at": "2026-10-29T13:09:16+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "92e6359ec4c14ca02f1c528d99332b4c5afc36d5da11f6716d9470a358782239",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAPA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAPA）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAPA"
+  },
+  {
+   "source_id": "SRC-009",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZABG?type=1",
+   "publisher": "フューチャー株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（フューチャー株式会社）",
+   "published_at": "2026-10-28T16:00:00+09:00",
+   "fetched_at": "2026-10-29T13:09:28+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "882d7d403562498e4da9b5d383f3302e018028b935f7570441401be34755fab4",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZABG）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZABG）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZABG"
+  },
+  {
+   "source_id": "SRC-011",
+   "url": "https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261029.htm",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "2年利付国債（第490回）の入札結果",
+   "published_at": "2026-10-29",
+   "fetched_at": "2026-10-29T13:10:36+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "6a24fd2a9c58050c64370a0c1b2be603f257b5c87b3d4e710317a754c59cbec2",
+   "usage": "quotable",
+   "attribution": "出典：財務省「2年利付国債（第490回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261029.htm）",
+   "processing_note": "財務省「2年利付国債（第490回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261029.htm）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-012",
+   "url": "https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261029.htm",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "国庫短期証券（第1416回）の入札結果",
+   "published_at": "2026-10-29",
+   "fetched_at": "2026-10-29T13:10:36+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "71e06c1713442c97bcdabd6d1c819551fbae2e596efcf5881d6f14f958761cf4",
+   "usage": "quotable",
+   "attribution": "出典：財務省「国庫短期証券（第1416回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261029.htm）",
+   "processing_note": "財務省「国庫短期証券（第1416回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261029.htm）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-013",
+   "url": "https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261029.htm",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "10年利付国債（11月債）の発行予定額等",
+   "published_at": "2026-10-29",
+   "fetched_at": "2026-10-29T13:10:37+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "f691e660fc2350170ec2b6c1e15932bff43221d11083e85c831d806f60ebd85c",
+   "usage": "quotable",
+   "attribution": "出典：財務省「10年利付国債（11月債）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261029.htm）",
+   "processing_note": "財務省「10年利付国債（11月債）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261029.htm）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-017",
+   "url": "https://www.mof.go.jp/policy/filp/reference/flf_interest_rate/kashipdf20261029.pdf",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "財政融資資金貸付金利 （令和8年11月1日以降適用）",
+   "published_at": "2026-10-29",
+   "fetched_at": "2026-10-29T13:11:34+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "5e82e90a3091f76c066eae63a734afb43d7e549a46b460510582140e6bdf634a",
+   "usage": "quotable",
+   "attribution": "出典：財務省「財政融資資金貸付金利 （令和8年11月1日以降適用）」（https://www.mof.go.jp/policy/filp/reference/flf_interest_rate/kashipdf20261029.pdf）",
+   "processing_note": "財務省「財政融資資金貸付金利 （令和8年11月1日以降適用）」（https://www.mof.go.jp/policy/filp/reference/flf_interest_rate/kashipdf20261029.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-29-001",
+     "event_id": "EVT-2026-10-29-001",
+     "headline": "2年物の国債の入札：表面利率は年1.9%、平均の利回りは1.905%（財務省）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "財務省は10月29日に2年利付国債（第490回）の入札を行い、表面利率（毎年受け取る利子の割合）は年1.9%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1.9,
+         "unit": "%",
+         "label": "表面利率（年）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "表面利率  年1.9パーセント",
+       "attribution": "出典：財務省「2年利付国債（第490回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261029.htm）",
+       "processing_note": "財務省「2年利付国債（第490回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261029.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "値段を出して競う入札（価格競争入札）への応募額は8兆5,392億円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 8,
+         "unit": "兆円",
+         "label": "価格競争入札の応募額（兆の部分）"
+        },
+        {
+         "value": 5392,
+         "unit": "億円",
+         "label": "価格競争入札の応募額（億の部分）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "(1)応募額  8兆5,392億円",
+       "attribution": "出典：財務省「2年利付国債（第490回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261029.htm）",
+       "processing_note": "財務省「2年利付国債（第490回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261029.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "このうち実際に売ることが決まった額（募入決定額）は2兆1,184億円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "兆円",
+         "label": "価格競争入札の募入決定額（兆の部分）"
+        },
+        {
+         "value": 1184,
+         "unit": "億円",
+         "label": "価格競争入札の募入決定額（億の部分）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "(2)募入決定額  2兆1,184億円",
+       "attribution": "出典：財務省「2年利付国債（第490回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261029.htm）",
+       "processing_note": "財務省「2年利付国債（第490回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261029.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "売ることが決まった中で最も高い利回りは1.912%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1.912,
+         "unit": "%",
+         "label": "募入最高利回り"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "（募入最高利回り）  （1.912％）",
+       "attribution": "出典：財務省「2年利付国債（第490回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261029.htm）",
+       "processing_note": "財務省「2年利付国債（第490回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261029.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "売ることが決まった分の平均の利回りは1.905%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1.905,
+         "unit": "%",
+         "label": "募入平均利回り"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "（募入平均利回り）  （1.905％）",
+       "attribution": "出典：財務省「2年利付国債（第490回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261029.htm）",
+       "processing_note": "財務省「2年利付国債（第490回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/nyusatsu/resul20261029.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "国債の入札は、国がお金を借りるために国債を売り出し、買いたい金融機関が値段と量を出して競う仕組みである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "応募額が売る額より大きいほど、買いたい側が多かったことを表す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-29-001-1",
+       "text": "2年物の国債の利回りが1.9%前後で決まったことは、銀行が預金や短い期間の貸出に付ける金利にも時間をおいて反映される可能性がある。",
+       "falsifier": "次の2年物の国債の入札で、平均の利回りが1.8%を下回れば、この見方は弱まる。",
+       "check_metric": "財務省 2年利付国債の次回入札結果の募入平均利回り",
+       "check_by": "2026-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-29-002",
+     "event_id": "EVT-2026-10-29-002",
+     "headline": "3か月余りの短い国債（国庫短期証券）の入札：平均の利回りは1.2706%（財務省）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "財務省は10月29日に国庫短期証券（第1416回）の入札を行い、値段を出して競う入札への応募額は9兆8,032億円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9,
+         "unit": "兆円",
+         "label": "価格競争入札の応募額（兆の部分）"
+        },
+        {
+         "value": 8032,
+         "unit": "億円",
+         "label": "価格競争入札の応募額（億の部分）"
+        }
+       ],
+       "source_ref": "SRC-012",
+       "excerpt": "（1）応募額  9兆8,032億円",
+       "attribution": "出典：財務省「国庫短期証券（第1416回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261029.htm）",
+       "processing_note": "財務省「国庫短期証券（第1416回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261029.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "売ることが決まった中で最も高い利回りは1.2762%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1.2762,
+         "unit": "%",
+         "label": "募入最高利回り"
+        }
+       ],
+       "source_ref": "SRC-012",
+       "excerpt": "（募入最高利回り）  （1.2762％）",
+       "attribution": "出典：財務省「国庫短期証券（第1416回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261029.htm）",
+       "processing_note": "財務省「国庫短期証券（第1416回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261029.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "売ることが決まった分の平均の利回りは1.2706%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1.2706,
+         "unit": "%",
+         "label": "募入平均利回り"
+        }
+       ],
+       "source_ref": "SRC-012",
+       "excerpt": "（募入平均利回り）  （1.2706％）",
+       "attribution": "出典：財務省「国庫短期証券（第1416回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261029.htm）",
+       "processing_note": "財務省「国庫短期証券（第1416回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261029.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "国債市場特別参加者が平均の値段で買う別枠の入札（第Ⅰ非価格競争入札）では、7,703億円を売ることが決まった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 7703,
+         "unit": "億円",
+         "label": "第Ⅰ非価格競争入札の募入決定額"
+        }
+       ],
+       "source_ref": "SRC-012",
+       "excerpt": "（1）募入決定額  7,703億円",
+       "attribution": "出典：財務省「国庫短期証券（第1416回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261029.htm）",
+       "processing_note": "財務省「国庫短期証券（第1416回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261029.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "償還期限（国がお金を返す日）は2027年2月8日である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 8,
+         "unit": "日",
+         "label": "日付（償還期限）"
+        }
+       ],
+       "source_ref": "SRC-012",
+       "excerpt": "4．  償還期限  令和9年2月8日",
+       "attribution": "出典：財務省「国庫短期証券（第1416回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261029.htm）",
+       "processing_note": "財務省「国庫短期証券（第1416回）の入札結果」（https://www.mof.go.jp/jgbs/auction/calendar/tbill/tbill_nyusatsu/resul20261029.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-06",
+       "text": "国庫短期証券は、国が1年以内の短い期間でお金を借りるための証券である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-29-002-1",
+       "text": "短い期間の国債の利回りが1.27%前後にあることは、企業が短い期間で借りるお金の金利の目安になりやすい。",
+       "falsifier": "次回以降の国庫短期証券の入札で、平均の利回りが1.1%を下回れば、この見方は弱まる。",
+       "check_metric": "財務省 国庫短期証券の入札結果の募入平均利回り",
+       "check_by": "2026-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-29-003",
+     "event_id": "EVT-2026-10-29-003",
+     "headline": "国が自治体などに貸すお金の金利、11月1日から：5年以内は2.3%、20年以内は3.7%（財務省）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "財務省は10月29日、11月1日以降に貸し付ける財政融資資金の金利を公表し、満期に一度に返す貸付けでは、5年以内が2.3%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.3,
+         "unit": "%",
+         "label": "満期一括償還の貸付金利（5年以内）"
+        }
+       ],
+       "source_ref": "SRC-017",
+       "excerpt": "5年以内  2.3%",
+       "attribution": "出典：財務省「財政融資資金貸付金利 （令和8年11月1日以降適用）」（https://www.mof.go.jp/policy/filp/reference/flf_interest_rate/kashipdf20261029.pdf）",
+       "processing_note": "財務省「財政融資資金貸付金利 （令和8年11月1日以降適用）」（https://www.mof.go.jp/policy/filp/reference/flf_interest_rate/kashipdf20261029.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "同じ返し方で、5年超6年以内は2.4%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.4,
+         "unit": "%",
+         "label": "満期一括償還の貸付金利（5年超6年以内）"
+        }
+       ],
+       "source_ref": "SRC-017",
+       "excerpt": "5年超 6年以内  2.4%",
+       "attribution": "出典：財務省「財政融資資金貸付金利 （令和8年11月1日以降適用）」（https://www.mof.go.jp/policy/filp/reference/flf_interest_rate/kashipdf20261029.pdf）",
+       "processing_note": "財務省「財政融資資金貸付金利 （令和8年11月1日以降適用）」（https://www.mof.go.jp/policy/filp/reference/flf_interest_rate/kashipdf20261029.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "9年超10年以内は2.9%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.9,
+         "unit": "%",
+         "label": "満期一括償還の貸付金利（9年超10年以内）"
+        }
+       ],
+       "source_ref": "SRC-017",
+       "excerpt": "9年超 10年以内  2.9%",
+       "attribution": "出典：財務省「財政融資資金貸付金利 （令和8年11月1日以降適用）」（https://www.mof.go.jp/policy/filp/reference/flf_interest_rate/kashipdf20261029.pdf）",
+       "processing_note": "財務省「財政融資資金貸付金利 （令和8年11月1日以降適用）」（https://www.mof.go.jp/policy/filp/reference/flf_interest_rate/kashipdf20261029.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "14年超15年以内は3.4%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.4,
+         "unit": "%",
+         "label": "満期一括償還の貸付金利（14年超15年以内）"
+        }
+       ],
+       "source_ref": "SRC-017",
+       "excerpt": "14年超 15年以内  3.4%",
+       "attribution": "出典：財務省「財政融資資金貸付金利 （令和8年11月1日以降適用）」（https://www.mof.go.jp/policy/filp/reference/flf_interest_rate/kashipdf20261029.pdf）",
+       "processing_note": "財務省「財政融資資金貸付金利 （令和8年11月1日以降適用）」（https://www.mof.go.jp/policy/filp/reference/flf_interest_rate/kashipdf20261029.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "19年超20年以内は3.7%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.7,
+         "unit": "%",
+         "label": "満期一括償還の貸付金利（19年超20年以内）"
+        }
+       ],
+       "source_ref": "SRC-017",
+       "excerpt": "19年超 20年以内  3.7%",
+       "attribution": "出典：財務省「財政融資資金貸付金利 （令和8年11月1日以降適用）」（https://www.mof.go.jp/policy/filp/reference/flf_interest_rate/kashipdf20261029.pdf）",
+       "processing_note": "財務省「財政融資資金貸付金利 （令和8年11月1日以降適用）」（https://www.mof.go.jp/policy/filp/reference/flf_interest_rate/kashipdf20261029.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-06",
+       "text": "財政融資資金は、国が国債（財投債）などで集めたお金を、地方公共団体や政府系の機関に長い期間で貸す仕組みである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-07",
+       "text": "貸す期間が長いほど、金利が高く決められるのが一般的である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-29-003-1",
+       "text": "国が貸すお金の金利が上がると、地方公共団体が道路や施設をつくるときの借入れの負担が重くなり、公共工事の発注の量に時間をおいて影響する可能性がある。",
+       "falsifier": "今後半年の公共工事の請負金額が前年を上回り続ければ、この見方は成り立たない。",
+       "check_metric": "公共工事の前払金保証の統計にある請負金額",
+       "check_by": "2027-04-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-29-004",
+     "event_id": "EVT-2026-10-29-004",
+     "headline": "来月の10年物の国債、発行予定額は2兆6,000億円程度：入札は11月5日（財務省）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "財務省は10月29日、11月に出す10年利付国債の発行予定額を、額面金額で2兆6,000億円程度と公表した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "兆円",
+         "label": "発行予定額（兆の部分）"
+        },
+        {
+         "value": 6000,
+         "unit": "億円",
+         "label": "発行予定額（億の部分）"
+        }
+       ],
+       "source_ref": "SRC-013",
+       "excerpt": "4. 発行予定額 額面金額で2兆6,000億円程度",
+       "attribution": "出典：財務省「10年利付国債（11月債）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261029.htm）",
+       "processing_note": "財務省「10年利付国債（11月債）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261029.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "入札予定日は11月5日である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5,
+         "unit": "日",
+         "label": "日付（入札予定日）"
+        }
+       ],
+       "source_ref": "SRC-013",
+       "excerpt": "1. 入札予定日 令和8年11月5日",
+       "attribution": "出典：財務省「10年利付国債（11月債）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261029.htm）",
+       "processing_note": "財務省「10年利付国債（11月債）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261029.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "発行予定日は11月6日である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 6,
+         "unit": "日",
+         "label": "日付（発行予定日）"
+        }
+       ],
+       "source_ref": "SRC-013",
+       "excerpt": "2. 発行予定日 令和8年11月6日",
+       "attribution": "出典：財務省「10年利付国債（11月債）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261029.htm）",
+       "processing_note": "財務省「10年利付国債（11月債）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261029.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "償還予定日は2036年9月20日である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20,
+         "unit": "日",
+         "label": "日付（償還予定日）"
+        }
+       ],
+       "source_ref": "SRC-013",
+       "excerpt": "3. 償還予定日 令和18年9月20日",
+       "attribution": "出典：財務省「10年利付国債（11月債）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261029.htm）",
+       "processing_note": "財務省「10年利付国債（11月債）の発行予定額等」（https://www.mof.go.jp/jgbs/auction/calendar/yotei/auct20261029.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "10年物の国債の利回りは、住宅ローンの固定金利など、長い期間の金利の目安としてよく使われる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-29-004-1",
+       "text": "10年物の国債の入札で買い手が多く集まらなければ、長い期間の金利が上がり、住宅ローンの固定金利にも遅れて効く可能性がある。",
+       "falsifier": "11月5日の入札で、応募額が募入決定額の3倍を上回れば、買い手が十分に集まったことになり、この見方は弱まる。",
+       "check_metric": "財務省 10年利付国債（11月債）の入札結果の応募額と募入決定額",
+       "check_by": "2026-11-06"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-29-005",
+     "event_id": "EVT-2026-10-29-005",
+     "headline": "バッグや衣料のツカモトコーポレーション、目黒区のオフィスビルを譲渡へ：売却益は約3,800百万円の予定（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "株式会社ツカモトコーポレーションは臨時報告書で、10月28日の取締役会で、持っている固定資産を譲渡することを決めたと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 28,
+         "unit": "日",
+         "label": "日付（取締役会の決議日）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "当社は、2026年10月28日開催の取締役会において、保有資産の見直しによる資産効率の向上および収益基盤の強化を目的として、当社所有の固定資産を譲渡することを決議",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZADN）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZADN）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "この譲渡で、固定資産売却益約3,800百万円を特別利益として計上する予定だという。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3800,
+         "unit": "百万円",
+         "label": "固定資産売却益（見込み）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "固定資産売却益約　　　3,800百万円を特別利益として計上する予定であります。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZADN）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZADN）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "物件を引き渡す日は2027年3月31日の予定である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 31,
+         "unit": "日",
+         "label": "日付（物件引渡日の予定）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "物件引渡日　　　　　2027年３月31日（予定）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZADN）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZADN）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-04",
+       "text": "特別利益は、ふだんの商売とは別に、その期だけ一時的に出る利益のことである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-29-005-1",
+       "text": "持っている不動産を売って利益を出す動きが他の会社にも広がれば、事業用のオフィスビルの売り物が増える可能性がある。",
+       "falsifier": "今後半年のオフィスビルの取引件数が前年より減れば、この見方は成り立たない。",
+       "check_metric": "不動産の取引の統計にあるオフィスビルの取引件数",
+       "check_by": "2027-04-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-29-006",
+     "event_id": "EVT-2026-10-29-006",
+     "headline": "庭や外まわりの商品のタカショー、都市銀行との借入れの枠で借り換え：純資産を一定以上に保つ条件付き（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-006-01",
+       "text": "株式会社タカショーは臨時報告書で、財務上の特約が付いた借入れの枠（コミットメントライン契約）の一つは総額1,400百万円だと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1400,
+         "unit": "百万円",
+         "label": "コミットメントライン契約の総額（1つ目）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "契約形態：コミットメントライン契約（総額1,400百万円）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA7O）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA7O）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-02",
+       "text": "この枠で、すでに借りていた300百万円を返し、新たに300百万円を借りた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 300,
+         "unit": "百万円",
+         "label": "返済額と新たな借入額（1つ目）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "借入金額：既存借入額300百万円を返済し、新たに300百万円の借入を実施いたしました。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA7O）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA7O）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-03",
+       "text": "もう一つの枠は総額1,800百万円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1800,
+         "unit": "百万円",
+         "label": "コミットメントライン契約の総額（2つ目）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "契約形態：コミットメントライン契約（総額1,800百万円）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA7O）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA7O）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-04",
+       "text": "こちらでは、すでに借りていた1,550百万円を返し、新たに1,550百万円を借りた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1550,
+         "unit": "百万円",
+         "label": "返済額と新たな借入額（2つ目）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "借入金額：既存借入額1,550百万円を返済し、新たに1,550百万円の借入を実施いたしました。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA7O）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA7O）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-05",
+       "text": "特約では、決算期末の連結の純資産を、基準となる期末の純資産の75%に相当する金額に保つことが求められている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 75,
+         "unit": "%",
+         "label": "財務上の特約の純資産の維持の割合"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "純資産の部の合計金額の75％に相当する金額に維持すること",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA7O）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA7O）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-06",
+       "text": "弁済期限は2026年11月20日である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20,
+         "unit": "日",
+         "label": "日付（弁済期限）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "弁済期限：2026年11月20日",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA7O）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA7O）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-07",
+       "text": "コミットメントラインは、銀行があらかじめ決めた額まで、会社が必要なときにすぐ借りられるようにしておく約束である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-08",
+       "text": "財務上の特約は、会社の財務の状態が決めた水準を下回ったときに、銀行が返済を早めるよう求められるようにする条件である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-29-006-1",
+       "text": "金利が上がる中で、銀行は財務上の特約を付けた貸出を増やし、借り手の会社の財務の状態をより細かく見るようになる可能性がある。",
+       "falsifier": "今後半年に臨時報告書で財務上の特約付きの借入れを届け出る会社の数が減れば、この見方は弱まる。",
+       "check_metric": "EDINETの臨時報告書のうち財務上の特約に関するものの件数",
+       "check_by": "2027-04-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-29-007",
+     "event_id": "EVT-2026-10-29-007",
+     "headline": "半導体の製造装置のサムコ、定時株主総会で1株75円の配当を可決（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-007-01",
+       "text": "サムコ株式会社は臨時報告書で、10月27日の定時株主総会で剰余金の配当の議案を可決し、配当は普通株式1株につき75円、総額602,423,100円だと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 75,
+         "unit": "円",
+         "label": "1株あたりの配当"
+        },
+        {
+         "value": 602423100,
+         "unit": "円",
+         "label": "配当の総額"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "当社普通株式１株につき金75円00銭　総額602,423,100円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAPA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAPA）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-02",
+       "text": "この議案への賛成は63,721個、反対は992個で、賛成の割合は98.22%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 63721,
+         "unit": "個",
+         "label": "賛成の議決権の数"
+        },
+        {
+         "value": 992,
+         "unit": "個",
+         "label": "反対の議決権の数"
+        },
+        {
+         "value": 98.22,
+         "unit": "%",
+         "label": "賛成の割合"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "第１号議案  63,721  992  0  （注）１  可決（98.22％）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAPA）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAPA）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-03",
+       "text": "剰余金の配当は、会社がためた利益の一部を株主に配るもので、株主総会などで決める。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-29-007-1",
+       "text": "半導体の製造装置の会社が配当を出し続けられるかは、半導体の工場への設備投資の量に左右されやすい。",
+       "falsifier": "半導体製造装置の日本からの販売額が前年を下回り続ければ、この見方の前提が崩れる。",
+       "check_metric": "日本半導体製造装置協会の日本製装置の販売高",
+       "check_by": "2027-01-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-29-008",
+     "event_id": "EVT-2026-10-29-008",
+     "headline": "深掘り：上場をやめるための「株式併合」──フューチャー、10,000,000株を1株にまとめる議案で臨時株主総会へ（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-008-01",
+       "text": "フューチャー株式会社は臨時報告書で、10月28日の取締役会で、株式の併合を目的とする臨時株主総会を11月30日に開くことを決めたと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 30,
+         "unit": "日",
+         "label": "日付（臨時株主総会の開催予定日）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "2026年11月30日開催予定の当社臨時株主総会（以下「本臨時株主総会」といいます。）を招集することを決議",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZABG）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZABG）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-02",
+       "text": "併合の割合は、10,000,000株を1株にまとめるものである。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10000000,
+         "unit": "株",
+         "label": "併合前の株数（1株にまとめる株数）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "当社株式10,000,000株を１株に併合いたします。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZABG）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZABG）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-03",
+       "text": "これに先立つ公開買付けの結果、買い付けた会社は73,452,702株、所有割合で82.78%を持つに至っている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 73452702,
+         "unit": "株",
+         "label": "公開買付者が所有する株数"
+        },
+        {
+         "value": 82.78,
+         "unit": "%",
+         "label": "公開買付者の所有割合"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "当社株式73,452,702株（所有割合（注２）82.78％）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZABG）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZABG）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-04",
+       "text": "1株に満たない端数になった株主には、持っている株数に公開買付けの価格と同じ2,451円を掛けた金額に当たるお金が渡されるよう、売却の価格を決める予定だという。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2451,
+         "unit": "円",
+         "label": "端数の売却で基準にする1株あたりの価格"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "本公開買付価格と同額である2,451円を乗じた金額に相当する金銭が交付される",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZABG）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZABG）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-05",
+       "text": "株主名簿の基準は、併合の効力が生じる日の前日の2026年12月24日である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 24,
+         "unit": "日",
+         "label": "日付（効力発生日の前日）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "本株式併合の効力発生日の前日である2026年12月24日の当社の最終の株主名簿",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZABG）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZABG）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-06",
+       "text": "同社は、公開買付けの価格2,451円が、株式の上場来の最高値（終値）2,439円を上回っていると書いている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2451,
+         "unit": "円",
+         "label": "公開買付価格"
+        },
+        {
+         "value": 2439,
+         "unit": "円",
+         "label": "上場来最高値（終値）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "本公開買付価格（2,451円）は、当社株式の上場来最高値（2025年８月12日の終値）である2,439円を上回っており",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZABG）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZABG）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-07",
+       "text": "株式併合は、何株かを1株にまとめる手続きで、まとめる株数をとても大きくすると、大株主以外の株主の持ち分は1株に満たない端数になる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-08",
+       "text": "端数になった株はまとめて売られ、元の株主にはお金が渡されるので、大株主だけが残る形になる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-29-008-1",
+       "text": "公開買付けのあとに株式併合で少数の株主を外す手続きが続けば、上場をやめる会社の数が増え、市場で売買できる会社の顔ぶれが変わる可能性がある。",
+       "falsifier": "今後半年の株式併合を議案とする臨時株主総会の件数が前年同期より減れば、この見方は弱まる。",
+       "check_metric": "EDINETの臨時報告書のうち株式併合を目的とする臨時株主総会に関するものの件数",
+       "check_by": "2027-04-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-10-29T13:14:42.590883+09:00",
+  "first_run": {
+   "run_at": "2026-10-29T13:14:42.590883+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 10,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 48,
+  "passed": 36,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 12,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 1,
+  "recommendation_warnings": [
+   {
+    "line_id": "L-008-06",
+    "word": "株式(周辺15文字以内に買/売)"
+   }
+  ],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 6,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E02888-000_2026-10-29_01_2026-10-29_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E02888-000_2026-10-29_01_2026-10-29_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E02588-000_2026-10-28_01_2026-10-28_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E02588-000_2026-10-28_01_2026-10-28_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-007": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E02060-000_2026-10-29_01_2026-10-29_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E02060-000_2026-10-29_01_2026-10-29_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-009": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E05033-000_2026-10-28_01_2026-10-28_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E05033-000_2026-10-28_01_2026-10-28_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 6,
+  "attribution_overwritten": 46,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "noon",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 10,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 4,
+  "evidence_doc_type_overridden": 4,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {
+   "edinet_doctype_unmapped": 4
+  },
+  "impact_kind_undetermined_by_doc_type": {
+   "180": 4
+  },
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 4,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 3,
+   "nfkc": 1,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 96,
+   "numbers_declared": 45,
+   "gap": 51,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 92,
+     "numbers_declared": 45
+    },
+    "explainer": {
+     "text_number_tokens": 4,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 9,
+   "line_ids": [
+    "L-002-05",
+    "L-004-02",
+    "L-004-03",
+    "L-004-04",
+    "L-005-01",
+    "L-005-03",
+    "L-006-06",
+    "L-008-01",
+    "L-008-05"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 5,
+   "change": 17,
+   "ripple": 8,
+   "deep": 6
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 6,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-011",
+    "SRC-012",
+    "SRC-013",
+    "SRC-017"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 1,
+   "first_run_at": "2026-10-29T13:14:36.141669+09:00",
+   "last_run_at": "2026-10-29T13:14:36.141669+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 36,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [
+   {
+    "hypothesis_id": "2026-10-29-noon-1",
+    "company_name": "フューチャー株式会社",
+    "submitted_at": "2026-10-28T16:00:00+09:00",
+    "baseline_point": "2026-10-29T13:14:42.590883+09:00",
+    "trading_minutes": 194,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-29-noon-2",
+    "company_name": "株式会社ツカモトコーポレーション",
+    "submitted_at": "2026-10-29T10:07:00+09:00",
+    "baseline_point": "2026-10-29T13:14:42.590883+09:00",
+    "trading_minutes": 127,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-29-noon-3",
+    "company_name": "株式会社タカショー",
+    "submitted_at": "2026-10-29T09:19:00+09:00",
+    "baseline_point": "2026-10-29T13:14:42.590883+09:00",
+    "trading_minutes": 175,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-29-noon-4",
+    "company_name": "サムコ　株式会社",
+    "submitted_at": "2026-10-29T11:44:00+09:00",
+    "baseline_point": "2026-10-29T13:14:42.590883+09:00",
+    "trading_minutes": 44,
+    "reason": null
+   }
+  ],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 7,
+   "total_unregistered": 7,
+   "excluded_date_time_tokens": 49,
+   "lines": [
+    {
+     "line_id": "L-001-01",
+     "values": [
+      "490"
+     ]
+    },
+    {
+     "line_id": "L-002-01",
+     "values": [
+      "1416"
+     ]
+    },
+    {
+     "line_id": "L-006-02",
+     "values": [
+      "300"
+     ]
+    },
+    {
+     "line_id": "L-006-04",
+     "values": [
+      "1550"
+     ]
+    },
+    {
+     "line_id": "L-007-01",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-008-02",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-008-04",
+     "values": [
+      "1"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 1,
+   "zero_letter_count": 0,
+   "lines": [
+    {
+     "line_id": "L-003-01",
+     "letters": 3
+    }
+   ]
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "ok",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 4,
+    "source_ids": [
+     "SRC-011",
+     "SRC-012",
+     "SRC-013",
+     "SRC-017"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 8
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "industry_picks_total": 2,
+  "industry_examples_total": 1,
+  "industry_example_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "ai_written_examples_discarded": 0,
+  "slot_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "short_name_match_count": {
+   "count": 0,
+   "names": []
+  },
+  "allowed_industries_count": 30,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
