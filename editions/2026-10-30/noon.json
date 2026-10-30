@@ -1,0 +1,1708 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-10-30-noon",
+ "date": "2026-10-30",
+ "slot": "noon",
+ "generated_at": "2026-10-30T13:15:24.325382+09:00",
+ "market_open": true,
+ "baseline": {
+  "date": "2026-10-30",
+  "price_type": "observed"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-30&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月30日）",
+   "published_at": "2026-10-30",
+   "fetched_at": "2026-10-30T13:08:33+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "bf06b071f71514500f81070049ec135939d5120bf31143e7a580c9868bcf7af8",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-10-29&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年10月29日）",
+   "published_at": "2026-10-29",
+   "fetched_at": "2026-10-30T13:08:40+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "cd85096b886dfbdc82fc37faf2df9cc2c08fff8eaf665ce5456886205e0b101e",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZAWJ?type=1",
+   "publisher": "株式会社バルニバービ",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社バルニバービ）",
+   "published_at": "2026-10-30T09:34:00+09:00",
+   "fetched_at": "2026-10-30T13:09:01+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "be36e9ee82eba5657d5b022c2f1276d1a33933eb40eaf190a482c6c79c996736",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAWJ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAWJ）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAWJ"
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZAW6?type=1",
+   "publisher": "株式会社ランドネット",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社ランドネット）",
+   "published_at": "2026-10-30T11:25:00+09:00",
+   "fetched_at": "2026-10-30T13:09:18+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "bb494e8a0aa3679857ed4422fb859d4152363d89d40569cb58b03acc10947334",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAW6）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAW6）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAW6"
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZAYD?type=1",
+   "publisher": "横浜冷凍株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（横浜冷凍株式会社）",
+   "published_at": "2026-10-30T11:58:00+09:00",
+   "fetched_at": "2026-10-30T13:09:24+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "24b8a384d02b547883670352b7aab1da896cc80a03942011f8ce5871fd6bdc58",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAYD）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAYD）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAYD"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZALZ?type=1",
+   "publisher": "双葉電子工業株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（双葉電子工業株式会社）",
+   "published_at": "2026-10-30T12:01:00+09:00",
+   "fetched_at": "2026-10-30T13:09:32+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "ba781002f601d15b15f8410eec414b8bdf733e4598674928cd67131312e8ce90",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZALZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZALZ）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZALZ"
+  },
+  {
+   "source_id": "SRC-009",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZAD0?type=1",
+   "publisher": "神栄株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（神栄株式会社）",
+   "published_at": "2026-10-30T12:10:00+09:00",
+   "fetched_at": "2026-10-30T13:09:37+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "dd44f5e3a689cc9fc2ba3805574bfed97eaaa792b83ae3913a324797c67df5df",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAD0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAD0）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAD0"
+  },
+  {
+   "source_id": "SRC-010",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZAYO?type=1",
+   "publisher": "スパークス・グループ株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（スパークス・グループ株式会社）",
+   "published_at": "2026-10-30T13:00:00+09:00",
+   "fetched_at": "2026-10-30T13:09:43+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "e4a2e2bd7056ccbb3110ef80b2c9e8f9e35d5fe2a06941278f465e970f1251d3",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAYO）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAYO）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAYO"
+  },
+  {
+   "source_id": "SRC-011",
+   "url": "https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030a.pdf",
+   "publisher": "日本銀行",
+   "publisher_type": "central_bank",
+   "title": "当面の金融政策運営について",
+   "published_at": "2026-10-30",
+   "fetched_at": "2026-10-30T13:10:25+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "2a443f499ef75967886e8d144a82a1d8777e2394330c01ba3d0df8a293a0a50d",
+   "usage": "quotable",
+   "attribution": "出典：日本銀行「当面の金融政策運営について」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030a.pdf）",
+   "processing_note": "日本銀行「当面の金融政策運営について」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030a.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-012",
+   "url": "https://www.boj.or.jp/mopo/outlook/gor2610a.pdf",
+   "publisher": "日本銀行",
+   "publisher_type": "central_bank",
+   "title": "経済・物価情勢の展望（2026年10月）【基本的見解】",
+   "published_at": "2026-10-30",
+   "fetched_at": "2026-10-30T13:10:26+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "e001ece78a8169ab3ae25facafa8dea92204f1836073c507b115e60c6a645815",
+   "usage": "quotable",
+   "attribution": "出典：日本銀行「経済・物価情勢の展望（2026年10月）【基本的見解】」（https://www.boj.or.jp/mopo/outlook/gor2610a.pdf）",
+   "processing_note": "日本銀行「経済・物価情勢の展望（2026年10月）【基本的見解】」（https://www.boj.or.jp/mopo/outlook/gor2610a.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-013",
+   "url": "https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030c.pdf",
+   "publisher": "日本銀行",
+   "publisher_type": "central_bank",
+   "title": "ＥＴＦの売却ペースの見直しに関する決定（2026年10月）",
+   "published_at": "2026-10-30",
+   "fetched_at": "2026-10-30T13:10:27+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "0ad7e5aa4dcbfc7603abdafa9a44739dacc32d3b9279c99bcfb2da473c0d8aee",
+   "usage": "quotable",
+   "attribution": "出典：日本銀行「ＥＴＦの売却ペースの見直しに関する決定（2026年10月）」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030c.pdf）",
+   "processing_note": "日本銀行「ＥＴＦの売却ペースの見直しに関する決定（2026年10月）」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030c.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-30-001",
+     "event_id": "EVT-2026-10-30-001",
+     "headline": "日本銀行、短い期間の金利の目安を1.25%程度とする方針を決定：保有するETFの売却ペースは年8,600億円程度に（日本銀行）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "日本銀行は10月30日の金融政策決定会合で、次の会合までの方針として、短い期間の金利の目安（無担保コールレート・オーバーナイト物）を1.25%程度で推移するよう促すことを決めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1.25,
+         "unit": "%",
+         "label": "無担保コールレート（オーバーナイト物）の誘導水準"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "無担保コールレート（オーバーナイト物）を、１．２５％程度で推移するよ",
+       "attribution": "出典：日本銀行「当面の金融政策運営について」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030a.pdf）",
+       "processing_note": "日本銀行「当面の金融政策運営について」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "この方針は、賛成8人、反対1人で決まった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 8,
+         "unit": "人",
+         "label": "件数（賛成した委員）"
+        },
+        {
+         "value": 1,
+         "unit": "人",
+         "label": "件数（反対した委員）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "１．金融市場調節方針（賛成８反対１）（注）",
+       "attribution": "出典：日本銀行「当面の金融政策運営について」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030a.pdf）",
+       "processing_note": "日本銀行「当面の金融政策運営について」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "反対した審議委員の1人は、この金利を1.5%程度に上げる議案を出したが、反対多数で否決された。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1.5,
+         "unit": "%",
+         "label": "反対した委員が提案した誘導水準"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "（オーバーナイト物）を１．５％程度で推移するよう促すとする議案を提出し、反対多数で否",
+       "attribution": "出典：日本銀行「当面の金融政策運営について」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030a.pdf）",
+       "processing_note": "日本銀行「当面の金融政策運営について」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "同じ会合で、日本銀行が持っているETFの売却ペースを、年間8,600億円程度（買ったときの値段で数えた額）にすることも決めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 8600,
+         "unit": "億円",
+         "label": "見直し後のETFの年間売却ペース（簿価）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "間の売却ペースを 8,600 億円程度（簿価ベース）1とすることを決定した",
+       "attribution": "出典：日本銀行「当面の金融政策運営について」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030a.pdf）",
+       "processing_note": "日本銀行「当面の金融政策運営について」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "これまでの売却ペースは、2025年9月の会合で決めた年間3,300億円程度（買ったときの値段で数えた額）だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3300,
+         "unit": "億円",
+         "label": "見直し前のETFの年間売却ペース（簿価）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "却ペースを 3,300 億円程度（簿価ベース）とすることを決定した。",
+       "attribution": "出典：日本銀行「当面の金融政策運営について」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030a.pdf）",
+       "processing_note": "日本銀行「当面の金融政策運営について」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "見直し後は、株式市場全体の売買代金に占める売却の割合が0.1%程度になる規模で売る。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 0.1,
+         "unit": "%",
+         "label": "売買代金に占める売却割合（見直し後）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "市場全体の売買代金に占める売却割合が 0.1％程度となる規模で行うこととし",
+       "attribution": "出典：日本銀行「当面の金融政策運営について」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030a.pdf）",
+       "processing_note": "日本銀行「当面の金融政策運営について」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "新しい売却ペースは2027年1月から実施する。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2027,
+         "unit": "年",
+         "label": "日付（新しい売却ペースの実施開始の年）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "2027 年１月から実施。",
+       "attribution": "出典：日本銀行「当面の金融政策運営について」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030a.pdf）",
+       "processing_note": "日本銀行「当面の金融政策運営について」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-08",
+       "text": "ETF（上場投資信託）は、たくさんの会社の株をまとめて1つの商品にした投資信託で、証券取引所で売り買いされる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-09",
+       "text": "中央銀行が短い期間の金利の目安を高くすると、銀行どうしがお金を貸し借りするときの金利が上がり、預金や貸出の金利にも伝わりやすい。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-30-001-1",
+       "text": "短い期間の金利の目安が1.25%程度に保たれる間は、銀行業の預金と貸出の金利も今の水準の近くで推移する可能性がある。",
+       "falsifier": "次の金融政策決定会合で、金利の目安が1.25%程度から変えられれば、この見方は成り立たない。",
+       "check_metric": "日本銀行「当面の金融政策運営について」の次回分の無担保コールレートの誘導水準",
+       "check_by": "2026-12-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-30-004",
+     "event_id": "EVT-2026-10-30-003",
+     "headline": "冷凍倉庫の横浜冷凍、ノルウェーのサーモン会社への出資などで特別損失：株の評価損236億円と引当金5億円（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "横浜冷凍は10月30日の取締役会で、特別損失を計上することを決議した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 30,
+         "unit": "日",
+         "label": "日付（取締役会の決議日）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "特別損失に計上することを2026年10月30日開催の取締役会で決議しました。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAYD）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAYD）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "特別損失のうち、持っている株などの値下がりによる損失（投資有価証券評価損）は、連結で236億円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 236,
+         "unit": "億円",
+         "label": "投資有価証券評価損（連結）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "（連結）　投資有価証券評価損        236億円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAYD）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAYD）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "貸したお金が戻らないおそれに備える費用（貸倒引当金繰入額）は5億円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5,
+         "unit": "億円",
+         "label": "貸倒引当金繰入額"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "貸倒引当金繰入額　　　　　５億円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAYD）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAYD）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "損失の相手は、同社のもとの子会社が2015年に出資し、業務提携してきた、ノルウェーでサーモンの加工と販売をする会社とその関係会社である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2015,
+         "unit": "年",
+         "label": "日付（出資を始めた年）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "2015年のASF社による出資以降、持続的に成長し",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAYD）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAYD）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "書類によると、その会社が出した上場グリーン債の値段は、直近で発行時から約30%下がっている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 30,
+         "unit": "%",
+         "label": "グリーン債の市場価格の下落率（発行時比）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "直近における市場価格が発行時から約30％下落している状況",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAYD）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAYD）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-06",
+       "text": "書類は、その会社の業績悪化の理由として、2024年以降のサーモンの相場の変動や、2025年の米国の関税政策をきっかけにしたノルウェー製品の取引量の減少などを挙げている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2024,
+         "unit": "年",
+         "label": "日付（相場の変動が始まった年）"
+        },
+        {
+         "value": 2025,
+         "unit": "年",
+         "label": "日付（米国の関税政策の年）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "2024年以降のサーモン相場の変動及び2025年の米国関税政策に端を発した",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAYD）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAYD）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-07",
+       "text": "特別損失は、ふだんの営業とは別に、その年だけ例外的に出た損失をまとめる項目である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-30-004-1",
+       "text": "米国の関税で海外の水産物の取引が減ると、水産物を輸入して保管・販売する倉庫・運輸関連や卸売業の会社で、出資先や取引先の業績が悪くなる例が他にも出る可能性がある。",
+       "falsifier": "2026年度中に、水産物の輸入に関わる他の上場会社から、海外の出資先に関する特別損失の開示が1件も出なければ、この見方は弱まる。",
+       "check_metric": "EDINETの臨時報告書（特別損失の計上）の件数",
+       "check_by": "2027-03-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-30-005",
+     "event_id": "EVT-2026-10-30-004",
+     "headline": "投資運用のスパークス・グループ、子会社から配当3,180百万円を受け取る：連結の業績への影響は無し（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "スパークス・グループは、連結子会社のスパークス・アセット・マネジメントから、3,180百万円の配当を受け取ることになったと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3180,
+         "unit": "百万円",
+         "label": "子会社から受け取る配当金額"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "配当金額　3,180百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAYO）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAYO）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "配当を受け取る日は2026年11月2日である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "日",
+         "label": "日付（配当金受領日）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "配当金受領日　2026年11月２日",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAYO）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAYO）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "連結子会社からの配当なので、2027年3月期の連結の業績への影響は無いとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2027,
+         "unit": "年",
+         "label": "日付（影響が無いとされた決算期の年）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "なお、連結子会社からの配当であるため、2027年３月期の連結業績に与える影響はありません。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAYO）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAYO）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-04",
+       "text": "会社の仲間全体（連結）で見ると、子会社から親会社へお金が移るだけなので、全体の利益は変わらない。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-30-006",
+     "event_id": "EVT-2026-10-30-005",
+     "headline": "定時株主総会の結果を届け出た2社：飲食のバルニバービは1株5円、不動産のランドネットは1株11円10銭の配当を可決（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-006-01",
+       "text": "飲食店を運営するバルニバービは、10月28日の定時株主総会で、1株につき5円の配当を決めた。配当の総額は54,066,375円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5,
+         "unit": "円",
+         "label": "1株あたり配当"
+        },
+        {
+         "value": 54066375,
+         "unit": "円",
+         "label": "配当の総額"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "当社普通株式１株につき金５円00銭　総額54,066,375円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAWJ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAWJ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-02",
+       "text": "この配当の議案（第1号議案）は、賛成の議決権66,543個、賛成の割合92.82%で可決された。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 66543,
+         "unit": "個",
+         "label": "第1号議案の賛成の議決権の数"
+        },
+        {
+         "value": 1827,
+         "unit": "個",
+         "label": "第1号議案の反対の議決権の数"
+        },
+        {
+         "value": 92.82,
+         "unit": "%",
+         "label": "第1号議案の賛成の割合"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "第１号議案  66,543  1,827  10  （注）１  可決 92.82",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAWJ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAWJ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-03",
+       "text": "同社の第2号議案（定款の一部を変える議案）は、賛成の割合92.78%で可決された。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 92.78,
+         "unit": "%",
+         "label": "第2号議案の賛成の割合"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "第２号議案  66,511  1,869  0  （注）２  可決 92.78",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAWJ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAWJ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-04",
+       "text": "中古の不動産を扱うランドネットは、1株につき11円10銭の配当を決めた。配当の総額は266,085,937円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 11,
+         "unit": "円",
+         "label": "1株あたり配当（円の部分）"
+        },
+        {
+         "value": 10,
+         "unit": "銭",
+         "label": "1株あたり配当（銭の部分）"
+        },
+        {
+         "value": 266085937,
+         "unit": "円",
+         "label": "配当の総額"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "１株につき金　11円10銭　　総額　266,085,937円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAW6）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAW6）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-05",
+       "text": "この配当の議案は、賛成の議決権188,965個、賛成の割合93.10%で可決された。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 188965,
+         "unit": "個",
+         "label": "第1号議案の賛成の議決権の数"
+        },
+        {
+         "value": 93.1,
+         "unit": "%",
+         "label": "第1号議案の賛成の割合"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "第１号議案剰余金の処分の件  188,965  9,731  0  (注)１  可決  93.10%",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAW6）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAW6）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-06",
+       "text": "上場会社は、株主総会で議案が決まると、賛成と反対の数を臨時報告書で届け出る決まりになっている。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-30-002",
+     "event_id": "EVT-2026-10-30-001",
+     "headline": "日本銀行のETFの売却、売り終えるまでの年数は約112年から約43年に（日本銀行）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "日本銀行の資料によると、今の売却ペース（年3,300億円程度）では、売却の割合は売買代金の0.05%程度で、売り終えるまで約112年かかる計算だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3300,
+         "unit": "億円",
+         "label": "今の年間売却ペース（簿価）"
+        },
+        {
+         "value": 0.05,
+         "unit": "%",
+         "label": "今の売却の割合"
+        },
+        {
+         "value": 112,
+         "unit": "年",
+         "label": "今のペースで売り終えるまでの年数"
+        }
+       ],
+       "source_ref": "SRC-013",
+       "excerpt": "現在       簿価        3,300億円程度            0.05％程度         約112年",
+       "attribution": "出典：日本銀行「ＥＴＦの売却ペースの見直しに関する決定（2026年10月）」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030c.pdf）",
+       "processing_note": "日本銀行「ＥＴＦの売却ペースの見直しに関する決定（2026年10月）」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030c.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "見直し後は、売却の割合が0.1%程度になり、売り終えるまでの年数は約43年になる計算である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 0.1,
+         "unit": "%",
+         "label": "見直し後の売却の割合"
+        },
+        {
+         "value": 43,
+         "unit": "年",
+         "label": "見直し後に売り終えるまでの年数"
+        }
+       ],
+       "source_ref": "SRC-013",
+       "excerpt": "見直し後                                     0.1％程度           約43年",
+       "attribution": "出典：日本銀行「ＥＴＦの売却ペースの見直しに関する決定（2026年10月）」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030c.pdf）",
+       "processing_note": "日本銀行「ＥＴＦの売却ペースの見直しに関する決定（2026年10月）」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030c.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "見直し後の年間の売却額を、今の値段（時価）に直すと、2兆4,600億円程度になる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "兆円",
+         "label": "見直し後の年間売却額（時価、兆の部分）"
+        },
+        {
+         "value": 4600,
+         "unit": "億円",
+         "label": "見直し後の年間売却額（時価、億の部分）"
+        }
+       ],
+       "source_ref": "SRC-013",
+       "excerpt": "（時価）    （２兆4,600億円程度2）",
+       "attribution": "出典：日本銀行「ＥＴＦの売却ペースの見直しに関する決定（2026年10月）」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030c.pdf）",
+       "processing_note": "日本銀行「ＥＴＦの売却ペースの見直しに関する決定（2026年10月）」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030c.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "不動産に投資する上場投資信託（J-REIT）の売却ペースは、引き続き年間50億円程度（買ったときの値段で数えた額）とする。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 50,
+         "unit": "億円",
+         "label": "J-REITの年間売却ペース（簿価）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "Ｊ－ＲＥＩＴの売却ペースは、引き続き、年間 50 億円程度（簿価ベース）とする。",
+       "attribution": "出典：日本銀行「当面の金融政策運営について」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030a.pdf）",
+       "processing_note": "日本銀行「当面の金融政策運営について」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "日本銀行は、ETFの売却を2026年1月に始めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "月",
+         "label": "日付（ETFの売却を始めた月）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "本年１月より、ＥＴＦの売却を開始し、市場に大きな影響を与えることなく円滑",
+       "attribution": "出典：日本銀行「当面の金融政策運営について」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030a.pdf）",
+       "processing_note": "日本銀行「当面の金融政策運営について」（https://www.boj.or.jp/mopo/mpmdeci/mpr_2026/k261030a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-06",
+       "text": "「簿価」は買ったときの値段で数えた額、「時価」は今の値段で数えた額である。株の値段が買ったときより上がっていれば、時価は簿価より大きくなる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-30-002-1",
+       "text": "日本銀行の売却額が増えると、株式市場で売られる株の量が増えるため、市場全体の売買代金が伸びない時期には、株の値段を押し下げる要因の1つになる可能性がある。",
+       "falsifier": "2027年の東証プライム市場全体の売買代金（取引所の公表値）が2026年1月〜9月より大きく増えれば、売却の割合は0.1%程度より小さくなり、この見方は弱まる。",
+       "check_metric": "東証プライム市場全体の売買代金（取引所の公表値）",
+       "check_by": "2027-12-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-10-30-003",
+     "event_id": "EVT-2026-10-30-002",
+     "headline": "日本銀行の見通し：物価の伸びは2%をはっきり上回る水準まで高まり、その後は2%程度に向けて縮む（日本銀行）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "日本銀行の「経済・物価情勢の展望」の基本的見解は、10月29日と30日の金融政策決定会合で決定された。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 29,
+         "unit": "日",
+         "label": "日付（会合の1日目）"
+        },
+        {
+         "value": 30,
+         "unit": "日",
+         "label": "日付（会合の2日目）"
+        }
+       ],
+       "source_ref": "SRC-012",
+       "excerpt": "本基本的見解は、10 月 29、30 日開催の政策委員会・金融政策決定会合で決定されたものであ",
+       "attribution": "出典：日本銀行「経済・物価情勢の展望（2026年10月）【基本的見解】」（https://www.boj.or.jp/mopo/outlook/gor2610a.pdf）",
+       "processing_note": "日本銀行「経済・物価情勢の展望（2026年10月）【基本的見解】」（https://www.boj.or.jp/mopo/outlook/gor2610a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "生鮮食品を除いた消費者物価の前年比は、足もとでは2%程度になっていると書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "%",
+         "label": "消費者物価（除く生鮮食品）の前年比（足もと）"
+        }
+       ],
+       "source_ref": "SRC-012",
+       "excerpt": "足もとでは２％程度となっている",
+       "attribution": "出典：日本銀行「経済・物価情勢の展望（2026年10月）【基本的見解】」（https://www.boj.or.jp/mopo/outlook/gor2610a.pdf）",
+       "processing_note": "日本銀行「経済・物価情勢の展望（2026年10月）【基本的見解】」（https://www.boj.or.jp/mopo/outlook/gor2610a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "先行きについては、原油の値上がりや半導体の値上がり、これまでの円安を理由に、前年比は2%をはっきりと上回る水準まで高まると予想している。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "%",
+         "label": "物価の伸び率が上回るとされた水準"
+        }
+       ],
+       "source_ref": "SRC-012",
+       "excerpt": "２％をはっきりと上回る水準まで伸び率を",
+       "attribution": "出典：日本銀行「経済・物価情勢の展望（2026年10月）【基本的見解】」（https://www.boj.or.jp/mopo/outlook/gor2610a.pdf）",
+       "processing_note": "日本銀行「経済・物価情勢の展望（2026年10月）【基本的見解】」（https://www.boj.or.jp/mopo/outlook/gor2610a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "その後、見通し期間の後半には、原油高の影響が弱まり、2%程度に向けてプラス幅を縮めていくとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "%",
+         "label": "見通し期間後半の物価の伸び率の目安"
+        }
+       ],
+       "source_ref": "SRC-012",
+       "excerpt": "とで、２％程度に向けてプラス幅を縮小していくと考えられる。",
+       "attribution": "出典：日本銀行「経済・物価情勢の展望（2026年10月）【基本的見解】」（https://www.boj.or.jp/mopo/outlook/gor2610a.pdf）",
+       "processing_note": "日本銀行「経済・物価情勢の展望（2026年10月）【基本的見解】」（https://www.boj.or.jp/mopo/outlook/gor2610a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "見通しの前提として、中東の原油（ドバイ原油）の値段は1バレル105ドル程度を出発点にしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 105,
+         "unit": "ドル",
+         "label": "原油価格の前提（出発点、1バレル）"
+        }
+       ],
+       "source_ref": "SRC-012",
+       "excerpt": "１バレル 105 ドル程度を出発点に",
+       "attribution": "出典：日本銀行「経済・物価情勢の展望（2026年10月）【基本的見解】」（https://www.boj.or.jp/mopo/outlook/gor2610a.pdf）",
+       "processing_note": "日本銀行「経済・物価情勢の展望（2026年10月）【基本的見解】」（https://www.boj.or.jp/mopo/outlook/gor2610a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-06",
+       "text": "その後、見通し期間の終わりにかけて70ドル程度まで下がっていくと想定している。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 70,
+         "unit": "ドル",
+         "label": "原油価格の前提（見通し期間の終盤、1バレル）"
+        }
+       ],
+       "source_ref": "SRC-012",
+       "excerpt": "の終盤にかけて、70 ドル程度まで下落していくと想定している。",
+       "attribution": "出典：日本銀行「経済・物価情勢の展望（2026年10月）【基本的見解】」（https://www.boj.or.jp/mopo/outlook/gor2610a.pdf）",
+       "processing_note": "日本銀行「経済・物価情勢の展望（2026年10月）【基本的見解】」（https://www.boj.or.jp/mopo/outlook/gor2610a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-07",
+       "text": "前回の見通しと比べて、物価の前年比は、夏以降の原油の値上がりなどから2027年度が少し上振れたとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2027,
+         "unit": "年度",
+         "label": "日付（見通しが上振れた年度）"
+        }
+       ],
+       "source_ref": "SRC-012",
+       "excerpt": "夏場以降の原油価格上昇の影響等から 2027 年度が幾分上振れている。",
+       "attribution": "出典：日本銀行「経済・物価情勢の展望（2026年10月）【基本的見解】」（https://www.boj.or.jp/mopo/outlook/gor2610a.pdf）",
+       "processing_note": "日本銀行「経済・物価情勢の展望（2026年10月）【基本的見解】」（https://www.boj.or.jp/mopo/outlook/gor2610a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-08",
+       "text": "「展望レポート」は、日本銀行が年に4回、景気と物価の先行きの見通しをまとめて公表する資料である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-30-003-1",
+       "text": "原油の値段の前提が1バレル105ドル程度と高いことは、原油を仕入れて燃料を作る石油・石炭製品の業種で、仕入れの費用が高い状態が続くことを意味する可能性がある。",
+       "falsifier": "ドバイ原油の値段が11月中に1バレル90ドルを下回れば、この前提は崩れ、この見方は弱まる。",
+       "check_metric": "ドバイ原油の月平均の値段（日本銀行の次回の展望レポートの前提）",
+       "check_by": "2027-01-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-10-30-007",
+     "event_id": "EVT-2026-10-30-006",
+     "headline": "深掘り：持っている土地や株を売って利益を出す──双葉電子工業は千葉県の土地を2,350百万円で、神栄は政策保有株式の一部を売却（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-007-01",
+       "text": "電子部品の双葉電子工業は、千葉県長生村の長生精機技術センターなどの土地と建物（土地の面積は22,381.62㎡）を、2,350百万円で売ることを決めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 22381.62,
+         "unit": "㎡",
+         "label": "土地面積"
+        },
+        {
+         "value": 2350,
+         "unit": "百万円",
+         "label": "譲渡価額"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "長生精機技術センター等 (千葉県長生郡長生村) 土地面積　22,381.62㎡  2,350百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZALZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZALZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-02",
+       "text": "売る値段から帳簿の値段と費用を引いた売却益は、概算で2,300百万円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2350,
+         "unit": "百万円",
+         "label": "譲渡価額"
+        },
+        {
+         "value": 2300,
+         "unit": "百万円",
+         "label": "譲渡益（概算）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "2,350百万円  －    2,300百万円 (注)  土地・建物",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZALZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZALZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-03",
+       "text": "同社は、この売却益として約23億円を、2029年3月期の連結決算で特別利益に計上する見込みとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 23,
+         "unit": "億円",
+         "label": "固定資産売却益の見込み額"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "2029年３月期連結決算において、約23億円を固定資産売却益として特別利益に計上する見込みです。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZALZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZALZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-04",
+       "text": "売る契約は10月30日に結ぶ予定と書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 30,
+         "unit": "日",
+         "label": "日付（契約締結日の予定）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "契約締結日　　　　2026年10月30日(予定)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZALZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZALZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-05",
+       "text": "売り先は、同社と製品の売買取引がある会社で、資本金は69百万円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 69,
+         "unit": "百万円",
+         "label": "譲渡先の資本金"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "資本金  69百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZALZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZALZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-06",
+       "text": "食品や繊維などを扱う商社の神栄は、政策保有株式の縮減などのために、持っている上場会社の株3銘柄の一部を売ることを決議した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3,
+         "unit": "銘柄",
+         "label": "件数（売る上場株の銘柄数）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "上場有価証券３銘柄の一部を売却することを決議いたしました。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAD0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAD0）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-07",
+       "text": "神栄は、2027年3月期に、株の売却益約500百万円を特別利益として計上する見込みとしている。ただし、今の株価から計算した見込みで、変わることがあるとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 500,
+         "unit": "百万円",
+         "label": "投資有価証券売却益の見込み額"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "投資有価証券売却益約500百万円を特別利益として計上する見込みであります。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAD0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAD0）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-08",
+       "text": "政策保有株式は、会社が投資の利益以外の理由（取引関係を保つなど）で持っている他の会社の株のことである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-09",
+       "text": "土地や株を買ったときの値段より高く売ると、その差額が売却益になる。ふだんの営業とは別の利益なので、特別利益として扱われることが多い。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-10-30-007-1",
+       "text": "政策保有株式を減らす動きが続けば、売られる株を持つ側の業種でも、株主の顔ぶれが変わる例が増える可能性がある。",
+       "falsifier": "2026年度中に、臨時報告書で政策保有株式の売却を届け出る上場会社が、前の年度より少なければ、この見方は弱まる。",
+       "check_metric": "EDINETの臨時報告書（投資有価証券売却益）の件数",
+       "check_by": "2027-06-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-10-30T13:15:24.325382+09:00",
+  "first_run": {
+   "run_at": "2026-10-30T13:15:24.325382+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 11,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 49,
+  "passed": 40,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 9,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 1,
+  "recommendation_warnings": [
+   {
+    "line_id": "L-007-06",
+    "word": "銘柄(周辺15文字以内に買/売)"
+   }
+  ],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 8,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E31815-000_2026-10-30_01_2026-10-30_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E31815-000_2026-10-30_01_2026-10-30_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-006": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E35614-000_2026-10-30_01_2026-10-30_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E35614-000_2026-10-30_01_2026-10-30_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-007": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E02576-000_2026-10-30_01_2026-10-30_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E02576-000_2026-10-30_01_2026-10-30_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-008": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E01841-000_2026-10-30_01_2026-10-30_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E01841-000_2026-10-30_01_2026-10-30_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-009": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E02542-000_2026-10-30_01_2026-10-30_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E02542-000_2026-10-30_01_2026-10-30_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-010": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E05242-000_2026-10-30_01_2026-10-30_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E05242-000_2026-10-30_01_2026-10-30_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 8,
+  "attribution_overwritten": 51,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "noon",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 11,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 4,
+  "evidence_doc_type_overridden": 4,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {
+   "edinet_doctype_unmapped": 4
+  },
+  "impact_kind_undetermined_by_doc_type": {
+   "180": 4
+  },
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 4,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 4,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 1,
+   "source_ids": [
+    "SRC-013"
+   ],
+   "reasons": {
+    "SRC-013": "not_in_body"
+   },
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 80,
+   "numbers_declared": 55,
+   "gap": 25,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 78,
+     "numbers_declared": 55
+    },
+    "explainer": {
+     "text_number_tokens": 2,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 12,
+   "line_ids": [
+    "L-001-02",
+    "L-001-07",
+    "L-004-01",
+    "L-004-04",
+    "L-004-06",
+    "L-005-02",
+    "L-005-03",
+    "L-002-05",
+    "L-003-01",
+    "L-003-07",
+    "L-007-04",
+    "L-007-06"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 7,
+   "change": 14,
+   "ripple": 12,
+   "deep": 7
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 5,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-011",
+    "SRC-012",
+    "SRC-013"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 3,
+   "first_run_at": "2026-10-30T13:15:03.542986+09:00",
+   "last_run_at": "2026-10-30T13:15:24.209434+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 40,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [
+   {
+    "hypothesis_id": "2026-10-30-noon-1",
+    "company_name": "横浜冷凍株式会社",
+    "submitted_at": "2026-10-30T11:58:00+09:00",
+    "baseline_point": "2026-10-30T13:15:24.325382+09:00",
+    "trading_minutes": 45,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-30-noon-2",
+    "company_name": "スパークス・グループ株式会社",
+    "submitted_at": "2026-10-30T13:00:00+09:00",
+    "baseline_point": "2026-10-30T13:15:24.325382+09:00",
+    "trading_minutes": 15,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-30-noon-3",
+    "company_name": "双葉電子工業株式会社",
+    "submitted_at": "2026-10-30T12:01:00+09:00",
+    "baseline_point": "2026-10-30T13:15:24.325382+09:00",
+    "trading_minutes": 45,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-10-30-noon-4",
+    "company_name": "神栄株式会社",
+    "submitted_at": "2026-10-30T12:10:00+09:00",
+    "baseline_point": "2026-10-30T13:15:24.325382+09:00",
+    "trading_minutes": 45,
+    "reason": null
+   }
+  ],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 7,
+   "total_unregistered": 7,
+   "excluded_date_time_tokens": 32,
+   "lines": [
+    {
+     "line_id": "L-001-03",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-006-01",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-006-02",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-006-03",
+     "values": [
+      "2"
+     ]
+    },
+    {
+     "line_id": "L-006-04",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-003-05",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-007-01",
+     "values": [
+      "2"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 0,
+   "zero_letter_count": 0,
+   "lines": []
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "ok",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 3,
+    "source_ids": [
+     "SRC-011",
+     "SRC-012",
+     "SRC-013"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 7
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "industry_picks_total": 3,
+  "industry_examples_total": 1,
+  "industry_example_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "ai_written_examples_discarded": 0,
+  "slot_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "short_name_match_count": {
+   "count": 0,
+   "names": []
+  },
+  "allowed_industries_count": 30,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
