@@ -1,0 +1,1449 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-11-03-morning",
+ "date": "2026-11-03",
+ "slot": "morning",
+ "generated_at": "2026-11-03T07:37:49.533511+09:00",
+ "market_open": false,
+ "baseline": {
+  "date": "2026-11-03",
+  "price_type": "open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-03&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月3日）",
+   "published_at": "2026-11-03",
+   "fetched_at": "2026-11-03T07:32:38+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "d2568f1d017b6d9c4c8f96671f81299213977f77b1f8b3cd6cdd78959b07dea0",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-02&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月2日）",
+   "published_at": "2026-11-02",
+   "fetched_at": "2026-11-03T07:32:45+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "949bf152f68baa771ddec226d7d1e8bafe4092a11a073243845567f102bf3999",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZB7M?type=1",
+   "publisher": "株式会社大盛工業",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社大盛工業）",
+   "published_at": "2026-11-02T14:16:00+09:00",
+   "fetched_at": "2026-11-03T07:33:30+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "1e6b0e139424b94d36a9d362e5acb8eaebcbf4e55699693b4fb9820d6391c075",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB7M）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB7M）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB7M"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZB5V?type=1",
+   "publisher": "フリービット株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（フリービット株式会社）",
+   "published_at": "2026-11-02T11:06:00+09:00",
+   "fetched_at": "2026-11-03T07:33:19+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "ffb6735e8745ff41f9e2c42af7c73b47ab340159e20171bb839de98add736310",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB5V）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB5V）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB5V"
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZB1B?type=1",
+   "publisher": "株式会社幸和製作所",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社幸和製作所）",
+   "published_at": "2026-11-02T15:32:00+09:00",
+   "fetched_at": "2026-11-03T07:33:36+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "e0806cf41c5d37c62293a75bbe8a38b18d5329df364a3edb7c43d9859e007bde",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB1B）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB1B）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB1B"
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZAY5?type=1",
+   "publisher": "株式会社セイワホールディングス",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社セイワホールディングス）",
+   "published_at": "2026-11-02T15:35:00+09:00",
+   "fetched_at": "2026-11-03T07:33:41+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "dd7e9e259d1f3d418d46fa0843ac126aa6646a38ee61900d04bd012f71d95994",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAY5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAY5）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAY5"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZAZ3?type=1",
+   "publisher": "住友電気工業株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "半期報告書－第157期(2026/04/01－2027/03/31)（住友電気工業株式会社）",
+   "published_at": "2026-11-02T16:16:00+09:00",
+   "fetched_at": "2026-11-03T07:33:47+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "4711284c08b966825a7b6f6e4a54daee5dc1dd5a286076bc4083176ebbcd8662",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAZ3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAZ3）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAZ3"
+  },
+  {
+   "source_id": "SRC-009",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZA42?type=1",
+   "publisher": "株式会社キャスター",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社キャスター）",
+   "published_at": "2026-11-02T10:15:00+09:00",
+   "fetched_at": "2026-11-03T07:35:51+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "ecab2345cc2486604eb54241d166f6ccbdd39a4ac0871dff1c259314958e91f5",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA42）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA42）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA42"
+  },
+  {
+   "source_id": "SRC-010",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZB74?type=1",
+   "publisher": "株式会社アスリナ",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社アスリナ）",
+   "published_at": "2026-11-02T13:30:00+09:00",
+   "fetched_at": "2026-11-03T07:35:59+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "73a64e50108f008076e476e87eb60d13fe0429cf145575bd5a650d0fa322004d",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB74）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB74）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB74"
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-03-001",
+     "event_id": "EVT-2026-11-03-001",
+     "headline": "非鉄金属の住友電気工業の中間期、売上高は2,764,912百万円で16.5%増、営業利益は43.5%増：データセンタ向けの光配線製品などが伸びる（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "非鉄金属の住友電気工業は11月2日、2026年4月〜9月の中間期の半期報告書を届け出た。売上高は2,764,912百万円で、前年同期の2,373,461百万円から16.5%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2764912,
+         "unit": "百万円",
+         "label": "中間期の連結売上高"
+        },
+        {
+         "value": 2373461,
+         "unit": "百万円",
+         "label": "前年同期の連結売上高"
+        },
+        {
+         "value": 16.5,
+         "unit": "%",
+         "label": "連結売上高の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "売上高は、2,764,912百万円（前年同期2,373,461百万円、16.5％増）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAZ3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAZ3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "営業利益は219,567百万円で、前年同期の153,021百万円から43.5%増えた。書類は、中東の影響による原価の上昇はあったが、売上の増加や品種構成の改善、生産性の改善、売値の改善、円安の影響があったと説明している。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 219567,
+         "unit": "百万円",
+         "label": "中間期の連結営業利益"
+        },
+        {
+         "value": 153021,
+         "unit": "百万円",
+         "label": "前年同期の連結営業利益"
+        },
+        {
+         "value": 43.5,
+         "unit": "%",
+         "label": "連結営業利益の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "営業利益は219,567百万円（前年同期153,021百万円、43.5％増）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAZ3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAZ3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "親会社株主に帰属する中間純利益は159,384百万円で、前年同期の97,938百万円から62.7%増えた。書類は、営業利益などとともに過去最高を更新したと書いている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 159384,
+         "unit": "百万円",
+         "label": "親会社株主に帰属する中間純利益"
+        },
+        {
+         "value": 97938,
+         "unit": "百万円",
+         "label": "前年同期の親会社株主に帰属する中間純利益"
+        },
+        {
+         "value": 62.7,
+         "unit": "%",
+         "label": "中間純利益の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "親会社株主に帰属する中間純利益は159,384百万円（前年同期97,938百万円、62.7％増）と、いずれも前年同期を上回り、過去最高を更新しました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAZ3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAZ3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "部門別では、情報通信関連事業で、生成AI市場の拡大を背景にデータセンタ向けの光配線製品や光デバイスなどの需要が増え、売上高は201,459百万円と、66,036百万円（48.8%）増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 201459,
+         "unit": "百万円",
+         "label": "情報通信関連事業の売上高"
+        },
+        {
+         "value": 66036,
+         "unit": "百万円",
+         "label": "情報通信関連事業の売上高の増加額"
+        },
+        {
+         "value": 48.8,
+         "unit": "%",
+         "label": "情報通信関連事業の売上高の伸び率"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "生成AI市場の拡大を背景にデータセンタ向けの光配線製品、光デバイスなどの需要が増加し、売上高は201,459百万円と66,036百万円（48.8％）の増収",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAZ3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAZ3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "情報通信関連事業の営業利益は61,237百万円で、39,162百万円増えた。書類は、売上の増加に加えて、品種構成や生産性の改善、円安の影響があったとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 61237,
+         "unit": "百万円",
+         "label": "情報通信関連事業の営業利益"
+        },
+        {
+         "value": 39162,
+         "unit": "百万円",
+         "label": "情報通信関連事業の営業利益の増加額"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "営業利益は、売上増加に加えて、品種構成や生産性の改善、円安の影響もあり、61,237百万円と39,162百万円の増益",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAZ3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAZ3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "半期報告書は、上場企業が事業年度の前半の業績や財政の状態をまとめて届け出る書類である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "お断り：この紙面は、生成AIを開発するAnthropic社のAI（Claude）が作っている。生成AIの市場に関わる記述では、この立場にあることを明記し、評価は加えない。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-03-001-1",
+       "text": "データセンタ向けの設備投資が続けば、光ファイバーや光部品を作る非鉄金属・電気機器の業種で、情報通信向けの売上が伸び続ける可能性がある。",
+       "falsifier": "次の決算期の書類で、データセンタ向け製品の需要が減ったと書かれれば、この見方は成り立たない。",
+       "check_metric": "非鉄金属の会社の有価証券報告書・半期報告書の、情報通信関連の部門の売上高",
+       "check_by": "2027-06-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-03-004",
+     "event_id": "EVT-2026-11-03-002",
+     "headline": "金属製品のセイワホールディングス、めっき加工の美山理研工業の全株式を取得して子会社に：子会社になる日は11月10日の予定（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "金属製品のセイワホールディングスは、2026年11月2日の取締役会で、めっき加工を営む美山理研工業の全株式を取得し、子会社にすることを決議したと、同日に臨時報告書で届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "日",
+         "label": "日付（取締役会の開催日）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "2026年11月2日開催の当社取締役会において、株式会社美山理研工業の全株式を取得し、子会社化することを決議いたしました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAY5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAY5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "美山理研工業の資本金は10百万円と書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10,
+         "unit": "百万円",
+         "label": "美山理研工業の資本金"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "資本金 ：10百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAY5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAY5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "美山理研工業の資本金の額が、セイワホールディングスの資本金の額の100分の10以上に当たるため、「特定子会社」に当たると書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 100,
+         "unit": "分の",
+         "label": "比べる割合の分母"
+        },
+        {
+         "value": 10,
+         "unit": "",
+         "label": "比べる割合の分子"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "当該子会社の資本金の額が当社の資本金の額の100分の10以上に相当し、特定子会社に該当する",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAY5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAY5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "子会社になる（異動の）日は、2026年11月10日の予定とされている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10,
+         "unit": "日",
+         "label": "日付（異動の年月日）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "異動の年月日：2026年11月10日",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAY5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAY5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "特定子会社は、親会社に比べて規模が一定以上大きい子会社のことで、子会社になったり外れたりすると臨時報告書で届け出る決まりがある。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-03-005",
+     "event_id": "EVT-2026-11-03-003",
+     "headline": "建設業の大盛工業、定時株主総会で1株12円の配当を可決：配当の総額は224,592,492円（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "建設業の大盛工業は11月2日、10月28日に開いた定時株主総会の決議の結果を臨時報告書で届け出た。剰余金の処分として、1株につき12円、総額224,592,492円の配当を決めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 12,
+         "unit": "円",
+         "label": "1株あたりの配当"
+        },
+        {
+         "value": 224592492,
+         "unit": "円",
+         "label": "配当の総額"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "当社普通株式１株につき 12円 総額 224,592,492円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB7M）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB7M）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "この配当の議案には、議決権の数で69,146個の賛成と1,432個の反対があり、賛成率は97.7%で可決された。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 69146,
+         "unit": "個",
+         "label": "剰余金処分の議案の賛成の議決権の数"
+        },
+        {
+         "value": 1432,
+         "unit": "個",
+         "label": "剰余金処分の議案の反対の議決権の数"
+        },
+        {
+         "value": 97.7,
+         "unit": "%",
+         "label": "剰余金処分の議案の賛成率"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "第１号議案 剰余金処分の件 69,146 1,432 0 97.7 可決",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB7M）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB7M）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "定時株主総会は、決算のあとに毎年開く株主総会で、配当や取締役の選任などを決める。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-03-006",
+     "event_id": "EVT-2026-11-03-004",
+     "headline": "サービス業のキャスター、株式会社Wizが議決権の1割超を持つ主要株主に：8.56%から14.22%へ（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-006-01",
+       "text": "キャスターは11月2日、主要株主に異動があったと臨時報告書で届け出た。株式会社Wizの議決権の割合は、異動の前に8.56%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1676,
+         "unit": "個",
+         "label": "異動前の所有議決権の数"
+        },
+        {
+         "value": 167600,
+         "unit": "株",
+         "label": "異動前の株式数"
+        },
+        {
+         "value": 8.56,
+         "unit": "%",
+         "label": "異動前の議決権の割合"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "異動前 1,676個 （167,600株） 8.56％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA42）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA42）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-02",
+       "text": "異動の後は、議決権の割合が14.22%になった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2785,
+         "unit": "個",
+         "label": "異動後の所有議決権の数"
+        },
+        {
+         "value": 278560,
+         "unit": "株",
+         "label": "異動後の株式数"
+        },
+        {
+         "value": 14.22,
+         "unit": "%",
+         "label": "異動後の議決権の割合"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "異動後 2,785個 （278,560株） 14.22％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA42）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA42）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-03",
+       "text": "主要株主は、会社の議決権の1割以上を持つ株主のことで、新しく主要株主になる人や会社が出ると、会社は臨時報告書で届け出る。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-03-007",
+     "event_id": "EVT-2026-11-03-005",
+     "headline": "情報・通信業のアスリナ、本社を移す：移転の費用3,500千円を特別損失に計上する見込み（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-007-01",
+       "text": "アスリナは11月2日、10月30日の取締役会で本社の移転を決議したと臨時報告書で届け出た。今の事務所の解約に関連して、本店の移転の費用として350万円を特別損失に計上する見込みと書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 350,
+         "unit": "万円",
+         "label": "本店の移転の費用（特別損失の見込み）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "本社移転に伴う現事務所の解約に関連し、本店移転費用として350万円を特別損失に計上する見込みです",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB74）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB74）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-02",
+       "text": "移転の目的は、業務環境の整備に加え、賃料などの固定費を減らしてコストの構造を改善することなどとされている。費用は、個別決算でも連結決算でも3,500千円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3500,
+         "unit": "千円",
+         "label": "本社の移転の費用"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "本社移転費用 3,500千円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB74）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB74）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-03-008",
+     "event_id": "EVT-2026-11-03-006",
+     "headline": "情報通信のフリービット、最も多くの株を持つ株主と合意書：買い取った子会社の取得の対価は1円だったと算定し、差額の返還などで合意（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-008-01",
+       "text": "フリービットは11月2日、最も多くの株を持つ株主（個人）と10月26日に合意書を結んだと臨時報告書で届け出た。この株主から2025年に買い取って子会社にした株式会社CountUpについて、特別調査委員会の調査報告書で株価の算定の前提に誤りがあったことが分かり、取得した時点の対価は1円だったと算定して、差額の返還や解決金の支払いなどで合意したと書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "円",
+         "label": "算定し直した株式の取得の対価"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "本件株式取得の実行時点において本件株式取得の対価が1円であったと算定し、株式取得対価の差額の返還及び解決金の支払い等について合意し",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB5V）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB5V）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-02",
+       "text": "臨時報告書は、会社の経営に大きく関わる出来事があったときに、決算の書類とは別に、その都度届け出る書類である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-03-002",
+     "event_id": "EVT-2026-11-03-001",
+     "headline": "波及を追う：中東情勢と銅の値上がりが部品の利益に──住友電気工業の自動車関連事業、売上高は17.3%増でも営業利益は11,608百万円の減益（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "住友電気工業の自動車関連事業では、ワイヤーハーネスや防振ゴムの需要が堅調で、円安や銅価格の上昇の影響もあり、売上高は1,616,592百万円と、238,359百万円（17.3%）増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1616592,
+         "unit": "百万円",
+         "label": "自動車関連事業の売上高"
+        },
+        {
+         "value": 238359,
+         "unit": "百万円",
+         "label": "自動車関連事業の売上高の増加額"
+        },
+        {
+         "value": 17.3,
+         "unit": "%",
+         "label": "自動車関連事業の売上高の伸び率"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "円安や銅価格上昇の影響もあり、売上高は1,616,592百万円と238,359百万円（17.3％）の増収",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAZ3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAZ3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "一方で営業利益は53,797百万円と、11,608百万円減った。書類は、中東情勢の影響による原材料価格の上昇と、銅価格の上昇の影響を挙げている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 53797,
+         "unit": "百万円",
+         "label": "自動車関連事業の営業利益"
+        },
+        {
+         "value": 11608,
+         "unit": "百万円",
+         "label": "自動車関連事業の営業利益の減少額"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "営業利益は、中東情勢の影響による原材料価格上昇のほか、銅価格上昇の影響もあり、53,797百万円と11,608百万円の減益",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAZ3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAZ3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "電力ケーブルなどの環境エネルギー関連事業では、電力ケーブルや電動車向けのモーター用平角巻線の増加と銅価格の上昇の影響で、売上高は546,469百万円と、10,459百万円（前年同期比2.0%）増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 546469,
+         "unit": "百万円",
+         "label": "環境エネルギー関連事業の売上高"
+        },
+        {
+         "value": 10459,
+         "unit": "百万円",
+         "label": "環境エネルギー関連事業の売上高の増加額"
+        },
+        {
+         "value": 2.0,
+         "unit": "%",
+         "label": "環境エネルギー関連事業の売上高の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "電力ケーブル、電動車向けのモーター用平角巻線の増加に加えて、銅価格上昇の影響もあり、売上高は546,469百万円と10,459百万円（前年同期比2.0％）の増収",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAZ3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAZ3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "環境エネルギー関連事業の営業利益は33,206百万円と、1,255百万円減った。書類は、子会社だった住友電設（現 セムリンクス）が連結の範囲から外れた影響を挙げている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 33206,
+         "unit": "百万円",
+         "label": "環境エネルギー関連事業の営業利益"
+        },
+        {
+         "value": 1255,
+         "unit": "百万円",
+         "label": "環境エネルギー関連事業の営業利益の減少額"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "営業利益は、住友電設㈱（現 セムリンクス㈱）が連結範囲から除外になった影響もあり、33,206百万円と1,255百万円の減益",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAZ3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAZ3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "ワイヤーハーネスは、自動車の中で電気や信号を送る電線を束ねた部品で、材料に銅を多く使う。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-03-002-1",
+       "text": "銅や原材料の値上がりが続けば、電線や自動車部品を作る業種では、売上が増えても利益が伸びにくい状態が続く可能性がある。",
+       "falsifier": "銅の価格が下がり、次の決算期の書類で原材料価格の上昇による減益が書かれなくなれば、この見方は成り立たない。",
+       "check_metric": "非鉄金属・輸送用機器の会社の半期報告書・有価証券報告書の、部門別の営業利益と減益の理由",
+       "check_by": "2027-06-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-03-003",
+     "event_id": "EVT-2026-11-03-001",
+     "headline": "波及を追う：タングステンの値上がりと品薄──住友電気工業の超硬製品などの部門、売上高は28.1%増、営業利益は29,768百万円の増益（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "住友電気工業の産業素材関連事業他では、タングステンの市況が高騰して需給がひっ迫するなか、超硬製品の受注が増え、売上高は241,099百万円と、52,862百万円（28.1%）増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 241099,
+         "unit": "百万円",
+         "label": "産業素材関連事業他の売上高"
+        },
+        {
+         "value": 52862,
+         "unit": "百万円",
+         "label": "産業素材関連事業他の売上高の増加額"
+        },
+        {
+         "value": 28.1,
+         "unit": "%",
+         "label": "産業素材関連事業他の売上高の伸び率"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "超硬製品の受注が増加したことにより、売上高は241,099百万円と52,862百万円（28.1％）の増収",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAZ3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAZ3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "同じ部門の営業利益は42,671百万円で、29,768百万円増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 42671,
+         "unit": "百万円",
+         "label": "産業素材関連事業他の営業利益"
+        },
+        {
+         "value": 29768,
+         "unit": "百万円",
+         "label": "産業素材関連事業他の営業利益の増加額"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "営業利益は、42,671百万円と29,768百万円の増益となりました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAZ3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZAZ3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "超硬製品は、タングステンなどの硬い金属の粉を固めて作る工具や部品で、金属を削る刃物などに使われる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-03-003-1",
+       "text": "タングステンの品薄が続けば、超硬工具を使う機械加工の業種で、工具の調達の費用が上がる可能性がある。",
+       "falsifier": "タングステンの市況が落ち着き、次の決算期の書類で需給のひっ迫が書かれなくなれば、この見方は成り立たない。",
+       "check_metric": "超硬工具を作る会社の半期報告書・有価証券報告書の、売上高の増減の理由",
+       "check_by": "2027-06-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-03-009",
+     "event_id": "EVT-2026-11-03-007",
+     "headline": "深掘り：子会社からの配当は「親会社だけの決算」には利益として出るが、「グループ全体の決算」では差し引かれる──幸和製作所、中国の子会社から30百万元（約710百万円）（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-009-01",
+       "text": "幸和製作所は11月2日、中国の連結子会社である東莞幸和家庭日用品有限公司から剰余金の配当を受け取ることになったと臨時報告書で届け出た。配当の金額は30百万元（約710百万円）。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 30,
+         "unit": "百万元",
+         "label": "子会社からの配当の金額（人民元）"
+        },
+        {
+         "value": 710,
+         "unit": "百万円",
+         "label": "子会社からの配当の金額（円換算の目安）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "配当金額 ： 30百万元（約710百万円）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB1B）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB1B）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-02",
+       "text": "子会社が配当を決議したのは2026年10月30日。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 30,
+         "unit": "日",
+         "label": "日付（子会社の配当の決議日）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "2026年10月30日（子会社配当決議日）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB1B）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB1B）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-03",
+       "text": "配当を受け取る予定日は2026年12月23日。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 23,
+         "unit": "日",
+         "label": "日付（配当金の受領予定日）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "配当金受領予定日 ： 2026年12月23日",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB1B）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB1B）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-04",
+       "text": "同社は、2027年2月期の個別決算で、受取配当金約710百万円を営業外収益に計上するとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 710,
+         "unit": "百万円",
+         "label": "個別決算に計上する受取配当金"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "2027年２月期の個別決算において、受取配当金約710百万円を営業外収益に計上いたします",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB1B）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB1B）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-05",
+       "text": "一方で、連結子会社からの配当なので、2027年2月期の連結の業績に与える重要な影響はないと書いている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2027,
+         "unit": "年",
+         "label": "日付（影響が無いとした決算期の年）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "連結子会社からの配当であるため、2027年２月期の連結業績に与える重要な影響はありません",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB1B）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZB1B）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-06",
+       "text": "親会社だけの決算を個別決算、子会社を含むグループ全体の決算を連結決算という。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-07",
+       "text": "連結決算では、グループの中でのお金のやり取りは差し引かれるので、子会社から親会社への配当はグループ全体の利益を増やさない。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-03-009-1",
+       "text": "海外の子会社から親会社への配当が増えれば、為替の水準によって、円に直した受取配当金の額が変わる可能性がある。",
+       "falsifier": "人民元と円の為替の水準が大きく変わらなければ、配当の円での額も大きくは変わらない。",
+       "check_metric": "日本銀行が公表する人民元と円の為替相場",
+       "check_by": "2026-12-23"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-11-03T07:37:49.533511+09:00",
+  "first_run": {
+   "run_at": "2026-11-03T07:37:49.533511+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 9,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 37,
+  "passed": 27,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 10,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 9,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E00239-000_2026-11-02_01_2026-11-02_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E00239-000_2026-11-02_01_2026-11-02_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E05680-000_2026-11-02_01_2026-11-02_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E05680-000_2026-11-02_01_2026-11-02_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-006": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E33491-000_2026-11-02_01_2026-11-02_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E33491-000_2026-11-02_01_2026-11-02_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-007": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E41409-000_2026-11-02_01_2026-11-02_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E41409-000_2026-11-02_01_2026-11-02_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-008": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp040300-ssr-001_E01333-000_2026-09-30_01_2026-11-02_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp040300-ssr-001_E01333-000_2026-09-30_01_2026-11-02_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp040300-ssr-001_E01333-000_2026-09-30_01_2026-11-02_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp040300-ssr-001_E01333-000_2026-09-30_01_2026-11-02_ixbrl.htm",
+     "XBRL/PublicDoc/0200010_honbun_jpcrp040300-ssr-001_E01333-000_2026-09-30_01_2026-11-02_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp040300-ssr-001_E01333-000_2026-09-30_01_2026-11-02_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-009": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E38651-000_2026-11-02_01_2026-11-02_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E38651-000_2026-11-02_01_2026-11-02_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-010": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E24998-000_2026-11-02_01_2026-11-02_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E24998-000_2026-11-02_01_2026-11-02_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 9,
+  "attribution_overwritten": 36,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "morning",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 9,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 0,
+  "evidence_doc_type_overridden": 0,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {},
+  "impact_kind_undetermined_by_doc_type": {},
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 0,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 0,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 85,
+   "numbers_declared": 54,
+   "gap": 31,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 84,
+     "numbers_declared": 54
+    },
+    "explainer": {
+     "text_number_tokens": 1,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 5,
+   "line_ids": [
+    "L-004-01",
+    "L-004-04",
+    "L-009-02",
+    "L-009-03",
+    "L-009-05"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [
+   {
+    "word": "主要",
+    "location": "headline",
+    "id": "ART-2026-11-03-006"
+   },
+   {
+    "word": "主要",
+    "location": "line_text",
+    "id": "L-006-01"
+   },
+   {
+    "word": "主要",
+    "location": "line_text",
+    "id": "L-006-03"
+   }
+  ],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 5,
+   "change": 11,
+   "ripple": 6,
+   "deep": 5
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 2,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 2,
+   "first_run_at": "2026-11-03T07:37:29.837185+09:00",
+   "last_run_at": "2026-11-03T07:37:44.950414+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 27,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 1,
+   "total_unregistered": 1,
+   "excluded_date_time_tokens": 39,
+   "lines": [
+    {
+     "line_id": "L-005-01",
+     "values": [
+      "1"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 0,
+   "zero_letter_count": 0,
+   "lines": []
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "market_closed",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 9
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
