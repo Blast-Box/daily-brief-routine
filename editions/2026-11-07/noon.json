@@ -1,0 +1,1559 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-11-07-noon",
+ "date": "2026-11-07",
+ "slot": "noon",
+ "generated_at": "2026-11-07T13:13:15.589069+09:00",
+ "market_open": false,
+ "baseline": {
+  "date": "2026-11-07",
+  "price_type": "observed"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-07&type=2",
+   "publisher": "金融庁",
+   "title": "EDINET 書類一覧（2026年11月7日）",
+   "fetched_at": "2026-11-07T13:08:16+09:00",
+   "content_sha256": "22067ef1046754fdd19cc7f6fc1f5e7374ea1ffdf67482f87cb36a43fbd3f5d4",
+   "published_at": "2026-11-07",
+   "usage": "quotable",
+   "publisher_type": "company_disclosure",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "fetch_method": "urllib",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-06&type=2",
+   "publisher": "金融庁",
+   "title": "EDINET 書類一覧（2026年11月6日）",
+   "fetched_at": "2026-11-07T13:08:22+09:00",
+   "content_sha256": "9cb96f63792bf71ef790f5e820ab7a5d379fb3671c70f946aa6c79c9e58afa46",
+   "published_at": "2026-11-06",
+   "usage": "quotable",
+   "publisher_type": "company_disclosure",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "fetch_method": "urllib",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZCL3?type=1",
+   "publisher": "株式会社　大垣共立銀行",
+   "title": "臨時報告書（株式会社　大垣共立銀行）",
+   "fetched_at": "2026-11-07T13:08:57+09:00",
+   "content_sha256": "f3f346c83ccba2d9ccedc2da762473e308676be8489f1c75dad0c53fce014f4a",
+   "published_at": "2026-11-06T15:59:00+09:00",
+   "usage": "quotable",
+   "publisher_type": "company_disclosure",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCL3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCL3）をもとに本サイト作成",
+   "fetch_method": "urllib",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCL3"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZCPI?type=1",
+   "publisher": "サツドラホールディングス株式会社",
+   "title": "臨時報告書（サツドラホールディングス株式会社）",
+   "fetched_at": "2026-11-07T13:09:03+09:00",
+   "content_sha256": "ebf8df48d0e188eaf02eb14d4d1f145d18d6f95300948aea2702e94a69e21af3",
+   "published_at": "2026-11-06T15:06:00+09:00",
+   "usage": "quotable",
+   "publisher_type": "company_disclosure",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCPI）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCPI）をもとに本サイト作成",
+   "fetch_method": "urllib",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCPI"
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZCMB?type=1",
+   "publisher": "オンコリスバイオファーマ株式会社",
+   "title": "臨時報告書（オンコリスバイオファーマ株式会社）",
+   "fetched_at": "2026-11-07T13:09:09+09:00",
+   "content_sha256": "daa018a794c855943aca51e056fe495ab03501da5e3730d322c096a28abff45d",
+   "published_at": "2026-11-06T13:39:00+09:00",
+   "usage": "quotable",
+   "publisher_type": "company_disclosure",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCMB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCMB）をもとに本サイト作成",
+   "fetch_method": "urllib",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCMB"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZCDX?type=1",
+   "publisher": "森尾電機株式会社",
+   "title": "臨時報告書（森尾電機株式会社）",
+   "fetched_at": "2026-11-07T13:09:15+09:00",
+   "content_sha256": "b97c9e354e2eaa47162cd958c695d8c38b832231cdaa7b20ecffe5c7f640dcac",
+   "published_at": "2026-11-06T14:07:00+09:00",
+   "usage": "quotable",
+   "publisher_type": "company_disclosure",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCDX）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCDX）をもとに本サイト作成",
+   "fetch_method": "urllib",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCDX"
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZBO1?type=1",
+   "publisher": "ダイニチ工業株式会社",
+   "title": "臨時報告書（ダイニチ工業株式会社）",
+   "fetched_at": "2026-11-07T13:09:20+09:00",
+   "content_sha256": "e7a95d4537cd421a91c140ae3140205a964c04af20379e736f48c7a4499980e5",
+   "published_at": "2026-11-06T16:01:00+09:00",
+   "usage": "quotable",
+   "publisher_type": "company_disclosure",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBO1）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBO1）をもとに本サイト作成",
+   "fetch_method": "urllib",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBO1"
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZC79?type=1",
+   "publisher": "ヘリオス　テクノ　ホールディング株式会社",
+   "title": "臨時報告書（ヘリオス　テクノ　ホールディング株式会社）",
+   "fetched_at": "2026-11-07T13:09:26+09:00",
+   "content_sha256": "9168217e9ce555e649330b74935ee139e39edf7f0d4dd06e0cf28e60d325921a",
+   "published_at": "2026-11-06T16:37:00+09:00",
+   "usage": "quotable",
+   "publisher_type": "company_disclosure",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZC79）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZC79）をもとに本サイト作成",
+   "fetch_method": "urllib",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZC79"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZBLO?type=1",
+   "publisher": "第一三共株式会社",
+   "title": "半期報告書－第22期(2026/04/01－2027/03/31)（第一三共株式会社）",
+   "fetched_at": "2026-11-07T13:09:43+09:00",
+   "content_sha256": "74f6adce1e552c7a7df3dfc19514519b8cc454d23f61c56f795bd164941eb938",
+   "published_at": "2026-11-06T15:08:00+09:00",
+   "usage": "quotable",
+   "publisher_type": "company_disclosure",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBLO）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBLO）をもとに本サイト作成",
+   "fetch_method": "urllib",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBLO"
+  },
+  {
+   "source_id": "SRC-009",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZA8P?type=1",
+   "publisher": "アステラス製薬株式会社",
+   "title": "半期報告書－第22期(2026/04/01－2026/09/30)（アステラス製薬株式会社）",
+   "fetched_at": "2026-11-07T13:09:50+09:00",
+   "content_sha256": "1e896543561fd825925a6ece1ac0c271358715c009e4f833b2f14d9883cc9090",
+   "published_at": "2026-11-06T13:09:00+09:00",
+   "usage": "quotable",
+   "publisher_type": "company_disclosure",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA8P）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA8P）をもとに本サイト作成",
+   "fetch_method": "urllib",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA8P"
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-07-001",
+     "event_id": "EVT-2026-11-07-001",
+     "headline": "医薬品の第一三共の中間期、売上収益は19.7%増の11,672億円：抗がん剤エンハーツの伸びと円安（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "半期報告書は、上場会社が事業年度の前半6か月の業績や財政の状態をまとめて届け出る書類である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "第一三共が11月6日に出した半期報告書によると、中間期の売上収益は11,672億円で、前年同期の9,754億円から19.7%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9754,
+         "unit": "億円",
+         "label": "前年同期の売上収益"
+        },
+        {
+         "value": 11672,
+         "unit": "億円",
+         "label": "中間期の売上収益"
+        },
+        {
+         "value": 19.7,
+         "unit": "%",
+         "label": "売上収益の前年同期比の増加率"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "売上収益 9,754 11,672 1,919 19.7％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBLO）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBLO）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "同社は、抗がん剤のエンハーツとダトロウェイの伸びに加え、円安による為替の影響で増収になったとし、売上収益のうち為替による増収の影響は739億円だったとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 739,
+         "unit": "億円",
+         "label": "売上収益に係る為替の増収影響"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "円安の進行による為替影響により、増収となりました。売上収益に係る為替の増収影響は739億円でありました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBLO）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBLO）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "欧米のがんの薬を扱う部門で、エンハーツの売上収益は3,738億円となり、前年同期の2,561億円から46.0%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2561,
+         "unit": "億円",
+         "label": "エンハーツの売上収益（前年同期・欧米の部門）"
+        },
+        {
+         "value": 3738,
+         "unit": "億円",
+         "label": "エンハーツの売上収益（中間期・欧米の部門）"
+        },
+        {
+         "value": 46.0,
+         "unit": "%",
+         "label": "エンハーツの売上収益の増加率（欧米の部門）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "エンハーツ 抗悪性腫瘍剤 （抗 HER2 抗体薬物複合体） 2,561 3,738 1,177 46.0％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBLO）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBLO）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "本業のもうけを示すとして同社が使うコア営業利益は2,213億円で、前年同期の1,507億円から46.9%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1507,
+         "unit": "億円",
+         "label": "前年同期のコア営業利益"
+        },
+        {
+         "value": 2213,
+         "unit": "億円",
+         "label": "中間期のコア営業利益"
+        },
+        {
+         "value": 46.9,
+         "unit": "%",
+         "label": "コア営業利益の増加率"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "コア営業利益 （注） 1,507 2,213 706 46.9％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBLO）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBLO）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "研究開発費は2,401億円で、前年同期の2,168億円から10.7%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2168,
+         "unit": "億円",
+         "label": "前年同期の研究開発費"
+        },
+        {
+         "value": 2401,
+         "unit": "億円",
+         "label": "中間期の研究開発費"
+        },
+        {
+         "value": 10.7,
+         "unit": "%",
+         "label": "研究開発費の増加率"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "研究開発費 （注） 2,168 2,401 232 10.7％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBLO）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBLO）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "一方、国内の部門の売上収益は、エンハーツなどが伸びたものの、抗凝固剤リクシアナなどの減収で、前年同期より172億円（6.9%）少ない2,327億円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 172,
+         "unit": "億円",
+         "label": "国内の部門の売上収益の減少額"
+        },
+        {
+         "value": 6.9,
+         "unit": "%",
+         "label": "国内の部門の売上収益の減少率"
+        },
+        {
+         "value": 2327,
+         "unit": "億円",
+         "label": "国内の部門の売上収益"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "リクシアナ等の減収影響により、前年同期比172億円（6.9％）減収の2,327億円となりました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBLO）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBLO）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-07-001-1",
+       "text": "海外での抗がん剤の売上の伸びが続けば、医薬品業の大手の売上に占める海外の割合がさらに高まる可能性がある。",
+       "falsifier": "下期に欧米でのがんの薬の売上の伸びが止まり、海外の売上の割合が上期より下がれば、この見方は成り立たない。",
+       "check_metric": "医薬品業の大手各社の通期の有価証券報告書にある地域別の売上収益",
+       "check_by": "2027-06-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-07-002",
+     "event_id": "EVT-2026-11-07-002",
+     "headline": "銀行の大垣共立銀行、アリアケ・マスター・ファンドが議決権の10.74%を持つ主要株主に（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "主要株主は、会社の総株主の議決権の10%以上を持つ株主のことで、主要株主が入れ替わると、会社は臨時報告書を出す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "大垣共立銀行が11月6日に出した臨時報告書によると、新しく主要株主になるのはアリアケ・マスター・ファンドで、異動の後の議決権は219,956個、総株主の議決権の10.74%である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 219956,
+         "unit": "個",
+         "label": "異動後の所有議決権の数"
+        },
+        {
+         "value": 10.74,
+         "unit": "%",
+         "label": "異動後の総株主等の議決権に対する割合"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "異動後 219,956個 10.74％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCL3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCL3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "異動の前は197,930個、9.67%だった。同行は、これらの数は運用会社が出した大量保有報告書に基づくもので、同行として実際の持ち株の数や議決権の数を確かめたものではないと注記している。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 197930,
+         "unit": "個",
+         "label": "異動前の所有議決権の数"
+        },
+        {
+         "value": 9.67,
+         "unit": "%",
+         "label": "異動前の総株主等の議決権に対する割合"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "異動前 197,930個 9.67％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCL3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCL3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "同行は2026年10月1日に、普通株式1株を5株に分ける株式分割をしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5,
+         "unit": "株",
+         "label": "株式分割で1株を分けた後の株数"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "当社は2026年10月１日を効力発生日として、普通株式１株につき５株の割合で株式分割を実施しております",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCL3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCL3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "同行の発行済株式総数は、届け出の日の時点で普通株式206,409,485株である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 206409485,
+         "unit": "株",
+         "label": "発行済株式総数"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "発行済株式総数　　普通株式　206,409,485株",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCL3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCL3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-07-002-1",
+       "text": "海外のファンドが地方銀行の株を買い増す例が増えれば、銀行業で株主への還元や資本の使い方を株主から問われる場面が増える可能性がある。",
+       "falsifier": "今後半年の間に、銀行業の会社で海外のファンドが主要株主になったという臨時報告書が他に出なければ、この見方は弱い。",
+       "check_metric": "EDINETの臨時報告書（主要株主の異動）のうち、銀行業の会社で海外のファンドが主要株主になった件数",
+       "check_by": "2027-05-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-07-003",
+     "event_id": "EVT-2026-11-07-003",
+     "headline": "小売業のサツドラホールディングス、臨時株主総会で株式併合を可決：2,487,400株を1株に（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "株式併合は、いくつかの株をまとめて1株にする手続きで、まとめる数を大きくすると、少ない株しか持たない株主は株主でなくなる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "サツドラホールディングスは、11月6日の臨時株主総会で、自社の株2,487,400株を1株にまとめる株式併合の議案が可決されたと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2487400,
+         "unit": "株",
+         "label": "1株にまとめる株数"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "当社株式2,487,400株を１株に併合いたします",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCPI）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCPI）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "株式併合の議案への賛成は125,613個で、賛成の割合は97.85%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 125613,
+         "unit": "個",
+         "label": "第1号議案の賛成数"
+        },
+        {
+         "value": 97.85,
+         "unit": "%",
+         "label": "第1号議案の賛成割合"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "第１号議案 125,613 229 2,506 （注） 可決 97.85%",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCPI）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCPI）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "株式併合は2026年11月27日に効力が発生する予定である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 27,
+         "unit": "日",
+         "label": "日付（効力発生の予定日）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "本株式併合の効力発生予定日である2026年11月27日に効力が発生する予定です",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCPI）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCPI）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "届け出によると、併合の効力が発生すると発行済株式総数は5株になり、株主はテラ株式会社と株式会社トミーコーポレーションだけになる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5,
+         "unit": "株",
+         "label": "併合後の発行済株式総数"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "本株式併合の効力が発生した場合には、当社の発行済株式総数は５株となり",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCPI）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCPI）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-07-003-1",
+       "text": "株式併合で株主を少数にする手続きが小売業で続けば、取引所に上場する小売業の会社の数が減る可能性がある。",
+       "falsifier": "今後1年の間に、小売業で株式併合により株主を少数にする臨時報告書がほとんど出なければ、この見方は成り立たない。",
+       "check_metric": "EDINETの臨時報告書（株式併合の決議）のうち、小売業の会社の件数",
+       "check_by": "2027-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-07-004",
+     "event_id": "EVT-2026-11-07-004",
+     "headline": "電気機器のヘリオス テクノ ホールディング、木工機器の製造設備をつくる丸仲商事を5,013百万円で子会社に（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "ヘリオス テクノ ホールディングは11月6日、静岡市の丸仲商事の株をすべて取得して子会社にすると届け出た。株の取得の対価は5,013百万円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5013,
+         "unit": "百万円",
+         "label": "丸仲商事の普通株式の取得の対価"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "丸仲商事の普通株式　　　　　　　　5,013百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZC79）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZC79）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "助言の費用などの概算額を合わせると、取得にかかる額は5,125百万円になる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5125,
+         "unit": "百万円",
+         "label": "取得の対価とアドバイザリー費用等の合算（概算額）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "合算（概算額）　　　　　　　　　　5,125百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZC79）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZC79）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "丸仲商事は、木工機器の製造設備や工場の自動化の機器などをつくって売る会社で、売上高は2024年3月期から順に2,754百万円、2,718百万円、2,603百万円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2754,
+         "unit": "百万円",
+         "label": "丸仲商事の売上高（2024年3月期）"
+        },
+        {
+         "value": 2718,
+         "unit": "百万円",
+         "label": "丸仲商事の売上高（2025年3月期）"
+        },
+        {
+         "value": 2603,
+         "unit": "百万円",
+         "label": "丸仲商事の売上高（2026年3月期）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "売上高（百万円） 2,754 2,718 2,603",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZC79）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZC79）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "丸仲商事の営業利益は、同じく順に426百万円、348百万円、476百万円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 426,
+         "unit": "百万円",
+         "label": "丸仲商事の営業利益（2024年3月期）"
+        },
+        {
+         "value": 348,
+         "unit": "百万円",
+         "label": "丸仲商事の営業利益（2025年3月期）"
+        },
+        {
+         "value": 476,
+         "unit": "百万円",
+         "label": "丸仲商事の営業利益（2026年3月期）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "営業利益（百万円） 426 348 476",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZC79）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZC79）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "丸仲商事の純資産の額は1,557百万円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1557,
+         "unit": "百万円",
+         "label": "丸仲商事の純資産の額"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "純資産の額 1,557百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZC79）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZC79）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-07-004-1",
+       "text": "住宅設備や家具の工場で自動化の設備の需要が続けば、工場の自動化の機器をつくる中小の会社を、上場会社が買う動きが続く可能性がある。",
+       "falsifier": "今後1年の間に、工場の自動化の機器をつくる会社を子会社にするという臨時報告書がほとんど出なければ、この見方は成り立たない。",
+       "check_metric": "EDINETの臨時報告書（子会社の取得）のうち、製造設備や自動化の機器の会社を対象にした件数",
+       "check_by": "2027-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-07-005",
+     "event_id": "EVT-2026-11-07-005",
+     "headline": "金属製品のダイニチ工業、株式会社ダイニチビルが議決権の11.31%を持つ主要株主に（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "ダイニチ工業が11月6日に出した臨時報告書によると、株式会社ダイニチビルが新しく主要株主になり、異動の後の議決権は18,323個、総株主の議決権の11.31%である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 18323,
+         "unit": "個",
+         "label": "異動後の所有議決権の数"
+        },
+        {
+         "value": 11.31,
+         "unit": "%",
+         "label": "異動後の総株主等の議決権に対する割合"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "異動後 18,323個 11.31％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBO1）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBO1）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "異動の前は13,617個、8.41%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 13617,
+         "unit": "個",
+         "label": "異動前の所有議決権の数"
+        },
+        {
+         "value": 8.41,
+         "unit": "%",
+         "label": "異動前の総株主等の議決権に対する割合"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "異動前 13,617個 8.41％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBO1）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBO1）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "同社の発行済株式総数は、届け出の日の時点で普通株式19,058,587株である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 19058587,
+         "unit": "株",
+         "label": "発行済株式総数"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "発行済株式総数　　普通株式　19,058,587株",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBO1）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBO1）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-04",
+       "text": "同社の資本金の額は4,058,813千円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4058813,
+         "unit": "千円",
+         "label": "資本金の額"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "資本金の額　　　　　　　　　4,058,813千円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBO1）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBO1）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-07-006",
+     "event_id": "EVT-2026-11-07-006",
+     "headline": "波及を追う：円安と新しい薬が製薬会社の売上に──アステラス製薬の中間期、売上収益は23.4%増、コア営業利益は50.3%増（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-006-01",
+       "text": "海外で薬を売る会社は、海外の売上を円に直して決算に載せるので、円安になると、同じ量を売っても円での売上は大きくなる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-02",
+       "text": "アステラス製薬が11月6日に出した半期報告書によると、中間期の売上収益は1,270,861百万円で、前年同期の1,030,114百万円から23.4%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1030114,
+         "unit": "百万円",
+         "label": "前年同期の売上収益"
+        },
+        {
+         "value": 1270861,
+         "unit": "百万円",
+         "label": "中間期の売上収益"
+        },
+        {
+         "value": 23.4,
+         "unit": "%",
+         "label": "売上収益の増加率"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "売上収益 1,030,114 1,270,861 240,748(23.4％)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA8P）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA8P）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-03",
+       "text": "同社が本業のもうけとして示すコア営業利益は424,928百万円で、前年同期から50.3%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 424928,
+         "unit": "百万円",
+         "label": "中間期のコア営業利益"
+        },
+        {
+         "value": 50.3,
+         "unit": "%",
+         "label": "コア営業利益の増加率"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "コア営業利益 282,632 424,928 142,296(50.3％)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA8P）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA8P）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-04",
+       "text": "尿路上皮がんの薬PADCEVの売上は1,583億円で、前年同期の1,025億円から54.5%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1025,
+         "unit": "億円",
+         "label": "PADCEVの売上（前年同期）"
+        },
+        {
+         "value": 1583,
+         "unit": "億円",
+         "label": "PADCEVの売上（中間期）"
+        },
+        {
+         "value": 54.5,
+         "unit": "%",
+         "label": "PADCEVの売上の増加率"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "PADCEV 1,025 1,583 54.5％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA8P）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA8P）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-05",
+       "text": "同社の薬XTANDIの売上は5,337億円で、11.9%増えた。同社は、為替の影響も増加の要因だったとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5337,
+         "unit": "億円",
+         "label": "XTANDIの売上（中間期）"
+        },
+        {
+         "value": 11.9,
+         "unit": "%",
+         "label": "XTANDIの売上の増加率"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "XTANDI 4,770 5,337 11.9％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA8P）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA8P）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-06",
+       "text": "地域別では、米国の売上収益が5,768億円で、前年同期の4,571億円から26.2%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4571,
+         "unit": "億円",
+         "label": "米国の売上収益（前年同期）"
+        },
+        {
+         "value": 5768,
+         "unit": "億円",
+         "label": "米国の売上収益（中間期）"
+        },
+        {
+         "value": 26.2,
+         "unit": "%",
+         "label": "米国の売上収益の増加率"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "米国 4,571 5,768 26.2％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA8P）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA8P）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-07",
+       "text": "販売費及び一般管理費は、費用を減らす取り組みをした一方で、主に為替の影響で338億円増えたとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 338,
+         "unit": "億円",
+         "label": "販売費及び一般管理費の為替の影響による増加額"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "主に為替の影響 (同338億円増) により、総額として増加しました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA8P）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA8P）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-07-006-1",
+       "text": "円安が続けば、海外の売上の割合が大きい医薬品業の会社では、円で見た売上と費用の両方が膨らむ状態が続く可能性がある。",
+       "falsifier": "下期に円高が進み、医薬品業の大手の通期の決算で為替が売上を減らす要因として示されれば、この見方は成り立たない。",
+       "check_metric": "医薬品業の大手各社の通期の決算で示される、売上収益に対する為替の影響額",
+       "check_by": "2027-06-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-07-007",
+     "event_id": "EVT-2026-11-07-007",
+     "headline": "深掘り：円安は製薬会社の売上だけでなく費用も大きくする──第一三共はコア営業利益で為替の増益影響227億円、アステラス製薬は研究開発費で為替により103億円増（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-007-01",
+       "text": "海外で事業をする会社では、海外で払う人件費や研究開発費も円に直して決算に載せるので、円安は売上だけでなく費用も大きくする。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-02",
+       "text": "第一三共は、コア営業利益に対する為替の増益の影響は227億円だったとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 227,
+         "unit": "億円",
+         "label": "コア営業利益に係る為替の増益影響"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "コア営業利益に係る為替の増益影響は227億円でありました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBLO）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBLO）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-03",
+       "text": "同社は、営業利益に対する為替の増益の影響は200億円だったとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 200,
+         "unit": "億円",
+         "label": "営業利益に係る為替の増益影響"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "営業利益に係る為替の増益影響は200億円でありました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBLO）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBLO）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-04",
+       "text": "第一三共の売上収益に対する研究開発費の割合は20.6%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20.6,
+         "unit": "%",
+         "label": "売上収益に対する研究開発費の比率"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "売上収益に対する研究開発費の比率は20.6％となりました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBLO）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZBLO）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-05",
+       "text": "アステラス製薬の研究開発費は1,677億円で、前年同期より17.0%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1677,
+         "unit": "億円",
+         "label": "研究開発費"
+        },
+        {
+         "value": 17.0,
+         "unit": "%",
+         "label": "研究開発費の増加率"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "研究開発費は、1,677億円 (同17.0％増) となりました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA8P）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA8P）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-06",
+       "text": "同社は、研究開発費の増加には、臨床開発の費用の増加のほか、為替の影響による103億円の増加があったとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 103,
+         "unit": "億円",
+         "label": "研究開発費の為替の影響による増加額"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "為替の影響 (同103億円増) などにより、総額として増加しました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA8P）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZA8P）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-07-007-1",
+       "text": "海外で研究開発をする医薬品業の会社では、円安が売上を押し上げても、研究開発費も同時に増えるため、利益への効果は売上ほど大きくならない可能性がある。",
+       "falsifier": "医薬品業の大手の通期の決算で、為替による利益の増加額が売上の増加額と同じ割合で増えていれば、この見方は成り立たない。",
+       "check_metric": "医薬品業の大手各社の通期の決算で示される、売上収益と営業利益それぞれに対する為替の影響額",
+       "check_by": "2027-06-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-11-07T13:13:15.589069+09:00",
+  "first_run": {
+   "run_at": "2026-11-07T13:13:15.589069+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 10,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 39,
+  "passed": 34,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 5,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 10,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E03568-000_2026-11-06_01_2026-11-06_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E03568-000_2026-11-06_01_2026-11-06_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E32381-000_2026-11-06_01_2026-11-06_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E32381-000_2026-11-06_01_2026-11-06_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-004": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E30058-000_2026-11-06_01_2026-11-06_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E30058-000_2026-11-06_01_2026-11-06_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E01912-000_2026-11-06_01_2026-11-06_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E01912-000_2026-11-06_01_2026-11-06_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-006": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E01427-000_2026-11-06_01_2026-11-06_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E01427-000_2026-11-06_01_2026-11-06_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-007": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E02076-000_2026-11-06_01_2026-11-06_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E02076-000_2026-11-06_01_2026-11-06_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-008": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp040300-ssr-001_E00984-000_2026-09-30_01_2026-11-06_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp040300-ssr-001_E00984-000_2026-09-30_01_2026-11-06_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp040300-ssr-001_E00984-000_2026-09-30_01_2026-11-06_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp040300-ssr-001_E00984-000_2026-09-30_01_2026-11-06_ixbrl.htm",
+     "XBRL/PublicDoc/0200010_honbun_jpcrp040300-ssr-001_E00984-000_2026-09-30_01_2026-11-06_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp040300-ssr-001_E00984-000_2026-09-30_01_2026-11-06_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-009": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp040300-ssr-001_E00920-000_2026-09-30_01_2026-11-06_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp040300-ssr-001_E00920-000_2026-09-30_01_2026-11-06_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp040300-ssr-001_E00920-000_2026-09-30_01_2026-11-06_ixbrl.htm",
+     "XBRL/PublicDoc/0104000_honbun_jpcrp040300-ssr-001_E00920-000_2026-09-30_01_2026-11-06_ixbrl.htm",
+     "XBRL/PublicDoc/0104020_honbun_jpcrp040300-ssr-001_E00920-000_2026-09-30_01_2026-11-06_ixbrl.htm",
+     "XBRL/PublicDoc/0104035_honbun_jpcrp040300-ssr-001_E00920-000_2026-09-30_01_2026-11-06_ixbrl.htm",
+     "XBRL/PublicDoc/0104040_honbun_jpcrp040300-ssr-001_E00920-000_2026-09-30_01_2026-11-06_ixbrl.htm",
+     "XBRL/PublicDoc/0104045_honbun_jpcrp040300-ssr-001_E00920-000_2026-09-30_01_2026-11-06_ixbrl.htm",
+     "XBRL/PublicDoc/0104050_honbun_jpcrp040300-ssr-001_E00920-000_2026-09-30_01_2026-11-06_ixbrl.htm",
+     "XBRL/PublicDoc/0104110_honbun_jpcrp040300-ssr-001_E00920-000_2026-09-30_01_2026-11-06_ixbrl.htm",
+     "XBRL/PublicDoc/0104120_honbun_jpcrp040300-ssr-001_E00920-000_2026-09-30_01_2026-11-06_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp040300-ssr-001_E00920-000_2026-09-30_01_2026-11-06_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp040300-ssr-001_E00920-000_2026-09-30_01_2026-11-06_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 10,
+  "attribution_overwritten": 44,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "noon",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 10,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 0,
+  "evidence_doc_type_overridden": 0,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {},
+  "impact_kind_undetermined_by_doc_type": {},
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 0,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 0,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 86,
+   "numbers_declared": 62,
+   "gap": 24,
+   "by_mark": {
+    "explainer": {
+     "text_number_tokens": 3,
+     "numbers_declared": 0
+    },
+    "source_number_match": {
+     "text_number_tokens": 83,
+     "numbers_declared": 62
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 1,
+   "line_ids": [
+    "L-003-04"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [
+   {
+    "word": "主要",
+    "location": "headline",
+    "id": "ART-2026-11-07-002"
+   },
+   {
+    "word": "主要",
+    "location": "line_text",
+    "id": "L-002-01"
+   },
+   {
+    "word": "主要",
+    "location": "line_text",
+    "id": "L-002-02"
+   },
+   {
+    "word": "主要",
+    "location": "headline",
+    "id": "ART-2026-11-07-005"
+   },
+   {
+    "word": "主要",
+    "location": "line_text",
+    "id": "L-005-01"
+   }
+  ],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 6,
+   "change": 17,
+   "ripple": 6,
+   "deep": 5
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 2,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 2,
+   "first_run_at": "2026-11-07T13:12:59.339714+09:00",
+   "last_run_at": "2026-11-07T13:13:10.259542+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 34,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 2,
+   "total_unregistered": 2,
+   "excluded_date_time_tokens": 20,
+   "lines": [
+    {
+     "line_id": "L-002-04",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-003-02",
+     "values": [
+      "1"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 1,
+   "zero_letter_count": 0,
+   "lines": [
+    {
+     "line_id": "L-006-06",
+     "letters": 2
+    }
+   ]
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "market_closed",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 7
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
