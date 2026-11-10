@@ -1,0 +1,868 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-11-11-morning",
+ "date": "2026-11-11",
+ "slot": "morning",
+ "generated_at": "2026-11-11T07:36:40.997722+09:00",
+ "market_open": true,
+ "baseline": {
+  "date": "2026-11-11",
+  "price_type": "open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-11&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月11日）",
+   "published_at": "2026-11-11",
+   "fetched_at": "2026-11-11T07:32:24+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "8f569657d91125a9af0b3adb2fb46b185f6d585ce64cae5d6987f1fd3372e510",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-10&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月10日）",
+   "published_at": "2026-11-10",
+   "fetched_at": "2026-11-11T07:32:47+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "9f93af3ee74e4b3320b25d763bffab550b0327a4a36f303b45db10591dfbc93b",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZCY4?type=1",
+   "publisher": "株式会社　丸井グループ",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社　丸井グループ）",
+   "published_at": "2026-11-10T16:00:00+09:00",
+   "fetched_at": "2026-11-11T07:33:43+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "5b5e84c4c7ef3339f89f6d25a36cadd6f21c15ad3663aad25784859eb1cd5ba5",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCY4）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCY4）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCY4"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZDZ5?type=1",
+   "publisher": "東海汽船株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（東海汽船株式会社）",
+   "published_at": "2026-11-10T15:41:00+09:00",
+   "fetched_at": "2026-11-11T07:33:50+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "be04c033ca4df35ef432cf42dcbace80fae788f4e8b7865fec2716ca9b268159",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDZ5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDZ5）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDZ5"
+  },
+  {
+   "source_id": "SRC-009",
+   "url": "https://www.boj.or.jp/mopo/mpmsche_minu/opinion_2026/opi261030.pdf",
+   "publisher": "日本銀行",
+   "publisher_type": "central_bank",
+   "title": "金融政策決定会合における主な意見（2026年10月29、30日開催分）",
+   "published_at": "2026-11-10",
+   "fetched_at": "2026-11-11T07:34:25+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "40334b0219352a3374d71491df993198a5002ef9f1dd40c8ae5ffe0daa3f9e4b",
+   "usage": "quotable",
+   "attribution": "出典：日本銀行「金融政策決定会合における主な意見（2026年10月29、30日開催分）」（https://www.boj.or.jp/mopo/mpmsche_minu/opinion_2026/opi261030.pdf）",
+   "processing_note": "日本銀行「金融政策決定会合における主な意見（2026年10月29、30日開催分）」（https://www.boj.or.jp/mopo/mpmsche_minu/opinion_2026/opi261030.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-11-001",
+     "event_id": "EVT-2026-11-11-001",
+     "headline": "日本銀行、10月の会合の「主な意見」を公表：「既に基調的な物価上昇率は2%に達しており」早く中立水準へという意見と、利上げが物価を押し下げるリスクへの留意を求める意見が並ぶ",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "日本銀行は、10月29、30日に開いた金融政策決定会合の「主な意見」を11月10日に公表した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 29,
+         "unit": "日",
+         "label": "日付（会合の開催日）"
+        },
+        {
+         "value": 30,
+         "unit": "日",
+         "label": "日付（会合の開催日）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "（2026 年 10 月 29、30 日開催分）",
+       "attribution": "出典：日本銀行「金融政策決定会合における主な意見（2026年10月29、30日開催分）」（https://www.boj.or.jp/mopo/mpmsche_minu/opinion_2026/opi261030.pdf）",
+       "processing_note": "日本銀行「金融政策決定会合における主な意見（2026年10月29、30日開催分）」（https://www.boj.or.jp/mopo/mpmsche_minu/opinion_2026/opi261030.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "主な意見には、既に基調的な物価上昇率は2%に達しており、政策金利を早く中立水準に持っていく必要があるという意見が載った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "%",
+         "label": "基調的な物価上昇率（意見の中の水準）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "既に基調的な物価上昇率は２％に達しており、政策金利を早く",
+       "attribution": "出典：日本銀行「金融政策決定会合における主な意見（2026年10月29、30日開催分）」（https://www.boj.or.jp/mopo/mpmsche_minu/opinion_2026/opi261030.pdf）",
+       "processing_note": "日本銀行「金融政策決定会合における主な意見（2026年10月29、30日開催分）」（https://www.boj.or.jp/mopo/mpmsche_minu/opinion_2026/opi261030.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "中立金利について、潜在成長率などを考慮すると1%より相応に上とみているという意見もあった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "%",
+         "label": "中立金利の見方（意見の中の水準）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "１％より相応に上とみている。",
+       "attribution": "出典：日本銀行「金融政策決定会合における主な意見（2026年10月29、30日開催分）」（https://www.boj.or.jp/mopo/mpmsche_minu/opinion_2026/opi261030.pdf）",
+       "processing_note": "日本銀行「金融政策決定会合における主な意見（2026年10月29、30日開催分）」（https://www.boj.or.jp/mopo/mpmsche_minu/opinion_2026/opi261030.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "一方で、直近の消費者物価の前年比が2%台に入る中で物価が目標を超えて上がるリスクを認識しつつも、既往の利上げが遅れて経済・物価を下振れさせるリスクにも留意する必要があるという意見もあった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "%",
+         "label": "消費者物価の前年比（意見の中の水準）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "直近の消費者物価の前年比が２％台に入る中、基調的な物価上",
+       "attribution": "出典：日本銀行「金融政策決定会合における主な意見（2026年10月29、30日開催分）」（https://www.boj.or.jp/mopo/mpmsche_minu/opinion_2026/opi261030.pdf）",
+       "processing_note": "日本銀行「金融政策決定会合における主な意見（2026年10月29、30日開催分）」（https://www.boj.or.jp/mopo/mpmsche_minu/opinion_2026/opi261030.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "消費者物価（除く生鮮）の前年比は、年度末に向けて3%を超えて上昇していくと見込まれるという意見も載った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3,
+         "unit": "%",
+         "label": "消費者物価（除く生鮮）の前年比の見込み（意見の中の水準）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "消費者物価（除く生鮮）の前年比は、年度末に向けて３％を超",
+       "attribution": "出典：日本銀行「金融政策決定会合における主な意見（2026年10月29、30日開催分）」（https://www.boj.or.jp/mopo/mpmsche_minu/opinion_2026/opi261030.pdf）",
+       "processing_note": "日本銀行「金融政策決定会合における主な意見（2026年10月29、30日開催分）」（https://www.boj.or.jp/mopo/mpmsche_minu/opinion_2026/opi261030.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "賃上げについては、少なくとも2%目標と整合的な賃上げが続く可能性が十分にあるという意見があった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "%",
+         "label": "物価安定の目標"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "少なくとも、２％目標と整合的な賃上げが続く可能性が十分に",
+       "attribution": "出典：日本銀行「金融政策決定会合における主な意見（2026年10月29、30日開催分）」（https://www.boj.or.jp/mopo/mpmsche_minu/opinion_2026/opi261030.pdf）",
+       "processing_note": "日本銀行「金融政策決定会合における主な意見（2026年10月29、30日開催分）」（https://www.boj.or.jp/mopo/mpmsche_minu/opinion_2026/opi261030.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "「中立金利」とは、景気を温めも冷やしもしない金利の水準のことで、政策金利がそれより低ければ金融は緩和的とされる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-08",
+       "text": "「主な意見」は、会合に出た委員などがそれぞれの意見を要約して出し、議長がまとめたもので、誰の意見かは書かれていない。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-11-001-1",
+       "text": "政策金利を早く中立水準に近づけるべきだという意見が会合で多数になれば、銀行業の貸出金利と預金金利がともに上がる方向に動く可能性がある。",
+       "falsifier": "次回の金融政策決定会合で政策金利が据え置かれ、その後の会合でも据え置きが続けば、この見方は当面成り立たない。",
+       "check_metric": "日本銀行 金融政策決定会合の決定内容（政策金利）",
+       "check_by": "2027-01-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-11-002",
+     "event_id": "EVT-2026-11-11-002",
+     "headline": "小売業の丸井グループ、役員などへの株式報酬の信託に自己株式568,700株を1株2,852円で処分へ（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "丸井グループは11月10日、役員や幹部社員に株を渡す信託の仕組みを続けるため、信託に自己株式を処分すると決め、臨時報告書を届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 568700,
+         "unit": "株",
+         "label": "件数（信託に処分する株数）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "本自己株式処分により各本信託に処分する当社株式（合計568,700株）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCY4）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCY4）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "払込金額は1株につき2,852円で、取締役会の日の前営業日の終値としている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "株",
+         "label": "1株あたり"
+        },
+        {
+         "value": 2852,
+         "unit": "円",
+         "label": "1株あたりの払込金額"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "(ii) 募集株式の払込金額　１株につき2,852円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCY4）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCY4）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "対象となる取締役などは43名、グループの経営幹部社員は294名と書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 43,
+         "unit": "名",
+         "label": "件数（対象の取締役など）"
+        },
+        {
+         "value": 294,
+         "unit": "名",
+         "label": "件数（経営幹部社員）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "本取締役会の日における当社の対象取締役等は43名（うち当社の社内取締役3名、当社の執行役員18名、対象子会社の取締役22名）、当社グループ経営幹部社員は294名",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCY4）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCY4）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "会社が持っている自分の株（自己株式）を信託に渡し、決めた条件を満たした役員や社員に後で株を渡す仕組みを、株式報酬の信託という。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-11-002-1",
+       "text": "業績に連動した株式報酬を続ける小売業の会社が増えれば、役員の報酬と株主の利害を近づける仕組みが業界で広がる可能性がある。",
+       "falsifier": "今後1年の小売業の臨時報告書で、株式報酬の信託の新設・継続の届け出がほとんど見られなければ、この見方は成り立たない。",
+       "check_metric": "EDINET 小売業の会社の臨時報告書（株式報酬の信託に関するもの）の件数",
+       "check_by": "2027-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-11-004",
+     "event_id": "EVT-2026-11-11-001",
+     "headline": "波及を追う：日本銀行が持つETFの売却ペースに見直しの意見──株式市場への影響を見ながら",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "日本銀行の「主な意見」には、ETFの売却は本年1月の開始から概ね1年が経ち、市場に大きな影響を与えず円滑に進んでいるとして、売却ペースを見直す適切な時期ではないかという意見が載った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "月",
+         "label": "日付（売却開始の月）"
+        },
+        {
+         "value": 1,
+         "unit": "年",
+         "label": "売却開始からの経過期間"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "ＥＴＦの売却については、本年１月の売却開始から概ね１年が",
+       "attribution": "出典：日本銀行「金融政策決定会合における主な意見（2026年10月29、30日開催分）」（https://www.boj.or.jp/mopo/mpmsche_minu/opinion_2026/opi261030.pdf）",
+       "processing_note": "日本銀行「金融政策決定会合における主な意見（2026年10月29、30日開催分）」（https://www.boj.or.jp/mopo/mpmsche_minu/opinion_2026/opi261030.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "ETFは、多くの会社の株をまとめて1つの商品にしたもので、日本銀行は以前、金融緩和の一環としてこれを買い入れていた。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-11-004-1",
+       "text": "ETFの売却ペースが上がれば、株式市場全体に売りが少しずつ加わり、証券業の売買の取り次ぎの量にも影響する可能性がある。",
+       "falsifier": "日本銀行がETFの売却ペースを変えない決定をすれば、この見方は成り立たない。",
+       "check_metric": "日本銀行 金融政策決定会合の決定内容（ETFの処分）",
+       "check_by": "2027-03-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-11-005",
+     "event_id": "EVT-2026-11-11-003",
+     "headline": "深掘り：「繰延税金資産の取り崩し」とは──海運業の東海汽船、第2四半期累計期間までに計上した分の一部を取り崩し（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "東海汽船は11月10日に臨時報告書を届け出て、第3四半期累計期間の業績を踏まえ、第2四半期累計期間までに計上した繰延税金資産の一部を取り崩したと書いた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3,
+         "unit": "四半期",
+         "label": "対象の期間（第3四半期累計期間）"
+        },
+        {
+         "value": 2,
+         "unit": "四半期",
+         "label": "取り崩した資産の計上時期（第2四半期累計期間まで）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "2026年12月期第３四半期累計期間の業績を踏まえ、2026年12月期第２四半期累計期間までに計上した繰延税金資産の一部を取り崩しいたしました。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDZ5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDZ5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "これにより、個別決算で法人税等調整額（損）を1億1千9百万円計上した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "億円",
+         "label": "法人税等調整額（損）の金額のうち「1億」の部分"
+        },
+        {
+         "value": 1,
+         "unit": "千万円",
+         "label": "法人税等調整額（損）の金額のうち「1千」万の部分"
+        },
+        {
+         "value": 9,
+         "unit": "百万円",
+         "label": "法人税等調整額（損）の金額のうち「9百万」の部分"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "個別決算で法人税等調整額（損）を１億１千９百万円を計上いたしました。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDZ5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDZ5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "繰延税金資産は、将来払う税金が減る分を前もって資産として計上したもので、将来の利益が十分に見込めないと判断すると取り崩して費用にする。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-11-005-1",
+       "text": "離島航路などの旅客船の事業で燃料などの費用の上昇が続けば、海運業の小さな会社で将来の利益の見込みが下がり、繰延税金資産を取り崩す例が増える可能性がある。",
+       "falsifier": "今後半年の海運業の臨時報告書で、繰延税金資産の取り崩しの届け出が見られなければ、この見方は成り立たない。",
+       "check_metric": "EDINET 海運業の会社の臨時報告書（繰延税金資産の取り崩しに関するもの）",
+       "check_by": "2027-05-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-11-11T07:36:40.997722+09:00",
+  "first_run": {
+   "run_at": "2026-11-11T07:36:40.997722+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 5,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 17,
+  "passed": 12,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 5,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 4,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-007": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E03040-000_2026-11-10_01_2026-11-10_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E03040-000_2026-11-10_01_2026-11-10_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-008": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E04256-000_2026-11-10_01_2026-11-10_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E04256-000_2026-11-10_01_2026-11-10_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 4,
+  "attribution_overwritten": 17,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "morning",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 5,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 2,
+  "evidence_doc_type_overridden": 2,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {
+   "edinet_doctype_unmapped": 2
+  },
+  "impact_kind_undetermined_by_doc_type": {
+   "180": 2
+  },
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 2,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 1,
+   "nfkc": 0,
+   "match_name": 1
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 26,
+   "numbers_declared": 19,
+   "gap": 7,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 25,
+     "numbers_declared": 19
+    },
+    "explainer": {
+     "text_number_tokens": 1,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 3,
+   "line_ids": [
+    "L-001-01",
+    "L-002-01",
+    "L-002-03"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 6,
+   "change": 3,
+   "ripple": 1,
+   "deep": 2
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 3,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-009"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 2,
+   "first_run_at": "2026-11-11T07:36:12.737116+09:00",
+   "last_run_at": "2026-11-11T07:36:35.214118+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [
+    {
+     "line_id": "L-005-02",
+     "values": [
+      119000000
+     ]
+    }
+   ],
+   "last_counts": {
+    "ok": 12,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [
+   {
+    "hypothesis_id": "2026-11-11-morning-1",
+    "company_name": "株式会社　丸井グループ",
+    "submitted_at": "2026-11-10T16:00:00+09:00",
+    "baseline_point": "2026-11-11T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-11-11-morning-2",
+    "company_name": "東海汽船株式会社",
+    "submitted_at": "2026-11-10T15:41:00+09:00",
+    "baseline_point": "2026-11-11T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   }
+  ],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 0,
+   "total_unregistered": 0,
+   "excluded_date_time_tokens": 10,
+   "lines": []
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 0,
+   "zero_letter_count": 0,
+   "lines": []
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "ok",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 1,
+    "source_ids": [
+     "SRC-009"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 4
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "industry_picks_total": 2,
+  "industry_examples_total": 2,
+  "industry_example_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "ai_written_examples_discarded": 0,
+  "slot_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "short_name_match_count": {
+   "count": 0,
+   "names": []
+  },
+  "allowed_industries_count": 30,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
