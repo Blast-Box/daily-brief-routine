@@ -1,0 +1,1893 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-11-11-evening",
+ "date": "2026-11-11",
+ "slot": "evening",
+ "generated_at": "2026-11-11T17:15:40.054354+09:00",
+ "market_open": true,
+ "baseline": {
+  "date": "2026-11-12",
+  "price_type": "next_open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-11&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月11日）",
+   "published_at": "2026-11-11",
+   "fetched_at": "2026-11-11T17:08:59+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "65f18e3459a2f1627d39cf870d9abe45da2c0af45acad5718f974233c8137f69",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-10&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月10日）",
+   "published_at": "2026-11-10",
+   "fetched_at": "2026-11-11T17:09:06+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "9f93af3ee74e4b3320b25d763bffab550b0327a4a36f303b45db10591dfbc93b",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZFD0?type=1",
+   "publisher": "株式会社ライフコーポレーション",
+   "publisher_type": "company_disclosure",
+   "title": "公開買付報告書（株式会社ライフコーポレーション）",
+   "published_at": "2026-11-11T16:12:00+09:00",
+   "fetched_at": "2026-11-11T17:09:29+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "fccb3567a61e135a8c88028c06c59187f63e1ba334d1d5d1b40b99d070e9e701",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFD0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFD0）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFD0"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZFDW?type=1",
+   "publisher": "株式会社ライフコーポレーション",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社ライフコーポレーション）",
+   "published_at": "2026-11-11T16:18:00+09:00",
+   "fetched_at": "2026-11-11T17:09:36+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "1730a64c26a9579a5dba26c73b8cdd0ee4024bab15def842e24eaf8c1d9eba80",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFDW）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFDW）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFDW"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZF7O?type=1",
+   "publisher": "サッポロビール株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（サッポロビール株式会社）",
+   "published_at": "2026-11-11T15:30:00+09:00",
+   "fetched_at": "2026-11-11T17:09:41+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "24631b5044d183043ace4d60baeb88caf0c770465761fd77a0ac564177ac6146",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF7O）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF7O）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF7O"
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZEQB?type=1",
+   "publisher": "株式会社サイバーエージェント",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社サイバーエージェント）",
+   "published_at": "2026-11-11T15:30:00+09:00",
+   "fetched_at": "2026-11-11T17:09:47+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "c7e661e7ad0f80fa9b61a6ee105c5a75cf83d8c30c8508d7efb3a0c97a5874f1",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEQB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEQB）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEQB"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZF34?type=1",
+   "publisher": "株式会社ニフコ",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社ニフコ）",
+   "published_at": "2026-11-11T14:09:00+09:00",
+   "fetched_at": "2026-11-11T17:09:53+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "77e25b87e616de280563ac2905d668fdb5c3436e7eb239201b365296622fa2e0",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF34）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF34）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF34"
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZECJ?type=1",
+   "publisher": "極東開発工業株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（極東開発工業株式会社）",
+   "published_at": "2026-11-11T14:00:00+09:00",
+   "fetched_at": "2026-11-11T17:09:58+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "cf934690ca66362ad3e60f70fecc3bf141d63974514f7f522a5c2509e49c77ef",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZECJ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZECJ）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZECJ"
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZE8C?type=1",
+   "publisher": "ＮＩＳＳＨＡ株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（ＮＩＳＳＨＡ株式会社）",
+   "published_at": "2026-11-11T15:32:00+09:00",
+   "fetched_at": "2026-11-11T17:10:04+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "e9f97152e61bae56d739e5f4e1e6616df761628a6cd27af6a0f0423819e78eec",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZE8C）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZE8C）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZE8C"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZF2N?type=1",
+   "publisher": "ＴＲＥホールディングス株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（ＴＲＥホールディングス株式会社）",
+   "published_at": "2026-11-11T16:12:00+09:00",
+   "fetched_at": "2026-11-11T17:10:11+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "16cfc7b863a61295f05e3a948b79c3d6643eca0a1cb8fed791662e926c6e69b2",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2N）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2N）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2N"
+  },
+  {
+   "source_id": "SRC-011",
+   "url": "https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "令和8年9月中 国際収支状況（速報）の概要",
+   "published_at": "2026-11-10",
+   "fetched_at": "2026-11-11T17:11:37+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "c23b4f28ac41d854694e502cf1e5ede7c69ebe0d03df2b849866c348fc981dfb",
+   "usage": "quotable",
+   "attribution": "出典：財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）",
+   "processing_note": "財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-11-001",
+     "event_id": "EVT-2026-11-11-001",
+     "headline": "財務省の国際収支（9月・速報）、貿易収支は1,875億円の赤字に：輸入の伸び17.8%が輸出の伸び12.8%を上回る",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "財務省が11月10日に公表した9月の国際収支（速報）で、モノとサービスを合わせた貿易・サービス収支は6,445億円の赤字で、赤字幅は前年同月より6,369億円広がった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": -6445,
+         "unit": "億円",
+         "label": "貿易・サービス収支"
+        },
+        {
+         "value": -6369,
+         "unit": "億円",
+         "label": "貿易・サービス収支の前年同月との差"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "１．貿易・サービス収支：▲6,445億円の赤字（前年同月比▲6,369億円赤字幅拡大）",
+       "attribution": "出典：財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）",
+       "processing_note": "財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "モノだけの貿易収支は1,875億円の赤字で、前年同月と比べて4,341億円悪くなり、黒字から赤字に変わった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": -1875,
+         "unit": "億円",
+         "label": "貿易収支"
+        },
+        {
+         "value": -4341,
+         "unit": "億円",
+         "label": "貿易収支の前年同月との差"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "(1) 貿易収支：▲1,875億円の赤字（前年同月比▲4,341億円赤字転化）",
+       "attribution": "出典：財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）",
+       "processing_note": "財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "国際収支の統計での輸出額は前年同月比12.8%増え、13か月続けて増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 12.8,
+         "unit": "%",
+         "label": "輸出額の前年同月比"
+        },
+        {
+         "value": 13,
+         "unit": "か月",
+         "label": "輸出額の増加が続いた月数"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "輸出：10兆7,283億円（前年同月比＋1兆2,146億円［＋12.8%］増加、13か月連続の増加）",
+       "attribution": "出典：財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）",
+       "processing_note": "財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "輸入額は前年同月比17.8%増え、8か月続けて増えた。財務省は、輸入額の増加が輸出額の増加を上回ったことから貿易収支が赤字に変わったと書いている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 17.8,
+         "unit": "%",
+         "label": "輸入額の前年同月比"
+        },
+        {
+         "value": 8,
+         "unit": "か月",
+         "label": "輸入額の増加が続いた月数"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "輸入：10兆9,159億円（同＋1兆6,487億円［＋17.8%］増加、8か月連続の増加）",
+       "attribution": "出典：財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）",
+       "processing_note": "財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "貿易収支は、モノの輸出額から輸入額を引いたもので、差がマイナスなら赤字と呼ぶ。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "同じ資料に参考として載っている9月分の貿易統計（通関ベース、10月29日公表）では、輸出額は前年同月比16.5%増で、そのうち数量は1.7%増、価格は14.5%増だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 16.5,
+         "unit": "%",
+         "label": "輸出額の前年同月比（貿易統計）"
+        },
+        {
+         "value": 1.7,
+         "unit": "%",
+         "label": "輸出の数量の前年同月比"
+        },
+        {
+         "value": 14.5,
+         "unit": "%",
+         "label": "輸出の価格の前年同月比"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "(1) 輸出：10兆9,539億円（確報値：前年同月比＋1兆5,490億円［＋16.5%］増加、数量：同＋1.7％増加、価格：同＋14.5％増加）",
+       "attribution": "出典：財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）",
+       "processing_note": "財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "品目別では、自動車の輸出額は2,254億円（15.1%）増えた一方、数量は0.6%減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2254,
+         "unit": "億円",
+         "label": "自動車の輸出額の前年同月との差"
+        },
+        {
+         "value": 15.1,
+         "unit": "%",
+         "label": "自動車の輸出額の前年同月比"
+        },
+        {
+         "value": -0.6,
+         "unit": "%",
+         "label": "自動車の輸出の数量の前年同月比"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "自動車（同＋2,254億円［＋15.1％、数量：▲0.6％］）",
+       "attribution": "出典：財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）",
+       "processing_note": "財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-08",
+       "text": "半導体等電子部品の輸出額は3,089億円（49.4%）増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3089,
+         "unit": "億円",
+         "label": "半導体等電子部品の輸出額の前年同月との差"
+        },
+        {
+         "value": 49.4,
+         "unit": "%",
+         "label": "半導体等電子部品の輸出額の前年同月比"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "半導体等電子部品（同＋3,089億円［＋49.4％］）",
+       "attribution": "出典：財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）",
+       "processing_note": "財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-09",
+       "text": "半導体等製造装置の輸出額は1,689億円（43.9%）増え、数量も38.4%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1689,
+         "unit": "億円",
+         "label": "半導体等製造装置の輸出額の前年同月との差"
+        },
+        {
+         "value": 43.9,
+         "unit": "%",
+         "label": "半導体等製造装置の輸出額の前年同月比"
+        },
+        {
+         "value": 38.4,
+         "unit": "%",
+         "label": "半導体等製造装置の輸出の数量の前年同月比"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "半導体等製造装置（同＋1,689億円［＋43.9％、数量：＋38.4％］）",
+       "attribution": "出典：財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）",
+       "processing_note": "財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-10",
+       "text": "輸出額は「数量」と「1単位あたりの値段」をかけたものなので、数量が横ばいでも値段が上がれば金額は増える。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-11-001-1",
+       "text": "輸出額の伸びの大半が価格の上昇によるもので、自動車のように数量が減っている品目では、値段の上昇が止まると輸出額の伸びが急に小さくなる可能性がある。",
+       "falsifier": "10月分の貿易統計で、輸出の数量の伸びが価格の伸びと同じくらいまで高まれば、この見方は当てはまらない。",
+       "check_metric": "財務省 貿易統計 10月分の輸出の数量と価格の前年同月比（自動車を含む）",
+       "check_by": "2026-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-11-002",
+     "event_id": "EVT-2026-11-11-002",
+     "headline": "スーパーのライフコーポレーション、アルビスへの公開買付けが成立：応募は6,045,556株で全部を買い付け、アルビスは議決権の72.32%を持たれる子会社に（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "ライフコーポレーションが、富山県の食品スーパーのアルビスの株を対象に行っていた公開買付けの期間は、9月9日から11月10日までの40営業日だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 40,
+         "unit": "営業日",
+         "label": "公開買付けの期間"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "2026年９月９日（水曜日）から2026年11月10日（火曜日）まで（40営業日）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFD0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFD0）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "応募された株は6,045,556株で、買付けの予定数の下限4,171,200株以上になったため、応募された株の全部を買い付けると書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 6045556,
+         "unit": "株",
+         "label": "応募株券等の総数"
+        },
+        {
+         "value": 4171200,
+         "unit": "株",
+         "label": "買付予定数の下限"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "応募株券等の総数（6,045,556株）が買付予定数の下限（4,171,200株）以上となりましたので、公開買付開始公告及び公開買付届出書に記載のとおり、応募株券等の全部の買付け等を行います",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFD0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFD0）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "買付けの後の株券等所有割合（買付者と特別な関係にある人の分を含む）は88.93%になると書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 88.93,
+         "unit": "%",
+         "label": "買付け等後における株券等所有割合"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "買付け等後における株券等所有割合 ((a＋d)／(g＋(b－c)＋(e－f))×100)（％）  88.93",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFD0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFD0）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "アルビスは、決済が始まる11月17日付で、ライフコーポレーションが議決権の72.32%を持つ特定子会社になる予定だと、同社の臨時報告書に書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 72.32,
+         "unit": "%",
+         "label": "異動後の議決権の割合"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "付で、当社は、対象者の議決権の72.32％を所有する予定であり",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFDW）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFDW）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "公開買付けは、決めた値段と期間で、株主から株を買い集める手続きである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-06",
+       "text": "特定子会社は、親会社から見て規模が大きいなどの条件に当たる子会社で、そうした子会社が増えたり減ったりすると、親会社は臨時報告書を出す決まりがある。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-11-002-1",
+       "text": "地方の食品スーパーが大手のスーパーの子会社になる動きが続くと、仕入れや物流をまとめる動きが食品小売業の中で広がる可能性がある。",
+       "falsifier": "今後1年の間に、食品スーパーを対象にした公開買付けや経営統合の届け出がEDINETにほとんど出なければ、この見方は当てはまらない。",
+       "check_metric": "EDINETに出る食品小売業の会社を対象にした公開買付届出書・臨時報告書の件数",
+       "check_by": "2027-11-11"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-11-003",
+     "event_id": "EVT-2026-11-11-003",
+     "headline": "ＮＩＳＳＨＡ、米国の医療機器の子会社の持分を将来買い取る値段を固定価格に変更：約78億円を金融費用に計上の見込み（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "ＮＩＳＳＨＡは、この変更に伴い、2026年12月期の連結決算で金融費用約78億円を計上する見込みだと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 78,
+         "unit": "億円",
+         "label": "金融費用"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "当該事象に伴い、2026年12月期連結決算において金融費用約78億円を計上する見込みです。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZE8C）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZE8C）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "米国の子会社の持分の残りを将来買い取る約束を、業績に連動して変わる値段から、あらかじめ決めた固定価格に改め、その義務を測り直した結果、これまでの帳簿の価格との差額が約78億円になったと書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 78,
+         "unit": "億円",
+         "label": "帳簿価格との差額"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "これまでの帳簿価格との差額である約78億円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZE8C）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZE8C）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "持分の追加取得が終わって米国の子会社がグループの100%子会社になった後は、同じ金融費用は出ないと書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 100,
+         "unit": "%",
+         "label": "追加取得後の持分の割合"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "NMT LLCが当社グループの100%子会社となった後は、同様の金融費用が発生することはありません",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZE8C）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZE8C）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "会社が「相手の持分を将来買い取る」約束をしていると、その支払いの義務は負債として帳簿に載り、約束の値段が変わると負債の金額も測り直される。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-11-003-1",
+       "text": "海外の会社を段階的に買い取る契約で、残りの持分の値段を業績連動から固定価格に変える例では、会計上の費用が一時的に出る一方、その後の費用の振れは小さくなる可能性がある。",
+       "falsifier": "2027年12月期の決算で、同じ種類の金融費用が再び大きく出れば、この見方は当てはまらない。",
+       "check_metric": "ＥＤＩＮＥＴの有価証券報告書の金融費用の内訳",
+       "check_by": "2028-03-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-11-004",
+     "event_id": "EVT-2026-11-11-004",
+     "headline": "ＴＲＥホールディングス、子会社のリバーがみずほ銀行などとシンジケートローン契約：70億円ずつ2つの枠、純資産などを保つ条件付き（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "ＴＲＥホールディングスの連結子会社のリバーは、11月11日付で、財務上の特約が付いたシンジケートローン契約を結んだと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 11,
+         "unit": "日",
+         "label": "日付（契約締結日）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "リバー株式会社は、2026年11月11日付けで財務上の特約が付されたシンジケートローン契約（以下、「本契約」という。）を締結しました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2N）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2N）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "借入れの元本は、2つの枠（トランシェＡとＢ）がそれぞれ70億円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 70,
+         "unit": "億円",
+         "label": "トランシェＡの元本"
+        },
+        {
+         "value": 70,
+         "unit": "億円",
+         "label": "トランシェＢの元本"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "債務の元本の額 70億円 70億円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2N）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2N）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "特約の1つ目は、決算期末ごとのリバー単体のネットD/Eレシオ（借金から現金を引いた額と純資産の比率）を1.5倍未満に保つことである。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1.5,
+         "unit": "倍",
+         "label": "ネットD/Eレシオの上限"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "ネットD/Eレシオ（本契約における定義による）を1.5倍未満に維持すること",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2N）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2N）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "2つ目は、リバー単体の純資産を、直前の期末の75%以上に保つことである。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 75,
+         "unit": "%",
+         "label": "純資産の維持の割合"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "直前期末におけるリバー株式会社の単体の貸借対照表上の純資産の部の金額の75％以上に維持すること",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2N）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2N）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "3つ目は、リバー単体の経常損益が2期続けて赤字にならないようにすることである。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "期",
+         "label": "経常赤字が続いてはいけない期数"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "経常損益が２期連続で赤字となる状態を生じさせないこと",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2N）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2N）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-06",
+       "text": "シンジケートローンは、複数の銀行が同じ条件でまとまって1つの会社にお金を貸す仕組みである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-07",
+       "text": "財務上の特約は、借り手が守ると約束する財務の条件で、守れないと返済を早めるよう求められることがある。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-11-004-1",
+       "text": "財務上の特約付きの大口の借入れを結ぶ会社が増えると、銀行業にとっては貸出の金額が増える一方、特約の条件で貸出の危なさを抑える形が広がる可能性がある。",
+       "falsifier": "日本銀行の貸出・預金動向で、銀行の貸出残高の前年比の伸びが今後3か月続けて縮めば、この見方は当てはまらない。",
+       "check_metric": "日本銀行 貸出・預金動向（11月〜1月分）の貸出の平均残高の前年比",
+       "check_by": "2027-02-15"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-11-007",
+     "event_id": "EVT-2026-11-11-007",
+     "headline": "サッポロビール、役員向けの株式報酬の信託に自己株式492,750株を1株2,029円で処分へ　極東開発工業は従業員持株会に71,747株（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-007-01",
+       "text": "サッポロビールは、役員向けの業績連動型の株式報酬の信託に、自社の株492,750株を処分すると届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 492750,
+         "unit": "株",
+         "label": "処分する株数"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "当社普通株式492,750株",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF7O）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF7O）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-02",
+       "text": "払込金額は1株2,029円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2029,
+         "unit": "円",
+         "label": "1株あたりの払込金額"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "１株につき金2,029円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF7O）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF7O）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-03",
+       "text": "値段は、直近1か月間の東京証券取引所での終値の平均にしたと書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "か月",
+         "label": "平均をとった期間"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "発行価格は、直近１か月間の東京証券取引所における終値の平均としております。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF7O）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF7O）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-04",
+       "text": "処分する金額の合計は999,789,750円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 999789750,
+         "unit": "円",
+         "label": "発行価額の総額"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "発行価額の総額 999,789,750円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF7O）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF7O）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-05",
+       "text": "信託は9月30日の時点で156,500株を持っており、合わせると649,250株になると書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 156500,
+         "unit": "株",
+         "label": "信託が持つ残りの株数"
+        },
+        {
+         "value": 649250,
+         "unit": "株",
+         "label": "合算した株数"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "本信託（注１）は、2026年９月30日時点で156,500株（以下「残存株式」といいます。）を保有しており、合算すると649,250株となります。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF7O）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF7O）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-06",
+       "text": "極東開発工業は、従業員持株会に、譲渡の制限が付いた自社の株71,747株を処分すると届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 71747,
+         "unit": "株",
+         "label": "処分する株数"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "極東開発従業員持株会 １名 71,747株",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZECJ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZECJ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-07",
+       "text": "処分の値段は、取締役会の前の営業日（11月10日）の終値の2,097円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2097,
+         "unit": "円",
+         "label": "処分価格"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "当社普通株式の終値である2,097円としております。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZECJ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZECJ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-08",
+       "text": "対象になりうる従業員は最大で1,153名と書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1153,
+         "unit": "名",
+         "label": "対象になりうる最大人数"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "本制度の適用対象となり得る最大人数である当社の従業員1,153名",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZECJ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZECJ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-09",
+       "text": "自己株式の処分は、会社が持っている自社の株を、決めた相手に渡すことである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-11-007-1",
+       "text": "役員や従業員に自社の株を渡す仕組みを広げる会社が増えると、市場から株を買う代わりに手元の自己株式を使う形が一般的になる可能性がある。",
+       "falsifier": "今後半年の間に、株式報酬や持株会向けの自己株式の処分の臨時報告書の件数が前年同期より減れば、この見方は当てはまらない。",
+       "check_metric": "EDINETに出る自己株式の処分に関する臨時報告書の件数",
+       "check_by": "2027-05-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-11-005",
+     "event_id": "EVT-2026-11-11-005",
+     "headline": "波及を追う：原油の値上がりが輸入額に──9月の原粗油の輸入額は51.1%増で数量は3.1%増、液化天然ガスは数量7.3%減でも金額39.2%増",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "財務省の国際収支の資料に、石油連盟の資料による9月の原油価格が載っている。ドル建てでは1バレル100.37米ドルで、前年同月比37.4%高い。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 100.37,
+         "unit": "米ドル/バレル",
+         "label": "原油価格（ドルベース）"
+        },
+        {
+         "value": 37.4,
+         "unit": "%",
+         "label": "原油価格（ドルベース）の前年同月比"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "ドルベース：100.37米ドル/バレル（前年同月比＋37.4%）",
+       "attribution": "出典：財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）",
+       "processing_note": "財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "円建てでは1キロリットル99,432円で、前年同月比46.6%高い。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 99432,
+         "unit": "円/キロリットル",
+         "label": "原油価格（円ベース）"
+        },
+        {
+         "value": 46.6,
+         "unit": "%",
+         "label": "原油価格（円ベース）の前年同月比"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "円ベース：99,432円/キロリットル（同＋46.6%）",
+       "attribution": "出典：財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）",
+       "processing_note": "財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "9月分の貿易統計（通関ベース）の輸入額は前年同月比18.9%増えたが、数量は1.6%減り、価格が20.8%上がった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 18.9,
+         "unit": "%",
+         "label": "輸入額の前年同月比"
+        },
+        {
+         "value": -1.6,
+         "unit": "%",
+         "label": "輸入の数量の前年同月比"
+        },
+        {
+         "value": 20.8,
+         "unit": "%",
+         "label": "輸入の価格の前年同月比"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "(2) 輸入：11兆5,103億円（9桁速報値：前年同月比＋1兆8,278億円［＋18.9%］増加、数量：同▲1.6％、価格：同＋20.8％増加）",
+       "attribution": "出典：財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）",
+       "processing_note": "財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-04",
+       "text": "原粗油の輸入額は3,757億円（51.1%）増えたが、輸入の数量は3.1%増にとどまった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3757,
+         "unit": "億円",
+         "label": "原粗油の輸入額の前年同月との差"
+        },
+        {
+         "value": 51.1,
+         "unit": "%",
+         "label": "原粗油の輸入額の前年同月比"
+        },
+        {
+         "value": 3.1,
+         "unit": "%",
+         "label": "原粗油の輸入の数量の前年同月比"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "原粗油（同＋3,757億円［＋51.1％、数量：＋3.1％］）",
+       "attribution": "出典：財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）",
+       "processing_note": "財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-05",
+       "text": "液化天然ガスは、輸入の数量が7.3%減ったのに、輸入額は1,662億円（39.2%）増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1662,
+         "unit": "億円",
+         "label": "液化天然ガスの輸入額の前年同月との差"
+        },
+        {
+         "value": 39.2,
+         "unit": "%",
+         "label": "液化天然ガスの輸入額の前年同月比"
+        },
+        {
+         "value": -7.3,
+         "unit": "%",
+         "label": "液化天然ガスの輸入の数量の前年同月比"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "液化天然ガス（同＋1,662億円［＋39.2％、数量：▲7.3％］）",
+       "attribution": "出典：財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）",
+       "processing_note": "財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-06",
+       "text": "原油の値段をドル建てと円建ての両方で見て、円建ての伸びのほうが大きいときは、ドルに対する円安が値上がりに上乗せされている。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-11-005-1",
+       "text": "原油と液化天然ガスの円建ての値段が高い状態が続くと、燃料を多く輸入する電気・ガス業や、原油を仕入れる石油・石炭製品の会社の仕入れの費用が数か月遅れで膨らむ可能性がある。",
+       "falsifier": "10月分の貿易統計で、原粗油と液化天然ガスの輸入額の伸びが数量の伸びと同じくらいまで縮めば、この見方は当てはまらない。",
+       "check_metric": "財務省 貿易統計 10月分の原粗油・液化天然ガスの輸入額と数量の前年同月比",
+       "check_by": "2026-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-11-006",
+     "event_id": "EVT-2026-11-11-006",
+     "headline": "波及を追う：9月の訪日外国人旅行者数は5.0%減、出国した日本人は6.3%増──サービス収支の赤字は2,028億円広がる",
+     "lines": [
+      {
+       "line_id": "L-006-01",
+       "text": "財務省の国際収支の資料に参考として載っている日本政府観光局の数字では、9月の訪日外国人旅行者数は3,103,700人で、前年同月比5.0%減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3103700,
+         "unit": "人",
+         "label": "訪日外国人旅行者数（9月）"
+        },
+        {
+         "value": -5.0,
+         "unit": "%",
+         "label": "訪日外国人旅行者数の前年同月比"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "［参考３］訪日外国人旅行者数（9月）：3,103,700人（前年同月比▲5.0％）",
+       "attribution": "出典：財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）",
+       "processing_note": "財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-02",
+       "text": "出国した日本人の数は1,481,900人で、前年同月比6.3%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1481900,
+         "unit": "人",
+         "label": "出国日本人数（9月）"
+        },
+        {
+         "value": 6.3,
+         "unit": "%",
+         "label": "出国日本人数の前年同月比"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "出国日本人数（9月）：1,481,900人（同＋6.3％）",
+       "attribution": "出典：財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）",
+       "processing_note": "財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-03",
+       "text": "9月のサービス収支は4,569億円の赤字で、赤字幅は前年同月より2,028億円広がった。財務省は、主に「その他サービス収支」の赤字幅の拡大によると書いている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": -4569,
+         "unit": "億円",
+         "label": "サービス収支"
+        },
+        {
+         "value": -2028,
+         "unit": "億円",
+         "label": "サービス収支の前年同月との差"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "(2) サービス収支：▲4,569億円の赤字（前年同月比▲2,028億円赤字幅拡大）",
+       "attribution": "出典：財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）",
+       "processing_note": "財務省「令和8年9月中 国際収支状況（速報）の概要」（https://www.mof.go.jp/policy/international_policy/reference/balance_of_payments/preliminary/pg202609.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-04",
+       "text": "国際収支では、外国人が日本で使うお金は「旅行収支」の受け取り、日本人が外国で使うお金は支払いとして、サービス収支の中に数えられる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-11-006-1",
+       "text": "訪日客が減り、出国する日本人が増える状態が続くと、国際線を飛ばす空運業では、外国から来る客より日本から出る客の比重が高まる可能性がある。",
+       "falsifier": "日本政府観光局の10月の数字で、訪日外国人旅行者数が前年同月比で増加に戻れば、この見方は当てはまらない。",
+       "check_metric": "日本政府観光局 訪日外国人旅行者数・出国日本人数（10月）の前年同月比",
+       "check_by": "2026-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-11-008",
+     "event_id": "EVT-2026-11-11-008",
+     "headline": "深掘り：子会社から親会社への配当は連結決算の利益を増やさない──サイバーエージェントはCygamesから4,404百万円、ニフコは香港の子会社から約11,074百万円（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-008-01",
+       "text": "サイバーエージェントは、連結子会社のCygamesから剰余金の配当4,404百万円を受け取る見込みになったと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4404,
+         "unit": "百万円",
+         "label": "受け取る配当"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "同社から剰余金の配当4,404百万円を受領する見込みとなりました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEQB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEQB）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-02",
+       "text": "この配当は親会社だけの個別決算で営業外収益に計上する予定で、連結子会社からの配当なので連結決算への影響はないと書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4404,
+         "unit": "百万円",
+         "label": "受取配当金"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "受取配当金4,404百万円を営業外収益として計上する予定であります。なお、連結子会社からの配当であるため2027年９月期の連結決算に与える影響はありません",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEQB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEQB）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-03",
+       "text": "サイバーエージェントの取締役会は、11月11日に、Cygamesの株主総会での配当の議案に賛成することを決議した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 11,
+         "unit": "日",
+         "label": "日付（取締役会決議日）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "本日（2026年11月11日）開催の当社取締役会において本議案に賛成することを決議し",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEQB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEQB）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-04",
+       "text": "ニフコは、香港の連結子会社から70,295,619.36米ドル（約11,074百万円）の配当金を受け取ったと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 70295619.36,
+         "unit": "米ドル",
+         "label": "受け取った配当金（米ドル）"
+        },
+        {
+         "value": 11074,
+         "unit": "百万円",
+         "label": "受け取った配当金（円換算）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "Nifco (HK) Ltd.より70,295,619.36 米ドル（約11,074百万円）の配当金を",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF34）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF34）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-05",
+       "text": "この配当は、香港の子会社が10月30日に書面で決議したものである。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 30,
+         "unit": "日",
+         "label": "日付（子会社の書面決議日）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "2026年10月30日（連結子会社書面決議日）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF34）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF34）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-06",
+       "text": "連結決算は、親会社と子会社をひとつの会社のようにまとめた決算で、グループの中でのお金のやりとりは差し引きで消える。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-07",
+       "text": "個別決算は親会社だけの決算で、子会社から受け取った配当は営業外収益として親会社の利益に入る。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-11-008-1",
+       "text": "海外や国内の子会社に積み上がった利益を配当で親会社に集める動きが続くと、親会社の個別決算の利益が、グループ全体の業績とは別に大きく動く会社が増える可能性がある。",
+       "falsifier": "今後半年の間に、子会社からの配当を理由にした臨時報告書の件数が前年同期より減れば、この見方は当てはまらない。",
+       "check_metric": "EDINETに出る「子会社からの配当」を理由にした臨時報告書の件数",
+       "check_by": "2027-05-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-11-11T17:15:40.054354+09:00",
+  "first_run": {
+   "run_at": "2026-11-11T17:15:40.054354+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 11,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 53,
+  "passed": 41,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 12,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 10,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-001": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jptoo060000-tor-001_E03083-000_2026-11-11_01_2026-11-11_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jptoo060000-tor-001_E03083-000_2026-11-11_01_2026-11-11_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E03083-000_2026-11-11_01_2026-11-11_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E03083-000_2026-11-11_01_2026-11-11_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E00393-000_2026-11-11_01_2026-11-11_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E00393-000_2026-11-11_01_2026-11-11_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-004": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E05072-000_2026-11-11_01_2026-11-11_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E05072-000_2026-11-11_01_2026-11-11_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E02386-000_2026-11-11_01_2026-11-11_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E02386-000_2026-11-11_01_2026-11-11_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-006": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E02170-000_2026-11-11_01_2026-11-11_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E02170-000_2026-11-11_01_2026-11-11_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-007": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E00703-000_2026-11-11_01_2026-11-11_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E00703-000_2026-11-11_01_2026-11-11_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-008": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E36751-000_2026-11-11_01_2026-11-11_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E36751-000_2026-11-11_01_2026-11-11_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 10,
+  "attribution_overwritten": 52,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "evening",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 11,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 4,
+  "evidence_doc_type_overridden": 4,
+  "impact_kind_overridden": 2,
+  "impact_kind_source_counts": {
+   "edinet_doctype": 2,
+   "edinet_doctype_unmapped": 2
+  },
+  "impact_kind_undetermined_by_doc_type": {
+   "180": 2
+  },
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 4,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 3,
+   "nfkc": 1,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 99,
+   "numbers_declared": 67,
+   "gap": 32,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 97,
+     "numbers_declared": 67
+    },
+    "explainer": {
+     "text_number_tokens": 2,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 3,
+   "line_ids": [
+    "L-004-01",
+    "L-008-03",
+    "L-008-05"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 8,
+   "change": 20,
+   "ripple": 8,
+   "deep": 5
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 3,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-011"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 2,
+   "first_run_at": "2026-11-11T17:15:21.243688+09:00",
+   "last_run_at": "2026-11-11T17:15:32.313368+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 41,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [
+   {
+    "hypothesis_id": "2026-11-11-evening-1",
+    "company_name": "株式会社ライフコーポレーション",
+    "submitted_at": "2026-11-11T16:12:00+09:00",
+    "baseline_point": "2026-11-12T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-11-11-evening-2",
+    "company_name": "アルビス株式会社",
+    "submitted_at": "2026-11-11T16:12:00+09:00",
+    "baseline_point": "2026-11-12T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-11-11-evening-3",
+    "company_name": "ＮＩＳＳＨＡ株式会社",
+    "submitted_at": "2026-11-11T15:32:00+09:00",
+    "baseline_point": "2026-11-12T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-11-11-evening-4",
+    "company_name": "株式会社サイバーエージェント",
+    "submitted_at": "2026-11-11T15:30:00+09:00",
+    "baseline_point": "2026-11-12T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   }
+  ],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 14,
+   "total_unregistered": 17,
+   "excluded_date_time_tokens": 28,
+   "lines": [
+    {
+     "line_id": "L-001-01",
+     "values": [
+      "6445",
+      "6369"
+     ]
+    },
+    {
+     "line_id": "L-001-02",
+     "values": [
+      "1875",
+      "4341"
+     ]
+    },
+    {
+     "line_id": "L-001-07",
+     "values": [
+      "0.6"
+     ]
+    },
+    {
+     "line_id": "L-004-02",
+     "values": [
+      "2"
+     ]
+    },
+    {
+     "line_id": "L-004-03",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-004-04",
+     "values": [
+      "2"
+     ]
+    },
+    {
+     "line_id": "L-004-05",
+     "values": [
+      "3"
+     ]
+    },
+    {
+     "line_id": "L-007-02",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-005-01",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-005-02",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-005-03",
+     "values": [
+      "1.6"
+     ]
+    },
+    {
+     "line_id": "L-005-05",
+     "values": [
+      "7.3"
+     ]
+    },
+    {
+     "line_id": "L-006-01",
+     "values": [
+      "5.0"
+     ]
+    },
+    {
+     "line_id": "L-006-03",
+     "values": [
+      "4569",
+      "2028"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 0,
+   "zero_letter_count": 0,
+   "lines": []
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "ok",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 1,
+    "source_ids": [
+     "SRC-011"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 8
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "industry_picks_total": 8,
+  "industry_examples_total": 1,
+  "industry_example_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "ai_written_examples_discarded": 0,
+  "slot_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "short_name_match_count": {
+   "count": 0,
+   "names": []
+  },
+  "allowed_industries_count": 30,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
