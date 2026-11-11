@@ -1,0 +1,1220 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-11-12-morning",
+ "date": "2026-11-12",
+ "slot": "morning",
+ "generated_at": "2026-11-12T07:36:29.030113+09:00",
+ "market_open": true,
+ "baseline": {
+  "date": "2026-11-12",
+  "price_type": "open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-12&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月12日）",
+   "published_at": "2026-11-12",
+   "fetched_at": "2026-11-12T07:32:02+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "d9c4f1d0db65ec3604a6229dfe4085aa02b40df53855b2290f68881ac959f968",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-11&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月11日）",
+   "published_at": "2026-11-11",
+   "fetched_at": "2026-11-12T07:32:08+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "449372fc542e77dcd6dcdcc7ae34e255b68e2cac6c68cf970fd8be4e97e97984",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZF2B?type=1",
+   "publisher": "北陸電気工業株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "意見表明報告書（北陸電気工業株式会社）",
+   "published_at": "2026-11-11T13:59:00+09:00",
+   "fetched_at": "2026-11-12T07:32:30+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "7806e16e053e5a77d13100b0e060c53e5cf0f82c706fe0310a54e585a29d1c03",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2B）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2B）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2B"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZF90?type=1",
+   "publisher": "株式会社加地テック",
+   "publisher_type": "company_disclosure",
+   "title": "意見表明報告書（株式会社加地テック）",
+   "published_at": "2026-11-11T15:47:00+09:00",
+   "fetched_at": "2026-11-12T07:32:37+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "8a1a462246a3b74978ab7c6826c1f177297df7403bc88cdb1835f8ce5d45b517",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF90）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF90）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF90"
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZF2A?type=1",
+   "publisher": "株式会社コナカ",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社コナカ）",
+   "published_at": "2026-11-11T13:58:00+09:00",
+   "fetched_at": "2026-11-12T07:32:49+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "ad69a9836fdb562c342a142eb536e2b45f22058f3a525cef383e99d989d78a0e",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2A）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2A）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2A"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZF3N?type=1",
+   "publisher": "テスホールディングス株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（テスホールディングス株式会社）",
+   "published_at": "2026-11-11T15:02:00+09:00",
+   "fetched_at": "2026-11-12T07:32:54+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "3882173cf831f3ef3ac76652a010248f46d5284be966587beac3d8647da5072a",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF3N）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF3N）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF3N"
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZFFB?type=1",
+   "publisher": "株式会社タカヨシホールディングス",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社タカヨシホールディングス）",
+   "published_at": "2026-11-11T17:03:00+09:00",
+   "fetched_at": "2026-11-12T07:33:00+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "1b0ce5ffabf078e9736f4e45e7564358c917633a321f957cfd60fd7ea74323d9",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFFB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFFB）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFFB"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZF64?type=1",
+   "publisher": "株式会社ケイ・ウノ",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社ケイ・ウノ）",
+   "published_at": "2026-11-11T15:24:00+09:00",
+   "fetched_at": "2026-11-12T07:33:11+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "e3d89f9df5592a6873204ec06ca5a6b2ff538496c1905595aa20edf1fc571a27",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF64）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF64）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF64"
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-12-001",
+     "event_id": "EVT-2026-11-12-001",
+     "headline": "電子部品の北陸電気工業、投資ファンドが関わる会社による1株4,180円の公開買付けに賛同：非公開化が目的（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "抵抗器などの電子部品をつくる北陸電気工業は、自社の株を1株4,180円で買い付ける公開買付けについて、意見表明報告書を届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4180,
+         "unit": "円",
+         "label": "1株あたりの買付けの価格"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "普通株式１株につき　金4,180円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2B）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2B）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "公開買付けは、決めた値段と期間で、株主から株を買い集める手続きである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "買付けの期間は、2026年11月11日から12月23日までの30営業日である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 30,
+         "unit": "営業日",
+         "label": "買付けの期間の営業日数"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "2026年11月11日（水曜日）から2026年12月23日（水曜日）まで（30営業日）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2B）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2B）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "同社は2026年11月10日の取締役会で、この公開買付けに賛同する意見を表明すると決めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10,
+         "unit": "日",
+         "label": "日付（取締役会）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "当社は、2026年11月10日開催の当社取締役会において、下記「(2）意見の根拠及び理由」に記載の根拠及び理由に基づき、本公開買付けに賛同する旨の意見を表明する",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2B）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2B）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "買付けの価格は、公表の前の営業日の終値2,432円に71.88%を上乗せした水準である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2432,
+         "unit": "円",
+         "label": "公表の前の営業日の終値"
+        },
+        {
+         "value": 71.88,
+         "unit": "%",
+         "label": "終値に対する上乗せの割合"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "2026年11月９日の東京証券取引所スタンダード市場における当社株式の終値2,432円に対して71.88％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2B）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2B）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "買い付ける株の数の下限は5,232,600株（所有割合66.67%）で、応募がこれに届かなければ買付けは行われない。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5232600,
+         "unit": "株",
+         "label": "買付予定数の下限"
+        },
+        {
+         "value": 66.67,
+         "unit": "%",
+         "label": "下限の所有割合"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "買付予定数の下限を5,232,600株（所有割合：66.67％）と設定",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2B）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2B）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "株主のフェローテックは、持っている1,048,800株（所有割合13.36%）を応募する契約を結んだ。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1048800,
+         "unit": "株",
+         "label": "応募を約束した株数"
+        },
+        {
+         "value": 13.36,
+         "unit": "%",
+         "label": "応募を約束した株の所有割合"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "本応募合意株式の全て（1,048,800株、所有割合：13.36％）について、本公開買付けに応募する",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2B）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2B）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-08",
+       "text": "非公開化とは、株式市場での売り買いをやめ、上場をやめることを指す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-12-001-1",
+       "text": "電子部品の業界では、データセンターや車の電動化に向けた投資を進めるため、上場をやめて投資ファンドの支援を受ける形の再編が続く可能性がある。",
+       "falsifier": "今後半年の間に、電子部品の会社を対象にした非公開化の公開買付けが1件も出なければ、この見方は成り立たない。",
+       "check_metric": "EDINETに提出される電気機器の会社の意見表明報告書の件数",
+       "check_by": "2027-05-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-12-002",
+     "event_id": "EVT-2026-11-12-002",
+     "headline": "圧縮機の加地テック、国内の投資ファンドが関わる会社による1株7,957円の公開買付けに賛同し応募を勧める：親会社は応募しない（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "気体を高い圧力に縮める機械（圧縮機）をつくる加地テックは、自社の株を1株7,957円で買い付ける公開買付けについて、意見表明報告書を届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 7957,
+         "unit": "円",
+         "label": "1株あたりの買付けの価格"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "普通株式１株につき、金7,957円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF90）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF90）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "同社は2026年11月10日の取締役会で、公開買付けに賛同し、株主に応募を勧めると決めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10,
+         "unit": "日",
+         "label": "日付（取締役会）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "当社は、2026年11月10日開催の取締役会において",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF90）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF90）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "買付けの価格は、公表の前の営業日の終値5,170円に53.91%を上乗せした水準である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5170,
+         "unit": "円",
+         "label": "公表の前の営業日の終値"
+        },
+        {
+         "value": 53.91,
+         "unit": "%",
+         "label": "終値に対する上乗せの割合"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "終値5,170円に対して53.91％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF90）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF90）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "親会社の三井E&Sは、加地テックの株を844,546株（所有割合51.06%）持っている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 844546,
+         "unit": "株",
+         "label": "親会社の持ち株数"
+        },
+        {
+         "value": 51.06,
+         "unit": "%",
+         "label": "親会社の所有割合"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "株式会社三井E&S（所有株式数：844,546株、所有割合（注３）51.06％）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF90）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF90）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "公開買付けをする会社は、2026年11月10日付で、親会社と公開買付けに応募しない契約を結んだ。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10,
+         "unit": "日",
+         "label": "日付（契約）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "2026年11月10日付で、当社の親会社かつ筆頭株主である三井E&Sとの間で、公開買付不応募契約",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF90）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF90）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-06",
+       "text": "買い付ける株の数の下限は258,300株（所有割合15.62%）に設定された。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 258300,
+         "unit": "株",
+         "label": "買付予定数の下限"
+        },
+        {
+         "value": 15.62,
+         "unit": "%",
+         "label": "下限の所有割合"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "買付予定数の下限を258,300株（所有割合：15.62％）と設定",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF90）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF90）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-07",
+       "text": "同社は1934年に法人となり、空気圧縮機の製造を始めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1934,
+         "unit": "年",
+         "label": "日付（空気圧縮機の製造開始の年）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "1934年２月に株式会社加地鉄工所として法人化し、空気圧縮機の製造を開始しました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF90）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF90）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-08",
+       "text": "完全子会社化とは、ある会社の株をすべて持ち、その会社を100%の子会社にすることを指す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-12-002-1",
+       "text": "大手の機械の会社が、本業から外れる上場子会社の株を手放さずに、外部の投資ファンドと組んで子会社の上場をやめる形が、機械業で増える可能性がある。",
+       "falsifier": "今後半年の間に、機械の上場子会社を対象にした同じ形の公開買付けが出なければ、この見方は成り立たない。",
+       "check_metric": "EDINETに提出される機械の会社の意見表明報告書の件数",
+       "check_by": "2027-05-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-12-003",
+     "event_id": "EVT-2026-11-12-003",
+     "headline": "波及を追う：会社の買収や運転資金に銀行の融資──北陸電気工業の買付けには地方銀行が210億円を上限に融資、テスホールディングスの子会社は純資産を保つ条件付きで借り入れ（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "北陸電気工業への公開買付けが成立すると、買付けをする会社は、北陸銀行から210億円を上限に融資を受ける予定である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 210,
+         "unit": "億円",
+         "label": "銀行融資の上限"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "から本決済開始日の前営業日までに、210億円を上限として融資（以下「本銀行融資」といいます。）を受ける",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2B）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2B）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "買付けをする会社は、親会社からも120億円を限度に出資を受ける予定である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 120,
+         "unit": "億円",
+         "label": "出資の限度"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "120億円を限度として出資を受ける",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2B）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2B）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "投資ファンドによる買収では、買い手が手元の資金に加えて銀行から借りたお金で株を買うことが多い。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "テスホールディングスは、子会社のテス・エンジニアリングが2026年11月11日付で、財務上の特約が付いた借入れの契約を結んだと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 11,
+         "unit": "日",
+         "label": "日付（契約）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "2026年11月11日付で当社の連結子会社であるテス・エンジニアリング株式会社が、財務上の特約が付された金銭消費貸借契約を締結",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF3N）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF3N）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "特約では、毎年度末の単体の純資産を、決められた基準の金額の75%以上に保つことが求められている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 75,
+         "unit": "%",
+         "label": "純資産を保つ割合"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "純資産の部の合計金額の75％に相当する金額",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF3N）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF3N）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-06",
+       "text": "財務上の特約は、借り手の財務が悪くなったときに、貸し手が返済を早めることなどを求められるようにする取り決めである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-12-003-1",
+       "text": "投資ファンドによる非公開化が地方の会社にも広がると、地元の銀行が買収のための融資を引き受ける機会が増える可能性がある。",
+       "falsifier": "今後半年の間に提出される公開買付けの書類で、地方銀行が融資する例が出なければ、この見方は成り立たない。",
+       "check_metric": "EDINETの公開買付届出書・意見表明報告書に書かれた融資する銀行の名前",
+       "check_by": "2027-05-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-12-004",
+     "event_id": "EVT-2026-11-12-004",
+     "headline": "深掘り：「特別損失」と「持分法による投資損失」──タカヨシホールディングスは店舗の減損などで215百万円、ケイ・ウノは台湾の関連会社で86百万円（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "特別損失は、ふだんの営業とは別に、その年だけ例外的に出た損失をまとめて書く項目である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "タカヨシホールディングスは、2026年9月期の連結決算で、店舗設備の減損や閉店に伴う費用などを特別損失215百万円として計上したと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 215,
+         "unit": "百万円",
+         "label": "連結の特別損失"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "特別損失　215百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFFB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFFB）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "減損は、店などの設備が今後稼ぐお金では、帳簿に載せた値段を取り戻せないと判断したときに、その値段を引き下げる処理である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "ケイ・ウノは、台湾の持分法適用関連会社で固定資産の減損が出たため、2026年9月期の連結決算で持分法による投資損失86百万円を計上する予定だと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 86,
+         "unit": "百万円",
+         "label": "持分法による投資損失"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "持分法による投資損失　　　86百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF64）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF64）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "持分法は、一部の株だけを持つ関連会社の利益や損失のうち、持ち分に当たる分を自社の決算に取り込む方法である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-06",
+       "text": "ケイ・ウノは、同じ関連会社への貸付金などについて、関係会社貸倒引当金繰入額47百万円を特別損失に計上する予定である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 47,
+         "unit": "百万円",
+         "label": "関係会社貸倒引当金繰入額"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "関係会社貸倒引当金繰入額　47百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF64）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF64）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-07",
+       "text": "ケイ・ウノは個別決算で関係会社株式評価損100百万円も計上する予定だが、これは連結決算では消去されるため、連結業績への影響はないとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 100,
+         "unit": "百万円",
+         "label": "関係会社株式評価損（個別）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "関係会社株式評価損　　　 100百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF64）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF64）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-08",
+       "text": "コナカは、子会社が香港の会社に持つ未収入金47百万香港ドル（約963百万円）が、その会社の清算で取り立てられないおそれがあると届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 47,
+         "unit": "百万香港ドル",
+         "label": "未収入金"
+        },
+        {
+         "value": 963,
+         "unit": "百万円",
+         "label": "未収入金の円換算額"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "未収入金　47百万香港ドル（円換算額　約963百万円）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2A）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZF2A）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-09",
+       "text": "同じ出来事でも、親会社だけの個別決算と、グループ全体の連結決算とで、損失の見え方が違うことがある。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-12-004-1",
+       "text": "店舗を持つ小売業では、収益の低い店の閉店と設備の減損が、9月期や3月期の決算の特別損失として続けて出る可能性がある。",
+       "falsifier": "今後3か月の間に提出される小売業の臨時報告書で、店舗の減損による特別損失の届け出がほとんど無ければ、この見方は成り立たない。",
+       "check_metric": "EDINETの小売業の臨時報告書（財政状態に著しい影響を与える事象）の件数",
+       "check_by": "2027-02-28"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-11-12T07:36:29.030113+09:00",
+  "first_run": {
+   "run_at": "2026-11-12T07:36:29.030113+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 8,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 31,
+  "passed": 22,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 9,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 1,
+  "recommendation_warnings": [
+   {
+    "line_id": "L-001-08",
+    "word": "株式(周辺15文字以内に買/売)"
+   }
+  ],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 8,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-001": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jptoo040000-pst-001_E01817-000_2026-11-11_01_2026-11-11_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jptoo040000-pst-001_E01817-000_2026-11-11_01_2026-11-11_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jptoo040000-pst-001_E01529-000_2026-11-11_01_2026-11-11_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jptoo040000-pst-001_E01529-000_2026-11-11_01_2026-11-11_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-004": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E03259-000_2026-11-11_01_2026-11-11_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E03259-000_2026-11-11_01_2026-11-11_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E36412-000_2026-11-11_01_2026-11-11_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E36412-000_2026-11-11_01_2026-11-11_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-006": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E37197-000_2026-11-11_01_2026-11-11_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E37197-000_2026-11-11_01_2026-11-11_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-008": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E39945-000_2026-11-11_01_2026-11-11_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E39945-000_2026-11-11_01_2026-11-11_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 8,
+  "attribution_overwritten": 30,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "morning",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 8,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 4,
+  "evidence_doc_type_overridden": 4,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {
+   "edinet_doctype_unmapped": 4
+  },
+  "impact_kind_undetermined_by_doc_type": {
+   "290": 2,
+   "180": 2
+  },
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 4,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 4,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 49,
+   "numbers_declared": 29,
+   "gap": 20,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 48,
+     "numbers_declared": 29
+    },
+    "explainer": {
+     "text_number_tokens": 1,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 5,
+   "line_ids": [
+    "L-001-04",
+    "L-002-02",
+    "L-002-05",
+    "L-002-07",
+    "L-003-04"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 6,
+   "change": 7,
+   "ripple": 4,
+   "deep": 5
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 2,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 2,
+   "first_run_at": "2026-11-12T07:36:17.615211+09:00",
+   "last_run_at": "2026-11-12T07:36:24.662456+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 22,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [
+   {
+    "hypothesis_id": "2026-11-12-morning-1",
+    "company_name": "北陸電気工業株式会社",
+    "submitted_at": "2026-11-11T13:59:00+09:00",
+    "baseline_point": "2026-11-12T09:00:00+09:00",
+    "trading_minutes": 91,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-11-12-morning-2",
+    "company_name": "株式会社加地テック",
+    "submitted_at": "2026-11-11T15:47:00+09:00",
+    "baseline_point": "2026-11-12T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-11-12-morning-3",
+    "company_name": "テスホールディングス株式会社",
+    "submitted_at": "2026-11-11T15:02:00+09:00",
+    "baseline_point": "2026-11-12T09:00:00+09:00",
+    "trading_minutes": 28,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-11-12-morning-4",
+    "company_name": "株式会社タカヨシホールディングス",
+    "submitted_at": "2026-11-11T17:03:00+09:00",
+    "baseline_point": "2026-11-12T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   }
+  ],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 2,
+   "total_unregistered": 2,
+   "excluded_date_time_tokens": 22,
+   "lines": [
+    {
+     "line_id": "L-001-01",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-002-01",
+     "values": [
+      "1"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 0,
+   "zero_letter_count": 0,
+   "lines": []
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [
+   {
+    "hypothesis_id": "2026-11-12-morning-1",
+    "company_name": "北陸電気工業株式会社",
+    "word": "公開買付けの対象",
+    "evidence_role": "filer_self",
+    "tob_side": null
+   },
+   {
+    "hypothesis_id": "2026-11-12-morning-2",
+    "company_name": "株式会社加地テック",
+    "word": "公開買付けの対象",
+    "evidence_role": "filer_self",
+    "tob_side": null
+   }
+  ],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "ok",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 4
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "industry_picks_total": 4,
+  "industry_examples_total": 1,
+  "industry_example_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "ai_written_examples_discarded": 0,
+  "slot_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "short_name_match_count": {
+   "count": 0,
+   "names": []
+  },
+  "allowed_industries_count": 30,
+  "legacy_substring_rule_dropped": {
+   "count": 3,
+   "names": [
+    "日本電子株式会社",
+    "東洋電機株式会社",
+    "株式会社リコー"
+   ]
+  },
+  "generic_name_dropped": {
+   "count": 1,
+   "names": [
+    "株式会社ズーム"
+   ]
+  }
+ }
+}
