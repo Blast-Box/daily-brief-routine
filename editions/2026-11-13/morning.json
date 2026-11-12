@@ -1,0 +1,1127 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-11-13-morning",
+ "date": "2026-11-13",
+ "slot": "morning",
+ "generated_at": "2026-11-13T07:37:00.553822+09:00",
+ "market_open": true,
+ "baseline": {
+  "date": "2026-11-13",
+  "price_type": "open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-13&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月13日）",
+   "published_at": "2026-11-13",
+   "fetched_at": "2026-11-13T07:32:05+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "9fa46355925798d4eebf6f7569479c907199251d6fb3bf16cbb4deee0ad87e22",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-12&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月12日）",
+   "published_at": "2026-11-12",
+   "fetched_at": "2026-11-13T07:32:12+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "54ce80d0cf845c9934306b150ffe20bbb4ca4c5602bce2a5320fcbb1bfd8bf5b",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZFO0?type=1",
+   "publisher": "ＤＩＣ株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（ＤＩＣ株式会社）",
+   "published_at": "2026-11-12T13:59:00+09:00",
+   "fetched_at": "2026-11-13T07:32:39+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "54b02d71cd9177bcd66273af575c74f9abd640315f0e82b173fea1c01fce8447",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFO0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFO0）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFO0"
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZFJ4?type=1",
+   "publisher": "株式会社ワコールホールディングス",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社ワコールホールディングス）",
+   "published_at": "2026-11-12T14:34:00+09:00",
+   "fetched_at": "2026-11-13T07:32:51+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "7fde63ebe59505f0d476b8ef4d4fc086b275b49e3ce392a650fe53a6db4989f6",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFJ4）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFJ4）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFJ4"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZFS5?type=1",
+   "publisher": "日本トランスシティ株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（日本トランスシティ株式会社）",
+   "published_at": "2026-11-12T13:19:00+09:00",
+   "fetched_at": "2026-11-13T07:32:56+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "0e9b133209c405e5c1596ef6dea60664c9c361cf76f8ea3f785bdfd14177afd2",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFS5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFS5）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFS5"
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZEP1?type=1",
+   "publisher": "極東貿易株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（極東貿易株式会社）",
+   "published_at": "2026-11-12T15:33:00+09:00",
+   "fetched_at": "2026-11-13T07:33:02+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "9089b1e95a661eaec2662b950f8b0317493545359f3633b34d5625a349ee4272",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEP1）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEP1）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEP1"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZGG2?type=1",
+   "publisher": "株式会社オルトプラスホールディングス",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社オルトプラスホールディングス）",
+   "published_at": "2026-11-12T17:03:00+09:00",
+   "fetched_at": "2026-11-13T07:33:13+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "395370ec87d7b6a26b796ea92a732ab271ce4aff6a9562c49e198b97290e8c13",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGG2）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGG2）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGG2"
+  },
+  {
+   "source_id": "SRC-009",
+   "url": "https://www.federalreserve.gov/releases/h41/current/h41.pdf",
+   "publisher": "Board of Governors of the Federal Reserve System",
+   "publisher_type": "central_bank",
+   "title": "Factors Affecting Reserve Balances of Depository Institutions and Condition Statement of Federal Reserve Banks",
+   "published_at": "2026-11-12",
+   "fetched_at": "2026-11-13T07:34:00+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "b9c1ddbc4454094e0dbb30f90d374c3275dd2025f78eeadca759746b0b17d3d3",
+   "usage": "quotable",
+   "attribution": "出典：Board of Governors of the Federal Reserve System「Factors Affecting Reserve Balances of Depository Institutions and Condition Statement of Federal Reserve Banks」（https://www.federalreserve.gov/releases/h41/current/h41.pdf）",
+   "processing_note": "Board of Governors of the Federal Reserve System「Factors Affecting Reserve Balances of Depository Institutions and Condition Statement of Federal Reserve Banks」（https://www.federalreserve.gov/releases/h41/current/h41.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-13-001",
+     "event_id": "EVT-2026-11-13-001",
+     "headline": "米連邦準備制度理事会の週次の資産・負債の統計：米国債の保有は4,583,294百万ドルで1年前より390,388百万ドル多く、住宅ローン担保証券は減る",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "米連邦準備制度理事会（FRB）が11月12日付で公表した週次の統計（H.4.1）によると、11月11日までの1週間の平均で、連邦準備銀行の「準備銀行信用」（資産の大部分）は6,707,462百万ドルだった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 6707462,
+         "unit": "百万ドル",
+         "label": "準備銀行信用（11月11日までの週の平均）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "Reserve Bank credit 6,707,462",
+       "attribution": "出典：Board of Governors of the Federal Reserve System「Factors Affecting Reserve Balances of Depository Institutions and Condition Statement of Federal Reserve Banks」（https://www.federalreserve.gov/releases/h41/current/h41.pdf）",
+       "processing_note": "Board of Governors of the Federal Reserve System「Factors Affecting Reserve Balances of Depository Institutions and Condition Statement of Federal Reserve Banks」（https://www.federalreserve.gov/releases/h41/current/h41.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "このうち保有する米国債は4,583,294百万ドルで、1年前の同じ週より390,388百万ドル多い。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4583294,
+         "unit": "百万ドル",
+         "label": "保有する米国債（週の平均）"
+        },
+        {
+         "value": 390388,
+         "unit": "百万ドル",
+         "label": "米国債の保有の1年前の週からの増加"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "U.S. Treasury securities 4,583,294 + 4,950 + 390,388",
+       "attribution": "出典：Board of Governors of the Federal Reserve System「Factors Affecting Reserve Balances of Depository Institutions and Condition Statement of Federal Reserve Banks」（https://www.federalreserve.gov/releases/h41/current/h41.pdf）",
+       "processing_note": "Board of Governors of the Federal Reserve System「Factors Affecting Reserve Balances of Depository Institutions and Condition Statement of Federal Reserve Banks」（https://www.federalreserve.gov/releases/h41/current/h41.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "米国債のうち短期国債は577,529百万ドルで、1年前の同じ週より382,036百万ドル多い。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 577529,
+         "unit": "百万ドル",
+         "label": "保有する短期国債（週の平均）"
+        },
+        {
+         "value": 382036,
+         "unit": "百万ドル",
+         "label": "短期国債の保有の1年前の週からの増加"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "Bills2 577,529 + 4,435 + 382,036",
+       "attribution": "出典：Board of Governors of the Federal Reserve System「Factors Affecting Reserve Balances of Depository Institutions and Condition Statement of Federal Reserve Banks」（https://www.federalreserve.gov/releases/h41/current/h41.pdf）",
+       "processing_note": "Board of Governors of the Federal Reserve System「Factors Affecting Reserve Balances of Depository Institutions and Condition Statement of Federal Reserve Banks」（https://www.federalreserve.gov/releases/h41/current/h41.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "住宅ローン担保証券の保有は1,883,522百万ドルで、1年前の同じ週より186,441百万ドル少ない。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1883522,
+         "unit": "百万ドル",
+         "label": "保有する住宅ローン担保証券（週の平均）"
+        },
+        {
+         "value": 186441,
+         "unit": "百万ドル",
+         "label": "住宅ローン担保証券の保有の1年前の週からの減少幅"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "Mortgage-backed securities4 1,883,522 0 - 186,441",
+       "attribution": "出典：Board of Governors of the Federal Reserve System「Factors Affecting Reserve Balances of Depository Institutions and Condition Statement of Federal Reserve Banks」（https://www.federalreserve.gov/releases/h41/current/h41.pdf）",
+       "processing_note": "Board of Governors of the Federal Reserve System「Factors Affecting Reserve Balances of Depository Institutions and Condition Statement of Federal Reserve Banks」（https://www.federalreserve.gov/releases/h41/current/h41.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "銀行などが連邦準備銀行に預けている準備預金の残高は2,960,603百万ドルで、前の週より30,515百万ドル増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2960603,
+         "unit": "百万ドル",
+         "label": "準備預金の残高（週の平均）"
+        },
+        {
+         "value": 30515,
+         "unit": "百万ドル",
+         "label": "準備預金の前の週からの増加"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "Reserve balances with Federal Reserve Banks 2,960,603 + 30,515",
+       "attribution": "出典：Board of Governors of the Federal Reserve System「Factors Affecting Reserve Balances of Depository Institutions and Condition Statement of Federal Reserve Banks」（https://www.federalreserve.gov/releases/h41/current/h41.pdf）",
+       "processing_note": "Board of Governors of the Federal Reserve System「Factors Affecting Reserve Balances of Depository Institutions and Condition Statement of Federal Reserve Banks」（https://www.federalreserve.gov/releases/h41/current/h41.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "米財務省が連邦準備銀行に置く一般勘定の残高は914,370百万ドルで、前の週より42,805百万ドル減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 914370,
+         "unit": "百万ドル",
+         "label": "米財務省の一般勘定の残高（週の平均）"
+        },
+        {
+         "value": 42805,
+         "unit": "百万ドル",
+         "label": "一般勘定の前の週からの減少幅"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "U.S. Treasury, General Account 914,370 - 42,805",
+       "attribution": "出典：Board of Governors of the Federal Reserve System「Factors Affecting Reserve Balances of Depository Institutions and Condition Statement of Federal Reserve Banks」（https://www.federalreserve.gov/releases/h41/current/h41.pdf）",
+       "processing_note": "Board of Governors of the Federal Reserve System「Factors Affecting Reserve Balances of Depository Institutions and Condition Statement of Federal Reserve Banks」（https://www.federalreserve.gov/releases/h41/current/h41.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "準備預金は、銀行が中央銀行に置いている預金で、銀行どうしのお金の貸し借りの土台になる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-08",
+       "text": "政府が中央銀行の口座にお金をためると、その分だけ銀行の準備預金が減り、口座のお金を使うと準備預金が増える関係にある。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-13-001-1",
+       "text": "米国の準備預金の残高が高い水準で保たれれば、ドルの短期の資金を市場で借りる銀行業の資金繰りは落ち着いたままになる可能性がある。",
+       "falsifier": "今後数週間の統計で準備預金の残高が大きく減り続ければ、この見方は成り立たない。",
+       "check_metric": "FRB H.4.1 の Reserve balances with Federal Reserve Banks（週の平均）",
+       "check_by": "2026-12-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-13-002",
+     "event_id": "EVT-2026-11-13-002",
+     "headline": "極東貿易、洋上風力の観測業務で特別損失736百万円を中間期に計上と届け出（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "極東貿易は11月12日に臨時報告書を提出し、2027年3月期の中間期に特別損失736百万円を計上したと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 736,
+         "unit": "百万円",
+         "label": "特別損失（中間期）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "当該事象により、2027年3月期中間会計期間及び中間連結会計期間において、特別損失736百万円を計上いたしました。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEP1）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEP1）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "同社は2024年度から、洋上風力発電事業に係る風況・海象の観測業務を受託している。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2024,
+         "unit": "年度",
+         "label": "日付（受託を始めた年度）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "当社は、2024年度より、洋上風力発電事業に係る風況・海象の観測業務を受託しております。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEP1）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEP1）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "洋上風力発電は海の上に風車を立てて発電する方式で、計画の段階で風や波の状況を長い期間観測する。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "特別損失は、ふだんの営業とは別に、その期だけ生じた大きな損失をまとめて示す項目である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-13-002-1",
+       "text": "洋上風力の計画が進む海域では、風や波を測る観測の業務の発注が続き、観測機器を扱う卸売業や調査の会社の仕事につながる可能性がある。",
+       "falsifier": "今後の洋上風力の公募で、新しい海域の計画が出てこなければ、この見方は成り立たない。",
+       "check_metric": "経済産業省・国土交通省による洋上風力発電の促進区域の指定・公募の件数",
+       "check_by": "2027-06-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-13-003",
+     "event_id": "EVT-2026-11-13-003",
+     "headline": "波及を追う：株式報酬の信託に自己株式──ＤＩＣは60,000株、ワコールホールディングスは67,200株、日本トランスシティは185,300株（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "ＤＩＣは、取締役と執行役員向けの株式報酬の信託に、自己株式60,000株を1株4,783円で処分すると届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 60000,
+         "unit": "株",
+         "label": "処分する自己株式の数"
+        },
+        {
+         "value": 4783,
+         "unit": "円",
+         "label": "1株あたりの払込金額"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "注　：発行価額の総額は、本自己株式処分に係る処分株式の数（60,000株）に払込金額（１株当たり4,783円）を乗じた額を記載しております。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFO0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFO0）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "この信託は9月30日時点で243,500株を持っており、今回の分と合わせると303,500株になる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 243500,
+         "unit": "株",
+         "label": "信託が持つ株（9月30日時点）"
+        },
+        {
+         "value": 303500,
+         "unit": "株",
+         "label": "合わせた株数"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "なお、本信託（注１）は、2026年9月30日時点で243,500株（以下「残存株式」といいます。）を保有しており、合算すると303,500株となります。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFO0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFO0）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "ワコールホールディングスは、従業員向けの株式付与の信託に、自己株式67,200株を処分すると届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 67200,
+         "unit": "株",
+         "label": "処分する自己株式の数"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "(ⅰ) 募集株式の数　　　　　　　　　　67,200株",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFJ4）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFJ4）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "ワコールホールディングスの払込金額は1株につき3,629円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3629,
+         "unit": "円",
+         "label": "1株あたりの払込金額"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "(ⅱ) 募集株式の払込金額　　　　　　　１株につき3,629円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFJ4）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFJ4）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "ワコールホールディングスの取締役会の日の対象の従業員は357名である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 357,
+         "unit": "名",
+         "label": "対象の従業員"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "なお、本取締役会の日における対象従業員は357名",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFJ4）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFJ4）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-06",
+       "text": "日本トランスシティも、従業員向けの株式付与の信託に、自己株式185,300株を処分すると届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 185300,
+         "unit": "株",
+         "label": "処分する自己株式の数"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "(i) 募集株式の数　185,300株",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFS5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFS5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-07",
+       "text": "日本トランスシティの払込金額は1株につき1,333円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1333,
+         "unit": "円",
+         "label": "1株あたりの払込金額"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "(ii)募集株式の払込金額　1株につき1,333円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFS5）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZFS5）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-08",
+       "text": "株式報酬の信託では、会社が信託銀行にお金を預け、信託銀行がその会社の株を持って管理し、条件を満たした役員や従業員に株を渡す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-13-003-1",
+       "text": "役員や従業員に株を渡す信託を使う会社が増えれば、株の管理を引き受ける信託銀行など銀行業の手数料の仕事が増える可能性がある。",
+       "falsifier": "今後の臨時報告書で、株式報酬の信託に向けた自己株式の処分の届け出が前の年の同じ時期より減れば、この見方は成り立たない。",
+       "check_metric": "EDINETの臨時報告書のうち、信託に向けた自己株式の処分を届け出たものの件数",
+       "check_by": "2027-03-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-13-004",
+     "event_id": "EVT-2026-11-13-004",
+     "headline": "深掘り：個別では「評価損」、連結では「持分法による投資損失」──オルトプラスホールディングス、関連会社の株式で557,249千円の評価損（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "オルトプラスホールディングスは11月12日の臨時報告書で、持分法を適用している関連会社の株式について、2026年9月期の個別決算で関係会社株式評価損557,249千円を特別損失に計上すると届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 557249,
+         "unit": "千円",
+         "label": "関係会社株式評価損（個別決算）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "2026年９月期の個別決算において、関係会社株式評価損557,249千円を特別損失として計上いたします。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGG2）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGG2）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "連結決算では、最後の四半期に持分法による投資損失533,246千円を営業外費用として計上する。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 533246,
+         "unit": "千円",
+         "label": "持分法による投資損失（最後の四半期）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "第４四半期連結会計期間に持分法による投資損失533,246千円を営業外費用として計上いたします。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGG2）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGG2）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "これにより、2026年9月期の連結決算の持分法による投資損失は557,261千円になる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 557261,
+         "unit": "千円",
+         "label": "持分法による投資損失（通期・連結）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "これにより、2026年９月期の連結決算における持分法による投資損失は557,261千円となります。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGG2）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGG2）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "個別決算は会社1社だけの決算、連結決算は子会社などを含むグループ全体の決算である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "持分法は、出資している関連会社の利益や損失のうち、出資の割合に当たる分を自社の決算に取り込む方法である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-06",
+       "text": "個別決算で関連会社の株の値下がりを損失にしても、連結決算ではその損失は消され、代わりに持分法による損失などの形で表れる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-13-004-1",
+       "text": "関連会社に出資して持分法で取り込む会社では、出資先の業績の悪化が、本業の利益とは別の営業外の損失として決算に表れる場合がある。",
+       "falsifier": "出資先の業績が持ち直し、次の期に持分法による投資利益が計上されれば、この見方は当てはまらない。",
+       "check_metric": "次の期の決算短信・有価証券報告書の「持分法による投資損益」",
+       "check_by": "2027-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-11-13T07:37:00.553822+09:00",
+  "first_run": {
+   "run_at": "2026-11-13T07:37:00.553822+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 8,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 26,
+  "passed": 18,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 8,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 1,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 7,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E00901-000_2026-11-12_01_2026-11-12_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E00901-000_2026-11-12_01_2026-11-12_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-004": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E00590-000_2026-11-12_01_2026-11-12_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E00590-000_2026-11-12_01_2026-11-12_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E04289-000_2026-11-12_01_2026-11-12_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E04289-000_2026-11-12_01_2026-11-12_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-006": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E02503-000_2026-11-12_01_2026-11-12_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E02503-000_2026-11-12_01_2026-11-12_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-008": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E27280-000_2026-11-12_01_2026-11-12_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E27280-000_2026-11-12_01_2026-11-12_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 7,
+  "attribution_overwritten": 26,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "morning",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 8,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 4,
+  "evidence_doc_type_overridden": 4,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {
+   "edinet_doctype_unmapped": 4
+  },
+  "impact_kind_undetermined_by_doc_type": {
+   "180": 4
+  },
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 4,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 4,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 1,
+   "source_ids": [
+    "SRC-009"
+   ],
+   "reasons": {
+    "SRC-009": "not_in_body"
+   },
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 50,
+   "numbers_declared": 25,
+   "gap": 25,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 49,
+     "numbers_declared": 25
+    },
+    "explainer": {
+     "text_number_tokens": 1,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 1,
+   "line_ids": [
+    "L-002-02"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 6,
+   "change": 2,
+   "ripple": 7,
+   "deep": 3
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 3,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-009"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 2,
+   "first_run_at": "2026-11-13T07:36:45.095659+09:00",
+   "last_run_at": "2026-11-13T07:36:54.728822+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [
+    {
+     "line_id": "L-001-04",
+     "values": [
+      -186441
+     ]
+    },
+    {
+     "line_id": "L-001-06",
+     "values": [
+      -42805
+     ]
+    }
+   ],
+   "last_counts": {
+    "ok": 18,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [
+   {
+    "hypothesis_id": "2026-11-13-morning-1",
+    "company_name": "極東貿易株式会社",
+    "submitted_at": "2026-11-12T15:33:00+09:00",
+    "baseline_point": "2026-11-13T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-11-13-morning-2",
+    "company_name": "ＤＩＣ株式会社",
+    "submitted_at": "2026-11-12T13:59:00+09:00",
+    "baseline_point": "2026-11-13T09:00:00+09:00",
+    "trading_minutes": 91,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-11-13-morning-3",
+    "company_name": "株式会社ワコールホールディングス",
+    "submitted_at": "2026-11-12T14:34:00+09:00",
+    "baseline_point": "2026-11-13T09:00:00+09:00",
+    "trading_minutes": 56,
+    "reason": null
+   }
+  ],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 4,
+   "total_unregistered": 5,
+   "excluded_date_time_tokens": 20,
+   "lines": [
+    {
+     "line_id": "L-001-01",
+     "values": [
+      "4.1",
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-003-01",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-003-04",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-003-07",
+     "values": [
+      "1"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 0,
+   "zero_letter_count": 0,
+   "lines": []
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "ok",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 1,
+    "source_ids": [
+     "SRC-009"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 4
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "industry_picks_total": 2,
+  "industry_examples_total": 2,
+  "industry_example_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "ai_written_examples_discarded": 0,
+  "slot_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "short_name_match_count": {
+   "count": 0,
+   "names": []
+  },
+  "allowed_industries_count": 30,
+  "legacy_substring_rule_dropped": {
+   "count": 1,
+   "names": [
+    "株式会社トーホー"
+   ]
+  },
+  "generic_name_dropped": {
+   "count": 1,
+   "names": [
+    "株式会社高速"
+   ]
+  }
+ }
+}
