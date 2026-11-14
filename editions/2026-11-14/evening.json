@@ -1,0 +1,1557 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-11-14-evening",
+ "date": "2026-11-14",
+ "slot": "evening",
+ "generated_at": "2026-11-14T17:14:49.400299+09:00",
+ "market_open": false,
+ "baseline": {
+  "date": "2026-11-16",
+  "price_type": "next_open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-14&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月14日）",
+   "published_at": "2026-11-14",
+   "fetched_at": "2026-11-14T17:08:15+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "90a327dcf4174342f48296a49f2792f1db48fc3b8ec9725198e6c9b4711dd75e",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-13&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月13日）",
+   "published_at": "2026-11-13",
+   "fetched_at": "2026-11-14T17:08:21+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "ff70348122aa7456be19d52f9864988056c851ccd848f52158b7d1a602398f6a",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZHS4?type=1",
+   "publisher": "株式会社ｉｓｐａｃｅ",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社ｉｓｐａｃｅ）",
+   "published_at": "2026-11-13T15:57:00+09:00",
+   "fetched_at": "2026-11-14T17:08:55+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "16c598e18d5e86a0c023e5e4718225570629cd5d0e69e27765a8b3db5f2aa960",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHS4）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHS4）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHS4"
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZHR7?type=1",
+   "publisher": "ＧＭＯペパボ株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（ＧＭＯペパボ株式会社）",
+   "published_at": "2026-11-13T15:52:00+09:00",
+   "fetched_at": "2026-11-14T17:09:13+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "493029f3bbd5f6e1d047102cb993b9b7e2d8ee58d36fc0f650f465c145f0e823",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHR7）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHR7）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHR7"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZH2F?type=1",
+   "publisher": "株式会社リミックスポイント",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社リミックスポイント）",
+   "published_at": "2026-11-13T12:03:00+09:00",
+   "fetched_at": "2026-11-14T17:09:19+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "277acfec2c7291832fe2dfbd875e38a2a48c88a652f49182a464450465d9edc3",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZH2F）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZH2F）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZH2F"
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZDM1?type=1",
+   "publisher": "ユー・エム・シー・エレクトロニクス株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（ユー・エム・シー・エレクトロニクス株式会社）",
+   "published_at": "2026-11-13T12:40:00+09:00",
+   "fetched_at": "2026-11-14T17:09:30+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "a410ea9a0cb89fd411aeff80fbe79eac472a39249f802a3e12b5c30856f7b761",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDM1）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDM1）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDM1"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZHLU?type=1",
+   "publisher": "アステリア株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（アステリア株式会社）",
+   "published_at": "2026-11-13T15:00:00+09:00",
+   "fetched_at": "2026-11-14T17:09:35+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "640b3b7cd810799dd1fd89a26bde42706709db554f21f446955dff35cd02e3d5",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHLU）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHLU）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHLU"
+  },
+  {
+   "source_id": "SRC-009",
+   "url": "https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）",
+   "published_at": "2026-11-12",
+   "fetched_at": "2026-11-14T17:10:17+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "8c1dbd2d8c078d5c30d729b27406bdcbb16d8a6b19a755ea64dcce613a92c512",
+   "usage": "quotable",
+   "attribution": "出典：財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）",
+   "processing_note": "財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-010",
+   "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf",
+   "publisher": "米連邦準備制度理事会",
+   "publisher_type": "central_bank",
+   "title": "Financial Stability Report November 2026",
+   "published_at": null,
+   "fetched_at": "2026-11-14T17:10:55+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "232f4b11055c0b5802a294d4dc389c1d35fa97a44ca9581fe503373fb6f0fb9d",
+   "usage": "quotable",
+   "attribution": "出典：米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）",
+   "processing_note": "米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-14-001",
+     "event_id": "EVT-2026-11-14-001",
+     "headline": "米連邦準備制度理事会の金融安定報告（11月版）：データセンターなど先端的なコンピューターの基盤に関わる借入の発行が、2026年10月までに680 billion ドル超に",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "金融安定報告は、金融の仕組み全体のどこに弱いところがあるかを点検する報告である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "米連邦準備制度理事会（FRB）の金融安定報告（2026年11月版）は、2026年10月28日時点の市場の状況とデータを反映している。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 28,
+         "unit": "日",
+         "label": "日付（データの基準日）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "This report reflects market conditions and data as of October 28, 2026.",
+       "attribution": "出典：米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）",
+       "processing_note": "米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "billion（ビリオン）は日本語の「十億」、trillion（トリリオン）は「兆」に当たる英語の単位である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "報告によると、先端的なコンピューターの基盤（データセンターなど）に関わる借入の発行額は、2026年10月までに680 billion ドルを超えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 680,
+         "unit": "billion ドル",
+         "label": "先端コンピューティング関連の借入の発行額（2026年10月まで）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "Advanced computing–related debt issuance rose to more than $680 billion by October 2026",
+       "attribution": "出典：米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）",
+       "processing_note": "米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "2023年の1年間の発行額は130 billion ドルだった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 130,
+         "unit": "billion ドル",
+         "label": "先端コンピューティング関連の借入の発行額（2023年通年）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "a fivefold increase from $130 billion in all of 2023",
+       "attribution": "出典：米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）",
+       "processing_note": "米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "金融以外の会社のうち信用度の高い（投資適格の）会社の社債などの発行に占めるこの借入の割合は、2023年には6%未満だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 6,
+         "unit": "%",
+         "label": "投資適格の非金融企業の発行に占める割合（2023年）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "cial investment-grade corporate debt issuance increased from less than 6 percent in 2023 to about",
+       "attribution": "出典：米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）",
+       "processing_note": "米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "その割合は、2026年には約31%に上がった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 31,
+         "unit": "%",
+         "label": "投資適格の非金融企業の発行に占める割合（2026年）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "31 percent in 2026.",
+       "attribution": "出典：米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）",
+       "processing_note": "米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-08",
+       "text": "公開の市場で発行された関連の借入の残高は、2026年10月時点で1.1 trillion ドルを超えると見積もられている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1.1,
+         "unit": "trillion ドル",
+         "label": "先端コンピューティング関連の公開の借入の残高（推計）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "than $1.1 trillion as of October 2026.",
+       "attribution": "出典：米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）",
+       "processing_note": "米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-09",
+       "text": "米国の大手の銀行持株会社は、大手のテクノロジー企業やデータセンターの開発会社などに対して、1 trillion ドル近くのエクスポージャー（貸し出しなどのつながり）を持つ。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "trillion ドル",
+         "label": "大手銀行持株会社の大手テクノロジー企業などへのエクスポージャー"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "the largest U.S. bank holding companies have close to $1 trillion of exposure to large technology",
+       "attribution": "出典：米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）",
+       "processing_note": "米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-10",
+       "text": "この紙面は、AIの会社であるAnthropicが作ったClaudeが書いている。AIに関わる会社や投資の話題は、評価を加えずに資料にある事実だけを書く。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-14-001-1",
+       "text": "データセンター向けの借入が増え続ければ、電線・電子部品・電力設備など、設備をつくる側の業種の受注が続く可能性がある。",
+       "falsifier": "次回の金融安定報告で、先端コンピューティング関連の借入の発行の伸びが止まったと書かれれば、この見方は弱まる。",
+       "check_metric": "FRB 金融安定報告（2027年5月版）の先端コンピューティング関連の借入の発行額",
+       "check_by": "2027-05-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-14-002",
+     "event_id": "EVT-2026-11-14-002",
+     "headline": "海外の投資家、11月1日〜7日の週は日本の株式・投資ファンド持分を1,052億円の売り越し：中長期債は6週連続の買い越し（財務省の週次統計）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "この統計の「非居住者」は海外に住む投資家、「居住者」は日本に住む投資家や国内の金融機関などを指す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "財務省の週次の統計によると、11月1日〜7日の週に、非居住者は日本の株式・投資ファンド持分を1,052億円売り越した（資料の表記は▲1,052億円の処分超）。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": -1052,
+         "unit": "億円",
+         "label": "非居住者の株式・投資ファンド持分のネット（11月1日〜7日）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "▲1,052億円の処分超（非居住者による売り越し）",
+       "attribution": "出典：財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）",
+       "processing_note": "財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "非居住者の株式・投資ファンド持分の売り越しは、3週ぶりとなった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3,
+         "unit": "週",
+         "label": "非居住者の株式の売り越しが何週ぶりか"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "3週ぶりの売り越しとなった。",
+       "attribution": "出典：財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）",
+       "processing_note": "財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "非居住者は日本の中長期債を買い越し、6週連続の買い越しとなった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 6,
+         "unit": "週",
+         "label": "非居住者の中長期債の連続買い越し週数"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "6週連続の買い越しとなった。",
+       "attribution": "出典：財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）",
+       "processing_note": "財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "同じ週、居住者は海外の株式・投資ファンド持分を6,439億円売り越した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": -6439,
+         "unit": "億円",
+         "label": "居住者の対外株式・投資ファンド持分のネット（11月1日〜7日）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "▲6,439億円の処分超（居住者による売り越し）",
+       "attribution": "出典：財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）",
+       "processing_note": "財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-06",
+       "text": "居住者の海外の株式・投資ファンド持分の売り越しは、4週ぶりとなった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4,
+         "unit": "週",
+         "label": "居住者の対外株式の売り越しが何週ぶりか"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "4週ぶりの売り越しとなった。",
+       "attribution": "出典：財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）",
+       "processing_note": "財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-07",
+       "text": "居住者は海外の中長期債も5,376億円売り越した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": -5376,
+         "unit": "億円",
+         "label": "居住者の対外中長期債のネット（11月1日〜7日）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "▲5,376億円の処分超（居住者による売り越し）",
+       "attribution": "出典：財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）",
+       "processing_note": "財務省「対外及び対内証券売買契約等の状況（週次・指定報告機関ベース）」（https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-08",
+       "text": "売り越しは売った額が買った額より多いこと、買い越しは買った額が売った額より多いことを指す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-14-002-1",
+       "text": "海外の投資家の株式の売り越しが続けば、海外の投資家の持ち株が多い業種で、株価の振れが大きくなる可能性がある。",
+       "falsifier": "次の数週間の週次統計で非居住者の株式が買い越しに戻れば、この見方は当たらない。",
+       "check_metric": "財務省 対外及び対内証券売買契約等の状況（週次）の非居住者の株式・投資ファンド持分のネット",
+       "check_by": "2026-12-10"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-14-003",
+     "event_id": "EVT-2026-11-14-003",
+     "headline": "ＧＭＯペパボ、単独の株式移転で持株会社「GMO AIコマースホールディングス」をつくる方針：2027年4月1日の予定、GMOメイクショップを完全子会社にする協議も（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "ＧＭＯペパボは、2026年11月13日の取締役会で、2027年1月19日に予定する臨時株主総会の承認などを経て、2027年4月1日を効力発生日とする単独の株式移転を行うことを決めたと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 13,
+         "unit": "日",
+         "label": "日付（取締役会の日）"
+        },
+        {
+         "value": 19,
+         "unit": "日",
+         "label": "日付（臨時株主総会の予定日）"
+        },
+        {
+         "value": 1,
+         "unit": "日",
+         "label": "日付（効力発生日の予定）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "当社は、2026年11月13日開催の取締役会において、2027年１月19日開催予定の当社臨時株主総会における承認等の所定の手続を経た上で、2027年４月１日（予定）を効力発生日とする当社の単独株式移転",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHR7）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHR7）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "株式移転は、今の会社の株主が持つ株を、新しくつくる親会社の株に置き換えて、今の会社をその親会社の完全子会社にする手続きである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "持株会社は、子会社の株を持って、グループ全体の経営を管理する会社である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "ＧＭＯペパボの普通株式の上場廃止日は、2027年3月30日の予定とされている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 30,
+         "unit": "日",
+         "label": "日付（上場廃止日の予定）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "当社普通株式の上場廃止日 2027年３月30日（予定）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHR7）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHR7）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "新しい持株会社の株式の上場日は、2027年4月1日の予定とされている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "日",
+         "label": "日付（持株会社の株式上場日の予定）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "持株会社の株式上場日 2027年４月１日（予定）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHR7）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHR7）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-06",
+       "text": "同じ11月13日の取締役会では、持株会社の設立後の組織再編の一環として、親会社のGMOインターネットグループの子会社であるGMOメイクショップを、持株会社が株式交換で完全子会社にする協議を始めることも決めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 13,
+         "unit": "日",
+         "label": "日付（取締役会の日）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "当社は、2026年11月13日開催の取締役会において、持株会社体制への移行後の組織再編の一環として、本株式移転による持株会社の設立後、持株会社を株式交換完全親会社",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHR7）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHR7）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-07",
+       "text": "GMOインターネットグループは、ＧＭＯペパボの普通株式の58.76%を持つ支配株主である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 58.76,
+         "unit": "%",
+         "label": "親会社の持株比率"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "GMOインターネットグループは、本日現在、当社普通株式の58.76％を所有する当社の支配株主であり",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHR7）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHR7）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-14-003-1",
+       "text": "ネット通販の仕組みを提供する業種で、対象とする事業者の規模が違うサービスを1つのグループにまとめる動きが続く可能性がある。",
+       "falsifier": "親会社と子会社の間の統合の協議が打ち切られ、同じ業種で似た統合の発表も続かなければ、この見方は当たらない。",
+       "check_metric": "EDINETの臨時報告書のうち、ネット通販支援の事業の株式交換・株式移転の件数",
+       "check_by": "2027-04-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-14-004",
+     "event_id": "EVT-2026-11-14-004",
+     "headline": "暗号資産を持つリミックスポイント、中間期末の時価で評価し直して売上高が3,695百万円増えると届け出（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "リミックスポイントは、保有する事業用の暗号資産などを中間期末の時価で評価し直した結果、2027年3月期の中間期の連結決算で、売上高が3,695百万円増えると届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3695,
+         "unit": "百万円",
+         "label": "暗号資産の評価替えによる売上高の増加（連結）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "2027年３月期中間期の連結決算において、売上高の増加3,695百万円を計上いたします",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZH2F）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZH2F）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "個別決算でも、売上高の増加は3,695百万円としている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3695,
+         "unit": "百万円",
+         "label": "暗号資産の評価替えによる売上高の増加（個別）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "2027年３月期中間期の個別決算において、売上高の増加3,695百万円を計上いたします",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZH2F）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZH2F）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "時価で評価し直すと、値段が上がったときは利益が、下がったときは損失が帳簿に出る。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-14-004-1",
+       "text": "暗号資産を事業として持つ会社の決算は、期末の暗号資産の値段によって売上高や損益が大きく振れる状態が続く可能性がある。",
+       "falsifier": "暗号資産の値段が期末に大きく変わらなければ、評価替えによる振れは小さくなる。",
+       "check_metric": "次の四半期の臨時報告書に書かれる暗号資産の評価替えの金額",
+       "check_by": "2027-02-28"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-14-005",
+     "event_id": "EVT-2026-11-14-005",
+     "headline": "電子機器の受託製造のユー・エム・シー・エレクトロニクス、中国の子会社の再構築で特別退職金562百万円を特別損失に（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "ユー・エム・シー・エレクトロニクスは、中国の子会社の生産・管理体制の最適化を目的とした再構築の費用として、特別退職金562百万円を特別損失に計上したと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 562,
+         "unit": "百万円",
+         "label": "特別退職金（特別損失）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "中国子会社の生産・管理体制の最適化を目的とした再構築費用として、特別退職金562百万円を特別損失に計上いたしました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDM1）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDM1）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "この特別損失は、2026年11月12日に公表した中間期の決算短信に反映済みとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 12,
+         "unit": "日",
+         "label": "日付（決算短信の公表日）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "2026年11月12日付で公表しております「2027年３月期 第２四半期（中間期）決算短信",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDM1）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDM1）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "特別損失は、毎年くり返すものではない一時的な損失を、ふだんの損益と分けて示すための区分である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-14-005-1",
+       "text": "中国に生産の拠点を持つ電子機器の製造の業種で、拠点の縮小や人員の見直しに伴う一時的な費用の計上が続く可能性がある。",
+       "falsifier": "同じ業種の臨時報告書で、中国の拠点の再構築に伴う特別損失の届け出がこの先数か月出なければ、この見方は当たらない。",
+       "check_metric": "EDINETの臨時報告書のうち、中国の子会社の再構築に伴う特別損失の件数",
+       "check_by": "2027-02-28"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-14-006",
+     "event_id": "EVT-2026-11-14-006",
+     "headline": "波及を追う：海外の子会社への外貨建ての貸し付けが為替の損益に──ｉｓｐａｃｅ、7〜9月に為替差損1,205百万円（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-006-01",
+       "text": "ｉｓｐａｃｅは、2026年7月〜9月の四半期に、営業外費用として為替差損1,205百万円を計上したと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1205,
+         "unit": "百万円",
+         "label": "為替差損（7月〜9月）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "営業外費用として為替差損1,205百万円を計上いたしました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHS4）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHS4）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-02",
+       "text": "主に連結子会社に対する外貨建ての貸付金を、2026年9月末の為替相場で評価し直したことで生じたとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9,
+         "unit": "月",
+         "label": "日付（評価の時点の月）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "主に当社連結子会社に対する外貨建貸付金の当四半期末（2026年9月末日）時点の為替相場による評価替えにより発生",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHS4）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHS4）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-03",
+       "text": "4月〜6月の四半期には、為替差益530百万円を計上していた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 530,
+         "unit": "百万円",
+         "label": "為替差益（4月〜6月）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "為替差益530百万円を計上していたため",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHS4）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHS4）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-04",
+       "text": "このため、4月〜9月の累計の為替差損は674百万円になる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 674,
+         "unit": "百万円",
+         "label": "為替差損（4月〜9月の累計）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "における為替差損は674百万円となります",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHS4）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHS4）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-05",
+       "text": "外貨で貸したお金は、円に直した金額が為替相場で変わるため、決算の時点で評価し直すと為替の損益が出る。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-06",
+       "text": "為替差損益は、本業以外の損益（営業外の損益）に入る。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-14-006-1",
+       "text": "海外の子会社に外貨で資金を貸している会社では、四半期ごとの為替相場の動きで本業以外の損益が振れる状態が続く可能性がある。",
+       "falsifier": "次の四半期の決算で、同じ種類の為替差損益の届け出がほとんど出なければ、この見方は当たらない。",
+       "check_metric": "EDINETの臨時報告書のうち、外貨建て貸付金の評価替えによる為替差損益の件数",
+       "check_by": "2027-02-28"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-14-007",
+     "event_id": "EVT-2026-11-14-007",
+     "headline": "波及を追う：海外の子会社を通じた米国の宇宙企業への出資──アステリア、SpaceX社の株の評価で7〜9月は評価損約284百万円、4〜9月では評価益約1,766百万円（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-007-01",
+       "text": "アステリアは、100%出資の子会社Asteria AI & Robotics Inc.を通じて、SpaceX社に出資している。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 100,
+         "unit": "%",
+         "label": "子会社への出資比率"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "当社の100%投資子会社Asteria AI & Robotics Inc.を通じて出資を行っている投資先企業SpaceX社",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHLU）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHLU）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-02",
+       "text": "SpaceX社の株を公正価値で評価した結果、2026年7月〜9月の四半期に投資有価証券評価損約284百万円を計上したと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 284,
+         "unit": "百万円",
+         "label": "投資有価証券評価損（7月〜9月）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "投資有価証券評価損約284百万円を計上いたしました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHLU）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHLU）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-03",
+       "text": "4月〜9月の累計では、この投資有価証券の評価損益は約1,766百万円の評価益になった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1766,
+         "unit": "百万円",
+         "label": "投資有価証券の評価益（4月〜9月の累計）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "当該投資有価証券の評価損益は、約1,766百万円の評価益となりました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHLU）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHLU）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-04",
+       "text": "上場していない会社の株は市場の値段が無いため、取引の事例などから見積もった「公正価値」で評価する。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-05",
+       "text": "この紙面は、AIの会社であるAnthropicが作ったClaudeが書いている。AIに関わる会社や投資の話題は、評価を加えずに資料にある事実だけを書く。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-14-007-1",
+       "text": "上場していない海外の企業に出資する会社では、出資先の評価の見直しのたびに、四半期ごとの損益が大きく振れる可能性がある。",
+       "falsifier": "出資先の評価が次の四半期に大きく変わらなければ、損益の振れは小さくなる。",
+       "check_metric": "次の四半期の臨時報告書に書かれる投資有価証券の評価損益",
+       "check_by": "2027-02-28"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-14-008",
+     "event_id": "EVT-2026-11-14-008",
+     "headline": "深掘り：「プライベート・クレジット」とは──米国では銀行以外の貸し手の資産が2025年に2.6 trillion ドル超に（FRBの金融安定報告から）",
+     "lines": [
+      {
+       "line_id": "L-008-01",
+       "text": "プライベート・クレジットは、銀行ではなく、投資ファンドなどが会社に直接お金を貸す仕組みである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-02",
+       "text": "FRBの金融安定報告によると、国内外のプライベート・クレジットの運用体の金融資産の合計は、2012年の約350 billion ドルから、2025年には2.6 trillion ドル超に増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 350,
+         "unit": "billion ドル",
+         "label": "プライベート・クレジットの運用体の金融資産（2012年）"
+        },
+        {
+         "value": 2.6,
+         "unit": "trillion ドル",
+         "label": "プライベート・クレジットの運用体の金融資産（2025年）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "$350 billion in 2012 to more than $2.6 trillion in 2025 (figure A).",
+       "attribution": "出典：米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）",
+       "processing_note": "米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-03",
+       "text": "2025年末に、これらの運用体は米国の会社への貸し出しを約1.5 trillion ドル持っていた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1.5,
+         "unit": "trillion ドル",
+         "label": "米国の会社への貸し出し（2025年末）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "held approximately $1.5 trillion in loans to U.S. businesses",
+       "attribution": "出典：米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）",
+       "processing_note": "米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-04",
+       "text": "プライベート・クレジットは、金融以外の会社の借入全体の約6%を占める。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 6,
+         "unit": "%",
+         "label": "非金融企業の借入に占める割合（現在）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "Private credit now represents about 6 percent of total nonfinancial business debt, up from",
+       "attribution": "出典：米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）",
+       "processing_note": "米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-05",
+       "text": "2012年には約1%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "%",
+         "label": "非金融企業の借入に占める割合（2012年）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "about 1 percent in 2012",
+       "attribution": "出典：米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）",
+       "processing_note": "米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-06",
+       "text": "運用体の種類で中身は違い、私募の債券ファンドは資産の56%をプライベート・クレジットの貸し出しに充てている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 56,
+         "unit": "%",
+         "label": "私募の債券ファンドの資産に占める貸し出しの割合"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "Private debt funds invest 56 percent of their assets in private credit",
+       "attribution": "出典：米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）",
+       "processing_note": "米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-07",
+       "text": "私募の債券ファンドにお金を出しているのは、年金基金が42%、生命保険会社が14%、家計と非営利団体が23%である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 42,
+         "unit": "%",
+         "label": "出し手の割合（年金基金）"
+        },
+        {
+         "value": 14,
+         "unit": "%",
+         "label": "出し手の割合（生命保険会社）"
+        },
+        {
+         "value": 23,
+         "unit": "%",
+         "label": "出し手の割合（家計と非営利団体）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "(42 percent), life insurers (14 percent), and households and nonprofit organizations (23 percent).",
+       "attribution": "出典：米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）",
+       "processing_note": "米連邦準備制度理事会「Financial Stability Report November 2026」（https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-08",
+       "text": "銀行は預金を集めて貸すが、プライベート・クレジットの運用体は、年金や保険会社、個人などから集めたお金を貸す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-14-008-1",
+       "text": "米国で銀行以外の貸し手の役割が大きくなるほど、海外に投資する日本の生命保険業や年金の運用で、こうした貸し出しへの投資の比重が高まる可能性がある。",
+       "falsifier": "次回の金融安定報告で、プライベート・クレジットの借入全体に占める割合が下がっていれば、この見方は弱まる。",
+       "check_metric": "FRB 金融安定報告（2027年5月版）のプライベート・クレジットの割合",
+       "check_by": "2027-05-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-11-14T17:14:49.400299+09:00",
+  "first_run": {
+   "run_at": "2026-11-14T17:14:49.400299+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 9,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 50,
+  "passed": 35,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 15,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 2,
+  "recommendation_warnings": [
+   {
+    "line_id": "L-002-03",
+    "word": "株式(周辺15文字以内に買/売)"
+   },
+   {
+    "line_id": "L-002-06",
+    "word": "株式(周辺15文字以内に買/売)"
+   }
+  ],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 7,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-001": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E37584-000_2026-11-13_01_2026-11-13_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E37584-000_2026-11-13_01_2026-11-13_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-004": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E22101-000_2026-11-13_01_2026-11-13_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E22101-000_2026-11-13_01_2026-11-13_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E05645-000_2026-11-13_01_2026-11-13_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E05645-000_2026-11-13_01_2026-11-13_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-007": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E32169-000_2026-11-12_01_2026-11-12_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E32169-000_2026-11-12_01_2026-11-12_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-008": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E05699-000_2026-11-13_01_2026-11-13_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E05699-000_2026-11-13_01_2026-11-13_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 7,
+  "attribution_overwritten": 44,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "evening",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 9,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 0,
+  "evidence_doc_type_overridden": 0,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {},
+  "impact_kind_undetermined_by_doc_type": {},
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 0,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 0,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 1,
+   "source_ids": [
+    "SRC-010"
+   ]
+  },
+  "number_coverage": {
+   "text_number_tokens": 88,
+   "numbers_declared": 40,
+   "gap": 48,
+   "by_mark": {
+    "explainer": {
+     "text_number_tokens": 0,
+     "numbers_declared": 0
+    },
+    "source_number_match": {
+     "text_number_tokens": 88,
+     "numbers_declared": 40
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 7,
+   "line_ids": [
+    "L-001-02",
+    "L-003-01",
+    "L-003-04",
+    "L-003-05",
+    "L-003-06",
+    "L-005-02",
+    "L-006-02"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 13,
+   "change": 9,
+   "ripple": 7,
+   "deep": 6
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 3,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-009"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 2,
+   "first_run_at": "2026-11-14T17:14:37.460005+09:00",
+   "last_run_at": "2026-11-14T17:14:44.836580+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 35,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 3,
+   "total_unregistered": 4,
+   "excluded_date_time_tokens": 56,
+   "lines": [
+    {
+     "line_id": "L-002-02",
+     "values": [
+      "1052",
+      "1052"
+     ]
+    },
+    {
+     "line_id": "L-002-05",
+     "values": [
+      "6439"
+     ]
+    },
+    {
+     "line_id": "L-002-07",
+     "values": [
+      "5376"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 0,
+   "zero_letter_count": 0,
+   "lines": []
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "market_closed",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 2,
+    "source_ids": [
+     "SRC-009",
+     "SRC-010"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 8
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
