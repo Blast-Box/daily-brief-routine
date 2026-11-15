@@ -1,0 +1,1499 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-11-16-morning",
+ "date": "2026-11-16",
+ "slot": "morning",
+ "generated_at": "2026-11-16T07:37:39.747839+09:00",
+ "market_open": true,
+ "baseline": {
+  "date": "2026-11-16",
+  "price_type": "open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-16&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月16日）",
+   "published_at": "2026-11-16",
+   "fetched_at": "2026-11-16T07:32:10+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "9ec4d569d97accd3bc26996d23e6314ba1be86b347ae7c0444c479e52accd72c",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-13&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月13日）",
+   "published_at": "2026-11-13",
+   "fetched_at": "2026-11-16T07:32:17+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "336d9fba83ebc8c29580db500ff6731bd2ec6062b5bb89b0b2542ff604194f1e",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZGR0?type=1",
+   "publisher": "株式会社エスプール",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社エスプール）",
+   "published_at": "2026-11-13T15:37:00+09:00",
+   "fetched_at": "2026-11-16T07:32:44+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "847e8b89ddfe47a4c41b57cb29189aac16bee9f811a09a32850c6783f0ba039a",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGR0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGR0）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGR0"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZHJI?type=1",
+   "publisher": "東京ボード工業株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（東京ボード工業株式会社）",
+   "published_at": "2026-11-13T16:18:00+09:00",
+   "fetched_at": "2026-11-16T07:32:50+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "00efe3abf9461da33b0bfc7841d416fc11d4188c6e0632acab53c089f70f8e35",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHJI）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHJI）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHJI"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZHP9?type=1",
+   "publisher": "株式会社アスア",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社アスア）",
+   "published_at": "2026-11-13T16:29:00+09:00",
+   "fetched_at": "2026-11-16T07:32:56+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "6f889c5544534dd8ccd40740956cb7912708a7e0ba94cd9c436ccae58674b1fa",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHP9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHP9）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHP9"
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZHU7?type=1",
+   "publisher": "株式会社ベーシック",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社ベーシック）",
+   "published_at": "2026-11-13T16:36:00+09:00",
+   "fetched_at": "2026-11-16T07:33:02+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "3f13a711de2a6c76c00ef7f29cf41f3ce07798004572722007c0c6c09b9c425b",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHU7）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHU7）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHU7"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZDBC?type=1",
+   "publisher": "コクヨ株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "訂正臨時報告書（コクヨ株式会社）",
+   "published_at": "2026-11-13T16:00:00+09:00",
+   "fetched_at": "2026-11-16T07:33:07+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "90f97f86657ba026e120e654daa4407967f6980b1c11df2ca19b0e9b6d666449",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDBC）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDBC）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDBC"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZHMH?type=1",
+   "publisher": "丸建リース株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "訂正臨時報告書（丸建リース株式会社）",
+   "published_at": "2026-11-13T16:46:00+09:00",
+   "fetched_at": "2026-11-16T07:33:25+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "0e33e74586afcef39ac7e6f1e54222bc45739446ed6dbdb59b540b248f325a4a",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHMH）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHMH）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHMH"
+  },
+  {
+   "source_id": "SRC-010",
+   "url": "https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261110.htm",
+   "publisher": "日本銀行",
+   "publisher_type": "central_bank",
+   "title": "営業毎旬報告（令和8年11月10日現在）",
+   "published_at": "2026-11-12",
+   "fetched_at": "2026-11-16T07:34:20+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "de384f347daf19e7f7ee9ca7890463d7085811dc6a26320fa6a603c5eeb288c9",
+   "usage": "quotable",
+   "attribution": "出典：日本銀行「営業毎旬報告（令和8年11月10日現在）」（https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261110.htm）",
+   "processing_note": "日本銀行「営業毎旬報告（令和8年11月10日現在）」（https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261110.htm）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-16-001",
+     "event_id": "EVT-2026-11-16-001",
+     "headline": "文具・家具のコクヨ、ベトナムの文具会社などの株式取得に向けて、シンガポールの子会社に日本円建てで280億円の増資を決議（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "コクヨは訂正臨時報告書で、買収のための特別目的会社であるシンガポールの完全子会社への増資を、日本円建てで280億円で決議したと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 280,
+         "unit": "億円",
+         "label": "子会社への増資額（日本円建て）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "※日本円建てで280億円で決議しておりますが",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDBC）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDBC）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "この増資は、2025年12月の取締役会で株式取得を決議したベトナムのThien Long Group Corporationなどの株式を取得する資金を送るためのもので、ベトナムの関係当局の認可を得ることが実行の条件になっている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2025,
+         "unit": "年",
+         "label": "日付（株式取得を決議した年）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "2025年12月４日開催の取締役会において株式取得を決議いたしましたThien Long Group Corporation",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDBC）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDBC）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "コクヨは増資の全額を引き受ける予定で、増資の前後でこの子会社の議決権を持つ割合は100.00%のまま変わらない。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 100.0,
+         "unit": "%",
+         "label": "子会社の議決権を持つ割合"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "本増資の前後において当社の所有する議決権割合は100.00％から変更ありません",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDBC）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDBC）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "シンガポールドル建ての増資額は、送金するときの為替レートで決まる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 280,
+         "unit": "億円",
+         "label": "子会社への増資額（日本円建て）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "※日本円建てで280億円で決議しておりますが、シンガポールドル建ての金額は送金時のレートにて決定いたします",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDBC）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDBC）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "特別目的会社は、買収など決まった目的のためだけにつくる会社である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "特定子会社は、親会社と比べて一定以上の大きさを持つ子会社で、子会社がそれに当たることになったときは臨時報告書で届け出る決まりがある。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-16-001-1",
+       "text": "海外の会社を買う資金を円で送る取引では、送金するときに円安が進んでいると、現地のお金に直した額が小さくなり、買収の資金計画に影響が出る可能性がある。",
+       "falsifier": "送金までに円が現地通貨に対して高くなれば、この見方は当てはまらない。",
+       "check_metric": "日本銀行の外国為替市況（円とシンガポールドル・ベトナムドンの相場）",
+       "check_by": "2027-03-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-16-002",
+     "event_id": "EVT-2026-11-16-002",
+     "headline": "木質ボードの東京ボード工業、本社と工場の土地・建物を6月に譲渡：固定資産売却益4,277,253千円を中間期の特別利益に（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "東京ボード工業は臨時報告書で、東京都江東区新木場の本社と工場の土地・建物などを譲渡し、2027年2月期の中間期の個別と連結の決算で、固定資産売却益4,277,253千円を特別利益に計上したと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4277253,
+         "unit": "千円",
+         "label": "固定資産売却益"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "固定資産売却益4,277,253千円を特別利益に計上いたしました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHJI）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHJI）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "譲渡の契約は2026年6月26日に結んだ。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 26,
+         "unit": "日",
+         "label": "日付（譲渡契約の締結日）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "譲渡契約締結日　2026年6月26日",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHJI）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHJI）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "引き渡しは2026年6月30日だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 30,
+         "unit": "日",
+         "label": "日付（引渡日）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "譲渡引渡日　　　2026年6月30日",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHJI）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHJI）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "特別利益は、本業とは別に、その期だけ臨時に生じた利益である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "持っている土地や建物を売り、そのまま借りて使い続ける取引は、手元の資金を増やす方法の一つとして使われる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-16-002-1",
+       "text": "工場や本社の土地・建物を売って借り直す動きが製造業で続けば、不動産業で事業用の物件を買い取る取引が増える可能性がある。",
+       "falsifier": "今後の臨時報告書で、製造業の会社による本社や工場の譲渡の届け出がほとんど見られなければ、この見方は成り立たない。",
+       "check_metric": "EDINETの臨時報告書のうち、固定資産の譲渡を届け出たものの件数",
+       "check_by": "2027-05-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": []
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-16-003",
+     "event_id": "EVT-2026-11-16-003",
+     "headline": "アスア、留学生向けの日本語学校を運営する京都のJCLを子会社に：株式の対価は1,260百万円（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "アスアは臨時報告書で、2026年11月13日の取締役会で、株式会社JCLの全株式を取得して子会社にすることを決議したと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 13,
+         "unit": "日",
+         "label": "日付（取締役会の決議日）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "2026年11月13日開催の取締役会において、株式会社JCLの発行済株式の全てを取得し、子会社化することについて決議いたしました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHP9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHP9）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "JCLの株式の対価は1,260百万円。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1260,
+         "unit": "百万円",
+         "label": "JCLの株式の対価"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "株式会社JCLの普通株式  1,260百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHP9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHP9）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "アドバイザリー費用などを含めた合計の概算額は1,290百万円。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1290,
+         "unit": "百万円",
+         "label": "取得の合計（概算額）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "合計（概算額）  1,290百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHP9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHP9）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "JCLは約600名の在校生を持つ日本語学校で、アスアは外国人材のキャリア支援の基盤をつくることを目的に挙げている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 600,
+         "unit": "名",
+         "label": "JCLの在校生の数（約）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "約600名の在校生を有する日本語学校として安定した教育基盤を構築しております",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHP9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHP9）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "JCLの売上高は、2024年7月期が502,127千円、2025年7月期が584,647千円、2026年7月期が644,685千円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 502127,
+         "unit": "千円",
+         "label": "JCLの売上高（2024年7月期）"
+        },
+        {
+         "value": 584647,
+         "unit": "千円",
+         "label": "JCLの売上高（2025年7月期）"
+        },
+        {
+         "value": 644685,
+         "unit": "千円",
+         "label": "JCLの売上高（2026年7月期）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "売上高  502,127  584,647  644,685",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHP9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHP9）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-06",
+       "text": "当期純利益は、同じ期の順に68,805千円、89,243千円、140,040千円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 68805,
+         "unit": "千円",
+         "label": "JCLの当期純利益（2024年7月期）"
+        },
+        {
+         "value": 89243,
+         "unit": "千円",
+         "label": "JCLの当期純利益（2025年7月期）"
+        },
+        {
+         "value": 140040,
+         "unit": "千円",
+         "label": "JCLの当期純利益（2026年7月期）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "当期純利益  68,805  89,243  140,040",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHP9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHP9）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-07",
+       "text": "日本語学校は、日本で学んだり働いたりしたい外国の人が、日本語を学ぶための学校である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-16-003-1",
+       "text": "日本で働く外国人材が増え続ければ、人材紹介や教育の会社が、日本語学校など外国の人との接点を持つ事業を買う動きが続く可能性がある。",
+       "falsifier": "今後の臨時報告書で、人材・教育の会社による日本語学校などの取得の届け出が見られなければ、この見方は成り立たない。",
+       "check_metric": "EDINETの臨時報告書のうち、日本語学校などの子会社取得を届け出たものの件数",
+       "check_by": "2027-05-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-16-004",
+     "event_id": "EVT-2026-11-16-004",
+     "headline": "ベーシック、CRMの「クライゼル」を手がけるトライコーンを子会社に：株式の対価は1,615,000千円、約500社の顧客基盤（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "ベーシックは臨時報告書で、2026年11月13日の取締役会で、トライコーン株式会社の全株式を取得して子会社にすることを決議したと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 13,
+         "unit": "日",
+         "label": "日付（取締役会の決議日）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "2026年11月13日開催の取締役会において、トライコーン株式会社の発行済株式の全部を取得し、子会社化することを決議いたしました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHU7）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHU7）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "トライコーンの株式の対価は1,615,000千円。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1615000,
+         "unit": "千円",
+         "label": "トライコーンの株式の対価"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "トライコーン株式会社の普通株式  1,615,000千円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHU7）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHU7）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "トライコーンはCRMプラットフォーム「クライゼル」を開発・提供し、中堅・大手企業と公共機関を中心に約500社の顧客基盤を持つ。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 500,
+         "unit": "社",
+         "label": "件数（トライコーンの顧客、約）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "中堅・大手企業及び公共機関を中心に約500社の顧客基盤を有しております",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHU7）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHU7）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "トライコーンの売上高は、2023年12月期が1,264,707千円（決算期の変更で通常より長い期間の決算）、2024年12月期が1,033,359千円、2025年12月期が1,040,291千円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1264707,
+         "unit": "千円",
+         "label": "トライコーンの売上高（2023年12月期）"
+        },
+        {
+         "value": 1033359,
+         "unit": "千円",
+         "label": "トライコーンの売上高（2024年12月期）"
+        },
+        {
+         "value": 1040291,
+         "unit": "千円",
+         "label": "トライコーンの売上高（2025年12月期）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "売上高  1,264,707  1,033,359  1,040,291",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHU7）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHU7）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "トライコーンが子会社になるのは2026年12月14日の予定。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 14,
+         "unit": "日",
+         "label": "日付（子会社になる予定日）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "②　異動の年月日：2026年12月14日（予定）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHU7）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHU7）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-06",
+       "text": "CRMは、顧客の情報や取引の記録をまとめて管理し、営業や問い合わせへの対応に生かす仕組みである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-16-004-1",
+       "text": "顧客管理のソフトウェアを提供する会社どうしの統合が続けば、情報・通信業で、顧客基盤を買い取る形の買収が増える可能性がある。",
+       "falsifier": "今後の臨時報告書で、ソフトウェアの会社による同業の子会社取得の届け出が見られなければ、この見方は成り立たない。",
+       "check_metric": "EDINETの臨時報告書のうち、情報・通信業の会社による子会社取得の件数",
+       "check_by": "2027-05-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-16-005",
+     "event_id": "EVT-2026-11-16-005",
+     "headline": "仮設鋼材リースの丸建リース、基礎工事の竹本基礎工事の買収の対価が、業績に応じた追加の支払いで合計3,056百万円に確定（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "丸建リースは訂正臨時報告書で、2025年2月28日に竹本基礎工事株式会社の株式を1,798百万円で取得したと説明した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1798,
+         "unit": "百万円",
+         "label": "最初の株式の取得額"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "2025年２月28日に竹本基礎工事の株式を1,798百万円で取得いたしました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHMH）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHMH）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "契約で決めた竹本基礎工事の業績の進み具合に応じた調整で、2025年11月28日に追加の対価672百万円を支払い、2026年11月30日に支払う追加の対価477百万円も確定した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 672,
+         "unit": "百万円",
+         "label": "追加の対価（第1回）"
+        },
+        {
+         "value": 477,
+         "unit": "百万円",
+         "label": "追加の対価（第2回）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "2025年11月28日付で追加で取得に係る対価672百万円の支払い、2026年11月30日付で支払う追加取得対価477百万円が確定した",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHMH）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHMH）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "アドバイザリー費用などを含めた対価の合計は3,056百万円になった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3056,
+         "unit": "百万円",
+         "label": "取得の対価の合計"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "合計  3,056百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHMH）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHMH）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-04",
+       "text": "竹本基礎工事の営業利益は、2023年8月期が22百万円、2024年8月期が45百万円、2025年8月期が283百万円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 22,
+         "unit": "百万円",
+         "label": "竹本基礎工事の営業利益（2023年8月期）"
+        },
+        {
+         "value": 45,
+         "unit": "百万円",
+         "label": "竹本基礎工事の営業利益（2024年8月期）"
+        },
+        {
+         "value": 283,
+         "unit": "百万円",
+         "label": "竹本基礎工事の営業利益（2025年8月期）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "営業利益（百万円）  22  45  283",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHMH）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHMH）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-05",
+       "text": "買った会社の業績に応じて代金を後から追加で払う取り決めは、売る側と買う側で会社の価値の見方が違うときに使われることがある。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-16-005-1",
+       "text": "高速道路や橋の整備などの工事が続けば、建設業の中で基礎工事を手がける会社の利益が伸び、こうした会社を買う動きが続く可能性がある。",
+       "falsifier": "国の公共事業の予算が減り、基礎工事の会社の業績の伸びが止まれば、この見方は成り立たない。",
+       "check_metric": "財務省 予算の資料（公共事業関係費）",
+       "check_by": "2027-03-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-16-006",
+     "event_id": "EVT-2026-11-16-006",
+     "headline": "人材サービスのエスプール、子会社から配当合計1,076百万円を受け取りへ：個別決算の営業外収益に、連結業績への影響は無し（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-006-01",
+       "text": "エスプールは臨時報告書で、連結子会社から受け取る配当の合計1,076百万円を、2026年11月期の個別決算で営業外収益に計上する見込みだと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1076,
+         "unit": "百万円",
+         "label": "子会社からの配当の合計"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "配当金合計額1,076百万円を営業外収益として計上する見込みです",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGR0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGR0）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-02",
+       "text": "配当額の内訳は、株式会社エスプールプラスからが876百万円。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 876,
+         "unit": "百万円",
+         "label": "子会社1社目の配当額"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "配当額　　　876百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGR0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGR0）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-03",
+       "text": "株式会社エスプールヒューマンソリューションズからが200百万円。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 200,
+         "unit": "百万円",
+         "label": "子会社2社目の配当額"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "配当額　　　200百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGR0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGR0）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-04",
+       "text": "連結子会社からの配当なので、2026年11月期の連結業績には影響しないとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2026,
+         "unit": "年",
+         "label": "日付（決算期の年）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "なお、これらは連結子会社からの配当であるため、2026年11月期の連結業績への影響はありません",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGR0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGR0）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-05",
+       "text": "子会社から親会社への配当は、グループの中でお金が動くだけなので、グループ全体をまとめた連結決算では利益に数えない。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-16-006-1",
+       "text": "決算期末を前に、子会社から親会社へ配当を集める届け出が続けば、親会社の個別決算の利益が、グループ全体の業績よりも大きく見える例が増える可能性がある。",
+       "falsifier": "今後の臨時報告書で、子会社からの配当の受け取りを届け出る例がほとんど見られなければ、この見方は成り立たない。",
+       "check_metric": "EDINETの臨時報告書のうち、子会社からの配当の受け取りを届け出たものの件数",
+       "check_by": "2027-02-28"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-16-007",
+     "event_id": "EVT-2026-11-16-007",
+     "headline": "深掘り：日本銀行の「営業毎旬報告」とは──11月10日時点で国債は504,936,700,731千円、うち国庫短期証券は0",
+     "lines": [
+      {
+       "line_id": "L-007-01",
+       "text": "日本銀行の営業毎旬報告（2026年11月10日現在）によると、資産のうち国債は504,936,700,731千円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 504936700731,
+         "unit": "千円",
+         "label": "日本銀行の資産の国債"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "国債 504,936,700,731",
+       "attribution": "出典：日本銀行「営業毎旬報告（令和8年11月10日現在）」（https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261110.htm）",
+       "processing_note": "日本銀行「営業毎旬報告（令和8年11月10日現在）」（https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261110.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-02",
+       "text": "資産の合計は625,819,501,896千円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 625819501896,
+         "unit": "千円",
+         "label": "日本銀行の資産の合計"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "合計 625,819,501,896",
+       "attribution": "出典：日本銀行「営業毎旬報告（令和8年11月10日現在）」（https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261110.htm）",
+       "processing_note": "日本銀行「営業毎旬報告（令和8年11月10日現在）」（https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261110.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-03",
+       "text": "国債の内訳では、長期国債が504,936,700,731千円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 504936700731,
+         "unit": "千円",
+         "label": "国債の内訳のうち長期国債"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "長期国債 504,936,700,731",
+       "attribution": "出典：日本銀行「営業毎旬報告（令和8年11月10日現在）」（https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261110.htm）",
+       "processing_note": "日本銀行「営業毎旬報告（令和8年11月10日現在）」（https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261110.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-04",
+       "text": "国債の内訳のうち、国庫短期証券は0だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 0,
+         "unit": "千円",
+         "label": "国債の内訳のうち国庫短期証券"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "国庫短期証券 0",
+       "attribution": "出典：日本銀行「営業毎旬報告（令和8年11月10日現在）」（https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261110.htm）",
+       "processing_note": "日本銀行「営業毎旬報告（令和8年11月10日現在）」（https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261110.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-05",
+       "text": "負債の側では、当座預金が413,563,625,559千円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 413563625559,
+         "unit": "千円",
+         "label": "日本銀行の負債の当座預金"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "当座預金 413,563,625,559",
+       "attribution": "出典：日本銀行「営業毎旬報告（令和8年11月10日現在）」（https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261110.htm）",
+       "processing_note": "日本銀行「営業毎旬報告（令和8年11月10日現在）」（https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261110.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-06",
+       "text": "発行銀行券（世の中に出ているお札）は114,078,530,353千円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 114078530353,
+         "unit": "千円",
+         "label": "日本銀行の負債の発行銀行券"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "発行銀行券 114,078,530,353",
+       "attribution": "出典：日本銀行「営業毎旬報告（令和8年11月10日現在）」（https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261110.htm）",
+       "processing_note": "日本銀行「営業毎旬報告（令和8年11月10日現在）」（https://www.boj.or.jp/statistics/boj/other/acmai/release/2026/ac261110.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-07",
+       "text": "営業毎旬報告は、日本銀行が、月の上旬・中旬・下旬の区切りごとに、持っている資産と負債の残高をまとめて公表する資料である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-08",
+       "text": "当座預金は、銀行などが日本銀行に置いている預金で、銀行どうしの支払いや国への支払いに使われる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-09",
+       "text": "日本銀行が国債を買うと、その代金が売った銀行の当座預金に払い込まれるため、当座預金が増える仕組みになっている。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-16-007-1",
+       "text": "日本銀行が持つ国債が減っていけば、銀行業で、日本銀行の当座預金に置くお金が減り、そのお金を国債の購入や貸し出しに回す動きが強まる可能性がある。",
+       "falsifier": "次の数か月の営業毎旬報告で、国債と当座預金の残高がともに減らなければ、この見方は当てはまらない。",
+       "check_metric": "日本銀行 営業毎旬報告の国債と当座預金の残高",
+       "check_by": "2027-03-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-11-16T07:37:39.747839+09:00",
+  "first_run": {
+   "run_at": "2026-11-16T07:37:39.747839+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 9,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 43,
+  "passed": 32,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 11,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 8,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-001": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E05555-000_2026-11-13_01_2026-11-13_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E05555-000_2026-11-13_01_2026-11-13_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E31123-000_2026-11-13_01_2026-11-13_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E31123-000_2026-11-13_01_2026-11-13_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E39936-000_2026-11-13_01_2026-11-13_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E39936-000_2026-11-13_01_2026-11-13_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-004": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E41486-000_2026-11-13_01_2026-11-13_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E41486-000_2026-11-13_01_2026-11-13_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E00670-000_2026-09-30_02_2026-11-13_ixbrl.htm",
+     "PublicDoc/0000000_header.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-008": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E04777-000_2025-11-28_02_2026-11-13_ixbrl.htm",
+     "PublicDoc/0000000_header.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 8,
+  "attribution_overwritten": 41,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "morning",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 9,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 4,
+  "evidence_doc_type_overridden": 4,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {
+   "edinet_doctype_unmapped": 4
+  },
+  "impact_kind_undetermined_by_doc_type": {
+   "190": 1,
+   "180": 3
+  },
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 4,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 4,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 86,
+   "numbers_declared": 41,
+   "gap": 45,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 86,
+     "numbers_declared": 41
+    },
+    "explainer": {
+     "text_number_tokens": 0,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 8,
+   "line_ids": [
+    "L-001-02",
+    "L-002-02",
+    "L-002-03",
+    "L-003-01",
+    "L-004-01",
+    "L-004-03",
+    "L-004-05",
+    "L-006-04"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 7,
+   "change": 0,
+   "ripple": 19,
+   "deep": 6
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 3,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-010"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 2,
+   "first_run_at": "2026-11-16T07:37:22.309519+09:00",
+   "last_run_at": "2026-11-16T07:37:35.173221+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 32,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [
+   {
+    "hypothesis_id": "2026-11-16-morning-1",
+    "company_name": "コクヨ株式会社",
+    "submitted_at": "2026-11-13T16:00:00+09:00",
+    "baseline_point": "2026-11-16T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-11-16-morning-2",
+    "company_name": "東京ボード工業株式会社",
+    "submitted_at": "2026-11-13T16:18:00+09:00",
+    "baseline_point": "2026-11-16T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-11-16-morning-3",
+    "company_name": "株式会社アスア",
+    "submitted_at": "2026-11-13T16:29:00+09:00",
+    "baseline_point": "2026-11-16T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-11-16-morning-4",
+    "company_name": "株式会社ベーシック",
+    "submitted_at": "2026-11-13T16:36:00+09:00",
+    "baseline_point": "2026-11-16T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   }
+  ],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 0,
+   "total_unregistered": 0,
+   "excluded_date_time_tokens": 53,
+   "lines": []
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 4,
+   "zero_letter_count": 0,
+   "lines": [
+    {
+     "line_id": "L-003-05",
+     "letters": 3
+    },
+    {
+     "line_id": "L-004-04",
+     "letters": 3
+    },
+    {
+     "line_id": "L-007-01",
+     "letters": 2
+    },
+    {
+     "line_id": "L-007-02",
+     "letters": 2
+    }
+   ]
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "ok",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 1,
+    "source_ids": [
+     "SRC-010"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 7
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "industry_picks_total": 3,
+  "industry_examples_total": 1,
+  "industry_example_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "ai_written_examples_discarded": 0,
+  "slot_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "short_name_match_count": {
+   "count": 0,
+   "names": []
+  },
+  "allowed_industries_count": 30,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
