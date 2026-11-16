@@ -1,0 +1,1614 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-11-16-evening",
+ "date": "2026-11-16",
+ "slot": "evening",
+ "generated_at": "2026-11-16T17:18:28.184586+09:00",
+ "market_open": true,
+ "baseline": {
+  "date": "2026-11-17",
+  "price_type": "next_open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-16&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月16日）",
+   "published_at": "2026-11-16",
+   "fetched_at": "2026-11-16T17:12:17+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "112d582eb2787a14afc4c25bd3ee5c7bd3aa1d8bd682a7151e6aac0a257ff4b8",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-13&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月13日）",
+   "published_at": "2026-11-13",
+   "fetched_at": "2026-11-16T17:12:24+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "336d9fba83ebc8c29580db500ff6731bd2ec6062b5bb89b0b2542ff604194f1e",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZHXZ?type=1",
+   "publisher": "積水ハウス株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "公開買付届出書（積水ハウス株式会社）",
+   "published_at": "2026-11-16T13:43:00+09:00",
+   "fetched_at": "2026-11-16T17:12:48+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "926a52be5f5ca213048ea45b38473de3adc9510eeeee473af6383a6906bca0ae",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHXZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHXZ）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHXZ"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZI2Y?type=1",
+   "publisher": "株式会社岐阜造園",
+   "publisher_type": "company_disclosure",
+   "title": "意見表明報告書（株式会社岐阜造園）",
+   "published_at": "2026-11-16T14:02:00+09:00",
+   "fetched_at": "2026-11-16T17:12:55+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "fbfc862fb0de043657f6af5a351e5e4306be0c3eb883b46ba6d5981dcf05d3f8",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI2Y）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI2Y）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI2Y"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZI4K?type=1",
+   "publisher": "株式会社ＣＥホールディングス",
+   "publisher_type": "company_disclosure",
+   "title": "公開買付届出書（株式会社ＣＥホールディングス）",
+   "published_at": "2026-11-16T14:59:00+09:00",
+   "fetched_at": "2026-11-16T17:13:00+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "a9dd289bce346435f555a90bb576aba6a876ba968039918140de3ea81eab6eed",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI4K）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI4K）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI4K"
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZI79?type=1",
+   "publisher": "ワタミ株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "意見表明報告書（ワタミ株式会社）",
+   "published_at": "2026-11-16T17:04:00+09:00",
+   "fetched_at": "2026-11-16T17:13:07+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "505bdaf7980d7743f5d5c739a412269fc08a94d0896bd3df970e804ba05aaf5f",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI79）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI79）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI79"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZI2H?type=1",
+   "publisher": "東京建物株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（東京建物株式会社）",
+   "published_at": "2026-11-16T13:58:00+09:00",
+   "fetched_at": "2026-11-16T17:13:13+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "6f1907a9d5a3cdd7f3f08bbd2ca1620b0014ec6e5017f7409f29e289605e3112",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI2H）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI2H）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI2H"
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZHXQ?type=1",
+   "publisher": "株式会社メルカリ",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社メルカリ）",
+   "published_at": "2026-11-16T15:34:00+09:00",
+   "fetched_at": "2026-11-16T17:13:19+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "fd0228c9b5539b60c1c05c677e9318c61d78230ea5594e2e4ece0022452ed72f",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHXQ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHXQ）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHXQ"
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZHTQ?type=1",
+   "publisher": "杏林製薬株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（杏林製薬株式会社）",
+   "published_at": "2026-11-16T15:36:00+09:00",
+   "fetched_at": "2026-11-16T17:13:24+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "6432d78496eb5cd7f3b7226e996eff4fe7c06908b1030502f6167b5fea2dfdbe",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHTQ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHTQ）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHTQ"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZI45?type=1",
+   "publisher": "滝沢ハム株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（滝沢ハム株式会社）",
+   "published_at": "2026-11-16T14:35:00+09:00",
+   "fetched_at": "2026-11-16T17:13:30+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "21dbb41012b2010fa2b5edef3e6e8232ffd014579b25fb8bb02a8ca718e494b4",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI45）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI45）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI45"
+  },
+  {
+   "source_id": "SRC-010",
+   "url": "https://www.boj.or.jp/finsys/intlact_fs/kisei/kis261116a.htm",
+   "publisher": "日本銀行",
+   "publisher_type": "central_bank",
+   "title": "バーゼル銀行監督委員会による市中協議文書「銀行勘定の金利リスクに関する追加的な第2の柱ガイダンス」の公表について",
+   "published_at": "2026-11-16",
+   "fetched_at": "2026-11-16T17:14:59+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "7c17d5f41ae5e2f8aa72319e7d6ef90e910e3f4aae19b367967388bc7ce57fc4",
+   "usage": "quotable",
+   "attribution": "出典：日本銀行「バーゼル銀行監督委員会による市中協議文書「銀行勘定の金利リスクに関する追加的な第2の柱ガイダンス」の公表について」（https://www.boj.or.jp/finsys/intlact_fs/kisei/kis261116a.htm）",
+   "processing_note": "日本銀行「バーゼル銀行監督委員会による市中協議文書「銀行勘定の金利リスクに関する追加的な第2の柱ガイダンス」の公表について」（https://www.boj.or.jp/finsys/intlact_fs/kisei/kis261116a.htm）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-011",
+   "url": "https://www.nikkei.com/article/DGXZQOUA138F50T11C26A1000000/",
+   "publisher": "日本経済新聞",
+   "publisher_type": "other",
+   "title": "日本経済新聞の検索結果（2026-11-16）",
+   "published_at": null,
+   "fetched_at": "2026-11-16T17:16:47+09:00",
+   "fetch_method": "websearch_snippet",
+   "content_sha256": "734f1a164414a511904c005dccb6c481979316c7c9f8bff9bcbae812427743e0",
+   "usage": "snippet_only",
+   "attribution": "出典：日本経済新聞「日本経済新聞の検索結果（2026-11-16）」（https://www.nikkei.com/article/DGXZQOUA138F50T11C26A1000000/）",
+   "processing_note": "日本経済新聞「日本経済新聞の検索結果（2026-11-16）」（https://www.nikkei.com/article/DGXZQOUA138F50T11C26A1000000/）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-16-001",
+     "event_id": "EVT-2026-11-16-001",
+     "headline": "住宅の積水ハウス、造園の岐阜造園を完全子会社にするため1株2,770円で公開買付け：岐阜造園は賛同し応募を勧める（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "積水ハウスは11月16日、造園の岐阜造園の株を1株2,770円で買い付ける公開買付けの届出書を出した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2770,
+         "unit": "円",
+         "label": "買付け等の価格（普通株式1株）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "普通株式１株につき、金2,770円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHXZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHXZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "買付けの期間は、11月16日から2027年1月13日までの37営業日である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 37,
+         "unit": "営業日",
+         "label": "買付け等の期間"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "2026年11月16日(月曜日)から2027年１月13日(水曜日)まで(37営業日)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHXZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHXZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "積水ハウスは、岐阜造園の株を655,500株（所有割合20.00%）持つ筆頭株主である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 655500,
+         "unit": "株",
+         "label": "積水ハウスが持つ岐阜造園の株数"
+        },
+        {
+         "value": 20.0,
+         "unit": "%",
+         "label": "所有割合"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "655,500株(所有割合(注１)：20.00％)を所有する対象者の主要株主である筆頭株主",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHXZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHXZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "買付けの値段2,770円は、公表の前の営業日である11月12日の終値1,986円より39.48%高い。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1986,
+         "unit": "円",
+         "label": "11月12日の終値"
+        },
+        {
+         "value": 39.48,
+         "unit": "%",
+         "label": "終値に対する上乗せの割合"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "2026年11月12日の東京証券取引所スタンダード市場における対象者株式の終値1,986円に対して39.48％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHXZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHXZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "応募が1,529,300株（所有割合46.67%）に満たなければ、買付けは行わない。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1529300,
+         "unit": "株",
+         "label": "買付予定数の下限"
+        },
+        {
+         "value": 46.67,
+         "unit": "%",
+         "label": "下限の所有割合"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "買付予定数の下限を1,529,300株(所有割合：46.67％)と設定しております",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHXZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHXZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "岐阜造園は、11月13日の取締役会でこの公開買付けに賛同する意見を決めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 13,
+         "unit": "日",
+         "label": "日付（取締役会）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "2026年11月13日開催の当社取締役会において、下記「(2）意見の根拠及び理由」に記載の根拠及び理由に基づき、本公開買付けに賛同する",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI2Y）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI2Y）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "公開買付けは、決めた値段と期間で、株主から株を買い集める手続きである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-16-001-1",
+       "text": "住宅会社が外構や造園の会社を傘下に入れる動きが続けば、住宅の受注から庭の工事までを一つのグループで受け持つ形が広がる可能性がある。",
+       "falsifier": "今後、住宅会社による造園・外構の会社の買収や子会社化の届出がほとんど出なければ、この見方は成り立たない。",
+       "check_metric": "EDINETの公開買付届出書・臨時報告書のうち、住宅会社が造園・外構の会社を対象とする件数",
+       "check_by": "2027-05-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-16-002",
+     "event_id": "EVT-2026-11-16-002",
+     "headline": "外食のワタミ、経営陣が関わる会社による1株1,284円の公開買付け（MBO）に賛同：最初の提案は1,079円、非公開化をめざす（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "外食・宅食のワタミは11月16日、1株1,284円で同社の株を買い付ける公開買付けについて、意見表明報告書を出した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1284,
+         "unit": "円",
+         "label": "買付け等の価格（普通株式1株）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "普通株式１株につき、金1,284円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI79）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI79）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "ワタミは、11月13日の取締役会で、この公開買付けに賛同する意見を決めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 13,
+         "unit": "日",
+         "label": "日付（取締役会）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "2026年11月13日開催の取締役会において、下記「(2）意見の根拠及び理由」に記載の根拠及び理由に基づき、本公開買付けに賛同の意見を表明する",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI79）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI79）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "買付けの期間は、11月16日から12月28日までの30営業日である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 30,
+         "unit": "営業日",
+         "label": "買付け等の期間"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "2026年11月16日（月曜日）から2026年12月28日（月曜日）まで（30営業日）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI79）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI79）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "1,284円は、最終の提案をした11月12日の終値858円より49.65%高い。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 858,
+         "unit": "円",
+         "label": "11月12日の終値"
+        },
+        {
+         "value": 49.65,
+         "unit": "%",
+         "label": "終値に対する上乗せの割合"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "2026年11月12日の東京証券取引所プライム市場における当社株式の終値858円に対して49.65％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI79）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI79）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "買付けをする側の最初の提案は、1株1,079円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1079,
+         "unit": "円",
+         "label": "最初の提案の価格"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "本公開買付価格を1,079円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI79）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI79）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-06",
+       "text": "買付けをする会社の親会社は、ワタミの株を11,460,425株（所有割合28.57%）持つ筆頭株主で、ワタミの経営陣2名が全株を持つ資産管理会社である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 11460425,
+         "unit": "株",
+         "label": "親会社が持つワタミの株数"
+        },
+        {
+         "value": 28.57,
+         "unit": "%",
+         "label": "所有割合"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "当社株式11,460,425株（注１）（所有割合（注２）：28.57％）を所有する当社の主要株主である筆頭株主",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI79）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI79）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-07",
+       "text": "株主のサントリーが持つ5,421,600株は、この買付けに応募しない約束の株とされている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5421600,
+         "unit": "株",
+         "label": "応募しない約束の株数（サントリー）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "本不応募合意株式（サントリー）（5,421,600株）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI79）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI79）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-08",
+       "text": "MBO（マネジメント・バイアウト）は、会社の経営陣が関わる会社が、その会社の株を買い集める取引である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-16-002-1",
+       "text": "外食の会社で経営陣が関わる非公開化が続けば、上場している外食の会社の数が減り、業種の株価の指標に入る会社の顔ぶれが変わる可能性がある。",
+       "falsifier": "外食の会社によるMBOの届出が今後1年ほとんど出なければ、この見方は成り立たない。",
+       "check_metric": "EDINETの公開買付届出書のうち、外食の会社を対象とするMBOの件数",
+       "check_by": "2027-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-16-003",
+     "event_id": "EVT-2026-11-16-003",
+     "headline": "7〜9月期の実質GDP、年率0.1%減で4四半期ぶりのマイナスと報道：個人消費は2四半期連続の減少",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "報道によると、内閣府が11月16日に公表した7〜9月期の実質GDPの1次速報は、前の期より年率換算で0.1%減った。",
+       "claimed_mark": "reported_unverified",
+       "numbers": [],
+       "source_ref": "SRC-011",
+       "excerpt": null,
+       "attribution": "出典：日本経済新聞「日本経済新聞の検索結果（2026-11-16）」（https://www.nikkei.com/article/DGXZQOUA138F50T11C26A1000000/）",
+       "processing_note": "日本経済新聞「日本経済新聞の検索結果（2026-11-16）」（https://www.nikkei.com/article/DGXZQOUA138F50T11C26A1000000/）をもとに本サイト作成",
+       "mark": "reported_unverified",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "報道によると、GDPの半分を占める個人消費は0.3%減り、2四半期続けてのマイナスだった。",
+       "claimed_mark": "reported_unverified",
+       "numbers": [],
+       "source_ref": "SRC-011",
+       "excerpt": null,
+       "attribution": "出典：日本経済新聞「日本経済新聞の検索結果（2026-11-16）」（https://www.nikkei.com/article/DGXZQOUA138F50T11C26A1000000/）",
+       "processing_note": "日本経済新聞「日本経済新聞の検索結果（2026-11-16）」（https://www.nikkei.com/article/DGXZQOUA138F50T11C26A1000000/）をもとに本サイト作成",
+       "mark": "reported_unverified",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "報道によると、企業の設備投資は前の期より1.6%増えた。",
+       "claimed_mark": "reported_unverified",
+       "numbers": [],
+       "source_ref": "SRC-011",
+       "excerpt": null,
+       "attribution": "出典：日本経済新聞「日本経済新聞の検索結果（2026-11-16）」（https://www.nikkei.com/article/DGXZQOUA138F50T11C26A1000000/）",
+       "processing_note": "日本経済新聞「日本経済新聞の検索結果（2026-11-16）」（https://www.nikkei.com/article/DGXZQOUA138F50T11C26A1000000/）をもとに本サイト作成",
+       "mark": "reported_unverified",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "GDP（国内総生産）は、国内で一定の期間に生み出された付加価値の合計である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-16-003-1",
+       "text": "個人消費の弱さが続けば、日用品や食料品を売る小売業の売上の伸びが鈍る可能性がある。",
+       "falsifier": "10〜12月期のGDPで個人消費が前の期より増えれば、この見方は成り立たない。",
+       "check_metric": "内閣府 10〜12月期のGDP 1次速報の個人消費",
+       "check_by": "2027-02-28"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-16-004",
+     "event_id": "EVT-2026-11-16-004",
+     "headline": "杏林製薬、米国の製薬会社が権利を持つレット症候群の治療薬について日本での独占的な販売契約：契約一時金は30百万米ドル（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "杏林製薬は、米国のアカディア社が権利を持つレット症候群の治療薬について、日本での独占的な販売契約を結び、契約一時金として30百万米ドルを支払うと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 30,
+         "unit": "百万米ドル",
+         "label": "契約一時金"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "当社はAcadia社に対して、契約一時金として30百万米ドルを支払い",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHTQ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHTQ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "薬価への収載や一定の売上高の達成に応じて、最大45百万米ドルなどを追加で支払う。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 45,
+         "unit": "百万米ドル",
+         "label": "マイルストンペイメントの最大額"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "マイルストンペイメントとして最大45百万米ドル等を支払います",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHTQ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHTQ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "製薬会社は、海外の会社が開発した薬について、国内で売る権利を契約で取得することがある。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-16-004-1",
+       "text": "海外で開発された希少な病気の薬を国内の製薬会社が導入する契約が続けば、医薬品業の会社の研究開発費に占める契約一時金の割合が高まる可能性がある。",
+       "falsifier": "国内の製薬会社による海外の薬の導入契約の届出がこの先ほとんど出なければ、この見方は成り立たない。",
+       "check_metric": "EDINETの臨時報告書のうち、医薬品業の会社による導入・販売契約の件数",
+       "check_by": "2027-05-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-16-005",
+     "event_id": "EVT-2026-11-16-005",
+     "headline": "日本銀行、バーゼル委の市中協議文書「銀行勘定の金利リスクに関する追加的な第2の柱ガイダンス」の公表を紹介：コメントは2027年2月9日まで",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "日本銀行は11月16日、バーゼル銀行監督委員会が11月9日に、銀行勘定の金利リスクについての追加的なガイダンスを提案する市中協議文書を公表したと知らせた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9,
+         "unit": "日",
+         "label": "日付（バーゼル委の公表日）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "2026年11月9日、「銀行勘定の金利リスクに関する追加的な第2の柱ガイダンス」",
+       "attribution": "出典：日本銀行「バーゼル銀行監督委員会による市中協議文書「銀行勘定の金利リスクに関する追加的な第2の柱ガイダンス」の公表について」（https://www.boj.or.jp/finsys/intlact_fs/kisei/kis261116a.htm）",
+       "processing_note": "日本銀行「バーゼル銀行監督委員会による市中協議文書「銀行勘定の金利リスクに関する追加的な第2の柱ガイダンス」の公表について」（https://www.boj.or.jp/finsys/intlact_fs/kisei/kis261116a.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "提案は、2016年に策定された基準の実効性を高めるためのものとされている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2016,
+         "unit": "年",
+         "label": "日付（基準の策定年）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "2016年に策定された基準の実効性を高めるために、銀行及び監督当局向けの追加的なガイダンスを提案する",
+       "attribution": "出典：日本銀行「バーゼル銀行監督委員会による市中協議文書「銀行勘定の金利リスクに関する追加的な第2の柱ガイダンス」の公表について」（https://www.boj.or.jp/finsys/intlact_fs/kisei/kis261116a.htm）",
+       "processing_note": "日本銀行「バーゼル銀行監督委員会による市中協議文書「銀行勘定の金利リスクに関する追加的な第2の柱ガイダンス」の公表について」（https://www.boj.or.jp/finsys/intlact_fs/kisei/kis261116a.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "文書へのコメントは、2027年2月9日までに英文でバーゼル委に出す。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9,
+         "unit": "日",
+         "label": "日付（コメントの期限）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "本市中協議文書に対するコメントは、2027年2月9日までに、バーゼル委宛に英文でご提出ください。",
+       "attribution": "出典：日本銀行「バーゼル銀行監督委員会による市中協議文書「銀行勘定の金利リスクに関する追加的な第2の柱ガイダンス」の公表について」（https://www.boj.or.jp/finsys/intlact_fs/kisei/kis261116a.htm）",
+       "processing_note": "日本銀行「バーゼル銀行監督委員会による市中協議文書「銀行勘定の金利リスクに関する追加的な第2の柱ガイダンス」の公表について」（https://www.boj.or.jp/finsys/intlact_fs/kisei/kis261116a.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-04",
+       "text": "銀行勘定の金利リスクとは、金利が動いたときに、銀行が持つ貸出・債券・預金の価値や収益が変わるおそれのことである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-16-005-1",
+       "text": "金利リスクの管理の求めが強まれば、銀行業の会社が持つ債券の残高や満期の組み立てを見直す可能性がある。",
+       "falsifier": "バーゼル委が最終の文書で追加のガイダンスの多くを取り下げれば、この見方は成り立たない。",
+       "check_metric": "バーゼル委の最終文書の公表と、国内の銀行の決算で示される有価証券の評価損益",
+       "check_by": "2027-12-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-16-006",
+     "event_id": "EVT-2026-11-16-006",
+     "headline": "メルカリ、ホビー商品の駿河屋と米国に合弁会社：資本金32,260,000米ドル、メルカリの議決権は51.0%（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-006-01",
+       "text": "メルカリは11月16日、駿河屋と共同で出資して、エンタメ・ホビー商材の買取と販売をする合弁会社を米国デラウェア州に設立すると決めたと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 16,
+         "unit": "日",
+         "label": "日付（決定日）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "2026年11月16日付で、株式会社駿河屋(以下、「駿河屋」という。)との共同出資による合弁会社の設立について決定いたしました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHXQ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHXQ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-02",
+       "text": "合弁会社の資本金は32,260,000米ドルである。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 32260000,
+         "unit": "米ドル",
+         "label": "合弁会社の資本金"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "資本金　　　：32,260,000米ドル",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHXQ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHXQ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-03",
+       "text": "メルカリが持つ議決権の割合は51.0%で、合弁会社はメルカリの特定子会社になる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 51.0,
+         "unit": "%",
+         "label": "異動後の議決権の割合"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "異動後：51.0％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHXQ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHXQ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-04",
+       "text": "特定子会社は、資本金が親会社の資本金の10分の1以上など、一定の大きさがある子会社のことである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-16-007",
+     "event_id": "EVT-2026-11-16-007",
+     "headline": "不動産の東京建物、インドネシアで不動産開発をする子会社の全株式をグループ外に譲渡へ（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-007-01",
+       "text": "東京建物は、インドネシアで不動産開発をする子会社PT Dharma Tatemono Propertyの全株式を、グループ外の第三者に譲渡すると決めたと届け出た。この子会社の資本金は10,951億インドネシアルピアである。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10951,
+         "unit": "億インドネシアルピア",
+         "label": "子会社の資本金"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "10,951億インドネシアルピア",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI2H）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI2H）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-02",
+       "text": "東京建物の議決権の割合は100.0%で、そのうち50.0%は子会社を通じた間接所有である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 100.0,
+         "unit": "%",
+         "label": "異動前の議決権の割合"
+        },
+        {
+         "value": 50.0,
+         "unit": "%",
+         "label": "うち間接所有分"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "100.0％（うち間接所有分　　　50.0％）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI2H）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI2H）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-16-007-1",
+       "text": "国内の不動産会社が海外の開発子会社を手放す動きが続けば、不動産業の海外事業は、自ら開発するよりも出資や共同事業の形に寄る可能性がある。",
+       "falsifier": "国内の不動産会社による海外の開発会社の取得の届出が増えれば、この見方は成り立たない。",
+       "check_metric": "EDINETの臨時報告書のうち、不動産業の会社の海外子会社の異動の件数",
+       "check_by": "2027-05-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-16-008",
+     "event_id": "EVT-2026-11-16-008",
+     "headline": "食料品の滝沢ハム、政策保有株式を減らすため投資有価証券の一部を売却：売却益99,014千円を特別利益に（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-008-01",
+       "text": "滝沢ハムは、政策保有株式を減らすために持っている投資有価証券の一部を売り、投資有価証券売却益99,014千円を特別利益に計上すると届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 99014,
+         "unit": "千円",
+         "label": "投資有価証券売却益"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "投資有価証券売却益99,014千円を特別利益として計上いたします",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI45）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI45）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-02",
+       "text": "政策保有株式は、取引関係の維持などを目的に、会社が投資以外の理由で持つ他社の株のことである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-16-008-1",
+       "text": "政策保有株式を減らす会社が続けば、持ち合っていた相手の会社の株を市場で売る動きが広がる可能性がある。",
+       "falsifier": "政策保有株式の売却を届け出る臨時報告書が今後ほとんど出なければ、この見方は成り立たない。",
+       "check_metric": "EDINETの臨時報告書のうち、投資有価証券売却益を届け出る件数",
+       "check_by": "2027-03-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-16-009",
+     "event_id": "EVT-2026-11-16-009",
+     "headline": "深掘り：2段階の非公開化──ＣＥホールディングス、投資ファンド側による1株1,650円の買付けの後、自社株を1株1,501円で買い戻す公開買付けを開始（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-009-01",
+       "text": "ＣＥホールディングスは、自社の株を買い戻す公開買付けを11月16日から12月14日までの20営業日で行うと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20,
+         "unit": "営業日",
+         "label": "買付け等の期間"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "本自社株公開買付けは、2026年11月16日から2026年12月14日までの20営業日を買付け等の期間とし",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI4K）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI4K）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-02",
+       "text": "買い戻す予定の株は2,495,300株（所有割合14.96%）である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2495300,
+         "unit": "株",
+         "label": "買付予定数"
+        },
+        {
+         "value": 14.96,
+         "unit": "%",
+         "label": "所有割合"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "買付予定数（2,495,300株、所有割合：14.96％）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI4K）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI4K）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-03",
+       "text": "自社株の買戻しの値段1,501円は、先に投資ファンド側の会社が行った公開買付けの値段1,650円より149円低い。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1501,
+         "unit": "円",
+         "label": "自社株公開買付けの価格"
+        },
+        {
+         "value": 1650,
+         "unit": "円",
+         "label": "先の公開買付けの価格"
+        },
+        {
+         "value": 149,
+         "unit": "円",
+         "label": "価格の差"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "本自社株公開買付価格（1,501円）については、本他社株公開買付価格（1,650円）に比べて149円低い価格",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI4K）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI4K）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-04",
+       "text": "株主の日本電気（NEC）は1,200,000株（所有割合7.20%）を持ち、先の公開買付けには応募せず、自社株の公開買付けに応募する契約を結んでいる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1200000,
+         "unit": "株",
+         "label": "日本電気が持つ株数"
+        },
+        {
+         "value": 7.2,
+         "unit": "%",
+         "label": "所有割合"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "ＮＥＣ（所有株式数：1,200,000株、所有割合：7.20％）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI4K）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI4K）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-05",
+       "text": "自社株の公開買付けは、会社が自分の株を、決めた値段と期間で株主から買い戻す手続きである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-06",
+       "text": "会社が自分の株を買い戻す場合と、他の会社に売る場合とでは、株主にかかる税金の扱いが異なることがある。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-16-009-1",
+       "text": "非公開化で、買い手の会社の買付けと自社株の買戻しを組み合わせる形が広がれば、大株主の会社ごとに応募先を分ける取引が増える可能性がある。",
+       "falsifier": "今後の非公開化の公開買付けで、自社株の公開買付けを組み合わせる例がほとんど出なければ、この見方は成り立たない。",
+       "check_metric": "EDINETの公開買付届出書のうち、自社株の公開買付けを伴う非公開化の件数",
+       "check_by": "2027-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-11-16T17:18:28.184586+09:00",
+  "first_run": {
+   "run_at": "2026-11-16T17:18:28.184586+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 12,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 40,
+  "passed": 28,
+  "unverified": 0,
+  "reported_unverified": 3,
+  "explainer": 9,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 1,
+   "removed": [
+    {
+     "article_id": "ART-2026-11-16-006",
+     "hits": [
+      {
+       "field": "check_metric",
+       "company_name": "株式会社メルカリ",
+       "matched_word": "メルカリ",
+       "alias": null
+      }
+     ]
+    }
+   ]
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 10,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-001": {
+    "files": [
+     "XBRL/PublicDoc/0100000_honbun_jptoo020000-ton-001_E00143-000_2026-11-16_01_2026-11-16_ixbrl.htm",
+     "XBRL/PublicDoc/0200000_honbun_jptoo020000-ton-001_E00143-000_2026-11-16_01_2026-11-16_ixbrl.htm",
+     "XBRL/PublicDoc/0300000_honbun_jptoo020000-ton-001_E00143-000_2026-11-16_01_2026-11-16_ixbrl.htm",
+     "XBRL/PublicDoc/0400000_honbun_jptoo020000-ton-001_E00143-000_2026-11-16_01_2026-11-16_ixbrl.htm",
+     "XBRL/PublicDoc/0500000_honbun_jptoo020000-ton-001_E00143-000_2026-11-16_01_2026-11-16_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jptoo020000-ton-001_E00143-000_2026-11-16_01_2026-11-16_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jptoo040000-pst-001_E32682-000_2026-11-16_01_2026-11-16_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jptoo040000-pst-001_E32682-000_2026-11-16_01_2026-11-16_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jptoi020000-ton-001_E05233-000_2026-11-16_01_2026-11-16_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jptoi020000-ton-001_E05233-000_2026-11-16_01_2026-11-16_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-004": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jptoo040000-pst-001_E03275-000_2026-11-16_01_2026-11-16_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jptoo040000-pst-001_E03275-000_2026-11-16_01_2026-11-16_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E03859-000_2026-11-16_01_2026-11-16_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E03859-000_2026-11-16_01_2026-11-16_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-006": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E34064-000_2026-11-16_01_2026-11-16_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E34064-000_2026-11-16_01_2026-11-16_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-007": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E00985-000_2026-11-16_01_2026-11-16_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E00985-000_2026-11-16_01_2026-11-16_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-008": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E00343-000_2026-11-12_01_2026-11-12_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E00343-000_2026-11-12_01_2026-11-12_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 10,
+  "attribution_overwritten": 43,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "evening",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 12,
+  "source_policy_unlisted_domains": [
+   "www.nikkei.com"
+  ],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 5,
+  "evidence_doc_type_overridden": 5,
+  "impact_kind_overridden": 1,
+  "impact_kind_source_counts": {
+   "edinet_doctype": 1,
+   "edinet_doctype_unmapped": 4
+  },
+  "impact_kind_undetermined_by_doc_type": {
+   "290": 2,
+   "180": 2
+  },
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 5,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 5,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 1,
+   "source_ids": [
+    "SRC-011"
+   ]
+  },
+  "number_coverage": {
+   "text_number_tokens": 84,
+   "numbers_declared": 38,
+   "gap": 46,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 73,
+     "numbers_declared": 38
+    },
+    "explainer": {
+     "text_number_tokens": 2,
+     "numbers_declared": 0
+    },
+    "reported_unverified": {
+     "text_number_tokens": 9,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 6,
+   "line_ids": [
+    "L-001-06",
+    "L-002-02",
+    "L-005-01",
+    "L-005-02",
+    "L-005-03",
+    "L-006-01"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 13,
+   "change": 5,
+   "ripple": 6,
+   "deep": 4
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 3,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-010"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 1,
+   "first_run_at": "2026-11-16T17:18:22.497484+09:00",
+   "last_run_at": "2026-11-16T17:18:22.497484+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 28,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [
+   {
+    "hypothesis_id": "2026-11-16-evening-1",
+    "company_name": "積水ハウス株式会社",
+    "submitted_at": "2026-11-16T13:43:00+09:00",
+    "baseline_point": "2026-11-17T09:00:00+09:00",
+    "trading_minutes": 107,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-11-16-evening-2",
+    "company_name": "株式会社岐阜造園",
+    "submitted_at": "2026-11-16T14:02:00+09:00",
+    "baseline_point": "2026-11-17T09:00:00+09:00",
+    "trading_minutes": 88,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-11-16-evening-3",
+    "company_name": "ワタミ株式会社",
+    "submitted_at": "2026-11-16T17:04:00+09:00",
+    "baseline_point": "2026-11-17T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-11-16-evening-4",
+    "company_name": "杏林製薬株式会社",
+    "submitted_at": "2026-11-16T15:36:00+09:00",
+    "baseline_point": "2026-11-17T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-11-16-evening-5",
+    "company_name": "株式会社メルカリ",
+    "submitted_at": "2026-11-16T15:34:00+09:00",
+    "baseline_point": "2026-11-17T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   }
+  ],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 6,
+   "total_unregistered": 6,
+   "excluded_date_time_tokens": 35,
+   "lines": [
+    {
+     "line_id": "L-001-01",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-001-04",
+     "values": [
+      "2770"
+     ]
+    },
+    {
+     "line_id": "L-002-01",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-002-04",
+     "values": [
+      "1284"
+     ]
+    },
+    {
+     "line_id": "L-002-05",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-002-06",
+     "values": [
+      "2"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 1,
+   "zero_letter_count": 0,
+   "lines": [
+    {
+     "line_id": "L-006-03",
+     "letters": 3
+    }
+   ]
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [
+   {
+    "hypothesis_id": "2026-11-16-evening-2",
+    "company_name": "株式会社岐阜造園",
+    "word": "公開買付けの対象",
+    "evidence_role": "filer_self",
+    "tob_side": null
+   },
+   {
+    "hypothesis_id": "2026-11-16-evening-3",
+    "company_name": "ワタミ株式会社",
+    "word": "公開買付けの対象",
+    "evidence_role": "filer_self",
+    "tob_side": null
+   }
+  ],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "ok",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 1,
+    "source_ids": [
+     "SRC-010"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 9
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "industry_picks_total": 6,
+  "industry_examples_total": 0,
+  "industry_example_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "ai_written_examples_discarded": 0,
+  "slot_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "short_name_match_count": {
+   "count": 0,
+   "names": []
+  },
+  "allowed_industries_count": 30,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
