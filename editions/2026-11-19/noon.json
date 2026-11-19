@@ -1,0 +1,1750 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-11-19-noon",
+ "date": "2026-11-19",
+ "slot": "noon",
+ "generated_at": "2026-11-19T13:16:43.740282+09:00",
+ "market_open": true,
+ "baseline": {
+  "date": "2026-11-19",
+  "price_type": "observed"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-19&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月19日）",
+   "published_at": "2026-11-19",
+   "fetched_at": "2026-11-19T13:08:13+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "9cb2ffe21f4bb192c8e00a1376f0c9480b75df3b818cf98b902870f356e46d7a",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-18&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月18日）",
+   "published_at": "2026-11-18",
+   "fetched_at": "2026-11-19T13:08:19+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "16d37dc593c7ee6c401a2cd39d1ba59026e34effbc8470df23ecf3061e663609",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZITK?type=1",
+   "publisher": "イー・ギャランティ株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（イー・ギャランティ株式会社）",
+   "published_at": "2026-11-19T09:24:00+09:00",
+   "fetched_at": "2026-11-19T13:08:42+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "682ce21d0365bac39bb30d3c10643bd8cd9444255b1367a769d5db51119ad15d",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITK）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITK）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITK"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZIUT?type=1",
+   "publisher": "ピジョン株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（ピジョン株式会社）",
+   "published_at": "2026-11-19T10:51:00+09:00",
+   "fetched_at": "2026-11-19T13:08:54+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "c26b6c06f37207b3e8720cc4952410ebd59d625b5da72a07170e4a9c8789dca6",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUT）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUT）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUT"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZIY3?type=1",
+   "publisher": "株式会社ＭＥＲＦ",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社ＭＥＲＦ）",
+   "published_at": "2026-11-19T13:00:00+09:00",
+   "fetched_at": "2026-11-19T13:09:05+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "51c543702623ccc553c53747ccefafe974aed15a029e1121d1e72aacdf007957",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIY3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIY3）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIY3"
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZITH?type=1",
+   "publisher": "東京瓦斯株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "発行登録追補書類（株券､社債券等）（東京瓦斯株式会社）",
+   "published_at": "2026-11-19T10:00:00+09:00",
+   "fetched_at": "2026-11-19T13:09:11+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "8238f711599d986f006f3cb1318a44be1e1e3c80d02d0fda4a4c50a0486165d6",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITH）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITH）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITH"
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZITZ?type=1",
+   "publisher": "ＮＧＫ株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "発行登録追補書類（株券､社債券等）（ＮＧＫ株式会社）",
+   "published_at": "2026-11-19T10:09:00+09:00",
+   "fetched_at": "2026-11-19T13:09:16+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "0be60debefc357dc18b5e2fef9b1d3c72e34fdade04952fade2fdbe71ee136aa",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITZ）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITZ"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZIQ9?type=1",
+   "publisher": "株式会社ビックカメラ",
+   "publisher_type": "company_disclosure",
+   "title": "訂正臨時報告書（株式会社ビックカメラ）",
+   "published_at": "2026-11-18T16:51:00+09:00",
+   "fetched_at": "2026-11-19T13:09:22+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "48590774516b34b59a8e3412c743e7494270e82886c6c4fa6c496b999c415d07",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIQ9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIQ9）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIQ9"
+  },
+  {
+   "source_id": "SRC-009",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+   "publisher": "米連邦準備制度理事会（FRB）",
+   "publisher_type": "central_bank",
+   "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+   "published_at": "2026-11-18T14:00:00-05:00",
+   "fetched_at": "2026-11-19T13:10:23+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "84414d1c03762d3ce28cdbbbec17a92801319ddcfee5033da176edbdb3bd7b04",
+   "usage": "quotable",
+   "attribution": "出典：米連邦準備制度理事会（FRB）「Minutes of the Federal Open Market Committee, October 27-28, 2026」（https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm）",
+   "processing_note": "米連邦準備制度理事会（FRB）「Minutes of the Federal Open Market Committee, October 27-28, 2026」（https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-010",
+   "url": "https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261119.htm",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年11月19日入札）",
+   "published_at": "2026-11-19",
+   "fetched_at": "2026-11-19T13:10:23+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "8f6f4c79cc9c46bc154cbaa8a719264e3f241b73e0107216b1c6e7021f7d73ce",
+   "usage": "quotable",
+   "attribution": "出典：財務省「交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年11月19日入札）」（https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261119.htm）",
+   "processing_note": "財務省「交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年11月19日入札）」（https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261119.htm）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-011",
+   "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm",
+   "publisher": "米連邦準備制度理事会（FRB）",
+   "publisher_type": "central_bank",
+   "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+   "published_at": null,
+   "fetched_at": "2026-11-19T13:10:36+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "6c9a5649a89a68eb274be1784711213b1861c37fdf6c80ffe89f5e18550f76ff",
+   "usage": "quotable",
+   "attribution": "出典：米連邦準備制度理事会（FRB）「Minutes of the Federal Open Market Committee, October 27-28, 2026」（https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm）",
+   "processing_note": "米連邦準備制度理事会（FRB）「Minutes of the Federal Open Market Committee, October 27-28, 2026」（https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-013",
+   "url": "https://www.boj.or.jp/mopo/diet/d_state/data/dst261119a.pdf",
+   "publisher": "日本銀行",
+   "publisher_type": "central_bank",
+   "title": "「通貨及び金融の調節に関する報告書」概要説明",
+   "published_at": "2026-11-19",
+   "fetched_at": "2026-11-19T13:11:16+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "146b69eebd44bb6cb9086a3d8d297ef1c196f45979dbd43d852ddcca5ce0a7ba",
+   "usage": "quotable",
+   "attribution": "出典：日本銀行「「通貨及び金融の調節に関する報告書」概要説明」（https://www.boj.or.jp/mopo/diet/d_state/data/dst261119a.pdf）",
+   "processing_note": "日本銀行「「通貨及び金融の調節に関する報告書」概要説明」（https://www.boj.or.jp/mopo/diet/d_state/data/dst261119a.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-19-001",
+     "event_id": "EVT-2026-11-19-001",
+     "headline": "FRBが10月の連邦公開市場委員会（FOMC）の議事要旨を公表：政策金利は据え置き、ほぼすべての参加者が今後の追加の引き上げを適切とみる",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "米連邦準備制度理事会（FRB）は11月18日（米国時間）、2026年10月27〜28日に開いた連邦公開市場委員会（FOMC）の議事要旨を公表した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2026,
+         "unit": "年",
+         "label": "日付（会合の年）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "released the minutes of the Federal Open Market Committee meeting that was held on October 27–28, 2026",
+       "attribution": "出典：米連邦準備制度理事会（FRB）「Minutes of the Federal Open Market Committee, October 27-28, 2026」（https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm）",
+       "processing_note": "米連邦準備制度理事会（FRB）「Minutes of the Federal Open Market Committee, October 27-28, 2026」（https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "FOMCは、米国の政策金利の誘導目標を決める会合である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "議事要旨によると、この会合では10人の委員が、政策金利（フェデラルファンド金利）の誘導目標の範囲（上限は年4%）を据え置くことに賛成した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10,
+         "unit": "人",
+         "label": "据え置きに賛成した委員の数"
+        },
+        {
+         "value": 4,
+         "unit": "%",
+         "label": "誘導目標の範囲の上限"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "10 members agreed to maintain the target range for the federal funds rate at 3-3/4 to 4 percent",
+       "attribution": "出典：米連邦準備制度理事会（FRB）「Minutes of the Federal Open Market Committee, October 27-28, 2026」（https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm）",
+       "processing_note": "米連邦準備制度理事会（FRB）「Minutes of the Federal Open Market Committee, October 27-28, 2026」（https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "一方で据え置きに反対した委員もおり、その委員はこの会合で誘導目標の範囲を25ベーシスポイント引き上げることを主張した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 25,
+         "unit": "ベーシスポイント",
+         "label": "反対した委員が主張した引き上げ幅"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "voted against the decision to maintain the target range for the federal funds rate, preferring an increase of 25 basis points",
+       "attribution": "出典：米連邦準備制度理事会（FRB）「Minutes of the Federal Open Market Committee, October 27-28, 2026」（https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm）",
+       "processing_note": "米連邦準備制度理事会（FRB）「Minutes of the Federal Open Market Committee, October 27-28, 2026」（https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "ベーシスポイントは、金利の小さな変化を表すときに使う単位である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "この決定に合わせて、FRB理事会は、銀行が中央銀行に預けるお金（準備預金）に付ける金利を年3.90%に据え置くことを全会一致で決めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.9,
+         "unit": "%",
+         "label": "準備預金に付ける金利"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "voted unanimously to maintain the interest rate paid on reserve balances to 3.90 percent",
+       "attribution": "出典：米連邦準備制度理事会（FRB）「Minutes of the Federal Open Market Committee, October 27-28, 2026」（https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm）",
+       "processing_note": "米連邦準備制度理事会（FRB）「Minutes of the Federal Open Market Committee, October 27-28, 2026」（https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "先行きについて、ほぼすべての参加者は、物価と雇用の基本の見通しのもとでは、物価上昇率を2%の目標に遅れずに戻すため、誘導目標の範囲をさらに引き上げることが適切になる可能性が高いと判断した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "%",
+         "label": "物価上昇率の目標"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "would likely be appropriate, in order to ensure a timely return of inflation to the 2 percent objective",
+       "attribution": "出典：米連邦準備制度理事会（FRB）「Minutes of the Federal Open Market Committee, October 27-28, 2026」（https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm）",
+       "processing_note": "米連邦準備制度理事会（FRB）「Minutes of the Federal Open Market Committee, October 27-28, 2026」（https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-08",
+       "text": "入ってくる物価のデータが好ましくなければ、次の会合で25ベーシスポイントを超える引き上げも検討に値しうると指摘した参加者も、ごく少数いた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 25,
+         "unit": "ベーシスポイント",
+         "label": "次の会合で検討に値しうるとされた引き上げ幅の目安"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "an increase of more than 25 basis points could warrant consideration at the next meeting",
+       "attribution": "出典：米連邦準備制度理事会（FRB）「Minutes of the Federal Open Market Committee, October 27-28, 2026」（https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm）",
+       "processing_note": "米連邦準備制度理事会（FRB）「Minutes of the Federal Open Market Committee, October 27-28, 2026」（https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-19-001-1",
+       "text": "米国で利上げが続くとの見方が強まると、日米の金利差を通じて円安の方向に力が働き、原材料を輸入に頼る業種で仕入れの費用が上がりやすくなる可能性がある。",
+       "falsifier": "12月のFOMCで誘導目標の範囲が据え置かれ、その後に円相場が円高の方向へ動けば、この見方は成り立たない。",
+       "check_metric": "FOMCの12月会合の決定（誘導目標の範囲）と、日本銀行の外国為替市況のドル円相場",
+       "check_by": "2026-12-17"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-19-002",
+     "event_id": "EVT-2026-11-19-002",
+     "headline": "日本銀行の総裁が参議院で説明：消費者物価の前年比は足もと2%程度、先行きは2%をはっきり上回る水準まで高まると予想",
+     "lines": [
+      {
+       "line_id": "L-002-02",
+       "text": "政策金利は、中央銀行が金融市場の短い期間の金利を導く目安で、上がると銀行の貸出金利などにも波及しやすい。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "日本銀行の総裁は11月19日、参議院財政金融委員会での説明で、生鮮食品を除いた消費者物価の前年比は、プラス幅が緩やかに拡大しており、足もとでは2%程度となっていると述べた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "%",
+         "label": "生鮮食品を除く消費者物価の前年比（足もと）"
+        }
+       ],
+       "source_ref": "SRC-013",
+       "excerpt": "プラス幅が緩やかに拡大しており、足もとでは２％程",
+       "attribution": "出典：日本銀行「「通貨及び金融の調節に関する報告書」概要説明」（https://www.boj.or.jp/mopo/diet/d_state/data/dst261119a.pdf）",
+       "processing_note": "日本銀行「「通貨及び金融の調節に関する報告書」概要説明」（https://www.boj.or.jp/mopo/diet/d_state/data/dst261119a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "先行きについては、原油価格の上昇、AI関連需要の増加に伴う半導体価格などの上昇、これまでの円安が価格を押し上げることから、伸び率が2%をはっきりと上回る水準まで高まっていくと予想しているとした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "%",
+         "label": "消費者物価の前年比の見通しの目安"
+        }
+       ],
+       "source_ref": "SRC-013",
+       "excerpt": "２％をはっきりと上回る水準まで伸び率を高めていくと予想",
+       "attribution": "出典：日本銀行「「通貨及び金融の調節に関する報告書」概要説明」（https://www.boj.or.jp/mopo/diet/d_state/data/dst261119a.pdf）",
+       "processing_note": "日本銀行「「通貨及び金融の調節に関する報告書」概要説明」（https://www.boj.or.jp/mopo/diet/d_state/data/dst261119a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "また、中長期的な予想物価上昇率は2%程度となっているとした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "%",
+         "label": "中長期的な予想物価上昇率"
+        }
+       ],
+       "source_ref": "SRC-013",
+       "excerpt": "中長期的な予想物価上昇率は２％程度となっています",
+       "attribution": "出典：日本銀行「「通貨及び金融の調節に関する報告書」概要説明」（https://www.boj.or.jp/mopo/diet/d_state/data/dst261119a.pdf）",
+       "processing_note": "日本銀行「「通貨及び金融の調節に関する報告書」概要説明」（https://www.boj.or.jp/mopo/diet/d_state/data/dst261119a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-19-002-1",
+       "text": "総裁の説明に沿って政策金利の引き上げが進めば、銀行業では貸出と預金の金利の差が広がる一方、借入の多い業種では利払いの負担が増える可能性がある。",
+       "falsifier": "12月以降の金融政策決定会合で無担保コールレート・オーバーナイト物の誘導水準が1.25%程度に据え置かれ続ければ、この見方は当面成り立たない。",
+       "check_metric": "日本銀行 金融政策決定会合の結果（無担保コールレート・オーバーナイト物の誘導水準）",
+       "check_by": "2027-01-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-19-003",
+     "event_id": "EVT-2026-11-19-003",
+     "headline": "ピジョン、米国のベビー・ママケアのブランドを販売するEleeo社を子会社にすると決議：取得価額は373.0百万米ドル（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "ピジョンは11月19日に提出した臨時報告書で、米国でママ＆ベビー向けのブランドを販売するEleeo Brands LLC（Eleeo社）の持分の100%を取得し、連結子会社にすることを取締役会で決議したと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 100,
+         "unit": "%",
+         "label": "取得する持分の割合"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "Eleeo Brands LLC（以下「Eleeo社」）の持分の100%を取得し、同社を当社の連結子会社とすることを決議",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUT）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUT）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "連結子会社とは、親会社が経営を支配していて、決算を親会社の決算とまとめて示す会社のことである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "取得価額は373.0百万米ドルで、報告書の注記によると持分の対価に加えてネット有利子負債などの額を含む。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 373.0,
+         "unit": "百万米ドル",
+         "label": "取得価額"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "取得価額　373.0百万米ドル",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUT）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUT）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "アドバイザリー費用などを合わせた合計は、概算で381.3百万米ドルとなる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 381.3,
+         "unit": "百万米ドル",
+         "label": "取得の合計（概算額）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "合計（概算額）　381.3百万米ドル",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUT）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUT）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "Eleeo社の連結の売上高は、2023年12月期が54,923千米ドル、2024年12月期が67,343千米ドル、2025年12月期が99,056千米ドルだった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 54923,
+         "unit": "千米ドル",
+         "label": "Eleeo社の売上高（2023年12月期）"
+        },
+        {
+         "value": 67343,
+         "unit": "千米ドル",
+         "label": "Eleeo社の売上高（2024年12月期）"
+        },
+        {
+         "value": 99056,
+         "unit": "千米ドル",
+         "label": "Eleeo社の売上高（2025年12月期）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "売上高  54,923千米ドル  67,343千米ドル  99,056千米ドル",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUT）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUT）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-06",
+       "text": "同じく営業利益は、2023年12月期が8,726千米ドル、2024年12月期が11,237千米ドル、2025年12月期が16,872千米ドルだった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 8726,
+         "unit": "千米ドル",
+         "label": "Eleeo社の営業利益（2023年12月期）"
+        },
+        {
+         "value": 11237,
+         "unit": "千米ドル",
+         "label": "Eleeo社の営業利益（2024年12月期）"
+        },
+        {
+         "value": 16872,
+         "unit": "千米ドル",
+         "label": "Eleeo社の営業利益（2025年12月期）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "営業利益  8,726千米ドル  11,237千米ドル  16,872千米ドル",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUT）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUT）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-19-003-1",
+       "text": "国内で子どもの数が減るなか、育児用品を扱う業種では、海外の会社を買って海外の売上を増やそうとする動きが広がる可能性がある。",
+       "falsifier": "今後1年の間に、育児用品を扱う国内の会社による海外の会社の取得の届け出（臨時報告書）が他に出なければ、この見方は成り立たない。",
+       "check_metric": "EDINETの臨時報告書（子会社取得の決定）のうち、育児用品を扱う会社によるものの件数",
+       "check_by": "2027-11-19"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-19-004",
+     "event_id": "EVT-2026-11-19-004",
+     "headline": "続報：財務省、交付税及び譲与税配付金特別会計の借入金を11月19日に入札：応募額4兆35億円、募入平均利率は1.604%",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "財務省は11月19日、交付税及び譲与税配付金特別会計の借入金の入札を行い、応募額は4兆35億円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4,
+         "unit": "兆円",
+         "label": "応募額（兆の位）"
+        },
+        {
+         "value": 35,
+         "unit": "億円",
+         "label": "応募額（億の位）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "（1）応募額  4兆35億円",
+       "attribution": "出典：財務省「交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年11月19日入札）」（https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261119.htm）",
+       "processing_note": "財務省「交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年11月19日入札）」（https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261119.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "このうち借り入れると決めた額（募入決定額）は1兆1,999億9,900万円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "兆円",
+         "label": "募入決定額（兆の位）"
+        },
+        {
+         "value": 1999,
+         "unit": "億円",
+         "label": "募入決定額（億の位）"
+        },
+        {
+         "value": 9900,
+         "unit": "万円",
+         "label": "募入決定額（万の位）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "（2）募入決定額  1兆1,999億9,900万円",
+       "attribution": "出典：財務省「交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年11月19日入札）」（https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261119.htm）",
+       "processing_note": "財務省「交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年11月19日入札）」（https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261119.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "借入を決めた中で最も高い利率（募入最高利率）は1.615%、平均の利率（募入平均利率）は1.604%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1.615,
+         "unit": "%",
+         "label": "募入最高利率"
+        },
+        {
+         "value": 1.604,
+         "unit": "%",
+         "label": "募入平均利率"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "（3）募入最高利率  1.615％  （4）募入最高利率に　　　おける案分比率  97.4199％  （5）募入平均利率  1.604％",
+       "attribution": "出典：財務省「交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年11月19日入札）」（https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261119.htm）",
+       "processing_note": "財務省「交付税及び譲与税配付金特別会計の借入金の入札結果（令和8年11月19日入札）」（https://www.mof.go.jp/jgbs/auction/calendar/kariire/kari-result261119.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "国の特別会計は、特定の事業のお金を一般の予算と分けて管理する仕組みである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "交付税及び譲与税配付金特別会計は、国が地方自治体に配るお金を扱う特別会計である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-19-004-1",
+       "text": "国の借入の利率が上がると、地方自治体に配るお金を扱う特別会計の利払いが増え、国の予算の中で他の支出に回せるお金が減る可能性がある。",
+       "falsifier": "次回以降の同じ特別会計の借入金の入札で、募入平均利率が1.604%を下回り続ければ、この見方は弱まる。",
+       "check_metric": "財務省 交付税及び譲与税配付金特別会計の借入金の入札結果（募入平均利率）",
+       "check_by": "2027-03-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-19-005",
+     "event_id": "EVT-2026-11-19-005",
+     "headline": "イー・ギャランティ、ありあけキャピタルが議決権の10.56%を持つ主要株主に（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "イー・ギャランティは11月19日に提出した臨時報告書で、株主のありあけキャピタル株式会社から、持っている議決権の割合が10%を超えたとの報告を受け、主要株主に異動があったと届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10,
+         "unit": "%",
+         "label": "主要株主となる議決権の割合の境目"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "同社の所有議決権が総株主の議決権に占める割合が10％を超えた旨の報告を受けました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITK）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITK）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "ありあけキャピタルの議決権は、異動前は42,905個で、議決権全体の9.66%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 42905,
+         "unit": "個",
+         "label": "異動前の議決権の数"
+        },
+        {
+         "value": 9.66,
+         "unit": "%",
+         "label": "異動前の議決権の割合"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "異動前  42,905個  9.66%",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITK）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITK）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "異動後は47,454個で、議決権全体の10.56%になった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 47454,
+         "unit": "個",
+         "label": "異動後の議決権の数"
+        },
+        {
+         "value": 10.56,
+         "unit": "%",
+         "label": "異動後の議決権の割合"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "異動後  47,454個  10.56%",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITK）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITK）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-04",
+       "text": "主要株主は、法律で決められた一定の割合以上の議決権を持つ株主のことで、入れ替わったときは会社が臨時報告書を出す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-19-005-1",
+       "text": "議決権の割合が大きい株主が増えると、株主総会で会社の提案に対する賛否の重みが変わる可能性がある。",
+       "falsifier": "次の定時株主総会の臨時報告書で、会社の議案の賛成の割合が前の年とほとんど変わらなければ、この見方は成り立たない。",
+       "check_metric": "次の定時株主総会の結果を記した臨時報告書の、議案ごとの賛成の割合",
+       "check_by": "2027-07-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-19-006",
+     "event_id": "EVT-2026-11-19-006",
+     "headline": "波及を追う：社債で集めたお金の行き先──ＮＧＫは半導体製造装置用製品の設備投資に、東京瓦斯は短期社債の償還に（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-006-01",
+       "text": "社債は、会社が投資家からお金を借りるために発行する債券で、決めた利率で利息を払い、期限に元本を返す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-02",
+       "text": "ＮＧＫは11月19日に提出した発行登録追補書類で、第1回と第2回の無担保社債の発行を届け出ており、それぞれの総額は10,000百万円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10000,
+         "unit": "百万円",
+         "label": "社債1本あたりの総額"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "券面総額又は振替社債の総額（円）  金10,000百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-03",
+       "text": "ＮＧＫの第1回債の利率は年2.650%で、2031年11月26日に償還する。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.65,
+         "unit": "%",
+         "label": "ＮＧＫ第1回債の利率"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "利率（％）  年2.650％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-04",
+       "text": "ＮＧＫの第2回債の利率は年3.303%で、2036年11月26日に償還する。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.303,
+         "unit": "%",
+         "label": "ＮＧＫ第2回債の利率"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "利率（％）  年3.303％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-05",
+       "text": "ＮＧＫは、差し引いた手取りの概算額19,908百万円を、全額、2029年9月末までにデジタルソサエティ事業の設備の増設や更新などの設備投資に充てる予定である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 19908,
+         "unit": "百万円",
+         "label": "ＮＧＫの差引手取概算額"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "差引手取概算額19,908百万円は、全額を2029年９月末までにデジタルソサエティ事業に関する設備の増設、更新等にかかる設備投資資金に充当する予定",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-06",
+       "text": "同社の設備の計画では、石川工場などの半導体製造装置用製品の生産設備に投資予定金額の総額70,000百万円を見込み、うち348百万円を支払い済み（2026年9月30日現在）である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 70000,
+         "unit": "百万円",
+         "label": "投資予定金額の総額"
+        },
+        {
+         "value": 348,
+         "unit": "百万円",
+         "label": "投資予定金額のうち既支払額"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "半導体製造装置用製品生産設備  70,000  348",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-07",
+       "text": "東京瓦斯も11月19日に提出した発行登録追補書類で、第77回と第78回の無担保社債の発行を届け出ており、それぞれの総額は35,000百万円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 35000,
+         "unit": "百万円",
+         "label": "社債1本あたりの総額"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "券面総額又は振替社債の総額(円)  35,000百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITH）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITH）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-08",
+       "text": "東京瓦斯の第77回債の利率は年3.293%で、2036年11月26日に償還する。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.293,
+         "unit": "%",
+         "label": "東京瓦斯第77回債の利率"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "利率(％)  年3.293％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITH）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITH）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-09",
+       "text": "東京瓦斯の第78回債の利率は年2.593%で、2031年11月26日に償還する。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.593,
+         "unit": "%",
+         "label": "東京瓦斯第78回債の利率"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "利率(％)  年2.593％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITH）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITH）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-10",
+       "text": "東京瓦斯は、差し引いた手取りの概算額69,820百万円を、全額、2026年12月16日に償還期限が来る短期社債（コマーシャル・ペーパー）の償還に充てる予定である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 69820,
+         "unit": "百万円",
+         "label": "東京瓦斯の差引手取概算額"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "差引手取概算額69,820百万円は、全額を2026年12月16日に償還期限が到来する短期社債（コマーシャル・ペーパー）の償還資金に充当する予定",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITH）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZITH）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-11",
+       "text": "一般に、返すまでの期間が長い社債ほど、利率は高く決まりやすい。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-19-006-1",
+       "text": "AI関連需要の増加で半導体の製造装置の需要が続けば、装置に使う部品をつくる業種で設備投資が増え、その設備をつくる機械の業種の受注にもつながる可能性がある。",
+       "falsifier": "日本の半導体製造装置の販売額が前年同月を下回る月が続けば、この見方は成り立たない。",
+       "check_metric": "日本の半導体製造装置の月ごとの販売額（業界団体の統計）",
+       "check_by": "2027-03-31"
+      },
+      {
+       "inference_id": "INF-2026-11-19-006-2",
+       "text": "返すまでの期間が10年ほどの社債の利率が年3%を超える水準になると、社債でお金を集める会社の利払いの負担が増え、借り換えの時期を前倒しする会社が増える可能性がある。",
+       "falsifier": "今後3か月に出る事業会社の10年ほどの社債の利率が、年3%を下回る水準に戻れば、この見方は弱まる。",
+       "check_metric": "EDINETの発行登録追補書類に書かれた事業会社の社債の利率",
+       "check_by": "2027-02-19"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-19-007",
+     "event_id": "EVT-2026-11-19-007",
+     "headline": "深掘り：株主と社員に配る──ＭＥＲＦは1株20円の配当（うち特別配当10円）を賛成の割合99.58%で可決、ビックカメラは社員ら341名に新株予約権（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-007-01",
+       "text": "ＭＥＲＦは11月19日の定時株主総会で、期末配当を1株につき20円（うち普通配当10円、特別配当10円）とする議案を可決した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "株",
+         "label": "配当の基準の株数"
+        },
+        {
+         "value": 20,
+         "unit": "円",
+         "label": "1株あたりの期末配当"
+        },
+        {
+         "value": 10,
+         "unit": "円",
+         "label": "うち普通配当"
+        },
+        {
+         "value": 10,
+         "unit": "円",
+         "label": "うち特別配当"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "当社普通株式１株につき金20円（うち普通配当10円、特別配当10円）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIY3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIY3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-02",
+       "text": "特別配当は、いつもの配当（普通配当）とは別に、その時だけ上乗せして払う配当のことである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-03",
+       "text": "配当の総額は283,077,680円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 283077680,
+         "unit": "円",
+         "label": "配当の総額"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "総額283,077,680円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIY3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIY3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-04",
+       "text": "この議案には113,355個の賛成と294個の反対があり、賛成の割合は99.58%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 113355,
+         "unit": "個",
+         "label": "賛成の議決権の数"
+        },
+        {
+         "value": 294,
+         "unit": "個",
+         "label": "反対の議決権の数"
+        },
+        {
+         "value": 99.58,
+         "unit": "%",
+         "label": "賛成の割合"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "第１号議案  113,355  294  0  （注）１  99.58  可決",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIY3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIY3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-05",
+       "text": "ビックカメラは11月18日に提出した訂正臨時報告書で、執行役員と従業員、子会社の従業員の計341名に、株式報酬型ストック・オプションとして新株予約権1,820個を割り当てると届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 341,
+         "unit": "名",
+         "label": "割り当てる相手の人数"
+        },
+        {
+         "value": 1820,
+         "unit": "個",
+         "label": "割り当てる新株予約権の数"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "当社執行役員及び従業員並びに当社子会社の従業員341名に1,820個を割り当てる",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIQ9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIQ9）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-06",
+       "text": "新株予約権1個あたりの株式の数は100株である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "個",
+         "label": "基準の新株予約権の数"
+        },
+        {
+         "value": 100,
+         "unit": "株",
+         "label": "1個あたりの株式の数"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "付与株式数は１個当たり100株とする",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIQ9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIQ9）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-07",
+       "text": "権利を使うときに払う金額は、1株あたり1円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "株",
+         "label": "基準の株数"
+        },
+        {
+         "value": 1,
+         "unit": "円",
+         "label": "権利を使うときの1株あたりの金額"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "株式１株当たりの金額を１円とし",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIQ9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIQ9）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-08",
+       "text": "新株予約権は、決められた期間に決められた金額で会社の株を受け取れる権利で、役員や社員への報酬として使われることがある。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-19-007-1",
+       "text": "社員に株を受け取る権利を配る仕組みが小売業で広がれば、人手が足りないなかで人材を引き留める手段として使われる可能性がある。",
+       "falsifier": "今後1年の小売業の会社による新株予約権の発行の届け出（臨時報告書）の件数が、前の年より減れば、この見方は成り立たない。",
+       "check_metric": "EDINETの臨時報告書（新株予約権の発行）のうち、小売業の会社によるものの件数",
+       "check_by": "2027-11-19"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-11-19T13:16:43.740282+09:00",
+  "first_run": {
+   "run_at": "2026-11-19T13:16:43.740282+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 12,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 46,
+  "passed": 35,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 11,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 8,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-001": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E05665-000_2026-11-19_01_2026-11-19_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E05665-000_2026-11-19_01_2026-11-19_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E02404-000_2026-11-19_01_2026-11-19_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E02404-000_2026-11-19_01_2026-11-19_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E25443-000_2026-11-19_01_2026-11-19_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E25443-000_2026-11-19_01_2026-11-19_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-006": {
+    "files": [
+     "XBRL/PublicDoc/0100000_honbun_jpcrp120000-rep-001_E04514-000_2026-11-19_01_2026-11-19_ixbrl.htm",
+     "XBRL/PublicDoc/0300000_honbun_jpcrp120000-rep-001_E04514-000_2026-11-19_01_2026-11-19_ixbrl.htm",
+     "XBRL/PublicDoc/0400000_honbun_jpcrp120000-rep-001_E04514-000_2026-11-19_01_2026-11-19_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp120000-rep-001_E04514-000_2026-11-19_01_2026-11-19_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-007": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp120000-rep-001_E01137-000_2026-11-19_01_2026-11-19_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp120000-rep-001_E01137-000_2026-11-19_01_2026-11-19_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-008": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E03481-000_2026-10-19_02_2026-11-18_ixbrl.htm",
+     "PublicDoc/0000000_header.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 8,
+  "attribution_overwritten": 47,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "noon",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 12,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 4,
+  "evidence_doc_type_overridden": 4,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {
+   "edinet_doctype_unmapped": 4
+  },
+  "impact_kind_undetermined_by_doc_type": {
+   "180": 2,
+   "100": 2
+  },
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 4,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 4,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 1,
+   "source_ids": [
+    "SRC-011"
+   ]
+  },
+  "number_coverage": {
+   "text_number_tokens": 116,
+   "numbers_declared": 55,
+   "gap": 61,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 116,
+     "numbers_declared": 55
+    },
+    "explainer": {
+     "text_number_tokens": 0,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 1,
+   "line_ids": [
+    "L-001-01"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [
+   {
+    "word": "主要",
+    "location": "headline",
+    "id": "ART-2026-11-19-005"
+   },
+   {
+    "word": "主要",
+    "location": "line_text",
+    "id": "L-005-01"
+   },
+   {
+    "word": "主要",
+    "location": "line_text",
+    "id": "L-005-04"
+   },
+   {
+    "word": "主要",
+    "location": "hypothesis_relation_text",
+    "id": "2026-11-19-noon-2"
+   },
+   {
+    "word": "主要",
+    "location": "hypothesis_impact_reason",
+    "id": "2026-11-19-noon-2"
+   }
+  ],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 6,
+   "change": 14,
+   "ripple": 9,
+   "deep": 6
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 4,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-010",
+    "SRC-013"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 2,
+   "first_run_at": "2026-11-19T13:16:15.257705+09:00",
+   "last_run_at": "2026-11-19T13:16:39.416005+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [
+    "L-002-01"
+   ],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 35,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [
+   {
+    "hypothesis_id": "2026-11-19-noon-1",
+    "company_name": "ピジョン株式会社",
+    "submitted_at": "2026-11-19T10:51:00+09:00",
+    "baseline_point": "2026-11-19T13:16:43.740282+09:00",
+    "trading_minutes": 85,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-11-19-noon-2",
+    "company_name": "イー・ギャランティ株式会社",
+    "submitted_at": "2026-11-19T09:24:00+09:00",
+    "baseline_point": "2026-11-19T13:16:43.740282+09:00",
+    "trading_minutes": 172,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-11-19-noon-3",
+    "company_name": "ＮＧＫ株式会社",
+    "submitted_at": "2026-11-19T10:09:00+09:00",
+    "baseline_point": "2026-11-19T13:16:43.740282+09:00",
+    "trading_minutes": 127,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-11-19-noon-4",
+    "company_name": "東京瓦斯株式会社",
+    "submitted_at": "2026-11-19T10:00:00+09:00",
+    "baseline_point": "2026-11-19T13:16:43.740282+09:00",
+    "trading_minutes": 136,
+    "reason": null
+   }
+  ],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 7,
+   "total_unregistered": 9,
+   "excluded_date_time_tokens": 53,
+   "lines": [
+    {
+     "line_id": "L-001-01",
+     "values": [
+      "27"
+     ]
+    },
+    {
+     "line_id": "L-006-02",
+     "values": [
+      "1",
+      "2"
+     ]
+    },
+    {
+     "line_id": "L-006-03",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-006-04",
+     "values": [
+      "2"
+     ]
+    },
+    {
+     "line_id": "L-006-07",
+     "values": [
+      "77",
+      "78"
+     ]
+    },
+    {
+     "line_id": "L-006-08",
+     "values": [
+      "77"
+     ]
+    },
+    {
+     "line_id": "L-006-09",
+     "values": [
+      "78"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 5,
+   "zero_letter_count": 0,
+   "lines": [
+    {
+     "line_id": "L-006-03",
+     "letters": 3
+    },
+    {
+     "line_id": "L-006-04",
+     "letters": 3
+    },
+    {
+     "line_id": "L-006-08",
+     "letters": 3
+    },
+    {
+     "line_id": "L-006-09",
+     "letters": 3
+    },
+    {
+     "line_id": "L-007-03",
+     "letters": 3
+    }
+   ]
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "ok",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 4,
+    "source_ids": [
+     "SRC-009",
+     "SRC-010",
+     "SRC-011",
+     "SRC-013"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 7
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 1,
+   "articles": [
+    {
+     "article_id": "ART-2026-11-19-004",
+     "headline_has_word": true,
+     "is_followup": false
+    }
+   ]
+  },
+  "industry_picks_discarded": 0,
+  "industry_picks_total": 1,
+  "industry_examples_total": 0,
+  "industry_example_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "ai_written_examples_discarded": 0,
+  "slot_violations": {
+   "total": 1,
+   "reasons": {
+    "slot_per_article_limit": 1
+   }
+  },
+  "short_name_match_count": {
+   "count": 0,
+   "names": []
+  },
+  "allowed_industries_count": 30,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
