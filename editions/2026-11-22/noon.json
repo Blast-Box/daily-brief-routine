@@ -1,0 +1,1172 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-11-22-noon",
+ "date": "2026-11-22",
+ "slot": "noon",
+ "generated_at": "2026-11-22T13:12:21.735079+09:00",
+ "market_open": false,
+ "baseline": {
+  "date": "2026-11-22",
+  "price_type": "observed"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-22&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月22日）",
+   "published_at": "2026-11-22",
+   "fetched_at": "2026-11-22T13:07:53+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "fb66c1fc66e165276d503030235d0a5d07eaff44216c479b3fc2c47706cd7dc4",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-20&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月20日）",
+   "published_at": "2026-11-20",
+   "fetched_at": "2026-11-22T13:07:59+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "99bc9f1afdb34b5854fe710f57b39fe9eb6ef37db32ed941d2ccfc2aef9c1c25",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/report/zaiseia20261120/index.html",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "令和９年度予算の編成等に関する建議",
+   "published_at": "2026-11-20",
+   "fetched_at": "2026-11-22T13:08:50+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "8d8f6ca78a3e5378a009bafa2d93a77ee7911e0e261596c4a9a775e8282f15dc",
+   "usage": "quotable",
+   "attribution": "出典：財務省「令和９年度予算の編成等に関する建議」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/report/zaiseia20261120/index.html）",
+   "processing_note": "財務省「令和９年度予算の編成等に関する建議」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/report/zaiseia20261120/index.html）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/report/zaiseia20261120/02.pdf",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "令和９年度予算の編成等に関する建議 概要",
+   "published_at": "2026-11-20",
+   "fetched_at": "2026-11-22T13:08:51+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "74addf7780b2c7caccb86412db3645129aa14a4e115725fc0ca7dd0a8c17a103",
+   "usage": "quotable",
+   "attribution": "出典：財務省「令和９年度予算の編成等に関する建議 概要」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/report/zaiseia20261120/02.pdf）",
+   "processing_note": "財務省「令和９年度予算の編成等に関する建議 概要」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/report/zaiseia20261120/02.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://www.mof.go.jp/public_relations/conference/my20261120.html",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年11月20日(金曜日))",
+   "published_at": "2026-11-20",
+   "fetched_at": "2026-11-22T13:08:53+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "9e7e9a44a6c65922a86f513f0630946a36ac0f9ad34d57e88dfaa09c955fdc32",
+   "usage": "quotable",
+   "attribution": "出典：財務省「片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年11月20日(金曜日))」（https://www.mof.go.jp/public_relations/conference/my20261120.html）",
+   "processing_note": "財務省「片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年11月20日(金曜日))」（https://www.mof.go.jp/public_relations/conference/my20261120.html）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZIX9?type=1",
+   "publisher": "株式会社　りそなホールディングス",
+   "publisher_type": "company_disclosure",
+   "title": "半期報告書－第26期(2026/04/01－2027/03/31)（株式会社　りそなホールディングス）",
+   "published_at": "2026-11-20T12:01:00+09:00",
+   "fetched_at": "2026-11-22T13:09:22+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "26599d6e4747fcce232f55bc47e5ad01ff3cb8fd2d5dccd0bd560804e8424328",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIX9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIX9）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIX9"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZEFV?type=1",
+   "publisher": "株式会社ゆうちょ銀行",
+   "publisher_type": "company_disclosure",
+   "title": "半期報告書－第21期(2026/04/01－2027/03/31)（株式会社ゆうちょ銀行）",
+   "published_at": "2026-11-20T15:30:00+09:00",
+   "fetched_at": "2026-11-22T13:09:30+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "06cd77e6705686ef5a08568c60e2e37b9550efb3ff0aa8bcc29850f074f55430",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEFV）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEFV）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEFV"
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZIZP?type=1",
+   "publisher": "株式会社福井銀行",
+   "publisher_type": "company_disclosure",
+   "title": "半期報告書－第207期(2026/04/01－2027/03/31)（株式会社福井銀行）",
+   "published_at": "2026-11-20T09:00:00+09:00",
+   "fetched_at": "2026-11-22T13:09:37+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "4eaa1946c9db6bddc95928a16e56678323ebc79eed5d0f962b01575e30095911",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIZP）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIZP）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIZP"
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZIZT?type=1",
+   "publisher": "株式会社　良品計画",
+   "publisher_type": "company_disclosure",
+   "title": "有価証券報告書－第48期(2025/09/01－2026/08/31)（株式会社　良品計画）",
+   "published_at": "2026-11-20T10:10:00+09:00",
+   "fetched_at": "2026-11-22T13:09:45+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "2767df4473645a6ea77af11409fcebaea5742886fe2b3fc06269baec84e0ffe7",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIZT）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIZT）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIZT"
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-22-001",
+     "event_id": "EVT-2026-11-22-001",
+     "headline": "財政制度等審議会が来年度予算への建議：医療費の窓口負担は「3割負担の対象の拡大を含め」引き上げるべき、介護は2割負担の範囲を拡大（財務省）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "財政制度等審議会は、国の予算や財政のあり方について意見をまとめ、財務大臣に伝える審議会である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "財政制度等審議会が11月にまとめた「令和9年度予算の編成等に関する建議」の概要は、令和9年度の社会保障負担率が令和7年度と比べて上昇しないよう取り組む必要があるとした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9,
+         "unit": "年度",
+         "label": "日付（対象の年度：令和9年度）"
+        },
+        {
+         "value": 7,
+         "unit": "年度",
+         "label": "日付（比べる年度：令和7年度）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "令和９年度の社会保障負担率が令和７年度と比較して上昇しないよう取り組む必要",
+       "attribution": "出典：財務省「令和９年度予算の編成等に関する建議 概要」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/report/zaiseia20261120/02.pdf）",
+       "processing_note": "財務省「令和９年度予算の編成等に関する建議 概要」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/report/zaiseia20261120/02.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "医療については、低所得者などの必要な受診が確保されるよう配慮することを前提に、医療費の窓口負担を「3割負担の対象の拡大を含め」着実に引き上げるべきだとした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3,
+         "unit": "割",
+         "label": "医療費の窓口負担の割合（3割負担）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "医療費の窓口負担は、3割負担の対象の拡大を含め、着実に引き上げるべき。",
+       "attribution": "出典：財務省「令和９年度予算の編成等に関する建議 概要」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/report/zaiseia20261120/02.pdf）",
+       "processing_note": "財務省「令和９年度予算の編成等に関する建議 概要」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/report/zaiseia20261120/02.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "介護保険の利用者負担については、2割負担が適用される範囲を広げるほか、金融所得の勘案など、負担できる力をより適切に反映する必要があるとした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "割",
+         "label": "介護保険の利用者負担の割合（2割負担）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "介護保険の利用者負担について、２割負担の適用範囲を拡大するほか、金融所得の勘案等",
+       "attribution": "出典：財務省「令和９年度予算の編成等に関する建議 概要」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/report/zaiseia20261120/02.pdf）",
+       "processing_note": "財務省「令和９年度予算の編成等に関する建議 概要」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/report/zaiseia20261120/02.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "令和9年度の介護報酬の改定は、賃金・物価の動きに対応して介護の人材を確保しつつ、現役世代の負担を抑える観点から、報酬の適正化に取り組むべきだとした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9,
+         "unit": "年度",
+         "label": "日付（対象の年度：令和9年度）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "令和９年度介護報酬改定は、賃金・物価動向の変化に的確に対応し、介護人材を確保するとともに",
+       "attribution": "出典：財務省「令和９年度予算の編成等に関する建議 概要」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/report/zaiseia20261120/02.pdf）",
+       "processing_note": "財務省「令和９年度予算の編成等に関する建議 概要」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/report/zaiseia20261120/02.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "国の情報システムについては、運用経費などを3割削減する目標は達成が難しい見通しだとして、費用対効果が乏しいものは廃止・統合を含めた対応が必要だとした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3,
+         "unit": "割",
+         "label": "情報システムの運用経費等の削減目標（3割）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "既存の情報システムの運用経費等の３割削減目標は達成困難な見通し。",
+       "attribution": "出典：財務省「令和９年度予算の編成等に関する建議 概要」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/report/zaiseia20261120/02.pdf）",
+       "processing_note": "財務省「令和９年度予算の編成等に関する建議 概要」（https://www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/report/zaiseia20261120/02.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "建議は審議会の意見であり、予算そのものは政府が案をつくり、国会の議決で決まる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-22-001-1",
+       "text": "医療費や介護の自己負担の引き上げが実際に決まれば、医療業や介護サービスの利用の伸びが鈍る可能性がある。",
+       "falsifier": "12月に決まる令和9年度予算の政府案や制度改正で、窓口負担・利用者負担の引き上げが見送られれば、この見方は成り立たない。",
+       "check_metric": "令和9年度予算政府案の社会保障関係費と、医療費の窓口負担・介護の2割負担の範囲に関する制度改正の内容",
+       "check_by": "2026-12-31"
+      },
+      {
+       "inference_id": "INF-2026-11-22-001-2",
+       "text": "国の情報システムの廃止・統合が進めば、官公庁向けのシステム開発を手がける情報・通信業の受注に影響する可能性がある。",
+       "falsifier": "令和9年度予算の政府案で、情報システム関係の予算額が前年度より増えていれば、この見方は当てはまりにくい。",
+       "check_metric": "令和9年度予算政府案のデジタル庁一括計上の情報システム関係予算",
+       "check_by": "2026-12-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": []
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-22-002",
+     "event_id": "EVT-2026-11-22-002",
+     "headline": "続報：JTの配当と国の出資の財源──財務大臣、政府はJTの株の約3分の1を持ち、配当は財政投融資の産業投資の財源と説明",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "財務大臣は11月20日の閣議後の記者会見で、政府がJTの発行済み株式の約3分の1を保有し、その配当金は財政投融資のうち産業投資の財源として活用されていると説明した。配当予想の修正を受けても、投資勘定全体で見れば産業投資に直ちに支障を生じることはないとの考えも示した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3,
+         "unit": "分の1",
+         "label": "政府が持つJT株の割合（約3分の1の「3」）"
+        },
+        {
+         "value": 1,
+         "unit": "",
+         "label": "政府が持つJT株の割合（約3分の1の「1」）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "政府はＪＴの発行済み株式の約３分の１を保有しておりまして、この配当金は財政投融資のうちの産業投資の財源として活用されています",
+       "attribution": "出典：財務省「片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年11月20日(金曜日))」（https://www.mof.go.jp/public_relations/conference/my20261120.html）",
+       "processing_note": "財務省「片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要(令和8年11月20日(金曜日))」（https://www.mof.go.jp/public_relations/conference/my20261120.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "財政投融資の産業投資は、国が持つ株の配当などを元手に、民間だけでは資金が集まりにくい事業へ出資する仕組みである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-22-002-1",
+       "text": "国が株を持つ会社の配当が減ると、財政投融資の産業投資に回せるお金の見通しが変わり、出資を受ける事業の分野に影響する可能性がある。",
+       "falsifier": "令和9年度の財政投融資計画で、産業投資の計画額が令和8年度より増えていれば、この見方は当てはまりにくい。",
+       "check_metric": "財務省 令和9年度財政投融資計画の産業投資の額",
+       "check_by": "2026-12-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-22-003",
+     "event_id": "EVT-2026-11-22-003",
+     "headline": "波及を追う：無印良品の良品計画、8月までの1年の営業収益は前期比17.7%増、東アジア事業は32.2%増（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "有価証券報告書は、上場会社が一年の事業の成績や財産の状態をまとめて国に出す書類である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "良品計画が11月20日に出した有価証券報告書によると、8月までの1年の連結の営業収益は前期より17.7%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 17.7,
+         "unit": "%",
+         "label": "営業収益の前期比（連結）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "営業収益　　　　　　　　　　　　　　　9,235億92百万円（前期比 17.7％増）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIZT）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIZT）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "国内事業の営業収益は前期比8.7%増、セグメント利益は21.6%増だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 8.7,
+         "unit": "%",
+         "label": "国内事業の営業収益の前期比"
+        },
+        {
+         "value": 21.6,
+         "unit": "%",
+         "label": "国内事業のセグメント利益の前期比"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "国内事業における当連結会計年度の営業収益は5,109億93百万円（前期比8.7％増）、セグメント利益は633億90百万円（同21.6％増）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIZT）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIZT）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "東アジア事業の営業収益は前期比32.2%増、セグメント利益は44.2%増だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 32.2,
+         "unit": "%",
+         "label": "東アジア事業の営業収益の前期比"
+        },
+        {
+         "value": 44.2,
+         "unit": "%",
+         "label": "東アジア事業のセグメント利益の前期比"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "東アジア事業における当連結会計年度の営業収益は2,937億83百万円（前期比32.2％増）、セグメント利益は616億90百万円（同44.2％増）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIZT）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIZT）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "東南アジア・オセアニア事業の営業収益は前期比32.8%増、セグメント利益は64.1%増だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 32.8,
+         "unit": "%",
+         "label": "東南アジア・オセアニア事業の営業収益の前期比"
+        },
+        {
+         "value": 64.1,
+         "unit": "%",
+         "label": "東南アジア・オセアニア事業のセグメント利益の前期比"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "東南アジア・オセアニア事業における当連結会計年度の営業収益は665億19百万円（前期比32.8％増）、セグメント利益は91億63百万円（同64.1％増）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIZT）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIZT）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-06",
+       "text": "欧米事業の営業収益は前期比24.1%増、セグメント利益は17.0%増だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 24.1,
+         "unit": "%",
+         "label": "欧米事業の営業収益の前期比"
+        },
+        {
+         "value": 17.0,
+         "unit": "%",
+         "label": "欧米事業のセグメント利益の前期比"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "欧米事業における当連結会計年度の営業収益は522億95百万円（前期比24.1％増）、セグメント利益は80億97百万円（同17.0％増）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIZT）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIZT）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-07",
+       "text": "海外の売上を円に直して決算に載せる会社では、円安になると、現地での売上が同じでも円での金額が大きくなる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-22-003-1",
+       "text": "海外の店舗の売上の割合が高い小売業では、円相場が円高に動くと、円に直した営業収益の伸びが小さくなる可能性がある。",
+       "falsifier": "円相場が円高に動いた期間でも、海外の売上の割合が高い小売業の円での営業収益の伸び率が下がらなければ、この見方は成り立たない。",
+       "check_metric": "日本銀行 外国為替市況の円相場（月中平均）と、小売業の海外事業の営業収益の前期比",
+       "check_by": "2027-04-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-22-004",
+     "event_id": "EVT-2026-11-22-004",
+     "headline": "深掘り：金利が上がると銀行はどうなる──ゆうちょ銀行・りそな・福井銀行の半期報告書、受け取る利息も払う利息も増える（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "半期報告書は、上場会社が事業年度の前半の成績や財産の状態をまとめて国に出す書類である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "ゆうちょ銀行の半期報告書によると、9月までの半年の親会社株主に帰属する中間純利益は3,815億円で、前年同期より1,411億円増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3815,
+         "unit": "億円",
+         "label": "親会社株主に帰属する中間純利益（ゆうちょ銀行・連結）"
+        },
+        {
+         "value": 1411,
+         "unit": "億円",
+         "label": "中間純利益の前年同期からの増加額（ゆうちょ銀行・連結）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "親会社株主に帰属する中間純利益は、3,815億円と前年同期比1,411億円の増益となりました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEFV）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEFV）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "ゆうちょ銀行は、資金利益が外債投資信託からの収益や国内金利の上昇に伴う国債利息の増加などにより、前年同期より2,977億円増えたと書いている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2977,
+         "unit": "億円",
+         "label": "資金利益の前年同期からの増加額（ゆうちょ銀行・連結）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "資金利益は、外債投資信託からの収益や国内金利上昇に伴う国債利息の増加等により、前年同期比2,977億円の増加となりました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEFV）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEFV）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "ゆうちょ銀行は11月13日に、通期の業績予想のうち親会社株主に帰属する当期純利益を7,000億円に上方修正した（経常利益の予想も上方修正した）と書いている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 7000,
+         "unit": "億円",
+         "label": "通期業績予想の親会社株主に帰属する当期純利益（修正後）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "親会社株主に帰属する当期純利益を7,000億円に、それぞれ上方修正しております",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEFV）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZEFV）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "りそなホールディングスの半期報告書によると、親会社株主に帰属する中間純利益は前の中間期より306億円増えて1,735億円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 306,
+         "unit": "億円",
+         "label": "中間純利益の増加額（りそなホールディングス）"
+        },
+        {
+         "value": 1735,
+         "unit": "億円",
+         "label": "親会社株主に帰属する中間純利益（りそなホールディングス）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "親会社株主に帰属する中間純利益は同比306億円増加して1,735億円となりました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIX9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIX9）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-06",
+       "text": "りそなホールディングスの資金利益は、前の中間期より701億円増えて3,520億円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 701,
+         "unit": "億円",
+         "label": "資金利益の増加額（りそなホールディングス）"
+        },
+        {
+         "value": 3520,
+         "unit": "億円",
+         "label": "資金利益（りそなホールディングス）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "このうち資金利益は、同比701億円増加して3,520億円となりました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIX9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIX9）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-07",
+       "text": "一方、りそなホールディングスの中間連結損益計算書では、預金利息は前の中間期の64,103百万円から、106,496百万円に増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 64103,
+         "unit": "百万円",
+         "label": "預金利息（前中間連結会計期間）"
+        },
+        {
+         "value": 106496,
+         "unit": "百万円",
+         "label": "預金利息（当中間連結会計期間）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "（うち預金利息）  64,103  106,496",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIX9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIX9）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-08",
+       "text": "地方銀行の福井銀行の中間連結損益計算書では、貸出金利息が前の中間期の14,818百万円から18,913百万円に増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 14818,
+         "unit": "百万円",
+         "label": "貸出金利息（前中間連結会計期間）"
+        },
+        {
+         "value": 18913,
+         "unit": "百万円",
+         "label": "貸出金利息（当中間連結会計期間）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "（うち貸出金利息）  14,818  18,913",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIZP）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIZP）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-09",
+       "text": "同じ表で、福井銀行の預金利息は2,912百万円から5,193百万円に増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2912,
+         "unit": "百万円",
+         "label": "預金利息（前中間連結会計期間）"
+        },
+        {
+         "value": 5193,
+         "unit": "百万円",
+         "label": "預金利息（当中間連結会計期間）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "（うち預金利息）  2,912  5,193",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIZP）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIZP）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-10",
+       "text": "福井銀行の連結の経常利益は、前の中間期の4,918百万円から4,587百万円に減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4918,
+         "unit": "百万円",
+         "label": "経常利益（前中間連結会計期間）"
+        },
+        {
+         "value": 4587,
+         "unit": "百万円",
+         "label": "経常利益（当中間連結会計期間）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "経常利益  4,918  4,587",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIZP）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIZP）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-11",
+       "text": "銀行は、預金者に払う利息と、貸し出しや債券から受け取る利息の差（資金利益）で稼ぐ。金利が上がると、受け取る利息と払う利息の両方が増える。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-22-004-1",
+       "text": "国内の金利の上昇が続けば、銀行業では貸出金利息と国債利息の増加が預金利息の増加を上回り、資金利益が増え続ける可能性がある。ただし、預金を集める競争が強い地域の銀行では、預金利息の増加が利益を押し下げる可能性もある。",
+       "falsifier": "令和8年度通期の決算で、地方銀行の多くの資金利益が前期より減っていれば、この見方は成り立たない。",
+       "check_metric": "各銀行の令和8年度（2027年3月期）通期の資金利益と預金利息",
+       "check_by": "2027-06-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-11-22T13:12:21.735079+09:00",
+  "first_run": {
+   "run_at": "2026-11-22T13:12:21.735079+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 9,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 27,
+  "passed": 20,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 7,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 6,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-004": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp040300-ssr-001_E03610-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp040300-ssr-001_E03610-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp040300-ssr-001_E03610-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105000_honbun_jpcrp040300-ssr-001_E03610-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105010_honbun_jpcrp040300-ssr-001_E03610-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105020_honbun_jpcrp040300-ssr-001_E03610-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105025_honbun_jpcrp040300-ssr-001_E03610-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105040_honbun_jpcrp040300-ssr-001_E03610-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105050_honbun_jpcrp040300-ssr-001_E03610-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105100_honbun_jpcrp040300-ssr-001_E03610-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105310_honbun_jpcrp040300-ssr-001_E03610-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105320_honbun_jpcrp040300-ssr-001_E03610-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105330_honbun_jpcrp040300-ssr-001_E03610-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105400_honbun_jpcrp040300-ssr-001_E03610-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105410_honbun_jpcrp040300-ssr-001_E03610-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp040300-ssr-001_E03610-000_2026-09-30_01_2026-11-20_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp040300-ssr-001_E31775-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp040300-ssr-001_E31775-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp040300-ssr-001_E31775-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104000_honbun_jpcrp040300-ssr-001_E31775-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105010_honbun_jpcrp040300-ssr-001_E31775-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105020_honbun_jpcrp040300-ssr-001_E31775-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105025_honbun_jpcrp040300-ssr-001_E31775-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105040_honbun_jpcrp040300-ssr-001_E31775-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105050_honbun_jpcrp040300-ssr-001_E31775-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105100_honbun_jpcrp040300-ssr-001_E31775-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105110_honbun_jpcrp040300-ssr-001_E31775-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105310_honbun_jpcrp040300-ssr-001_E31775-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105320_honbun_jpcrp040300-ssr-001_E31775-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105330_honbun_jpcrp040300-ssr-001_E31775-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105400_honbun_jpcrp040300-ssr-001_E31775-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp040300-ssr-001_E31775-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp040300-ssr-001_E31775-000_2026-09-30_01_2026-11-20_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-006": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp040300-ssr-001_E03567-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp040300-ssr-001_E03567-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp040300-ssr-001_E03567-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105000_honbun_jpcrp040300-ssr-001_E03567-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105010_honbun_jpcrp040300-ssr-001_E03567-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105020_honbun_jpcrp040300-ssr-001_E03567-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105025_honbun_jpcrp040300-ssr-001_E03567-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105040_honbun_jpcrp040300-ssr-001_E03567-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105050_honbun_jpcrp040300-ssr-001_E03567-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105100_honbun_jpcrp040300-ssr-001_E03567-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105110_honbun_jpcrp040300-ssr-001_E03567-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105120_honbun_jpcrp040300-ssr-001_E03567-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105310_honbun_jpcrp040300-ssr-001_E03567-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105320_honbun_jpcrp040300-ssr-001_E03567-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105330_honbun_jpcrp040300-ssr-001_E03567-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105400_honbun_jpcrp040300-ssr-001_E03567-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp040300-ssr-001_E03567-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp040300-ssr-001_E03567-000_2026-09-30_01_2026-11-20_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-007": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp030000-asr-001_E03248-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp030000-asr-001_E03248-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp030000-asr-001_E03248-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp030000-asr-001_E03248-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105010_honbun_jpcrp030000-asr-001_E03248-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105020_honbun_jpcrp030000-asr-001_E03248-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0106010_honbun_jpcrp030000-asr-001_E03248-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0107010_honbun_jpcrp030000-asr-001_E03248-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0200010_honbun_jpcrp030000-asr-001_E03248-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp030000-asr-001_E03248-000_2026-08-31_01_2026-11-20_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 6,
+  "attribution_overwritten": 29,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "noon",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 9,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 0,
+  "evidence_doc_type_overridden": 0,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {},
+  "impact_kind_undetermined_by_doc_type": {},
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 0,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 0,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 1,
+   "source_ids": [
+    "SRC-002"
+   ],
+   "reasons": {
+    "SRC-002": "not_in_body"
+   },
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 44,
+   "numbers_declared": 33,
+   "gap": 11,
+   "by_mark": {
+    "explainer": {
+     "text_number_tokens": 0,
+     "numbers_declared": 0
+    },
+    "source_number_match": {
+     "text_number_tokens": 44,
+     "numbers_declared": 33
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 2,
+   "line_ids": [
+    "L-001-02",
+    "L-001-05"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 5,
+   "change": 0,
+   "ripple": 6,
+   "deep": 9
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 5,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-001",
+    "SRC-002",
+    "SRC-003"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 1,
+   "first_run_at": "2026-11-22T13:12:13.068029+09:00",
+   "last_run_at": "2026-11-22T13:12:13.068029+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 20,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 0,
+   "total_unregistered": 0,
+   "excluded_date_time_tokens": 15,
+   "lines": []
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 0,
+   "zero_letter_count": 0,
+   "lines": []
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "market_closed",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 3,
+    "source_ids": [
+     "SRC-001",
+     "SRC-002",
+     "SRC-003"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 4
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 1,
+   "articles": [
+    {
+     "article_id": "ART-2026-11-22-002",
+     "headline_has_word": true,
+     "is_followup": false
+    }
+   ]
+  },
+  "industry_picks_discarded": 0,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
