@@ -1,0 +1,1463 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-11-22-evening",
+ "date": "2026-11-22",
+ "slot": "evening",
+ "generated_at": "2026-11-22T17:14:52.915990+09:00",
+ "market_open": false,
+ "baseline": {
+  "date": "2026-11-24",
+  "price_type": "next_open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-22&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月22日）",
+   "published_at": "2026-11-22",
+   "fetched_at": "2026-11-22T17:08:05+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "342feb0980d98389eded25e969b301cda0ff8d943ba9f3a842dddc0d6e787a3d",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-20&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月20日）",
+   "published_at": "2026-11-20",
+   "fetched_at": "2026-11-22T17:08:11+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "99bc9f1afdb34b5854fe710f57b39fe9eb6ef37db32ed941d2ccfc2aef9c1c25",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261120a_toushin.html",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "大韓民国及び中華人民共和国（香港地域及びマカオ地域を除く。）を原産地とする溶融亜鉛めっき鋼帯及び鋼板に対して不当廉売関税を課することについての答申 （令和8年11月20日）",
+   "published_at": "2026-11-20",
+   "fetched_at": "2026-11-22T17:09:33+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "815e64123b68704533cb721208dae0330dba863b139f4cfa263a5ec00d37c3f8",
+   "usage": "quotable",
+   "attribution": "出典：財務省「大韓民国及び中華人民共和国（香港地域及びマカオ地域を除く。）を原産地とする溶融亜鉛めっき鋼帯及び鋼板に対して不当廉売関税を課することについての答申 （令和8年11月20日）」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261120a_toushin.html）",
+   "processing_note": "財務省「大韓民国及び中華人民共和国（香港地域及びマカオ地域を除く。）を原産地とする溶融亜鉛めっき鋼帯及び鋼板に対して不当廉売関税を課することについての答申 （令和8年11月20日）」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261120a_toushin.html）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261120b_toushin.html",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "大韓民国並びに台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするビスフェノールＡに対して不当廉売関税を課することについての答申 （令和8年11月20日）",
+   "published_at": "2026-11-20",
+   "fetched_at": "2026-11-22T17:09:34+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "6d320c879ff9ded45fa2490dfb975116915ba8983c50d00d14477b98a0f63cb7",
+   "usage": "quotable",
+   "attribution": "出典：財務省「大韓民国並びに台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするビスフェノールＡに対して不当廉売関税を課することについての答申 （令和8年11月20日）」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261120b_toushin.html）",
+   "processing_note": "財務省「大韓民国並びに台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするビスフェノールＡに対して不当廉売関税を課することについての答申 （令和8年11月20日）」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261120b_toushin.html）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo2-1.pdf",
+   "publisher": "経済産業省",
+   "publisher_type": "government_statistics",
+   "title": "溶融亜鉛めっき鋼帯及び鋼板産業の現状",
+   "published_at": "2026-11-20",
+   "fetched_at": "2026-11-22T17:10:04+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "0be4b38887db86080787a1dd3d89835c4d11839699479449b6b568443e53fef9",
+   "usage": "quotable",
+   "attribution": "出典：経済産業省「溶融亜鉛めっき鋼帯及び鋼板産業の現状」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo2-1.pdf）",
+   "processing_note": "経済産業省「溶融亜鉛めっき鋼帯及び鋼板産業の現状」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo2-1.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo2-2.pdf",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税の課税",
+   "published_at": "2026-11-20",
+   "fetched_at": "2026-11-22T17:10:06+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "b78a448b63ad520cf404c4c35ad3bf660cc9612effbea597c51299ce6fff606b",
+   "usage": "quotable",
+   "attribution": "出典：財務省「大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo2-2.pdf）",
+   "processing_note": "財務省「大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo2-2.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-009",
+   "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo3-1.pdf",
+   "publisher": "経済産業省",
+   "publisher_type": "government_statistics",
+   "title": "ビスフェノールＡ産業の現状",
+   "published_at": "2026-11-20",
+   "fetched_at": "2026-11-22T17:10:09+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "6c937f9dd52d640500439ffd883d90503fca4abc6f2d3dfe463db3c0b4624ff1",
+   "usage": "quotable",
+   "attribution": "出典：経済産業省「ビスフェノールＡ産業の現状」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo3-1.pdf）",
+   "processing_note": "経済産業省「ビスフェノールＡ産業の現状」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo3-1.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-0010",
+   "url": "https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo3-2.pdf",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "大韓民国産及び台湾産ビスフェノールAに対する不当廉売関税の課税",
+   "published_at": "2026-11-20",
+   "fetched_at": "2026-11-22T17:10:10+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "3b65c5099d3d5db2c653b6e16bc1c0c899efc25d68046031b4559ccd50329b97",
+   "usage": "quotable",
+   "attribution": "出典：財務省「大韓民国産及び台湾産ビスフェノールAに対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo3-2.pdf）",
+   "processing_note": "財務省「大韓民国産及び台湾産ビスフェノールAに対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo3-2.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-014",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZDVV?type=1",
+   "publisher": "株式会社大庄",
+   "publisher_type": "company_disclosure",
+   "title": "有価証券報告書－第55期(2025/09/01－2026/08/31)（株式会社大庄）",
+   "published_at": "2026-11-20T12:00:00+09:00",
+   "fetched_at": "2026-11-22T17:11:00+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "e09f678371ec8fff7de624bca0a49b733ada1ee79c6837cfa59c62bf0c33f30e",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDVV）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDVV）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDVV"
+  },
+  {
+   "source_id": "SRC-015",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZJ79?type=1",
+   "publisher": "マニー株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "有価証券報告書－第67期(2025/09/01－2026/08/31)（マニー株式会社）",
+   "published_at": "2026-11-20T12:55:00+09:00",
+   "fetched_at": "2026-11-22T17:11:09+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "565d9d06003077f4f70c83c4a8d5e0658bc4ae65e980989081497a660d8f83cd",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ79）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ79）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ79"
+  },
+  {
+   "source_id": "SRC-016",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZIYT?type=1",
+   "publisher": "株式会社カーブスホールディングス",
+   "publisher_type": "company_disclosure",
+   "title": "有価証券報告書－第18期(2025/09/01－2026/08/31)（株式会社カーブスホールディングス）",
+   "published_at": "2026-11-20T15:34:00+09:00",
+   "fetched_at": "2026-11-22T17:11:16+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "f197496fe262f0f882bc3bb1c359bf9f9ddc8fc50e62d7374bad7e0d8a7ea0da",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIYT）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIYT）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIYT"
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-22-001",
+     "event_id": "EVT-2026-11-22-001",
+     "headline": "韓国・中国産の鋼板と、韓国・台湾産の化学品ビスフェノールＡに不当廉売関税：審議会が「課税は適当」と答申、期間は5年間（財務省）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "不当廉売関税は、外国の製品が輸出国での値段より不当に安く輸入され、国内の産業に被害が出ているときに、上乗せして課す関税である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "関税・外国為替等審議会は、11月20日付で財務大臣から諮問を受けた、韓国と中国（香港・マカオを除く）を原産地とする溶融亜鉛めっき鋼帯及び鋼板への不当廉売関税の課税について、諮問のとおり行うことが適当と答申した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20,
+         "unit": "日",
+         "label": "日付（諮問日）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "11月20日付財関第1340号をもって諮問のあった不当廉売関税の課税について、本審議会の意見を下記のとおり答申する",
+       "attribution": "出典：財務省「大韓民国及び中華人民共和国（香港地域及びマカオ地域を除く。）を原産地とする溶融亜鉛めっき鋼帯及び鋼板に対して不当廉売関税を課することについての答申 （令和8年11月20日）」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261120a_toushin.html）",
+       "processing_note": "財務省「大韓民国及び中華人民共和国（香港地域及びマカオ地域を除く。）を原産地とする溶融亜鉛めっき鋼帯及び鋼板に対して不当廉売関税を課することについての答申 （令和8年11月20日）」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261120a_toushin.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "溶融亜鉛めっき鋼帯及び鋼板は、鉄の薄い板の表面を、溶かした亜鉛でめっきしてさびにくくした鋼材である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "経済産業省の資料によると、この鋼板を国内で生産しているのは、日本製鉄、日鉄鋼板、ヨドコウ、神戸製鋼所を含む9者である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9,
+         "unit": "者",
+         "label": "件数（国内の生産者）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "（株）神戸製鋼所を含む９者である",
+       "attribution": "出典：経済産業省「溶融亜鉛めっき鋼帯及び鋼板産業の現状」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo2-1.pdf）",
+       "processing_note": "経済産業省「溶融亜鉛めっき鋼帯及び鋼板産業の現状」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo2-1.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "財務省の資料によると、この鋼板についての調査は、令和7年8月13日から行われた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 13,
+         "unit": "日",
+         "label": "日付（調査開始日）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "令和7年8月13日から調査を実施",
+       "attribution": "出典：財務省「大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo2-2.pdf）",
+       "processing_note": "財務省「大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo2-2.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "同じ資料の表では、国内産の販売量は、令和4年度を100とする指数で、令和6年度に79に下がった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 100,
+         "unit": "指数",
+         "label": "指数の基準"
+        },
+        {
+         "value": 79,
+         "unit": "指数",
+         "label": "国内産の販売量（令和6年度）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "本邦産品の販売量(C)             100      83      79   ▲21",
+       "attribution": "出典：財務省「大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo2-2.pdf）",
+       "processing_note": "財務省「大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo2-2.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "一方、韓国・中国産の輸入量は、同じ指数で令和6年度に123だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 123,
+         "unit": "指数",
+         "label": "韓国・中国産の輸入量（令和6年度）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "韓国・中国産品の輸入量(B)             100     123     123   ＋23",
+       "attribution": "出典：財務省「大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo2-2.pdf）",
+       "processing_note": "財務省「大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo2-2.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-08",
+       "text": "国内の産業の営業利益は、同じ指数で令和6年度に53になった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 53,
+         "unit": "指数",
+         "label": "国内の産業の営業利益（令和6年度）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "本邦産業の営業利益(J)         100   111      53  ▲47",
+       "attribution": "出典：財務省「大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo2-2.pdf）",
+       "processing_note": "財務省「大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo2-2.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-09",
+       "text": "資料によると、税率は8月に発動した暫定措置と同じで、課税する期間は5年間とされた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5,
+         "unit": "年間",
+         "label": "課税する期間"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "税率は暫定措置と同率、期間はWTO協定及び法令で認められた期間内である５年間",
+       "attribution": "出典：財務省「大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo2-2.pdf）",
+       "processing_note": "財務省「大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo2-2.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-10",
+       "text": "資料の不当廉売関税率の表では、韓国のPOSCOの製品への税率は29.2%とされている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 29.2,
+         "unit": "%",
+         "label": "不当廉売関税率（POSCO）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "・POSCO            29.2％",
+       "attribution": "出典：財務省「大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo2-2.pdf）",
+       "processing_note": "財務省「大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo2-2.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-11",
+       "text": "同じ日、審議会は、韓国と台湾を原産地とするビスフェノールＡへの不当廉売関税の課税についても、諮問のとおり行うことが適当と答申した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20,
+         "unit": "日",
+         "label": "日付（諮問日）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "11月20日付財関第1341号をもって諮問のあった不当廉売関税の課税について、本審議会の意見を下記のとおり答申する",
+       "attribution": "出典：財務省「大韓民国並びに台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするビスフェノールＡに対して不当廉売関税を課することについての答申 （令和8年11月20日）」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261120b_toushin.html）",
+       "processing_note": "財務省「大韓民国並びに台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域を原産地とするビスフェノールＡに対して不当廉売関税を課することについての答申 （令和8年11月20日）」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/report/20261120b_toushin.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-12",
+       "text": "ビスフェノールＡは、自動車のヘッドランプなどに使うポリカーボネート樹脂や、塗料に使うエポキシ樹脂の原料になる化学品である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-13",
+       "text": "経済産業省の資料によると、ビスフェノールＡを国内で生産しているのは、三菱ケミカルと三井化学の2者である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "者",
+         "label": "件数（国内の生産者）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "（株）、三井化学（株）の２者",
+       "attribution": "出典：経済産業省「ビスフェノールＡ産業の現状」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo3-1.pdf）",
+       "processing_note": "経済産業省「ビスフェノールＡ産業の現状」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo3-1.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-14",
+       "text": "財務省の資料の表では、韓国・台湾産のビスフェノールＡの輸入量は、令和3年度を100とする指数で、令和6年度に218になった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 100,
+         "unit": "指数",
+         "label": "指数の基準"
+        },
+        {
+         "value": 218,
+         "unit": "指数",
+         "label": "韓国・台湾産の輸入量（令和6年度）"
+        }
+       ],
+       "source_ref": "SRC-0010",
+       "excerpt": "韓国・台湾産品の輸入量(B)     100     78     150     218   ＋118",
+       "attribution": "出典：財務省「大韓民国産及び台湾産ビスフェノールAに対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo3-2.pdf）",
+       "processing_note": "財務省「大韓民国産及び台湾産ビスフェノールAに対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo3-2.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-15",
+       "text": "同じ表で、国内産の販売量は、令和6年度に60まで下がった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 60,
+         "unit": "指数",
+         "label": "国内産の販売量（令和6年度）"
+        }
+       ],
+       "source_ref": "SRC-0010",
+       "excerpt": "本邦産品の販売量(C)        100      88      77      60    ▲40",
+       "attribution": "出典：財務省「大韓民国産及び台湾産ビスフェノールAに対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo3-2.pdf）",
+       "processing_note": "財務省「大韓民国産及び台湾産ビスフェノールAに対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo3-2.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-16",
+       "text": "不当廉売差額率の表では、韓国のLG Chemの差額率はマイナス6.74%で、同社の製品は課税の対象から除かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": -6.74,
+         "unit": "%",
+         "label": "不当廉売差額率（LG Chem）"
+        }
+       ],
+       "source_ref": "SRC-0010",
+       "excerpt": "・LG Chem, Ltd.                    ▲6.74%",
+       "attribution": "出典：財務省「大韓民国産及び台湾産ビスフェノールAに対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo3-2.pdf）",
+       "processing_note": "財務省「大韓民国産及び台湾産ビスフェノールAに対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo3-2.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-17",
+       "text": "不当廉売関税率の表では、台湾のCHANG CHUN PLASTICSの製品への税率は2.4%とされている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.4,
+         "unit": "%",
+         "label": "不当廉売関税率（CHANG CHUN PLASTICS）"
+        }
+       ],
+       "source_ref": "SRC-0010",
+       "excerpt": "・CHANG CHUN PLASTICS CO., LTD.   2.4％",
+       "attribution": "出典：財務省「大韓民国産及び台湾産ビスフェノールAに対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo3-2.pdf）",
+       "processing_note": "財務省「大韓民国産及び台湾産ビスフェノールAに対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo3-2.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-18",
+       "text": "ビスフェノールＡへの課税の期間も5年間とされた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5,
+         "unit": "年間",
+         "label": "課税する期間"
+        }
+       ],
+       "source_ref": "SRC-0010",
+       "excerpt": "期間は、ＷＴＯ協定及び法令で認められた期間内である５年間",
+       "attribution": "出典：財務省「大韓民国産及び台湾産ビスフェノールAに対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo3-2.pdf）",
+       "processing_note": "財務省「大韓民国産及び台湾産ビスフェノールAに対する不当廉売関税の課税」（https://www.mof.go.jp/about_mof/councils/customs_foreign_exchange/sub-of_customs/proceedings_tokusyu/material/20261120/kanb20261120siryo3-2.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-19",
+       "text": "関税が上乗せされると、輸入品の値段は上がる。国内の生産者には競争の条件が改まる一方、輸入品を材料に使う側には仕入れの値段が上がる方向に働く。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-22-001-1",
+       "text": "課税が確定すると、国内の鉄鋼業でめっき鋼板の値下げの圧力が弱まる一方、この鋼板を材料に使う建材や家電部品の会社では仕入れの値段が上がる可能性がある。",
+       "falsifier": "課税の後も韓国・中国からのめっき鋼板の輸入数量が減らなければ、この見方は成り立たない。",
+       "check_metric": "財務省 貿易統計の品目別輸入（品目番号7210.49など）の数量",
+       "check_by": "2027-06-30"
+      },
+      {
+       "inference_id": "INF-2026-11-22-001-2",
+       "text": "ビスフェノールＡの輸入品が割高になると、国内の化学業の生産者の販売量が持ち直す可能性がある。",
+       "falsifier": "課税の後も韓国・台湾からのビスフェノールＡの輸入数量が増え続ければ、この見方は成り立たない。",
+       "check_metric": "財務省 貿易統計の品目別輸入（品目番号2907.23）の数量",
+       "check_by": "2027-06-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": []
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-22-002",
+     "event_id": "EVT-2026-11-22-002",
+     "headline": "波及を追う：居酒屋の大庄、売上高は1.0%増でも営業利益は23.5%減──売上原価率が上がる（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "有価証券報告書は、上場会社が一年の事業の成績や財産の状態をまとめて国に出す書類である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "居酒屋「庄や」などを営む大庄の有価証券報告書によると、8月までの1年の連結売上高は、前の期より1.0%増えて53,088百万円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1.0,
+         "unit": "%",
+         "label": "連結売上高の前期比"
+        },
+        {
+         "value": 53088,
+         "unit": "百万円",
+         "label": "連結売上高"
+        }
+       ],
+       "source_ref": "SRC-014",
+       "excerpt": "当期の連結売上高は、前年同期に比べ1.0％増加の53,088百万円となりました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDVV）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDVV）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "一方、営業利益は915百万円で23.5%減り、親会社株主に帰属する当期純利益は394百万円で66.4%減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 915,
+         "unit": "百万円",
+         "label": "営業利益"
+        },
+        {
+         "value": 23.5,
+         "unit": "%",
+         "label": "営業利益の減少率"
+        },
+        {
+         "value": 394,
+         "unit": "百万円",
+         "label": "親会社株主に帰属する当期純利益"
+        },
+        {
+         "value": 66.4,
+         "unit": "%",
+         "label": "当期純利益の減少率"
+        }
+       ],
+       "source_ref": "SRC-014",
+       "excerpt": "営業利益は915百万円(前年同期比23.5％減少)、経常利益は914百万円(前年同期比23.6％減少)、親会社株主に帰属する当期純利益は394百万円(前年同期比66.4％減少)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDVV）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDVV）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "同社は、人件費や水道光熱費などの販売費及び一般管理費は減ったものの、売上原価率が上がって売上総利益が減ったと説明しており、売上高営業利益率は1.7%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 915,
+         "unit": "百万円",
+         "label": "営業利益"
+        },
+        {
+         "value": 23.5,
+         "unit": "%",
+         "label": "営業利益の減少率"
+        },
+        {
+         "value": 1.7,
+         "unit": "%",
+         "label": "売上高営業利益率"
+        }
+       ],
+       "source_ref": "SRC-014",
+       "excerpt": "人件費や水道光熱費などを中心に販売費及び一般管理費は減少したものの、売上原価率の上昇に伴う売上総利益の減少により、営業利益は915百万円(前年同期比23.5％減少)、売上高営業利益率は1.7％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDVV）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDVV）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "飲食事業は、既存店の売上高は前の年を上回ったものの、直営店の数が減ったことなどで、売上高が1.6%減の23,407百万円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1.6,
+         "unit": "%",
+         "label": "飲食事業の売上高の減少率"
+        },
+        {
+         "value": 23407,
+         "unit": "百万円",
+         "label": "飲食事業の売上高"
+        }
+       ],
+       "source_ref": "SRC-014",
+       "excerpt": "既存店売上高は対前年比増加したものの、直営店舗数が減少したこと等により、売上高は前年同期に比べ1.6％減少の23,407百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDVV）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDVV）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-06",
+       "text": "食材の卸売や物流を手がける卸売・ロジスティクス事業は、外部への売上高が増え、売上高が3.6%増の26,828百万円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.6,
+         "unit": "%",
+         "label": "卸売・ロジスティクス事業の売上高の増加率"
+        },
+        {
+         "value": 26828,
+         "unit": "百万円",
+         "label": "卸売・ロジスティクス事業の売上高"
+        }
+       ],
+       "source_ref": "SRC-014",
+       "excerpt": "外部売上高が増加したこと等により、売上高は前年同期に比べ3.6％増加の26,828百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDVV）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDVV）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-07",
+       "text": "この1年で新しく5店を出し、20店を閉じた結果、8月末の店舗数は287店（うち直営217店）になった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5,
+         "unit": "店舗",
+         "label": "件数（新規出店）"
+        },
+        {
+         "value": 20,
+         "unit": "店舗",
+         "label": "件数（店舗閉鎖）"
+        },
+        {
+         "value": 287,
+         "unit": "店舗",
+         "label": "件数（期末の店舗数）"
+        },
+        {
+         "value": 217,
+         "unit": "店舗",
+         "label": "件数（期末の直営店舗数）"
+        }
+       ],
+       "source_ref": "SRC-014",
+       "excerpt": "新規出店を５店舗、店舗改装を13店舗、店舗閉鎖を20店舗(うちＶＣ(ボランタリーチェーン)への移行を４店舗)行った結果、当連結会計年度末における当社グループ店舗数は287店舗(直営217店舗",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDVV）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDVV）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-08",
+       "text": "外食の売上原価の多くは食材の仕入れ代である。仕入れ値が上がっても、メニューの値上げで補えないと、売上原価率は上がる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-22-002-1",
+       "text": "食材の仕入れ値の上昇が続けば、居酒屋など外食業では、売上が伸びても利益が減る動きが続く可能性がある。",
+       "falsifier": "外食業の会社の次の決算で売上原価率が下がっていれば、この見方は成り立たない。",
+       "check_metric": "総務省 消費者物価指数（e-Stat）の「生鮮魚介」と「外食」の前年同月比",
+       "check_by": "2027-02-28"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-22-003",
+     "event_id": "EVT-2026-11-22-003",
+     "headline": "波及を追う：医療用の針のマニー、円安で海外売上高が押し上げられ売上高は10.2%増、為替差益712百万円（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "医療用の針などをつくるマニーの有価証券報告書によると、円安が続いて海外売上高が押し上げられたことなどから、8月までの1年の連結売上高は33,018百万円と、前の期より10.2%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 33018,
+         "unit": "百万円",
+         "label": "連結売上高"
+        },
+        {
+         "value": 10.2,
+         "unit": "%",
+         "label": "連結売上高の前期比"
+        }
+       ],
+       "source_ref": "SRC-015",
+       "excerpt": "売上高は33,018百万円（前期比10.2％増）となりました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ79）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ79）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "営業利益は9,943百万円で、前の期より21.4%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9943,
+         "unit": "百万円",
+         "label": "営業利益"
+        },
+        {
+         "value": 21.4,
+         "unit": "%",
+         "label": "営業利益の前期比"
+        }
+       ],
+       "source_ref": "SRC-015",
+       "excerpt": "営業利益は9,943百万円(同21.4％増)と大幅な増益となりました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ79）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ79）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "同社は、円安の進行で為替差益712百万円を計上したことなどで、経常利益が増えたと書いている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 712,
+         "unit": "百万円",
+         "label": "為替差益"
+        }
+       ],
+       "source_ref": "SRC-015",
+       "excerpt": "円安進行により為替差益712百万円を計上したこと等により、経常利益は増益となりました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ79）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ79）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "親会社株主に帰属する当期純利益は7,237百万円で、55.9%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 7237,
+         "unit": "百万円",
+         "label": "親会社株主に帰属する当期純利益"
+        },
+        {
+         "value": 55.9,
+         "unit": "%",
+         "label": "当期純利益の前期比"
+        }
+       ],
+       "source_ref": "SRC-015",
+       "excerpt": "親会社株主に帰属する当期純利益は、7,237百万円(同55.9％増)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ79）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ79）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "研究開発費の総額は2,565百万円で、売上高の7.8%にあたる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2565,
+         "unit": "百万円",
+         "label": "研究開発費の総額"
+        },
+        {
+         "value": 7.8,
+         "unit": "%",
+         "label": "研究開発費の売上高比"
+        }
+       ],
+       "source_ref": "SRC-015",
+       "excerpt": "研究開発費の総額は2,565百万円（売上高比7.8％）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ79）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ79）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-06",
+       "text": "海外での売上を円に直して決算に載せる会社では、現地の通貨での売上が同じでも、円安になれば円での金額は大きくなり、円高になれば小さくなる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-22-003-1",
+       "text": "円安が続けば、海外売上の比率が高い医療機器の会社では、円に直した売上や為替差益が膨らみやすい状態が続く可能性がある。",
+       "falsifier": "来年にかけて円相場が円高の方向に大きく動けば、この見方は成り立たない。",
+       "check_metric": "日本銀行 外国為替市況の東京市場ドル・円（17時時点）",
+       "check_by": "2027-03-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-22-004",
+     "event_id": "EVT-2026-11-22-004",
+     "headline": "深掘り：会員制のビジネスを数字で読む──カーブスの会員数は1年で3.2万人増の89.5万人、売上高は15.5%増（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "会員制の運動施設は、会員から毎月の会費を受け取って稼ぐ。新しく入る会員が退会する会員より多ければ会員数が増え、売上も増えやすい。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "カーブスホールディングスの有価証券報告書によると、女性向けの運動施設「カーブス」の会員数は、8月末に89.5万人で、1年前の86.3万人から3.2万人増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 86.3,
+         "unit": "万人",
+         "label": "会員数（1年前）"
+        },
+        {
+         "value": 3.2,
+         "unit": "万人",
+         "label": "会員数の純増"
+        },
+        {
+         "value": 89.5,
+         "unit": "万人",
+         "label": "会員数（8月末）"
+        }
+       ],
+       "source_ref": "SRC-016",
+       "excerpt": "会員数は前連結会計年度末86.3万人から3.2万人純増し89.5万人",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIYT）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIYT）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "同じ「カーブス」の店舗数は、1年前の1,996店から17店増えて2,013店になった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1996,
+         "unit": "店舗",
+         "label": "件数（1年前の店舗数）"
+        },
+        {
+         "value": 17,
+         "unit": "店舗",
+         "label": "件数（店舗の純増）"
+        },
+        {
+         "value": 2013,
+         "unit": "店舗",
+         "label": "件数（8月末の店舗数）"
+        }
+       ],
+       "source_ref": "SRC-016",
+       "excerpt": "店舗数は前連結会計年度末（2025年８月31日）1,996店舗から17店舗純増し2,013店舗",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIYT）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIYT）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "男性向けの施設などを含む3つのブランドの合計の会員数は、1年前の87.7万人から91.9万人に増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 87.7,
+         "unit": "万人",
+         "label": "3ブランド合計会員数（1年前）"
+        },
+        {
+         "value": 91.9,
+         "unit": "万人",
+         "label": "3ブランド合計会員数（8月末）"
+        }
+       ],
+       "source_ref": "SRC-016",
+       "excerpt": "３ブランド合計会員数  87.7万人  91.9万人  4.1万人",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIYT）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIYT）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "連結の売上高は前の期より15.5%増え、営業利益は22.3%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 15.5,
+         "unit": "%",
+         "label": "連結売上高の前期比"
+        },
+        {
+         "value": 22.3,
+         "unit": "%",
+         "label": "営業利益の前期比"
+        }
+       ],
+       "source_ref": "SRC-016",
+       "excerpt": "売上高は433億87百万円(前連結会計年度比15.5％増)、営業利益は77億55百万円(前連結会計年度比22.3％増)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIYT）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIYT）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-07",
+       "text": "会員制の事業では、会員数のほか、店舗の数と、1店あたりの会員数を合わせて見ると、伸びが新しい店によるものか、既存の店によるものかを見分けやすい。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-22-004-1",
+       "text": "高齢化が進むなかで、短い時間で運動できる会員制の施設の需要は、当面増える可能性がある。",
+       "falsifier": "来年の決算期に、会員制の運動施設の会員数が前の年より減っていれば、この見方は成り立たない。",
+       "check_metric": "経済産業省 特定サービス産業動態統計調査のフィットネスクラブの会員数",
+       "check_by": "2027-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-11-22T17:14:52.915990+09:00",
+  "first_run": {
+   "run_at": "2026-11-22T17:14:52.915990+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 11,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 39,
+  "passed": 30,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 9,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 5,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-014": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp030000-asr-001_E03223-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp030000-asr-001_E03223-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp030000-asr-001_E03223-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp030000-asr-001_E03223-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105000_honbun_jpcrp030000-asr-001_E03223-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105010_honbun_jpcrp030000-asr-001_E03223-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105020_honbun_jpcrp030000-asr-001_E03223-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105025_honbun_jpcrp030000-asr-001_E03223-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105040_honbun_jpcrp030000-asr-001_E03223-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105050_honbun_jpcrp030000-asr-001_E03223-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105100_honbun_jpcrp030000-asr-001_E03223-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105110_honbun_jpcrp030000-asr-001_E03223-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105120_honbun_jpcrp030000-asr-001_E03223-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105130_honbun_jpcrp030000-asr-001_E03223-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105310_honbun_jpcrp030000-asr-001_E03223-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105320_honbun_jpcrp030000-asr-001_E03223-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105330_honbun_jpcrp030000-asr-001_E03223-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105400_honbun_jpcrp030000-asr-001_E03223-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105410_honbun_jpcrp030000-asr-001_E03223-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0106010_honbun_jpcrp030000-asr-001_E03223-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0107010_honbun_jpcrp030000-asr-001_E03223-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp030000-asr-001_E03223-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp030000-asr-001_E03223-000_2026-08-31_01_2026-11-20_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-015": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp030000-asr-001_E02340-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp030000-asr-001_E02340-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp030000-asr-001_E02340-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp030000-asr-001_E02340-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105010_honbun_jpcrp030000-asr-001_E02340-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105020_honbun_jpcrp030000-asr-001_E02340-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0106010_honbun_jpcrp030000-asr-001_E02340-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0107010_honbun_jpcrp030000-asr-001_E02340-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0200010_honbun_jpcrp030000-asr-001_E02340-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp030000-asr-001_E02340-000_2026-08-31_01_2026-11-20_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-016": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp030000-asr-001_E35488-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp030000-asr-001_E35488-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp030000-asr-001_E35488-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp030000-asr-001_E35488-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105000_honbun_jpcrp030000-asr-001_E35488-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105010_honbun_jpcrp030000-asr-001_E35488-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105020_honbun_jpcrp030000-asr-001_E35488-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105025_honbun_jpcrp030000-asr-001_E35488-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105040_honbun_jpcrp030000-asr-001_E35488-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105050_honbun_jpcrp030000-asr-001_E35488-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105100_honbun_jpcrp030000-asr-001_E35488-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105110_honbun_jpcrp030000-asr-001_E35488-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105120_honbun_jpcrp030000-asr-001_E35488-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105310_honbun_jpcrp030000-asr-001_E35488-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105320_honbun_jpcrp030000-asr-001_E35488-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105330_honbun_jpcrp030000-asr-001_E35488-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105400_honbun_jpcrp030000-asr-001_E35488-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105410_honbun_jpcrp030000-asr-001_E35488-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0106010_honbun_jpcrp030000-asr-001_E35488-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0107010_honbun_jpcrp030000-asr-001_E35488-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp030000-asr-001_E35488-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp030000-asr-001_E35488-000_2026-08-31_01_2026-11-20_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 5,
+  "attribution_overwritten": 41,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "evening",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 11,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 0,
+  "evidence_doc_type_overridden": 0,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {},
+  "impact_kind_undetermined_by_doc_type": {},
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 0,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 0,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 73,
+   "numbers_declared": 53,
+   "gap": 20,
+   "by_mark": {
+    "explainer": {
+     "text_number_tokens": 1,
+     "numbers_declared": 0
+    },
+    "source_number_match": {
+     "text_number_tokens": 72,
+     "numbers_declared": 53
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 7,
+   "line_ids": [
+    "L-001-02",
+    "L-001-04",
+    "L-001-05",
+    "L-001-11",
+    "L-001-13",
+    "L-002-07",
+    "L-004-03"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 15,
+   "change": 0,
+   "ripple": 11,
+   "deep": 4
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 8,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-001",
+    "SRC-002",
+    "SRC-007",
+    "SRC-008",
+    "SRC-009",
+    "SRC-0010"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 3,
+   "first_run_at": "2026-11-22T17:14:24.858252+09:00",
+   "last_run_at": "2026-11-22T17:14:48.561344+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [
+    "L-004-06"
+   ],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 30,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 2,
+   "total_unregistered": 2,
+   "excluded_date_time_tokens": 25,
+   "lines": [
+    {
+     "line_id": "L-001-16",
+     "values": [
+      "6.74"
+     ]
+    },
+    {
+     "line_id": "L-004-04",
+     "values": [
+      "3"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 0,
+   "zero_letter_count": 0,
+   "lines": []
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "market_closed",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 6,
+    "source_ids": [
+     "SRC-001",
+     "SRC-002",
+     "SRC-007",
+     "SRC-008",
+     "SRC-009",
+     "SRC-0010"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 4
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
