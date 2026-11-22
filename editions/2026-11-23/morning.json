@@ -1,0 +1,1475 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-11-23-morning",
+ "date": "2026-11-23",
+ "slot": "morning",
+ "generated_at": "2026-11-23T07:36:42.945151+09:00",
+ "market_open": false,
+ "baseline": {
+  "date": "2026-11-23",
+  "price_type": "open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-23&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月23日）",
+   "published_at": "2026-11-23",
+   "fetched_at": "2026-11-23T07:32:00+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "d9e5bbc09acc9b6bf97489c6c68c35787a5147a18c4b8585591cdb07ffbc2352",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-20&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月20日）",
+   "published_at": "2026-11-20",
+   "fetched_at": "2026-11-23T07:32:06+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "56fa55f40e02033059cfc29e3c42f58bcd73b487f77d805fcfff5dcd1c1d8fce",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZJ14?type=1",
+   "publisher": "ソニーフィナンシャルグループ株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "半期報告書－第23期(2026/04/01－2027/03/31)（ソニーフィナンシャルグループ株式会社）",
+   "published_at": "2026-11-20T15:34:00+09:00",
+   "fetched_at": "2026-11-23T07:32:28+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "9f2a7d4857c0c90a92d486fe2360e4b159673ce7754666a03468b70f234eba6e",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ14）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ14）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ14"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZIVB?type=1",
+   "publisher": "株式会社クラウディアホールディングス",
+   "publisher_type": "company_disclosure",
+   "title": "有価証券報告書－第50期(2025/09/01－2026/08/31)（株式会社クラウディアホールディングス）",
+   "published_at": "2026-11-20T11:28:00+09:00",
+   "fetched_at": "2026-11-23T07:32:35+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "c637099c20672de5b98bfcb6ae0e371896bb6c36233d5a4cd6dac7df4498aa2e",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIVB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIVB）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIVB"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZDE3?type=1",
+   "publisher": "株式会社ＡＦＣ－ＨＤアムスライフサイエンス",
+   "publisher_type": "company_disclosure",
+   "title": "有価証券報告書－第46期(2025/09/01－2026/08/31)（株式会社ＡＦＣ－ＨＤアムスライフサイエンス）",
+   "published_at": "2026-11-20T16:01:00+09:00",
+   "fetched_at": "2026-11-23T07:32:42+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "97d7fa409582358f5ad71c4645d55084ae1cb741667b15deb9efe2987481c55b",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDE3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDE3）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDE3"
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZJ6C?type=1",
+   "publisher": "株式会社海帆",
+   "publisher_type": "company_disclosure",
+   "title": "有価証券届出書（通常方式）（株式会社海帆）",
+   "published_at": "2026-11-20T17:05:00+09:00",
+   "fetched_at": "2026-11-23T07:32:49+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "e285244ed9ed410fb8110d2d0f9a548dede92bdc028d65d5e2e21375923a272f",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ6C）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ6C）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ6C"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZJ3I?type=1",
+   "publisher": "ＳＢＩインシュアランスグループ株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "半期報告書－第11期(2026/04/01－2027/03/31)（ＳＢＩインシュアランスグループ株式会社）",
+   "published_at": "2026-11-20T09:14:00+09:00",
+   "fetched_at": "2026-11-23T07:32:56+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "1d9c143629cc349ae658570daec907a5bb5032edbde8a6ca8e8c74aa67b0ac99",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ3I）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ3I）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ3I"
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZIT3?type=1",
+   "publisher": "スルガ銀行株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "半期報告書－第216期(2026/04/01－2027/03/31)（スルガ銀行株式会社）",
+   "published_at": "2026-11-20T15:00:00+09:00",
+   "fetched_at": "2026-11-23T07:33:03+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "ff9feb22a30da8d1289edfdc0d61821c9e0fc8ce2e37e12e034d080e32520868",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIT3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIT3）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIT3"
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-23-001",
+     "event_id": "EVT-2026-11-23-001",
+     "headline": "生命保険・損害保険・銀行をまとめて持つ金融グループの半期──ソニーフィナンシャルグループ、営業収益は10.2%増、銀行事業は27.2%増（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "ソニーフィナンシャルグループが11月20日に提出した半期報告書によると、2026年4〜9月の営業収益は5,452億円で、前年同期より10.2%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5452,
+         "unit": "億円",
+         "label": "営業収益（2026年4〜9月）"
+        },
+        {
+         "value": 10.2,
+         "unit": "%",
+         "label": "営業収益の前年同期比の増加率"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "銀行事業において増加した結果、5,452億円(前年同期比10.2％増)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ14）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ14）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "税引前利益は416億円で、64.1%増えた。生命保険事業では減益だったが、損害保険事業と銀行事業で増益となった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 416,
+         "unit": "億円",
+         "label": "税引前利益"
+        },
+        {
+         "value": 64.1,
+         "unit": "%",
+         "label": "税引前利益の前年同期比の増加率"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "税引前利益は、生命保険事業で減益となったものの、損害保険事業及び銀行事業で増益となった結果、416億円(同64.1％増)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ14）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ14）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "保険会社の利益は、受け取る保険料だけでなく、集めたお金を債券などで運用した結果にも左右される。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "生命保険事業の営業収益は、保険収益が増えて3,676億円となり、6.7%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3676,
+         "unit": "億円",
+         "label": "生命保険事業の営業収益"
+        },
+        {
+         "value": 6.7,
+         "unit": "%",
+         "label": "生命保険事業の営業収益の前年同期比の増加率"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "営業収益は、保険収益が増加したことにより、3,676億円(前年同期比6.7％増)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ14）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ14）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "損害保険事業の営業収益は1,004億円で13.6%増、税引前利益は84億円で34.8%増えた。支払う保険金の単価は上がったが、費用の効率化と増収で補ったと説明している。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1004,
+         "unit": "億円",
+         "label": "損害保険事業の営業収益"
+        },
+        {
+         "value": 13.6,
+         "unit": "%",
+         "label": "損害保険事業の営業収益の増加率"
+        },
+        {
+         "value": 84,
+         "unit": "億円",
+         "label": "損害保険事業の税引前利益"
+        },
+        {
+         "value": 34.8,
+         "unit": "%",
+         "label": "損害保険事業の税引前利益の増加率"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "1,004億円(同13.6％増)となりました。税引前利益は、支払保険金単価の上昇等による発生保険金の増加があったものの、事業費効率の改善に加え、増収効果により、84億円(同34.8％増)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ14）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ14）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "銀行事業の営業収益は、受け取る利息と払う利息の差である「純利息収益」が増えて699億円となり、27.2%増えた。税引前利益は、持分法投資の譲渡益を計上して238億円となり、170.0%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 699,
+         "unit": "億円",
+         "label": "銀行事業の営業収益"
+        },
+        {
+         "value": 27.2,
+         "unit": "%",
+         "label": "銀行事業の営業収益の増加率"
+        },
+        {
+         "value": 238,
+         "unit": "億円",
+         "label": "銀行事業の税引前利益"
+        },
+        {
+         "value": 170.0,
+         "unit": "%",
+         "label": "銀行事業の税引前利益の増加率"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "営業収益は、純利息収益の増加により、699億円(同27.2％増)となりました。税引前利益は、営業経費の増加があったものの、持分法投資の譲渡益の計上により、238億円(同170.0％増)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ14）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ14）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "同社は報告書の中で、日本の10年国債の利回りは期初の2.3%から上昇傾向で推移したと説明している。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.3,
+         "unit": "%",
+         "label": "10年国債の利回り（期初）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "10年国債利回りは期初の2.3％から上昇傾向で推移しました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ14）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ14）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-08",
+       "text": "子会社のソニー生命保険は、金利環境の変化などをふまえ、4月に学資保険（無配当）の予定利率を引き上げる保険料率の改定を行った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4,
+         "unit": "月",
+         "label": "日付（改定の月）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "金利環境の変化等を鑑み、４月に、学資保険(無配当)の予定利率を引き上げる保険料率の改定を行う",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ14）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ14）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-09",
+       "text": "予定利率は、保険会社が契約者に約束する運用の利回りで、これが上がると、同じ保障を少ない保険料で受けられるようになる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-23-001-1",
+       "text": "長い期間の金利が上がった状態が続けば、生命保険業では、予定利率を引き上げた商品が増え、貯蓄の性格を持つ保険の売れ行きに影響する可能性がある。",
+       "falsifier": "長期金利が下がり始め、生命保険会社が予定利率を据え置くか引き下げる動きが広がれば、この見方は成り立たない。",
+       "check_metric": "財務省 国債金利情報の10年国債利回り、生命保険各社の予定利率の改定の公表",
+       "check_by": "2027-05-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-23-002",
+     "event_id": "EVT-2026-11-23-002",
+     "headline": "波及を追う：ネットで売る保険の半期──ＳＢＩインシュアランスグループ、損害保険の保険料は18.9%増、損害率と事業費率がともに下がる（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "ＳＢＩインシュアランスグループが11月20日に提出した半期報告書によると、4〜9月の経常収益は78,631百万円で13.6%増えた。すべての事業で保有契約の件数が増えたことが主な要因だという。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 78631,
+         "unit": "百万円",
+         "label": "経常収益"
+        },
+        {
+         "value": 13.6,
+         "unit": "%",
+         "label": "経常収益の前年同期比の増加率"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "保有契約件数が堅調に増加したことが主な要因となり、前年同期比で9,420百万円増加し、78,631百万円（前年同期比13.6％増加）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ3I）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ3I）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "経常利益は9,209百万円で、26.0%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9209,
+         "unit": "百万円",
+         "label": "経常利益"
+        },
+        {
+         "value": 26.0,
+         "unit": "%",
+         "label": "経常利益の前年同期比の増加率"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "経常利益は前年同期比で1,902百万円増加し、9,209百万円（同26.0％増加）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ3I）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ3I）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "損害保険事業の経常収益は、保有契約の件数の増加による保険料の増収などで、21.6%増の27,484百万円となった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 21.6,
+         "unit": "%",
+         "label": "損害保険事業の経常収益の増加率"
+        },
+        {
+         "value": 27484,
+         "unit": "百万円",
+         "label": "損害保険事業の経常収益"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "保有契約件数の堅調な増加による保険料の増収などにより、前年同期比21.6％増加の27,484百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ3I）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ3I）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "同じ事業の保険料（元受正味保険料）は18.9%増の37,231百万円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 18.9,
+         "unit": "%",
+         "label": "元受正味保険料の増加率"
+        },
+        {
+         "value": 37231,
+         "unit": "百万円",
+         "label": "元受正味保険料"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "保険料（元受正味保険料）は前年同期比18.9％増加の37,231百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ3I）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ3I）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "支払った保険金などの割合（正味損害率）と事業の費用の割合（正味事業費率）がともに下がり、両方を足した「コンバインド・レシオ」は6.0ポイント改善した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 6.0,
+         "unit": "ポイント",
+         "label": "コンバインド・レシオの改善幅"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "正味損害率及び正味事業費率がともに低下した結果、コンバインド・レシオは前年同期比6.0ポイント改善",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ3I）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ3I）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-06",
+       "text": "コンバインド・レシオは、保険金の支払いと事業の費用を、受け取った保険料と比べた割合で、低いほど保険を引き受けること自体で利益が出やすい。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-07",
+       "text": "生命保険事業の経常収益は12.3%増の32,465百万円、セグメント利益は資産運用が好調だったこともあり92.5%増の904百万円となった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 12.3,
+         "unit": "%",
+         "label": "生命保険事業の経常収益の増加率"
+        },
+        {
+         "value": 32465,
+         "unit": "百万円",
+         "label": "生命保険事業の経常収益"
+        },
+        {
+         "value": 92.5,
+         "unit": "%",
+         "label": "生命保険事業のセグメント利益の増加率"
+        },
+        {
+         "value": 904,
+         "unit": "百万円",
+         "label": "生命保険事業のセグメント利益"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "前年同期比12.3％増加の32,465百万円となりました。セグメント利益は、この増収効果に加えて資産運用が好調に推移したことにより、前年同期比92.5％増加の904百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ3I）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ3I）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-23-002-1",
+       "text": "自動車保険などで保険金の単価が上がる中でも、契約の件数が増え続ければ、損害保険業では費用の割合が下がり、引き受けの採算が改善しやすい。",
+       "falsifier": "下期に大きな自然災害や事故の増加で正味損害率が上がり、コンバインド・レシオが悪化に転じれば、この見方は成り立たない。",
+       "check_metric": "損害保険会社の決算・半期報告書のコンバインド・レシオ",
+       "check_by": "2027-06-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-23-003",
+     "event_id": "EVT-2026-11-23-003",
+     "headline": "波及を追う：原材料と人件費の上昇──健康食品などのＡＦＣ－ＨＤアムスライフサイエンス、売上高は前期の105.1%、営業利益は101.9%（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "ＡＦＣ－ＨＤアムスライフサイエンスが11月20日に提出した有価証券報告書によると、8月までの1年の売上高は34,324百万円で、前期の105.1%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 34324,
+         "unit": "百万円",
+         "label": "売上高"
+        },
+        {
+         "value": 105.1,
+         "unit": "%",
+         "label": "売上高の前期比（前期を100とした値）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "ヘルスケア事業の増収等により、売上高は34,324百万円（前期比105.1％）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDE3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDE3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "「前期比〇〇%」という書き方は、前の期を100としたときの大きさを表す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "原材料や資材の値上がりによる仕入代金の増加、従業員のベースアップなどによる人件費の増加、広告宣伝費の先行があり、営業利益は2,455百万円で前期の101.9%、経常利益は2,390百万円で前期の97.8%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2455,
+         "unit": "百万円",
+         "label": "営業利益"
+        },
+        {
+         "value": 101.9,
+         "unit": "%",
+         "label": "営業利益の前期比"
+        },
+        {
+         "value": 2390,
+         "unit": "百万円",
+         "label": "経常利益"
+        },
+        {
+         "value": 97.8,
+         "unit": "%",
+         "label": "経常利益の前期比"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "この結果、営業利益は2,455百万円（前期比101.9％）、経常利益は2,390百万円（前期比97.8％）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDE3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDE3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "売上の大きいヘルスケア事業は、売上高が20,034百万円で前期の106.0%、営業利益は2,350百万円で前期の95.8%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20034,
+         "unit": "百万円",
+         "label": "ヘルスケア事業の売上高"
+        },
+        {
+         "value": 106.0,
+         "unit": "%",
+         "label": "ヘルスケア事業の売上高の前期比"
+        },
+        {
+         "value": 2350,
+         "unit": "百万円",
+         "label": "ヘルスケア事業の営業利益"
+        },
+        {
+         "value": 95.8,
+         "unit": "%",
+         "label": "ヘルスケア事業の営業利益の前期比"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "ヘルスケア事業の業績は、売上高20,034百万円（前期比106.0％）、営業利益2,350百万円（前期比95.8％）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDE3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDE3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "販売費及び一般管理費は9,466百万円で前期の107.0%となり、人件費と広告宣伝費が増えたと説明している。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9466,
+         "unit": "百万円",
+         "label": "販売費及び一般管理費"
+        },
+        {
+         "value": 107.0,
+         "unit": "%",
+         "label": "販売費及び一般管理費の前期比"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "販売費及び一般管理費は、9,466百万円（前期比107.0％）となりました。これは人件費、広告宣伝費の増加による",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDE3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDE3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-06",
+       "text": "医薬品事業は、売上高2,569百万円で前期の104.0%、営業利益317百万円で前期の137.6%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2569,
+         "unit": "百万円",
+         "label": "医薬品事業の売上高"
+        },
+        {
+         "value": 104.0,
+         "unit": "%",
+         "label": "医薬品事業の売上高の前期比"
+        },
+        {
+         "value": 317,
+         "unit": "百万円",
+         "label": "医薬品事業の営業利益"
+        },
+        {
+         "value": 137.6,
+         "unit": "%",
+         "label": "医薬品事業の営業利益の前期比"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "医薬品事業の業績は、売上高2,569百万円（前期比104.0％）、営業利益317百万円（前期比137.6％）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDE3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZDE3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-23-003-1",
+       "text": "原材料の値上がりと賃上げが続けば、健康食品の受託製造（OEM）の会社では、売上が伸びても利益の伸びが小さくなる状態が続く可能性がある。",
+       "falsifier": "原材料価格が落ち着くか、値上げが取引先に受け入れられて売上総利益の伸びが販売費の伸びを上回れば、この見方は成り立たない。",
+       "check_metric": "日本銀行 企業物価指数の食料品・原材料の項目、同業各社の有価証券報告書の営業利益",
+       "check_by": "2027-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-23-004",
+     "event_id": "EVT-2026-11-23-004",
+     "headline": "波及を追う：結婚式の衣裳から式場の運営へ──クラウディアホールディングス、8月までの1年の売上高は2.1%増、営業利益は57.2%増（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "婚礼衣裳などを手がけるクラウディアホールディングスが11月20日に提出した有価証券報告書によると、8月までの1年の売上高は13,880百万円で2.1%増えた。2026年4月に運営を始めた「東京大神宮 大神宮会館」などの売上が加わった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 13880,
+         "unit": "百万円",
+         "label": "売上高"
+        },
+        {
+         "value": 2.1,
+         "unit": "%",
+         "label": "売上高の前年比の増加率"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "「東京大神宮　大神宮会館」の売上高が寄与した結果、13,880百万円（前年同期比2.1％増）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIVB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIVB）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "営業利益は632百万円で57.2%増、経常利益は668百万円で60.4%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 632,
+         "unit": "百万円",
+         "label": "営業利益"
+        },
+        {
+         "value": 57.2,
+         "unit": "%",
+         "label": "営業利益の増加率"
+        },
+        {
+         "value": 668,
+         "unit": "百万円",
+         "label": "経常利益"
+        },
+        {
+         "value": 60.4,
+         "unit": "%",
+         "label": "経常利益の増加率"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "営業利益は632百万円（同57.2％増）、経常利益は668百万円（同60.4％増）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIVB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIVB）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "販売費及び一般管理費は10,302百万円で1.2%増えたが、原価率の低い衣裳の取扱収入や式場の運営収入が増えたことで、利益が広がったと説明している。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10302,
+         "unit": "百万円",
+         "label": "販売費及び一般管理費"
+        },
+        {
+         "value": 1.2,
+         "unit": "%",
+         "label": "販売費及び一般管理費の増加率"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "販売費及び一般管理費は10,302百万円（同1.2％増）と増加しましたが、原価率の低い衣裳取扱収入や式場運営収入が増収",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIVB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIVB）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "自己資本利益率（ROE）は10.2%で、前年の8.0%から上がった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10.2,
+         "unit": "%",
+         "label": "自己資本利益率（ROE）"
+        },
+        {
+         "value": 8.0,
+         "unit": "%",
+         "label": "前年の自己資本利益率（ROE）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "自己資本利益率（ROE）は10.2％（前年同期は8.0％）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIVB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIVB）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "自己資本利益率（ROE）は、株主が出したお金などの自己資本に対して、どれだけの利益を上げたかを示す割合である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-06",
+       "text": "原価率は、売上高のうち、商品やサービスをつくるのにかかった費用が占める割合のことである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-23-004-1",
+       "text": "衣裳の製造・レンタルから式場の運営まで手がける形が広がれば、婚礼関連の業種では、一組あたりの受け取る金額を増やすことで、結婚の件数の伸び悩みの影響を和らげる動きが続く可能性がある。",
+       "falsifier": "婚礼関連の会社で式場の運営の収入が伸びず、売上高が前年を下回る決算が続けば、この見方は成り立たない。",
+       "check_metric": "厚生労働省 人口動態統計の婚姻件数、婚礼関連各社の有価証券報告書の売上高",
+       "check_by": "2027-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-23-005",
+     "event_id": "EVT-2026-11-23-005",
+     "headline": "深掘り：借りたお金を株に替える「現物出資」──海帆、第三者割当で新株67,246,600株、新株予約権も合わせた希薄化率は297.74%（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "海帆が11月20日に提出した有価証券届出書によると、同社は特定の相手に新しい株を割り当てる「第三者割当」で、普通株式67,246,600株を発行する。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 67246600,
+         "unit": "株",
+         "label": "新たに発行する普通株式の数"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "その他の者に対する割当 67,246,600株",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ6C）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ6C）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "第三者割当は、特定の相手にだけ新しい株を引き受けてもらう資金の集め方である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "払い込みの一部は、割当先のabc株式会社と株式会社イメージワンが同社に対して持つ貸付金などの債権758,700,000円（元金688,030,000円、未払利息5,230,000円、遅延損害金65,440,000円）を、お金の代わりに差し出す「現物出資」で行う。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 758700000,
+         "unit": "円",
+         "label": "現物出資する債権の額"
+        },
+        {
+         "value": 688030000,
+         "unit": "円",
+         "label": "うち元金"
+        },
+        {
+         "value": 5230000,
+         "unit": "円",
+         "label": "うち未払利息"
+        },
+        {
+         "value": 65440000,
+         "unit": "円",
+         "label": "うち遅延損害金"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "金銭債権（貸付金債権及び連帯保証債権）のうち758,700,000円（元金688,030,000円、未払利息5,230,000円、遅延損害金65,440,000円）に相当する債権の現物出資",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ6C）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ6C）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-04",
+       "text": "新しい株の払込期日は2026年12月15日である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 15,
+         "unit": "日",
+         "label": "日付（払込期日）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "払込期日 2026年12月15日（火）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ6C）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ6C）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-05",
+       "text": "同社によると、連結子会社Kaihan Medicalがイメージワンから借りた125百万円は、返済の資金を用意できず、9月30日の返済期日に未返済となっている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 125,
+         "unit": "百万円",
+         "label": "子会社の未返済の借入金"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "株式会社イメージワンに対する借入金125百万円は、返済原資の確保が間に合わず、同日の返済期日時点で未返済となっております",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ6C）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ6C）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-06",
+       "text": "同社は、新株67,246,600株と、新株予約権の目的となる株式139,999,900株は、既存の株主の持ち株に「大規模な希薄化」を生じさせると書いている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 67246600,
+         "unit": "株",
+         "label": "新たに発行する普通株式の数"
+        },
+        {
+         "value": 139999900,
+         "unit": "株",
+         "label": "新株予約権の目的となる株式の数"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "新株式67,246,600株及び本新株予約権の目的となる株式139,999,900株は、本新株式の発行及び本新株予約権の行使に伴い、既存株主の皆様の保有株式に大規模な希薄化を生じさせる",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ6C）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ6C）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-07",
+       "text": "9月30日時点の発行済株式総数69,605,783株を分母とすると、新株予約権がすべて使われた場合も含めた希薄化率は297.74%にあたる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 69605783,
+         "unit": "株",
+         "label": "発行済株式総数（9月30日時点）"
+        },
+        {
+         "value": 297.74,
+         "unit": "%",
+         "label": "希薄化率"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "発行済株式総数69,605,783株及び議決権数695,472個を分母とする希薄化率は297.74％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ6C）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ6C）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-08",
+       "text": "希薄化は、株の数が増えることで、もとの株主が持つ割合が小さくなることをいう。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-23-005-1",
+       "text": "借入金を株に替える現物出資は、負債を減らして自己資本を厚くする一方で、株の数が大きく増えるため、資金繰りに苦しむ小さな上場会社では、同じような資金調達が今後も選ばれる可能性がある。",
+       "falsifier": "債権を株に替える第三者割当の届け出が、今後の書類一覧でほとんど見られなくなれば、この見方は成り立たない。",
+       "check_metric": "EDINETの書類一覧の有価証券届出書のうち、現物出資を含む第三者割当の件数",
+       "check_by": "2027-05-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-11-23T07:36:42.945151+09:00",
+  "first_run": {
+   "run_at": "2026-11-23T07:36:42.945151+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 8,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 36,
+  "passed": 28,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 8,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 8,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-001": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp040300-ssr-001_E05714-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp040300-ssr-001_E05714-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp040300-ssr-001_E05714-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105000_honbun_jpcrp040300-ssr-001_E05714-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105010_honbun_jpcrp040300-ssr-001_E05714-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105020_honbun_jpcrp040300-ssr-001_E05714-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105025_honbun_jpcrp040300-ssr-001_E05714-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105040_honbun_jpcrp040300-ssr-001_E05714-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105050_honbun_jpcrp040300-ssr-001_E05714-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105110_honbun_jpcrp040300-ssr-001_E05714-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105310_honbun_jpcrp040300-ssr-001_E05714-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105320_honbun_jpcrp040300-ssr-001_E05714-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105330_honbun_jpcrp040300-ssr-001_E05714-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105400_honbun_jpcrp040300-ssr-001_E05714-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp040300-ssr-001_E05714-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp040300-ssr-001_E05714-000_2026-09-30_01_2026-11-20_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp030000-asr-001_E00617-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp030000-asr-001_E00617-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp030000-asr-001_E00617-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp030000-asr-001_E00617-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105010_honbun_jpcrp030000-asr-001_E00617-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105020_honbun_jpcrp030000-asr-001_E00617-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0106010_honbun_jpcrp030000-asr-001_E00617-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0107010_honbun_jpcrp030000-asr-001_E00617-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0200010_honbun_jpcrp030000-asr-001_E00617-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp030000-asr-001_E00617-000_2026-08-31_01_2026-11-20_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp030000-asr-001_E01064-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp030000-asr-001_E01064-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp030000-asr-001_E01064-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp030000-asr-001_E01064-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105000_honbun_jpcrp030000-asr-001_E01064-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105010_honbun_jpcrp030000-asr-001_E01064-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105020_honbun_jpcrp030000-asr-001_E01064-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105025_honbun_jpcrp030000-asr-001_E01064-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105040_honbun_jpcrp030000-asr-001_E01064-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105050_honbun_jpcrp030000-asr-001_E01064-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105100_honbun_jpcrp030000-asr-001_E01064-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105110_honbun_jpcrp030000-asr-001_E01064-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105120_honbun_jpcrp030000-asr-001_E01064-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105310_honbun_jpcrp030000-asr-001_E01064-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105320_honbun_jpcrp030000-asr-001_E01064-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105330_honbun_jpcrp030000-asr-001_E01064-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105400_honbun_jpcrp030000-asr-001_E01064-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105410_honbun_jpcrp030000-asr-001_E01064-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0106010_honbun_jpcrp030000-asr-001_E01064-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0107010_honbun_jpcrp030000-asr-001_E01064-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp030000-asr-001_E01064-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp030000-asr-001_E01064-000_2026-08-31_01_2026-11-20_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-004": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp020000-srs-001_E31367-000_2026-03-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp020000-srs-001_E31367-000_2026-03-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0202010_honbun_jpcrp020000-srs-001_E31367-000_2026-03-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0203010_honbun_jpcrp020000-srs-001_E31367-000_2026-03-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0204010_honbun_jpcrp020000-srs-001_E31367-000_2026-03-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0205010_honbun_jpcrp020000-srs-001_E31367-000_2026-03-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0205020_honbun_jpcrp020000-srs-001_E31367-000_2026-03-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0206010_honbun_jpcrp020000-srs-001_E31367-000_2026-03-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0207010_honbun_jpcrp020000-srs-001_E31367-000_2026-03-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0300010_honbun_jpcrp020000-srs-001_E31367-000_2026-03-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0400010_honbun_jpcrp020000-srs-001_E31367-000_2026-03-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp020000-srs-001_E31367-000_2026-03-31_01_2026-11-20_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp040300-ssr-001_E33840-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp040300-ssr-001_E33840-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp040300-ssr-001_E33840-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp040300-ssr-001_E33840-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104020_honbun_jpcrp040300-ssr-001_E33840-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0200010_honbun_jpcrp040300-ssr-001_E33840-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp040300-ssr-001_E33840-000_2026-09-30_01_2026-11-20_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-006": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp040300-ssr-001_E03571-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp040300-ssr-001_E03571-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp040300-ssr-001_E03571-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105000_honbun_jpcrp040300-ssr-001_E03571-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105010_honbun_jpcrp040300-ssr-001_E03571-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105020_honbun_jpcrp040300-ssr-001_E03571-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105025_honbun_jpcrp040300-ssr-001_E03571-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105040_honbun_jpcrp040300-ssr-001_E03571-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105050_honbun_jpcrp040300-ssr-001_E03571-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105100_honbun_jpcrp040300-ssr-001_E03571-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105310_honbun_jpcrp040300-ssr-001_E03571-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105320_honbun_jpcrp040300-ssr-001_E03571-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105330_honbun_jpcrp040300-ssr-001_E03571-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105400_honbun_jpcrp040300-ssr-001_E03571-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105410_honbun_jpcrp040300-ssr-001_E03571-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp040300-ssr-001_E03571-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp040300-ssr-001_E03571-000_2026-09-30_01_2026-11-20_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 8,
+  "attribution_overwritten": 36,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "morning",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 8,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 0,
+  "evidence_doc_type_overridden": 0,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {},
+  "impact_kind_undetermined_by_doc_type": {},
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 0,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 0,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 95,
+   "numbers_declared": 66,
+   "gap": 29,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 94,
+     "numbers_declared": 66
+    },
+    "explainer": {
+     "text_number_tokens": 1,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 2,
+   "line_ids": [
+    "L-001-08",
+    "L-005-04"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 7,
+   "ripple": 15,
+   "deep": 6
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 2,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 1,
+   "first_run_at": "2026-11-23T07:36:30.737225+09:00",
+   "last_run_at": "2026-11-23T07:36:30.737225+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 28,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 2,
+   "total_unregistered": 2,
+   "excluded_date_time_tokens": 28,
+   "lines": [
+    {
+     "line_id": "L-001-01",
+     "values": [
+      "4"
+     ]
+    },
+    {
+     "line_id": "L-002-01",
+     "values": [
+      "4"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 0,
+   "zero_letter_count": 0,
+   "lines": []
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "market_closed",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 5
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
