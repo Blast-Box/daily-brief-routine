@@ -1,0 +1,1300 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-11-23-evening",
+ "date": "2026-11-23",
+ "slot": "evening",
+ "generated_at": "2026-11-23T17:13:01.792884+09:00",
+ "market_open": false,
+ "baseline": {
+  "date": "2026-11-24",
+  "price_type": "next_open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-23&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月23日）",
+   "published_at": "2026-11-23",
+   "fetched_at": "2026-11-23T17:09:08+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "d7c40d0f0ed870afb3780ae84dc4afa1a55e2b97c143a26ccc2f75308812f7ef",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-20&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月20日）",
+   "published_at": "2026-11-20",
+   "fetched_at": "2026-11-23T17:09:14+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "56fa55f40e02033059cfc29e3c42f58bcd73b487f77d805fcfff5dcd1c1d8fce",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZI9K?type=1",
+   "publisher": "株式会社紀陽銀行",
+   "publisher_type": "company_disclosure",
+   "title": "半期報告書－第217期(2026/04/01－2027/03/31)（株式会社紀陽銀行）",
+   "published_at": "2026-11-20T09:36:00+09:00",
+   "fetched_at": "2026-11-23T17:09:46+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "51a6ae740da4a69167d2615d97c7413d8af193290711b091a87367b5a5d71c17",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI9K）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI9K）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI9K"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZIUC?type=1",
+   "publisher": "株式会社三十三フィナンシャルグループ",
+   "publisher_type": "company_disclosure",
+   "title": "半期報告書－第9期(2026/04/01－2027/03/31)（株式会社三十三フィナンシャルグループ）",
+   "published_at": "2026-11-20T09:42:00+09:00",
+   "fetched_at": "2026-11-23T17:09:56+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "a53cd786c1ad513cd2a39e25ef86251e8486042f04ba3f1d5f1ef2c0f4933d99",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUC）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUC）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUC"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZJ4J?type=1",
+   "publisher": "株式会社ひろぎんホールディングス",
+   "publisher_type": "company_disclosure",
+   "title": "半期報告書－第7期(2026/04/01－2027/03/31)（株式会社ひろぎんホールディングス）",
+   "published_at": "2026-11-20T12:20:00+09:00",
+   "fetched_at": "2026-11-23T17:10:09+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "774c3a1466e066cf4f187aff793f8124f760db3915941857843cb777f8a5bbb5",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ4J）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ4J）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ4J"
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZJ1R?type=1",
+   "publisher": "株式会社第四北越フィナンシャルグループ",
+   "publisher_type": "company_disclosure",
+   "title": "半期報告書－第9期(2026/04/01－2027/03/31)（株式会社第四北越フィナンシャルグループ）",
+   "published_at": "2026-11-20T13:04:00+09:00",
+   "fetched_at": "2026-11-23T17:10:16+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "c6d4e4df2e5598b4c1a99750b8cbac2dc422786c74b7e7d899ed4a66c44beedd",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ1R）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ1R）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ1R"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZIUF?type=1",
+   "publisher": "株式会社山口フィナンシャルグループ",
+   "publisher_type": "company_disclosure",
+   "title": "半期報告書－第21期(2026/04/01－2027/03/31)（株式会社山口フィナンシャルグループ）",
+   "published_at": "2026-11-20T15:30:00+09:00",
+   "fetched_at": "2026-11-23T17:10:23+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "8ed6a9beceef64aff436d54692f6509c8fe787a6977ef6a5c68cc5baf926cd6a",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUF）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUF）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUF"
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZJ8N?type=1",
+   "publisher": "株式会社東京きらぼしフィナンシャルグループ",
+   "publisher_type": "company_disclosure",
+   "title": "半期報告書－第13期(2026/04/01－2027/03/31)（株式会社東京きらぼしフィナンシャルグループ）",
+   "published_at": "2026-11-20T16:00:00+09:00",
+   "fetched_at": "2026-11-23T17:10:30+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "42b4d99f2521ce8a14cc67991e21e108269f4af7e5d898d6a88a2d1f220c5190",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ8N）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ8N）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ8N"
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZIUX?type=1",
+   "publisher": "アコム株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "発行登録追補書類（株券､社債券等）（アコム株式会社）",
+   "published_at": "2026-11-20T10:03:00+09:00",
+   "fetched_at": "2026-11-23T17:10:37+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "61c653ba4ec1f3793f5536bc63043e9ba732633d7a024bf08b9ee92dd995fda3",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUX）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUX）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUX"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZJ29?type=1",
+   "publisher": "株式会社横浜フィナンシャルグループ",
+   "publisher_type": "company_disclosure",
+   "title": "発行登録追補書類（株券､社債券等）（株式会社横浜フィナンシャルグループ）",
+   "published_at": "2026-11-20T11:12:00+09:00",
+   "fetched_at": "2026-11-23T17:10:43+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "73d9bd3a756a0f5cc5b67dfd2f4a7e4a5ae0ce979265ea3dfdc214adeee7e2b6",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ29）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ29）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ29"
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-23-001",
+     "event_id": "EVT-2026-11-23-001",
+     "headline": "地方銀行グループの半期報告書が相次ぐ──ひろぎんホールディングス・第四北越フィナンシャルグループ・山口フィナンシャルグループ、貸出金利息も預金利息も増える（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "半期報告書は、上場会社が事業年度の前半の成績や財産の状態をまとめて国に出す書類である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "ひろぎんホールディングスの中間連結損益計算書では、貸出金利息が前の中間期の50,272百万円から60,874百万円に増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 50272,
+         "unit": "百万円",
+         "label": "貸出金利息（前中間連結会計期間）"
+        },
+        {
+         "value": 60874,
+         "unit": "百万円",
+         "label": "貸出金利息（当中間連結会計期間）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "（うち貸出金利息）  50,272  60,874",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ4J）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ4J）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "同じ表で、ひろぎんホールディングスの預金利息は10,132百万円から16,926百万円に増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10132,
+         "unit": "百万円",
+         "label": "預金利息（前中間連結会計期間）"
+        },
+        {
+         "value": 16926,
+         "unit": "百万円",
+         "label": "預金利息（当中間連結会計期間）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "（うち預金利息）  10,132  16,926",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ4J）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ4J）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "ひろぎんホールディングスの親会社株主に帰属する中間純利益は、20,378百万円から28,862百万円に増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20378,
+         "unit": "百万円",
+         "label": "親会社株主に帰属する中間純利益（前中間連結会計期間）"
+        },
+        {
+         "value": 28862,
+         "unit": "百万円",
+         "label": "親会社株主に帰属する中間純利益（当中間連結会計期間）"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "親会社株主に帰属する中間純利益  20,378  28,862",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ4J）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ4J）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "第四北越フィナンシャルグループの中間連結損益計算書では、貸出金利息が33,214百万円から42,747百万円に増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 33214,
+         "unit": "百万円",
+         "label": "貸出金利息（前中間連結会計期間）"
+        },
+        {
+         "value": 42747,
+         "unit": "百万円",
+         "label": "貸出金利息（当中間連結会計期間）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "（うち貸出金利息）  33,214  42,747",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ1R）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ1R）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "同じ表で、第四北越フィナンシャルグループの預金利息は6,891百万円から12,256百万円に増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 6891,
+         "unit": "百万円",
+         "label": "預金利息（前中間連結会計期間）"
+        },
+        {
+         "value": 12256,
+         "unit": "百万円",
+         "label": "預金利息（当中間連結会計期間）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "（うち預金利息）  6,891  12,256",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ1R）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ1R）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "第四北越フィナンシャルグループは、親会社株主に帰属する中間純利益が前年同期より79億円増えて307億円になったと書いている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 79,
+         "unit": "億円",
+         "label": "中間純利益の前年同期からの増加額（第四北越フィナンシャルグループ）"
+        },
+        {
+         "value": 307,
+         "unit": "億円",
+         "label": "親会社株主に帰属する中間純利益（第四北越フィナンシャルグループ）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "親会社株主に帰属する中間純利益は、前年同期比79億円増益の307億円となりました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ1R）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ1R）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-08",
+       "text": "山口フィナンシャルグループの中間連結損益計算書では、貸出金利息が59,617百万円から71,524百万円に増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 59617,
+         "unit": "百万円",
+         "label": "貸出金利息（前中間連結会計期間）"
+        },
+        {
+         "value": 71524,
+         "unit": "百万円",
+         "label": "貸出金利息（当中間連結会計期間）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "（うち貸出金利息）  59,617  71,524",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUF）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUF）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-09",
+       "text": "同じ表で、山口フィナンシャルグループの預金利息は12,649百万円から18,058百万円に増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 12649,
+         "unit": "百万円",
+         "label": "預金利息（前中間連結会計期間）"
+        },
+        {
+         "value": 18058,
+         "unit": "百万円",
+         "label": "預金利息（当中間連結会計期間）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "（うち預金利息）  12,649  18,058",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUF）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUF）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-10",
+       "text": "山口フィナンシャルグループの連結の経常利益は、26,732百万円から35,283百万円に増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 26732,
+         "unit": "百万円",
+         "label": "経常利益（前中間連結会計期間）"
+        },
+        {
+         "value": 35283,
+         "unit": "百万円",
+         "label": "経常利益（当中間連結会計期間）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "経常利益  26,732  35,283",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUF）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUF）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-11",
+       "text": "銀行は、貸し出しや債券から受け取る利息と、預金者に払う利息の差で稼ぐ。金利が上がると、受け取る利息と払う利息の両方が増えやすい。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-23-001-1",
+       "text": "国内の金利の上昇が続けば、地方銀行業では貸出金利息の増加が預金利息の増加を上回る状態が続き、利益の増加が続く可能性がある。",
+       "falsifier": "令和8年度通期の決算で、地方銀行の多くの資金利益が前期より減っていれば、この見方は成り立たない。",
+       "check_metric": "地方銀行各社の令和8年度（2027年3月期）通期の貸出金利息・預金利息・資金利益",
+       "check_by": "2027-06-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": []
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-23-002",
+     "event_id": "EVT-2026-11-23-002",
+     "headline": "波及を追う：金融会社が社債の条件を届け出──アコムは利率年2.401%、横浜フィナンシャルグループは年2.730%（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "発行登録追補書類は、社債などを出す枠をあらかじめ国に登録した会社が、実際に出すときの条件を届け出る書類である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "アコムの発行登録追補書類によると、今回の無担保社債の総額は13,000,000,000円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 13000000000,
+         "unit": "円",
+         "label": "社債の総額（アコム）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "券面総額又は振替社債の総額(円)  金13,000,000,000円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUX）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUX）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "この社債の利率は年2.401%である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.401,
+         "unit": "%",
+         "label": "社債の利率（アコム）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "利率(％)  年2.401％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUX）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUX）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "償還期限は2029年5月25日である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2029,
+         "unit": "年",
+         "label": "日付（償還期限の年・アコム）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "償還期限  2029年５月25日",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUX）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUX）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "アコムは、差し引きの手取りの概算12,954百万円を、12月に償還期日が来る別の無担保社債の償還資金の一部に充てる予定だと書いている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 12954,
+         "unit": "百万円",
+         "label": "差引手取概算額（アコム）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "上記差引手取概算額12,954百万円は、2026年12月18日に償還期日が到来する",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUX）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUX）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-06",
+       "text": "横浜フィナンシャルグループの発行登録追補書類によると、今回の無担保社債の総額は20,000百万円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20000,
+         "unit": "百万円",
+         "label": "社債の総額（横浜フィナンシャルグループ）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "券面総額又は振替社債の総額(円)  金20,000百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ29）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ29）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-07",
+       "text": "この社債の利率は年2.730%である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.73,
+         "unit": "%",
+         "label": "社債の利率（横浜フィナンシャルグループ）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "利率(％)  年2.730％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ29）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ29）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-08",
+       "text": "償還期限は2031年11月28日である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2031,
+         "unit": "年",
+         "label": "日付（償還期限の年・横浜フィナンシャルグループ）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "償還期限  2031年11月28日",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ29）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ29）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-09",
+       "text": "横浜フィナンシャルグループは、差し引きの手取りの概算19,910百万円を、2027年3月末までに全額、既存の債務の返済に充てる予定だと書いている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 19910,
+         "unit": "百万円",
+         "label": "差引手取概算額（横浜フィナンシャルグループ）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "上記差引手取概算額19,910百万円は、2027年３月末までに、全額を既存債務の返済資金に充当する予定です。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ29）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ29）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-10",
+       "text": "社債は、会社が投資家からお金を借りるときに出す証書である。利率が高いほど、出した会社が毎年払う利息は多くなる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-23-002-1",
+       "text": "市場の金利が高い状態が続けば、社債で資金を借り換える金融業の会社では、払う利息が前より増える可能性がある。",
+       "falsifier": "今後半年の間に、同じような年限の国内の社債の利率が年2%を下回る水準に下がれば、この見方は弱まる。",
+       "check_metric": "EDINETの発行登録追補書類に書かれる、国内の無担保社債の利率",
+       "check_by": "2027-05-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-23-003",
+     "event_id": "EVT-2026-11-23-003",
+     "headline": "深掘り：預金に払う利息はどれだけ増えたか──紀陽銀行・三十三フィナンシャルグループ・東京きらぼしフィナンシャルグループの半期報告書（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "預金利息は銀行が預金者に払う利息で、貸出金利息は銀行がお金を貸した相手から受け取る利息である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "紀陽銀行の中間連結損益計算書では、貸出金利息が前の中間期の26,284百万円から33,560百万円に増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 26284,
+         "unit": "百万円",
+         "label": "貸出金利息（前中間連結会計期間）"
+        },
+        {
+         "value": 33560,
+         "unit": "百万円",
+         "label": "貸出金利息（当中間連結会計期間）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "(うち貸出金利息)  26,284  33,560",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI9K）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI9K）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "同じ表で、紀陽銀行の預金利息は4,204百万円から8,086百万円に増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 4204,
+         "unit": "百万円",
+         "label": "預金利息（前中間連結会計期間）"
+        },
+        {
+         "value": 8086,
+         "unit": "百万円",
+         "label": "預金利息（当中間連結会計期間）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "(うち預金利息)  4,204  8,086",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI9K）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI9K）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "紀陽銀行の連結の経常利益は、14,669百万円から19,548百万円に増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 14669,
+         "unit": "百万円",
+         "label": "経常利益（前中間連結会計期間）"
+        },
+        {
+         "value": 19548,
+         "unit": "百万円",
+         "label": "経常利益（当中間連結会計期間）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "経常利益  14,669  19,548",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI9K）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI9K）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "三十三フィナンシャルグループの中間連結損益計算書では、貸出金利息が20,086百万円から25,488百万円に増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20086,
+         "unit": "百万円",
+         "label": "貸出金利息（前中間連結会計期間）"
+        },
+        {
+         "value": 25488,
+         "unit": "百万円",
+         "label": "貸出金利息（当中間連結会計期間）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "（うち貸出金利息）  20,086  25,488",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUC）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUC）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-06",
+       "text": "同じ表で、三十三フィナンシャルグループの預金利息は3,817百万円から6,573百万円に増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3817,
+         "unit": "百万円",
+         "label": "預金利息（前中間連結会計期間）"
+        },
+        {
+         "value": 6573,
+         "unit": "百万円",
+         "label": "預金利息（当中間連結会計期間）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "（うち預金利息）  3,817  6,573",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUC）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUC）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-07",
+       "text": "三十三フィナンシャルグループの親会社株主に帰属する中間純利益は、5,674百万円から8,168百万円に増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5674,
+         "unit": "百万円",
+         "label": "親会社株主に帰属する中間純利益（前中間連結会計期間）"
+        },
+        {
+         "value": 8168,
+         "unit": "百万円",
+         "label": "親会社株主に帰属する中間純利益（当中間連結会計期間）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "親会社株主に帰属する中間純利益  5,674  8,168",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUC）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUC）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-08",
+       "text": "東京きらぼしフィナンシャルグループの中間連結損益計算書では、貸出金利息が42,181百万円から50,953百万円に増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 42181,
+         "unit": "百万円",
+         "label": "貸出金利息（前中間連結会計期間）"
+        },
+        {
+         "value": 50953,
+         "unit": "百万円",
+         "label": "貸出金利息（当中間連結会計期間）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "（うち貸出金利息）  42,181  50,953",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ8N）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ8N）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-09",
+       "text": "同じ表で、東京きらぼしフィナンシャルグループの預金利息は10,255百万円から14,222百万円に増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10255,
+         "unit": "百万円",
+         "label": "預金利息（前中間連結会計期間）"
+        },
+        {
+         "value": 14222,
+         "unit": "百万円",
+         "label": "預金利息（当中間連結会計期間）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "（うち預金利息）  10,255  14,222",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ8N）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ8N）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-10",
+       "text": "東京きらぼしフィナンシャルグループの連結の経常利益は、27,631百万円から29,258百万円に増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 27631,
+         "unit": "百万円",
+         "label": "経常利益（前中間連結会計期間）"
+        },
+        {
+         "value": 29258,
+         "unit": "百万円",
+         "label": "経常利益（当中間連結会計期間）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "経常利益  27,631  29,258",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ8N）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ8N）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-23-003-1",
+       "text": "預金を集める競争が強い地域では、銀行業の預金利息の伸びが貸出金利息の伸びに近づき、利益の伸びが鈍る可能性がある。",
+       "falsifier": "令和8年度通期の決算で、地方銀行の多くで預金利息の増加額が貸出金利息の増加額の半分を下回っていれば、この見方は弱まる。",
+       "check_metric": "地方銀行各社の令和8年度（2027年3月期）通期の預金利息と貸出金利息の増加額",
+       "check_by": "2027-06-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-11-23T17:13:01.792884+09:00",
+  "first_run": {
+   "run_at": "2026-11-23T17:13:01.792884+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 10,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 31,
+  "passed": 26,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 5,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 10,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-001": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp040300-ssr-001_E03581-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp040300-ssr-001_E03581-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp040300-ssr-001_E03581-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105000_honbun_jpcrp040300-ssr-001_E03581-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105010_honbun_jpcrp040300-ssr-001_E03581-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105020_honbun_jpcrp040300-ssr-001_E03581-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105025_honbun_jpcrp040300-ssr-001_E03581-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105040_honbun_jpcrp040300-ssr-001_E03581-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105050_honbun_jpcrp040300-ssr-001_E03581-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105100_honbun_jpcrp040300-ssr-001_E03581-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105110_honbun_jpcrp040300-ssr-001_E03581-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105310_honbun_jpcrp040300-ssr-001_E03581-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105320_honbun_jpcrp040300-ssr-001_E03581-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105330_honbun_jpcrp040300-ssr-001_E03581-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105400_honbun_jpcrp040300-ssr-001_E03581-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp040300-ssr-001_E03581-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp040300-ssr-001_E03581-000_2026-09-30_01_2026-11-20_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp040300-ssr-001_E33693-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp040300-ssr-001_E33693-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp040300-ssr-001_E33693-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp040300-ssr-001_E33693-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104020_honbun_jpcrp040300-ssr-001_E33693-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0200010_honbun_jpcrp040300-ssr-001_E33693-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp040300-ssr-001_E33693-000_2026-09-30_01_2026-11-20_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp040300-ssr-001_E35810-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp040300-ssr-001_E35810-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp040300-ssr-001_E35810-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105000_honbun_jpcrp040300-ssr-001_E35810-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105010_honbun_jpcrp040300-ssr-001_E35810-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105020_honbun_jpcrp040300-ssr-001_E35810-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105025_honbun_jpcrp040300-ssr-001_E35810-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105040_honbun_jpcrp040300-ssr-001_E35810-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105050_honbun_jpcrp040300-ssr-001_E35810-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105100_honbun_jpcrp040300-ssr-001_E35810-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105110_honbun_jpcrp040300-ssr-001_E35810-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105310_honbun_jpcrp040300-ssr-001_E35810-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105320_honbun_jpcrp040300-ssr-001_E35810-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105330_honbun_jpcrp040300-ssr-001_E35810-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105400_honbun_jpcrp040300-ssr-001_E35810-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp040300-ssr-001_E35810-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp040300-ssr-001_E35810-000_2026-09-30_01_2026-11-20_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-004": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp040300-ssr-001_E34113-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp040300-ssr-001_E34113-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp040300-ssr-001_E34113-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105000_honbun_jpcrp040300-ssr-001_E34113-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105010_honbun_jpcrp040300-ssr-001_E34113-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105020_honbun_jpcrp040300-ssr-001_E34113-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105025_honbun_jpcrp040300-ssr-001_E34113-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105040_honbun_jpcrp040300-ssr-001_E34113-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105050_honbun_jpcrp040300-ssr-001_E34113-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105100_honbun_jpcrp040300-ssr-001_E34113-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105110_honbun_jpcrp040300-ssr-001_E34113-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105310_honbun_jpcrp040300-ssr-001_E34113-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105320_honbun_jpcrp040300-ssr-001_E34113-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105330_honbun_jpcrp040300-ssr-001_E34113-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105400_honbun_jpcrp040300-ssr-001_E34113-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp040300-ssr-001_E34113-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp040300-ssr-001_E34113-000_2026-09-30_01_2026-11-20_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp040300-ssr-001_E03622-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp040300-ssr-001_E03622-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp040300-ssr-001_E03622-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp040300-ssr-001_E03622-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0200010_honbun_jpcrp040300-ssr-001_E03622-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp040300-ssr-001_E03622-000_2026-09-30_01_2026-11-20_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-006": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp040300-ssr-001_E30746-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp040300-ssr-001_E30746-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp040300-ssr-001_E30746-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp040300-ssr-001_E30746-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104020_honbun_jpcrp040300-ssr-001_E30746-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0200010_honbun_jpcrp040300-ssr-001_E30746-000_2026-09-30_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp040300-ssr-001_E30746-000_2026-09-30_01_2026-11-20_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-007": {
+    "files": [
+     "XBRL/PublicDoc/0100000_honbun_jpcrp120000-rep-001_E03693-000_2026-11-02_01_2026-11-02_ixbrl.htm",
+     "XBRL/PublicDoc/0200000_honbun_jpcrp120000-rep-001_E03693-000_2026-11-02_01_2026-11-02_ixbrl.htm",
+     "XBRL/PublicDoc/0300000_honbun_jpcrp120000-rep-001_E03693-000_2026-11-02_01_2026-11-02_ixbrl.htm",
+     "XBRL/PublicDoc/0400000_honbun_jpcrp120000-rep-001_E03693-000_2026-11-02_01_2026-11-02_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp120000-rep-001_E03693-000_2026-11-02_01_2026-11-02_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-008": {
+    "files": [
+     "XBRL/PublicDoc/0100000_honbun_jpcrp120000-rep-001_E32022-000_2026-11-20_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0200000_honbun_jpcrp120000-rep-001_E32022-000_2026-11-20_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0300000_honbun_jpcrp120000-rep-001_E32022-000_2026-11-20_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0400000_honbun_jpcrp120000-rep-001_E32022-000_2026-11-20_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp120000-rep-001_E32022-000_2026-11-20_01_2026-11-20_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 10,
+  "attribution_overwritten": 36,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "evening",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 10,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 0,
+  "evidence_doc_type_overridden": 0,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {},
+  "impact_kind_undetermined_by_doc_type": {},
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 0,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 0,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 51,
+   "numbers_declared": 44,
+   "gap": 7,
+   "by_mark": {
+    "explainer": {
+     "text_number_tokens": 0,
+     "numbers_declared": 0
+    },
+    "source_number_match": {
+     "text_number_tokens": 51,
+     "numbers_declared": 44
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 2,
+   "line_ids": [
+    "L-002-04",
+    "L-002-08"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 9,
+   "change": 0,
+   "ripple": 8,
+   "deep": 9
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 2,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 1,
+   "first_run_at": "2026-11-23T17:12:58.020155+09:00",
+   "last_run_at": "2026-11-23T17:12:58.020155+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 26,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 0,
+   "total_unregistered": 0,
+   "excluded_date_time_tokens": 9,
+   "lines": []
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 2,
+   "zero_letter_count": 0,
+   "lines": [
+    {
+     "line_id": "L-002-03",
+     "letters": 3
+    },
+    {
+     "line_id": "L-002-07",
+     "letters": 3
+    }
+   ]
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "market_closed",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 3
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
