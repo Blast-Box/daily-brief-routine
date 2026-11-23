@@ -1,0 +1,1411 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-11-23-noon",
+ "date": "2026-11-23",
+ "slot": "noon",
+ "generated_at": "2026-11-23T13:14:53.373912+09:00",
+ "market_open": false,
+ "baseline": {
+  "date": "2026-11-23",
+  "price_type": "observed"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-23&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月23日）",
+   "published_at": "2026-11-23",
+   "fetched_at": "2026-11-23T13:08:24+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "92715bb152c81704dc0e28174fd200066c64ef7d7dbd085735f0116ffbb5441e",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-20&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月20日）",
+   "published_at": "2026-11-20",
+   "fetched_at": "2026-11-23T13:08:30+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "56fa55f40e02033059cfc29e3c42f58bcd73b487f77d805fcfff5dcd1c1d8fce",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://www.boj.or.jp/research/wps_rev/wps_2026/wp26j12.htm",
+   "publisher": "日本銀行",
+   "publisher_type": "central_bank",
+   "title": "（論文）家計のインフレ予想の形成メカニズム：インフレ実感とインフレ経験の役割",
+   "published_at": "2026-11-20",
+   "fetched_at": "2026-11-23T13:09:19+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "c521f46e237faf5073983b98dc1ec01cd178045b7af82139af660e25d8acdb17",
+   "usage": "quotable",
+   "attribution": "出典：日本銀行「（論文）家計のインフレ予想の形成メカニズム：インフレ実感とインフレ経験の役割」（https://www.boj.or.jp/research/wps_rev/wps_2026/wp26j12.htm）",
+   "processing_note": "日本銀行「（論文）家計のインフレ予想の形成メカニズム：インフレ実感とインフレ経験の役割」（https://www.boj.or.jp/research/wps_rev/wps_2026/wp26j12.htm）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://www.boj.or.jp/research/wps_rev/wps_2026/data/wp26j12.pdf",
+   "publisher": "日本銀行",
+   "publisher_type": "central_bank",
+   "title": "家計のインフレ予想の形成メカニズム：インフレ実感とインフレ経験の役割",
+   "published_at": null,
+   "fetched_at": "2026-11-23T13:09:30+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "92d3adf52804f55e6ae7944c4e839542bc5ddab194c8b28e9be24ca1e412d7c8",
+   "usage": "quotable",
+   "attribution": "出典：日本銀行「家計のインフレ予想の形成メカニズム：インフレ実感とインフレ経験の役割」（https://www.boj.or.jp/research/wps_rev/wps_2026/data/wp26j12.pdf）",
+   "processing_note": "日本銀行「家計のインフレ予想の形成メカニズム：インフレ実感とインフレ経験の役割」（https://www.boj.or.jp/research/wps_rev/wps_2026/data/wp26j12.pdf）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZGN8?type=1",
+   "publisher": "福島印刷株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "有価証券報告書－第74期(2025/08/21－2026/08/20)（福島印刷株式会社）",
+   "published_at": "2026-11-20T15:33:00+09:00",
+   "fetched_at": "2026-11-23T13:09:36+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "da14ea2c257e84b2ac14eabb9d6c18ed593843c7d42a49151640c45f641d720d",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGN8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGN8）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGN8"
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZJ65?type=1",
+   "publisher": "株式会社メディア工房",
+   "publisher_type": "company_disclosure",
+   "title": "有価証券報告書－第29期(2025/09/01－2026/08/31)（株式会社メディア工房）",
+   "published_at": "2026-11-20T16:23:00+09:00",
+   "fetched_at": "2026-11-23T13:09:44+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "cea2a25164c8c632f05fb6ebc242dacecde8f4c164726409111ff403228f32c4",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ65）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ65）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ65"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZI78?type=1",
+   "publisher": "株式会社タダノ",
+   "publisher_type": "company_disclosure",
+   "title": "発行登録書（株券､社債券等）（株式会社タダノ）",
+   "published_at": "2026-11-20T13:14:00+09:00",
+   "fetched_at": "2026-11-23T13:09:52+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "fc20666b1e9b9422977c8fc4489e77685a6bbc3391b24067a111aa8abacdd6ec",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI78）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI78）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI78"
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZCXZ?type=1",
+   "publisher": "株式会社荏原製作所",
+   "publisher_type": "company_disclosure",
+   "title": "発行登録書（株券､社債券等）（株式会社荏原製作所）",
+   "published_at": "2026-11-20T14:21:00+09:00",
+   "fetched_at": "2026-11-23T13:09:57+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "c906db539dfdfde3e2fff1c737d4bbd3e0882301f06cc0f7509af069e724a23f",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCXZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCXZ）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCXZ"
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZIUB?type=1",
+   "publisher": "双日株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "発行登録書（株券､社債券等）（双日株式会社）",
+   "published_at": "2026-11-20T14:02:00+09:00",
+   "fetched_at": "2026-11-23T13:10:03+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "4b7c4d53f897ead5a19db38f205ab0ba583415a97fadf4c6a6efe1f6b321ed28",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUB）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUB"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZJ5K?type=1",
+   "publisher": "兼松株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "発行登録追補書類（株券､社債券等）（兼松株式会社）",
+   "published_at": "2026-11-20T11:07:00+09:00",
+   "fetched_at": "2026-11-23T13:10:09+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "a951b82f99626124131b9da2ade455ab825880527feddb0948a7662a0ca75eda",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ5K）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ5K）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ5K"
+  },
+  {
+   "source_id": "SRC-009",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZIZ3?type=1",
+   "publisher": "ニプロ株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "訂正半期報告書－第74期(2026/04/01－2027/03/31)（ニプロ株式会社）",
+   "published_at": "2026-11-20T09:46:00+09:00",
+   "fetched_at": "2026-11-23T13:10:14+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "57a2978551009b251f86fa9521f285daeec46715edb15bab83b864173ec7550b",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIZ3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIZ3）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIZ3"
+  },
+  {
+   "source_id": "SRC-010",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZHZZ?type=1",
+   "publisher": "ＤＭ三井製糖株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "発行登録追補書類（株券､社債券等）（ＤＭ三井製糖株式会社）",
+   "published_at": "2026-11-20T10:49:00+09:00",
+   "fetched_at": "2026-11-23T13:10:21+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "8241a58d3f797e79249bdd826e1ae7361346ae51c098fad1979a53fa93ea04a0",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHZZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHZZ）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHZZ"
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-23-001",
+     "event_id": "EVT-2026-11-23-001",
+     "headline": "社債でお金を集める会社が続く──兼松は5年と7年の社債で合計18,100百万円、ＤＭ三井製糖は利率年2.562%、タダノ・荏原製作所・双日は発行の枠を登録（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "商社の兼松が11月20日に提出した書類によると、今回募集する社債は、5年で返す社債が12,100百万円、7年で返す社債が6,000百万円で、合計18,100百万円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 12100,
+         "unit": "百万円",
+         "label": "5年債の募集金額"
+        },
+        {
+         "value": 6000,
+         "unit": "百万円",
+         "label": "7年債の募集金額"
+        },
+        {
+         "value": 18100,
+         "unit": "百万円",
+         "label": "募集金額の合計"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "第９回無担保社債（５年債） 12,100百万円 第10回無担保社債（７年債） 6,000百万円 計 18,100百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ5K）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ5K）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "5年で返す社債の利率は年2.820%と書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.82,
+         "unit": "%",
+         "label": "5年債の利率"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "利率（％） 年2.820％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ5K）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ5K）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "7年で返す社債の利率は年3.244%と書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.244,
+         "unit": "%",
+         "label": "7年債の利率"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "利率（％） 年3.244％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ5K）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ5K）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "手取りの概算額17,977百万円は、全額を、連結子会社の兼松エレクトロニクスが10月に行った会社の株式の取得の資金として、兼松が金融機関から借りた短期の借入金の返済の一部に充てる予定だという。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 17977,
+         "unit": "百万円",
+         "label": "差引手取概算額"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "上記差引手取概算額17,977百万円は、全額を当社の連結子会社である兼松エレクトロニクス株式会社",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ5K）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ5K）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "砂糖の大手のＤＭ三井製糖も同じ日に、総額10,000百万円の社債の条件を届け出た。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10000,
+         "unit": "百万円",
+         "label": "社債の総額"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "券面総額又は振替社債の総額(円) 金10,000百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHZZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHZZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "この社債の利率は年2.562%で、2029年11月27日に返すと書かれている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.562,
+         "unit": "%",
+         "label": "社債の利率"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "利率(％) 年2.562％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHZZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHZZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "ＤＭ三井製糖は、手取りの概算額9,952百万円を、12月9日に返す期日が来る以前の社債の返済資金の一部に充てる予定だとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9952,
+         "unit": "百万円",
+         "label": "差引手取概算額"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "上記の差引手取概算額9,952百万円は、2026年12月９日に償還期日が到来する第１回無担保社債の償還資金の一部に充当する予定です。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHZZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZHZZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-08",
+       "text": "社債は、会社が投資家からお金を借りるために出す証券で、決めた利率で利息を払い、決めた日に元本を返す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-09",
+       "text": "クレーンのタダノは11月20日、これから2年の間に出す社債の枠として、発行予定額50,000百万円の発行登録書を提出した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 50000,
+         "unit": "百万円",
+         "label": "発行予定額"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "【発行予定額又は発行残高の上限】 発行予定額 50,000百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI78）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZI78）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-10",
+       "text": "ポンプなどの荏原製作所も同じ日に、発行予定額60,000百万円の発行登録書を提出した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 60000,
+         "unit": "百万円",
+         "label": "発行予定額"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "【発行予定額又は発行残高の上限】 発行予定額 60,000百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCXZ）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZCXZ）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-11",
+       "text": "商社の双日も同じ日に、発行予定額150,000百万円の発行登録書を提出した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 150000,
+         "unit": "百万円",
+         "label": "発行予定額"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "【発行予定額又は発行残高の上限】 発行予定額 150,000百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZIUB）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-12",
+       "text": "発行登録は、社債を出す前に枠をあらかじめ届け出ておき、実際に出すときに条件だけを追加で届け出る仕組みで、資金が必要になったときに早く社債を出しやすくなる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-23-001-1",
+       "text": "社債の利率が年2%台後半から3%台になると、借り入れを社債に頼る割合が高い業種ほど、借り換えのたびに利息の支払いが増える可能性がある。",
+       "falsifier": "12月に届け出られる同じ程度の年限の社債の利率が、年2%を下回る水準に下がれば、この見方は当てはまりにくい。",
+       "check_metric": "EDINETに12月に提出される発行登録追補書類の社債の利率",
+       "check_by": "2026-12-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-23-002",
+     "event_id": "EVT-2026-11-23-002",
+     "headline": "波及を追う：紙の書類が減る中の印刷会社──福島印刷、売上高は8.2%減でも営業利益は51.4%増、発送代行は17.3%減（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "金沢市の印刷会社の福島印刷が11月20日に提出した有価証券報告書によると、8月20日までの1年間の売上高は前の年より8.2%減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 8.2,
+         "unit": "%",
+         "label": "売上高の減少率"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "この結果、当事業年度の売上高は前事業年度を５億98百万円（8.2％）下回る67億32百万円となりました。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGN8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGN8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "一方、営業利益は前の年より51.4%増え、経常利益は63.4%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 51.4,
+         "unit": "%",
+         "label": "営業利益の増加率"
+        },
+        {
+         "value": 63.4,
+         "unit": "%",
+         "label": "経常利益の増加率"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "営業利益が３億74百万円(前事業年度比51.4％増）、経常利益が４億３百万円（前事業年度比63.4％増）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGN8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGN8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "売上高に占める経常利益の割合は前の年より2.6ポイント高い6.0%で、増益の要因として人件費の減少などを挙げている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.6,
+         "unit": "ポイント",
+         "label": "売上高経常利益率の上昇幅"
+        },
+        {
+         "value": 6.0,
+         "unit": "%",
+         "label": "売上高経常利益率"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "売上高経常利益率は前事業年度を2.6ポイント上回る6.0％となりました。増益の要因としては、人件費の減少等",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGN8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGN8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "分野別では、販促の分野の売上高が、発送代行サービスの大幅な減少などで17.3%減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 17.3,
+         "unit": "%",
+         "label": "販促分野の売上高の減少率"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "発送代行サービスの大幅な減少等もあり、売上高は前事業年度を７億10百万円（17.3％）下回る",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGN8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGN8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "通知物の関連は、電子化や前の期の受注の反動があったものの、新しい取引先の開拓などで売上高が2.7%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.7,
+         "unit": "%",
+         "label": "通知物関連の売上高の増加率"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "新規開拓も含め積極的な営業活動を行ったことから、売上高は前事業年度を67百万円（2.7％）上回る",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGN8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGN8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-06",
+       "text": "ビジネスフォームの関連は、ウェブ化によるペーパーレス化が進んだものの、特別な需要を取り込んだことから売上高が8.9%増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 8.9,
+         "unit": "%",
+         "label": "ビジネスフォーム関連の売上高の増加率"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "特需の取込みもあったことから、売上高は前事業年度を54百万円（8.9％）上回る",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGN8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGN8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-07",
+       "text": "商業印刷の分野は、市場全体の需要の量の減少が続き、売上高が11.6%減の74百万円だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 11.6,
+         "unit": "%",
+         "label": "商業印刷分野の売上高の減少率"
+        },
+        {
+         "value": 74,
+         "unit": "百万円",
+         "label": "商業印刷分野の売上高"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "市場全体での需要量の減少傾向が続いており、売上高は前事業年度を９百万円（11.6％）下回る74百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGN8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGN8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-08",
+       "text": "売上高から売上原価を引いた売上総利益の、売上高に対する割合は、前の年より2.2ポイント高い25.3%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.2,
+         "unit": "ポイント",
+         "label": "売上総利益率の上昇幅"
+        },
+        {
+         "value": 25.3,
+         "unit": "%",
+         "label": "売上総利益率"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "売上総利益率は前事業年度2.2ポイント上回る25.3％となりました。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGN8）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGN8）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-09",
+       "text": "ビジネスフォームは、伝票や請求書のように、決まった書式で印刷して使う事務用の帳票のことである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-23-002-1",
+       "text": "書類の電子化が進むと、印刷業では売上高が減っても、人件費などの費用を減らすことで利益を保つ動きが広がる可能性がある。",
+       "falsifier": "印刷業の会社の次の決算で、売上高の減少とともに営業利益も減る例が多ければ、この見方は当てはまりにくい。",
+       "check_metric": "印刷業の会社の半期報告書・有価証券報告書の売上高と営業利益",
+       "check_by": "2027-04-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-23-003",
+     "event_id": "EVT-2026-11-23-003",
+     "headline": "波及を追う：占いのネットサービスの1年──メディア工房、売上高は13.9%減で営業損失533百万円、6月から生成AIを使った業務の内製化などの構造改革（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "お断り：この紙面は、生成AIを開発するAnthropic社のAI（Claude）が作っている。生成AIに関わる記述では、この立場にあることを明記し、評価は加えない。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "占いのネットサービスを手がけるメディア工房が11月20日に提出した有価証券報告書によると、8月までの1年間の売上高は1,612百万円で前の年より13.9%減り、営業損失は533百万円（前の年は323百万円の損失）だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1612,
+         "unit": "百万円",
+         "label": "売上高"
+        },
+        {
+         "value": 13.9,
+         "unit": "%",
+         "label": "売上高の減少率"
+        },
+        {
+         "value": 533,
+         "unit": "百万円",
+         "label": "営業損失"
+        },
+        {
+         "value": 323,
+         "unit": "百万円",
+         "label": "前の年の営業損失"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "売上高1,612百万円(前年同期比13.9％減)、営業損失533百万円(前年同期は営業損失323百万円)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ65）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ65）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "親会社の株主に帰属する当期純損失は716百万円（前の年は508百万円の損失）だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 716,
+         "unit": "百万円",
+         "label": "親会社株主に帰属する当期純損失"
+        },
+        {
+         "value": 508,
+         "unit": "百万円",
+         "label": "前の年の親会社株主に帰属する当期純損失"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "親会社株主に帰属する当期純損失716百万円(前年同期は親会社株主に帰属する当期純損失508百万円)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ65）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ65）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "主力の占い事業の売上高は1,491百万円で15.3%減り、営業利益は221百万円で42.7%減った。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1491,
+         "unit": "百万円",
+         "label": "占い事業の売上高"
+        },
+        {
+         "value": 15.3,
+         "unit": "%",
+         "label": "占い事業の売上高の減少率"
+        },
+        {
+         "value": 221,
+         "unit": "百万円",
+         "label": "占い事業の営業利益"
+        },
+        {
+         "value": 42.7,
+         "unit": "%",
+         "label": "占い事業の営業利益の減少率"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "占い事業の売上高は1,491百万円(前年同期比15.3％減)、営業利益221百万円(前年同期比42.7％減)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ65）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ65）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "占いで集めたデータを企業向けに使うデータ・テクノロジー事業の売上高は113百万円で14.1%増えたが、営業損失は171百万円（前の年は131百万円の損失）だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 113,
+         "unit": "百万円",
+         "label": "データ・テクノロジー事業の売上高"
+        },
+        {
+         "value": 14.1,
+         "unit": "%",
+         "label": "同事業の売上高の増加率"
+        },
+        {
+         "value": 171,
+         "unit": "百万円",
+         "label": "同事業の営業損失"
+        },
+        {
+         "value": 131,
+         "unit": "百万円",
+         "label": "同事業の前の年の営業損失"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "データ・テクノロジー事業の売上高は113百万円(前年同期比14.1％増)、営業損失171百万円(前年同期は営業損失131百万円)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ65）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ65）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-06",
+       "text": "管理部門では、本店オフィスの移転費用18百万円や、中間の株主優待の導入に伴う費用62百万円などを計上したという。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 18,
+         "unit": "百万円",
+         "label": "本店オフィスの移転費用"
+        },
+        {
+         "value": 62,
+         "unit": "百万円",
+         "label": "株主優待費用"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "本店オフィスの移転費用18百万円及び中間株主優待導入に伴う株主優待費用62百万円等を計上",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ65）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ65）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-07",
+       "text": "同社は2026年6月から、不採算の事業の整理・縮小、業務委託費の見直し、生成AIを使った業務の内製化などの構造改革に取り組んでいると書いている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 6,
+         "unit": "月",
+         "label": "日付（構造改革を始めた月）"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "2026年６月（当期第４四半期）より、不採算事業及び施策の整理・縮小、業務委託費の見直し、生成AIを活用した業務の内製化",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ65）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ65）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-08",
+       "text": "営業損失は、売上高から売上原価と販売費・一般管理費を引いた本業のもうけが、マイナスになった額のことである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-23-003-1",
+       "text": "生成AIの普及で利用者の情報の集め方が変わると、ネットの有料コンテンツを売る業種では、利用者を集める費用が増え、利益が出にくくなる可能性がある。",
+       "falsifier": "ネットのコンテンツ配信の会社の次の決算で、売上高が増え、広告・集客の費用の割合が下がる例が多ければ、この見方は当てはまりにくい。",
+       "check_metric": "情報・通信業のコンテンツ配信の会社の半期報告書の売上高と販売費",
+       "check_by": "2027-05-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-23-004",
+     "event_id": "EVT-2026-11-23-004",
+     "headline": "深掘り：家計の「物価がこれから上がる」という見通しは何で決まるか──日本銀行の職員の論文、世代ごとの物価の経験と、ふだんの物価の実感で説明（論文は日本銀行の公式見解ではない）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "日本銀行の職員らによる論文（日本銀行ワーキングペーパー）は、主な分析結果を2点にまとめ、その一つとして、世代の間でみられる家計のインフレ予想（物価がこれからどれだけ上がるかの見通し）の水準の違いは、各世代が経験してきた物価の動きの差でかなりの程度説明できるとした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "点",
+         "label": "件数（主要な分析結果）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "本稿の主要な分析結果は、以下の２点にまとめられる。第１に、世代間でみられる",
+       "attribution": "出典：日本銀行「家計のインフレ予想の形成メカニズム：インフレ実感とインフレ経験の役割」（https://www.boj.or.jp/research/wps_rev/wps_2026/data/wp26j12.pdf）",
+       "processing_note": "日本銀行「家計のインフレ予想の形成メカニズム：インフレ実感とインフレ経験の役割」（https://www.boj.or.jp/research/wps_rev/wps_2026/data/wp26j12.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "論文は、2020年のコロナ禍以降、ふだんの物価の実感のうち短い期間で収まる部分が家計の短期のインフレ予想を押し上げる一方で、各世代の物価の経験や、実感のうちゆっくり動く部分の寄与も広がっており、予想がコロナ禍前より高い水準にとどまる可能性が示されるとしている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2020,
+         "unit": "年",
+         "label": "日付（注目した時期の起点の年）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "そのうえで 2020 年のコロナ禍以降に注目すると、短期的にはインフレ実感のうち",
+       "attribution": "出典：日本銀行「家計のインフレ予想の形成メカニズム：インフレ実感とインフレ経験の役割」（https://www.boj.or.jp/research/wps_rev/wps_2026/data/wp26j12.pdf）",
+       "processing_note": "日本銀行「家計のインフレ予想の形成メカニズム：インフレ実感とインフレ経験の役割」（https://www.boj.or.jp/research/wps_rev/wps_2026/data/wp26j12.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "分析には、内閣府の消費動向調査で集めた家計の1年後のインフレ予想の調査票の情報を使い、全期間のサンプル数は1,060,502世帯である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1060502,
+         "unit": "世帯",
+         "label": "全期間のサンプル数"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "サンプル数（世帯） 1,060,502",
+       "attribution": "出典：日本銀行「家計のインフレ予想の形成メカニズム：インフレ実感とインフレ経験の役割」（https://www.boj.or.jp/research/wps_rev/wps_2026/data/wp26j12.pdf）",
+       "processing_note": "日本銀行「家計のインフレ予想の形成メカニズム：インフレ実感とインフレ経験の役割」（https://www.boj.or.jp/research/wps_rev/wps_2026/data/wp26j12.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "論文の表では、単身世帯の短期のインフレ予想の平均は、2004〜08年度の1.48%に対し、2022〜24年度は3.72%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1.48,
+         "unit": "%",
+         "label": "単身世帯の短期インフレ予想（2004〜08年度）"
+        },
+        {
+         "value": 3.72,
+         "unit": "%",
+         "label": "単身世帯の短期インフレ予想（2022〜24年度）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "世帯人数 単身世帯 2.45 1.48 1.28 2.44 2.33 3.72",
+       "attribution": "出典：日本銀行「家計のインフレ予想の形成メカニズム：インフレ実感とインフレ経験の役割」（https://www.boj.or.jp/research/wps_rev/wps_2026/data/wp26j12.pdf）",
+       "processing_note": "日本銀行「家計のインフレ予想の形成メカニズム：インフレ実感とインフレ経験の役割」（https://www.boj.or.jp/research/wps_rev/wps_2026/data/wp26j12.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "論文は、物価の実感の代わりの指標として、新聞の記事の件数に占める値上げの記事の割合から値下げの記事の割合を引いた「値上げ・値下げ報道DI」を使い、この指標が2022年以降にはっきり高まっていると書いている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2022,
+         "unit": "年",
+         "label": "日付（指標が高まり始めた年）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "図 3 で示した時系列推移をみると、値上げ・値下げ報道 DI は、2022 年以降に明確",
+       "attribution": "出典：日本銀行「家計のインフレ予想の形成メカニズム：インフレ実感とインフレ経験の役割」（https://www.boj.or.jp/research/wps_rev/wps_2026/data/wp26j12.pdf）",
+       "processing_note": "日本銀行「家計のインフレ予想の形成メカニズム：インフレ実感とインフレ経験の役割」（https://www.boj.or.jp/research/wps_rev/wps_2026/data/wp26j12.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-06",
+       "text": "家計のインフレ予想は、ものを買う時期やお金の使い方、賃金の交渉に影響しうるため、中央銀行が物価の先行きを考えるときに見る材料の一つになっている。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-23-004-1",
+       "text": "家計のインフレ予想が高いまま続くと、値上げを受け入れられやすいと考える小売業や外食業で、価格の引き上げが続く可能性がある。",
+       "falsifier": "日本銀行の「生活意識に関するアンケート調査」で、1年後に物価が上がると答える人の割合がはっきり下がれば、この見方は当てはまりにくい。",
+       "check_metric": "日本銀行「生活意識に関するアンケート調査」の1年後の物価の見通し",
+       "check_by": "2027-01-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-11-23T13:14:53.373912+09:00",
+  "first_run": {
+   "run_at": "2026-11-23T13:14:53.373912+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 12,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 35,
+  "passed": 29,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 6,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 10,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp030000-asr-001_E00722-000_2026-08-20_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp030000-asr-001_E00722-000_2026-08-20_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp030000-asr-001_E00722-000_2026-08-20_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp030000-asr-001_E00722-000_2026-08-20_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105000_honbun_jpcrp030000-asr-001_E00722-000_2026-08-20_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105010_honbun_jpcrp030000-asr-001_E00722-000_2026-08-20_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105310_honbun_jpcrp030000-asr-001_E00722-000_2026-08-20_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105320_honbun_jpcrp030000-asr-001_E00722-000_2026-08-20_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105330_honbun_jpcrp030000-asr-001_E00722-000_2026-08-20_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105340_honbun_jpcrp030000-asr-001_E00722-000_2026-08-20_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105400_honbun_jpcrp030000-asr-001_E00722-000_2026-08-20_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105410_honbun_jpcrp030000-asr-001_E00722-000_2026-08-20_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0106010_honbun_jpcrp030000-asr-001_E00722-000_2026-08-20_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0107010_honbun_jpcrp030000-asr-001_E00722-000_2026-08-20_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp030000-asr-001_E00722-000_2026-08-20_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp030000-asr-001_E00722-000_2026-08-20_01_2026-11-20_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-004": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp030000-asr-001_E05622-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp030000-asr-001_E05622-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp030000-asr-001_E05622-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp030000-asr-001_E05622-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105010_honbun_jpcrp030000-asr-001_E05622-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105020_honbun_jpcrp030000-asr-001_E05622-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105025_honbun_jpcrp030000-asr-001_E05622-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105040_honbun_jpcrp030000-asr-001_E05622-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105050_honbun_jpcrp030000-asr-001_E05622-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105100_honbun_jpcrp030000-asr-001_E05622-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105310_honbun_jpcrp030000-asr-001_E05622-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105320_honbun_jpcrp030000-asr-001_E05622-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105330_honbun_jpcrp030000-asr-001_E05622-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0105400_honbun_jpcrp030000-asr-001_E05622-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0106010_honbun_jpcrp030000-asr-001_E05622-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0107010_honbun_jpcrp030000-asr-001_E05622-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp030000-asr-001_E05622-000_2026-08-31_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp030000-asr-001_E05622-000_2026-08-31_01_2026-11-20_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp110000-rst-001_E01613-000_2026-11-20_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp110000-rst-001_E01613-000_2026-11-20_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp110000-rst-001_E01613-000_2026-11-20_01_2026-11-20_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-006": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp110000-rst-001_E01542-000_2026-11-20_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp110000-rst-001_E01542-000_2026-11-20_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp110000-rst-001_E01542-000_2026-11-20_01_2026-11-20_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-007": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp110000-rst-001_E02958-000_2026-11-20_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp110000-rst-001_E02958-000_2026-11-20_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp110000-rst-001_E02958-000_2026-11-20_01_2026-11-20_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-008": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp120000-rep-001_E02506-000_2026-11-20_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp120000-rep-001_E02506-000_2026-11-20_01_2026-11-20_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-009": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp040300-ssr-001_E02688-000_2026-09-30_02_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0102010_honbun_jpcrp040300-ssr-001_E02688-000_2026-09-30_02_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0103010_honbun_jpcrp040300-ssr-001_E02688-000_2026-09-30_02_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104000_honbun_jpcrp040300-ssr-001_E02688-000_2026-09-30_02_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104010_honbun_jpcrp040300-ssr-001_E02688-000_2026-09-30_02_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104020_honbun_jpcrp040300-ssr-001_E02688-000_2026-09-30_02_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104035_honbun_jpcrp040300-ssr-001_E02688-000_2026-09-30_02_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104050_honbun_jpcrp040300-ssr-001_E02688-000_2026-09-30_02_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0104100_honbun_jpcrp040300-ssr-001_E02688-000_2026-09-30_02_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0201010_honbun_jpcrp040300-ssr-001_E02688-000_2026-09-30_02_2026-11-20_ixbrl.htm",
+     "PublicDoc/0000000_header.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-010": {
+    "files": [
+     "XBRL/PublicDoc/0100001_honbun_jpcrp120000-rep-001_E00356-000_2026-11-20_01_2026-11-20_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp120000-rep-001_E00356-000_2026-11-20_01_2026-11-20_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 10,
+  "attribution_overwritten": 41,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "noon",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 12,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 0,
+  "evidence_doc_type_overridden": 0,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {},
+  "impact_kind_undetermined_by_doc_type": {},
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 0,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 0,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 1,
+   "source_ids": [
+    "SRC-002"
+   ]
+  },
+  "number_coverage": {
+   "text_number_tokens": 77,
+   "numbers_declared": 47,
+   "gap": 30,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 77,
+     "numbers_declared": 47
+    },
+    "explainer": {
+     "text_number_tokens": 0,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 4,
+   "line_ids": [
+    "L-003-07",
+    "L-004-01",
+    "L-004-02",
+    "L-004-05"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 10,
+   "ripple": 14,
+   "deep": 5
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 3,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-001"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 2,
+   "first_run_at": "2026-11-23T13:14:28.081920+09:00",
+   "last_run_at": "2026-11-23T13:14:50.153279+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 29,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 1,
+   "total_unregistered": 2,
+   "excluded_date_time_tokens": 31,
+   "lines": [
+    {
+     "line_id": "L-004-04",
+     "values": [
+      "2004",
+      "2022"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 3,
+   "zero_letter_count": 0,
+   "lines": [
+    {
+     "line_id": "L-001-02",
+     "letters": 3
+    },
+    {
+     "line_id": "L-001-03",
+     "letters": 3
+    },
+    {
+     "line_id": "L-001-06",
+     "letters": 3
+    }
+   ]
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "market_closed",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 2,
+    "source_ids": [
+     "SRC-001",
+     "SRC-002"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 4
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
