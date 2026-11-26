@@ -1,0 +1,1476 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-11-26-noon",
+ "date": "2026-11-26",
+ "slot": "noon",
+ "generated_at": "2026-11-26T13:15:15.082647+09:00",
+ "market_open": true,
+ "baseline": {
+  "date": "2026-11-26",
+  "price_type": "observed"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-26&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月26日）",
+   "published_at": "2026-11-26",
+   "fetched_at": "2026-11-26T13:08:40+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "abfd46165b2c425bbe8fea34f6656dea201358f3138cbd2bfbb115a8bd1393b6",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-25&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月25日）",
+   "published_at": "2026-11-25",
+   "fetched_at": "2026-11-26T13:08:46+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "c15661a94ba11650f4515b4506cebae5cc1ca4ca7b74a7afe60e179aa23ed821",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZK29?type=1",
+   "publisher": "株式会社ワッツ",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社ワッツ）",
+   "published_at": "2026-11-26T09:03:00+09:00",
+   "fetched_at": "2026-11-26T13:09:03+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "0afcdf4812c0308e1c0c02411d3190cb25ec8f979eb3758b1c128883717db08d",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK29）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK29）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK29"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZJZM?type=1",
+   "publisher": "ヤマトインターナショナル株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（ヤマトインターナショナル株式会社）",
+   "published_at": "2026-11-26T09:11:00+09:00",
+   "fetched_at": "2026-11-26T13:09:08+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "08927fc3bb80b3fc041f05675371a15c59e1e089086874780a1d998ee88bbdb5",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJZM）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJZM）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJZM"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZJP2?type=1",
+   "publisher": "株式会社タスキホールディングス",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社タスキホールディングス）",
+   "published_at": "2026-11-26T09:19:00+09:00",
+   "fetched_at": "2026-11-26T13:09:20+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "72a182590f795b78cec8f1163e632ac4285fe2ce8c9c8520a1b404aecf32a9ad",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJP2）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJP2）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJP2"
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZK0M?type=1",
+   "publisher": "北海道電力株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "発行登録追補書類（株券､社債券等）（北海道電力株式会社）",
+   "published_at": "2026-11-26T11:39:00+09:00",
+   "fetched_at": "2026-11-26T13:09:25+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "8fd81a4d0597668087fe8c19d2e9442e45c03745eab8c8191dd03eefce5f71a2",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK0M）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK0M）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK0M"
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZK5I?type=1",
+   "publisher": "株式会社ＡＢＥＪＡ",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社ＡＢＥＪＡ）",
+   "published_at": "2026-11-26T11:24:00+09:00",
+   "fetched_at": "2026-11-26T13:09:31+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "992472a898e9a8aa0a630dc28206aff7da248726707a5fc659ed1a7f40a3dea5",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK5I）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK5I）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK5I"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZK1S?type=1",
+   "publisher": "ペイクラウドホールディングス株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（ペイクラウドホールディングス株式会社）",
+   "published_at": "2026-11-26T12:16:00+09:00",
+   "fetched_at": "2026-11-26T13:09:37+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "f35a4f620d36feea5207b40c548dc0609147df47ff7a231052606b12bc3d027e",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK1S）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK1S）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK1S"
+  },
+  {
+   "source_id": "SRC-010",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125b.htm",
+   "publisher": "Board of Governors of the Federal Reserve System",
+   "publisher_type": "central_bank",
+   "title": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
+   "published_at": "2026-11-25T15:00:00-05:00",
+   "fetched_at": "2026-11-26T13:10:55+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "495f9a154e98084cae710e4b9744e5164f862825b3cca697a884e823307de3d2",
+   "usage": "quotable",
+   "attribution": "出典：Board of Governors of the Federal Reserve System「Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions」（https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125b.htm）",
+   "processing_note": "Board of Governors of the Federal Reserve System「Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions」（https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125b.htm）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-011",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125a.htm",
+   "publisher": "Board of Governors of the Federal Reserve System",
+   "publisher_type": "central_bank",
+   "title": "Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans",
+   "published_at": "2026-11-25T15:00:00-05:00",
+   "fetched_at": "2026-11-26T13:11:16+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "2f6df4a290a4122f9e1e6a962d1ecc59c17f04dc57180f22739bf1e3a362f215",
+   "usage": "quotable",
+   "attribution": "出典：Board of Governors of the Federal Reserve System「Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans」（https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125a.htm）",
+   "processing_note": "Board of Governors of the Federal Reserve System「Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans」（https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125a.htm）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-26-001",
+     "event_id": "EVT-2026-11-26-001",
+     "headline": "タスキホールディングス、ＮＡＮＫＡＩと資本業務提携：株の譲渡でＮＡＮＫＡＩが議決権の21.23％を持つ主要株主になる見込み（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "不動産の開発などを手がけるタスキホールディングスは、2026年11月25日の取締役会で、株式会社ＮＡＮＫＡＩとの資本業務提携を決議した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 25,
+         "unit": "日",
+         "label": "日付（取締役会で決議した日）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "2026年11月25日付の取締役会において、株式会社ＮＡＮＫＡＩ（以下、「ＮＡＮＫＡＩ」といいます。）との資本業務提携（以下、「本資本業務提携」といいます。）を決議し",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJP2）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJP2）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "資本業務提携は、会社どうしが事業で協力するのに加えて、一方が相手の株を持つことで結び付きを強める取り決めである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "提携の契約に含まれる合意は、ＮＡＮＫＡＩがタスキホールディングスの議決権の20％以上を持つことを条件に効力を持つ。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20,
+         "unit": "%",
+         "label": "合意の効力が生じる議決権の割合"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "議決権を20％以上保有したことを効力発生条件",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJP2）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJP2）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "株主からＮＡＮＫＡＩへの株の譲渡により、ＮＡＮＫＡＩが持つ議決権は130,370個、割合は21.23％になる見込みである。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 130370,
+         "unit": "個",
+         "label": "ＮＡＮＫＡＩの異動後の議決権の数"
+        },
+        {
+         "value": 21.23,
+         "unit": "%",
+         "label": "ＮＡＮＫＡＩの異動後の議決権の割合"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "異動後  130,370個  21.23％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJP2）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJP2）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "これまで主要株主だった個人の株主の議決権は、異動の前は100,001個、割合は16.29％だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 100001,
+         "unit": "個",
+         "label": "主要株主でなくなる株主の異動前の議決権の数"
+        },
+        {
+         "value": 16.29,
+         "unit": "%",
+         "label": "主要株主でなくなる株主の異動前の議決権の割合"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "異動前  100,001個  16.29％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJP2）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJP2）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "その株主の議決権は、異動の後に20,001個、割合は3.26％になる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20001,
+         "unit": "個",
+         "label": "主要株主でなくなる株主の異動後の議決権の数"
+        },
+        {
+         "value": 3.26,
+         "unit": "%",
+         "label": "主要株主でなくなる株主の異動後の議決権の割合"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "異動後  20,001個  3.26％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJP2）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJP2）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "主要株主は、会社の議決権の一定の割合以上を持つ株主として、法律で決められた呼び名である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-08",
+       "text": "ＮＡＮＫＡＩは、タスキホールディングスの非常勤の取締役の候補者1名を指名する権利を持つ。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "名",
+         "label": "ＮＡＮＫＡＩが指名できる取締役候補者の人数"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "ＮＡＮＫＡＩは、当社の非常勤取締役候補者１名を指名する権利を有しており",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJP2）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJP2）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-09",
+       "text": "一方で、ＮＡＮＫＡＩは、タスキホールディングスの事前の書面の同意が無い限り、グループの議決権の割合の合計が30％を超える株の取得や公開買付けをしないと合意した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 30,
+         "unit": "%",
+         "label": "ＮＡＮＫＡＩが同意なしに超えないと合意した議決権の割合"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "ＮＡＮＫＡＩ及びその子会社・関連会社の議決権保有割合の合計が30％を超えることとなる当社の株式の取得及び当社の株式に対する公開買付けを、自ら行わず",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJP2）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJP2）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-10",
+       "text": "タスキホールディングスの資本金の額は6,286百万円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 6286,
+         "unit": "百万円",
+         "label": "タスキホールディングスの資本金の額"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "資本金の額　　　　　　　　　　6,286百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJP2）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJP2）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-26-001-1",
+       "text": "関西を地盤とする鉄道会社のグループが首都圏の不動産会社に出資する動きが続けば、陸運業の会社の不動産事業で、首都圏の物件の割合が高まる可能性がある。",
+       "falsifier": "今後1年ほどの間に、鉄道会社による首都圏の不動産会社への出資や物件取得の発表がほとんど出なければ、この見方は成り立たない。",
+       "check_metric": "陸運業の会社が有価証券報告書に書く、不動産事業の地域別の資産や物件数",
+       "check_by": "2027-06-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-26-002",
+     "event_id": "EVT-2026-11-26-002",
+     "headline": "米国の消費者向けの貸付けとリースの規則、2027年は76,300ドル以下に適用：住宅ローンの鑑定の免除の線は35,500ドルに（FRB理事会など）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "米国の連邦準備制度理事会（FRB理事会）と消費者金融保護局は、米国時間の11月25日、2027年の消費者向けの貸付けとリースについて、規則が当てはまるかを決める金額の線を発表した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2027,
+         "unit": "年",
+         "label": "日付（金額の線が使われる年）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "today announced the dollar thresholds used to determine whether certain consumer credit and lease transactions in 2027",
+       "attribution": "出典：Board of Governors of the Federal Reserve System「Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions」（https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125b.htm）",
+       "processing_note": "Board of Governors of the Federal Reserve System「Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions」（https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125b.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "2027年は、原則として76,300ドル以下の消費者向けの貸付けとリースに、貸付けの条件の示し方などを定めた規則（レギュレーションZ・M）が当てはまる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 76300,
+         "unit": "ドル",
+         "label": "規則が当てはまる貸付け・リースの金額の上限"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "consumer credit transactions and consumer leases of $76,300 or less in 2027",
+       "attribution": "出典：Board of Governors of the Federal Reserve System「Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions」（https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125b.htm）",
+       "processing_note": "Board of Governors of the Federal Reserve System「Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions」（https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125b.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "米国では、消費者向けの貸付けやリースについて、金利や費用の示し方などを法律にもとづく規則で定め、借りる人を守っている。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "同じ日に、FRB理事会などは、金利の高い住宅ローンのうち特別な鑑定の決まりが免除される少額の貸付けの金額の線を、34,200ドルから35,500ドルに上げると発表した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 34200,
+         "unit": "ドル",
+         "label": "鑑定の免除の線（見直し前）"
+        },
+        {
+         "value": 35500,
+         "unit": "ドル",
+         "label": "鑑定の免除の線（見直し後）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "will increase from $34,200 to $35,500",
+       "attribution": "出典：Board of Governors of the Federal Reserve System「Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans」（https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125a.htm）",
+       "processing_note": "Board of Governors of the Federal Reserve System「Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans」（https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125a.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "この新しい金額の線は、2027年1月1日から適用される。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "日",
+         "label": "日付（適用が始まる日）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "The threshold amount will be effective January 1, 2027",
+       "attribution": "出典：Board of Governors of the Federal Reserve System「Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans」（https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125a.htm）",
+       "processing_note": "Board of Governors of the Federal Reserve System「Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans」（https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261125a.htm）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-06",
+       "text": "米国では、こうした金額の線を毎年、物価の動きに合わせて見直す決まりがある。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-26-002-1",
+       "text": "規則が当てはまる貸付けの金額の線が上がると、米国で自動車ローンやリースを扱う金融機関で、借りる人を守る手続きが要る取引の範囲が少し広がる可能性がある。",
+       "falsifier": "2027年に、規則の対象となる貸付けの範囲を狭める別の見直しが発表されれば、この見方は成り立たない。",
+       "check_metric": "FRB理事会が公表する規則の金額の線と、関連する告示",
+       "check_by": "2027-12-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-26-003",
+     "event_id": "EVT-2026-11-26-003",
+     "headline": "北海道電力、第410回の無担保社債を発行へ：総額10,000百万円、利率は年2.26％（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "北海道電力は11月26日、社債の発行条件を記した書類をEDINETに提出した。今回発行するのは第410回の無担保社債である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 410,
+         "unit": "回",
+         "label": "社債の回号"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "北海道電力株式会社第410回無担保社債",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK0M）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK0M）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "社債の総額は10,000百万円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10000,
+         "unit": "百万円",
+         "label": "社債の総額"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "券面総額又は振替社債の総額(円)  10,000百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK0M）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK0M）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "利率は年2.26％である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.26,
+         "unit": "%",
+         "label": "社債の利率（年）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "利率(％)  年2.26％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK0M）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK0M）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "元金は、2029年12月25日に全額を返す（償還する）。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 25,
+         "unit": "日",
+         "label": "日付（償還する日）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "本社債の元金は、2029年12月25日にその総額を償還する",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK0M）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK0M）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "社債は、会社が投資家からお金を借りるために発行する債券で、決まった日に利息を払い、期限に元金を返す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-06",
+       "text": "この社債について、北海道電力は格付投資情報センター（R&I）からA+の信用格付を2026年11月26日付で取得した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 26,
+         "unit": "日",
+         "label": "日付（R&Iの格付を取得した日）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "当会社はR&IからA+の信用格付を2026年11月26日付で取得している",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK0M）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK0M）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-07",
+       "text": "また、日本格付研究所（JCR）からはAA-の信用格付を2026年11月26日付で取得した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 26,
+         "unit": "日",
+         "label": "日付（JCRの格付を取得した日）"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "当会社はJCRからAA-の信用格付を2026年11月26日付で取得している",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK0M）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK0M）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-08",
+       "text": "信用格付は、格付会社が、約束どおりにお金が返される確実さについて記号で示す意見である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-26-003-1",
+       "text": "電力会社が社債で資金を集める動きが続けば、社債の引き受けや販売を担う証券会社の手数料の収入につながる可能性がある。",
+       "falsifier": "今後半年ほど、電力会社の社債の発行が前の年の同じ時期より少なければ、この見方は成り立たない。",
+       "check_metric": "EDINETに提出される電気・ガス業の会社の発行登録追補書類の件数と金額",
+       "check_by": "2027-05-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-26-004",
+     "event_id": "EVT-2026-11-26-003",
+     "headline": "波及を追う：北海道電力の社債の手取金、送配電の子会社への投融資にも──2社の2026年度の設備投資は4,000億円程度の見通し（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "払い込まれる総額10,000百万円から発行の費用の見込み37百万円を引いた、手取りの見込み額は9,963百万円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10000,
+         "unit": "百万円",
+         "label": "払込金額の総額"
+        },
+        {
+         "value": 37,
+         "unit": "百万円",
+         "label": "発行諸費用の概算額"
+        },
+        {
+         "value": 9963,
+         "unit": "百万円",
+         "label": "差引手取概算額"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "10,000  37  9,963",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK0M）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK0M）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "手取りの見込み額9,963百万円は、設備資金、社債の償還資金、子会社の北海道電力ネットワークへの投融資資金に、2027年3月末までに充てる予定である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9963,
+         "unit": "百万円",
+         "label": "手取概算額"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "手取概算額9,963百万円は、設備資金、社債の償還資金、並びに子会社である北海道電力ネットワーク株式会社への投融資資金として",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK0M）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK0M）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "送配電会社は、発電所でつくった電気を家庭や工場に届けるための送電線や配電線を持ち、保守する会社である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "北海道電力と北海道電力ネットワークの2社を合わせた2026年度の設備投資額は、4,000億円程度になる見通しである。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "社",
+         "label": "設備投資額を合計した会社の数"
+        },
+        {
+         "value": 4000,
+         "unit": "億円",
+         "label": "2社合計の2026年度の設備投資額の見通し"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "２社合計の設備投資額は4,000億円程度となる見通し",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK0M）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK0M）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "北海道電力の2026年度の社債の償還予定額は600億円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 600,
+         "unit": "億円",
+         "label": "北海道電力の社債償還予定額"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "当会社の社債償還予定額は600億円である",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK0M）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK0M）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-26-004-1",
+       "text": "電力会社と送配電会社の設備投資が大きい水準で続けば、電気設備の工事を請け負う建設業の会社や、送電線・変圧器などを作る電気機器の会社の受注につながる可能性がある。",
+       "falsifier": "大手電力会社の2027年度の設備投資の計画が、2026年度より大きく減れば、この見方は成り立たない。",
+       "check_metric": "大手電力会社が発行登録追補書類などに書く、翌年度の設備投資額の見通し",
+       "check_by": "2027-06-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-26-005",
+     "event_id": "EVT-2026-11-26-004",
+     "headline": "深掘り：株主総会で決まったこと──ワッツは特別配当11円00銭を含む期末配当、ペイクラウドは会場を設けない総会を可能に（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "上場会社は、株主総会で議案が決議されると、その結果を臨時報告書としてEDINETに提出する。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "ワッツは、2026年11月25日に開いた第32回の定時株主総会で議案を決議した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 25,
+         "unit": "日",
+         "label": "日付（総会を開いた日）"
+        },
+        {
+         "value": 32,
+         "unit": "回",
+         "label": "件数（定時株主総会の回数）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "2026年11月25日開催の当社第32回定時株主総会において、決議事項が決議されました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK29）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK29）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "ワッツの期末配当は1株につき18円50銭で、このうち特別配当が11円00銭である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "株",
+         "label": "配当の単位の株数"
+        },
+        {
+         "value": 18,
+         "unit": "円",
+         "label": "期末配当の円の部分"
+        },
+        {
+         "value": 50,
+         "unit": "銭",
+         "label": "期末配当の銭の部分"
+        },
+        {
+         "value": 11,
+         "unit": "円",
+         "label": "特別配当の円の部分"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "期末配当は、当社普通株式１株につき18円50銭（普通配当７円50銭、特別配当11円00銭）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK29）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK29）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-04",
+       "text": "中間配当を含めた年間の配当は26円00銭になる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 26,
+         "unit": "円",
+         "label": "年間配当の円の部分"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "中間配当（普通配当７円50銭）を含めた年間配当は26円00銭",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK29）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK29）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-05",
+       "text": "この配当の議案（第1号議案）は、賛成割合96.96％で可決された。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "号",
+         "label": "議案の番号"
+        },
+        {
+         "value": 96.96,
+         "unit": "%",
+         "label": "第1号議案の賛成割合"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "第１号議案  91,911  1,766  0  （注）１  可決　96.96",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK29）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK29）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-06",
+       "text": "ヤマトインターナショナルの定時株主総会では、期末配当を1株につき8円とする議案が決議された。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "株",
+         "label": "配当の単位の株数"
+        },
+        {
+         "value": 8,
+         "unit": "円",
+         "label": "期末配当"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "当社普通株式１株につき金８円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJZM）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJZM）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-07",
+       "text": "同じ総会で、会計監査人に監査法人アヴァンティアを選ぶ議案（第5号議案）は、賛成割合99.42％で可決された。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5,
+         "unit": "号",
+         "label": "議案の番号"
+        },
+        {
+         "value": 99.42,
+         "unit": "%",
+         "label": "第5号議案の賛成割合"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "第５号議案  167,475  903     （注）１  可決　99.42",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJZM）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJZM）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-08",
+       "text": "ペイクラウドホールディングスの定時株主総会では、会場を設けずにインターネットなどで出席する「場所の定めのない株主総会」を開けるようにする定款の一部変更の議案が、賛成割合99.01％で可決された。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 99.01,
+         "unit": "%",
+         "label": "定款一部変更の議案の賛成割合"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "第１号議案定款一部変更の件  97,714  970  0  (注)１  可決  99.01",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK1S）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK1S）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-09",
+       "text": "ＡＢＥＪＡの定時株主総会では、事業目的の追加と変更のための定款の一部変更の議案が、賛成割合93.63％で可決された。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 93.63,
+         "unit": "%",
+         "label": "定款一部変更の議案の賛成割合"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "第１号議案 定款一部変更の件  56,856  624  －  （注）１  可決　93.63",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK5I）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK5I）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-10",
+       "text": "賛成割合は、議案に賛成した議決権の数の割合で、どれだけの株主が議案を支持したかを表す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-26-005-1",
+       "text": "会場を設けない株主総会を開けるようにする定款の変更が広がれば、株主総会をインターネットで運営する仕組みを提供する情報・通信業の会社の利用が増える可能性がある。",
+       "falsifier": "2027年6月の株主総会の時期に、場所の定めのない株主総会を開く会社がほとんど増えなければ、この見方は成り立たない。",
+       "check_metric": "臨時報告書や招集通知に書かれる、場所の定めのない株主総会の開催件数",
+       "check_by": "2027-07-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-11-26T13:15:15.082647+09:00",
+  "first_run": {
+   "run_at": "2026-11-26T13:15:15.082647+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 10,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 39,
+  "passed": 30,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 9,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 0,
+  "recommendation_warnings": [],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 8,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E03391-000_2026-11-26_01_2026-11-26_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E03391-000_2026-11-26_01_2026-11-26_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E00600-000_2026-11-26_01_2026-11-26_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E00600-000_2026-11-26_01_2026-11-26_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E39259-000_2026-11-26_01_2026-11-26_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E39259-000_2026-11-26_01_2026-11-26_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-006": {
+    "files": [
+     "XBRL/PublicDoc/0100000_honbun_jpcrp120000-rep-001_E04500-000_2026-11-26_01_2026-11-26_ixbrl.htm",
+     "XBRL/PublicDoc/0200000_honbun_jpcrp120000-rep-001_E04500-000_2026-11-26_01_2026-11-26_ixbrl.htm",
+     "XBRL/PublicDoc/0300000_honbun_jpcrp120000-rep-001_E04500-000_2026-11-26_01_2026-11-26_ixbrl.htm",
+     "XBRL/PublicDoc/0400000_honbun_jpcrp120000-rep-001_E04500-000_2026-11-26_01_2026-11-26_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp120000-rep-001_E04500-000_2026-11-26_01_2026-11-26_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-007": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E38109-000_2026-11-26_01_2026-11-26_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E38109-000_2026-11-26_01_2026-11-26_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-008": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E36070-000_2026-11-26_01_2026-11-26_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E36070-000_2026-11-26_01_2026-11-26_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 8,
+  "attribution_overwritten": 40,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "noon",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 10,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 4,
+  "evidence_doc_type_overridden": 4,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {
+   "edinet_doctype_unmapped": 4
+  },
+  "impact_kind_undetermined_by_doc_type": {
+   "180": 3,
+   "100": 1
+  },
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 4,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 4,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 67,
+   "numbers_declared": 44,
+   "gap": 23,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 67,
+     "numbers_declared": 44
+    },
+    "explainer": {
+     "text_number_tokens": 0,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 7,
+   "line_ids": [
+    "L-001-01",
+    "L-002-01",
+    "L-002-05",
+    "L-003-04",
+    "L-003-06",
+    "L-003-07",
+    "L-005-02"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [
+   {
+    "word": "主要",
+    "location": "headline",
+    "id": "ART-2026-11-26-001"
+   },
+   {
+    "word": "主要",
+    "location": "line_text",
+    "id": "L-001-05"
+   },
+   {
+    "word": "主要",
+    "location": "line_text",
+    "id": "L-001-07"
+   },
+   {
+    "word": "主要",
+    "location": "hypothesis_relation_text",
+    "id": "2026-11-26-noon-2"
+   },
+   {
+    "word": "主要",
+    "location": "hypothesis_impact_reason",
+    "id": "2026-11-26-noon-2"
+   }
+  ],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 8,
+   "change": 10,
+   "ripple": 4,
+   "deep": 8
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 2,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 1,
+   "first_run_at": "2026-11-26T13:15:09.483006+09:00",
+   "last_run_at": "2026-11-26T13:15:09.483006+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 30,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [
+   {
+    "hypothesis_id": "2026-11-26-noon-1",
+    "company_name": "株式会社タスキホールディングス",
+    "submitted_at": "2026-11-26T09:19:00+09:00",
+    "baseline_point": "2026-11-26T13:15:15.082647+09:00",
+    "trading_minutes": 176,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-11-26-noon-2",
+    "company_name": "株式会社ＮＡＮＫＡＩ",
+    "submitted_at": "2026-11-26T09:19:00+09:00",
+    "baseline_point": "2026-11-26T13:15:15.082647+09:00",
+    "trading_minutes": 176,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-11-26-noon-3",
+    "company_name": "北海道電力株式会社",
+    "submitted_at": "2026-11-26T11:39:00+09:00",
+    "baseline_point": "2026-11-26T13:15:15.082647+09:00",
+    "trading_minutes": 45,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-11-26-noon-4",
+    "company_name": "株式会社ワッツ",
+    "submitted_at": "2026-11-26T09:03:00+09:00",
+    "baseline_point": "2026-11-26T13:15:15.082647+09:00",
+    "trading_minutes": 192,
+    "reason": null
+   }
+  ],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 2,
+   "total_unregistered": 2,
+   "excluded_date_time_tokens": 28,
+   "lines": [
+    {
+     "line_id": "L-005-03",
+     "values": [
+      "00"
+     ]
+    },
+    {
+     "line_id": "L-005-04",
+     "values": [
+      "00"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 2,
+   "zero_letter_count": 1,
+   "lines": [
+    {
+     "line_id": "L-003-03",
+     "letters": 3
+    },
+    {
+     "line_id": "L-004-01",
+     "letters": 0
+    }
+   ]
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "ok",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 2,
+    "source_ids": [
+     "SRC-010",
+     "SRC-011"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 5
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "industry_picks_total": 5,
+  "industry_examples_total": 0,
+  "industry_example_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "ai_written_examples_discarded": 0,
+  "slot_violations": {
+   "total": 1,
+   "reasons": {
+    "slot_per_article_limit": 1
+   }
+  },
+  "short_name_match_count": {
+   "count": 0,
+   "names": []
+  },
+  "allowed_industries_count": 30,
+  "legacy_substring_rule_dropped": {
+   "count": 1,
+   "names": [
+    "株式会社ランド"
+   ]
+  },
+  "generic_name_dropped": {
+   "count": 1,
+   "names": [
+    "地主株式会社"
+   ]
+  }
+ }
+}
