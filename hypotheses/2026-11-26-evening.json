@@ -1,0 +1,314 @@
+{
+ "schema_version": 3,
+ "edition_id": "2026-11-26-evening",
+ "generated_at": "2026-11-26T17:15:30.259856+09:00",
+ "market_open": true,
+ "baseline_late": false,
+ "hypotheses": [
+  {
+   "hypothesis_id": "2026-11-26-evening-1",
+   "event_id": "EVT-2026-11-26-001",
+   "company_name": "株式会社ジェイテクト",
+   "ticker": "6473",
+   "ticker_source": "edinet_seccode",
+   "article_id": "ART-2026-11-26-001",
+   "line_ids": [
+    "L-001-01",
+    "L-001-03"
+   ],
+   "evidence_grade": "primary",
+   "evidence_source_ref": "SRC-003",
+   "evidence_filer_name": "株式会社ジェイテクト",
+   "evidence_doc_type": "公開買付届出書",
+   "evidence_role": "filer_self",
+   "impact_kind": "price_stated",
+   "impact_reason": "公開買付届出書。本文に1株1,733円で買い付けると書かれている。",
+   "news_entity": null,
+   "entity_relation": "same",
+   "relation_text": "株式会社ジェイテクトは、自社の株を対象とする公開買付届出書を自ら提出した買付者という立場にある。",
+   "auto_check_target": true,
+   "added_by": "auto",
+   "baseline_date": "2026-11-27",
+   "baseline_price_type": "next_open",
+   "baseline_observed_at": null,
+   "baseline_benchmark_price": null,
+   "baseline_benchmark_observed_at": null,
+   "baseline_late_input": false,
+   "horizon_business_days": 5,
+   "deadline_date": "2026-12-04",
+   "links": {
+    "price_history": "https://finance.yahoo.co.jp/quote/6473.T/history",
+    "disclosure_search": "https://www.release.tdnet.info/inbs/I_main_00.html"
+   },
+   "impact_kind_source": "edinet_doctype",
+   "tob_side": "bidder",
+   "duplicate_of": null
+  },
+  {
+   "hypothesis_id": "2026-11-26-evening-2",
+   "event_id": "EVT-2026-11-26-003",
+   "company_name": "株式会社八十二長野銀行",
+   "ticker": "8359",
+   "ticker_source": "edinet_codelist",
+   "article_id": "ART-2026-11-26-003",
+   "line_ids": [
+    "L-003-01"
+   ],
+   "evidence_grade": "primary",
+   "evidence_source_ref": "SRC-012",
+   "evidence_filer_name": null,
+   "evidence_doc_type": null,
+   "evidence_role": "mentioned",
+   "impact_kind": null,
+   "impact_reason": "日本銀行「地域金融強化のための特別当座預金制度に基づく特別付利の実施について」の特別付利を行った金融機関の一覧に社名が出ている",
+   "news_entity": null,
+   "entity_relation": "same",
+   "relation_text": "株式会社八十二長野銀行は、日本銀行が特別付利を行った金融機関の一覧に載っているという立場にある。",
+   "auto_check_target": false,
+   "added_by": "auto",
+   "baseline_date": "2026-11-27",
+   "baseline_price_type": "next_open",
+   "baseline_observed_at": null,
+   "baseline_benchmark_price": null,
+   "baseline_benchmark_observed_at": null,
+   "baseline_late_input": false,
+   "horizon_business_days": 20,
+   "deadline_date": "2026-12-25",
+   "links": {
+    "price_history": "https://finance.yahoo.co.jp/quote/8359.T/history",
+    "disclosure_search": "https://www.release.tdnet.info/inbs/I_main_00.html"
+   },
+   "impact_kind_source": "no_edinet_doc",
+   "tob_side": null,
+   "duplicate_of": null
+  },
+  {
+   "hypothesis_id": "2026-11-26-evening-3",
+   "event_id": "EVT-2026-11-26-007",
+   "company_name": "東陽倉庫株式会社",
+   "ticker": "9306",
+   "ticker_source": "edinet_seccode",
+   "article_id": "ART-2026-11-26-007",
+   "line_ids": [
+    "L-007-02"
+   ],
+   "evidence_grade": "primary",
+   "evidence_source_ref": "SRC-010",
+   "evidence_filer_name": "東陽倉庫株式会社",
+   "evidence_doc_type": "臨時報告書",
+   "evidence_role": "filer_self",
+   "impact_kind": null,
+   "impact_reason": "臨時報告書。本文に投資有価証券売却益1,500百万円を特別利益として計上する見込みと書かれている。",
+   "news_entity": null,
+   "entity_relation": "same",
+   "relation_text": "東陽倉庫株式会社は、投資有価証券の売却を決めたと伝える臨時報告書を自ら提出した会社という立場にある。",
+   "auto_check_target": false,
+   "added_by": "auto",
+   "baseline_date": "2026-11-27",
+   "baseline_price_type": "next_open",
+   "baseline_observed_at": null,
+   "baseline_benchmark_price": null,
+   "baseline_benchmark_observed_at": null,
+   "baseline_late_input": false,
+   "horizon_business_days": 20,
+   "deadline_date": "2026-12-25",
+   "links": {
+    "price_history": "https://finance.yahoo.co.jp/quote/9306.T/history",
+    "disclosure_search": "https://www.release.tdnet.info/inbs/I_main_00.html"
+   },
+   "impact_kind_source": "edinet_doctype_unmapped",
+   "tob_side": null,
+   "duplicate_of": null
+  },
+  {
+   "hypothesis_id": "2026-11-26-evening-4",
+   "event_id": "EVT-2026-11-26-010",
+   "company_name": "味の素株式会社",
+   "ticker": "2802",
+   "ticker_source": "edinet_seccode",
+   "article_id": "ART-2026-11-26-010",
+   "line_ids": [
+    "L-010-01",
+    "L-010-02"
+   ],
+   "evidence_grade": "primary",
+   "evidence_source_ref": "SRC-005",
+   "evidence_filer_name": "味の素株式会社",
+   "evidence_doc_type": "臨時報告書",
+   "evidence_role": "filer_self",
+   "impact_kind": null,
+   "impact_reason": "臨時報告書。本文に完全子会社の味の素ファインテクノ株式会社を吸収合併すると書かれている。",
+   "news_entity": null,
+   "entity_relation": "same",
+   "relation_text": "味の素株式会社は、完全子会社の吸収合併を伝える臨時報告書を自ら提出した会社という立場にある。",
+   "auto_check_target": false,
+   "added_by": "auto",
+   "baseline_date": "2026-11-27",
+   "baseline_price_type": "next_open",
+   "baseline_observed_at": null,
+   "baseline_benchmark_price": null,
+   "baseline_benchmark_observed_at": null,
+   "baseline_late_input": false,
+   "horizon_business_days": 20,
+   "deadline_date": "2026-12-25",
+   "links": {
+    "price_history": "https://finance.yahoo.co.jp/quote/2802.T/history",
+    "disclosure_search": "https://www.release.tdnet.info/inbs/I_main_00.html"
+   },
+   "impact_kind_source": "edinet_doctype_unmapped",
+   "tob_side": null,
+   "duplicate_of": null
+  },
+  {
+   "hypothesis_id": "2026-11-26-evening-5",
+   "event_id": "EVT-2026-11-26-011",
+   "company_name": "キューデンホールディングス株式会社",
+   "ticker": "642A",
+   "ticker_source": "edinet_seccode",
+   "article_id": "ART-2026-11-26-011",
+   "line_ids": [
+    "L-011-01"
+   ],
+   "evidence_grade": "primary",
+   "evidence_source_ref": "SRC-008",
+   "evidence_filer_name": "キューデンホールディングス株式会社",
+   "evidence_doc_type": "臨時報告書",
+   "evidence_role": "filer_self",
+   "impact_kind": null,
+   "impact_reason": "臨時報告書。本文に、九州電力株式会社の財務管理事業に関して有する権利義務を承継させる吸収分割の契約を結ぶと書かれている。",
+   "news_entity": null,
+   "entity_relation": "same",
+   "relation_text": "キューデンホールディングス株式会社は、子会社との吸収分割を伝える臨時報告書を自ら提出した会社という立場にある。",
+   "auto_check_target": false,
+   "added_by": "auto",
+   "baseline_date": "2026-11-27",
+   "baseline_price_type": "next_open",
+   "baseline_observed_at": null,
+   "baseline_benchmark_price": null,
+   "baseline_benchmark_observed_at": null,
+   "baseline_late_input": false,
+   "horizon_business_days": 20,
+   "deadline_date": "2026-12-25",
+   "links": {
+    "price_history": "https://finance.yahoo.co.jp/quote/642A.T/history",
+    "disclosure_search": "https://www.release.tdnet.info/inbs/I_main_00.html"
+   },
+   "impact_kind_source": "edinet_doctype_unmapped",
+   "tob_side": null,
+   "duplicate_of": null
+  }
+ ],
+ "industry_picks": [
+  {
+   "article_id": "ART-2026-11-26-001",
+   "event_id": "EVT-2026-11-26-001",
+   "industry": "輸送用機器",
+   "industry_line_ids": [
+    "L-001-04"
+   ]
+  },
+  {
+   "article_id": "ART-2026-11-26-001",
+   "event_id": "EVT-2026-11-26-001",
+   "industry": "機械",
+   "industry_line_ids": [
+    "L-001-01"
+   ]
+  },
+  {
+   "article_id": "ART-2026-11-26-003",
+   "event_id": "EVT-2026-11-26-003",
+   "industry": "銀行業",
+   "industry_line_ids": [
+    "L-003-01"
+   ]
+  },
+  {
+   "article_id": "ART-2026-11-26-007",
+   "event_id": "EVT-2026-11-26-007",
+   "industry": "倉庫・運輸関連",
+   "industry_line_ids": [
+    "L-007-01"
+   ]
+  },
+  {
+   "article_id": "ART-2026-11-26-008",
+   "event_id": "EVT-2026-11-26-008",
+   "industry": "輸送用機器",
+   "industry_line_ids": [
+    "L-008-01"
+   ]
+  },
+  {
+   "article_id": "ART-2026-11-26-009",
+   "event_id": "EVT-2026-11-26-009",
+   "industry": "水産・農林業",
+   "industry_line_ids": [
+    "L-009-02"
+   ]
+  },
+  {
+   "article_id": "ART-2026-11-26-010",
+   "event_id": "EVT-2026-11-26-010",
+   "industry": "化学",
+   "industry_line_ids": [
+    "L-010-02"
+   ]
+  },
+  {
+   "article_id": "ART-2026-11-26-011",
+   "event_id": "EVT-2026-11-26-011",
+   "industry": "電気・ガス業",
+   "industry_line_ids": [
+    "L-011-04"
+   ]
+  },
+  {
+   "article_id": "ART-2026-11-26-012",
+   "event_id": "EVT-2026-11-26-012",
+   "industry": "小売業",
+   "industry_line_ids": [
+    "L-012-01"
+   ]
+  }
+ ],
+ "industry_examples": [],
+ "industries_shown": [
+  {
+   "article_id": "ART-2026-11-26-001",
+   "industry": "輸送用機器"
+  },
+  {
+   "article_id": "ART-2026-11-26-001",
+   "industry": "機械"
+  },
+  {
+   "article_id": "ART-2026-11-26-003",
+   "industry": "銀行業"
+  },
+  {
+   "article_id": "ART-2026-11-26-007",
+   "industry": "倉庫・運輸関連"
+  },
+  {
+   "article_id": "ART-2026-11-26-008",
+   "industry": "輸送用機器"
+  },
+  {
+   "article_id": "ART-2026-11-26-009",
+   "industry": "水産・農林業"
+  },
+  {
+   "article_id": "ART-2026-11-26-010",
+   "industry": "化学"
+  },
+  {
+   "article_id": "ART-2026-11-26-011",
+   "industry": "電気・ガス業"
+  },
+  {
+   "article_id": "ART-2026-11-26-012",
+   "industry": "小売業"
+  }
+ ]
+}
