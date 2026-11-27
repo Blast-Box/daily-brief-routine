@@ -1,0 +1,1851 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-11-27-evening",
+ "date": "2026-11-27",
+ "slot": "evening",
+ "generated_at": "2026-11-27T17:14:34.178400+09:00",
+ "market_open": true,
+ "baseline": {
+  "date": "2026-11-30",
+  "price_type": "next_open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-27&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月27日）",
+   "published_at": "2026-11-27",
+   "fetched_at": "2026-11-27T17:08:32+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "1c932ed0579d0d979a5680e0c1438147e0f446226dae22500641e15124c65827",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-26&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月26日）",
+   "published_at": "2026-11-26",
+   "fetched_at": "2026-11-27T17:08:38+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "3f5623cc115b274a883a8d0df42ec451320207adf1b7d11657bfc00f9de0fbf7",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZKPW?type=1",
+   "publisher": "ヒューリック株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "公開買付報告書（ヒューリック株式会社）",
+   "published_at": "2026-11-27T16:39:00+09:00",
+   "fetched_at": "2026-11-27T17:08:55+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "6217cadfb6e64679cb8fa477befe2f267038c31a1a1f548851a19d3c95b59548",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPW）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPW）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPW"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZKNC?type=1",
+   "publisher": "富士フイルムホールディングス株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（富士フイルムホールディングス株式会社）",
+   "published_at": "2026-11-27T15:10:00+09:00",
+   "fetched_at": "2026-11-27T17:09:01+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "44654bcad9abb1fe4d1ff77fbf2452ea24cfddf9cb1e03caf28c7de8924cbf4e",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKNC）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKNC）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKNC"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZKDD?type=1",
+   "publisher": "四国電力株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（四国電力株式会社）",
+   "published_at": "2026-11-27T15:37:00+09:00",
+   "fetched_at": "2026-11-27T17:09:07+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "416df42c78d0508be3ba49a9a0143ce4075803cd3f935e899736126c6c3297cc",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKDD）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKDD）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKDD"
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZJ8G?type=1",
+   "publisher": "豊田合成株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（豊田合成株式会社）",
+   "published_at": "2026-11-27T15:32:00+09:00",
+   "fetched_at": "2026-11-27T17:09:13+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "501131153afbec270efe3e752e5ebab4b77a84d3b86e317e28b107deee938644",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ8G）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ8G）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ8G"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZKEL?type=1",
+   "publisher": "株式会社サイゼリヤ",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社サイゼリヤ）",
+   "published_at": "2026-11-27T16:05:00+09:00",
+   "fetched_at": "2026-11-27T17:09:19+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "a144d61561d738091d69c86076e019debc34ab7bdab464c780113f007cf32f33",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKEL）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKEL）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKEL"
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZKI0?type=1",
+   "publisher": "株式会社ジンズホールディングス",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社ジンズホールディングス）",
+   "published_at": "2026-11-27T16:00:00+09:00",
+   "fetched_at": "2026-11-27T17:09:24+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "0df8a4b3c56f45a592d0c359617e27eb54611f88f58714cb624d2783ac835947",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKI0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKI0）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKI0"
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZKPE?type=1",
+   "publisher": "ＳＢＩアルヒ株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（ＳＢＩアルヒ株式会社）",
+   "published_at": "2026-11-27T16:10:00+09:00",
+   "fetched_at": "2026-11-27T17:09:30+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "ab192f8514ceb3f2b2013b0d7450a303ddcdd21d36ed94ca643ea99ef2da9b5a",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPE）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPE）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPE"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZK9O?type=1",
+   "publisher": "東洋埠頭株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（東洋埠頭株式会社）",
+   "published_at": "2026-11-27T16:03:00+09:00",
+   "fetched_at": "2026-11-27T17:09:36+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "0cc4b2331f9d30cb970b6777db4b04c729f696e4f69141b3f62ddc36be249036",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK9O）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK9O）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK9O"
+  },
+  {
+   "source_id": "SRC-009",
+   "url": "https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-1.html",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税の課税を決定しました",
+   "published_at": "2026-11-27",
+   "fetched_at": "2026-11-27T17:10:19+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "e587d1ae5288d1c4c06e39a9b4909611259dec89f873245aa2011e732ba71a97",
+   "usage": "quotable",
+   "attribution": "出典：財務省「大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-1.html）",
+   "processing_note": "財務省「大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-1.html）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-010",
+   "url": "https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-2.html",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "大韓民国産並びに台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域産ビスフェノールＡに対する不当廉売関税の課税を決定しました",
+   "published_at": "2026-11-27",
+   "fetched_at": "2026-11-27T17:10:20+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "7e96289db6e3a6ee857822376ad0409622772b8502465279b3ee6b59bf251272",
+   "usage": "quotable",
+   "attribution": "出典：財務省「大韓民国産並びに台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域産ビスフェノールＡに対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-2.html）",
+   "processing_note": "財務省「大韓民国産並びに台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域産ビスフェノールＡに対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-2.html）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-011",
+   "url": "https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-3.html",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "大韓民国産及び中華人民共和国産水酸化カリウムに対する不当廉売関税の課税期間の延長を決定しました",
+   "published_at": "2026-11-27",
+   "fetched_at": "2026-11-27T17:10:21+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "310bc6cd4adcf80232204d1dca8538bcbb216db8070a553723fb9849cd9dfe13",
+   "usage": "quotable",
+   "attribution": "出典：財務省「大韓民国産及び中華人民共和国産水酸化カリウムに対する不当廉売関税の課税期間の延長を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-3.html）",
+   "processing_note": "財務省「大韓民国産及び中華人民共和国産水酸化カリウムに対する不当廉売関税の課税期間の延長を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-3.html）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-013",
+   "url": "https://www.customs.go.jp/toukei/shinbun/trade-st/2026/2026111.html",
+   "publisher": "財務省",
+   "publisher_type": "government_statistics",
+   "title": "令和 8年11月上旬分貿易統計（速報）",
+   "published_at": "2026-11-27",
+   "fetched_at": "2026-11-27T17:10:40+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "130dbc21f21f01ecbe3cd89112ccbc4d76e29fbb211d704202e81375f62816ca",
+   "usage": "quotable",
+   "attribution": "出典：財務省「令和 8年11月上旬分貿易統計（速報）」（https://www.customs.go.jp/toukei/shinbun/trade-st/2026/2026111.html）",
+   "processing_note": "財務省「令和 8年11月上旬分貿易統計（速報）」（https://www.customs.go.jp/toukei/shinbun/trade-st/2026/2026111.html）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-27-001",
+     "event_id": "EVT-2026-11-27-001",
+     "headline": "韓国産・中国産の溶融亜鉛めっき鋼板に不当廉売関税：12月3日から5年間（財務省）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "財務省の11月27日の発表によると、韓国産と中国産の溶融亜鉛めっき鋼帯・鋼板に不当廉売関税を課す政令は12月2日に公布され、12月3日から2031年（令和13年）12月2日まで関税が課される。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "日",
+         "label": "日付（政令の公布日、12月2日）"
+        },
+        {
+         "value": 3,
+         "unit": "日",
+         "label": "日付（課税の開始日、12月3日）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "本年12月２日に政令が公布され、同月３日から令和13年12月２日までの間",
+       "attribution": "出典：財務省「大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-1.html）",
+       "processing_note": "財務省「大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-1.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "この2か国の産品には、2026年8月8日から暫定的な不当廉売関税がすでに課されており、その税率は最も低いもので29.2％だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 29.2,
+         "unit": "%",
+         "label": "暫定的な不当廉売関税の税率（最も低いもの）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "本年８月８日から、韓国産及び中国産溶融亜鉛めっき鋼帯及び鋼板に対して29.2％～55.3％の暫定的な不当廉売関税を課税（暫定措置）しました",
+       "attribution": "出典：財務省「大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-1.html）",
+       "processing_note": "財務省「大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-1.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "11月20日には、関税・外国為替等審議会の部会が、期間5年の不当廉売関税を課すのが適当とする答申を出しており、税率は暫定措置と同じとされた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5,
+         "unit": "年",
+         "label": "課税の期間（年）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "期間５年の不当廉売関税を課することが適当である旨の答申が提出されました（不当廉売関税率については暫定措置と同率）",
+       "attribution": "出典：財務省「大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-1.html）",
+       "processing_note": "財務省「大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-1.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "財務省と経済産業省は、2025年（令和7年）8月13日に課税が必要かどうかの合同の調査を始めていた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 13,
+         "unit": "日",
+         "label": "日付（調査の開始日、8月13日）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "財務省及び経済産業省は、令和７年８月13日に、不当廉売関税の課税の要否に関する両省合同の調査を開始しました",
+       "attribution": "出典：財務省「大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-1.html）",
+       "processing_note": "財務省「大韓民国産及び中華人民共和国産溶融亜鉛めっき鋼帯及び鋼板に対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-1.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "不当廉売関税は、外国の産品が輸出国の国内より不当に安い値段で輸入され、国内の産業が損害を受けているときに、通常の関税に上乗せして課す関税である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "溶融亜鉛めっき鋼板は、溶かした亜鉛で表面をめっきしてさびにくくした鋼板で、ガードレールや住宅などの建材、冷蔵庫などの電気機器の部品の材料に使われる。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-27-001-1",
+       "text": "韓国産・中国産の溶融亜鉛めっき鋼板の輸入が関税で割高になれば、国内の鉄鋼業の同じ品目の出荷が増える一方、建材や家電の部品を作る業種では材料の仕入れ値が上がる可能性がある。",
+       "falsifier": "2027年前半の貿易統計で、韓国・中国からのめっき鋼板の輸入数量が2026年前半と比べて減っていなければ、この見方は成り立たない。",
+       "check_metric": "財務省 貿易統計（品目別・国別）の亜鉛めっき鋼板の輸入数量",
+       "check_by": "2027-07-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-27-002",
+     "event_id": "EVT-2026-11-27-002",
+     "headline": "ヒューリックによるリソー教育グループの株の公開買付けが成立：応募は63,075,636株、買付け後の所有割合は87.79％（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "ヒューリックは11月27日、リソー教育グループの株を対象にした公開買付けの結果を記した公開買付報告書を提出した。買付けの期間は2026年10月14日から11月26日までの30営業日だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 30,
+         "unit": "営業日",
+         "label": "公開買付けの期間（営業日）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "2026年10月14日（水曜日）から2026年11月26日（木曜日）まで（30営業日）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPW）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPW）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "応募された株などの合計は63,075,636株で、買い付ける数の下限としていた26,646,601株以上となったため、応募されたものをすべて買い付ける。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 63075636,
+         "unit": "株",
+         "label": "応募株券等の数の合計"
+        },
+        {
+         "value": 26646601,
+         "unit": "株",
+         "label": "買付予定数の下限"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "応募株券等の数の合計（63,075,636株）が買付予定数の下限（26,646,601株）以上となりましたので、公開買付開始公告及び公開買付届出書に記載のとおり、応募株券等の全部の買付け等を行います",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPW）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPW）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "このうち、普通株式の応募数と買付数はともに62,795,726株だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 62795726,
+         "unit": "株",
+         "label": "株券の応募数・買付数"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "株券 62,795,726（株） 62,795,726（株）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPW）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPW）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "報告書を出した日の時点で、ヒューリックが持つ株などに付いた議決権の数は1,499,612個となった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1499612,
+         "unit": "個",
+         "label": "公開買付者の所有株券等に係る議決権の数"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "報告書提出日現在における公開買付者の所有株券等に係る議決権の数（個）(a) 1,499,612",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPW）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPW）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "買付け後の株券等所有割合は87.79％と記されている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 87.79,
+         "unit": "%",
+         "label": "買付け等後における株券等所有割合"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "買付け等後における株券等所有割合 ((a＋d)／(g＋(b－c)＋(e－f))×100)（％） 87.79",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPW）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPW）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-06",
+       "text": "公開買付けは、決めた値段と期間で、株主から株を買い集める手続きである。公開買付報告書は、その結果を期間の終わった後に届け出る書類である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-27-002-1",
+       "text": "不動産業の会社が教育業の会社を傘下に入れる例が続けば、不動産業では、賃貸のビルなどの中に塾や教室などの入居先をグループ内で抱える動きが広がる可能性がある。",
+       "falsifier": "今後1年の間に、不動産業の会社による教育業の会社の株の公開買付けが新たに1件も届け出られなければ、この見方は成り立たない。",
+       "check_metric": "EDINETの公開買付届出書のうち、不動産業の会社が教育業の会社を対象にした件数",
+       "check_by": "2027-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-27-003",
+     "event_id": "EVT-2026-11-27-003",
+     "headline": "11月上旬の貿易統計（速報）：輸出額は前年より20.2％増、輸入額は32.4％増（財務省）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "財務省が11月27日に公表した11月上旬の貿易統計（速報）によると、輸出額は3,418,332百万円で、前の年の同じ時期の2,844,833百万円より20.2％増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3418332,
+         "unit": "百万円",
+         "label": "輸出額（2026年11月上旬）"
+        },
+        {
+         "value": 2844833,
+         "unit": "百万円",
+         "label": "輸出額（2025年11月上旬）"
+        },
+        {
+         "value": 20.2,
+         "unit": "%",
+         "label": "輸出額の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-013",
+       "excerpt": "輸 出 3,418,332 2,844,833 20.2",
+       "attribution": "出典：財務省「令和 8年11月上旬分貿易統計（速報）」（https://www.customs.go.jp/toukei/shinbun/trade-st/2026/2026111.html）",
+       "processing_note": "財務省「令和 8年11月上旬分貿易統計（速報）」（https://www.customs.go.jp/toukei/shinbun/trade-st/2026/2026111.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "輸入額は3,959,838百万円で、前の年の同じ時期の2,989,731百万円より32.4％増えた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3959838,
+         "unit": "百万円",
+         "label": "輸入額（2026年11月上旬）"
+        },
+        {
+         "value": 2989731,
+         "unit": "百万円",
+         "label": "輸入額（2025年11月上旬）"
+        },
+        {
+         "value": 32.4,
+         "unit": "%",
+         "label": "輸入額の前年同期比"
+        }
+       ],
+       "source_ref": "SRC-013",
+       "excerpt": "輸 入 3,959,838 2,989,731 32.4",
+       "attribution": "出典：財務省「令和 8年11月上旬分貿易統計（速報）」（https://www.customs.go.jp/toukei/shinbun/trade-st/2026/2026111.html）",
+       "processing_note": "財務省「令和 8年11月上旬分貿易統計（速報）」（https://www.customs.go.jp/toukei/shinbun/trade-st/2026/2026111.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "輸出額から輸入額を引いた差し引きは541,506百万円の赤字で、前の年の同じ時期の144,898百万円の赤字より広がった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": -541506,
+         "unit": "百万円",
+         "label": "差引（2026年11月上旬、マイナスは赤字）"
+        },
+        {
+         "value": -144898,
+         "unit": "百万円",
+         "label": "差引（2025年11月上旬、マイナスは赤字）"
+        }
+       ],
+       "source_ref": "SRC-013",
+       "excerpt": "差 引 △541,506 △144,898",
+       "attribution": "出典：財務省「令和 8年11月上旬分貿易統計（速報）」（https://www.customs.go.jp/toukei/shinbun/trade-st/2026/2026111.html）",
+       "processing_note": "財務省「令和 8年11月上旬分貿易統計（速報）」（https://www.customs.go.jp/toukei/shinbun/trade-st/2026/2026111.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "旬（10日ごと）の貿易統計は、その期間に入る平日の数や、船の出入りの時期によって、月ごとの数字より大きく振れやすい。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-27-003-1",
+       "text": "輸入額の伸びが輸出額の伸びを上回る状態が続けば、11月の月全体でも貿易収支の赤字が前の年より広がる可能性がある。",
+       "falsifier": "12月中旬に公表される11月分の貿易統計（速報）で、差引の赤字が前の年の11月より縮んでいれば、この見方は成り立たない。",
+       "check_metric": "財務省 貿易統計 11月分（速報）の差引額",
+       "check_by": "2026-12-18"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-27-004",
+     "event_id": "EVT-2026-11-27-004",
+     "headline": "東洋埠頭、持っている上場株式の一部を売って約21億円の売却益を見込む：火災をめぐる訴訟では和解の損失20億円を計上へ（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "東洋埠頭は11月27日に提出した臨時報告書で、持っている上場株式の一部を2026年12月から2027年2月に売る予定で、投資有価証券売却益は約21億円を見込むと記した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 21,
+         "unit": "億円",
+         "label": "投資有価証券売却益の見込み"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "売却時期は2026年12月から2027年２月を予定しております。この売却により投資有価証券売却益は約21億円を見込んでおります",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK9O）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK9O）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "同社は同じ日の取締役会で、訴訟の和解による損失の見込み額20億円を特別損失に計上することを決めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20,
+         "unit": "億円",
+         "label": "和解による損失見込額"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "訴訟損失引当金繰入額として和解による損失見込額20億円を特別損失に計上することを決議いたしました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK9O）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK9O）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "訴訟のもとは、2019年4月16日に同社の川崎支店で、バイオマス発電の燃料を運ぶベルトコンベアから火災が起き、近くの施設に燃え広がった件である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 16,
+         "unit": "日",
+         "label": "日付（火災の発生日、4月16日）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "2019年４月16日に、川崎支店内バイオマス発電用燃料搬送ベルトコンベアに火災が発生し、近隣の施設に延焼しました",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK9O）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK9O）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "燃え広がった先の発電施設の事業者と所有者からの損害賠償の請求額は、合計5,157,741,933円（遅延損害金を除く）だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5157741933,
+         "unit": "円",
+         "label": "損害賠償請求金額の合計"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "請求額合計が5,157,741,933円です（遅延損害金を除く）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK9O）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK9O）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "政策保有株式は、取引関係の維持などを目的に、純粋な投資以外の理由で持っている他社の株のことである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-27-004-1",
+       "text": "倉庫・運輸関連業で政策保有株式を売る動きが続けば、売却益が特別利益に入り、本業の利益と最終的な利益の差が大きくなる会社が増える可能性がある。",
+       "falsifier": "2027年春に公表される倉庫・運輸関連業の会社の決算で、投資有価証券売却益を計上する会社が前の年より増えていなければ、この見方は成り立たない。",
+       "check_metric": "倉庫・運輸関連業の会社の有価証券報告書に載る投資有価証券売却益",
+       "check_by": "2027-06-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-27-005",
+     "event_id": "EVT-2026-11-27-005",
+     "headline": "ＳＢＩアルヒ、銀行など10社から7,000百万円を借り入れ：資本合計を75％以上に保つなどの条件付き（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "ＳＢＩアルヒは11月27日に提出した臨時報告書で、11月26日に財務上の特約が付いた金銭消費貸借契約を結んだと記した。借りたお金の元本は7,000百万円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 7000,
+         "unit": "百万円",
+         "label": "債務の元本の額"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "・債務の元本の額 7,000百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPE）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPE）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "貸し手は、取りまとめ役のみずほ銀行と、ほかの9社である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9,
+         "unit": "社",
+         "label": "件数（みずほ銀行以外の貸し手の数）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "株式会社みずほ銀行、他9社",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPE）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPE）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "返す期限は2029年11月30日で、担保は付いていない。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 30,
+         "unit": "日",
+         "label": "日付（弁済期限、11月30日）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "・弁済期限 2029年11月30日",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPE）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPE）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-04",
+       "text": "条件の一つは、2027年3月期の決算から、連結の資本合計を2026年3月期末の75％以上に保つことである。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 75,
+         "unit": "%",
+         "label": "資本合計の維持の水準（2026年3月期末比）"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "資本合計の金額を2026年3月決算期末日における連結の財政状態計算書上の資本合計の金額の75％以上に維持すること",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPE）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPE）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-05",
+       "text": "もう一つの条件は、連結の営業損益が2期続けて損失にならないようにすることである。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "期",
+         "label": "連続して損失とならない期数"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "営業損益（営業収益から営業費用を控除したもの）が2期連続して損失とならないようにすること",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPE）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPE）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-06",
+       "text": "財務上の特約は、借りる会社に、資本や利益を一定の水準に保つことを約束させる条件である。守れないと、期限の前に返すよう求められることがある。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-27-005-1",
+       "text": "住宅ローンを扱う会社が銀行からの借入れを増やす動きが続けば、その他金融業では、国内の金利の上昇が借入れの費用を通じて利益を押し下げやすくなる可能性がある。",
+       "falsifier": "2027年3月期の決算で、住宅ローンを扱うその他金融業の会社の支払利息が前の期より減っていれば、この見方は成り立たない。",
+       "check_metric": "住宅ローンを扱う会社の有価証券報告書に載る支払利息",
+       "check_by": "2027-06-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-27-006",
+     "event_id": "EVT-2026-11-27-006",
+     "headline": "定時株主総会で期末配当を決議：サイゼリヤは1株35円、ジンズホールディングスは1株57円（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-006-01",
+       "text": "サイゼリヤは11月27日の定時株主総会で、1株35円、総額1,743,138,145円の配当を決議した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 35,
+         "unit": "円",
+         "label": "1株あたりの配当"
+        },
+        {
+         "value": 1743138145,
+         "unit": "円",
+         "label": "配当の総額"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "1株につき金35円　総額1,743,138,145円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKEL）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKEL）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-02",
+       "text": "配当の効力が生じる日は2026年11月30日である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 30,
+         "unit": "日",
+         "label": "日付（効力発生日、11月30日）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "効力発生日　2026年11月30日",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKEL）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKEL）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-03",
+       "text": "配当の議案の賛成の割合は96.9％だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 368774,
+         "unit": "個",
+         "label": "第1号議案の賛成数"
+        },
+        {
+         "value": 96.9,
+         "unit": "%",
+         "label": "第1号議案の賛成割合"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "第1号議案 368,774 10,819 274 (注)1 可決 96.9",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKEL）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKEL）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-04",
+       "text": "ジンズホールディングスは11月26日の定時株主総会で、普通株式1株につき57円の期末配当を決議した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 57,
+         "unit": "円",
+         "label": "1株あたりの期末配当"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "期末配当に関する事項　　当社普通株式１株につき57円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKI0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKI0）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-05",
+       "text": "この議案の賛成率は95.84％だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 183171,
+         "unit": "個",
+         "label": "第1号議案の賛成数"
+        },
+        {
+         "value": 95.84,
+         "unit": "%",
+         "label": "第1号議案の賛成率"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "第１号議案　剰余金処分の件 183,171 378 23 (注)１ 可決 95.84%",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKI0）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKI0）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-06",
+       "text": "会社が株主総会の決議の結果を記した臨時報告書を出すのは、法令で決められた手続きである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-27-006-1",
+       "text": "8月に決算期を迎える小売業の会社の定時株主総会が11月下旬に集中するため、この時期は配当の決議を記した臨時報告書の提出が増える可能性がある。",
+       "falsifier": "2027年11月下旬のEDINETの書類一覧で、株主総会の結果を記した臨時報告書の件数が、その前後の時期より目立って多くなければ、この見方は成り立たない。",
+       "check_metric": "EDINET 書類一覧の臨時報告書の件数（11月下旬）",
+       "check_by": "2027-11-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-27-007",
+     "event_id": "EVT-2026-11-27-007",
+     "headline": "波及を追う：樹脂の原料ビスフェノールＡにも不当廉売関税、韓国産・台湾産に5年間（財務省）",
+     "lines": [
+      {
+       "line_id": "L-007-01",
+       "text": "財務省は11月27日、韓国産と台湾産のビスフェノールＡに不当廉売関税を課す政令が閣議決定されたと発表した。審議会の部会の答申では、期間は5年、税率は最も低いもので2.4％とされた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 5,
+         "unit": "年",
+         "label": "課税の期間（年）"
+        },
+        {
+         "value": 2.4,
+         "unit": "%",
+         "label": "不当廉売関税率（最も低いもの）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "期間５年の不当廉売関税を課することが適当である旨の答申が提出されました（不当廉売関税率は2.4％～8.7％）",
+       "attribution": "出典：財務省「大韓民国産並びに台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域産ビスフェノールＡに対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-2.html）",
+       "processing_note": "財務省「大韓民国産並びに台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域産ビスフェノールＡに対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-2.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-02",
+       "text": "政令は12月2日に公布され、12月3日から2031年（令和13年）12月2日まで課される。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "日",
+         "label": "日付（政令の公布日、12月2日）"
+        },
+        {
+         "value": 3,
+         "unit": "日",
+         "label": "日付（課税の開始日、12月3日）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "本年12月２日に政令が公布され、同月３日から令和13年12月２日までの間",
+       "attribution": "出典：財務省「大韓民国産並びに台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域産ビスフェノールＡに対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-2.html）",
+       "processing_note": "財務省「大韓民国産並びに台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域産ビスフェノールＡに対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-2.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-03",
+       "text": "財務省と経済産業省は、2025年（令和7年）8月20日に合同の調査を始めていた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20,
+         "unit": "日",
+         "label": "日付（調査の開始日、8月20日）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "財務省及び経済産業省は、令和７年８月20日に、不当廉売関税の課税の要否に関する両省合同の調査を開始しました",
+       "attribution": "出典：財務省「大韓民国産並びに台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域産ビスフェノールＡに対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-2.html）",
+       "processing_note": "財務省「大韓民国産並びに台湾、澎湖諸島、金門及び馬祖から成る独立の関税地域産ビスフェノールＡに対する不当廉売関税の課税を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-2.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-04",
+       "text": "ビスフェノールＡは、主にポリカーボネート樹脂やエポキシ樹脂の原料として使われる化学品である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-27-007-1",
+       "text": "輸入のビスフェノールＡが関税で割高になれば、国内の化学の業種では同じ品目の販売が増える一方、ポリカーボネート樹脂やエポキシ樹脂を作る側では原料の仕入れ値が上がる可能性がある。",
+       "falsifier": "2027年前半の貿易統計で、韓国・台湾からのビスフェノールＡの輸入数量が2026年前半と比べて減っていなければ、この見方は成り立たない。",
+       "check_metric": "財務省 貿易統計（品目別・国別）のビスフェノールＡの輸入数量",
+       "check_by": "2027-07-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-27-008",
+     "event_id": "EVT-2026-11-27-007",
+     "headline": "波及を追う：水酸化カリウムの不当廉売関税も5年延長、韓国産49.5％・中国産73.7％（財務省）",
+     "lines": [
+      {
+       "line_id": "L-008-01",
+       "text": "韓国産と中国産の水酸化カリウムには、2016年（平成28年）8月9日から2026年（令和8年）8月12日までの課税期間で、韓国産49.5％、中国産73.7％の不当廉売関税が課されてきた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 49.5,
+         "unit": "%",
+         "label": "不当廉売関税の税率（韓国産）"
+        },
+        {
+         "value": 73.7,
+         "unit": "%",
+         "label": "不当廉売関税の税率（中国産）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "平成28年８月９日から令和８年８月12日までを課税期間として、不当廉売関税（税率は韓国49.5％、中国73.7％）が課されています",
+       "attribution": "出典：財務省「大韓民国産及び中華人民共和国産水酸化カリウムに対する不当廉売関税の課税期間の延長を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-3.html）",
+       "processing_note": "財務省「大韓民国産及び中華人民共和国産水酸化カリウムに対する不当廉売関税の課税期間の延長を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-3.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-02",
+       "text": "財務省は11月27日、この課税期間を延長する政令が閣議決定されたと発表した。政令は12月2日に公布され、2031年（令和13年）12月1日まで課税期間が延びる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "日",
+         "label": "日付（政令の公布日、12月2日）"
+        },
+        {
+         "value": 1,
+         "unit": "日",
+         "label": "日付（延長後の課税期間の終わり、12月1日）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "本年12月２日に政令が公布され、令和13年12月１日まで課税期間が延長されることとなります",
+       "attribution": "出典：財務省「大韓民国産及び中華人民共和国産水酸化カリウムに対する不当廉売関税の課税期間の延長を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-3.html）",
+       "processing_note": "財務省「大韓民国産及び中華人民共和国産水酸化カリウムに対する不当廉売関税の課税期間の延長を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-3.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-03",
+       "text": "延長の申請は業界団体のカリ電解工業会から出され、財務省と経済産業省の調査団は2025年（令和7年）12月25日に調査を始めていた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 25,
+         "unit": "日",
+         "label": "日付（調査の開始日、12月25日）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "令和７年12月25日に財務省及び経済産業省の調査団が調査を開始しました",
+       "attribution": "出典：財務省「大韓民国産及び中華人民共和国産水酸化カリウムに対する不当廉売関税の課税期間の延長を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-3.html）",
+       "processing_note": "財務省「大韓民国産及び中華人民共和国産水酸化カリウムに対する不当廉売関税の課税期間の延長を決定しました」（https://www.mof.go.jp/policy/customs_tariff/trade/plan/futou/ka20261127-3.html）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-008-04",
+       "text": "水酸化カリウムは、食塩に似た塩化カリウムを電気分解して作るアルカリの化学品である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-27-008-1",
+       "text": "この日の発表では、樹脂の原料、鉄鋼製品、アルカリの化学品と、素材の分野で輸入品への不当廉売関税が同時に決まったため、素材を仕入れて加工する業種では、輸入の素材から国内の素材への切り替えが進む可能性がある。",
+       "falsifier": "2027年前半の貿易統計で、3品目の韓国・中国・台湾からの輸入数量がいずれも2026年前半と比べて減っていなければ、この見方は成り立たない。",
+       "check_metric": "財務省 貿易統計（品目別・国別）の3品目の輸入数量",
+       "check_by": "2027-07-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-27-009",
+     "event_id": "EVT-2026-11-27-008",
+     "headline": "深掘り：役員や従業員、海外の人材に会社の株を渡す──豊田合成は従業員持株会に最大2,122,500株、四国電力は信託に100,000株（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-009-01",
+       "text": "豊田合成は11月27日の取締役会で、従業員持株会の会員に売れない期間付きの株を渡すため、自社の株を処分することを決めた。処分数は最大2,122,500株、処分価格は987.6円、総額は2,096,181,000円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2122500,
+         "unit": "株",
+         "label": "処分数（最大）"
+        },
+        {
+         "value": 987.6,
+         "unit": "円",
+         "label": "処分価格"
+        },
+        {
+         "value": 2096181000,
+         "unit": "円",
+         "label": "処分価額の総額"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "2,122,500 株 （注１） 987.6 円 （注２） 2,096,181,000 円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ8G）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ8G）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-02",
+       "text": "この数は、対象になりうる社員7,075名に、それぞれ300株を渡すと仮定して計算したものである。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 7075,
+         "unit": "名",
+         "label": "件数（対象となりうる社員の数）"
+        },
+        {
+         "value": 300,
+         "unit": "株",
+         "label": "1人あたりの付与株数"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "当社社員7,075名に対して、それぞれ300株を付与するものと仮定して算出した",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ8G）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZJ8G）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-03",
+       "text": "富士フイルムホールディングスは、海外に住む子会社の人材に、あとから株を渡す報酬の制度に基づいて自社の株を処分する。処分価格は3,836円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3836,
+         "unit": "円",
+         "label": "処分価格"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "①　処分価格　　3,836円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKNC）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKNC）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-04",
+       "text": "処分価額の総額は138,671,400円と記されている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 138671400,
+         "unit": "円",
+         "label": "処分価額の総額"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "①　処分価額の総額　　　　　　　138,671,400円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKNC）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKNC）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-05",
+       "text": "四国電力は、取締役などに株を渡す制度のため、信託に自社の株100,000株を処分する。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 100000,
+         "unit": "株",
+         "label": "募集株式の数"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "募集株式の種類および数  当社普通株式100,000株",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKDD）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKDD）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-06",
+       "text": "払込金額は1株につき1,903.5円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1903.5,
+         "unit": "円",
+         "label": "1株あたりの払込金額"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "募集株式の払込金額  1株につき金1,903.5円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKDD）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKDD）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-07",
+       "text": "信託は2026年10月31日の時点で136,334株を持っており、合わせると236,334株になる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 136334,
+         "unit": "株",
+         "label": "信託の残存株式"
+        },
+        {
+         "value": 236334,
+         "unit": "株",
+         "label": "合算後の株数"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "2026年10月31日時点で136,334株（以下、「残存株式」といいます。）を保有しており、合算すると236,334株となります",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKDD）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKDD）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-009-08",
+       "text": "会社が持っている自社の株（自己株式）を役員や従業員に渡すことを「処分」と呼ぶ。新しい株を発行するのではないため、株の総数は増えない。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-27-009-1",
+       "text": "自動車部品などの製造業で、従業員持株会を通じて株を渡す仕組みが広がれば、こうした会社では従業員が持つ株の割合が少しずつ高まる可能性がある。",
+       "falsifier": "2027年の有価証券報告書で、従業員持株会を大株主の一覧に載せる輸送用機器の会社の数が2026年より増えていなければ、この見方は成り立たない。",
+       "check_metric": "輸送用機器の会社の有価証券報告書の大株主の状況",
+       "check_by": "2027-07-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-11-27T17:14:34.178400+09:00",
+  "first_run": {
+   "run_at": "2026-11-27T17:14:34.178400+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 14,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 49,
+  "passed": 39,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 10,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 1,
+  "recommendation_warnings": [
+   {
+    "line_id": "L-002-03",
+    "word": "株式(周辺15文字以内に買/売)"
+   }
+  ],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 10,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-001": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jptoo060000-tor-001_E00523-000_2026-11-27_01_2026-11-27_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jptoo060000-tor-001_E00523-000_2026-11-27_01_2026-11-27_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E00988-000_2026-11-27_01_2026-11-27_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E00988-000_2026-11-27_01_2026-11-27_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E04505-000_2026-11-27_01_2026-11-27_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E04505-000_2026-11-27_01_2026-11-27_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-004": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E01108-000_2026-11-27_01_2026-11-27_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E01108-000_2026-11-27_01_2026-11-27_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E03305-000_2026-11-27_01_2026-11-27_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E03305-000_2026-11-27_01_2026-11-27_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-006": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E03471-000_2026-11-26_01_2026-11-26_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E03471-000_2026-11-26_01_2026-11-26_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-007": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E33625-000_2026-11-27_01_2026-11-27_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E33625-000_2026-11-27_01_2026-11-27_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-008": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E04321-000_2026-11-27_01_2026-11-27_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E04321-000_2026-11-27_01_2026-11-27_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 10,
+  "attribution_overwritten": 53,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "evening",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 14,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 4,
+  "evidence_doc_type_overridden": 4,
+  "impact_kind_overridden": 1,
+  "impact_kind_source_counts": {
+   "edinet_doctype": 1,
+   "edinet_doctype_unmapped": 3
+  },
+  "impact_kind_undetermined_by_doc_type": {
+   "180": 3
+  },
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 4,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 4,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 143,
+   "numbers_declared": 57,
+   "gap": 86,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 142,
+     "numbers_declared": 57
+    },
+    "explainer": {
+     "text_number_tokens": 1,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 10,
+   "line_ids": [
+    "L-001-01",
+    "L-001-04",
+    "L-004-03",
+    "L-005-02",
+    "L-005-03",
+    "L-006-02",
+    "L-007-02",
+    "L-007-03",
+    "L-008-02",
+    "L-008-03"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 9,
+   "change": 17,
+   "ripple": 6,
+   "deep": 7
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 6,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-009",
+    "SRC-010",
+    "SRC-011",
+    "SRC-013"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 3,
+   "first_run_at": "2026-11-27T17:14:09.809168+09:00",
+   "last_run_at": "2026-11-27T17:14:27.804030+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [
+    {
+     "line_id": "L-001-02",
+     "values": [
+      55.3
+     ]
+    },
+    {
+     "line_id": "L-007-01",
+     "values": [
+      8.7
+     ]
+    }
+   ],
+   "last_counts": {
+    "ok": 39,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [
+   {
+    "hypothesis_id": "2026-11-27-evening-1",
+    "company_name": "ヒューリック株式会社",
+    "submitted_at": "2026-11-27T16:39:00+09:00",
+    "baseline_point": "2026-11-30T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-11-27-evening-2",
+    "company_name": "東洋埠頭株式会社",
+    "submitted_at": "2026-11-27T16:03:00+09:00",
+    "baseline_point": "2026-11-30T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-11-27-evening-3",
+    "company_name": "ＳＢＩアルヒ株式会社",
+    "submitted_at": "2026-11-27T16:10:00+09:00",
+    "baseline_point": "2026-11-30T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   },
+   {
+    "hypothesis_id": "2026-11-27-evening-4",
+    "company_name": "豊田合成株式会社",
+    "submitted_at": "2026-11-27T15:32:00+09:00",
+    "baseline_point": "2026-11-30T09:00:00+09:00",
+    "trading_minutes": 0,
+    "reason": null
+   }
+  ],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 5,
+   "total_unregistered": 6,
+   "excluded_date_time_tokens": 97,
+   "lines": [
+    {
+     "line_id": "L-001-02",
+     "values": [
+      "2"
+     ]
+    },
+    {
+     "line_id": "L-003-03",
+     "values": [
+      "541506",
+      "144898"
+     ]
+    },
+    {
+     "line_id": "L-006-01",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-006-04",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-009-06",
+     "values": [
+      "1"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 3,
+   "zero_letter_count": 0,
+   "lines": [
+    {
+     "line_id": "L-003-01",
+     "letters": 2
+    },
+    {
+     "line_id": "L-003-02",
+     "letters": 2
+    },
+    {
+     "line_id": "L-003-03",
+     "letters": 2
+    }
+   ]
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "ok",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 4,
+    "source_ids": [
+     "SRC-009",
+     "SRC-010",
+     "SRC-011",
+     "SRC-013"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 9
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "industry_picks_total": 2,
+  "industry_examples_total": 1,
+  "industry_example_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "ai_written_examples_discarded": 0,
+  "slot_violations": {
+   "total": 0,
+   "reasons": {}
+  },
+  "short_name_match_count": {
+   "count": 0,
+   "names": []
+  },
+  "allowed_industries_count": 30,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
