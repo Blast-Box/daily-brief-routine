@@ -1,0 +1,1513 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-11-28-morning",
+ "date": "2026-11-28",
+ "slot": "morning",
+ "generated_at": "2026-11-28T07:38:52.437886+09:00",
+ "market_open": false,
+ "baseline": {
+  "date": "2026-11-28",
+  "price_type": "open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-28&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月28日）",
+   "published_at": "2026-11-28",
+   "fetched_at": "2026-11-28T07:32:41+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "e3752a5eda7c862e9bbb90d0a39e413562800c407a24f84bc533f9960e6d7bbd",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-27&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月27日）",
+   "published_at": "2026-11-27",
+   "fetched_at": "2026-11-28T07:32:51+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "596f84d710556b2fca16824640d91da96d6afe72f6fd04f2a8525336159456ab",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZKPF?type=1",
+   "publisher": "かどや製油株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "訂正意見表明報告書（かどや製油株式会社）",
+   "published_at": "2026-11-27T16:06:00+09:00",
+   "fetched_at": "2026-11-28T07:33:24+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "275dc12455dc8a74506d0b562fa7bd7384f81d3975eee84d00612aba658a8768",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPF）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPF）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPF"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZGU7?type=1",
+   "publisher": "京セラ株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "変更報告書（京セラ株式会社）",
+   "published_at": "2026-11-27T16:53:00+09:00",
+   "fetched_at": "2026-11-28T07:33:30+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "13237f7308a42bf71470bd1d2a106b0c20e44a778ef6f0ba099f763dd03aa479",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGU7）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGU7）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGU7"
+  },
+  {
+   "source_id": "SRC-004",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZKPM?type=1",
+   "publisher": "株式会社大庄",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社大庄）",
+   "published_at": "2026-11-27T16:17:00+09:00",
+   "fetched_at": "2026-11-28T07:33:41+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "1f64b00eac9d3cf8d38bbb744c3c04031fd039f56a360f862856cdc83a66fd80",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPM）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPM）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPM"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://www.boj.or.jp/about/press/kaiken_2026/kk261127a.pdf",
+   "publisher": "日本銀行",
+   "publisher_type": "central_bank",
+   "title": "田村審議委員記者会見",
+   "published_at": "2026-11-27",
+   "fetched_at": "2026-11-28T07:34:34+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "a56f0c1fc21190e3fa0a6cea9470df4edf1eb127d722a367941654a72dbe06f4",
+   "usage": "quotable",
+   "attribution": "出典：日本銀行「田村審議委員記者会見」（https://www.boj.or.jp/about/press/kaiken_2026/kk261127a.pdf）",
+   "processing_note": "日本銀行「田村審議委員記者会見」（https://www.boj.or.jp/about/press/kaiken_2026/kk261127a.pdf）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": null
+  },
+  {
+   "source_id": "SRC-009",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZKNB?type=1",
+   "publisher": "サカタインクス株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（サカタインクス株式会社）",
+   "published_at": "2026-11-27T15:30:00+09:00",
+   "fetched_at": "2026-11-28T07:35:22+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "785aa5393c850e061328d304574bd7025d63fe19becdfb3e668ec57b27515563",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKNB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKNB）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKNB"
+  },
+  {
+   "source_id": "SRC-010",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZKMO?type=1",
+   "publisher": "霞ヶ関キャピタル株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（霞ヶ関キャピタル株式会社）",
+   "published_at": "2026-11-27T14:58:00+09:00",
+   "fetched_at": "2026-11-28T07:35:38+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "c6c2afbaf4a322562139dc379695c3af20666fd5a600456763756e11dd09b65d",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKMO）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKMO）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKMO"
+  },
+  {
+   "source_id": "SRC-011",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZKQ3?type=1",
+   "publisher": "株式会社ウェルディッシュ",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社ウェルディッシュ）",
+   "published_at": "2026-11-27T17:10:00+09:00",
+   "fetched_at": "2026-11-28T07:35:43+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "c8896c8b301622815eebccd390448d4d592cce4e7e3a388b7ebaa00375eb3102",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKQ3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKQ3）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKQ3"
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-28-001",
+     "event_id": "EVT-2026-11-28-001",
+     "headline": "続報：日本銀行の審議委員が甲府で記者会見：利上げは「数か月に一度、0.25％ずつ」のペースを基本に念頭（日本銀行）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "日本銀行の審議委員は11月26日の甲府市での記者会見で、経済・物価や金融環境を確かめながら、数か月に一度、0.25%ずつ利上げを行うようなペースを基本的に念頭に置いていると述べた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 0.25,
+         "unit": "%",
+         "label": "利上げ1回あたりの幅（審議委員が念頭に置くペース）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "0.25％ずつ利上げを行うようなペースを基本的に念頭に置いております",
+       "attribution": "出典：日本銀行「田村審議委員記者会見」（https://www.boj.or.jp/about/press/kaiken_2026/kk261127a.pdf）",
+       "processing_note": "日本銀行「田村審議委員記者会見」（https://www.boj.or.jp/about/press/kaiken_2026/kk261127a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "9月の前回の利上げから3か月程度でも、金融環境の判断がつく場合は十分にあるとの見方を示した。判断がつかなければ、さらに様子をみることもあり得るとした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3,
+         "unit": "か月",
+         "label": "利上げ後に金融環境を判断するまでの期間"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "先ほど数か月と申し上げましたけれども、3 か月でもつく場合は",
+       "attribution": "出典：日本銀行「田村審議委員記者会見」（https://www.boj.or.jp/about/press/kaiken_2026/kk261127a.pdf）",
+       "processing_note": "日本銀行「田村審議委員記者会見」（https://www.boj.or.jp/about/press/kaiken_2026/kk261127a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "中立金利については、自身は2%程度を念頭に置いていると説明した。一方で、推計値の幅を参考にするのではなく、利上げへの経済・物価や金融環境の反応をみながら水準を探っていくとした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2,
+         "unit": "%",
+         "label": "審議委員が念頭に置く中立金利"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "私が 2％程度の中立金利を念頭に",
+       "attribution": "出典：日本銀行「田村審議委員記者会見」（https://www.boj.or.jp/about/press/kaiken_2026/kk261127a.pdf）",
+       "processing_note": "日本銀行「田村審議委員記者会見」（https://www.boj.or.jp/about/press/kaiken_2026/kk261127a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "7～9月の実質個人消費が前期比0.3%減と2四半期続けて減ったことについては、物価高の影響が最も大きく、長雨などの天候の影響も大きかったとの見方を示した。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 0.3,
+         "unit": "%",
+         "label": "7～9月の実質個人消費の前期比"
+        },
+        {
+         "value": 2,
+         "unit": "四半期",
+         "label": "連続で減少した期間"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "7～9 月の実質個人消費は、前期比マイナス 0.3％と、2 四半期連続の減少となり",
+       "attribution": "出典：日本銀行「田村審議委員記者会見」（https://www.boj.or.jp/about/press/kaiken_2026/kk261127a.pdf）",
+       "processing_note": "日本銀行「田村審議委員記者会見」（https://www.boj.or.jp/about/press/kaiken_2026/kk261127a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "国会で審議中の消費減税については、減税だけを取り出して機械的に試算すると、コアCPIを前年比1.3%ポイント、コアコアCPIを1.4%ポイント程度押し下げる計算になると述べた。同時に行われる給付などを含めた全体の影響は、制度設計がまだ分からず評価が難しいとも述べた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1.3,
+         "unit": "%ポイント",
+         "label": "消費減税によるコアCPIの押し下げ幅（機械的な試算）"
+        },
+        {
+         "value": 1.4,
+         "unit": "%ポイント",
+         "label": "消費減税によるコアコアCPIの押し下げ幅（機械的な試算）"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "1.3％ポイント、コアコアＣＰＩをマイナス 1.4％ポイント程度押し下げる",
+       "attribution": "出典：日本銀行「田村審議委員記者会見」（https://www.boj.or.jp/about/press/kaiken_2026/kk261127a.pdf）",
+       "processing_note": "日本銀行「田村審議委員記者会見」（https://www.boj.or.jp/about/press/kaiken_2026/kk261127a.pdf）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "中立金利とは、景気を熱しも冷やしもしない金利の水準のことである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "コアCPIは生鮮食品を除いた消費者物価指数、コアコアCPIは生鮮食品とエネルギーを除いた消費者物価指数を指す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-28-001-1",
+       "text": "利上げが数か月に一度のペースで続けば、銀行業では預金と貸出の金利の見直しが段階的に続く可能性がある。",
+       "falsifier": "12月以降の金融政策決定会合で政策金利の据え置きが続けば、この見方は成り立たない。",
+       "check_metric": "日本銀行 金融政策決定会合の決定内容（無担保コールレートの誘導目標）",
+       "check_by": "2027-01-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-28-002",
+     "event_id": "EVT-2026-11-28-002",
+     "headline": "続報：京セラ、ＫＤＤＩの株の保有割合が12.69％から11.59％に（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "京セラが11月27日に提出した変更報告書によると、同社が持つＫＤＤＩの株の保有割合は11.59%になった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 11.59,
+         "unit": "%",
+         "label": "京セラのKDDI株の保有割合"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "上記提出者の株券等保有割合（％）（AB/（AD+AE-AF）×100）11.59",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGU7）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGU7）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "直前の報告書に記載されていた保有割合は12.69%だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 12.69,
+         "unit": "%",
+         "label": "直前の報告書の保有割合"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "直前の報告書に記載された株券等保有割合（％）12.69",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGU7）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGU7）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "京セラが持つＫＤＤＩの株は464,276,200株である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 464276200,
+         "unit": "株",
+         "label": "京セラが持つKDDI株の数"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "株券又は投資証券等（株・口）464,276,200",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGU7）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGU7）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "報告書を出した理由は、保有割合が1%以上減ったことと、担保契約など重要な契約の変更である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1,
+         "unit": "%",
+         "label": "報告書の提出理由となる保有割合の減少幅"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "株券等保有割合が1%以上減少したこと担保契約等重要な契約に関する変更",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGU7）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGU7）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "変更報告書は、ある会社の株を一定以上持つ株主が、持ち分が大きく変わったときなどに出す書類である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-28-002-1",
+       "text": "事業会社が政策保有株式を減らす動きが続けば、電子部品などの業種で投資有価証券の売却益を計上する会社が増える可能性がある。",
+       "falsifier": "今後の決算で、電子部品などの業種の会社に投資有価証券売却益の計上が目立たなければ、この見方は成り立たない。",
+       "check_metric": "EDINETに提出される、投資有価証券売却益に関する臨時報告書の件数",
+       "check_by": "2027-03-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-28-003",
+     "event_id": "EVT-2026-11-28-003",
+     "headline": "かどや製油、公開買付けへの意見表明報告書を訂正：買付けの値段は1株2,655円、期間は12月15日まで（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "かどや製油が11月27日に提出した訂正意見表明報告書によると、ITG-Gホールディングスによる同社株の公開買付けの値段は1株2,655円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2655,
+         "unit": "円",
+         "label": "公開買付けの値段（1株あたり）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "当社の普通株式（以下「当社株式」といいます。）１株につき、金2,655円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPF）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPF）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "公開買付けの期間は、2026年9月15日から12月15日までの60営業日である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 60,
+         "unit": "営業日",
+         "label": "公開買付けの期間"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "2026年９月15日（火曜日）から2026年12月15日（火曜日）まで（60営業日）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPF）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPF）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "公開買付者は11月6日に、買付けの値段を2,514円から2,655円に変えることを決めていた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2514,
+         "unit": "円",
+         "label": "変更前の買付けの値段"
+        },
+        {
+         "value": 2655,
+         "unit": "円",
+         "label": "変更後の買付けの値段"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "本公開買付価格を2,514円から2,655円に変更することを決定したとのことです",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPF）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPF）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-04",
+       "text": "買付予定数の下限は13,847,100株で、所有割合では50.09%にあたる。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 13847100,
+         "unit": "株",
+         "label": "買付予定数の下限"
+        },
+        {
+         "value": 50.09,
+         "unit": "%",
+         "label": "下限の所有割合"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "13,847,100株（所有割合：50.09％）を買付予定数の下限として設定しており",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPF）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPF）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-05",
+       "text": "同社の第1位株主は三菱商事で、7,431,000株、所有割合26.88%を持つ。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 7431000,
+         "unit": "株",
+         "label": "第1位株主の所有株式数"
+        },
+        {
+         "value": 26.88,
+         "unit": "%",
+         "label": "第1位株主の所有割合"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "当社の第１位株主である三菱商事株式会社（所有株式数7,431,000株、所有割合：26.88％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPF）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPF）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-06",
+       "text": "第2位株主は三井物産で、6,058,500株、所有割合21.92%を持つ。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 6058500,
+         "unit": "株",
+         "label": "第2位株主の所有株式数"
+        },
+        {
+         "value": 21.92,
+         "unit": "%",
+         "label": "第2位株主の所有割合"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "当社の第２位株主である三井物産株式会社（所有株式数6,058,500株、所有割合：21.92％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPF）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPF）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-07",
+       "text": "同社は別の買収候補（書類では「Ｃ社」と表記）からの再提案を受け、11月21日付で公開買付者に協議を申し入れた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 21,
+         "unit": "日",
+         "label": "日付（協議の申入れ）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "本Ｃ社再提案の受領を受けて当社が2026年11月21日付で公開買付者に対して行った本11月21日協議申入れ",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPF）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPF）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-08",
+       "text": "公開買付けは、決めた値段と期間で、株主から株を買い集める手続きである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-09",
+       "text": "意見表明報告書は、公開買付けの対象になった会社が、その買付けに賛成か反対かなどを示す書類である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-28-003-1",
+       "text": "大株主である大手商社2社が応募するかどうかが、この公開買付けの成否を大きく左右する可能性がある。",
+       "falsifier": "大手商社2社の応募の有無と関係なく応募が下限に達したことが公開買付報告書で示されれば、この見方は成り立たない。",
+       "check_metric": "公開買付報告書に記載される応募株券等の数と、大株主の応募の有無",
+       "check_by": "2026-12-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-28-004",
+     "event_id": "EVT-2026-11-28-004",
+     "headline": "サカタインクス、社員に株を渡す信託に自己株式206,800株を処分へ：1株2,482円（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "サカタインクスが11月27日に提出した臨時報告書によると、社員に株を渡す仕組みの信託に向けて、自己株式206,800株を処分する。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 206800,
+         "unit": "株",
+         "label": "処分する自己株式の数"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "(ⅰ) 募集株式の数　206,800株",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKNB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKNB）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "払込金額は1株2,482円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2482,
+         "unit": "円",
+         "label": "1株あたりの払込金額"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "(ⅱ) 募集株式の払込金額　１株につき2,482円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKNB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKNB）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "この金額は、11月26日の東京証券取引所での同社株の普通取引の終値としている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 26,
+         "unit": "日",
+         "label": "日付（基準にした終値の日）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "2026年11月26日の東京証券取引所における当社普通株式の普通取引の終値としております",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKNB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKNB）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "発行価額の総額は548,621,280円である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 548621280,
+         "unit": "円",
+         "label": "発行価額の総額"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "(ⅰ) 発行価額の総額　548,621,280円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKNB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKNB）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "取締役会の日に対象となる社員は924名だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 924,
+         "unit": "名",
+         "label": "対象となる社員の数"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "なお、本取締役会の日における社員は924名",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKNB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKNB）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-06",
+       "text": "払込期日は2026年12月17日である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 17,
+         "unit": "日",
+         "label": "日付（払込期日）"
+        }
+       ],
+       "source_ref": "SRC-009",
+       "excerpt": "(ⅳ) 払込期日　2026年12月17日",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKNB）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKNB）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-07",
+       "text": "自己株式の処分とは、会社が持っている自社の株を、ほかの人や信託に渡したり売ったりすることである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-28-004-1",
+       "text": "社員に株を渡す信託の仕組みを入れる会社が増えれば、信託銀行の株式管理の仕事が増える可能性がある。",
+       "falsifier": "今後3か月の臨時報告書で、社員向けの株式付与の信託に関する書類の件数が増えなければ、この見方は成り立たない。",
+       "check_metric": "EDINETの臨時報告書のうち、社員向け株式付与の信託に関するものの件数",
+       "check_by": "2027-02-28"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-28-005",
+     "event_id": "EVT-2026-11-28-003",
+     "headline": "波及を追う：かどや製油の公開買付けの後に予定される自己株式の取得──創業家側の会社から1,905,127株を1株2,113円で（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "訂正意見表明報告書によると、創業家側の会社は、公開買付けの後に同社が行う自己株式の取得に応じて、持っている株のうち1,905,127株を売ることに合意している。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 1905127,
+         "unit": "株",
+         "label": "自己株式の取得に応じて売る株の数"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "その保有する当社株式のうち1,905,127株",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPF）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPF）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "その取得の値段は、1株2,113円とする予定である。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2113,
+         "unit": "円",
+         "label": "自己株式取得の値段（1株あたり）"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "自己株式取得の対価は、小澤物産が保有する当社株式１株当たり2,113円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPF）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPF）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "公開買付けで株を集めたあと、残った株主から株を集めて非公開の会社にする手続きを、スクイーズアウトと呼ぶ。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-28-005-1",
+       "text": "非上場化の取引で、大株主ごとに売り方や値段が分かれる仕組みが使われると、食料品業の中堅の会社の資本の組み替えに時間がかかる可能性がある。",
+       "falsifier": "公開買付期間がこれ以上延長されずに取引が完了すれば、この見方は成り立たない。",
+       "check_metric": "公開買付期間の延長の有無（訂正届出書の提出）",
+       "check_by": "2026-12-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-28-006",
+     "event_id": "EVT-2026-11-28-002",
+     "headline": "波及を追う：京セラ、ＫＤＤＩの株151,824,934株を銀行に担保として差し入れ、2027年2月23日まで売却を控える合意も（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-006-01",
+       "text": "京セラの変更報告書によると、同社はＫＤＤＩの株のうち合計151,824,934株を、金融機関との有価証券担保設定契約で担保として差し入れている。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 151824934,
+         "unit": "株",
+         "label": "担保として差し入れているKDDI株の数"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "有価証券担保設定契約を締結し、合計151,824,934株を担保として差し入れています",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGU7）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGU7）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-02",
+       "text": "同社は、2026年11月20日から2027年2月23日までの期間中、証券会社2社の事前の書面での同意がない限り、ＫＤＤＩの株の売却などを行わないことに合意している。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 23,
+         "unit": "日",
+         "label": "日付（売却を控える期間の終わり）"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "ロックアップの合意について当社は、2026年11月20日から2027年2月23日までの期間中",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGU7）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZGU7）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-006-03",
+       "text": "ロックアップは、大株主などが決まった期間、株を売らないと約束することである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-28-006-1",
+       "text": "大株主の売却を控える期間が終わった後は、通信業の大型株で、大株主による売却の動きが再び出てくる可能性がある。",
+       "falsifier": "売却を控える期間が終わった後の3か月間に、大株主による変更報告書（保有割合の減少）が出なければ、この見方は成り立たない。",
+       "check_metric": "EDINETの変更報告書（通信業の大型株の保有割合の減少）",
+       "check_by": "2027-05-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-28-007",
+     "event_id": "EVT-2026-11-28-005",
+     "headline": "深掘り：株主総会で決まったこと──霞ヶ関キャピタルは1株165円の配当、大庄は1株8円、ウェルディッシュは種類株式の規定を新設（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-007-01",
+       "text": "臨時報告書は、株主総会の結果など、投資家に知らせるべき出来事があったときに会社が出す書類である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-02",
+       "text": "霞ヶ関キャピタルの11月26日の定時株主総会では、期末配当を1株165円、総額4,053,813,225円とすることが決まった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 165,
+         "unit": "円",
+         "label": "1株あたりの期末配当"
+        },
+        {
+         "value": 4053813225,
+         "unit": "円",
+         "label": "配当の総額"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "当社普通株式1株につき金165円　　総額　4,053,813,225円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKMO）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKMO）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-03",
+       "text": "同じ総会で、監査等委員でない取締役の報酬等の額を年額2,000百万円以内（うち社外取締役は200百万円以内）に改めることも決まった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2000,
+         "unit": "百万円",
+         "label": "取締役の報酬等の上限（年額）"
+        },
+        {
+         "value": 200,
+         "unit": "百万円",
+         "label": "うち社外取締役の上限（年額）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "取締役（監査等委員である取締役を除く。）の報酬等の額を年額2,000百万円以内（うち社外取締役は200百万円以内）に改定する",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKMO）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKMO）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-04",
+       "text": "譲渡制限付株式を渡すための金銭債権の総額は年額500百万円以内、発行や処分する株の総数は年70千株以内に改めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 500,
+         "unit": "百万円",
+         "label": "譲渡制限付株式のための金銭債権の上限（年額）"
+        },
+        {
+         "value": 70,
+         "unit": "千株",
+         "label": "発行・処分する株数の上限（年）"
+        }
+       ],
+       "source_ref": "SRC-010",
+       "excerpt": "金銭債権の総額を年額500百万円以内、譲渡制限付株式報酬として発行又は処分される当社普通株式の総数を年70千株以内に改定する",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKMO）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKMO）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-05",
+       "text": "大庄の11月25日の定時株主総会では、期末配当を1株8円、総額167,880,592円とすることが決まった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 8,
+         "unit": "円",
+         "label": "1株あたりの期末配当"
+        },
+        {
+         "value": 167880592,
+         "unit": "円",
+         "label": "配当の総額"
+        }
+       ],
+       "source_ref": "SRC-004",
+       "excerpt": "当社普通株式１株につき金８円　　　総額167,880,592円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPM）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKPM）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-06",
+       "text": "ウェルディッシュの11月26日の定時株主総会では、発行可能株式総数を増やし、種類株式の規定を新しく設ける定款の一部変更が、賛成159,661個、反対24,961個、賛成の割合86.23%で可決された。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 159661,
+         "unit": "個",
+         "label": "賛成の議決権の数"
+        },
+        {
+         "value": 24961,
+         "unit": "個",
+         "label": "反対の議決権の数"
+        },
+        {
+         "value": 86.23,
+         "unit": "%",
+         "label": "賛成の割合"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "第１号議案定款一部変更の件  159,661  24,961  0  (注)１  可決  86.23",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKQ3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKQ3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-07",
+       "text": "同社は、取締役2名を選ぶ議案を、11月24日の取締役会で取り下げることを決め、総会には出さなかった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 24,
+         "unit": "日",
+         "label": "日付（議案の取り下げの決議）"
+        }
+       ],
+       "source_ref": "SRC-011",
+       "excerpt": "本議案は、2026年11月24日開催の取締役会において取り下げることを決議したため",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKQ3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKQ3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-007-08",
+       "text": "種類株式とは、配当や議決権などの中身が、普通の株とは異なる株のことである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-28-007-1",
+       "text": "資金調達の手段として種類株式の規定を設ける会社が増えれば、普通株の株主の議決権の割合が下がる場面が増える可能性がある。",
+       "falsifier": "今後半年の間に、種類株式の発行に関する届出書や臨時報告書がほとんど出なければ、この見方は成り立たない。",
+       "check_metric": "EDINETに提出される種類株式の発行に関する書類の件数",
+       "check_by": "2027-05-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-11-28T07:38:52.437886+09:00",
+  "first_run": {
+   "run_at": "2026-11-28T07:38:52.437886+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 9,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 42,
+  "passed": 32,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 10,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 1,
+  "recommendation_warnings": [
+   {
+    "line_id": "L-005-01",
+    "word": "株式(周辺15文字以内に買/売)"
+   }
+  ],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 8,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-001": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jptoo040000-pst-001_E00433-000_2026-09-15_08_2026-11-27_ixbrl.htm",
+     "PublicDoc/0000000_header.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jplvh010000-lvh-001_E01182-000_2026-11-20_01_2026-11-27_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jplvh010000-lvh-001_E01182-000_2026-11-20_01_2026-11-27_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-004": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E03223-000_2026-11-30_01_2026-11-30_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E03223-000_2026-11-30_01_2026-11-30_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-009": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E00905-000_2026-11-27_01_2026-11-27_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E00905-000_2026-11-27_01_2026-11-27_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-010": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E34289-000_2026-11-27_01_2026-11-27_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E34289-000_2026-11-27_01_2026-11-27_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-011": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E00471-000_2026-11-26_01_2026-11-26_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E00471-000_2026-11-26_01_2026-11-26_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 8,
+  "attribution_overwritten": 41,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "morning",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 9,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 0,
+  "evidence_doc_type_overridden": 0,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {},
+  "impact_kind_undetermined_by_doc_type": {},
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 0,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 0,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 87,
+   "numbers_declared": 44,
+   "gap": 43,
+   "by_mark": {
+    "source_number_match": {
+     "text_number_tokens": 87,
+     "numbers_declared": 44
+    },
+    "explainer": {
+     "text_number_tokens": 0,
+     "numbers_declared": 0
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 5,
+   "line_ids": [
+    "L-003-07",
+    "L-004-03",
+    "L-004-06",
+    "L-006-02",
+    "L-007-07"
+   ]
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 9,
+   "change": 13,
+   "ripple": 4,
+   "deep": 6
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 3,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV",
+    "SRC-005"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 2,
+   "first_run_at": "2026-11-28T07:38:41.817773+09:00",
+   "last_run_at": "2026-11-28T07:38:48.379258+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [
+    {
+     "line_id": "L-001-04",
+     "values": [
+      -0.3
+     ]
+    }
+   ],
+   "last_counts": {
+    "ok": 32,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 10,
+   "total_unregistered": 10,
+   "excluded_date_time_tokens": 38,
+   "lines": [
+    {
+     "line_id": "L-001-04",
+     "values": [
+      "7"
+     ]
+    },
+    {
+     "line_id": "L-003-01",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-003-05",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-003-06",
+     "values": [
+      "2"
+     ]
+    },
+    {
+     "line_id": "L-004-02",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-005-02",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-006-02",
+     "values": [
+      "2"
+     ]
+    },
+    {
+     "line_id": "L-007-02",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-007-05",
+     "values": [
+      "1"
+     ]
+    },
+    {
+     "line_id": "L-007-07",
+     "values": [
+      "2"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 0,
+   "zero_letter_count": 0,
+   "lines": []
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "market_closed",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 1,
+    "source_ids": [
+     "SRC-005"
+    ]
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 7
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 2,
+   "articles": [
+    {
+     "article_id": "ART-2026-11-28-001",
+     "headline_has_word": true,
+     "is_followup": false
+    },
+    {
+     "article_id": "ART-2026-11-28-002",
+     "headline_has_word": true,
+     "is_followup": false
+    }
+   ]
+  },
+  "industry_picks_discarded": 0,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
