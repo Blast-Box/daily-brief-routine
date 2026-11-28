@@ -1,0 +1,1419 @@
+{
+ "schema_version": 2,
+ "edition_id": "2026-11-28-evening",
+ "date": "2026-11-28",
+ "slot": "evening",
+ "generated_at": "2026-11-28T17:13:22.888167+09:00",
+ "market_open": false,
+ "baseline": {
+  "date": "2026-11-30",
+  "price_type": "next_open"
+ },
+ "sources": [
+  {
+   "source_id": "SRC-EDINET-LIST",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-28&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月28日）",
+   "published_at": "2026-11-28",
+   "fetched_at": "2026-11-28T17:08:37+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "dc56f635979870a407ed311e6db8df9a31c25add38185349c8188fc6c51e21f0",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-EDINET-LIST-PREV",
+   "url": "https://api.edinet-fsa.go.jp/api/v2/documents.json?date=2026-11-27&type=2",
+   "publisher": "金融庁",
+   "publisher_type": "company_disclosure",
+   "title": "EDINET 書類一覧（2026年11月27日）",
+   "published_at": "2026-11-27",
+   "fetched_at": "2026-11-28T17:08:43+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "596f84d710556b2fca16824640d91da96d6afe72f6fd04f2a8525336159456ab",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/）をもとに本サイト作成",
+   "published_date_only": true,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/"
+  },
+  {
+   "source_id": "SRC-001",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZKIS?type=1",
+   "publisher": "東急株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "発行登録追補書類（株券､社債券等）（東急株式会社）",
+   "published_at": "2026-11-27T11:22:00+09:00",
+   "fetched_at": "2026-11-28T17:09:06+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "7ec44a4ff70e48d4110de5ad7bd1422a448895c6029fe18eedfb40f27170eafc",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKIS）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKIS）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKIS"
+  },
+  {
+   "source_id": "SRC-002",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZKEP?type=1",
+   "publisher": "積水化学工業株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "発行登録追補書類（株券､社債券等）（積水化学工業株式会社）",
+   "published_at": "2026-11-27T11:00:00+09:00",
+   "fetched_at": "2026-11-28T17:09:12+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "6b148fb48497da6e2cbb535fd6456ec2465de9d9e6cd249e1710b5c11493da3f",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKEP）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKEP）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKEP"
+  },
+  {
+   "source_id": "SRC-003",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZK85?type=1",
+   "publisher": "オリックス株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "発行登録追補書類（株券､社債券等）（オリックス株式会社）",
+   "published_at": "2026-11-27T11:05:00+09:00",
+   "fetched_at": "2026-11-28T17:09:18+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "811e183baa9248666969ce7563f5a91f8275d69fd5179f5b4acd3243f2af1518",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK85）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK85）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK85"
+  },
+  {
+   "source_id": "SRC-005",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZKHV?type=1",
+   "publisher": "株式会社ココナラ",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社ココナラ）",
+   "published_at": "2026-11-27T10:35:00+09:00",
+   "fetched_at": "2026-11-28T17:09:30+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "3bf95a01cf56821e410036f2208047ac4839baf95fda555646eb196ce6d63efa",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKHV）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKHV）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKHV"
+  },
+  {
+   "source_id": "SRC-006",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZKF3?type=1",
+   "publisher": "株式会社ＫＯＭＰＥＩＴＯ",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（株式会社ＫＯＭＰＥＩＴＯ）",
+   "published_at": "2026-11-27T10:00:00+09:00",
+   "fetched_at": "2026-11-28T17:09:36+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "46e47f191f128f3d43dd34792e6d789d8c91e7a9722fc41b3663b9feb562cb03",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKF3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKF3）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKF3"
+  },
+  {
+   "source_id": "SRC-007",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZKOS?type=1",
+   "publisher": "日創グループ株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（日創グループ株式会社）",
+   "published_at": "2026-11-27T15:56:00+09:00",
+   "fetched_at": "2026-11-28T17:09:41+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "cfbe2aa0a05fea6365cc81529bf0fa525ccb55035d2d949089152e2722f8d610",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKOS）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKOS）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKOS"
+  },
+  {
+   "source_id": "SRC-008",
+   "url": "https://disclosure2.edinet-fsa.go.jp/api/v2/documents/S100ZKO9?type=1",
+   "publisher": "スズデン株式会社",
+   "publisher_type": "company_disclosure",
+   "title": "臨時報告書（スズデン株式会社）",
+   "published_at": "2026-11-27T15:36:00+09:00",
+   "fetched_at": "2026-11-28T17:09:47+09:00",
+   "fetch_method": "urllib",
+   "content_sha256": "221d171b07518e171a7f0c898942797ed2f93beaae554e9e5dcc8c7a6d10f90e",
+   "usage": "quotable",
+   "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKO9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+   "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKO9）をもとに本サイト作成",
+   "published_date_only": false,
+   "view_url": "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKO9"
+  }
+ ],
+ "sections": [
+  {
+   "section_id": "big",
+   "title": "大きな出来事",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-28-001",
+     "event_id": "EVT-2026-11-28-001",
+     "headline": "東急・積水化学工業・オリックスが無担保社債を発行へ：利率は年2.052％から年3.262％（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-001-01",
+       "text": "無担保社債は、会社が担保を付けずに投資家からお金を借りるための債券で、決まった利率で利息を払い、期限が来たら元本を返す。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-02",
+       "text": "東急が11月27日に提出した書類によると、同社が新たに発行する無担保社債の総額は10,000百万円。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10000,
+         "unit": "百万円",
+         "label": "東急の無担保社債の総額"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "券面総額又は振替社債の総額(円)  金10,000百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKIS）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKIS）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-03",
+       "text": "東急のこの社債の利率は年2.456％。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.456,
+         "unit": "%",
+         "label": "東急の無担保社債の利率"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "利率(％)  年2.456％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKIS）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKIS）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-04",
+       "text": "積水化学工業は、返す期限の違う無担保社債を複数発行する。そのうち2年で返す社債の総額は20,000,000,000円。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20000000000,
+         "unit": "円",
+         "label": "積水化学工業の2年債の総額"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "券面総額又は振替社債の総額（円）  金20,000,000,000円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKEP）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKEP）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-05",
+       "text": "積水化学工業の2年で返す社債の利率は2.052％。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.052,
+         "unit": "%",
+         "label": "積水化学工業の2年債の利率"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "利率（％）  2.052％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKEP）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKEP）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-06",
+       "text": "積水化学工業の5年で返す社債の総額は30,000,000,000円。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 30000000000,
+         "unit": "円",
+         "label": "積水化学工業の5年債の総額"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "券面総額又は振替社債の総額（円）  金30,000,000,000円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKEP）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKEP）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-07",
+       "text": "積水化学工業の5年で返す社債の利率は2.466％。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.466,
+         "unit": "%",
+         "label": "積水化学工業の5年債の利率"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "利率（％）  2.466％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKEP）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKEP）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-08",
+       "text": "積水化学工業の7年で返す社債の総額は10,000,000,000円。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10000000000,
+         "unit": "円",
+         "label": "積水化学工業の7年債の総額"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "券面総額又は振替社債の総額（円）  金10,000,000,000円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKEP）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKEP）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-09",
+       "text": "積水化学工業の7年で返す社債の利率は2.790％。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 2.79,
+         "unit": "%",
+         "label": "積水化学工業の7年債の利率"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "利率（％）  2.790％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKEP）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKEP）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-10",
+       "text": "オリックスが同じ日に提出した書類によると、同社が新たに発行する無担保社債の総額は10,000,000,000円。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10000000000,
+         "unit": "円",
+         "label": "オリックスの無担保社債の総額"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "券面総額又は振替社債の総額(円)  金10,000,000,000円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK85）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK85）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-11",
+       "text": "オリックスのこの社債の利率は年3.262％。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 3.262,
+         "unit": "%",
+         "label": "オリックスの無担保社債の利率"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "利率(％)  年3.262％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK85）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK85）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-001-12",
+       "text": "一般に、返す期限が長い社債ほど、投資家はお金を長く預けることになるため、利率は高めに決まりやすい。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-28-001-1",
+       "text": "大手企業が年2％台から3％台の利率で社債を出す状況が続けば、社債を買う側の生命保険会社や銀行などにとって、国内の社債が運用先として選ばれやすくなる可能性がある。",
+       "falsifier": "12月以降に大手企業が出す5年程度の社債の利率が年2％を下回る水準まで下がれば、この見方は弱まる。",
+       "check_metric": "EDINETに提出される発行登録追補書類に書かれた社債の利率",
+       "check_by": "2027-01-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "change",
+   "title": "新しい変化",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-28-002",
+     "event_id": "EVT-2026-11-28-002",
+     "headline": "スズデンの主要株主が異動：株式会社トレンドの議決権の割合が11.22％から8.89％に（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-002-01",
+       "text": "主要株主とは、会社の総株主の議決権の10％以上を持つ株主のことで、主要株主が変わると、会社は臨時報告書を出す決まりになっている。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-02",
+       "text": "スズデンが11月27日に提出した臨時報告書によると、主要株主でなくなる株式会社トレンドの異動前の議決権は14,460個で、総株主等の議決権に対する割合は11.22％だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 14460,
+         "unit": "個",
+         "label": "株式会社トレンドの異動前の議決権の数"
+        },
+        {
+         "value": 11.22,
+         "unit": "%",
+         "label": "株式会社トレンドの異動前の議決権の割合"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "異動前  14,460個  11.22％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKO9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKO9）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-03",
+       "text": "異動後の議決権は11,460個、割合は8.89％となった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 11460,
+         "unit": "個",
+         "label": "株式会社トレンドの異動後の議決権の数"
+        },
+        {
+         "value": 8.89,
+         "unit": "%",
+         "label": "株式会社トレンドの異動後の議決権の割合"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "異動後  11,460個  8.89％",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKO9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKO9）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-04",
+       "text": "割合の計算の分母は、9月30日現在の総株主の議決権の数である128,859個。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 128859,
+         "unit": "個",
+         "label": "総株主の議決権の数（分母）"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "2026年９月30日現在の総株主の議決権数（128,859個）を分母として計算しております",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKO9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKO9）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-002-05",
+       "text": "スズデンの報告書の提出日現在の発行済株式総数は、普通株式13,282,000株。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 13282000,
+         "unit": "株",
+         "label": "スズデンの発行済株式総数"
+        }
+       ],
+       "source_ref": "SRC-008",
+       "excerpt": "本報告書提出日現在の発行済株式総数普通株式　　13,282,000株",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKO9）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKO9）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-28-002-1",
+       "text": "大株主が持ち株を減らす届け出が続けば、市場で自由に売り買いされる株の割合が上がる会社が増える可能性がある。",
+       "falsifier": "同じような臨時報告書のうち、持ち株を減らした株主が別の大株主に株をまとめて譲った例が多ければ、自由に売り買いされる株の割合は変わらず、この見方は成り立たない。",
+       "check_metric": "EDINETの臨時報告書（主要株主の異動）と、その後の大量保有報告書",
+       "check_by": "2027-02-26"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    },
+    {
+     "article_id": "ART-2026-11-28-003",
+     "event_id": "EVT-2026-11-28-003",
+     "headline": "日創グループ、定時株主総会で1株42円の期末配当を決議：配当の総額は269,672,088円（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-003-01",
+       "text": "日創グループが11月27日に提出した臨時報告書によると、11月26日の定時株主総会で、普通株式1株につき42円の配当を決めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 42,
+         "unit": "円",
+         "label": "1株あたりの配当"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "当社普通株式１株につき42円（普通配当42円）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKOS）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKOS）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-02",
+       "text": "日創グループの配当の総額は269,672,088円。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 269672088,
+         "unit": "円",
+         "label": "配当の総額"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "配当総額　269,672,088円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKOS）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKOS）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-003-03",
+       "text": "この配当の議案は、賛成44,217個、反対271個、賛成割合98.99％で可決された。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 44217,
+         "unit": "個",
+         "label": "賛成の議決権の数"
+        },
+        {
+         "value": 271,
+         "unit": "個",
+         "label": "反対の議決権の数"
+        },
+        {
+         "value": 98.99,
+         "unit": "%",
+         "label": "賛成割合"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "第１号議案　剰余金処分の件  44,217  271  0  （注）１  可決（98.99％）",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKOS）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKOS）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "ripple",
+   "title": "波及を追う",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-28-004",
+     "event_id": "EVT-2026-11-28-001",
+     "headline": "波及を追う：社債で集めたお金は短い借入れの返済に──東急は9,940百万円をコマーシャル・ペーパーの償還に（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-004-01",
+       "text": "コマーシャル・ペーパーは、会社が短い期間だけお金を借りるために発行する証券である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-02",
+       "text": "東急は、今回の社債の差引手取概算額9,940百万円を、全額、12月30日までに償還期日が来るコマーシャル・ペーパーの償還に充てる予定。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9940,
+         "unit": "百万円",
+         "label": "東急の差引手取概算額"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "上記差引手取概算額9,940百万円については、全額を2026年12月30日までに償還期日が到来するコマーシャル・ペーパーの償還資金に充当する予定であります。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKIS）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKIS）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-03",
+       "text": "オリックスは、差引手取概算額9,953百万円を、2027年3月末までに、全額、社債（短期社債を含む）の償還と借入金の返済に充てる予定。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 9953,
+         "unit": "百万円",
+         "label": "オリックスの差引手取概算額"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "上記の社債発行差引手取概算額9,953百万円は、2027年３月末までに、全額を社債(短期社債含む)償還資金及び借入金の返済資金に充当する予定であります。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK85）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK85）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-04",
+       "text": "積水化学工業は、差引手取概算額59,812百万円のうち40,000百万円を、2027年3月末までに短期社債の償還と短期借入金の返済に充てる予定。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 59812,
+         "unit": "百万円",
+         "label": "積水化学工業の差引手取概算額"
+        },
+        {
+         "value": 40000,
+         "unit": "百万円",
+         "label": "短期社債の償還と短期借入金の返済に充てる額"
+        }
+       ],
+       "source_ref": "SRC-002",
+       "excerpt": "上記の差引手取概算額59,812百万円は、2027年３月末までに40,000百万円を短期社債の償還資金及び短期借入金の返済資金に",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKEP）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKEP）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-05",
+       "text": "発行登録は、あらかじめ社債の発行予定額を届け出ておき、その枠の中で必要なときに社債を出せる仕組みである。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-06",
+       "text": "東急が今の発行登録の枠で出した社債の実績合計額は58,000百万円。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 58000,
+         "unit": "百万円",
+         "label": "東急の発行登録の実績合計額"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "実績合計額(円)  58,000百万円(58,000百万円)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKIS）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKIS）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-07",
+       "text": "東急の発行予定額の残額は242,000百万円。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 242000,
+         "unit": "百万円",
+         "label": "東急の発行予定額の残額"
+        }
+       ],
+       "source_ref": "SRC-001",
+       "excerpt": "【残額】  (発行予定額－実績合計額－減額総額)  242,000百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKIS）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKIS）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-08",
+       "text": "オリックスの発行登録の実績合計額は69,000百万円。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 69000,
+         "unit": "百万円",
+         "label": "オリックスの発行登録の実績合計額"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "実績合計額(円)  69,000百万円(69,000百万円)",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK85）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK85）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-004-09",
+       "text": "オリックスの発行予定額の残額は431,000百万円。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 431000,
+         "unit": "百万円",
+         "label": "オリックスの発行予定額の残額"
+        }
+       ],
+       "source_ref": "SRC-003",
+       "excerpt": "【残額】  (発行予定額－実績合計額－減額総額)  431,000百万円",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK85）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZK85）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-28-004-1",
+       "text": "大手企業が短い期間の借入れを、期限の長い社債に置き換える動きが続けば、短期社債（コマーシャル・ペーパー）の発行残高が伸び悩む可能性がある。",
+       "falsifier": "12月以降の短期社債の発行残高が前の月より増え続ければ、この見方は成り立たない。",
+       "check_metric": "証券保管振替機構が公表する短期社債の発行残高",
+       "check_by": "2027-01-31"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  },
+  {
+   "section_id": "deep",
+   "title": "深掘り",
+   "articles": [
+    {
+     "article_id": "ART-2026-11-28-005",
+     "event_id": "EVT-2026-11-28-004",
+     "headline": "深掘り：役員の報酬の上限を株主総会で決める──ＫＯＭＰＥＩＴＯは取締役の金銭報酬を年額300,000千円以内に、ココナラは社外取締役分を年額30,000千円以内に（法定書類から）",
+     "lines": [
+      {
+       "line_id": "L-005-01",
+       "text": "会社が取締役や監査役に払う報酬の総額の上限は、定款に書かない場合、株主総会の決議で決める。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-02",
+       "text": "ＫＯＭＰＥＩＴＯが11月27日に提出した臨時報告書によると、11月26日の定時株主総会で、取締役の金銭報酬額を年額300,000千円以内に改め、そのうち社外取締役の分は年額50,000千円以内とした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 300000,
+         "unit": "千円",
+         "label": "取締役の金銭報酬額の上限"
+        },
+        {
+         "value": 50000,
+         "unit": "千円",
+         "label": "社外取締役分の報酬額の上限"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "取締役の金銭報酬額を年額300,000千円以内（うち社外取締役４名分の報酬額は年額50,000千円以内）に改定する",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKF3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKF3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-03",
+       "text": "ＫＯＭＰＥＩＴＯは同じ総会で、監査役の金銭報酬額を年額50,000千円以内に改めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 50000,
+         "unit": "千円",
+         "label": "監査役の金銭報酬額の上限"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "監査役３名の金銭報酬額を年額50,000千円以内に改定する",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKF3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKF3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-04",
+       "text": "ＫＯＭＰＥＩＴＯは社外取締役を除く取締役に譲渡制限付株式を渡す制度を導入し、そのための金銭報酬債権の総額を年額100,000千円以内、株式の数を年間100,000株以内とした。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 100000,
+         "unit": "千円",
+         "label": "金銭報酬債権の総額の上限"
+        },
+        {
+         "value": 100000,
+         "unit": "株",
+         "label": "株式の数の上限"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "支給する金銭報酬債権の総額を年額100,000千円以内、発行又は処分する普通株式総数を年間100,000株以内とする",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKF3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKF3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-05",
+       "text": "ＫＯＭＰＥＩＴＯの取締役の報酬額の議案は、賛成95,374個、賛成割合100.00％で可決された。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 95374,
+         "unit": "個",
+         "label": "賛成の議決権の数"
+        },
+        {
+         "value": 100.0,
+         "unit": "%",
+         "label": "賛成割合"
+        }
+       ],
+       "source_ref": "SRC-006",
+       "excerpt": "第２号議案取締役の報酬額改定の件  95,374  0  0  （注）１  可決  100.00",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKF3）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKF3）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-06",
+       "text": "譲渡制限付株式は、決められた期間は売ることができない条件を付けて、役員などに渡す株である。",
+       "claimed_mark": "explainer",
+       "numbers": [],
+       "source_ref": null,
+       "excerpt": null,
+       "attribution": null,
+       "processing_note": null,
+       "mark": "explainer",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-07",
+       "text": "ココナラは11月25日の定時株主総会で、取締役（監査等委員である取締役を除く）の報酬の上限の年額150,000千円は変えずに、そのうち社外取締役の分を年額30,000千円以内に改めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 150000,
+         "unit": "千円",
+         "label": "取締役の報酬額の上限"
+        },
+        {
+         "value": 30000,
+         "unit": "千円",
+         "label": "社外取締役分の報酬額の上限"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "報酬額の合計金額の上限（年額150,000千円以内）は変更せずに、そのうち社外取締役分のみを年額30,000千円以内に改定するものです。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKHV）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKHV）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-08",
+       "text": "ココナラのこれまでの社外取締役分の上限は、年額10,000千円以内だった。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 10000,
+         "unit": "千円",
+         "label": "これまでの社外取締役分の報酬額の上限"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "金銭報酬として年額150,000千円以内（うち社外取締役分は年額10,000千円以内）にて承認可決されています",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKHV）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKHV）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-09",
+       "text": "ココナラのこの議案は、賛成88,436個、反対4,846個、賛成割合93.64％で可決された。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 88436,
+         "unit": "個",
+         "label": "賛成の議決権の数"
+        },
+        {
+         "value": 4846,
+         "unit": "個",
+         "label": "反対の議決権の数"
+        },
+        {
+         "value": 93.64,
+         "unit": "%",
+         "label": "賛成割合"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "第３号議案 社外取締役（監査等委員である取締役を除く。）の報酬額改定の件  88,436  4,846  0  （注）１  可決　93.64%",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKHV）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKHV）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-10",
+       "text": "ココナラの譲渡制限付株式の報酬制度を改める議案は、賛成76,535個、反対16,747個、賛成割合81.04％で可決された。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 76535,
+         "unit": "個",
+         "label": "賛成の議決権の数"
+        },
+        {
+         "value": 16747,
+         "unit": "個",
+         "label": "反対の議決権の数"
+        },
+        {
+         "value": 81.04,
+         "unit": "%",
+         "label": "賛成割合"
+        }
+       ],
+       "source_ref": "SRC-005",
+       "excerpt": "譲渡制限付株式報酬制度改定の件  76,535  16,747  0  （注）１  可決　81.04%",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKHV）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKHV）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      },
+      {
+       "line_id": "L-005-11",
+       "text": "日創グループは11月26日の定時株主総会で、監査役の報酬額を年額20百万円以内から年額50百万円以内に改めた。",
+       "claimed_mark": "source_number_match",
+       "numbers": [
+        {
+         "value": 20,
+         "unit": "百万円",
+         "label": "これまでの監査役の報酬額の上限"
+        },
+        {
+         "value": 50,
+         "unit": "百万円",
+         "label": "改定後の監査役の報酬額の上限"
+        }
+       ],
+       "source_ref": "SRC-007",
+       "excerpt": "監査役の報酬額を年額20百万円以内から年額50百万円以内と改めるものであります。",
+       "attribution": "出典：EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKOS）、PDL1.0（https://www.digital.go.jp/resources/open_data/public_data_license_v1.0）",
+       "processing_note": "EDINET閲覧（提出）サイト（https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100ZKOS）をもとに本サイト作成",
+       "mark": "source_number_match",
+       "mark_reason": null
+      }
+     ],
+     "inferences": [
+      {
+       "inference_id": "INF-2026-11-28-005-1",
+       "text": "社外取締役の報酬の上限を引き上げる議案が株主総会で続けば、社外取締役の人数を増やしたり役割を広げたりする会社が増えている可能性がある。",
+       "falsifier": "来年の株主総会の時期に、社外取締役の報酬の上限を引き上げる議案が前の年より少なければ、この見方は成り立たない。",
+       "check_metric": "EDINETの臨時報告書（株主総会の決議結果）に書かれた報酬額の改定の議案の数",
+       "check_by": "2027-07-30"
+      }
+     ],
+     "followup": {
+      "is_followup": false,
+      "first_seen": null,
+      "first_seen_edition_id": null,
+      "has_new_source": null
+     }
+    }
+   ]
+  }
+ ],
+ "baseline_late": false,
+ "verification": {
+  "script_version": "2.0.0",
+  "run_at": "2026-11-28T17:13:22.888167+09:00",
+  "first_run": {
+   "run_at": "2026-11-28T17:13:22.888167+09:00",
+   "baseline_late": false,
+   "market_open_reported": null,
+   "source_policy_overwritten": 9,
+   "generated_at_reported": null,
+   "generated_at_parsed": false,
+   "generated_at_drift_minutes": null,
+   "hypotheses_generated_at_reported": null,
+   "hypotheses_generated_at_parsed": false,
+   "hypotheses_generated_at_drift_minutes": null
+  },
+  "lines_total": 40,
+  "passed": 33,
+  "unverified": 0,
+  "reported_unverified": 0,
+  "explainer": 7,
+  "recommendation_stop_hits": 0,
+  "recommendation_stop_removed": 0,
+  "recommendation_warn_hits": 1,
+  "recommendation_warnings": [
+   {
+    "line_id": "L-005-06",
+    "word": "株式(周辺15文字以内に買/売)"
+   }
+  ],
+  "stale_source_hits": 0,
+  "stale_source_hits_by_kind": {
+   "timed": 0,
+   "date_only": 0
+  },
+  "unknown_published_at_hits": 0,
+  "stale_check_skipped": 0,
+  "inference_dropped": 0,
+  "inference_company_name_removed": {
+   "count": 0,
+   "removed": []
+  },
+  "inference_company_name_check_skipped": false,
+  "hypothesis_violations": 0,
+  "unverified_reasons": {},
+  "ticker_crosscheck": "applied",
+  "edinet_doclist_partial": [],
+  "edinet_published_at_overwritten": 9,
+  "edinet_other_url_hits": 0,
+  "edinet_doc_files": {
+   "SRC-001": {
+    "files": [
+     "XBRL/PublicDoc/0100000_honbun_jpcrp120000-rep-001_E04090-000_2026-11-27_01_2026-11-27_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp120000-rep-001_E04090-000_2026-11-27_01_2026-11-27_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-002": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp120000-rep-001_E00820-000_2026-11-27_01_2026-11-27_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp120000-rep-001_E00820-000_2026-11-27_01_2026-11-27_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-003": {
+    "files": [
+     "XBRL/PublicDoc/0100000_honbun_jpcrp120000-rep-001_E04762-000_2026-11-27_01_2026-11-27_ixbrl.htm",
+     "XBRL/PublicDoc/0200000_honbun_jpcrp120000-rep-001_E04762-000_2026-11-27_01_2026-11-27_ixbrl.htm",
+     "XBRL/PublicDoc/0300000_honbun_jpcrp120000-rep-001_E04762-000_2026-11-27_01_2026-11-27_ixbrl.htm",
+     "XBRL/PublicDoc/0400000_honbun_jpcrp120000-rep-001_E04762-000_2026-11-27_01_2026-11-27_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp120000-rep-001_E04762-000_2026-11-27_01_2026-11-27_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-005": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E36351-000_2026-11-27_01_2026-11-27_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E36351-000_2026-11-27_01_2026-11-27_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-006": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E42057-000_2026-11-27_01_2026-11-27_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E42057-000_2026-11-27_01_2026-11-27_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-007": {
+    "files": [
+     "XBRL/PublicDoc/0100010_honbun_jpcrp050300-esr-001_E02493-000_2026-11-27_01_2026-11-27_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E02493-000_2026-11-27_01_2026-11-27_ixbrl.htm"
+    ],
+    "fallback": false
+   },
+   "SRC-008": {
+    "files": [
+     "XBRL/PublicDoc/0101010_honbun_jpcrp050300-esr-001_E02838-000_2026-11-26_01_2026-11-26_ixbrl.htm",
+     "XBRL/PublicDoc/0000000_header_jpcrp050300-esr-001_E02838-000_2026-11-26_01_2026-11-26_ixbrl.htm"
+    ],
+    "fallback": false
+   }
+  },
+  "edinet_view_url_count": 9,
+  "attribution_overwritten": 42,
+  "attribution_generation_skipped": 0,
+  "baseline_late": false,
+  "slot_expected": "evening",
+  "slot_mismatch": false,
+  "source_usage_invalid_hits": 0,
+  "source_policy_applied": true,
+  "source_policy_overwritten": 9,
+  "source_policy_unlisted_domains": [],
+  "market_open_source": "calendar",
+  "market_open_overwritten": true,
+  "market_open_reported": null,
+  "codelist_unavailable": false,
+  "baseline_date_check_skipped": 0,
+  "evidence_filer_name_overridden": 0,
+  "evidence_doc_type_overridden": 0,
+  "impact_kind_overridden": 0,
+  "impact_kind_source_counts": {},
+  "impact_kind_undetermined_by_doc_type": {},
+  "edinet_url_unparsed": 0,
+  "edinet_doclist_unavailable": false,
+  "horizon_overridden": 0,
+  "deadline_uncomputable": 0,
+  "horizon_recount_mismatch": 0,
+  "horizon_recount_skipped": 0,
+  "tob_side_subject_code_missing": 0,
+  "check11_removed": [],
+  "name_match_stage": {
+   "raw": 0,
+   "nfkc": 0,
+   "match_name": 0
+  },
+  "check11_longer_name_check_skipped": 0,
+  "check37_removed": [],
+  "check37_line_ids_trimmed": [],
+  "primary_line_ids_trimmed": [],
+  "corrections_removed": 0,
+  "deprecated_keys_removed": {
+   "direction": 0,
+   "evidence_excerpt": 0,
+   "falsifier": 0
+  },
+  "field_type_invalid_removed": [],
+  "industry_pick_field_type_invalid_removed": [],
+  "published_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_timed_date_not_found": {
+   "count": 0,
+   "source_ids": [],
+   "reasons": {},
+   "dropped_line_ids": []
+  },
+  "published_at_unverified_hits": 0,
+  "published_at_unverified_sources": [],
+  "sources_published_at_null": {
+   "count": 0,
+   "source_ids": []
+  },
+  "number_coverage": {
+   "text_number_tokens": 79,
+   "numbers_declared": 47,
+   "gap": 32,
+   "by_mark": {
+    "explainer": {
+     "text_number_tokens": 1,
+     "numbers_declared": 0
+    },
+    "source_number_match": {
+     "text_number_tokens": 78,
+     "numbers_declared": 47
+    }
+   }
+  },
+  "rerun_detected": false,
+  "date_only_number_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "self_declared_unverified": {
+   "count": 0,
+   "line_ids": []
+  },
+  "banned_word_hits": [
+   {
+    "word": "主要",
+    "location": "headline",
+    "id": "ART-2026-11-28-002"
+   },
+   {
+    "word": "主要",
+    "location": "line_text",
+    "id": "L-002-01"
+   },
+   {
+    "word": "主要",
+    "location": "line_text",
+    "id": "L-002-02"
+   }
+  ],
+  "speculative_word_counts": {
+   "relation_text": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   },
+   "impact_reason": {
+    "恩恵": 0,
+    "見込まれる": 0,
+    "意識される": 0,
+    "なりやすい": 0
+   }
+  },
+  "change_verified_lines_by_section": {
+   "big": 10,
+   "change": 7,
+   "ripple": 7,
+   "deep": 9
+  },
+  "recent_headlines_failed": false,
+  "published_date_only_sources": {
+   "count": 2,
+   "source_ids": [
+    "SRC-EDINET-LIST",
+    "SRC-EDINET-LIST-PREV"
+   ]
+  },
+  "empty_title_or_url_refs": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_without_source": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_spans_lines": {
+   "count": 0,
+   "line_ids": []
+  },
+  "excerpt_line_check_skipped": {
+   "count": 0,
+   "source_ids": []
+  },
+  "excerpt_check_log": {
+   "status": "ok",
+   "problems": {
+    "unreadable_lines": 0,
+    "other_edition_lines": 0
+   },
+   "run_count": 2,
+   "first_run_at": "2026-11-28T17:13:10.273776+09:00",
+   "last_run_at": "2026-11-28T17:13:19.591890+09:00",
+   "edited_after_last_check": false,
+   "removed_line_ids": [],
+   "added_line_ids": [],
+   "changed_marks": [],
+   "numbers_removed": [],
+   "last_counts": {
+    "ok": 33,
+    "spans_lines": 0,
+    "excerpt_not_found": 0,
+    "number_missing": 0,
+    "skipped": 0,
+    "body_check_failed": 0,
+    "reported_source_not_snippet": 0
+   },
+   "last_exit_code": 0
+  },
+  "upper_trading_between": [],
+  "unregistered_numbers": {
+   "lines_with_unregistered": 1,
+   "total_unregistered": 1,
+   "excluded_date_time_tokens": 30,
+   "lines": [
+    {
+     "line_id": "L-003-01",
+     "values": [
+      "1"
+     ]
+    }
+   ]
+  },
+  "short_excerpts": {
+   "threshold": 3,
+   "count": 5,
+   "zero_letter_count": 0,
+   "lines": [
+    {
+     "line_id": "L-001-03",
+     "letters": 3
+    },
+    {
+     "line_id": "L-001-05",
+     "letters": 2
+    },
+    {
+     "line_id": "L-001-07",
+     "letters": 2
+    },
+    {
+     "line_id": "L-001-09",
+     "letters": 2
+    },
+    {
+     "line_id": "L-001-11",
+     "letters": 3
+    }
+   ]
+  },
+  "reported_name_in_snippet": [],
+  "relation_text_role_mismatch": [],
+  "industry_picks_not_shown": [],
+  "industries_shown_status": "market_closed",
+  "source_body_check": {
+   "machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "not_machine_saved": {
+    "count": 0,
+    "source_ids": []
+   },
+   "reconvert_mismatch": {
+    "count": 0,
+    "source_ids": [],
+    "details": []
+   },
+   "reconvert_skipped": {
+    "count": 0,
+    "source_ids": []
+   }
+  },
+  "source_body_downgraded": {
+   "count": 0,
+   "line_ids": [],
+   "by_reason": {}
+  },
+  "reported_source_not_snippet": {
+   "count": 0,
+   "line_ids": []
+  },
+  "reported_relation_text_mismatch": {
+   "count": 0,
+   "hypothesis_ids": []
+  },
+  "recent_editions_index_unavailable": false,
+  "recent_editions_unreadable": [],
+  "cross_edition_duplicates": {
+   "count": 0,
+   "duplicates": []
+  },
+  "followup_counts": {
+   "followup": 0,
+   "not_followup": 5
+  },
+  "followup_without_new_source": {
+   "count": 0,
+   "article_ids": []
+  },
+  "url_normalized_matches": {
+   "count": 0,
+   "matches": []
+  },
+  "followup_headline_mismatch": {
+   "count": 0,
+   "articles": []
+  },
+  "industry_picks_discarded": 0,
+  "legacy_substring_rule_dropped": {
+   "count": 0,
+   "names": []
+  },
+  "generic_name_dropped": {
+   "count": 0,
+   "names": []
+  }
+ }
+}
